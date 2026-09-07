@@ -9,6 +9,7 @@ import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/iap_packages_response.dart';
 import '../../../data/services/iap_catalog_service.dart';
 import '../../../data/services/iap_purchase_service.dart';
+import '../../widgets/purchase_legal_links.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class SalePackageScreen extends ConsumerStatefulWidget {
@@ -27,6 +28,8 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
     final catalog = catalogState.valueOrNull;
     final package = catalog?.salePackages.firstOrNull;
     final regularPackage = _findRegularPackage(catalog, package);
+    final showNormalizedPrice =
+        ref.watch(reviewModeProvider).valueOrNull == true;
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
@@ -58,6 +61,7 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
                         catalog,
                         package,
                         regularPackage,
+                        showNormalizedPrice,
                       ),
                     ),
                   ],
@@ -75,6 +79,7 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
     IapCatalog? catalog,
     IapPackage? package,
     IapPackage? regularPackage,
+    bool showNormalizedPrice,
   ) {
     if (package == null && catalogState.isLoading) {
       return const Padding(
@@ -103,7 +108,9 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
           currentPrice: currentPrice ?? context.l10n.text('skillPackLoading'),
           originalPrice: originalPrice,
           saving: saving,
-          monthlyPrice: _monthlyPriceLabel(context, saleProduct, package),
+          monthlyPrice: showNormalizedPrice
+              ? _monthlyPriceLabel(context, saleProduct, package)
+              : null,
         ),
         const SizedBox(height: 16),
         const _BenefitsCard(),
@@ -148,6 +155,8 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
           label: context.l10n.text('saleStartTrial'),
           onTap: _buy,
         ),
+        const SizedBox(height: 10),
+        const PurchaseLegalLinks(),
         // Temporarily hide the "Later" action.
         /*
         const SizedBox(height: 11),
@@ -516,6 +525,7 @@ class _SalePlanCard extends StatelessWidget {
                           'saleApproxMonthly',
                           values: {'price': monthlyPrice},
                         ),
+                        key: const ValueKey('subscription-normalized-price'),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(

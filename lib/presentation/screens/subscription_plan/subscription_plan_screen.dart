@@ -9,6 +9,7 @@ import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/iap_packages_response.dart';
 import '../../../data/services/iap_catalog_service.dart';
 import '../../../data/services/iap_purchase_service.dart';
+import '../../widgets/purchase_legal_links.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class SubscriptionPlanScreen extends ConsumerStatefulWidget {
@@ -30,6 +31,7 @@ class _SubscriptionPlanScreenState
     final catalog = catalogState.valueOrNull;
     final packages = catalog?.subscriptionPackages ?? const <IapPackage>[];
     final selectedPackage = _selectedPackage(packages, catalog);
+    final showWeeklyPrices = ref.watch(reviewModeProvider).valueOrNull == true;
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
@@ -62,6 +64,7 @@ class _SubscriptionPlanScreenState
                         catalog,
                         packages,
                         selectedPackage,
+                        showWeeklyPrices,
                       ),
                     ),
                   ],
@@ -80,6 +83,7 @@ class _SubscriptionPlanScreenState
     IapCatalog? catalog,
     List<IapPackage> packages,
     IapPackage? selectedPackage,
+    bool showWeeklyPrices,
   ) {
     if (packages.isEmpty && catalogState.isLoading) {
       return const Padding(
@@ -106,6 +110,7 @@ class _SubscriptionPlanScreenState
           catalog: catalog,
           selectedPackage: package,
           featuredPackage: featuredPackage,
+          showWeeklyPrices: showWeeklyPrices,
         ),
         const SizedBox(height: 16),
         const _SubscriptionBenefitsCard(),
@@ -149,6 +154,8 @@ class _SubscriptionPlanScreenState
           enabled: selectedProduct != null && currentPrice != null,
           onTap: _startSubscription,
         ),
+        const SizedBox(height: 10),
+        const PurchaseLegalLinks(),
         // Temporarily hide the standalone "Free trial only" action.
         /*
         const SizedBox(height: 11),
@@ -183,6 +190,7 @@ class _SubscriptionPlanScreenState
     required IapCatalog? catalog,
     required IapPackage selectedPackage,
     required IapPackage? featuredPackage,
+    required bool showWeeklyPrices,
   }) {
     final children = <Widget>[];
     for (var index = 0; index < packages.length; index++) {
@@ -202,6 +210,7 @@ class _SubscriptionPlanScreenState
           product: catalog?.productFor(plan),
           selected: plan.productId == selectedPackage.productId,
           featured: isFeatured,
+          showWeeklyPrice: showWeeklyPrices,
           topSpacing: isFeatured || previousIsFeatured ? 16 : 5,
           onTap: () => setState(() => _selectedProductId = plan.productId),
         ),
@@ -400,6 +409,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
     required this.product,
     required this.selected,
     required this.featured,
+    required this.showWeeklyPrice,
     required this.topSpacing,
     required this.onTap,
   });
@@ -408,13 +418,16 @@ class _SubscriptionPlanCard extends StatelessWidget {
   final ProductDetails? product;
   final bool selected;
   final bool featured;
+  final bool showWeeklyPrice;
   final double topSpacing;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
     final currentPrice = _displayPrice(product);
-    final weeklyPrice = _weeklyPrice(context, product, package);
+    final weeklyPrice = showWeeklyPrice
+        ? _weeklyPrice(context, product, package)
+        : null;
     final originalPrice = featured
         ? _formatStorePrice(context, product, multiplier: 2.27)
         : null;
@@ -533,6 +546,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                               ),
                             ],
                           ),
+                          key: const ValueKey('subscription-weekly-price'),
                           textAlign: TextAlign.center,
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,

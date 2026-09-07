@@ -19,7 +19,10 @@ void main() {
 
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [iapCatalogProvider.overrideWith((ref) async => _catalog)],
+        overrides: [
+          iapCatalogProvider.overrideWith((ref) async => _catalog),
+          reviewModeProvider.overrideWith((ref) async => false),
+        ],
         child: MaterialApp(
           locale: const Locale('vi'),
           supportedLocales: AppLocalizations.supportedLocales,
@@ -40,7 +43,13 @@ void main() {
     expect(find.text('Gói Pro năm'), findsOneWidget);
     expect(find.text(r'$29.99'), findsOneWidget);
     expect(find.text(r'$49.99'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('subscription-normalized-price')),
+      findsNothing,
+    );
     expect(find.text('7 ngày dùng thử miễn phí'), findsOneWidget);
+    expect(find.byKey(const ValueKey('subscription-terms')), findsOneWidget);
+    expect(find.byKey(const ValueKey('subscription-privacy')), findsOneWidget);
     expect(find.byKey(const ValueKey('sale-package-back')), findsNothing);
     expect(tester.takeException(), isNull);
   });
@@ -53,7 +62,10 @@ void main() {
 
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [iapCatalogProvider.overrideWith((ref) async => _catalog)],
+        overrides: [
+          iapCatalogProvider.overrideWith((ref) async => _catalog),
+          reviewModeProvider.overrideWith((ref) async => false),
+        ],
         child: MaterialApp(
           locale: const Locale('vi'),
           supportedLocales: AppLocalizations.supportedLocales,

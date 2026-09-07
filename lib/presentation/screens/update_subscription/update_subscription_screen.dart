@@ -9,6 +9,7 @@ import '../../../data/models/iap_packages_response.dart';
 import '../../../data/models/user_profile_response.dart';
 import '../../../data/services/iap_catalog_service.dart';
 import '../../../data/services/iap_purchase_service.dart';
+import '../../widgets/purchase_legal_links.dart';
 import '../../../shared/providers/app_providers.dart';
 
 /// The account subscription is deliberately resolved separately from the IAP
@@ -187,6 +188,7 @@ class _UpdateSubscriptionScreenState
     );
     final recommended = _recommendedPackage(visiblePackages, current);
     final selected = _selectedPackage(visiblePackages, recommended, current);
+    final showWeeklyPrices = ref.watch(reviewModeProvider).valueOrNull == true;
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
@@ -221,6 +223,7 @@ class _UpdateSubscriptionScreenState
                         current,
                         recommended,
                         selected,
+                        showWeeklyPrices,
                       ),
                     ),
                   ],
@@ -269,6 +272,7 @@ class _UpdateSubscriptionScreenState
     IapPackage? current,
     IapPackage? recommended,
     IapPackage? selected,
+    bool showWeeklyPrices,
   ) {
     if (packages.isEmpty && catalogState.isLoading) {
       return const Padding(
@@ -305,6 +309,7 @@ class _UpdateSubscriptionScreenState
             selected: package.productId == selected?.productId,
             recommended: package.productId == recommended?.productId,
             current: current,
+            showWeeklyPrice: showWeeklyPrices,
             onTap: () => setState(() => _selectedProductId = package.productId),
           ),
           if (package != packages.last) const SizedBox(height: 14),
@@ -360,6 +365,8 @@ class _UpdateSubscriptionScreenState
             ),
           ),
         ),
+        const SizedBox(height: 10),
+        const PurchaseLegalLinks(),
       ],
     );
   }
@@ -713,6 +720,7 @@ class _UpgradePackageCard extends StatelessWidget {
     required this.selected,
     required this.recommended,
     required this.current,
+    required this.showWeeklyPrice,
     required this.onTap,
   });
 
@@ -721,6 +729,7 @@ class _UpgradePackageCard extends StatelessWidget {
   final bool selected;
   final bool recommended;
   final IapPackage? current;
+  final bool showWeeklyPrice;
   final VoidCallback onTap;
 
   @override
@@ -812,7 +821,8 @@ class _UpgradePackageCard extends StatelessWidget {
                               ),
                             ],
                           ),
-                          if (_weeklyPrice(context, product, package) != null)
+                          if (showWeeklyPrice &&
+                              _weeklyPrice(context, product, package) != null)
                             Text.rich(
                               TextSpan(
                                 text:
@@ -828,6 +838,7 @@ class _UpgradePackageCard extends StatelessWidget {
                                   ),
                                 ],
                               ),
+                              key: const ValueKey('subscription-weekly-price'),
                             ),
                         ],
                         if (current != null) ...[

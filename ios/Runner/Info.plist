@@ -26,6 +26,8 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
+	<false/>
 	<key>NSCameraUsageDescription</key>
 	<string>Leximon cần quyền camera để bạn chụp ảnh đại diện.</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -33,7 +35,7 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Leximon cần quyền truy cập thư viện ảnh để bạn chọn ảnh đại diện.</string>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>Leximon sử dụng thông tin này để đo lường hiệu quả quảng cáo và cải thiện trải nghiệm của bạn.</string>
+	<string>Leximon uses your device identifier to measure advertising performance and improve your experience.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Leximon cần quyền nhận dạng giọng nói để chấm phát âm.</string>
 	<key>UIApplicationSceneManifest</key>

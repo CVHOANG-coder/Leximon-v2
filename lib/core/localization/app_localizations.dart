@@ -255,8 +255,8 @@ class AppLocalizations {
       'navProgress': 'Progress',
       'navChallenges': 'Challenges',
       'navProfile': 'Profile',
-      'languageTitle': 'Choose your\nnative language',
-      'languageSubtitle': 'We will personalize your\nlearning journey for you.',
+      'languageTitle': 'Choose your native language',
+      'languageSubtitle': 'We will personalize your learning journey for you.',
       'languageSaveError': 'Could not save the language. Please try again.',
       'back': 'Back',
       'continue': 'Continue',
@@ -312,33 +312,32 @@ class AppLocalizations {
       'assessmentSkip': 'I know my level',
       'assessmentTitle': 'Take a short test',
       'assessmentSubtitle':
-          'We will assess your level to\nbuild the best learning path for you.',
+          'We will assess your level to build the best learning path for you.',
       'assessmentStart': 'Take the test',
       'assessmentBenefitLevel': 'You will discover your level',
       'assessmentBenefitVocabulary': 'Check your vocabulary',
       'assessmentBenefitAdapt': 'The app will adapt to your level',
       'levelSelectionTitle': 'Choose your English level',
       'levelSelectionSubtitle':
-          'Choose the right level so we can\nbuild the best learning path for you.',
+          'Choose the right level so we can build the best learning path for you.',
       'levelBeginnerDescription': 'I know a few words',
       'levelIntermediateDescription':
           'I know quite a lot and want to learn more',
       'levelAdvancedDescription': 'I want to learn challenging words',
-      'assessmentLevelTitle': 'Assess your current\nEnglish level',
+      'assessmentLevelTitle': 'Assess your current English level',
       'assessmentLevelSubtitle':
-          'Choose the right level so we can\nbuild the best learning path for you.',
-      'assessmentLevelNew':
-          'I have just started learning\nand know nothing yet',
+          'Choose the right level so we can build the best learning path for you.',
+      'assessmentLevelNew': 'I have just started learning and know nothing yet',
       'assessmentLevelBasic':
-          'I know some basic grammar\nand can say simple words\nand phrases',
+          'I know some basic grammar and can say simple words and phrases',
       'assessmentLevelConversational':
-          'I can have conversations, but\nI still make mistakes and\noften hesitate',
+          'I can have conversations, but I still make mistakes and often hesitate',
       'assessmentLevelFluent':
-          'I speak fluently, read books,\nand watch movies\nin English',
+          'I speak fluently, read books, and watch movies in English',
       'assessmentLevelStart': 'Start the test',
-      'surveyIntroTitle': 'Let’s take a\nshort survey!',
+      'surveyIntroTitle': 'Let’s take a short survey!',
       'surveyIntroSubtitle':
-          'Based on your answers, Leximon will\nchoose the best learning method for you.',
+          'Based on your answers, Leximon will choose the best learning method for you.',
       'freeTrialGift': 'We are giving you',
       'freeTrialDuration': '7 days free',
       'freeTrialPurpose': 'to try our app',
@@ -350,7 +349,7 @@ class AppLocalizations {
       'trialReminderPushDate': 'A push notification will be sent on {date}',
       'subscriptionCompleteError': 'Could not finish setup. Please try again.',
       'subscriptionHeadlineSubtitle':
-          'your English will become a reliable tool\nat work',
+          'your English will become a reliable tool at work',
       'subscriptionLoadingPlans': 'Loading subscription plans…',
       'subscriptionLoadError': 'Could not load subscription plan details.',
       'subscriptionStorePriceUnavailable': 'App Store price unavailable',
@@ -363,11 +362,11 @@ class AppLocalizations {
       'subscriptionDays': '{count} days',
       'subscriptionIn': 'In ',
       'subscriptionDaySuffix': ' days',
-      'subscriptionStart': 'Start free trial\nand subscribe',
+      'subscriptionStart': 'Start free trial and subscribe',
       'subscriptionTrialOnly': 'Free trial only',
-      'subscriptionBenefitUnlimited': 'Unlimited\nlearning',
-      'subscriptionBenefitQuality': 'High-quality\nlessons',
-      'subscriptionBenefitProgress': 'Clear progress\nevery day',
+      'subscriptionBenefitUnlimited': 'Unlimited learning',
+      'subscriptionBenefitQuality': 'High-quality lessons',
+      'subscriptionBenefitProgress': 'Clear progress every day',
       'subscriptionSavingPercent': 'Save {percent}%',
       'subscriptionRestore': 'Restore purchases',
       'subscriptionRestoreStarted': 'Restore request sent.',
@@ -397,9 +396,9 @@ class AppLocalizations {
       'saleApproxMonthly': 'Only about {price} / month',
       'saleSaveAmount': 'Save {amount}',
       'saleTrialDays': '{days}-day free trial',
-      'saleBenefitUnlock': 'Unlock all\nlessons',
+      'saleBenefitUnlock': 'Unlock all lessons',
       'saleBenefitNoAds': 'No ads',
-      'saleBenefitProgress': 'Progress\nevery day',
+      'saleBenefitProgress': 'Progress every day',
       'saleSecurePayment': 'Secure & safe payment',
       'saleChooseAfterTrial': 'Choose a plan after your {days}-day free trial',
       'saleStartTrial': 'Start free trial and subscribe',
@@ -409,10 +408,10 @@ class AppLocalizations {
       'salePurchaseError': 'Purchase could not be started.',
       'listeningPackTitle': 'Listening practice pack',
       'listeningPackDescription':
-          'Unlock all listening lessons\n— buy once, keep forever',
-      'listeningPackUnlock': 'Unlock all\nlistening lessons',
-      'listeningPackAnytime': 'Listen anytime,\nanywhere',
-      'listeningPackForever': 'Buy once,\nuse forever',
+          'Unlock all listening lessons — buy once, keep forever',
+      'listeningPackUnlock': 'Unlock all listening lessons',
+      'listeningPackAnytime': 'Listen anytime, anywhere',
+      'listeningPackForever': 'Buy once, use forever',
       'listeningPackOneTime': 'One-time purchase',
       'listeningPackSave': 'Save {amount} ({percent}%)',
       'listeningPackSecure': 'Secure & safe payment',
@@ -423,25 +422,25 @@ class AppLocalizations {
       'listeningPackPurchaseError': 'Purchase could not be started.',
       'skillPackListeningTitle': 'Listening practice pack',
       'skillPackListeningDescription':
-          'Unlock all listening lessons\n— buy once, keep forever',
-      'skillPackListeningUnlock': 'Unlock all\nlistening lessons',
-      'skillPackListeningBenefit': 'Listen anytime,\nanywhere',
+          'Unlock all listening lessons — buy once, keep forever',
+      'skillPackListeningUnlock': 'Unlock all listening lessons',
+      'skillPackListeningBenefit': 'Listen anytime, anywhere',
       'skillPackSpeakingTitle': 'Speaking practice pack',
       'skillPackSpeakingDescription':
-          'Unlock all speaking lessons\n— buy once, keep forever',
-      'skillPackSpeakingUnlock': 'Unlock all\nspeaking lessons',
-      'skillPackSpeakingBenefit': 'Practice pronunciation\nwith confidence',
+          'Unlock all speaking lessons — buy once, keep forever',
+      'skillPackSpeakingUnlock': 'Unlock all speaking lessons',
+      'skillPackSpeakingBenefit': 'Practice pronunciation with confidence',
       'skillPackReadingTitle': 'Reading practice pack',
       'skillPackReadingDescription':
-          'Unlock all reading lessons\n— buy once, keep forever',
-      'skillPackReadingUnlock': 'Unlock all\nreading lessons',
-      'skillPackReadingBenefit': 'Read with\nease',
+          'Unlock all reading lessons — buy once, keep forever',
+      'skillPackReadingUnlock': 'Unlock all reading lessons',
+      'skillPackReadingBenefit': 'Read with ease',
       'skillPackGrammarTitle': 'Grammar practice pack',
       'skillPackGrammarDescription':
-          'Unlock all grammar lessons\n— buy once, keep forever',
-      'skillPackGrammarUnlock': 'Unlock all\ngrammar lessons',
-      'skillPackGrammarBenefit': 'Learn clear\nstructures',
-      'skillPackForever': 'Buy once,\nuse forever',
+          'Unlock all grammar lessons — buy once, keep forever',
+      'skillPackGrammarUnlock': 'Unlock all grammar lessons',
+      'skillPackGrammarBenefit': 'Learn clear structures',
+      'skillPackForever': 'Buy once, use forever',
       'skillPackOneTime': 'One-time purchase',
       'skillPackSave': 'Save {amount} ({percent}%)',
       'skillPackSecure': 'Secure & safe payment',
@@ -494,14 +493,14 @@ class AppLocalizations {
       'surveyStudy20To60': '20–60 minutes',
       'surveyStudyOverHour': 'More than 1 hour',
       'surveyHabitTitle':
-          'How much time are you ready to\nspend learning English each day?',
+          'How much time are you ready to spend learning English each day?',
       'surveyHabitDescription':
           'Setting aside a regular time every day helps you build a habit and ',
       'surveyHabitHighlight': 'progress faster.',
       'surveyPreferredTimeQuestion':
           'What time is most convenient for you to study English?',
       'surveyReminderPrimary':
-          'Leximon will remind you about your lessons\nso you never miss a day.',
+          'Leximon will remind you about your lessons so you never miss a day.',
       'surveyReminderSecondary':
           'We have found that regular practice can make learning English nearly ',
       'surveyReminderHighlight': '4.6× faster!',
@@ -528,19 +527,19 @@ class AppLocalizations {
       'surveyReviewThreeBody':
           'The content matches my level, the lessons are clear, and reminders help me stay on track.',
       'surveySocialProofPrefix': ' has helped ',
-      'surveySocialProofSuffix': ' users\nimprove their English',
-      'surveyTopicTitle': 'Choose the topics\nyou want to learn',
+      'surveySocialProofSuffix': ' users improve their English',
+      'surveyTopicTitle': 'Choose the topics you want to learn',
       'surveySelectAll': 'Select all',
       'surveyAnalysisTopic': 'Setting up topics',
       'surveyAnalysisDictionary': 'Creating your dictionary',
       'surveyAnalysisExercises': 'Choosing exercises',
       'surveyAnalysisPace': 'Setting your learning pace',
-      'surveyAnalysisProcessing': 'Analysing your\nanswers',
-      'surveyKnowledgeLead': 'English is the key that helps you\n',
+      'surveyAnalysisProcessing': 'Analysing your answers',
+      'surveyKnowledgeLead': 'English is the key that helps you ',
       'surveyKnowledgeOpen': 'open the door to knowledge,',
-      'surveyKnowledgeConnect': '\nconnect with the world, and seize ',
+      'surveyKnowledgeConnect': ' connect with the world, and seize ',
       'surveyKnowledgeMore': 'more opportunities.',
-      'surveySummaryTitle': 'English helps you go\nfurther',
+      'surveySummaryTitle': 'English helps you go further',
       'surveySummaryQuoteOne':
           'English opens the door to international career opportunities and more attractive income.',
       'surveySummaryQuoteTwo':
@@ -595,7 +594,7 @@ class AppLocalizations {
       'vocabularyTestAnswersCorrect': 'correct answers',
       'vocabularyTestHalfwayTitle': 'Great!',
       'vocabularyTestHalfwayBody':
-          'You are halfway there!\nYou did very well with these words. Now try\nsome more challenging questions.',
+          'You are halfway there! You did very well with these words. Now try some more challenging questions.',
       'vocabularyTestNextLevel': 'Next level: {level} · Part {part}',
       'skillListening': 'Listening',
       'skillVocabulary': 'Vocabulary',
@@ -773,7 +772,7 @@ class AppLocalizations {
           'All completed questions in “{pack}” will be deleted and progress will return to 0%. This cannot be undone.',
       'grammarTitle': 'Grammar',
       'done': 'Done',
-      'grammarByLevelTitle': 'Grammar practice\nby level',
+      'grammarByLevelTitle': 'Grammar practice by level',
       'grammarMotivation': 'Learn every day and improve step by step!',
       'overallProgress': 'Overall progress',
       'percentComplete': '{percent}% complete',
@@ -831,7 +830,7 @@ class AppLocalizations {
       'otherLessons': 'Other lessons',
       'listeningPreloadTitle': 'Loading listening exercise',
       'listeningPreloadSubtitle':
-          'Preparing Listen & Type data\nfor “{lesson}”.',
+          'Preparing Listen & Type data for “{lesson}”.',
       'ready': 'Ready!',
       'listeningOpening': 'Opening the listening exercise...',
       'listeningLoadingContent': 'Loading lesson content...',
@@ -1088,7 +1087,7 @@ class AppLocalizations {
       'recentHistoryBody': 'Lessons you recently completed',
       'recentHistoryEmpty':
           'No completed sessions yet. Complete a lesson to start your history.',
-      'todayAtTime': 'Today\n{time}',
+      'todayAtTime': 'Today {time}',
       'weekdayMon': 'Mon',
       'weekdayTue': 'Tue',
       'weekdayWed': 'Wed',
@@ -1454,9 +1453,9 @@ class AppLocalizations {
       "navProgress": "Progression",
       "navChallenges": "Défis",
       "navProfile": "Profil",
-      "languageTitle": "Choisissez votre\nlangue maternelle",
+      "languageTitle": "Choisissez votre langue maternelle",
       "languageSubtitle":
-          "Nous personnaliserons votre\nparcours d’apprentissage.",
+          "Nous personnaliserons votre parcours d’apprentissage.",
       "languageSaveError":
           "Impossible d’enregistrer la langue. Veuillez réessayer.",
       "back": "Retour",
@@ -1488,45 +1487,49 @@ class AppLocalizations {
       "disabled": "Désactivé",
       "loading": "Chargement...",
       "preparingLanguagePackage": "Préparation du contenu linguistique...",
-      "checkingLanguageModels": "Vérification des modèles de langue hors ligne...",
-      "downloadingLanguageModel": "Téléchargement du modèle de langue {current}/{total}...",
+      "checkingLanguageModels":
+          "Vérification des modèles de langue hors ligne...",
+      "downloadingLanguageModel":
+          "Téléchargement du modèle de langue {current}/{total}...",
       "languageModelsReady": "Les modèles de langue sont prêts",
       "languagePickerTitle": "Choisissez une langue",
-      "languagePickerSubtitle": "Choisissez la langue que vous souhaitez apprendre",
-      "finalizingLanguageChange": "Finalisation de la configuration de la langue...",
+      "languagePickerSubtitle":
+          "Choisissez la langue que vous souhaitez apprendre",
+      "finalizingLanguageChange":
+          "Finalisation de la configuration de la langue...",
       "levelBeginner": "Débutant",
       "levelIntermediate": "Intermédiaire",
       "levelAdvanced": "Avancé",
       "assessmentSkip": "Je connais mon niveau",
       "assessmentTitle": "Faites un test rapide",
       "assessmentSubtitle":
-          "Nous évaluerons votre niveau afin de\ncréer le meilleur parcours d’apprentissage pour vous.",
+          "Nous évaluerons votre niveau afin de créer le meilleur parcours d’apprentissage pour vous.",
       "assessmentStart": "Faire le test",
       "assessmentBenefitLevel": "Découvrez votre niveau",
       "assessmentBenefitVocabulary": "Évaluez votre vocabulaire",
       "assessmentBenefitAdapt": "L’application s’adaptera à votre niveau",
       "levelSelectionTitle": "Choisissez votre niveau d’anglais",
       "levelSelectionSubtitle":
-          "Choisissez le bon niveau afin que nous puissions\ncréer le meilleur parcours d’apprentissage pour vous.",
+          "Choisissez le bon niveau afin que nous puissions créer le meilleur parcours d’apprentissage pour vous.",
       "levelBeginnerDescription": "Je connais quelques mots",
       "levelIntermediateDescription":
           "Je connais déjà beaucoup de choses et je veux aller plus loin",
       "levelAdvancedDescription": "Je veux apprendre des mots difficiles",
-      "assessmentLevelTitle": "Évaluez votre niveau\nd’anglais actuel",
+      "assessmentLevelTitle": "Évaluez votre niveau d’anglais actuel",
       "assessmentLevelSubtitle":
-          "Choisissez le bon niveau afin que nous puissions\ncréer le meilleur parcours d’apprentissage pour vous.",
+          "Choisissez le bon niveau afin que nous puissions créer le meilleur parcours d’apprentissage pour vous.",
       "assessmentLevelNew":
-          "Je viens de commencer à apprendre\net je ne connais encore rien",
+          "Je viens de commencer à apprendre et je ne connais encore rien",
       "assessmentLevelBasic":
-          "Je connais quelques bases de grammaire\net je peux dire des mots\net des phrases simples",
+          "Je connais quelques bases de grammaire et je peux dire des mots et des phrases simples",
       "assessmentLevelConversational":
-          "Je peux tenir une conversation, mais\nje fais encore des erreurs et\nj’hésite souvent",
+          "Je peux tenir une conversation, mais je fais encore des erreurs et j’hésite souvent",
       "assessmentLevelFluent":
-          "Je parle couramment, je lis des livres\net je regarde des films\nen anglais",
+          "Je parle couramment, je lis des livres et je regarde des films en anglais",
       "assessmentLevelStart": "Commencer le test",
-      "surveyIntroTitle": "Faisons un\ncourt questionnaire !",
+      "surveyIntroTitle": "Faisons un court questionnaire !",
       "surveyIntroSubtitle":
-          "D’après vos réponses, Leximon\nchoisira la méthode d’apprentissage qui vous convient le mieux.",
+          "D’après vos réponses, Leximon choisira la méthode d’apprentissage qui vous convient le mieux.",
       "freeTrialGift": "Nous vous offrons",
       "freeTrialDuration": "7 jours gratuits",
       "freeTrialPurpose": "pour essayer notre application",
@@ -1539,7 +1542,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Impossible de terminer la configuration. Veuillez réessayer.",
       "subscriptionHeadlineSubtitle":
-          "votre anglais deviendra un véritable atout\nau travail",
+          "votre anglais deviendra un véritable atout au travail",
       "subscriptionLoadingPlans": "Chargement des formules d’abonnement…",
       "subscriptionLoadError":
           "Impossible de charger les détails de l’abonnement.",
@@ -1553,7 +1556,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} jours",
       "subscriptionIn": "Dans ",
       "subscriptionDaySuffix": " jours",
-      "subscriptionStart": "Commencer l’essai gratuit\net s’abonner",
+      "subscriptionStart": "Commencer l’essai gratuit et s’abonner",
       "surveySaveProgressError":
           "Impossible d’enregistrer votre progression. Veuillez réessayer.",
       "surveySaveTopicsError":
@@ -1605,14 +1608,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20 à 60 minutes",
       "surveyStudyOverHour": "Plus d’1 heure",
       "surveyHabitTitle":
-          "Combien de temps êtes-vous prêt à\nconsacrer chaque jour à l’apprentissage de l’anglais ?",
+          "Combien de temps êtes-vous prêt à consacrer chaque jour à l’apprentissage de l’anglais ?",
       "surveyHabitDescription":
           "Consacrer un moment régulier chaque jour vous aide à prendre une habitude et à ",
       "surveyHabitHighlight": "progresser plus vite.",
       "surveyPreferredTimeQuestion":
           "Quel moment vous convient le mieux pour étudier l’anglais ?",
       "surveyReminderPrimary":
-          "Leximon vous rappellera vos leçons\nafin que vous ne manquiez aucun jour.",
+          "Leximon vous rappellera vos leçons afin que vous ne manquiez aucun jour.",
       "surveyReminderSecondary":
           "Nous avons constaté qu’une pratique régulière peut rendre l’apprentissage de l’anglais près de ",
       "surveyReminderHighlight": "4,6× plus rapide !",
@@ -1643,19 +1646,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Le contenu correspond à mon niveau, les leçons sont claires et les rappels m’aident à rester régulier.",
       "surveySocialProofPrefix": " a aidé ",
-      "surveySocialProofSuffix": " utilisateurs\nà améliorer leur anglais",
-      "surveyTopicTitle": "Choisissez les thèmes\nque vous souhaitez apprendre",
+      "surveySocialProofSuffix": " utilisateurs à améliorer leur anglais",
+      "surveyTopicTitle": "Choisissez les thèmes que vous souhaitez apprendre",
       "surveySelectAll": "Tout sélectionner",
       "surveyAnalysisTopic": "Configuration des thèmes",
       "surveyAnalysisDictionary": "Création de votre dictionnaire",
       "surveyAnalysisExercises": "Sélection des exercices",
       "surveyAnalysisPace": "Réglage de votre rythme d’apprentissage",
-      "surveyAnalysisProcessing": "Analyse de vos\nréponses",
-      "surveyKnowledgeLead": "L’anglais est la clé qui vous aide à\n",
+      "surveyAnalysisProcessing": "Analyse de vos réponses",
+      "surveyKnowledgeLead": "L’anglais est la clé qui vous aide à ",
       "surveyKnowledgeOpen": "ouvrir la porte du savoir,",
-      "surveyKnowledgeConnect": "\nvous connecter au monde et saisir ",
+      "surveyKnowledgeConnect": " vous connecter au monde et saisir ",
       "surveyKnowledgeMore": "davantage d’opportunités.",
-      "surveySummaryTitle": "L’anglais vous aide à aller\nplus loin",
+      "surveySummaryTitle": "L’anglais vous aide à aller plus loin",
       "surveySummaryQuoteOne":
           "L’anglais ouvre la porte à des opportunités de carrière internationales et à des revenus plus attractifs.",
       "surveySummaryQuoteTwo":
@@ -1711,7 +1714,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "bonnes réponses",
       "vocabularyTestHalfwayTitle": "Super !",
       "vocabularyTestHalfwayBody":
-          "Vous êtes à mi-chemin !\nVous avez très bien réussi avec ces mots. Essayez maintenant\ndes questions plus difficiles.",
+          "Vous êtes à mi-chemin ! Vous avez très bien réussi avec ces mots. Essayez maintenant des questions plus difficiles.",
       "vocabularyTestNextLevel": "Niveau suivant : {level} · Partie {part}",
       "skillListening": "Compréhension orale",
       "skillVocabulary": "Vocabulaire",
@@ -1901,7 +1904,7 @@ class AppLocalizations {
           "Toutes les questions terminées dans « {pack} » seront supprimées et la progression reviendra à 0 %. Cette action est irréversible.",
       "grammarTitle": "Grammaire",
       "done": "Terminé",
-      "grammarByLevelTitle": "Entraînement de grammaire\npar niveau",
+      "grammarByLevelTitle": "Entraînement de grammaire par niveau",
       "grammarMotivation": "Apprenez chaque jour et progressez pas à pas !",
       "overallProgress": "Progression globale",
       "percentComplete": "{percent}% terminé",
@@ -1960,7 +1963,7 @@ class AppLocalizations {
       "otherLessons": "Autres leçons",
       "listeningPreloadTitle": "Chargement de l’exercice d’écoute",
       "listeningPreloadSubtitle":
-          "Préparation des données Écouter et saisir\npour « {lesson} ».",
+          "Préparation des données Écouter et saisir pour « {lesson} ».",
       "ready": "Prêt !",
       "listeningOpening": "Ouverture de l’exercice d’écoute...",
       "listeningLoadingContent": "Chargement du contenu de la leçon...",
@@ -2218,7 +2221,7 @@ class AppLocalizations {
       "recentHistoryBody": "Leçons que vous avez terminées récemment",
       "recentHistoryEmpty":
           "Aucune session terminée pour le moment. Terminez une leçon pour commencer votre historique.",
-      "todayAtTime": "Aujourd’hui\n{time}",
+      "todayAtTime": "Aujourd’hui {time}",
       "weekdayMon": "Lun",
       "weekdayTue": "Mar",
       "weekdayWed": "Mer",
@@ -2715,9 +2718,9 @@ class AppLocalizations {
       'navProgress': 'Tiến độ',
       'navChallenges': 'Thử thách',
       'navProfile': 'Cá nhân',
-      'languageTitle': 'Chọn ngôn ngữ\nmẹ đẻ của bạn',
+      'languageTitle': 'Chọn ngôn ngữ mẹ đẻ của bạn',
       'languageSubtitle':
-          'Chúng tôi sẽ cá nhân hóa lộ trình\nhọc phù hợp với bạn.',
+          'Chúng tôi sẽ cá nhân hóa lộ trình học phù hợp với bạn.',
       'languageSaveError': 'Không thể lưu ngôn ngữ. Vui lòng thử lại.',
       'back': 'Quay lại',
       'continue': 'Tiếp',
@@ -2773,31 +2776,31 @@ class AppLocalizations {
       'assessmentSkip': 'Tôi biết trình độ của mình',
       'assessmentTitle': 'Làm bài kiểm tra ngắn',
       'assessmentSubtitle':
-          'Chúng tôi sẽ đánh giá trình độ để\nxây dựng lộ trình học phù hợp với bạn.',
+          'Chúng tôi sẽ đánh giá trình độ để xây dựng lộ trình học phù hợp với bạn.',
       'assessmentStart': 'Làm bài kiểm tra',
       'assessmentBenefitLevel': 'Bạn sẽ biết được trình độ của mình',
       'assessmentBenefitVocabulary': 'Kiểm tra vốn từ vựng của bạn',
       'assessmentBenefitAdapt': 'Ứng dụng sẽ phù hợp với trình độ của bạn',
-      'levelSelectionTitle': 'Chọn trình độ\nAnh ngữ của bạn',
+      'levelSelectionTitle': 'Chọn trình độ Anh ngữ của bạn',
       'levelSelectionSubtitle':
-          'Chọn cấp độ phù hợp để chúng tôi\nxây dựng lộ trình học tốt nhất cho bạn.',
+          'Chọn cấp độ phù hợp để chúng tôi xây dựng lộ trình học tốt nhất cho bạn.',
       'levelBeginnerDescription': 'Tôi biết một vài từ',
       'levelIntermediateDescription': 'Tôi biết khá nhiều từ và muốn học thêm',
       'levelAdvancedDescription': 'Tôi muốn học những từ khó',
-      'assessmentLevelTitle': 'Đánh giá trình độ\ntiếng Anh hiện tại\ncủa bạn',
+      'assessmentLevelTitle': 'Đánh giá trình độ tiếng Anh hiện tại của bạn',
       'assessmentLevelSubtitle':
-          'Chọn cấp độ phù hợp để chúng tôi\nxây dựng lộ trình học tốt nhất cho bạn.',
-      'assessmentLevelNew': 'Vừa mới bắt đầu học,\ntôi chưa biết gì cả',
+          'Chọn cấp độ phù hợp để chúng tôi xây dựng lộ trình học tốt nhất cho bạn.',
+      'assessmentLevelNew': 'Vừa mới bắt đầu học, tôi chưa biết gì cả',
       'assessmentLevelBasic':
-          'Tôi biết một chút ngữ pháp\ncơ bản và có thể nói được các\ntừ cũng như cụm từ đơn giản',
+          'Tôi biết một chút ngữ pháp cơ bản và có thể nói được các từ cũng như cụm từ đơn giản',
       'assessmentLevelConversational':
-          'Tôi có thể trò chuyện nhưng\ncòn mắc lỗi và hay\nngập ngừng',
+          'Tôi có thể trò chuyện nhưng còn mắc lỗi và hay ngập ngừng',
       'assessmentLevelFluent':
-          'Tôi nói trôi chảy, đọc sách\nvà xem phim bằng\ntiếng Anh',
+          'Tôi nói trôi chảy, đọc sách và xem phim bằng tiếng Anh',
       'assessmentLevelStart': 'Bắt đầu bài kiểm tra',
-      'surveyIntroTitle': 'Hãy làm một khảo sát\nngắn nhé!',
+      'surveyIntroTitle': 'Hãy làm một khảo sát ngắn nhé!',
       'surveyIntroSubtitle':
-          'Dựa vào câu trả lời của bạn, Leximon sẽ\nchọn ra cách học phù hợp nhất với bạn',
+          'Dựa vào câu trả lời của bạn, Leximon sẽ chọn ra cách học phù hợp nhất với bạn',
       'freeTrialGift': 'Chúng tôi tặng bạn',
       'freeTrialDuration': '7 ngày miễn phí',
       'freeTrialPurpose': 'để dùng thử ứng dụng của chúng tôi',
@@ -2810,7 +2813,7 @@ class AppLocalizations {
       'subscriptionCompleteError':
           'Không thể hoàn tất thiết lập. Vui lòng thử lại.',
       'subscriptionHeadlineSubtitle':
-          'tiếng Anh của bạn sẽ trở thành công cụ\nđáng tin cậy trong công việc',
+          'tiếng Anh của bạn sẽ trở thành công cụ đáng tin cậy trong công việc',
       'subscriptionLoadingPlans': 'Đang tải các gói đăng ký…',
       'subscriptionLoadError': 'Chưa thể tải thông tin gói đăng ký.',
       'subscriptionStorePriceUnavailable': 'Giá App Store chưa khả dụng',
@@ -2823,11 +2826,11 @@ class AppLocalizations {
       'subscriptionDays': '{count} ngày',
       'subscriptionIn': 'Trong ',
       'subscriptionDaySuffix': ' ngày',
-      'subscriptionStart': 'Dùng thử miễn phí\nvà đăng ký',
+      'subscriptionStart': 'Dùng thử miễn phí và đăng ký',
       'subscriptionTrialOnly': 'Chỉ dùng thử miễn phí',
-      'subscriptionBenefitUnlimited': 'Học không\ngiới hạn',
-      'subscriptionBenefitQuality': 'Bài học chất\nlượng cao',
-      'subscriptionBenefitProgress': 'Tiến bộ rõ\nràng mỗi ngày',
+      'subscriptionBenefitUnlimited': 'Học không giới hạn',
+      'subscriptionBenefitQuality': 'Bài học chất lượng cao',
+      'subscriptionBenefitProgress': 'Tiến bộ rõ ràng mỗi ngày',
       'subscriptionSavingPercent': 'Tiết kiệm {percent}%',
       'subscriptionRestore': 'Khôi phục mua hàng',
       'subscriptionRestoreStarted': 'Đã gửi yêu cầu khôi phục mua hàng.',
@@ -2857,9 +2860,9 @@ class AppLocalizations {
       'saleApproxMonthly': 'Chỉ khoảng {price} / tháng',
       'saleSaveAmount': 'Tiết kiệm {amount}',
       'saleTrialDays': '{days} ngày dùng thử miễn phí',
-      'saleBenefitUnlock': 'Mở khoá toàn bộ\nbài học',
-      'saleBenefitNoAds': 'Không\nquảng cáo',
-      'saleBenefitProgress': 'Tiến bộ\nmỗi ngày',
+      'saleBenefitUnlock': 'Mở khoá toàn bộ bài học',
+      'saleBenefitNoAds': 'Không quảng cáo',
+      'saleBenefitProgress': 'Tiến bộ mỗi ngày',
       'saleSecurePayment': 'Thanh toán an toàn & bảo mật',
       'saleChooseAfterTrial':
           'Chọn gói đăng ký sau {days} ngày dùng thử miễn phí',
@@ -2870,10 +2873,10 @@ class AppLocalizations {
       'salePurchaseError': 'Không thể bắt đầu thanh toán.',
       'listeningPackTitle': 'Gói luyện nghe',
       'listeningPackDescription':
-          'Mở khoá toàn bộ bài luyện nghe\n- mua một lần, dùng mãi mãi',
-      'listeningPackUnlock': 'Mở khoá toàn bộ\nbài luyện nghe',
-      'listeningPackAnytime': 'Nghe mọi lúc,\nmọi nơi',
-      'listeningPackForever': 'Mua một lần,\ndùng mãi mãi',
+          'Mở khoá toàn bộ bài luyện nghe - mua một lần, dùng mãi mãi',
+      'listeningPackUnlock': 'Mở khoá toàn bộ bài luyện nghe',
+      'listeningPackAnytime': 'Nghe mọi lúc, mọi nơi',
+      'listeningPackForever': 'Mua một lần, dùng mãi mãi',
       'listeningPackOneTime': 'Giá chỉ một lần',
       'listeningPackSave': 'Tiết kiệm {amount} ({percent}%)',
       'listeningPackSecure': 'Thanh toán an toàn & bảo mật',
@@ -2884,25 +2887,25 @@ class AppLocalizations {
       'listeningPackPurchaseError': 'Không thể bắt đầu thanh toán.',
       'skillPackListeningTitle': 'Gói luyện nghe',
       'skillPackListeningDescription':
-          'Mở khoá toàn bộ bài luyện nghe\n- mua một lần, dùng mãi mãi',
-      'skillPackListeningUnlock': 'Mở khoá toàn bộ\nbài luyện nghe',
-      'skillPackListeningBenefit': 'Nghe mọi lúc,\nmọi nơi',
+          'Mở khoá toàn bộ bài luyện nghe - mua một lần, dùng mãi mãi',
+      'skillPackListeningUnlock': 'Mở khoá toàn bộ bài luyện nghe',
+      'skillPackListeningBenefit': 'Nghe mọi lúc, mọi nơi',
       'skillPackSpeakingTitle': 'Gói luyện nói',
       'skillPackSpeakingDescription':
-          'Mở khoá toàn bộ bài luyện nói\n- mua một lần, dùng mãi mãi',
-      'skillPackSpeakingUnlock': 'Mở khoá toàn bộ\nbài luyện nói',
-      'skillPackSpeakingBenefit': 'Luyện phát âm\ntự tin',
+          'Mở khoá toàn bộ bài luyện nói - mua một lần, dùng mãi mãi',
+      'skillPackSpeakingUnlock': 'Mở khoá toàn bộ bài luyện nói',
+      'skillPackSpeakingBenefit': 'Luyện phát âm tự tin',
       'skillPackReadingTitle': 'Gói luyện đọc',
       'skillPackReadingDescription':
-          'Mở khoá toàn bộ bài luyện đọc\n- mua một lần, dùng mãi mãi',
-      'skillPackReadingUnlock': 'Mở khoá toàn bộ\nbài luyện đọc',
-      'skillPackReadingBenefit': 'Luyện đọc\ndễ hiểu',
+          'Mở khoá toàn bộ bài luyện đọc - mua một lần, dùng mãi mãi',
+      'skillPackReadingUnlock': 'Mở khoá toàn bộ bài luyện đọc',
+      'skillPackReadingBenefit': 'Luyện đọc dễ hiểu',
       'skillPackGrammarTitle': 'Gói ngữ pháp',
       'skillPackGrammarDescription':
-          'Mở khoá toàn bộ bài ngữ pháp\n- mua một lần, dùng mãi mãi',
-      'skillPackGrammarUnlock': 'Mở khoá toàn bộ\nbài ngữ pháp',
-      'skillPackGrammarBenefit': 'Học cấu trúc\ndễ hiểu',
-      'skillPackForever': 'Mua một lần,\ndùng mãi mãi',
+          'Mở khoá toàn bộ bài ngữ pháp - mua một lần, dùng mãi mãi',
+      'skillPackGrammarUnlock': 'Mở khoá toàn bộ bài ngữ pháp',
+      'skillPackGrammarBenefit': 'Học cấu trúc dễ hiểu',
+      'skillPackForever': 'Mua một lần, dùng mãi mãi',
       'skillPackOneTime': 'Giá chỉ một lần',
       'skillPackSave': 'Tiết kiệm {amount} ({percent}%)',
       'skillPackSecure': 'Thanh toán an toàn & bảo mật',
@@ -2937,19 +2940,19 @@ class AppLocalizations {
       'surveyFrequencyOften':
           'Thường xuyên, vì tôi giao tiếp bằng tiếng Anh trong cuộc sống hằng ngày',
       'surveyFrequencyNever': 'Không bao giờ dùng',
-      'surveyHistoryQuestion': 'Bạn đã từng học tiếng Anh\nbao giờ chưa?',
-      'surveyMethodTutor': 'Học với gia sư hoặc tham gia khóa\nhọc ngôn ngữ',
+      'surveyHistoryQuestion': 'Bạn đã từng học tiếng Anh bao giờ chưa?',
+      'surveyMethodTutor': 'Học với gia sư hoặc tham gia khóa học ngôn ngữ',
       'surveyMethodApp': 'Học bằng các ứng dụng học tiếng Anh',
       'surveyMethodSelfStudy': 'Tự học qua video hoặc sách',
       'surveyMethodSchool': 'Tại trường phổ thông hoặc đại học',
       'surveyMethodNativeSpeakers': 'Khi nói chuyện với người bản ngữ',
       'surveyMethodNever': 'Chưa từng học',
-      'surveyTimelineQuestion': 'Bạn cần bao lâu\nđể có kết quả?',
+      'surveyTimelineQuestion': 'Bạn cần bao lâu để có kết quả?',
       'surveyTimelineFast':
-          'Càng nhanh càng tốt. Tôi muốn sớm\nnâng cao hiểu biết',
-      'surveyTimelineMonths': 'Tôi cần nâng cao trình độ trong\nvài tháng',
+          'Càng nhanh càng tốt. Tôi muốn sớm nâng cao hiểu biết',
+      'surveyTimelineMonths': 'Tôi cần nâng cao trình độ trong vài tháng',
       'surveyTimelineLongTerm':
-          'Không cần vội. Tôi dự định học\nngôn ngữ lâu dài',
+          'Không cần vội. Tôi dự định học ngôn ngữ lâu dài',
       'surveyStudyTimeQuestion':
           'Bạn sẵn sàng dành bao nhiêu thời gian mỗi ngày để học tiếng Anh?',
       'surveyStudyUnder10': 'Dưới 10 phút',
@@ -2957,16 +2960,16 @@ class AppLocalizations {
       'surveyStudy20To60': '20 – 60 phút',
       'surveyStudyOverHour': 'Hơn 1 giờ',
       'surveyHabitTitle':
-          'Bạn đã sẵn sàng dành bao\nnhiêu thời gian mỗi ngày để\nhọc tiếng Anh?',
+          'Bạn đã sẵn sàng dành bao nhiêu thời gian mỗi ngày để học tiếng Anh?',
       'surveyHabitDescription':
-          'Dành ra khoảng thời gian cố định mỗi ngày\nđể học sẽ giúp bạn hình thành thói quen\nvà ',
+          'Dành ra khoảng thời gian cố định mỗi ngày để học sẽ giúp bạn hình thành thói quen và ',
       'surveyHabitHighlight': 'tiến bộ nhanh hơn.',
       'surveyPreferredTimeQuestion':
           'Với bạn, giờ nào là thuận tiện để học tiếng Anh?',
       'surveyReminderPrimary':
-          'Leximon sẽ nhắc nhở bạn về các buổi học\nđể bạn không bỏ lỡ ngày nào.',
+          'Leximon sẽ nhắc nhở bạn về các buổi học để bạn không bỏ lỡ ngày nào.',
       'surveyReminderSecondary':
-          'Chúng tôi nhận thấy rằng việc thực hành\nthường xuyên có thể giúp tăng tốc độ học\ntiếng Anh lên gần ',
+          'Chúng tôi nhận thấy rằng việc thực hành thường xuyên có thể giúp tăng tốc độ học tiếng Anh lên gần ',
       'surveyReminderHighlight': '4,6 lần!',
       'surveyChallengeQuestion':
           'Đối với bạn, khó khăn lớn nhất trong tiếng Anh là gì?',
@@ -2979,7 +2982,7 @@ class AppLocalizations {
           'Điều gì khiến bạn không thể học tiếng Anh một cách nhanh chóng?',
       'surveyBarrierTime': 'Thiếu thời gian',
       'surveyBarrierMaterials': 'Thiếu học liệu tốt',
-      'surveyBarrierMethod': 'Tôi không biết cách học\ntiếng Anh đúng đắn',
+      'surveyBarrierMethod': 'Tôi không biết cách học tiếng Anh đúng đắn',
       'surveyBarrierDifficulty': 'Học điều mới thật là khó',
       'surveyBarrierPractice': 'Thiếu thực hành và giao tiếp',
       'surveyBarrierNone': 'Không có điều gì',
@@ -2993,19 +2996,19 @@ class AppLocalizations {
       'surveyReviewThreeBody':
           'Nội dung phù hợp với trình độ, cách học dễ hiểu và phần nhắc lịch giúp tôi không bỏ lỡ buổi học.',
       'surveySocialProofPrefix': ' đã giúp ',
-      'surveySocialProofSuffix': ' người dùng\ncải thiện năng lực tiếng Anh',
-      'surveyTopicTitle': 'Chọn các chủ đề\nmà bạn muốn học',
+      'surveySocialProofSuffix': ' người dùng cải thiện năng lực tiếng Anh',
+      'surveyTopicTitle': 'Chọn các chủ đề mà bạn muốn học',
       'surveySelectAll': 'Chọn tất cả',
       'surveyAnalysisTopic': 'Thiết lập chủ đề',
       'surveyAnalysisDictionary': 'Tạo từ điển',
       'surveyAnalysisExercises': 'Lựa chọn bài tập',
       'surveyAnalysisPace': 'Thiết lập tốc độ học tập',
-      'surveyAnalysisProcessing': 'Đang phân tích câu trả\nlời của bạn',
-      'surveyKnowledgeLead': 'Tiếng Anh là chìa khóa giúp bạn\n',
+      'surveyAnalysisProcessing': 'Đang phân tích câu trả lời của bạn',
+      'surveyKnowledgeLead': 'Tiếng Anh là chìa khóa giúp bạn ',
       'surveyKnowledgeOpen': 'mở cánh cửa tri thức,',
-      'surveyKnowledgeConnect': '\nkết nối thế giới và\nnắm bắt ',
+      'surveyKnowledgeConnect': ' kết nối thế giới và nắm bắt ',
       'surveyKnowledgeMore': 'nhiều cơ hội hơn.',
-      'surveySummaryTitle': 'Tiếng Anh giúp bạn tiến\n xa hơn',
+      'surveySummaryTitle': 'Tiếng Anh giúp bạn tiến  xa hơn',
       'surveySummaryQuoteOne':
           'Tiếng Anh mở ra cánh cửa đến những cơ hội nghề nghiệp quốc tế và mức thu nhập hấp dẫn hơn.',
       'surveySummaryQuoteTwo':
@@ -3058,7 +3061,7 @@ class AppLocalizations {
       'vocabularyTestAnswersCorrect': 'đáp án đúng',
       'vocabularyTestHalfwayTitle': 'Tuyệt vời!',
       'vocabularyTestHalfwayBody':
-          'Đã xong nửa chặng đường!\nBạn đã làm rất tốt với những từ này. Hãy thử\ncác câu hỏi thử thách hơn nhé',
+          'Đã xong nửa chặng đường!Bạn đã làm rất tốt với những từ này. Hãy thử các câu hỏi thử thách hơn nhé',
       'vocabularyTestNextLevel': 'Cấp độ tiếp theo: {level} · Phần {part}',
       'skillListening': 'Nghe',
       'skillVocabulary': 'Từ vựng',
@@ -3232,7 +3235,7 @@ class AppLocalizations {
           'Toàn bộ câu đã làm trong “{pack}” sẽ bị xóa và tiến độ trở về 0%. Bạn không thể hoàn tác thao tác này.',
       'grammarTitle': 'Ngữ pháp',
       'done': 'Xong',
-      'grammarByLevelTitle': 'Luyện ngữ pháp\ntheo từng cấp độ',
+      'grammarByLevelTitle': 'Luyện ngữ pháp theo từng cấp độ',
       'grammarMotivation': 'Học đều mỗi ngày, tiến bộ từng chút một!',
       'overallProgress': 'Tiến độ tổng',
       'percentComplete': '{percent}% hoàn thành',
@@ -3290,7 +3293,7 @@ class AppLocalizations {
       'otherLessons': 'Bài học khác',
       'listeningPreloadTitle': 'Đang tải bài nghe',
       'listeningPreloadSubtitle':
-          'Đang chuẩn bị dữ liệu phần Nghe & Gõ\ncho bài “{lesson}”.',
+          'Đang chuẩn bị dữ liệu phần Nghe & Gõ cho bài “{lesson}”.',
       'ready': 'Đã sẵn sàng!',
       'listeningOpening': 'Đang mở bài nghe...',
       'listeningLoadingContent': 'Đang tải nội dung bài học...',
@@ -3425,7 +3428,7 @@ class AppLocalizations {
       'closeSearch': 'Đóng tìm kiếm',
       'collectionEmptyTitle': 'Chưa có từ nào trong nhóm này',
       'collectionEmptyBody':
-          'Các từ thuộc nhóm này sẽ xuất hiện\nsau khi bạn học và ôn tập.',
+          'Các từ thuộc nhóm này sẽ xuất hiện sau khi bạn học và ôn tập.',
       'viewingWord': 'ĐANG XEM TỪ',
       'close': 'Đóng',
       'listenSlowly': 'Nghe chậm',
@@ -3545,7 +3548,7 @@ class AppLocalizations {
       'recentHistoryBody': 'Các bài bạn vừa hoàn thành',
       'recentHistoryEmpty':
           'Chưa có phiên hoàn thành. Hãy hoàn thành một bài để bắt đầu lịch sử.',
-      'todayAtTime': 'Hôm nay\n{time}',
+      'todayAtTime': 'Hôm nay {time}',
       'weekdayMon': 'T2',
       'weekdayTue': 'T3',
       'weekdayWed': 'T4',
@@ -3905,8 +3908,8 @@ class AppLocalizations {
       "navProgress": "Прогресс",
       "navChallenges": "Задания",
       "navProfile": "Профиль",
-      "languageTitle": "Выберите свой\nродной язык",
-      "languageSubtitle": "Мы персонализируем ваш\nпуть обучения.",
+      "languageTitle": "Выберите свой родной язык",
+      "languageSubtitle": "Мы персонализируем ваш путь обучения.",
       "languageSaveError": "Не удалось сохранить язык. Попробуйте ещё раз.",
       "back": "Назад",
       "continue": "Продолжить",
@@ -3938,7 +3941,8 @@ class AppLocalizations {
       "loading": "Загрузка...",
       "preparingLanguagePackage": "Подготовка языкового контента...",
       "checkingLanguageModels": "Проверка офлайн-моделей языка...",
-      "downloadingLanguageModel": "Загрузка языковой модели {current}/{total}...",
+      "downloadingLanguageModel":
+          "Загрузка языковой модели {current}/{total}...",
       "languageModelsReady": "Языковые модели готовы",
       "languagePickerTitle": "Выберите язык",
       "languagePickerSubtitle": "Выберите язык, который хотите изучать",
@@ -3949,32 +3953,32 @@ class AppLocalizations {
       "assessmentSkip": "Я знаю свой уровень",
       "assessmentTitle": "Пройдите короткий тест",
       "assessmentSubtitle":
-          "Мы определим ваш уровень, чтобы\nсоставить оптимальный план обучения.",
+          "Мы определим ваш уровень, чтобы составить оптимальный план обучения.",
       "assessmentStart": "Пройти тест",
       "assessmentBenefitLevel": "Вы узнаете свой уровень",
       "assessmentBenefitVocabulary": "Проверите словарный запас",
       "assessmentBenefitAdapt": "Приложение подстроится под ваш уровень",
       "levelSelectionTitle": "Выберите свой уровень английского",
       "levelSelectionSubtitle":
-          "Выберите подходящий уровень, чтобы мы могли\nсоставить лучший план обучения.",
+          "Выберите подходящий уровень, чтобы мы могли составить лучший план обучения.",
       "levelBeginnerDescription": "Я знаю несколько слов",
       "levelIntermediateDescription":
           "Я знаю довольно много и хочу узнать больше",
       "levelAdvancedDescription": "Я хочу учить сложные слова",
-      "assessmentLevelTitle": "Оцените свой текущий\nуровень английского",
+      "assessmentLevelTitle": "Оцените свой текущий уровень английского",
       "assessmentLevelSubtitle":
-          "Выберите подходящий уровень, чтобы мы могли\nсоставить лучший план обучения.",
-      "assessmentLevelNew": "Я только начал учиться\nи пока ничего не знаю",
+          "Выберите подходящий уровень, чтобы мы могли составить лучший план обучения.",
+      "assessmentLevelNew": "Я только начал учиться и пока ничего не знаю",
       "assessmentLevelBasic":
-          "Я знаю базовую грамматику\nи могу говорить простые слова\nи фразы",
+          "Я знаю базовую грамматику и могу говорить простые слова и фразы",
       "assessmentLevelConversational":
-          "Я могу поддерживать разговор, но\nвсё ещё ошибаюсь и\nчасто сомневаюсь",
+          "Я могу поддерживать разговор, но всё ещё ошибаюсь и часто сомневаюсь",
       "assessmentLevelFluent":
-          "Я свободно говорю, читаю книги\nи смотрю фильмы\nна английском",
+          "Я свободно говорю, читаю книги и смотрю фильмы на английском",
       "assessmentLevelStart": "Начать тест",
-      "surveyIntroTitle": "Пройдём\nкороткий опрос!",
+      "surveyIntroTitle": "Пройдём короткий опрос!",
       "surveyIntroSubtitle":
-          "На основе ваших ответов Leximon\nподберёт лучший метод обучения для вас.",
+          "На основе ваших ответов Leximon подберёт лучший метод обучения для вас.",
       "freeTrialGift": "Мы дарим вам",
       "freeTrialDuration": "7 дней бесплатно",
       "freeTrialPurpose": "чтобы попробовать приложение",
@@ -3987,7 +3991,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Не удалось завершить настройку. Попробуйте ещё раз.",
       "subscriptionHeadlineSubtitle":
-          "английский станет надёжным инструментом\nв вашей работе",
+          "английский станет надёжным инструментом в вашей работе",
       "subscriptionLoadingPlans": "Загрузка планов подписки…",
       "subscriptionLoadError": "Не удалось загрузить сведения о подписке.",
       "subscriptionStorePriceUnavailable": "Цена в App Store недоступна",
@@ -4000,7 +4004,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} дней",
       "subscriptionIn": "Через ",
       "subscriptionDaySuffix": " дней",
-      "subscriptionStart": "Начать бесплатный период\nи оформить подписку",
+      "subscriptionStart": "Начать бесплатный период и оформить подписку",
       "surveySaveProgressError":
           "Не удалось сохранить прогресс. Попробуйте ещё раз.",
       "surveySaveTopicsError": "Не удалось сохранить выбранные темы.",
@@ -4049,14 +4053,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 минут",
       "surveyStudyOverHour": "Больше 1 часа",
       "surveyHabitTitle":
-          "Сколько времени в день вы готовы\nуделять английскому?",
+          "Сколько времени в день вы готовы уделять английскому?",
       "surveyHabitDescription":
           "Регулярные занятия каждый день помогают сформировать привычку и ",
       "surveyHabitHighlight": "быстрее прогрессировать.",
       "surveyPreferredTimeQuestion":
           "В какое время вам удобнее всего заниматься английским?",
       "surveyReminderPrimary":
-          "Leximon будет напоминать о занятиях,\nчтобы вы не пропускали ни дня.",
+          "Leximon будет напоминать о занятиях, чтобы вы не пропускали ни дня.",
       "surveyReminderSecondary":
           "Мы выяснили, что регулярная практика может ускорить изучение английского почти в ",
       "surveyReminderHighlight": "4,6 раза!",
@@ -4083,19 +4087,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Материалы соответствуют моему уровню, уроки понятные, а напоминания помогают не сбиваться с курса.",
       "surveySocialProofPrefix": " помогло ",
-      "surveySocialProofSuffix": " пользователям\nулучшить английский",
-      "surveyTopicTitle": "Выберите темы,\nкоторые хотите изучать",
+      "surveySocialProofSuffix": " пользователям улучшить английский",
+      "surveyTopicTitle": "Выберите темы, которые хотите изучать",
       "surveySelectAll": "Выбрать все",
       "surveyAnalysisTopic": "Настраиваем темы",
       "surveyAnalysisDictionary": "Создаём ваш словарь",
       "surveyAnalysisExercises": "Подбираем упражнения",
       "surveyAnalysisPace": "Настраиваем темп обучения",
-      "surveyAnalysisProcessing": "Анализируем ваши\nответы",
-      "surveyKnowledgeLead": "Английский — это ключ, который помогает\n",
+      "surveyAnalysisProcessing": "Анализируем ваши ответы",
+      "surveyKnowledgeLead": "Английский — это ключ, который помогает ",
       "surveyKnowledgeOpen": "открывать двери к знаниям,",
-      "surveyKnowledgeConnect": "\nобщаться с миром и использовать ",
+      "surveyKnowledgeConnect": " общаться с миром и использовать ",
       "surveyKnowledgeMore": "больше возможностей.",
-      "surveySummaryTitle": "Английский помогает идти\nдальше",
+      "surveySummaryTitle": "Английский помогает идти дальше",
       "surveySummaryQuoteOne":
           "Английский открывает двери к международным карьерным возможностям и более высокому доходу.",
       "surveySummaryQuoteTwo":
@@ -4149,7 +4153,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "правильных ответов",
       "vocabularyTestHalfwayTitle": "Отлично!",
       "vocabularyTestHalfwayBody":
-          "Вы уже на полпути!\nС этими словами вы справились очень хорошо. Теперь попробуйте\nболее сложные вопросы.",
+          "Вы уже на полпути! С этими словами вы справились очень хорошо. Теперь попробуйте более сложные вопросы.",
       "vocabularyTestNextLevel": "Следующий уровень: {level} · Часть {part}",
       "skillListening": "Аудирование",
       "skillVocabulary": "Словарный запас",
@@ -4333,7 +4337,7 @@ class AppLocalizations {
           "Все выполненные вопросы в «{pack}» будут удалены, а прогресс вернётся к 0%. Отменить это действие нельзя.",
       "grammarTitle": "Грамматика",
       "done": "Готово",
-      "grammarByLevelTitle": "Практика грамматики\nпо уровню",
+      "grammarByLevelTitle": "Практика грамматики по уровню",
       "grammarMotivation":
           "Учитесь каждый день и улучшайте знания шаг за шагом!",
       "overallProgress": "Общий прогресс",
@@ -4394,7 +4398,7 @@ class AppLocalizations {
       "otherLessons": "Другие уроки",
       "listeningPreloadTitle": "Загрузка упражнения на аудирование",
       "listeningPreloadSubtitle":
-          "Подготавливаем данные для «Слушать и печатать»\nдля «{lesson}».",
+          "Подготавливаем данные для «Слушать и печатать» для «{lesson}».",
       "ready": "Готово!",
       "listeningOpening": "Открываем упражнение на аудирование...",
       "listeningLoadingContent": "Загрузка содержимого урока...",
@@ -4648,7 +4652,7 @@ class AppLocalizations {
       "recentHistoryBody": "Недавно завершённые уроки",
       "recentHistoryEmpty":
           "Пока нет завершённых сессий. Завершите урок, чтобы начать историю.",
-      "todayAtTime": "Сегодня\n{time}",
+      "todayAtTime": "Сегодня {time}",
       "weekdayMon": "Пн",
       "weekdayTue": "Вт",
       "weekdayWed": "Ср",
@@ -5137,8 +5141,8 @@ class AppLocalizations {
       "navProgress": "Fortschritt",
       "navChallenges": "Herausforderungen",
       "navProfile": "Profil",
-      "languageTitle": "Wähle deine\nMuttersprache",
-      "languageSubtitle": "Wir personalisieren deinen\nLernweg für dich.",
+      "languageTitle": "Wähle deine Muttersprache",
+      "languageSubtitle": "Wir personalisieren deinen Lernweg für dich.",
       "languageSaveError":
           "Die Sprache konnte nicht gespeichert werden. Bitte versuche es erneut.",
       "back": "Zurück",
@@ -5171,7 +5175,8 @@ class AppLocalizations {
       "loading": "Wird geladen...",
       "preparingLanguagePackage": "Sprachinhalte werden vorbereitet...",
       "checkingLanguageModels": "Offline-Sprachmodelle werden überprüft...",
-      "downloadingLanguageModel": "Sprachmodell {current}/{total} wird heruntergeladen...",
+      "downloadingLanguageModel":
+          "Sprachmodell {current}/{total} wird heruntergeladen...",
       "languageModelsReady": "Sprachmodelle sind bereit",
       "languagePickerTitle": "Sprache auswählen",
       "languagePickerSubtitle": "Wähle die Sprache, die du lernen möchtest",
@@ -5182,33 +5187,33 @@ class AppLocalizations {
       "assessmentSkip": "Ich kenne mein Niveau",
       "assessmentTitle": "Mach einen kurzen Test",
       "assessmentSubtitle":
-          "Wir ermitteln dein Niveau, um\nden besten Lernweg für dich zu erstellen.",
+          "Wir ermitteln dein Niveau, um den besten Lernweg für dich zu erstellen.",
       "assessmentStart": "Test starten",
       "assessmentBenefitLevel": "Du erfährst dein Niveau",
       "assessmentBenefitVocabulary": "Prüfe deinen Wortschatz",
       "assessmentBenefitAdapt": "Die App passt sich deinem Niveau an",
       "levelSelectionTitle": "Wähle dein Englischniveau",
       "levelSelectionSubtitle":
-          "Wähle das passende Niveau, damit wir\nden besten Lernweg für dich erstellen können.",
+          "Wähle das passende Niveau, damit wir den besten Lernweg für dich erstellen können.",
       "levelBeginnerDescription": "Ich kenne ein paar Wörter",
       "levelIntermediateDescription":
           "Ich kenne schon ziemlich viel und möchte mehr lernen",
       "levelAdvancedDescription": "Ich möchte anspruchsvolle Wörter lernen",
-      "assessmentLevelTitle": "Bestimme dein aktuelles\nEnglischniveau",
+      "assessmentLevelTitle": "Bestimme dein aktuelles Englischniveau",
       "assessmentLevelSubtitle":
-          "Wähle das passende Niveau, damit wir\nden besten Lernweg für dich erstellen können.",
+          "Wähle das passende Niveau, damit wir den besten Lernweg für dich erstellen können.",
       "assessmentLevelNew":
-          "Ich habe gerade erst angefangen zu lernen\nund weiß noch nichts",
+          "Ich habe gerade erst angefangen zu lernen und weiß noch nichts",
       "assessmentLevelBasic":
-          "Ich kenne einige grundlegende Grammatikregeln\nund kann einfache Wörter\nund Sätze sagen",
+          "Ich kenne einige grundlegende Grammatikregeln und kann einfache Wörter und Sätze sagen",
       "assessmentLevelConversational":
-          "Ich kann mich unterhalten, aber\nich mache noch Fehler und\nzögere oft",
+          "Ich kann mich unterhalten, aber ich mache noch Fehler und zögere oft",
       "assessmentLevelFluent":
-          "Ich spreche fließend, lese Bücher\nund schaue Filme\nauf Englisch",
+          "Ich spreche fließend, lese Bücher und schaue Filme auf Englisch",
       "assessmentLevelStart": "Test starten",
-      "surveyIntroTitle": "Machen wir eine\nkurze Umfrage!",
+      "surveyIntroTitle": "Machen wir eine kurze Umfrage!",
       "surveyIntroSubtitle":
-          "Anhand deiner Antworten wählt Leximon\ndie beste Lernmethode für dich aus.",
+          "Anhand deiner Antworten wählt Leximon die beste Lernmethode für dich aus.",
       "freeTrialGift": "Wir schenken dir",
       "freeTrialDuration": "7 Tage kostenlos",
       "freeTrialPurpose": "zum Ausprobieren unserer App",
@@ -5222,7 +5227,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Die Einrichtung konnte nicht abgeschlossen werden. Bitte versuche es erneut.",
       "subscriptionHeadlineSubtitle":
-          "dein Englisch wird zu einem verlässlichen Werkzeug\nim Beruf",
+          "dein Englisch wird zu einem verlässlichen Werkzeug im Beruf",
       "subscriptionLoadingPlans": "Abos werden geladen…",
       "subscriptionLoadError": "Details zum Abo konnten nicht geladen werden.",
       "subscriptionStorePriceUnavailable": "App-Store-Preis nicht verfügbar",
@@ -5235,7 +5240,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} Tage",
       "subscriptionIn": "In ",
       "subscriptionDaySuffix": " Tagen",
-      "subscriptionStart": "Kostenlose Testphase starten\nund abonnieren",
+      "subscriptionStart": "Kostenlose Testphase starten und abonnieren",
       "surveySaveProgressError":
           "Dein Fortschritt konnte nicht gespeichert werden. Bitte versuche es erneut.",
       "surveySaveTopicsError":
@@ -5287,14 +5292,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 Minuten",
       "surveyStudyOverHour": "Mehr als 1 Stunde",
       "surveyHabitTitle":
-          "Wie viel Zeit möchtest du täglich\nfürs Englischlernen aufwenden?",
+          "Wie viel Zeit möchtest du täglich fürs Englischlernen aufwenden?",
       "surveyHabitDescription":
           "Eine feste Lernzeit jeden Tag hilft dir, eine Gewohnheit aufzubauen und ",
       "surveyHabitHighlight": "schneller Fortschritte zu machen.",
       "surveyPreferredTimeQuestion":
           "Zu welcher Zeit lernst du am liebsten Englisch?",
       "surveyReminderPrimary":
-          "Leximon erinnert dich an deine Lektionen,\ndamit du keinen Tag verpasst.",
+          "Leximon erinnert dich an deine Lektionen, damit du keinen Tag verpasst.",
       "surveyReminderSecondary":
           "Wir haben festgestellt, dass regelmäßiges Üben das Englischlernen um fast ",
       "surveyReminderHighlight": "das 4,6-Fache beschleunigen kann!",
@@ -5325,19 +5330,19 @@ class AppLocalizations {
           "Die Inhalte passen zu meinem Niveau, die Lektionen sind verständlich und die Erinnerungen helfen mir, dranzubleiben.",
       "surveySocialProofPrefix": " hat ",
       "surveySocialProofSuffix":
-          " Nutzern geholfen,\nihr Englisch zu verbessern",
-      "surveyTopicTitle": "Wähle die Themen,\ndie du lernen möchtest",
+          " Nutzern geholfen, ihr Englisch zu verbessern",
+      "surveyTopicTitle": "Wähle die Themen, die du lernen möchtest",
       "surveySelectAll": "Alle auswählen",
       "surveyAnalysisTopic": "Themen werden eingerichtet",
       "surveyAnalysisDictionary": "Dein Wörterbuch wird erstellt",
       "surveyAnalysisExercises": "Übungen werden ausgewählt",
       "surveyAnalysisPace": "Dein Lerntempo wird festgelegt",
-      "surveyAnalysisProcessing": "Deine Antworten\nwerden analysiert",
-      "surveyKnowledgeLead": "Englisch ist der Schlüssel, der dir hilft,\n",
+      "surveyAnalysisProcessing": "Deine Antworten werden analysiert",
+      "surveyKnowledgeLead": "Englisch ist der Schlüssel, der dir hilft, ",
       "surveyKnowledgeOpen": "die Tür zu Wissen zu öffnen,",
-      "surveyKnowledgeConnect": "\ndich mit der Welt zu verbinden und ",
+      "surveyKnowledgeConnect": " dich mit der Welt zu verbinden und ",
       "surveyKnowledgeMore": "mehr Chancen zu nutzen.",
-      "surveySummaryTitle": "Mit Englisch kommst du\nweiter",
+      "surveySummaryTitle": "Mit Englisch kommst du weiter",
       "surveySummaryQuoteOne":
           "Englisch öffnet dir die Tür zu internationalen Karrierechancen und attraktiveren Verdienstmöglichkeiten.",
       "surveySummaryQuoteTwo":
@@ -5392,7 +5397,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "richtige Antworten",
       "vocabularyTestHalfwayTitle": "Super!",
       "vocabularyTestHalfwayBody":
-          "Du hast die Hälfte geschafft!\nMit diesen Wörtern warst du sehr gut. Versuche jetzt\neinige anspruchsvollere Fragen.",
+          "Du hast die Hälfte geschafft! Mit diesen Wörtern warst du sehr gut. Versuche jetzt einige anspruchsvollere Fragen.",
       "vocabularyTestNextLevel": "Nächstes Niveau: {level} · Teil {part}",
       "skillListening": "Hören",
       "skillVocabulary": "Wortschatz",
@@ -5579,7 +5584,7 @@ class AppLocalizations {
           "Alle abgeschlossenen Fragen in „{pack}“ werden gelöscht und der Fortschritt auf 0 % zurückgesetzt. Dies kann nicht rückgängig gemacht werden.",
       "grammarTitle": "Grammatik",
       "done": "Fertig",
-      "grammarByLevelTitle": "Grammatiktraining\nnach Niveau",
+      "grammarByLevelTitle": "Grammatiktraining nach Niveau",
       "grammarMotivation":
           "Lerne jeden Tag und verbessere dich Schritt für Schritt!",
       "overallProgress": "Gesamtfortschritt",
@@ -5642,7 +5647,7 @@ class AppLocalizations {
       "otherLessons": "Weitere Lektionen",
       "listeningPreloadTitle": "Hörübung wird geladen",
       "listeningPreloadSubtitle":
-          "Daten für „Hören & Tippen“ werden\nfür „{lesson}“ vorbereitet.",
+          "Daten für „Hören & Tippen“ werden für „{lesson}“ vorbereitet.",
       "ready": "Bereit!",
       "listeningOpening": "Hörübung wird geöffnet...",
       "listeningLoadingContent": "Lektionsinhalt wird geladen...",
@@ -5901,7 +5906,7 @@ class AppLocalizations {
       "recentHistoryBody": "Lektionen, die du kürzlich abgeschlossen hast",
       "recentHistoryEmpty":
           "Noch keine abgeschlossenen Sitzungen. Schließe eine Lektion ab, um deinen Verlauf zu starten.",
-      "todayAtTime": "Heute\n{time}",
+      "todayAtTime": "Heute {time}",
       "weekdayMon": "Mo",
       "weekdayTue": "Di",
       "weekdayWed": "Mi",
@@ -6403,8 +6408,8 @@ class AppLocalizations {
       "navProgress": "التقدّم",
       "navChallenges": "التحديات",
       "navProfile": "الملف الشخصي",
-      "languageTitle": "اختر لغتك\nالأم",
-      "languageSubtitle": "سنخصص لك\nرحلة تعلّم تناسبك.",
+      "languageTitle": "اختر لغتك الأم",
+      "languageSubtitle": "سنخصص لك رحلة تعلّم تناسبك.",
       "languageSaveError": "تعذّر حفظ اللغة. يُرجى المحاولة مرة أخرى.",
       "back": "رجوع",
       "continue": "متابعة",
@@ -6435,7 +6440,8 @@ class AppLocalizations {
       "disabled": "متوقف",
       "loading": "جارٍ التحميل...",
       "preparingLanguagePackage": "جارٍ إعداد محتوى اللغة...",
-      "checkingLanguageModels": "جارٍ التحقق من نماذج اللغة غير المتصلة بالإنترنت...",
+      "checkingLanguageModels":
+          "جارٍ التحقق من نماذج اللغة غير المتصلة بالإنترنت...",
       "downloadingLanguageModel": "جارٍ تنزيل نموذج اللغة {current}/{total}...",
       "languageModelsReady": "نماذج اللغة جاهزة",
       "languagePickerTitle": "اختر لغة",
@@ -6446,31 +6452,31 @@ class AppLocalizations {
       "levelAdvanced": "متقدم",
       "assessmentSkip": "أعرف مستواي",
       "assessmentTitle": "أجرِ اختبارًا قصيرًا",
-      "assessmentSubtitle": "سنقيّم مستواك\nلبناء أفضل مسار تعلّم لك.",
+      "assessmentSubtitle": "سنقيّم مستواك لبناء أفضل مسار تعلّم لك.",
       "assessmentStart": "بدء الاختبار",
       "assessmentBenefitLevel": "ستعرف مستواك",
       "assessmentBenefitVocabulary": "تحقق من حصيلتك اللغوية",
       "assessmentBenefitAdapt": "سيتكيف التطبيق مع مستواك",
       "levelSelectionTitle": "اختر مستواك في الإنجليزية",
       "levelSelectionSubtitle":
-          "اختر المستوى المناسب لنتمكن من\nبناء أفضل مسار تعلّم لك.",
+          "اختر المستوى المناسب لنتمكن من بناء أفضل مسار تعلّم لك.",
       "levelBeginnerDescription": "أعرف بضع كلمات",
       "levelIntermediateDescription": "أعرف الكثير وأريد تعلّم المزيد",
       "levelAdvancedDescription": "أريد تعلّم كلمات صعبة",
-      "assessmentLevelTitle": "قيّم مستواك الحالي\nفي الإنجليزية",
+      "assessmentLevelTitle": "قيّم مستواك الحالي في الإنجليزية",
       "assessmentLevelSubtitle":
-          "اختر المستوى المناسب لنتمكن من\nبناء أفضل مسار تعلّم لك.",
-      "assessmentLevelNew": "بدأت تعلّم الإنجليزية للتو\nولا أعرف شيئًا بعد",
+          "اختر المستوى المناسب لنتمكن من بناء أفضل مسار تعلّم لك.",
+      "assessmentLevelNew": "بدأت تعلّم الإنجليزية للتو ولا أعرف شيئًا بعد",
       "assessmentLevelBasic":
-          "أعرف بعض القواعد الأساسية\nوأستطيع قول كلمات\nوعبارات بسيطة",
+          "أعرف بعض القواعد الأساسية وأستطيع قول كلمات وعبارات بسيطة",
       "assessmentLevelConversational":
-          "أستطيع إجراء محادثات، لكنني\nما زلت أرتكب أخطاء\nوأتردد كثيرًا",
+          "أستطيع إجراء محادثات، لكنني ما زلت أرتكب أخطاء وأتردد كثيرًا",
       "assessmentLevelFluent":
-          "أتحدث بطلاقة، وأقرأ الكتب،\nوأشاهد الأفلام\nبالإنجليزية",
+          "أتحدث بطلاقة، وأقرأ الكتب، وأشاهد الأفلام بالإنجليزية",
       "assessmentLevelStart": "بدء الاختبار",
-      "surveyIntroTitle": "لنُجرِ\nاستبيانًا قصيرًا!",
+      "surveyIntroTitle": "لنُجرِ استبيانًا قصيرًا!",
       "surveyIntroSubtitle":
-          "بناءً على إجاباتك، سيختار Leximon\nأفضل طريقة تعلّم لك.",
+          "بناءً على إجاباتك، سيختار Leximon أفضل طريقة تعلّم لك.",
       "freeTrialGift": "نمنحك",
       "freeTrialDuration": "7 أيام مجانًا",
       "freeTrialPurpose": "لتجربة تطبيقنا",
@@ -6483,7 +6489,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "تعذّر إكمال الإعداد. يُرجى المحاولة مرة أخرى.",
       "subscriptionHeadlineSubtitle":
-          "ستصبح الإنجليزية أداة موثوقة لك\nفي العمل",
+          "ستصبح الإنجليزية أداة موثوقة لك في العمل",
       "subscriptionLoadingPlans": "جارٍ تحميل خطط الاشتراك…",
       "subscriptionLoadError": "تعذّر تحميل تفاصيل خطة الاشتراك.",
       "subscriptionStorePriceUnavailable": "سعر App Store غير متاح",
@@ -6496,7 +6502,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} أيام",
       "subscriptionIn": "بعد ",
       "subscriptionDaySuffix": " أيام",
-      "subscriptionStart": "ابدأ التجربة المجانية\nواشترك",
+      "subscriptionStart": "ابدأ التجربة المجانية واشترك",
       "surveySaveProgressError": "تعذّر حفظ تقدّمك. يُرجى المحاولة مرة أخرى.",
       "surveySaveTopicsError": "تعذّر حفظ الموضوعات المحددة.",
       "surveyContinueWithLeximon": "المتابعة مع Leximon",
@@ -6540,13 +6546,13 @@ class AppLocalizations {
       "surveyStudy10To20": "10–20 دقيقة",
       "surveyStudy20To60": "20–60 دقيقة",
       "surveyStudyOverHour": "أكثر من ساعة",
-      "surveyHabitTitle": "كم من الوقت يمكنك تخصيصه\nلتعلّم الإنجليزية يوميًا؟",
+      "surveyHabitTitle": "كم من الوقت يمكنك تخصيصه لتعلّم الإنجليزية يوميًا؟",
       "surveyHabitDescription":
           "تخصيص وقت منتظم كل يوم يساعدك على بناء عادة و ",
       "surveyHabitHighlight": "التقدم بشكل أسرع.",
       "surveyPreferredTimeQuestion": "ما الوقت الأنسب لك لدراسة الإنجليزية؟",
       "surveyReminderPrimary":
-          "سيذكّرك Leximon بدروسك\nحتى لا تفوّت يومًا واحدًا.",
+          "سيذكّرك Leximon بدروسك حتى لا تفوّت يومًا واحدًا.",
       "surveyReminderSecondary":
           "وجدنا أن الممارسة المنتظمة يمكن أن تجعل تعلّم الإنجليزية أسرع بنحو ",
       "surveyReminderHighlight": "4.6×!",
@@ -6573,19 +6579,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "المحتوى يناسب مستواي، والدروس واضحة، والتذكيرات تساعدني على الاستمرار.",
       "surveySocialProofPrefix": " ساعد ",
-      "surveySocialProofSuffix": " مستخدمًا\nعلى تحسين الإنجليزية",
-      "surveyTopicTitle": "اختر الموضوعات\nالتي تريد تعلّمها",
+      "surveySocialProofSuffix": " مستخدمًا على تحسين الإنجليزية",
+      "surveyTopicTitle": "اختر الموضوعات التي تريد تعلّمها",
       "surveySelectAll": "تحديد الكل",
       "surveyAnalysisTopic": "إعداد الموضوعات",
       "surveyAnalysisDictionary": "إنشاء قاموسك",
       "surveyAnalysisExercises": "اختيار التمارين",
       "surveyAnalysisPace": "ضبط وتيرة تعلّمك",
-      "surveyAnalysisProcessing": "جارٍ تحليل\nإجاباتك",
-      "surveyKnowledgeLead": "الإنجليزية هي المفتاح الذي يساعدك على\n",
+      "surveyAnalysisProcessing": "جارٍ تحليل إجاباتك",
+      "surveyKnowledgeLead": "الإنجليزية هي المفتاح الذي يساعدك على ",
       "surveyKnowledgeOpen": "فتح أبواب المعرفة،",
-      "surveyKnowledgeConnect": "\nوالتواصل مع العالم واغتنام ",
+      "surveyKnowledgeConnect": " والتواصل مع العالم واغتنام ",
       "surveyKnowledgeMore": "المزيد من الفرص.",
-      "surveySummaryTitle": "الإنجليزية تساعدك على\nالذهاب أبعد",
+      "surveySummaryTitle": "الإنجليزية تساعدك على الذهاب أبعد",
       "surveySummaryQuoteOne":
           "تفتح الإنجليزية بابًا لفرص مهنية دولية ودخل أفضل.",
       "surveySummaryQuoteTwo":
@@ -6636,7 +6642,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "إجابات صحيحة",
       "vocabularyTestHalfwayTitle": "رائع!",
       "vocabularyTestHalfwayBody":
-          "لقد وصلت إلى منتصف الطريق!\nأحسنت مع هذه الكلمات. والآن جرّب\nبعض الأسئلة الأكثر تحديًا.",
+          "لقد وصلت إلى منتصف الطريق! أحسنت مع هذه الكلمات. والآن جرّب بعض الأسئلة الأكثر تحديًا.",
       "vocabularyTestNextLevel": "المستوى التالي: {level} · الجزء {part}",
       "skillListening": "الاستماع",
       "skillVocabulary": "المفردات",
@@ -6812,7 +6818,7 @@ class AppLocalizations {
           "سيتم حذف جميع الأسئلة المكتملة في “{pack}” وسيعود التقدّم إلى 0%. لا يمكن التراجع عن ذلك.",
       "grammarTitle": "القواعد",
       "done": "تم",
-      "grammarByLevelTitle": "تدريب القواعد\nحسب المستوى",
+      "grammarByLevelTitle": "تدريب القواعد حسب المستوى",
       "grammarMotivation": "تعلّم كل يوم وتقدّم خطوة بخطوة!",
       "overallProgress": "التقدّم الإجمالي",
       "percentComplete": "مكتمل بنسبة {percent}%",
@@ -6870,7 +6876,7 @@ class AppLocalizations {
       "otherLessons": "دروس أخرى",
       "listeningPreloadTitle": "جارٍ تحميل تمرين الاستماع",
       "listeningPreloadSubtitle":
-          "جارٍ إعداد بيانات الاستماع والكتابة\nلـ “{lesson}”.",
+          "جارٍ إعداد بيانات الاستماع والكتابة لـ “{lesson}”.",
       "ready": "جاهز!",
       "listeningOpening": "جارٍ فتح تمرين الاستماع...",
       "listeningLoadingContent": "جارٍ تحميل محتوى الدرس...",
@@ -7109,7 +7115,7 @@ class AppLocalizations {
       "recentHistory": "السجل الأخير",
       "recentHistoryBody": "الدروس التي أكملتها مؤخرًا",
       "recentHistoryEmpty": "لا توجد جلسات مكتملة بعد. أكمل درسًا لبدء سجلك.",
-      "todayAtTime": "اليوم\n{time}",
+      "todayAtTime": "اليوم {time}",
       "weekdayMon": "الإثنين",
       "weekdayTue": "الثلاثاء",
       "weekdayWed": "الأربعاء",
@@ -7572,8 +7578,8 @@ class AppLocalizations {
       "navProgress": "Pokrok",
       "navChallenges": "Výzvy",
       "navProfile": "Profil",
-      "languageTitle": "Vyberte svůj\nrodný jazyk",
-      "languageSubtitle": "Přizpůsobíme vám\nvaši studijní cestu.",
+      "languageTitle": "Vyberte svůj rodný jazyk",
+      "languageSubtitle": "Přizpůsobíme vám vaši studijní cestu.",
       "languageSaveError": "Jazyk se nepodařilo uložit. Zkuste to znovu.",
       "back": "Zpět",
       "continue": "Pokračovat",
@@ -7605,7 +7611,8 @@ class AppLocalizations {
       "loading": "Načítání...",
       "preparingLanguagePackage": "Příprava jazykového obsahu...",
       "checkingLanguageModels": "Kontrola offline jazykových modelů...",
-      "downloadingLanguageModel": "Stahování jazykového modelu {current}/{total}...",
+      "downloadingLanguageModel":
+          "Stahování jazykového modelu {current}/{total}...",
       "languageModelsReady": "Jazykové modely jsou připraveny",
       "languagePickerTitle": "Vyberte jazyk",
       "languagePickerSubtitle": "Vyberte jazyk, který se chcete učit",
@@ -7616,32 +7623,32 @@ class AppLocalizations {
       "assessmentSkip": "Znám svou úroveň",
       "assessmentTitle": "Udělat krátký test",
       "assessmentSubtitle":
-          "Vyhodnotíme vaši úroveň a\nvytvoříme pro vás nejlepší studijní cestu.",
+          "Vyhodnotíme vaši úroveň a vytvoříme pro vás nejlepší studijní cestu.",
       "assessmentStart": "Spustit test",
       "assessmentBenefitLevel": "Zjistíte svou úroveň",
       "assessmentBenefitVocabulary": "Prověříte si slovní zásobu",
       "assessmentBenefitAdapt": "Aplikace se přizpůsobí vaší úrovni",
       "levelSelectionTitle": "Vyberte svou úroveň angličtiny",
       "levelSelectionSubtitle":
-          "Vyberte správnou úroveň, abychom vám mohli\nvytvořit nejlepší studijní cestu.",
+          "Vyberte správnou úroveň, abychom vám mohli vytvořit nejlepší studijní cestu.",
       "levelBeginnerDescription": "Znám několik slov",
       "levelIntermediateDescription":
           "Znám už dost slov a chci se naučit další",
       "levelAdvancedDescription": "Chci se učit náročnější slova",
-      "assessmentLevelTitle": "Zhodnoťte svou aktuální\núroveň angličtiny",
+      "assessmentLevelTitle": "Zhodnoťte svou aktuální úroveň angličtiny",
       "assessmentLevelSubtitle":
-          "Vyberte správnou úroveň, abychom vám mohli\nvytvořit nejlepší studijní cestu.",
-      "assessmentLevelNew": "Právě začínám\na zatím nic neumím",
+          "Vyberte správnou úroveň, abychom vám mohli vytvořit nejlepší studijní cestu.",
+      "assessmentLevelNew": "Právě začínám a zatím nic neumím",
       "assessmentLevelBasic":
-          "Znám základy gramatiky\na umím říct jednoduchá slova\na fráze",
+          "Znám základy gramatiky a umím říct jednoduchá slova a fráze",
       "assessmentLevelConversational":
-          "Dokážu konverzovat, ale\nstále dělám chyby a\nčasto váhám",
+          "Dokážu konverzovat, ale stále dělám chyby a často váhám",
       "assessmentLevelFluent":
-          "Mluvím plynule, čtu knihy\na sleduji filmy\nv angličtině",
+          "Mluvím plynule, čtu knihy a sleduji filmy v angličtině",
       "assessmentLevelStart": "Spustit test",
-      "surveyIntroTitle": "Pojďme na\nkrátký průzkum!",
+      "surveyIntroTitle": "Pojďme na krátký průzkum!",
       "surveyIntroSubtitle":
-          "Na základě vašich odpovědí Leximon\nvybere nejlepší způsob učení právě pro vás.",
+          "Na základě vašich odpovědí Leximon vybere nejlepší způsob učení právě pro vás.",
       "freeTrialGift": "Dáváme vám",
       "freeTrialDuration": "7 dní zdarma",
       "freeTrialPurpose": "na vyzkoušení naší aplikace",
@@ -7654,7 +7661,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Nastavení se nepodařilo dokončit. Zkuste to znovu.",
       "subscriptionHeadlineSubtitle":
-          "angličtina se pro vás stane spolehlivým nástrojem\nv práci",
+          "angličtina se pro vás stane spolehlivým nástrojem v práci",
       "subscriptionLoadingPlans": "Načítání plánů předplatného…",
       "subscriptionLoadError":
           "Podrobnosti o předplatném se nepodařilo načíst.",
@@ -7668,7 +7675,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} dní",
       "subscriptionIn": "Za ",
       "subscriptionDaySuffix": " dní",
-      "subscriptionStart": "Spustit bezplatnou zkušební verzi\na předplatit",
+      "subscriptionStart": "Spustit bezplatnou zkušební verzi a předplatit",
       "surveySaveProgressError":
           "Pokrok se nepodařilo uložit. Zkuste to znovu.",
       "surveySaveTopicsError": "Vybraná témata se nepodařilo uložit.",
@@ -7715,13 +7722,13 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minut",
       "surveyStudyOverHour": "Více než 1 hodinu",
       "surveyHabitTitle":
-          "Kolik času jste připraveni\nvěnovat angličtině každý den?",
+          "Kolik času jste připraveni věnovat angličtině každý den?",
       "surveyHabitDescription":
           "Když si každý den vyhradíte pravidelný čas, snáze si vytvoříte návyk a ",
       "surveyHabitHighlight": "budete postupovat rychleji.",
       "surveyPreferredTimeQuestion": "Kdy se vám nejlépe učí anglicky?",
       "surveyReminderPrimary":
-          "Leximon vám připomene vaše lekce,\nabyste nevynechali ani den.",
+          "Leximon vám připomene vaše lekce, abyste nevynechali ani den.",
       "surveyReminderSecondary":
           "Zjistili jsme, že pravidelné procvičování může učení angličtiny zrychlit téměř ",
       "surveyReminderHighlight": "4,6×!",
@@ -7748,19 +7755,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Obsah odpovídá mé úrovni, lekce jsou srozumitelné a připomenutí mi pomáhají držet tempo.",
       "surveySocialProofPrefix": " pomohl ",
-      "surveySocialProofSuffix": " uživatelům\nzlepšit angličtinu",
-      "surveyTopicTitle": "Vyberte témata,\nkterá se chcete učit",
+      "surveySocialProofSuffix": " uživatelům zlepšit angličtinu",
+      "surveyTopicTitle": "Vyberte témata, která se chcete učit",
       "surveySelectAll": "Vybrat vše",
       "surveyAnalysisTopic": "Nastavujeme témata",
       "surveyAnalysisDictionary": "Vytváříme váš slovník",
       "surveyAnalysisExercises": "Vybíráme cvičení",
       "surveyAnalysisPace": "Nastavujeme tempo učení",
-      "surveyAnalysisProcessing": "Analyzujeme vaše\nodpovědi",
-      "surveyKnowledgeLead": "Angličtina je klíč, který vám pomáhá\n",
+      "surveyAnalysisProcessing": "Analyzujeme vaše odpovědi",
+      "surveyKnowledgeLead": "Angličtina je klíč, který vám pomáhá ",
       "surveyKnowledgeOpen": "otevřít dveře k poznání,",
-      "surveyKnowledgeConnect": "\nspojit se se světem a využít ",
+      "surveyKnowledgeConnect": " spojit se se světem a využít ",
       "surveyKnowledgeMore": "více příležitostí.",
-      "surveySummaryTitle": "Angličtina vám pomůže dojít\ndál",
+      "surveySummaryTitle": "Angličtina vám pomůže dojít dál",
       "surveySummaryQuoteOne":
           "Angličtina otevírá dveře k mezinárodním kariérním příležitostem a atraktivnějšímu příjmu.",
       "surveySummaryQuoteTwo":
@@ -7814,7 +7821,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "správných odpovědí",
       "vocabularyTestHalfwayTitle": "Skvělé!",
       "vocabularyTestHalfwayBody":
-          "Jste v polovině!\nS těmito slovy jste si vedli velmi dobře. Teď zkuste\no něco náročnější otázky.",
+          "Jste v polovině! S těmito slovy jste si vedli velmi dobře. Teď zkuste o něco náročnější otázky.",
       "vocabularyTestNextLevel": "Další úroveň: {level} · Část {part}",
       "skillListening": "Poslech",
       "skillVocabulary": "Slovní zásoba",
@@ -7996,7 +8003,7 @@ class AppLocalizations {
           "Všechny dokončené otázky v „{pack}“ budou smazány a pokrok se vrátí na 0 %. Tuto akci nelze vrátit zpět.",
       "grammarTitle": "Gramatika",
       "done": "Hotovo",
-      "grammarByLevelTitle": "Procvičování gramatiky\npodle úrovně",
+      "grammarByLevelTitle": "Procvičování gramatiky podle úrovně",
       "grammarMotivation": "Učte se každý den a zlepšujte se krok za krokem!",
       "overallProgress": "Celkový pokrok",
       "percentComplete": "Dokončeno {percent} %",
@@ -8054,7 +8061,7 @@ class AppLocalizations {
       "otherLessons": "Další lekce",
       "listeningPreloadTitle": "Načítání poslechového cvičení",
       "listeningPreloadSubtitle":
-          "Připravujeme data pro Poslech a psaní\npro „{lesson}“.",
+          "Připravujeme data pro Poslech a psaní pro „{lesson}“.",
       "ready": "Připraveno!",
       "listeningOpening": "Otevírání poslechového cvičení...",
       "listeningLoadingContent": "Načítání obsahu lekce...",
@@ -8308,7 +8315,7 @@ class AppLocalizations {
       "recentHistoryBody": "Lekce, které jste nedávno dokončili",
       "recentHistoryEmpty":
           "Zatím nemáte žádné dokončené relace. Dokončete lekci a historie se začne ukládat.",
-      "todayAtTime": "Dnes\n{time}",
+      "todayAtTime": "Dnes {time}",
       "weekdayMon": "Po",
       "weekdayTue": "Út",
       "weekdayWed": "St",
@@ -8788,8 +8795,8 @@ class AppLocalizations {
       "navProgress": "Fremskridt",
       "navChallenges": "Udfordringer",
       "navProfile": "Profil",
-      "languageTitle": "Vælg dit\nmodersmål",
-      "languageSubtitle": "Vi tilpasser din\nlæringsrejse til dig.",
+      "languageTitle": "Vælg dit modersmål",
+      "languageSubtitle": "Vi tilpasser din læringsrejse til dig.",
       "languageSaveError": "Sproget kunne ikke gemmes. Prøv igen.",
       "back": "Tilbage",
       "continue": "Fortsæt",
@@ -8832,32 +8839,32 @@ class AppLocalizations {
       "assessmentSkip": "Jeg kender mit niveau",
       "assessmentTitle": "Tag en kort test",
       "assessmentSubtitle":
-          "Vi vurderer dit niveau for at\nlave den bedste læringssti til dig.",
+          "Vi vurderer dit niveau for at lave den bedste læringssti til dig.",
       "assessmentStart": "Tag testen",
       "assessmentBenefitLevel": "Du finder ud af dit niveau",
       "assessmentBenefitVocabulary": "Tjek dit ordforråd",
       "assessmentBenefitAdapt": "Appen tilpasser sig dit niveau",
       "levelSelectionTitle": "Vælg dit engelskniveau",
       "levelSelectionSubtitle":
-          "Vælg det rigtige niveau, så vi kan\nlave den bedste læringssti til dig.",
+          "Vælg det rigtige niveau, så vi kan lave den bedste læringssti til dig.",
       "levelBeginnerDescription": "Jeg kan nogle få ord",
       "levelIntermediateDescription": "Jeg kan en del og vil gerne lære mere",
       "levelAdvancedDescription": "Jeg vil lære udfordrende ord",
-      "assessmentLevelTitle": "Vurder dit nuværende\nengelskniveau",
+      "assessmentLevelTitle": "Vurder dit nuværende engelskniveau",
       "assessmentLevelSubtitle":
-          "Vælg det rigtige niveau, så vi kan\nlave den bedste læringssti til dig.",
+          "Vælg det rigtige niveau, så vi kan lave den bedste læringssti til dig.",
       "assessmentLevelNew":
-          "Jeg er lige begyndt at lære\nog kan ikke noget endnu",
+          "Jeg er lige begyndt at lære og kan ikke noget endnu",
       "assessmentLevelBasic":
-          "Jeg kan lidt grundlæggende grammatik\nog kan sige enkle ord\nog sætninger",
+          "Jeg kan lidt grundlæggende grammatik og kan sige enkle ord og sætninger",
       "assessmentLevelConversational":
-          "Jeg kan føre samtaler, men\njeg laver stadig fejl og\ntøver ofte",
+          "Jeg kan føre samtaler, men jeg laver stadig fejl og tøver ofte",
       "assessmentLevelFluent":
-          "Jeg taler flydende, læser bøger\nog ser film\npå engelsk",
+          "Jeg taler flydende, læser bøger og ser film på engelsk",
       "assessmentLevelStart": "Start testen",
-      "surveyIntroTitle": "Lad os tage en\nkort undersøgelse!",
+      "surveyIntroTitle": "Lad os tage en kort undersøgelse!",
       "surveyIntroSubtitle":
-          "Ud fra dine svar vælger Leximon\nden bedste læringsmetode til dig.",
+          "Ud fra dine svar vælger Leximon den bedste læringsmetode til dig.",
       "freeTrialGift": "Vi giver dig",
       "freeTrialDuration": "7 dage gratis",
       "freeTrialPurpose": "til at prøve vores app",
@@ -8870,7 +8877,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Opsætningen kunne ikke fuldføres. Prøv igen.",
       "subscriptionHeadlineSubtitle":
-          "dit engelsk bliver et pålideligt værktøj\npå arbejdet",
+          "dit engelsk bliver et pålideligt værktøj på arbejdet",
       "subscriptionLoadingPlans": "Indlæser abonnementer…",
       "subscriptionLoadError":
           "Oplysninger om abonnementet kunne ikke indlæses.",
@@ -8885,7 +8892,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} dage",
       "subscriptionIn": "Om ",
       "subscriptionDaySuffix": " dage",
-      "subscriptionStart": "Start gratis prøveperiode\nog abonnér",
+      "subscriptionStart": "Start gratis prøveperiode og abonnér",
       "surveySaveProgressError":
           "Dine fremskridt kunne ikke gemmes. Prøv igen.",
       "surveySaveTopicsError": "De valgte emner kunne ikke gemmes.",
@@ -8933,14 +8940,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minutter",
       "surveyStudyOverHour": "Mere end 1 time",
       "surveyHabitTitle":
-          "Hvor meget tid er du klar til at\nbruge på engelsk hver dag?",
+          "Hvor meget tid er du klar til at bruge på engelsk hver dag?",
       "surveyHabitDescription":
           "At afsætte et fast tidspunkt hver dag hjælper dig med at opbygge en vane og ",
       "surveyHabitHighlight": "gøre hurtigere fremskridt.",
       "surveyPreferredTimeQuestion":
           "Hvornår passer det dig bedst at lære engelsk?",
       "surveyReminderPrimary":
-          "Leximon minder dig om dine lektioner,\nså du ikke går glip af en dag.",
+          "Leximon minder dig om dine lektioner, så du ikke går glip af en dag.",
       "surveyReminderSecondary":
           "Vi har fundet ud af, at regelmæssig træning kan gøre din engelsklæring næsten ",
       "surveyReminderHighlight": "4,6× hurtigere!",
@@ -8968,19 +8975,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Indholdet passer til mit niveau, lektionerne er tydelige, og påmindelserne hjælper mig med at holde kursen.",
       "surveySocialProofPrefix": " har hjulpet ",
-      "surveySocialProofSuffix": " brugere\nmed at forbedre deres engelsk",
-      "surveyTopicTitle": "Vælg de emner,\ndu vil lære",
+      "surveySocialProofSuffix": " brugere med at forbedre deres engelsk",
+      "surveyTopicTitle": "Vælg de emner, du vil lære",
       "surveySelectAll": "Vælg alle",
       "surveyAnalysisTopic": "Opsætter emner",
       "surveyAnalysisDictionary": "Opretter din ordbog",
       "surveyAnalysisExercises": "Vælger øvelser",
       "surveyAnalysisPace": "Indstiller dit læringstempo",
-      "surveyAnalysisProcessing": "Analyserer dine\nsvar",
-      "surveyKnowledgeLead": "Engelsk er nøglen, der hjælper dig med at\n",
+      "surveyAnalysisProcessing": "Analyserer dine svar",
+      "surveyKnowledgeLead": "Engelsk er nøglen, der hjælper dig med at ",
       "surveyKnowledgeOpen": "åbne døren til viden,",
-      "surveyKnowledgeConnect": "\nforbinde dig med verden og gribe ",
+      "surveyKnowledgeConnect": " forbinde dig med verden og gribe ",
       "surveyKnowledgeMore": "flere muligheder.",
-      "surveySummaryTitle": "Engelsk hjælper dig\nvidere",
+      "surveySummaryTitle": "Engelsk hjælper dig videre",
       "surveySummaryQuoteOne":
           "Engelsk åbner døren til internationale karrieremuligheder og en mere attraktiv indkomst.",
       "surveySummaryQuoteTwo":
@@ -9035,7 +9042,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "korrekte svar",
       "vocabularyTestHalfwayTitle": "Godt!",
       "vocabularyTestHalfwayBody":
-          "Du er halvvejs!\nDu klarede disse ord rigtig godt. Prøv nu\nnogle mere udfordrende spørgsmål.",
+          "Du er halvvejs! Du klarede disse ord rigtig godt. Prøv nu nogle mere udfordrende spørgsmål.",
       "vocabularyTestNextLevel": "Næste niveau: {level} · Del {part}",
       "skillListening": "Lytning",
       "skillVocabulary": "Ordforråd",
@@ -9216,7 +9223,7 @@ class AppLocalizations {
           "Alle fuldførte spørgsmål i “{pack}” bliver slettet, og fremskridtet går tilbage til 0 %. Dette kan ikke fortrydes.",
       "grammarTitle": "Grammatik",
       "done": "Færdig",
-      "grammarByLevelTitle": "Grammatikøvelser\nefter niveau",
+      "grammarByLevelTitle": "Grammatikøvelser efter niveau",
       "grammarMotivation": "Lær hver dag, og bliv bedre skridt for skridt!",
       "overallProgress": "Samlede fremskridt",
       "percentComplete": "{percent}% fuldført",
@@ -9274,7 +9281,7 @@ class AppLocalizations {
       "otherLessons": "Andre lektioner",
       "listeningPreloadTitle": "Indlæser lytteøvelse",
       "listeningPreloadSubtitle":
-          "Forbereder data til Lyt og skriv\nfor “{lesson}”.",
+          "Forbereder data til Lyt og skriv for “{lesson}”.",
       "ready": "Klar!",
       "listeningOpening": "Åbner lytteøvelsen...",
       "listeningLoadingContent": "Indlæser lektionsindhold...",
@@ -9521,7 +9528,7 @@ class AppLocalizations {
       "recentHistoryBody": "Lektioner, du har fuldført for nylig",
       "recentHistoryEmpty":
           "Ingen fuldførte sessioner endnu. Fuldfør en lektion for at starte din historik.",
-      "todayAtTime": "I dag\n{time}",
+      "todayAtTime": "I dag {time}",
       "weekdayMon": "Man",
       "weekdayTue": "Tir",
       "weekdayWed": "Ons",
@@ -9996,8 +10003,8 @@ class AppLocalizations {
       "navProgress": "Progreso",
       "navChallenges": "Retos",
       "navProfile": "Perfil",
-      "languageTitle": "Elige tu\nidioma nativo",
-      "languageSubtitle": "Personalizaremos tu\nruta de aprendizaje.",
+      "languageTitle": "Elige tu idioma nativo",
+      "languageSubtitle": "Personalizaremos tu ruta de aprendizaje.",
       "languageSaveError":
           "No se ha podido guardar el idioma. Inténtalo de nuevo.",
       "back": "Atrás",
@@ -10030,7 +10037,8 @@ class AppLocalizations {
       "loading": "Cargando...",
       "preparingLanguagePackage": "Preparando contenido del idioma...",
       "checkingLanguageModels": "Comprobando modelos de idioma sin conexión...",
-      "downloadingLanguageModel": "Descargando modelo de idioma {current}/{total}...",
+      "downloadingLanguageModel":
+          "Descargando modelo de idioma {current}/{total}...",
       "languageModelsReady": "Los modelos de idioma están listos",
       "languagePickerTitle": "Elige un idioma",
       "languagePickerSubtitle": "Elige el idioma que quieres aprender",
@@ -10041,31 +10049,31 @@ class AppLocalizations {
       "assessmentSkip": "Ya conozco mi nivel",
       "assessmentTitle": "Haz una prueba rápida",
       "assessmentSubtitle":
-          "Evaluaremos tu nivel para\ncrear la mejor ruta de aprendizaje para ti.",
+          "Evaluaremos tu nivel para crear la mejor ruta de aprendizaje para ti.",
       "assessmentStart": "Hacer la prueba",
       "assessmentBenefitLevel": "Descubrirás cuál es tu nivel",
       "assessmentBenefitVocabulary": "Comprobarás tu vocabulario",
       "assessmentBenefitAdapt": "La aplicación se adaptará a tu nivel",
       "levelSelectionTitle": "Elige tu nivel de inglés",
       "levelSelectionSubtitle":
-          "Elige el nivel adecuado para que podamos\ncrear la mejor ruta de aprendizaje para ti.",
+          "Elige el nivel adecuado para que podamos crear la mejor ruta de aprendizaje para ti.",
       "levelBeginnerDescription": "Conozco algunas palabras",
       "levelIntermediateDescription": "Sé bastante y quiero aprender más",
       "levelAdvancedDescription": "Quiero aprender palabras difíciles",
-      "assessmentLevelTitle": "Evalúa tu nivel actual\nde inglés",
+      "assessmentLevelTitle": "Evalúa tu nivel actual de inglés",
       "assessmentLevelSubtitle":
-          "Elige el nivel adecuado para que podamos\ncrear la mejor ruta de aprendizaje para ti.",
-      "assessmentLevelNew": "Acabo de empezar a aprender\ny todavía no sé nada",
+          "Elige el nivel adecuado para que podamos crear la mejor ruta de aprendizaje para ti.",
+      "assessmentLevelNew": "Acabo de empezar a aprender y todavía no sé nada",
       "assessmentLevelBasic":
-          "Conozco algo de gramática básica\ny puedo decir palabras\ny frases sencillas",
+          "Conozco algo de gramática básica y puedo decir palabras y frases sencillas",
       "assessmentLevelConversational":
-          "Puedo mantener conversaciones, pero\ntodavía cometo errores y\ndudo a menudo",
+          "Puedo mantener conversaciones, pero todavía cometo errores y dudo a menudo",
       "assessmentLevelFluent":
-          "Hablo con fluidez, leo libros\ny veo películas\nen inglés",
+          "Hablo con fluidez, leo libros y veo películas en inglés",
       "assessmentLevelStart": "Empezar la prueba",
-      "surveyIntroTitle": "¡Hagamos una\nbreve encuesta!",
+      "surveyIntroTitle": "¡Hagamos una breve encuesta!",
       "surveyIntroSubtitle":
-          "Según tus respuestas, Leximon\nelegirá el mejor método de aprendizaje para ti.",
+          "Según tus respuestas, Leximon elegirá el mejor método de aprendizaje para ti.",
       "freeTrialGift": "Te regalamos",
       "freeTrialDuration": "7 días gratis",
       "freeTrialPurpose": "para probar nuestra aplicación",
@@ -10078,7 +10086,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "No se ha podido completar la configuración. Inténtalo de nuevo.",
       "subscriptionHeadlineSubtitle":
-          "tu inglés se convertirá en una herramienta fiable\nen el trabajo",
+          "tu inglés se convertirá en una herramienta fiable en el trabajo",
       "subscriptionLoadingPlans": "Cargando planes de suscripción…",
       "subscriptionLoadError":
           "No se han podido cargar los detalles del plan de suscripción.",
@@ -10092,7 +10100,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} días",
       "subscriptionIn": "En ",
       "subscriptionDaySuffix": " días",
-      "subscriptionStart": "Empezar prueba gratis\ny suscribirse",
+      "subscriptionStart": "Empezar prueba gratis y suscribirse",
       "surveySaveProgressError":
           "No se ha podido guardar tu progreso. Inténtalo de nuevo.",
       "surveySaveTopicsError":
@@ -10141,14 +10149,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minutos",
       "surveyStudyOverHour": "Más de 1 hora",
       "surveyHabitTitle":
-          "¿Cuánto tiempo estás dispuesto a\ndedicar cada día a aprender inglés?",
+          "¿Cuánto tiempo estás dispuesto a dedicar cada día a aprender inglés?",
       "surveyHabitDescription":
           "Reservar un momento cada día te ayuda a crear un hábito y ",
       "surveyHabitHighlight": "avanzar más rápido.",
       "surveyPreferredTimeQuestion":
           "¿Qué hora te viene mejor para estudiar inglés?",
       "surveyReminderPrimary":
-          "Leximon te recordará tus lecciones\npara que no te saltes ningún día.",
+          "Leximon te recordará tus lecciones para que no te saltes ningún día.",
       "surveyReminderSecondary":
           "Hemos comprobado que practicar con regularidad puede hacer que aprendas inglés casi ",
       "surveyReminderHighlight": "¡4,6 veces más rápido!",
@@ -10176,19 +10184,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "El contenido se adapta a mi nivel, las lecciones son claras y los recordatorios me ayudan a mantener el ritmo.",
       "surveySocialProofPrefix": " ha ayudado a ",
-      "surveySocialProofSuffix": " usuarios a\nmejorar su inglés",
-      "surveyTopicTitle": "Elige los temas\nque quieres aprender",
+      "surveySocialProofSuffix": " usuarios a mejorar su inglés",
+      "surveyTopicTitle": "Elige los temas que quieres aprender",
       "surveySelectAll": "Seleccionar todo",
       "surveyAnalysisTopic": "Configurando temas",
       "surveyAnalysisDictionary": "Creando tu diccionario",
       "surveyAnalysisExercises": "Eligiendo ejercicios",
       "surveyAnalysisPace": "Ajustando tu ritmo de aprendizaje",
-      "surveyAnalysisProcessing": "Analizando tus\nrespuestas",
-      "surveyKnowledgeLead": "El inglés es la llave que te ayuda a\n",
+      "surveyAnalysisProcessing": "Analizando tus respuestas",
+      "surveyKnowledgeLead": "El inglés es la llave que te ayuda a ",
       "surveyKnowledgeOpen": "abrir la puerta al conocimiento,",
-      "surveyKnowledgeConnect": "\nconectar con el mundo y aprovechar ",
+      "surveyKnowledgeConnect": " conectar con el mundo y aprovechar ",
       "surveyKnowledgeMore": "más oportunidades.",
-      "surveySummaryTitle": "El inglés te ayuda a llegar\nmás lejos",
+      "surveySummaryTitle": "El inglés te ayuda a llegar más lejos",
       "surveySummaryQuoteOne":
           "El inglés abre la puerta a oportunidades profesionales internacionales y a mejores ingresos.",
       "surveySummaryQuoteTwo":
@@ -10244,7 +10252,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "respuestas correctas",
       "vocabularyTestHalfwayTitle": "¡Genial!",
       "vocabularyTestHalfwayBody":
-          "¡Ya estás a mitad de camino!\nLo has hecho muy bien con estas palabras. Ahora prueba\ncon preguntas un poco más difíciles.",
+          "¡Ya estás a mitad de camino! Lo has hecho muy bien con estas palabras. Ahora prueba con preguntas un poco más difíciles.",
       "vocabularyTestNextLevel": "Siguiente nivel: {level} · Parte {part}",
       "skillListening": "Comprensión oral",
       "skillVocabulary": "Vocabulario",
@@ -10433,7 +10441,7 @@ class AppLocalizations {
           "Se eliminarán todas las preguntas completadas de «{pack}» y el progreso volverá al 0 %. Esta acción no se puede deshacer.",
       "grammarTitle": "Gramática",
       "done": "Hecho",
-      "grammarByLevelTitle": "Práctica de gramática\npor nivel",
+      "grammarByLevelTitle": "Práctica de gramática por nivel",
       "grammarMotivation": "¡Aprende cada día y mejora paso a paso!",
       "overallProgress": "Progreso general",
       "percentComplete": "{percent}% completado",
@@ -10494,7 +10502,7 @@ class AppLocalizations {
       "otherLessons": "Otras lecciones",
       "listeningPreloadTitle": "Cargando ejercicio de comprensión oral",
       "listeningPreloadSubtitle":
-          "Preparando los datos de Escuchar y escribir\npara «{lesson}».",
+          "Preparando los datos de Escuchar y escribir para «{lesson}».",
       "ready": "¡Listo!",
       "listeningOpening": "Abriendo el ejercicio de comprensión oral...",
       "listeningLoadingContent": "Cargando el contenido de la lección...",
@@ -10751,7 +10759,7 @@ class AppLocalizations {
       "recentHistoryBody": "Lecciones que has completado recientemente",
       "recentHistoryEmpty":
           "Todavía no hay sesiones completadas. Completa una lección para empezar tu historial.",
-      "todayAtTime": "Hoy\n{time}",
+      "todayAtTime": "Hoy {time}",
       "weekdayMon": "Lun",
       "weekdayTue": "Mar",
       "weekdayWed": "Mié",
@@ -11255,8 +11263,8 @@ class AppLocalizations {
       "navProgress": "Edistyminen",
       "navChallenges": "Haasteet",
       "navProfile": "Profiili",
-      "languageTitle": "Valitse\näidinkielesi",
-      "languageSubtitle": "Mukautamme oppimispolkusi\nsinulle sopivaksi.",
+      "languageTitle": "Valitse äidinkielesi",
+      "languageSubtitle": "Mukautamme oppimispolkusi sinulle sopivaksi.",
       "languageSaveError": "Kieltä ei voitu tallentaa. Yritä uudelleen.",
       "back": "Takaisin",
       "continue": "Jatka",
@@ -11299,33 +11307,33 @@ class AppLocalizations {
       "assessmentSkip": "Tiedän tasoni",
       "assessmentTitle": "Tee lyhyt testi",
       "assessmentSubtitle":
-          "Arvioimme tasosi,\njotta voimme rakentaa sinulle parhaan oppimispolun.",
+          "Arvioimme tasosi, jotta voimme rakentaa sinulle parhaan oppimispolun.",
       "assessmentStart": "Tee testi",
       "assessmentBenefitLevel": "Saat selville tasosi",
       "assessmentBenefitVocabulary": "Tarkista sanavarastosi",
       "assessmentBenefitAdapt": "Sovellus mukautuu tasollesi",
       "levelSelectionTitle": "Valitse englannin tasosi",
       "levelSelectionSubtitle":
-          "Valitse sopiva taso, jotta voimme\nrakentaa sinulle parhaan oppimispolun.",
+          "Valitse sopiva taso, jotta voimme rakentaa sinulle parhaan oppimispolun.",
       "levelBeginnerDescription": "Osaan muutaman sanan",
       "levelIntermediateDescription":
           "Osaan jo melko paljon ja haluan oppia lisää",
       "levelAdvancedDescription": "Haluan oppia haastavia sanoja",
-      "assessmentLevelTitle": "Arvioi nykyinen\nenglannin tasosi",
+      "assessmentLevelTitle": "Arvioi nykyinen englannin tasosi",
       "assessmentLevelSubtitle":
-          "Valitse sopiva taso, jotta voimme\nrakentaa sinulle parhaan oppimispolun.",
+          "Valitse sopiva taso, jotta voimme rakentaa sinulle parhaan oppimispolun.",
       "assessmentLevelNew":
-          "Olen juuri aloittanut opiskelun\nenkä osaa vielä mitään",
+          "Olen juuri aloittanut opiskelun enkä osaa vielä mitään",
       "assessmentLevelBasic":
-          "Osaan hieman peruskielioppia\nja pystyn sanomaan yksinkertaisia sanoja\nja ilmauksia",
+          "Osaan hieman peruskielioppia ja pystyn sanomaan yksinkertaisia sanoja ja ilmauksia",
       "assessmentLevelConversational":
-          "Pystyn keskustelemaan, mutta\nteen yhä virheitä ja\nepäröin usein",
+          "Pystyn keskustelemaan, mutta teen yhä virheitä ja epäröin usein",
       "assessmentLevelFluent":
-          "Puhun sujuvasti, luen kirjoja\nja katson elokuvia\nenglanniksi",
+          "Puhun sujuvasti, luen kirjoja ja katson elokuvia englanniksi",
       "assessmentLevelStart": "Aloita testi",
-      "surveyIntroTitle": "Tehdään\nlyhyt kysely!",
+      "surveyIntroTitle": "Tehdään lyhyt kysely!",
       "surveyIntroSubtitle":
-          "Vastaustesi perusteella Leximon\nvalitsee sinulle parhaan oppimistavan.",
+          "Vastaustesi perusteella Leximon valitsee sinulle parhaan oppimistavan.",
       "freeTrialGift": "Annamme sinulle",
       "freeTrialDuration": "7 päivää ilmaiseksi",
       "freeTrialPurpose": "sovelluksemme kokeilemiseen",
@@ -11338,7 +11346,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Määritystä ei voitu viimeistellä. Yritä uudelleen.",
       "subscriptionHeadlineSubtitle":
-          "englannistasi tulee luotettava työkalu\ntyössä",
+          "englannistasi tulee luotettava työkalu työssä",
       "subscriptionLoadingPlans": "Tilausvaihtoehtoja ladataan…",
       "subscriptionLoadError": "Tilausvaihtoehtojen tietoja ei voitu ladata.",
       "subscriptionStorePriceUnavailable": "App Storen hinta ei ole saatavilla",
@@ -11351,7 +11359,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} päivää",
       "subscriptionIn": "",
       "subscriptionDaySuffix": " päivän kuluttua",
-      "subscriptionStart": "Aloita ilmainen kokeilu\nja tilaa",
+      "subscriptionStart": "Aloita ilmainen kokeilu ja tilaa",
       "surveySaveProgressError":
           "Edistymistäsi ei voitu tallentaa. Yritä uudelleen.",
       "surveySaveTopicsError": "Valittuja aiheita ei voitu tallentaa.",
@@ -11401,14 +11409,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minuuttia",
       "surveyStudyOverHour": "Yli 1 tunti",
       "surveyHabitTitle":
-          "Kuinka paljon aikaa olet valmis\nkäyttämään englannin opiskeluun päivittäin?",
+          "Kuinka paljon aikaa olet valmis käyttämään englannin opiskeluun päivittäin?",
       "surveyHabitDescription":
           "Säännöllisen ajan varaaminen joka päivä auttaa sinua luomaan tavan ja ",
       "surveyHabitHighlight": "edistymään nopeammin.",
       "surveyPreferredTimeQuestion":
           "Mihin aikaan sinun on kätevintä opiskella englantia?",
       "surveyReminderPrimary":
-          "Leximon muistuttaa sinua oppitunneistasi,\njotta et jätä päivääkään väliin.",
+          "Leximon muistuttaa sinua oppitunneistasi, jotta et jätä päivääkään väliin.",
       "surveyReminderSecondary":
           "Olemme havainneet, että säännöllinen harjoittelu voi tehdä englannin oppimisesta lähes ",
       "surveyReminderHighlight": "4,6× nopeampaa!",
@@ -11436,19 +11444,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Sisältö vastaa tasoani, oppitunnit ovat selkeitä ja muistutukset auttavat minua pysymään oikealla polulla.",
       "surveySocialProofPrefix": " on auttanut ",
-      "surveySocialProofSuffix": " käyttäjää\nparantamaan englannin taitoaan",
-      "surveyTopicTitle": "Valitse aiheet,\njoita haluat oppia",
+      "surveySocialProofSuffix": " käyttäjää parantamaan englannin taitoaan",
+      "surveyTopicTitle": "Valitse aiheet, joita haluat oppia",
       "surveySelectAll": "Valitse kaikki",
       "surveyAnalysisTopic": "Aiheita määritetään",
       "surveyAnalysisDictionary": "Sanakirjaasi luodaan",
       "surveyAnalysisExercises": "Harjoituksia valitaan",
       "surveyAnalysisPace": "Oppimistahtiasi määritetään",
-      "surveyAnalysisProcessing": "Vastauksiasi\nanalysoidaan",
-      "surveyKnowledgeLead": "Englanti on avain, joka auttaa sinua\n",
+      "surveyAnalysisProcessing": "Vastauksiasi analysoidaan",
+      "surveyKnowledgeLead": "Englanti on avain, joka auttaa sinua ",
       "surveyKnowledgeOpen": "avaamaan oven tietoon,",
-      "surveyKnowledgeConnect": "\nolemaan yhteydessä maailmaan ja tarttumaan ",
+      "surveyKnowledgeConnect": " olemaan yhteydessä maailmaan ja tarttumaan ",
       "surveyKnowledgeMore": "uusiin mahdollisuuksiin.",
-      "surveySummaryTitle": "Englanti auttaa sinua\npääsemään pidemmälle",
+      "surveySummaryTitle": "Englanti auttaa sinua pääsemään pidemmälle",
       "surveySummaryQuoteOne":
           "Englanti avaa oven kansainvälisiin uramahdollisuuksiin ja parempiin ansioihin.",
       "surveySummaryQuoteTwo":
@@ -11501,7 +11509,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "oikeaa vastausta",
       "vocabularyTestHalfwayTitle": "Hienoa!",
       "vocabularyTestHalfwayBody":
-          "Olet puolivälissä!\nPärjäsit erittäin hyvin näiden sanojen kanssa. Kokeile nyt\nhieman haastavampia kysymyksiä.",
+          "Olet puolivälissä! Pärjäsit erittäin hyvin näiden sanojen kanssa. Kokeile nyt hieman haastavampia kysymyksiä.",
       "vocabularyTestNextLevel": "Seuraava taso: {level} · Osa {part}",
       "skillListening": "Kuuntelu",
       "skillVocabulary": "Sanasto",
@@ -11684,7 +11692,7 @@ class AppLocalizations {
           "Kaikki paketin “{pack}” suoritetut kysymykset poistetaan ja edistyminen palautuu 0 %:iin. Tätä ei voi kumota.",
       "grammarTitle": "Kielioppi",
       "done": "Valmis",
-      "grammarByLevelTitle": "Kielioppiharjoittelu\ntasoittain",
+      "grammarByLevelTitle": "Kielioppiharjoittelu tasoittain",
       "grammarMotivation": "Opi joka päivä ja kehity askel askeleelta!",
       "overallProgress": "Kokonaisedistyminen",
       "percentComplete": "{percent}% suoritettu",
@@ -11743,7 +11751,7 @@ class AppLocalizations {
       "otherLessons": "Muut oppitunnit",
       "listeningPreloadTitle": "Kuunteluharjoitusta ladataan",
       "listeningPreloadSubtitle":
-          "Valmistellaan Kuuntele ja kirjoita -tietoja\noppitunnille “{lesson}”.",
+          "Valmistellaan Kuuntele ja kirjoita -tietoja oppitunnille “{lesson}”.",
       "ready": "Valmis!",
       "listeningOpening": "Kuunteluharjoitusta avataan...",
       "listeningLoadingContent": "Oppitunnin sisältöä ladataan...",
@@ -11997,7 +12005,7 @@ class AppLocalizations {
       "recentHistoryBody": "Hiljattain suorittamasi oppitunnit",
       "recentHistoryEmpty":
           "Ei vielä suoritettuja harjoituskertoja. Suorita oppitunti aloittaaksesi historian.",
-      "todayAtTime": "Tänään\n{time}",
+      "todayAtTime": "Tänään {time}",
       "weekdayMon": "ma",
       "weekdayTue": "ti",
       "weekdayWed": "ke",
@@ -12481,9 +12489,9 @@ class AppLocalizations {
       "navProgress": "Progreso",
       "navChallenges": "Mga Hamon",
       "navProfile": "Profile",
-      "languageTitle": "Piliin ang iyong\nkatutubong wika",
+      "languageTitle": "Piliin ang iyong katutubong wika",
       "languageSubtitle":
-          "Iaangkop namin ang iyong\npaglalakbay sa pag-aaral para sa iyo.",
+          "Iaangkop namin ang iyong paglalakbay sa pag-aaral para sa iyo.",
       "languageSaveError": "Hindi ma-save ang wika. Pakisubukang muli.",
       "back": "Bumalik",
       "continue": "Magpatuloy",
@@ -12515,7 +12523,8 @@ class AppLocalizations {
       "loading": "Naglo-load...",
       "preparingLanguagePackage": "Inihahanda ang nilalaman ng wika...",
       "checkingLanguageModels": "Sinusuri ang mga offline na modelo ng wika...",
-      "downloadingLanguageModel": "Nagda-download ng modelo ng wika {current}/{total}...",
+      "downloadingLanguageModel":
+          "Nagda-download ng modelo ng wika {current}/{total}...",
       "languageModelsReady": "Handa na ang mga modelo ng wika",
       "languagePickerTitle": "Pumili ng wika",
       "languagePickerSubtitle": "Piliin ang wikang gusto mong matutuhan",
@@ -12526,7 +12535,7 @@ class AppLocalizations {
       "assessmentSkip": "Alam ko ang antas ko",
       "assessmentTitle": "Kumuha ng maikling pagsusulit",
       "assessmentSubtitle":
-          "Susuriin namin ang iyong antas upang\nmaibuo ang pinakamahusay na landas ng pag-aaral para sa iyo.",
+          "Susuriin namin ang iyong antas upang maibuo ang pinakamahusay na landas ng pag-aaral para sa iyo.",
       "assessmentStart": "Kumuha ng pagsusulit",
       "assessmentBenefitLevel": "Malalaman mo ang iyong antas",
       "assessmentBenefitVocabulary": "Suriin ang iyong bokabularyo",
@@ -12534,27 +12543,27 @@ class AppLocalizations {
           "Iaangkop ng app ang sarili nito sa iyong antas",
       "levelSelectionTitle": "Piliin ang iyong antas sa English",
       "levelSelectionSubtitle":
-          "Piliin ang tamang antas upang\nmaibuo namin ang pinakamahusay na landas ng pag-aaral para sa iyo.",
+          "Piliin ang tamang antas upang maibuo namin ang pinakamahusay na landas ng pag-aaral para sa iyo.",
       "levelBeginnerDescription": "Kaunti pa lang ang alam kong salita",
       "levelIntermediateDescription":
           "Marami na akong alam at gusto ko pang matuto",
       "levelAdvancedDescription":
           "Gusto kong matuto ng mas mahihirap na salita",
-      "assessmentLevelTitle": "Suriin ang kasalukuyan mong\nantas sa English",
+      "assessmentLevelTitle": "Suriin ang kasalukuyan mong antas sa English",
       "assessmentLevelSubtitle":
-          "Piliin ang tamang antas upang\nmaibuo namin ang pinakamahusay na landas ng pag-aaral para sa iyo.",
+          "Piliin ang tamang antas upang maibuo namin ang pinakamahusay na landas ng pag-aaral para sa iyo.",
       "assessmentLevelNew":
-          "Nagsisimula pa lang akong matuto\nat wala pa akong alam",
+          "Nagsisimula pa lang akong matuto at wala pa akong alam",
       "assessmentLevelBasic":
-          "May alam akong pangunahing grammar\nat nakakapagsabi ng simpleng salita\nat parirala",
+          "May alam akong pangunahing grammar at nakakapagsabi ng simpleng salita at parirala",
       "assessmentLevelConversational":
-          "Nakakapag-usap ako, pero\nnagkakamali pa rin ako at\nmadalas mag-alinlangan",
+          "Nakakapag-usap ako, pero nagkakamali pa rin ako at madalas mag-alinlangan",
       "assessmentLevelFluent":
-          "Matatas akong magsalita, magbasa ng libro,\nat manood ng pelikula\nsa English",
+          "Matatas akong magsalita, magbasa ng libro, at manood ng pelikula sa English",
       "assessmentLevelStart": "Simulan ang pagsusulit",
-      "surveyIntroTitle": "Sagutan natin ang\nmaikling survey!",
+      "surveyIntroTitle": "Sagutan natin ang maikling survey!",
       "surveyIntroSubtitle":
-          "Batay sa iyong mga sagot, pipili ang Leximon ng\npinakamainam na paraan ng pag-aaral para sa iyo.",
+          "Batay sa iyong mga sagot, pipili ang Leximon ng pinakamainam na paraan ng pag-aaral para sa iyo.",
       "freeTrialGift": "Ibinibigay namin sa iyo ang",
       "freeTrialDuration": "7 araw na libre",
       "freeTrialPurpose": "para masubukan ang aming app",
@@ -12567,7 +12576,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Hindi makumpleto ang setup. Pakisubukang muli.",
       "subscriptionHeadlineSubtitle":
-          "magiging maaasahang kasangkapan ang iyong English\nsa trabaho",
+          "magiging maaasahang kasangkapan ang iyong English sa trabaho",
       "subscriptionLoadingPlans": "Nilo-load ang mga subscription plan…",
       "subscriptionLoadError":
           "Hindi ma-load ang mga detalye ng subscription plan.",
@@ -12582,7 +12591,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} araw",
       "subscriptionIn": "Sa loob ng ",
       "subscriptionDaySuffix": " araw",
-      "subscriptionStart": "Simulan ang libreng trial\nat mag-subscribe",
+      "subscriptionStart": "Simulan ang libreng trial at mag-subscribe",
       "surveySaveProgressError":
           "Hindi ma-save ang iyong progreso. Pakisubukang muli.",
       "surveySaveTopicsError": "Hindi ma-save ang mga napiling paksa.",
@@ -12633,14 +12642,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minuto",
       "surveyStudyOverHour": "Mahigit 1 oras",
       "surveyHabitTitle":
-          "Gaano karaming oras ang handa mong\nilaan sa pag-aaral ng English bawat araw?",
+          "Gaano karaming oras ang handa mong ilaan sa pag-aaral ng English bawat araw?",
       "surveyHabitDescription":
           "Ang paglalaan ng regular na oras araw-araw ay nakakatulong na bumuo ng habit at ",
       "surveyHabitHighlight": "mas mabilis na umunlad.",
       "surveyPreferredTimeQuestion":
           "Anong oras ang pinakaangkop para sa iyo na mag-aral ng English?",
       "surveyReminderPrimary":
-          "Paalalahanan ka ng Leximon tungkol sa iyong mga lesson\npara hindi ka makaligtaan ng kahit isang araw.",
+          "Paalalahanan ka ng Leximon tungkol sa iyong mga lesson para hindi ka makaligtaan ng kahit isang araw.",
       "surveyReminderSecondary":
           "Nalaman namin na ang regular na pagsasanay ay maaaring gawing halos ",
       "surveyReminderHighlight": "4.6× na mas mabilis!",
@@ -12670,19 +12679,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Akma ang content sa antas ko, malinaw ang mga lesson, at nakakatulong ang mga paalala para manatili akong on track.",
       "surveySocialProofPrefix": " ay nakatulong sa ",
-      "surveySocialProofSuffix": " user na\nmapahusay ang kanilang English",
-      "surveyTopicTitle": "Piliin ang mga paksang\ngusto mong aralin",
+      "surveySocialProofSuffix": " user na mapahusay ang kanilang English",
+      "surveyTopicTitle": "Piliin ang mga paksang gusto mong aralin",
       "surveySelectAll": "Piliin lahat",
       "surveyAnalysisTopic": "Inaayos ang mga paksa",
       "surveyAnalysisDictionary": "Ginagawa ang iyong diksyunaryo",
       "surveyAnalysisExercises": "Pinipili ang mga ehersisyo",
       "surveyAnalysisPace": "Inaayos ang bilis ng iyong pag-aaral",
-      "surveyAnalysisProcessing": "Sinusuri ang iyong\nmga sagot",
-      "surveyKnowledgeLead": "Ang English ang susi na tumutulong sa iyo na\n",
+      "surveyAnalysisProcessing": "Sinusuri ang iyong mga sagot",
+      "surveyKnowledgeLead": "Ang English ang susi na tumutulong sa iyo na ",
       "surveyKnowledgeOpen": "buksan ang pinto sa kaalaman,",
-      "surveyKnowledgeConnect": "\nkumonekta sa mundo, at samantalahin ang ",
+      "surveyKnowledgeConnect": " kumonekta sa mundo, at samantalahin ang ",
       "surveyKnowledgeMore": "mas maraming pagkakataon.",
-      "surveySummaryTitle": "Tinutulungan ka ng English na\nmas makalayo",
+      "surveySummaryTitle": "Tinutulungan ka ng English na mas makalayo",
       "surveySummaryQuoteOne":
           "Binubuksan ng English ang pinto sa mga pandaigdigang oportunidad sa career at mas magandang kita.",
       "surveySummaryQuoteTwo":
@@ -12739,7 +12748,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "tamang sagot",
       "vocabularyTestHalfwayTitle": "Ayos!",
       "vocabularyTestHalfwayBody":
-          "Nasa kalahati ka na!\nNapakahusay mo sa mga salitang ito. Ngayon, subukan\nang ilang mas mahihirap na tanong.",
+          "Nasa kalahati ka na! Napakahusay mo sa mga salitang ito. Ngayon, subukan ang ilang mas mahihirap na tanong.",
       "vocabularyTestNextLevel": "Susunod na antas: {level} · Bahagi {part}",
       "skillListening": "Pakikinig",
       "skillVocabulary": "Bokabularyo",
@@ -12929,7 +12938,7 @@ class AppLocalizations {
           "Mabubura ang lahat ng natapos na tanong sa “{pack}” at babalik sa 0% ang progreso. Hindi ito maaaring i-undo.",
       "grammarTitle": "Gramatika",
       "done": "Tapos na",
-      "grammarByLevelTitle": "Pagsasanay sa grammar\nayon sa antas",
+      "grammarByLevelTitle": "Pagsasanay sa grammar ayon sa antas",
       "grammarMotivation":
           "Matuto araw-araw at umunlad nang paisa-isang hakbang!",
       "overallProgress": "Kabuuang progreso",
@@ -12990,7 +12999,7 @@ class AppLocalizations {
       "otherLessons": "Iba pang lesson",
       "listeningPreloadTitle": "Nilo-load ang ehersisyo sa pakikinig",
       "listeningPreloadSubtitle":
-          "Inihahanda ang data ng Makinig at Mag-type\npara sa “{lesson}”.",
+          "Inihahanda ang data ng Makinig at Mag-type para sa “{lesson}”.",
       "ready": "Handa na!",
       "listeningOpening": "Binubuksan ang ehersisyo sa pakikinig...",
       "listeningLoadingContent": "Nilo-load ang content ng lesson...",
@@ -13250,7 +13259,7 @@ class AppLocalizations {
       "recentHistoryBody": "Mga lesson na natapos mo kamakailan",
       "recentHistoryEmpty":
           "Wala pang natapos na session. Kumpletuhin ang isang lesson para masimulan ang iyong history.",
-      "todayAtTime": "Ngayon\n{time}",
+      "todayAtTime": "Ngayon {time}",
       "weekdayMon": "Lun",
       "weekdayTue": "Mar",
       "weekdayWed": "Miy",
@@ -13745,9 +13754,9 @@ class AppLocalizations {
       "navProgress": "प्रगति",
       "navChallenges": "चुनौतियाँ",
       "navProfile": "प्रोफ़ाइल",
-      "languageTitle": "अपनी\nमातृभाषा चुनें",
+      "languageTitle": "अपनी मातृभाषा चुनें",
       "languageSubtitle":
-          "हम आपकी सीखने की यात्रा को\nआपके लिए व्यक्तिगत बनाएँगे।",
+          "हम आपकी सीखने की यात्रा को आपके लिए व्यक्तिगत बनाएँगे।",
       "languageSaveError": "भाषा सहेजी नहीं जा सकी। कृपया फिर से कोशिश करें।",
       "back": "वापस",
       "continue": "जारी रखें",
@@ -13779,7 +13788,8 @@ class AppLocalizations {
       "loading": "लोड हो रहा है...",
       "preparingLanguagePackage": "भाषा सामग्री तैयार की जा रही है...",
       "checkingLanguageModels": "ऑफ़लाइन भाषा मॉडल की जाँच की जा रही है...",
-      "downloadingLanguageModel": "भाषा मॉडल {current}/{total} डाउनलोड किया जा रहा है...",
+      "downloadingLanguageModel":
+          "भाषा मॉडल {current}/{total} डाउनलोड किया जा रहा है...",
       "languageModelsReady": "भाषा मॉडल तैयार हैं",
       "languagePickerTitle": "एक भाषा चुनें",
       "languagePickerSubtitle": "वह भाषा चुनें जिसे आप सीखना चाहते हैं",
@@ -13790,33 +13800,33 @@ class AppLocalizations {
       "assessmentSkip": "मुझे अपना स्तर पता है",
       "assessmentTitle": "एक छोटा टेस्ट दें",
       "assessmentSubtitle":
-          "हम आपके स्तर का आकलन करेंगे ताकि\nआपके लिए सबसे अच्छा सीखने का मार्ग बना सकें।",
+          "हम आपके स्तर का आकलन करेंगे ताकि आपके लिए सबसे अच्छा सीखने का मार्ग बना सकें।",
       "assessmentStart": "टेस्ट दें",
       "assessmentBenefitLevel": "आप अपना स्तर जानेंगे",
       "assessmentBenefitVocabulary": "अपनी शब्दावली जाँचें",
       "assessmentBenefitAdapt": "ऐप आपके स्तर के अनुसार ढल जाएगा",
       "levelSelectionTitle": "अपना अंग्रेज़ी स्तर चुनें",
       "levelSelectionSubtitle":
-          "सही स्तर चुनें ताकि हम\nआपके लिए सबसे अच्छा सीखने का मार्ग बना सकें।",
+          "सही स्तर चुनें ताकि हम आपके लिए सबसे अच्छा सीखने का मार्ग बना सकें।",
       "levelBeginnerDescription": "मुझे कुछ शब्द आते हैं",
       "levelIntermediateDescription":
           "मुझे काफी शब्द आते हैं और मैं और सीखना चाहता/चाहती हूँ",
       "levelAdvancedDescription": "मैं कठिन शब्द सीखना चाहता/चाहती हूँ",
-      "assessmentLevelTitle": "अपने वर्तमान\nअंग्रेज़ी स्तर का आकलन करें",
+      "assessmentLevelTitle": "अपने वर्तमान अंग्रेज़ी स्तर का आकलन करें",
       "assessmentLevelSubtitle":
-          "सही स्तर चुनें ताकि हम\nआपके लिए सबसे अच्छा सीखने का मार्ग बना सकें।",
+          "सही स्तर चुनें ताकि हम आपके लिए सबसे अच्छा सीखने का मार्ग बना सकें।",
       "assessmentLevelNew":
-          "मैंने अभी सीखना शुरू किया है\nऔर अभी कुछ नहीं जानता/जानती",
+          "मैंने अभी सीखना शुरू किया है और अभी कुछ नहीं जानता/जानती",
       "assessmentLevelBasic":
-          "मुझे कुछ बुनियादी व्याकरण आता है\nऔर मैं सरल शब्द और\nवाक्यांश बोल सकता/सकती हूँ",
+          "मुझे कुछ बुनियादी व्याकरण आता है और मैं सरल शब्द और वाक्यांश बोल सकता/सकती हूँ",
       "assessmentLevelConversational":
-          "मैं बातचीत कर सकता/सकती हूँ, लेकिन\nअब भी गलतियाँ करता/करती हूँ और\nअक्सर हिचकिचाता/हिचकिचाती हूँ",
+          "मैं बातचीत कर सकता/सकती हूँ, लेकिन अब भी गलतियाँ करता/करती हूँ और अक्सर हिचकिचाता/हिचकिचाती हूँ",
       "assessmentLevelFluent":
-          "मैं धाराप्रवाह बोलता/बोलती हूँ, किताबें पढ़ता/पढ़ती हूँ,\nऔर अंग्रेज़ी में\nफ़िल्में देखता/देखती हूँ",
+          "मैं धाराप्रवाह बोलता/बोलती हूँ, किताबें पढ़ता/पढ़ती हूँ, और अंग्रेज़ी में फ़िल्में देखता/देखती हूँ",
       "assessmentLevelStart": "टेस्ट शुरू करें",
-      "surveyIntroTitle": "आइए एक\nछोटा सर्वे करें!",
+      "surveyIntroTitle": "आइए एक छोटा सर्वे करें!",
       "surveyIntroSubtitle":
-          "आपके जवाबों के आधार पर Leximon\nआपके लिए सबसे अच्छा सीखने का तरीका चुनेगा।",
+          "आपके जवाबों के आधार पर Leximon आपके लिए सबसे अच्छा सीखने का तरीका चुनेगा।",
       "freeTrialGift": "हम आपको दे रहे हैं",
       "freeTrialDuration": "7 दिन मुफ़्त",
       "freeTrialPurpose": "हमारा ऐप आज़माने के लिए",
@@ -13829,7 +13839,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "सेटअप पूरा नहीं हो सका। कृपया फिर से कोशिश करें।",
       "subscriptionHeadlineSubtitle":
-          "आपकी अंग्रेज़ी काम में\nएक भरोसेमंद साधन बन जाएगी",
+          "आपकी अंग्रेज़ी काम में एक भरोसेमंद साधन बन जाएगी",
       "subscriptionLoadingPlans": "सदस्यता प्लान लोड हो रहे हैं…",
       "subscriptionLoadError": "सदस्यता प्लान का विवरण लोड नहीं हो सका।",
       "subscriptionStorePriceUnavailable": "App Store की कीमत उपलब्ध नहीं है",
@@ -13842,7 +13852,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} दिन",
       "subscriptionIn": "में ",
       "subscriptionDaySuffix": " दिन",
-      "subscriptionStart": "मुफ़्त ट्रायल शुरू करें\nऔर सदस्यता लें",
+      "subscriptionStart": "मुफ़्त ट्रायल शुरू करें और सदस्यता लें",
       "surveySaveProgressError":
           "आपकी प्रगति सहेजी नहीं जा सकी। कृपया फिर से कोशिश करें।",
       "surveySaveTopicsError": "चुने गए विषय सहेजे नहीं जा सके।",
@@ -13889,13 +13899,13 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 मिनट",
       "surveyStudyOverHour": "1 घंटे से अधिक",
       "surveyHabitTitle":
-          "आप हर दिन अंग्रेज़ी सीखने में\nकितना समय देने के लिए तैयार हैं?",
+          "आप हर दिन अंग्रेज़ी सीखने में कितना समय देने के लिए तैयार हैं?",
       "surveyHabitDescription": "हर दिन नियमित समय निकालने से आदत बनती है और ",
       "surveyHabitHighlight": "आप तेज़ी से प्रगति करते हैं।",
       "surveyPreferredTimeQuestion":
           "अंग्रेज़ी पढ़ने के लिए आपके लिए कौन-सा समय सबसे सुविधाजनक है?",
       "surveyReminderPrimary":
-          "Leximon आपको पाठों की याद दिलाएगा\nताकि आपका एक भी दिन न छूटे।",
+          "Leximon आपको पाठों की याद दिलाएगा ताकि आपका एक भी दिन न छूटे।",
       "surveyReminderSecondary":
           "हमने पाया है कि नियमित अभ्यास से अंग्रेज़ी सीखना लगभग ",
       "surveyReminderHighlight": "4.6× तेज़ हो सकता है!",
@@ -13924,19 +13934,19 @@ class AppLocalizations {
           "सामग्री मेरे स्तर के अनुरूप है, पाठ स्पष्ट हैं और रिमाइंडर मुझे नियमित बनाए रखते हैं।",
       "surveySocialProofPrefix": " ने ",
       "surveySocialProofSuffix":
-          " उपयोगकर्ताओं को\nअपनी अंग्रेज़ी सुधारने में मदद की है",
-      "surveyTopicTitle": "वे विषय चुनें\nजिन्हें आप सीखना चाहते हैं",
+          " उपयोगकर्ताओं को अपनी अंग्रेज़ी सुधारने में मदद की है",
+      "surveyTopicTitle": "वे विषय चुनें जिन्हें आप सीखना चाहते हैं",
       "surveySelectAll": "सभी चुनें",
       "surveyAnalysisTopic": "विषय सेट किए जा रहे हैं",
       "surveyAnalysisDictionary": "आपकी डिक्शनरी बनाई जा रही है",
       "surveyAnalysisExercises": "अभ्यास चुने जा रहे हैं",
       "surveyAnalysisPace": "सीखने की गति तय की जा रही है",
-      "surveyAnalysisProcessing": "आपके जवाबों का\nविश्लेषण हो रहा है",
-      "surveyKnowledgeLead": "अंग्रेज़ी वह कुंजी है जो आपको\n",
+      "surveyAnalysisProcessing": "आपके जवाबों का विश्लेषण हो रहा है",
+      "surveyKnowledgeLead": "अंग्रेज़ी वह कुंजी है जो आपको ",
       "surveyKnowledgeOpen": "ज्ञान के द्वार खोलने,",
-      "surveyKnowledgeConnect": "\nदुनिया से जुड़ने और ",
+      "surveyKnowledgeConnect": " दुनिया से जुड़ने और ",
       "surveyKnowledgeMore": "अधिक अवसर पाने में मदद करती है।",
-      "surveySummaryTitle": "अंग्रेज़ी आपको\nऔर आगे ले जाती है",
+      "surveySummaryTitle": "अंग्रेज़ी आपको और आगे ले जाती है",
       "surveySummaryQuoteOne":
           "अंग्रेज़ी अंतरराष्ट्रीय करियर के अवसरों और बेहतर आय के द्वार खोलती है।",
       "surveySummaryQuoteTwo":
@@ -13990,7 +14000,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "सही उत्तर",
       "vocabularyTestHalfwayTitle": "बहुत बढ़िया!",
       "vocabularyTestHalfwayBody":
-          "आप आधा रास्ता पूरा कर चुके हैं!\nइन शब्दों के साथ आपने बहुत अच्छा किया। अब\nकुछ और कठिन प्रश्न आज़माएँ।",
+          "आप आधा रास्ता पूरा कर चुके हैं! इन शब्दों के साथ आपने बहुत अच्छा किया। अब कुछ और कठिन प्रश्न आज़माएँ।",
       "vocabularyTestNextLevel": "अगला स्तर: {level} · भाग {part}",
       "skillListening": "सुनना",
       "skillVocabulary": "शब्दावली",
@@ -14171,7 +14181,7 @@ class AppLocalizations {
           "“{pack}” में पूरे किए गए सभी प्रश्न हटा दिए जाएँगे और प्रगति 0% हो जाएगी। इसे वापस नहीं किया जा सकता।",
       "grammarTitle": "व्याकरण",
       "done": "पूरा",
-      "grammarByLevelTitle": "स्तर के अनुसार\nव्याकरण अभ्यास",
+      "grammarByLevelTitle": "स्तर के अनुसार व्याकरण अभ्यास",
       "grammarMotivation": "हर दिन सीखें और कदम-दर-कदम सुधार करें!",
       "overallProgress": "कुल प्रगति",
       "percentComplete": "{percent}% पूरा",
@@ -14229,7 +14239,7 @@ class AppLocalizations {
       "otherLessons": "अन्य पाठ",
       "listeningPreloadTitle": "लिसनिंग अभ्यास लोड हो रहा है",
       "listeningPreloadSubtitle":
-          "“{lesson}” के लिए सुनें और टाइप करें डेटा\nतैयार किया जा रहा है।",
+          "“{lesson}” के लिए सुनें और टाइप करें डेटा तैयार किया जा रहा है।",
       "ready": "तैयार!",
       "listeningOpening": "लिसनिंग अभ्यास खुल रहा है...",
       "listeningLoadingContent": "पाठ की सामग्री लोड हो रही है...",
@@ -14478,7 +14488,7 @@ class AppLocalizations {
       "recentHistoryBody": "हाल ही में पूरे किए गए पाठ",
       "recentHistoryEmpty":
           "अभी कोई पूरा सत्र नहीं है। इतिहास शुरू करने के लिए एक पाठ पूरा करें।",
-      "todayAtTime": "आज\n{time}",
+      "todayAtTime": "आज {time}",
       "weekdayMon": "सोम",
       "weekdayTue": "मंगल",
       "weekdayWed": "बुध",
@@ -14957,8 +14967,8 @@ class AppLocalizations {
       "navProgress": "Haladás",
       "navChallenges": "Kihívások",
       "navProfile": "Profil",
-      "languageTitle": "Válaszd ki az\nanyanyelvedet",
-      "languageSubtitle": "Személyre szabjuk számodra\na tanulási utat.",
+      "languageTitle": "Válaszd ki az anyanyelvedet",
+      "languageSubtitle": "Személyre szabjuk számodra a tanulási utat.",
       "languageSaveError": "Nem sikerült menteni a nyelvet. Próbáld újra.",
       "back": "Vissza",
       "continue": "Folytatás",
@@ -14990,10 +15000,12 @@ class AppLocalizations {
       "loading": "Betöltés...",
       "preparingLanguagePackage": "Nyelvi tartalom előkészítése...",
       "checkingLanguageModels": "Offline nyelvi modellek ellenőrzése...",
-      "downloadingLanguageModel": "Nyelvi modell letöltése: {current}/{total}...",
+      "downloadingLanguageModel":
+          "Nyelvi modell letöltése: {current}/{total}...",
       "languageModelsReady": "A nyelvi modellek készen állnak",
       "languagePickerTitle": "Válassz nyelvet",
-      "languagePickerSubtitle": "Válaszd ki a nyelvet, amelyet tanulni szeretnél",
+      "languagePickerSubtitle":
+          "Válaszd ki a nyelvet, amelyet tanulni szeretnél",
       "finalizingLanguageChange": "Nyelvi beállítások befejezése...",
       "levelBeginner": "Kezdő",
       "levelIntermediate": "Középhaladó",
@@ -15001,32 +15013,32 @@ class AppLocalizations {
       "assessmentSkip": "Ismerem a szintemet",
       "assessmentTitle": "Tölts ki egy rövid tesztet",
       "assessmentSubtitle":
-          "Felmérjük a szintedet, hogy\na legjobb tanulási utat állítsuk össze neked.",
+          "Felmérjük a szintedet, hogy a legjobb tanulási utat állítsuk össze neked.",
       "assessmentStart": "Teszt kitöltése",
       "assessmentBenefitLevel": "Megtudod a szintedet",
       "assessmentBenefitVocabulary": "Ellenőrizheted a szókincsedet",
       "assessmentBenefitAdapt": "Az alkalmazás a szintedhez igazodik",
       "levelSelectionTitle": "Válaszd ki az angol szintedet",
       "levelSelectionSubtitle":
-          "Válaszd ki a megfelelő szintet, hogy\na legjobb tanulási utat állíthassuk össze neked.",
+          "Válaszd ki a megfelelő szintet, hogy a legjobb tanulási utat állíthassuk össze neked.",
       "levelBeginnerDescription": "Ismerek néhány szót",
       "levelIntermediateDescription":
           "Elég sokat tudok, és még többet szeretnék tanulni",
       "levelAdvancedDescription": "Nehéz szavakat szeretnék tanulni",
-      "assessmentLevelTitle": "Mérd fel a jelenlegi\nangol szintedet",
+      "assessmentLevelTitle": "Mérd fel a jelenlegi angol szintedet",
       "assessmentLevelSubtitle":
-          "Válaszd ki a megfelelő szintet, hogy\na legjobb tanulási utat állíthassuk össze neked.",
-      "assessmentLevelNew": "Most kezdtem tanulni,\nés még semmit sem tudok",
+          "Válaszd ki a megfelelő szintet, hogy a legjobb tanulási utat állíthassuk össze neked.",
+      "assessmentLevelNew": "Most kezdtem tanulni, és még semmit sem tudok",
       "assessmentLevelBasic":
-          "Ismerek néhány alapvető nyelvtani szabályt,\nés egyszerű szavakat\nés kifejezéseket tudok mondani",
+          "Ismerek néhány alapvető nyelvtani szabályt, és egyszerű szavakat és kifejezéseket tudok mondani",
       "assessmentLevelConversational":
-          "Tudok beszélgetni, de\nmég hibázom, és\ngyakran bizonytalan vagyok",
+          "Tudok beszélgetni, de még hibázom, és gyakran bizonytalan vagyok",
       "assessmentLevelFluent":
-          "Folyékonyan beszélek, könyveket olvasok,\nés filmeket nézek\nangolul",
+          "Folyékonyan beszélek, könyveket olvasok, és filmeket nézek angolul",
       "assessmentLevelStart": "Teszt indítása",
-      "surveyIntroTitle": "Töltsünk ki egy\nrövid kérdőívet!",
+      "surveyIntroTitle": "Töltsünk ki egy rövid kérdőívet!",
       "surveyIntroSubtitle":
-          "A válaszaid alapján a Leximon\nkiválasztja számodra a legjobb tanulási módszert.",
+          "A válaszaid alapján a Leximon kiválasztja számodra a legjobb tanulási módszert.",
       "freeTrialGift": "Ezt adjuk neked",
       "freeTrialDuration": "7 nap ingyen",
       "freeTrialPurpose": "az alkalmazás kipróbálásához",
@@ -15039,7 +15051,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Nem sikerült befejezni a beállítást. Próbáld újra.",
       "subscriptionHeadlineSubtitle":
-          "az angolt megbízhatóan tudod majd használni\na munkában",
+          "az angolt megbízhatóan tudod majd használni a munkában",
       "subscriptionLoadingPlans": "Előfizetési csomagok betöltése…",
       "subscriptionLoadError":
           "Nem sikerült betölteni az előfizetési csomag részleteit.",
@@ -15053,7 +15065,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} nap",
       "subscriptionIn": "Ennyi idő múlva: ",
       "subscriptionDaySuffix": " nap",
-      "subscriptionStart": "Ingyenes próba indítása\nés előfizetés",
+      "subscriptionStart": "Ingyenes próba indítása és előfizetés",
       "surveySaveProgressError":
           "Nem sikerült menteni a haladásodat. Próbáld újra.",
       "surveySaveTopicsError": "Nem sikerült menteni a kiválasztott témákat.",
@@ -15099,14 +15111,14 @@ class AppLocalizations {
       "surveyStudy10To20": "10–20 perc",
       "surveyStudy20To60": "20–60 perc",
       "surveyStudyOverHour": "Több mint 1 óra",
-      "surveyHabitTitle": "Mennyi időt szánsz naponta\naz angoltanulásra?",
+      "surveyHabitTitle": "Mennyi időt szánsz naponta az angoltanulásra?",
       "surveyHabitDescription":
           "Ha minden nap ugyanabban az időben tanulsz, könnyebben alakítasz ki szokást és ",
       "surveyHabitHighlight": "gyorsabban fejlődsz.",
       "surveyPreferredTimeQuestion":
           "Mikor a legkényelmesebb számodra angolt tanulni?",
       "surveyReminderPrimary":
-          "A Leximon emlékeztetni fog az óráidra,\nhogy egyetlen napot se hagyj ki.",
+          "A Leximon emlékeztetni fog az óráidra, hogy egyetlen napot se hagyj ki.",
       "surveyReminderSecondary":
           "Azt tapasztaltuk, hogy a rendszeres gyakorlás az angoltanulást közel ",
       "surveyReminderHighlight": "4,6× gyorsabbá teheti!",
@@ -15134,19 +15146,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "A tartalom megfelel a szintemnek, a leckék érthetők, az emlékeztetők pedig segítenek tartani a tempót.",
       "surveySocialProofPrefix": " már segített ",
-      "surveySocialProofSuffix": " felhasználónak\nfejleszteni az angoltudását",
-      "surveyTopicTitle": "Válaszd ki a témákat,\namelyeket tanulni szeretnél",
+      "surveySocialProofSuffix": " felhasználónak fejleszteni az angoltudását",
+      "surveyTopicTitle": "Válaszd ki a témákat, amelyeket tanulni szeretnél",
       "surveySelectAll": "Összes kijelölése",
       "surveyAnalysisTopic": "Témák beállítása",
       "surveyAnalysisDictionary": "Szótár létrehozása",
       "surveyAnalysisExercises": "Gyakorlatok kiválasztása",
       "surveyAnalysisPace": "Tanulási tempó beállítása",
-      "surveyAnalysisProcessing": "Válaszaid\nelemzése",
-      "surveyKnowledgeLead": "Az angol a kulcs, amely segít\n",
+      "surveyAnalysisProcessing": "Válaszaid elemzése",
+      "surveyKnowledgeLead": "Az angol a kulcs, amely segít ",
       "surveyKnowledgeOpen": "megnyitni a tudás kapuját,",
-      "surveyKnowledgeConnect": "\nkapcsolódni a világhoz és megragadni ",
+      "surveyKnowledgeConnect": " kapcsolódni a világhoz és megragadni ",
       "surveyKnowledgeMore": "még több lehetőséget.",
-      "surveySummaryTitle": "Az angol segít\nmesszebbre jutni",
+      "surveySummaryTitle": "Az angol segít messzebbre jutni",
       "surveySummaryQuoteOne":
           "Az angol megnyitja az utat a nemzetközi karrierlehetőségek és a vonzóbb jövedelem felé.",
       "surveySummaryQuoteTwo":
@@ -15202,7 +15214,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "helyes válasz",
       "vocabularyTestHalfwayTitle": "Remek!",
       "vocabularyTestHalfwayBody":
-          "Félúton jársz!\nNagyon jól mentek ezek a szavak. Most próbálj meg\nnéhány nehezebb kérdést.",
+          "Félúton jársz! Nagyon jól mentek ezek a szavak. Most próbálj meg néhány nehezebb kérdést.",
       "vocabularyTestNextLevel": "Következő szint: {level} · {part}. rész",
       "skillListening": "Hallásértés",
       "skillVocabulary": "Szókincs",
@@ -15384,7 +15396,7 @@ class AppLocalizations {
           "A(z) „{pack}” összes teljesített kérdése törlődik, a haladás pedig 0%-ra áll vissza. Ez nem vonható vissza.",
       "grammarTitle": "Nyelvtan",
       "done": "Kész",
-      "grammarByLevelTitle": "Nyelvtangyakorlás\nszint szerint",
+      "grammarByLevelTitle": "Nyelvtangyakorlás szint szerint",
       "grammarMotivation": "Tanulj minden nap, és fejlődj lépésről lépésre!",
       "overallProgress": "Összesített haladás",
       "percentComplete": "{percent}% teljesítve",
@@ -15445,7 +15457,7 @@ class AppLocalizations {
       "otherLessons": "További leckék",
       "listeningPreloadTitle": "Hallásértési gyakorlat betöltése",
       "listeningPreloadSubtitle":
-          "A Hallgasd és írd le adatok előkészítése\na(z) „{lesson}” leckéhez.",
+          "A Hallgasd és írd le adatok előkészítése a(z) „{lesson}” leckéhez.",
       "ready": "Kész!",
       "listeningOpening": "Hallásértési gyakorlat megnyitása...",
       "listeningLoadingContent": "Lecke tartalmának betöltése...",
@@ -15700,7 +15712,7 @@ class AppLocalizations {
       "recentHistoryBody": "Nemrég teljesített leckék",
       "recentHistoryEmpty":
           "Még nincs teljesített munkamenet. Teljesíts egy leckét az előzmények megkezdéséhez.",
-      "todayAtTime": "Ma\n{time}",
+      "todayAtTime": "Ma {time}",
       "weekdayMon": "H",
       "weekdayTue": "K",
       "weekdayWed": "Sze",
@@ -16194,9 +16206,8 @@ class AppLocalizations {
       "navProgress": "Kemajuan",
       "navChallenges": "Tantangan",
       "navProfile": "Profil",
-      "languageTitle": "Pilih bahasa\nibu Anda",
-      "languageSubtitle":
-          "Kami akan mempersonalisasi\nperjalanan belajar Anda.",
+      "languageTitle": "Pilih bahasa ibu Anda",
+      "languageSubtitle": "Kami akan mempersonalisasi perjalanan belajar Anda.",
       "languageSaveError": "Bahasa tidak dapat disimpan. Silakan coba lagi.",
       "back": "Kembali",
       "continue": "Lanjutkan",
@@ -16239,33 +16250,33 @@ class AppLocalizations {
       "assessmentSkip": "Saya tahu level saya",
       "assessmentTitle": "Ikuti tes singkat",
       "assessmentSubtitle":
-          "Kami akan menilai level Anda untuk\nmembuat jalur belajar terbaik bagi Anda.",
+          "Kami akan menilai level Anda untuk membuat jalur belajar terbaik bagi Anda.",
       "assessmentStart": "Ikuti tes",
       "assessmentBenefitLevel": "Anda akan mengetahui level Anda",
       "assessmentBenefitVocabulary": "Periksa kosakata Anda",
       "assessmentBenefitAdapt": "Aplikasi akan menyesuaikan dengan level Anda",
       "levelSelectionTitle": "Pilih level bahasa Inggris Anda",
       "levelSelectionSubtitle":
-          "Pilih level yang tepat agar kami dapat\nmembuat jalur belajar terbaik bagi Anda.",
+          "Pilih level yang tepat agar kami dapat membuat jalur belajar terbaik bagi Anda.",
       "levelBeginnerDescription": "Saya tahu beberapa kata",
       "levelIntermediateDescription":
           "Saya tahu cukup banyak dan ingin belajar lebih banyak",
       "levelAdvancedDescription":
           "Saya ingin mempelajari kata-kata yang menantang",
-      "assessmentLevelTitle": "Nilai level bahasa Inggris\nAnda saat ini",
+      "assessmentLevelTitle": "Nilai level bahasa Inggris Anda saat ini",
       "assessmentLevelSubtitle":
-          "Pilih level yang tepat agar kami dapat\nmembuat jalur belajar terbaik bagi Anda.",
-      "assessmentLevelNew": "Saya baru mulai belajar\ndan belum tahu apa-apa",
+          "Pilih level yang tepat agar kami dapat membuat jalur belajar terbaik bagi Anda.",
+      "assessmentLevelNew": "Saya baru mulai belajar dan belum tahu apa-apa",
       "assessmentLevelBasic":
-          "Saya tahu tata bahasa dasar\ndan dapat mengucapkan kata\ndan frasa sederhana",
+          "Saya tahu tata bahasa dasar dan dapat mengucapkan kata dan frasa sederhana",
       "assessmentLevelConversational":
-          "Saya bisa bercakap-cakap, tetapi\nmasih sering membuat kesalahan dan\nsering ragu-ragu",
+          "Saya bisa bercakap-cakap, tetapi masih sering membuat kesalahan dan sering ragu-ragu",
       "assessmentLevelFluent":
-          "Saya berbicara dengan lancar, membaca buku,\ndan menonton film\ndalam bahasa Inggris",
+          "Saya berbicara dengan lancar, membaca buku, dan menonton film dalam bahasa Inggris",
       "assessmentLevelStart": "Mulai tes",
-      "surveyIntroTitle": "Mari isi\nsurvei singkat!",
+      "surveyIntroTitle": "Mari isi survei singkat!",
       "surveyIntroSubtitle":
-          "Berdasarkan jawaban Anda, Leximon akan\nmemilih metode belajar terbaik untuk Anda.",
+          "Berdasarkan jawaban Anda, Leximon akan memilih metode belajar terbaik untuk Anda.",
       "freeTrialGift": "Kami memberi Anda",
       "freeTrialDuration": "Gratis 7 hari",
       "freeTrialPurpose": "untuk mencoba aplikasi kami",
@@ -16278,7 +16289,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Penyiapan tidak dapat diselesaikan. Silakan coba lagi.",
       "subscriptionHeadlineSubtitle":
-          "bahasa Inggris Anda akan menjadi alat yang andal\ndi tempat kerja",
+          "bahasa Inggris Anda akan menjadi alat yang andal di tempat kerja",
       "subscriptionLoadingPlans": "Memuat paket langganan…",
       "subscriptionLoadError": "Detail paket langganan tidak dapat dimuat.",
       "subscriptionStorePriceUnavailable": "Harga App Store tidak tersedia",
@@ -16291,7 +16302,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} hari",
       "subscriptionIn": "Dalam ",
       "subscriptionDaySuffix": " hari",
-      "subscriptionStart": "Mulai uji coba gratis\ndan berlangganan",
+      "subscriptionStart": "Mulai uji coba gratis dan berlangganan",
       "surveySaveProgressError":
           "Kemajuan Anda tidak dapat disimpan. Silakan coba lagi.",
       "surveySaveTopicsError": "Topik yang dipilih tidak dapat disimpan.",
@@ -16345,14 +16356,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 menit",
       "surveyStudyOverHour": "Lebih dari 1 jam",
       "surveyHabitTitle":
-          "Berapa banyak waktu yang siap Anda\nluangkan untuk belajar bahasa Inggris setiap hari?",
+          "Berapa banyak waktu yang siap Anda luangkan untuk belajar bahasa Inggris setiap hari?",
       "surveyHabitDescription":
           "Meluangkan waktu secara rutin setiap hari membantu Anda membangun kebiasaan dan ",
       "surveyHabitHighlight": "berkembang lebih cepat.",
       "surveyPreferredTimeQuestion":
           "Kapan waktu yang paling nyaman bagi Anda untuk belajar bahasa Inggris?",
       "surveyReminderPrimary":
-          "Leximon akan mengingatkan Anda tentang pelajaran\nagar Anda tidak melewatkan satu hari pun.",
+          "Leximon akan mengingatkan Anda tentang pelajaran agar Anda tidak melewatkan satu hari pun.",
       "surveyReminderSecondary":
           "Kami menemukan bahwa latihan rutin dapat membuat belajar bahasa Inggris hampir ",
       "surveyReminderHighlight": "4,6× lebih cepat!",
@@ -16382,21 +16393,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Kontennya sesuai dengan level saya, pelajarannya jelas, dan pengingat membantu saya tetap konsisten.",
       "surveySocialProofPrefix": " telah membantu ",
-      "surveySocialProofSuffix":
-          " pengguna\nmeningkatkan bahasa Inggris mereka",
-      "surveyTopicTitle": "Pilih topik\nyang ingin Anda pelajari",
+      "surveySocialProofSuffix": " pengguna meningkatkan bahasa Inggris mereka",
+      "surveyTopicTitle": "Pilih topik yang ingin Anda pelajari",
       "surveySelectAll": "Pilih semua",
       "surveyAnalysisTopic": "Menyiapkan topik",
       "surveyAnalysisDictionary": "Membuat kamus Anda",
       "surveyAnalysisExercises": "Memilih latihan",
       "surveyAnalysisPace": "Mengatur ritme belajar Anda",
-      "surveyAnalysisProcessing": "Menganalisis\njawaban Anda",
-      "surveyKnowledgeLead": "Bahasa Inggris adalah kunci yang membantu Anda\n",
+      "surveyAnalysisProcessing": "Menganalisis jawaban Anda",
+      "surveyKnowledgeLead": "Bahasa Inggris adalah kunci yang membantu Anda ",
       "surveyKnowledgeOpen": "membuka pintu pengetahuan,",
-      "surveyKnowledgeConnect": "\nterhubung dengan dunia, dan meraih ",
+      "surveyKnowledgeConnect": " terhubung dengan dunia, dan meraih ",
       "surveyKnowledgeMore": "lebih banyak peluang.",
-      "surveySummaryTitle":
-          "Bahasa Inggris membantu Anda\nmelangkah lebih jauh",
+      "surveySummaryTitle": "Bahasa Inggris membantu Anda melangkah lebih jauh",
       "surveySummaryQuoteOne":
           "Bahasa Inggris membuka pintu menuju peluang karier internasional dan penghasilan yang lebih menarik.",
       "surveySummaryQuoteTwo":
@@ -16453,7 +16462,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "jawaban benar",
       "vocabularyTestHalfwayTitle": "Bagus!",
       "vocabularyTestHalfwayBody":
-          "Anda sudah setengah jalan!\nAnda sangat baik dengan kata-kata ini. Sekarang coba\npertanyaan yang lebih menantang.",
+          "Anda sudah setengah jalan! Anda sangat baik dengan kata-kata ini. Sekarang coba pertanyaan yang lebih menantang.",
       "vocabularyTestNextLevel": "Level berikutnya: {level} · Bagian {part}",
       "skillListening": "Mendengarkan",
       "skillVocabulary": "Kosakata",
@@ -16635,7 +16644,7 @@ class AppLocalizations {
           "Semua pertanyaan yang telah selesai di “{pack}” akan dihapus dan kemajuan akan kembali ke 0%. Tindakan ini tidak dapat dibatalkan.",
       "grammarTitle": "Tata bahasa",
       "done": "Selesai",
-      "grammarByLevelTitle": "Latihan tata bahasa\nberdasarkan level",
+      "grammarByLevelTitle": "Latihan tata bahasa berdasarkan level",
       "grammarMotivation":
           "Belajar setiap hari dan tingkatkan kemampuan langkah demi langkah!",
       "overallProgress": "Kemajuan keseluruhan",
@@ -16694,7 +16703,7 @@ class AppLocalizations {
       "otherLessons": "Pelajaran lainnya",
       "listeningPreloadTitle": "Memuat latihan mendengarkan",
       "listeningPreloadSubtitle":
-          "Menyiapkan data Dengar & Ketik\nuntuk “{lesson}”.",
+          "Menyiapkan data Dengar & Ketik untuk “{lesson}”.",
       "ready": "Siap!",
       "listeningOpening": "Membuka latihan mendengarkan...",
       "listeningLoadingContent": "Memuat konten pelajaran...",
@@ -16949,7 +16958,7 @@ class AppLocalizations {
       "recentHistoryBody": "Pelajaran yang baru saja Anda selesaikan",
       "recentHistoryEmpty":
           "Belum ada sesi yang selesai. Selesaikan satu pelajaran untuk memulai riwayat Anda.",
-      "todayAtTime": "Hari ini\n{time}",
+      "todayAtTime": "Hari ini {time}",
       "weekdayMon": "Sen",
       "weekdayTue": "Sel",
       "weekdayWed": "Rab",
@@ -17437,9 +17446,9 @@ class AppLocalizations {
       "navProgress": "Progressi",
       "navChallenges": "Sfide",
       "navProfile": "Profilo",
-      "languageTitle": "Scegli la tua\nlingua madre",
+      "languageTitle": "Scegli la tua lingua madre",
       "languageSubtitle":
-          "Personalizzeremo per te\nil tuo percorso di apprendimento.",
+          "Personalizzeremo per te il tuo percorso di apprendimento.",
       "languageSaveError": "Impossibile salvare la lingua. Riprova.",
       "back": "Indietro",
       "continue": "Continua",
@@ -17471,44 +17480,46 @@ class AppLocalizations {
       "loading": "Caricamento...",
       "preparingLanguagePackage": "Preparazione dei contenuti linguistici...",
       "checkingLanguageModels": "Verifica dei modelli linguistici offline...",
-      "downloadingLanguageModel": "Download del modello linguistico {current}/{total}...",
+      "downloadingLanguageModel":
+          "Download del modello linguistico {current}/{total}...",
       "languageModelsReady": "I modelli linguistici sono pronti",
       "languagePickerTitle": "Scegli una lingua",
       "languagePickerSubtitle": "Scegli la lingua che vuoi imparare",
-      "finalizingLanguageChange": "Completamento della configurazione della lingua...",
+      "finalizingLanguageChange":
+          "Completamento della configurazione della lingua...",
       "levelBeginner": "Principiante",
       "levelIntermediate": "Intermedio",
       "levelAdvanced": "Avanzato",
       "assessmentSkip": "Conosco il mio livello",
       "assessmentTitle": "Fai un breve test",
       "assessmentSubtitle":
-          "Valuteremo il tuo livello per\ncreare il percorso di apprendimento migliore per te.",
+          "Valuteremo il tuo livello per creare il percorso di apprendimento migliore per te.",
       "assessmentStart": "Fai il test",
       "assessmentBenefitLevel": "Scoprirai il tuo livello",
       "assessmentBenefitVocabulary": "Verifica il tuo vocabolario",
       "assessmentBenefitAdapt": "L’app si adatterà al tuo livello",
       "levelSelectionTitle": "Scegli il tuo livello di inglese",
       "levelSelectionSubtitle":
-          "Scegli il livello giusto così potremo\ncreare il percorso di apprendimento migliore per te.",
+          "Scegli il livello giusto così potremo creare il percorso di apprendimento migliore per te.",
       "levelBeginnerDescription": "Conosco poche parole",
       "levelIntermediateDescription":
           "Conosco già parecchio e voglio imparare di più",
       "levelAdvancedDescription": "Voglio imparare parole più impegnative",
-      "assessmentLevelTitle": "Valuta il tuo attuale\nlivello di inglese",
+      "assessmentLevelTitle": "Valuta il tuo attuale livello di inglese",
       "assessmentLevelSubtitle":
-          "Scegli il livello giusto così potremo\ncreare il percorso di apprendimento migliore per te.",
+          "Scegli il livello giusto così potremo creare il percorso di apprendimento migliore per te.",
       "assessmentLevelNew":
-          "Ho appena iniziato a studiare\ne non so ancora nulla",
+          "Ho appena iniziato a studiare e non so ancora nulla",
       "assessmentLevelBasic":
-          "Conosco un po’ di grammatica di base\ne so dire parole\ne frasi semplici",
+          "Conosco un po’ di grammatica di base e so dire parole e frasi semplici",
       "assessmentLevelConversational":
-          "Riesco a conversare, ma\nfaccio ancora errori e\nspesso esito",
+          "Riesco a conversare, ma faccio ancora errori e spesso esito",
       "assessmentLevelFluent":
-          "Parlo fluentemente, leggo libri\ne guardo film\nin inglese",
+          "Parlo fluentemente, leggo libri e guardo film in inglese",
       "assessmentLevelStart": "Inizia il test",
-      "surveyIntroTitle": "Facciamo un\nbreve sondaggio!",
+      "surveyIntroTitle": "Facciamo un breve sondaggio!",
       "surveyIntroSubtitle":
-          "In base alle tue risposte, Leximon\nsceglierà il metodo di apprendimento migliore per te.",
+          "In base alle tue risposte, Leximon sceglierà il metodo di apprendimento migliore per te.",
       "freeTrialGift": "Ti offriamo",
       "freeTrialDuration": "7 giorni gratis",
       "freeTrialPurpose": "per provare la nostra app",
@@ -17521,7 +17532,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Impossibile completare la configurazione. Riprova.",
       "subscriptionHeadlineSubtitle":
-          "il tuo inglese diventerà uno strumento affidabile\nsul lavoro",
+          "il tuo inglese diventerà uno strumento affidabile sul lavoro",
       "subscriptionLoadingPlans": "Caricamento dei piani di abbonamento…",
       "subscriptionLoadError":
           "Impossibile caricare i dettagli del piano di abbonamento.",
@@ -17535,7 +17546,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} giorni",
       "subscriptionIn": "Tra ",
       "subscriptionDaySuffix": " giorni",
-      "subscriptionStart": "Inizia la prova gratuita\ne abbonati",
+      "subscriptionStart": "Inizia la prova gratuita e abbonati",
       "surveySaveProgressError":
           "Impossibile salvare i tuoi progressi. Riprova.",
       "surveySaveTopicsError": "Impossibile salvare gli argomenti selezionati.",
@@ -17585,14 +17596,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minuti",
       "surveyStudyOverHour": "Più di 1 ora",
       "surveyHabitTitle":
-          "Quanto tempo sei disposto a\ndedicare ogni giorno allo studio dell’inglese?",
+          "Quanto tempo sei disposto a dedicare ogni giorno allo studio dell’inglese?",
       "surveyHabitDescription":
           "Dedicare ogni giorno un momento fisso allo studio ti aiuta a creare un’abitudine e a ",
       "surveyHabitHighlight": "progredire più velocemente.",
       "surveyPreferredTimeQuestion":
           "Qual è l’orario più comodo per te per studiare inglese?",
       "surveyReminderPrimary":
-          "Leximon ti ricorderà le tue lezioni\ncosì non perderai neanche un giorno.",
+          "Leximon ti ricorderà le tue lezioni così non perderai neanche un giorno.",
       "surveyReminderSecondary":
           "Abbiamo scoperto che la pratica regolare può rendere l’apprendimento dell’inglese quasi ",
       "surveyReminderHighlight": "4,6× più veloce!",
@@ -17622,19 +17633,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "I contenuti sono adatti al mio livello, le lezioni sono chiare e i promemoria mi aiutano a mantenere il ritmo.",
       "surveySocialProofPrefix": " ha aiutato ",
-      "surveySocialProofSuffix": " utenti\na migliorare il proprio inglese",
-      "surveyTopicTitle": "Scegli gli argomenti\nche vuoi imparare",
+      "surveySocialProofSuffix": " utenti a migliorare il proprio inglese",
+      "surveyTopicTitle": "Scegli gli argomenti che vuoi imparare",
       "surveySelectAll": "Seleziona tutto",
       "surveyAnalysisTopic": "Configurazione degli argomenti",
       "surveyAnalysisDictionary": "Creazione del tuo dizionario",
       "surveyAnalysisExercises": "Scelta degli esercizi",
       "surveyAnalysisPace": "Impostazione del ritmo di apprendimento",
-      "surveyAnalysisProcessing": "Analisi delle tue\nrisposte",
-      "surveyKnowledgeLead": "L’inglese è la chiave che ti aiuta ad\n",
+      "surveyAnalysisProcessing": "Analisi delle tue risposte",
+      "surveyKnowledgeLead": "L’inglese è la chiave che ti aiuta ad ",
       "surveyKnowledgeOpen": "aprire la porta alla conoscenza,",
-      "surveyKnowledgeConnect": "\nconnetterti con il mondo e cogliere ",
+      "surveyKnowledgeConnect": " connetterti con il mondo e cogliere ",
       "surveyKnowledgeMore": "più opportunità.",
-      "surveySummaryTitle": "L’inglese ti aiuta ad andare\npiù lontano",
+      "surveySummaryTitle": "L’inglese ti aiuta ad andare più lontano",
       "surveySummaryQuoteOne":
           "L’inglese apre le porte a opportunità di carriera internazionali e a guadagni più interessanti.",
       "surveySummaryQuoteTwo":
@@ -17690,7 +17701,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "risposte corrette",
       "vocabularyTestHalfwayTitle": "Ottimo!",
       "vocabularyTestHalfwayBody":
-          "Sei a metà strada!\nHai fatto molto bene con queste parole. Ora prova\nalcune domande più impegnative.",
+          "Sei a metà strada! Hai fatto molto bene con queste parole. Ora prova alcune domande più impegnative.",
       "vocabularyTestNextLevel": "Livello successivo: {level} · Parte {part}",
       "skillListening": "Ascolto",
       "skillVocabulary": "Vocabolario",
@@ -17875,7 +17886,7 @@ class AppLocalizations {
           "Tutte le domande completate in “{pack}” verranno eliminate e i progressi torneranno allo 0%. Questa azione non può essere annullata.",
       "grammarTitle": "Grammatica",
       "done": "Fatto",
-      "grammarByLevelTitle": "Esercizi di grammatica\nper livello",
+      "grammarByLevelTitle": "Esercizi di grammatica per livello",
       "grammarMotivation": "Impara ogni giorno e migliora passo dopo passo!",
       "overallProgress": "Progresso complessivo",
       "percentComplete": "{percent}% completato",
@@ -17936,7 +17947,7 @@ class AppLocalizations {
       "otherLessons": "Altre lezioni",
       "listeningPreloadTitle": "Caricamento dell’esercizio di ascolto",
       "listeningPreloadSubtitle":
-          "Preparazione dei dati Ascolta e scrivi\nper “{lesson}”.",
+          "Preparazione dei dati Ascolta e scrivi per “{lesson}”.",
       "ready": "Pronto!",
       "listeningOpening": "Apertura dell’esercizio di ascolto...",
       "listeningLoadingContent": "Caricamento del contenuto della lezione...",
@@ -18193,7 +18204,7 @@ class AppLocalizations {
       "recentHistoryBody": "Lezioni completate di recente",
       "recentHistoryEmpty":
           "Non ci sono ancora sessioni completate. Completa una lezione per iniziare la cronologia.",
-      "todayAtTime": "Oggi\n{time}",
+      "todayAtTime": "Oggi {time}",
       "weekdayMon": "Lun",
       "weekdayTue": "Mar",
       "weekdayWed": "Mer",
@@ -18692,8 +18703,8 @@ class AppLocalizations {
       "navProgress": "התקדמות",
       "navChallenges": "אתגרים",
       "navProfile": "פרופיל",
-      "languageTitle": "בחרו את\nשפת האם שלכם",
-      "languageSubtitle": "נתאים עבורכם אישית את\nמסלול הלמידה.",
+      "languageTitle": "בחרו את שפת האם שלכם",
+      "languageSubtitle": "נתאים עבורכם אישית את מסלול הלמידה.",
       "languageSaveError": "לא ניתן לשמור את השפה. נסו שוב.",
       "back": "חזרה",
       "continue": "המשך",
@@ -18735,31 +18746,30 @@ class AppLocalizations {
       "assessmentSkip": "אני יודע מה הרמה שלי",
       "assessmentTitle": "מבחן קצר",
       "assessmentSubtitle":
-          "נבדוק את הרמה שלכם כדי\nלבנות עבורכם את מסלול הלמידה הטוב ביותר.",
+          "נבדוק את הרמה שלכם כדי לבנות עבורכם את מסלול הלמידה הטוב ביותר.",
       "assessmentStart": "התחלת המבחן",
       "assessmentBenefitLevel": "תגלו מה הרמה שלכם",
       "assessmentBenefitVocabulary": "בדקו את אוצר המילים שלכם",
       "assessmentBenefitAdapt": "האפליקציה תתאים את עצמה לרמה שלכם",
       "levelSelectionTitle": "בחרו את רמת האנגלית שלכם",
       "levelSelectionSubtitle":
-          "בחרו את הרמה המתאימה כדי שנוכל\nלבנות עבורכם את מסלול הלמידה הטוב ביותר.",
+          "בחרו את הרמה המתאימה כדי שנוכל לבנות עבורכם את מסלול הלמידה הטוב ביותר.",
       "levelBeginnerDescription": "אני מכיר כמה מילים",
       "levelIntermediateDescription": "אני יודע לא מעט ורוצה ללמוד עוד",
       "levelAdvancedDescription": "אני רוצה ללמוד מילים מאתגרות",
-      "assessmentLevelTitle": "הערכת רמת\nהאנגלית הנוכחית שלכם",
+      "assessmentLevelTitle": "הערכת רמת האנגלית הנוכחית שלכם",
       "assessmentLevelSubtitle":
-          "בחרו את הרמה המתאימה כדי שנוכל\nלבנות עבורכם את מסלול הלמידה הטוב ביותר.",
-      "assessmentLevelNew": "רק התחלתי ללמוד\nועדיין איני יודע דבר",
+          "בחרו את הרמה המתאימה כדי שנוכל לבנות עבורכם את מסלול הלמידה הטוב ביותר.",
+      "assessmentLevelNew": "רק התחלתי ללמוד ועדיין איני יודע דבר",
       "assessmentLevelBasic":
-          "אני מכיר דקדוק בסיסי\nויכול לומר מילים\nוביטויים פשוטים",
+          "אני מכיר דקדוק בסיסי ויכול לומר מילים וביטויים פשוטים",
       "assessmentLevelConversational":
-          "אני יכול לנהל שיחה, אבל\nעדיין עושה טעויות\nולעתים קרובות מהסס",
-      "assessmentLevelFluent":
-          "אני מדבר בשטף, קורא ספרים\nוצופה בסרטים\nבאנגלית",
+          "אני יכול לנהל שיחה, אבל עדיין עושה טעויות ולעתים קרובות מהסס",
+      "assessmentLevelFluent": "אני מדבר בשטף, קורא ספרים וצופה בסרטים באנגלית",
       "assessmentLevelStart": "התחלת המבחן",
-      "surveyIntroTitle": "בואו נעשה\nסקר קצר!",
+      "surveyIntroTitle": "בואו נעשה סקר קצר!",
       "surveyIntroSubtitle":
-          "לפי התשובות שלכם, Leximon\nתבחר עבורכם את שיטת הלמידה המתאימה ביותר.",
+          "לפי התשובות שלכם, Leximon תבחר עבורכם את שיטת הלמידה המתאימה ביותר.",
       "freeTrialGift": "אנחנו מעניקים לכם",
       "freeTrialDuration": "7 ימים בחינם",
       "freeTrialPurpose": "כדי לנסות את האפליקציה שלנו",
@@ -18770,7 +18780,7 @@ class AppLocalizations {
       "trialReminderEnd": "שתקופת הניסיון בחינם תסתיים",
       "trialReminderPushDate": "התראת Push תישלח בתאריך {date}",
       "subscriptionCompleteError": "לא ניתן להשלים את ההגדרה. נסו שוב.",
-      "subscriptionHeadlineSubtitle": "האנגלית שלכם תהפוך לכלי אמין\nבעבודה",
+      "subscriptionHeadlineSubtitle": "האנגלית שלכם תהפוך לכלי אמין בעבודה",
       "subscriptionLoadingPlans": "טוען מסלולי מנוי…",
       "subscriptionLoadError": "לא ניתן לטעון את פרטי מסלול המנוי.",
       "subscriptionStorePriceUnavailable": "מחיר ב-App Store אינו זמין",
@@ -18783,7 +18793,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} ימים",
       "subscriptionIn": "בעוד ",
       "subscriptionDaySuffix": " ימים",
-      "subscriptionStart": "התחלת ניסיון בחינם\nוהרשמה למנוי",
+      "subscriptionStart": "התחלת ניסיון בחינם והרשמה למנוי",
       "surveySaveProgressError": "לא ניתן לשמור את ההתקדמות. נסו שוב.",
       "surveySaveTopicsError": "לא ניתן לשמור את הנושאים שנבחרו.",
       "surveyContinueWithLeximon": "המשך עם Leximon",
@@ -18824,12 +18834,12 @@ class AppLocalizations {
       "surveyStudy10To20": "10–20 דקות",
       "surveyStudy20To60": "20–60 דקות",
       "surveyStudyOverHour": "יותר משעה",
-      "surveyHabitTitle": "כמה זמן אתם מוכנים\nלהקדיש ללימוד אנגלית בכל יום?",
+      "surveyHabitTitle": "כמה זמן אתם מוכנים להקדיש ללימוד אנגלית בכל יום?",
       "surveyHabitDescription": "הקצאת זמן קבוע בכל יום עוזרת לבנות הרגל ו",
       "surveyHabitHighlight": "להתקדם מהר יותר.",
       "surveyPreferredTimeQuestion": "מתי הכי נוח לכם ללמוד אנגלית?",
       "surveyReminderPrimary":
-          "Leximon תזכיר לכם על השיעורים\nכדי שלא תפספסו אף יום.",
+          "Leximon תזכיר לכם על השיעורים כדי שלא תפספסו אף יום.",
       "surveyReminderSecondary":
           "מצאנו שתרגול קבוע יכול להפוך את לימוד האנגלית לכמעט ",
       "surveyReminderHighlight": "מהיר פי 4.6!",
@@ -18856,19 +18866,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "התוכן מתאים לרמה שלי, השיעורים ברורים והתזכורות עוזרות לי להתמיד.",
       "surveySocialProofPrefix": " עזרה ל-",
-      "surveySocialProofSuffix": " משתמשים\nלשפר את האנגלית שלהם",
-      "surveyTopicTitle": "בחרו את הנושאים\nשאתם רוצים ללמוד",
+      "surveySocialProofSuffix": " משתמשים לשפר את האנגלית שלהם",
+      "surveyTopicTitle": "בחרו את הנושאים שאתם רוצים ללמוד",
       "surveySelectAll": "בחירת הכול",
       "surveyAnalysisTopic": "הגדרת נושאים",
       "surveyAnalysisDictionary": "יצירת המילון שלכם",
       "surveyAnalysisExercises": "בחירת תרגילים",
       "surveyAnalysisPace": "הגדרת קצב הלמידה",
-      "surveyAnalysisProcessing": "מנתח את\nהתשובות שלכם",
-      "surveyKnowledgeLead": "אנגלית היא המפתח שעוזר לכם\n",
+      "surveyAnalysisProcessing": "מנתח את התשובות שלכם",
+      "surveyKnowledgeLead": "אנגלית היא המפתח שעוזר לכם ",
       "surveyKnowledgeOpen": "לפתוח את הדלת לידע,",
-      "surveyKnowledgeConnect": "\nלהתחבר לעולם ולנצל ",
+      "surveyKnowledgeConnect": " להתחבר לעולם ולנצל ",
       "surveyKnowledgeMore": "הזדמנויות נוספות.",
-      "surveySummaryTitle": "אנגלית עוזרת לכם להגיע\nרחוק יותר",
+      "surveySummaryTitle": "אנגלית עוזרת לכם להגיע רחוק יותר",
       "surveySummaryQuoteOne":
           "אנגלית פותחת דלת להזדמנויות קריירה בינלאומיות ולהכנסה אטרקטיבית יותר.",
       "surveySummaryQuoteTwo":
@@ -18919,7 +18929,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "תשובות נכונות",
       "vocabularyTestHalfwayTitle": "מצוין!",
       "vocabularyTestHalfwayBody":
-          "הגעתם לחצי הדרך!\nהצלחתם מאוד עם המילים האלה. עכשיו נסו\nשאלות מאתגרות יותר.",
+          "הגעתם לחצי הדרך! הצלחתם מאוד עם המילים האלה. עכשיו נסו שאלות מאתגרות יותר.",
       "vocabularyTestNextLevel": "הרמה הבאה: {level} · חלק {part}",
       "skillListening": "הקשבה",
       "skillVocabulary": "אוצר מילים",
@@ -19092,7 +19102,7 @@ class AppLocalizations {
           "כל השאלות שהושלמו ב-“{pack}” יימחקו וההתקדמות תחזור ל-0%. לא ניתן לבטל פעולה זו.",
       "grammarTitle": "דקדוק",
       "done": "סיום",
-      "grammarByLevelTitle": "תרגול דקדוק\nלפי רמה",
+      "grammarByLevelTitle": "תרגול דקדוק לפי רמה",
       "grammarMotivation": "למדו בכל יום והשתפרו צעד אחר צעד!",
       "overallProgress": "התקדמות כוללת",
       "percentComplete": "{percent}% הושלם",
@@ -19149,7 +19159,7 @@ class AppLocalizations {
       "lessons": "שיעורים",
       "otherLessons": "שיעורים נוספים",
       "listeningPreloadTitle": "טוען תרגיל הקשבה",
-      "listeningPreloadSubtitle": "מכין נתונים להאזנה והקלדה\nעבור “{lesson}”.",
+      "listeningPreloadSubtitle": "מכין נתונים להאזנה והקלדה עבור “{lesson}”.",
       "ready": "מוכן!",
       "listeningOpening": "פותח את תרגיל ההקשבה...",
       "listeningLoadingContent": "טוען את תוכן השיעור...",
@@ -19388,7 +19398,7 @@ class AppLocalizations {
       "recentHistoryBody": "שיעורים שהשלמתם לאחרונה",
       "recentHistoryEmpty":
           "עדיין אין מפגשים שהושלמו. השלימו שיעור כדי להתחיל את ההיסטוריה.",
-      "todayAtTime": "היום\n{time}",
+      "todayAtTime": "היום {time}",
       "weekdayMon": "ב׳",
       "weekdayTue": "ג׳",
       "weekdayWed": "ד׳",
@@ -19844,8 +19854,8 @@ class AppLocalizations {
       "navProgress": "進捗",
       "navChallenges": "チャレンジ",
       "navProfile": "プロフィール",
-      "languageTitle": "母語を\n選択してください",
-      "languageSubtitle": "あなたに合った\n学習プランを作成します。",
+      "languageTitle": "母語を 選択してください",
+      "languageSubtitle": "あなたに合った 学習プランを作成します。",
       "languageSaveError": "言語を保存できませんでした。もう一度お試しください。",
       "back": "戻る",
       "continue": "続ける",
@@ -19886,25 +19896,25 @@ class AppLocalizations {
       "levelAdvanced": "上級",
       "assessmentSkip": "自分のレベルがわかる",
       "assessmentTitle": "短いテストを受ける",
-      "assessmentSubtitle": "現在のレベルを判定し、\n最適な学習プランを作成します。",
+      "assessmentSubtitle": "現在のレベルを判定し、 最適な学習プランを作成します。",
       "assessmentStart": "テストを受ける",
       "assessmentBenefitLevel": "自分のレベルがわかります",
       "assessmentBenefitVocabulary": "語彙力を確認できます",
       "assessmentBenefitAdapt": "アプリがレベルに合わせて調整されます",
       "levelSelectionTitle": "英語レベルを選択",
-      "levelSelectionSubtitle": "最適な学習プランを作成するため、\n自分に合ったレベルを選んでください。",
+      "levelSelectionSubtitle": "最適な学習プランを作成するため、 自分に合ったレベルを選んでください。",
       "levelBeginnerDescription": "いくつかの単語を知っている",
       "levelIntermediateDescription": "かなり知っていて、もっと学びたい",
       "levelAdvancedDescription": "難しい単語を学びたい",
-      "assessmentLevelTitle": "現在の\n英語レベルを診断",
-      "assessmentLevelSubtitle": "最適な学習プランを作成するため、\n自分に合ったレベルを選んでください。",
-      "assessmentLevelNew": "学び始めたばかりで、\nまだほとんどわからない",
-      "assessmentLevelBasic": "基本的な文法を少し知っていて、\n簡単な単語や\nフレーズを言える",
-      "assessmentLevelConversational": "会話はできるが、\nまだ間違いがあり、\nよく迷うことがある",
-      "assessmentLevelFluent": "流暢に話せて、本を読み、\n英語で映画も\n見ることができる",
+      "assessmentLevelTitle": "現在の 英語レベルを診断",
+      "assessmentLevelSubtitle": "最適な学習プランを作成するため、 自分に合ったレベルを選んでください。",
+      "assessmentLevelNew": "学び始めたばかりで、 まだほとんどわからない",
+      "assessmentLevelBasic": "基本的な文法を少し知っていて、 簡単な単語や フレーズを言える",
+      "assessmentLevelConversational": "会話はできるが、 まだ間違いがあり、 よく迷うことがある",
+      "assessmentLevelFluent": "流暢に話せて、本を読み、 英語で映画も 見ることができる",
       "assessmentLevelStart": "テストを開始",
-      "surveyIntroTitle": "短い\nアンケートに答えましょう！",
-      "surveyIntroSubtitle": "回答をもとにLeximonが\n最適な学習方法を選びます。",
+      "surveyIntroTitle": "短い アンケートに答えましょう！",
+      "surveyIntroSubtitle": "回答をもとにLeximonが 最適な学習方法を選びます。",
       "freeTrialGift": "あなたにプレゼント",
       "freeTrialDuration": "7日間無料",
       "freeTrialPurpose": "アプリをお試しいただけます",
@@ -19915,7 +19925,7 @@ class AppLocalizations {
       "trialReminderEnd": "無料トライアル終了を",
       "trialReminderPushDate": "{date}にプッシュ通知を送信します",
       "subscriptionCompleteError": "設定を完了できませんでした。もう一度お試しください。",
-      "subscriptionHeadlineSubtitle": "英語が仕事で使える\n頼れるスキルになります",
+      "subscriptionHeadlineSubtitle": "英語が仕事で使える 頼れるスキルになります",
       "subscriptionLoadingPlans": "サブスクリプションプランを読み込み中…",
       "subscriptionLoadError": "サブスクリプションプランの詳細を読み込めませんでした。",
       "subscriptionStorePriceUnavailable": "App Storeの価格を取得できません",
@@ -19928,7 +19938,7 @@ class AppLocalizations {
       "subscriptionDays": "{count}日",
       "subscriptionIn": "あと ",
       "subscriptionDaySuffix": " 日",
-      "subscriptionStart": "無料トライアルを開始して\n購読する",
+      "subscriptionStart": "無料トライアルを開始して 購読する",
       "surveySaveProgressError": "進捗を保存できませんでした。もう一度お試しください。",
       "surveySaveTopicsError": "選択したトピックを保存できませんでした。",
       "surveyContinueWithLeximon": "Leximonで続ける",
@@ -19967,11 +19977,11 @@ class AppLocalizations {
       "surveyStudy10To20": "10～20分",
       "surveyStudy20To60": "20～60分",
       "surveyStudyOverHour": "1時間以上",
-      "surveyHabitTitle": "毎日どのくらい\n英語学習に時間を使えますか？",
+      "surveyHabitTitle": "毎日どのくらい 英語学習に時間を使えますか？",
       "surveyHabitDescription": "毎日決まった時間を確保すると、習慣が身につき、",
       "surveyHabitHighlight": "より早く上達できます。",
       "surveyPreferredTimeQuestion": "英語を勉強するのに一番都合のよい時間はいつですか？",
-      "surveyReminderPrimary": "Leximonがレッスンをお知らせするので、\n毎日忘れずに学習できます。",
+      "surveyReminderPrimary": "Leximonがレッスンをお知らせするので、 毎日忘れずに学習できます。",
       "surveyReminderSecondary": "継続的に練習すると、英語学習の速度が約",
       "surveyReminderHighlight": "4.6倍になります！",
       "surveyChallengeQuestion": "英語学習で一番難しいことは何ですか？",
@@ -19994,19 +20004,19 @@ class AppLocalizations {
       "surveyReviewThreeTitle": "役に立つ",
       "surveyReviewThreeBody": "内容が自分のレベルに合っていて、レッスンもわかりやすく、リマインダーのおかげで継続できます。",
       "surveySocialProofPrefix": " は ",
-      "surveySocialProofSuffix": " 人のユーザーの\n英語力向上をサポートしました",
-      "surveyTopicTitle": "学びたいトピックを\n選んでください",
+      "surveySocialProofSuffix": " 人のユーザーの 英語力向上をサポートしました",
+      "surveyTopicTitle": "学びたいトピックを 選んでください",
       "surveySelectAll": "すべて選択",
       "surveyAnalysisTopic": "トピックを設定中",
       "surveyAnalysisDictionary": "辞書を作成中",
       "surveyAnalysisExercises": "練習問題を選択中",
       "surveyAnalysisPace": "学習ペースを設定中",
-      "surveyAnalysisProcessing": "回答を\n分析中",
-      "surveyKnowledgeLead": "英語は、あなたが\n",
+      "surveyAnalysisProcessing": "回答を 分析中",
+      "surveyKnowledgeLead": "英語は、あなたが ",
       "surveyKnowledgeOpen": "知識への扉を開き、",
-      "surveyKnowledgeConnect": "\n世界とつながり、",
+      "surveyKnowledgeConnect": " 世界とつながり、",
       "surveyKnowledgeMore": "より多くのチャンスをつかむための鍵です。",
-      "surveySummaryTitle": "英語で、もっと\n先へ進めます",
+      "surveySummaryTitle": "英語で、もっと 先へ進めます",
       "surveySummaryQuoteOne": "英語は、国際的なキャリアの機会や、より魅力的な収入への扉を開きます。",
       "surveySummaryQuoteTwo": "語学力があれば採用で差をつけ、グローバルなチームで活躍し、長く続くキャリアを築けます。",
       "surveySummaryQuoteThree":
@@ -20053,7 +20063,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "正解",
       "vocabularyTestHalfwayTitle": "すばらしい！",
       "vocabularyTestHalfwayBody":
-          "半分まで来ました！\nこの単語はとてもよくできました。次は\nもう少し難しい問題に挑戦しましょう。",
+          "半分まで来ました！ この単語はとてもよくできました。次は もう少し難しい問題に挑戦しましょう。",
       "vocabularyTestNextLevel": "次のレベル: {level} · パート{part}",
       "skillListening": "リスニング",
       "skillVocabulary": "語彙",
@@ -20223,7 +20233,7 @@ class AppLocalizations {
           "「{pack}」で完了した問題はすべて削除され、進捗は0%に戻ります。この操作は取り消せません。",
       "grammarTitle": "文法",
       "done": "完了",
-      "grammarByLevelTitle": "レベル別\n文法練習",
+      "grammarByLevelTitle": "レベル別 文法練習",
       "grammarMotivation": "毎日学んで、少しずつ上達しましょう！",
       "overallProgress": "全体の進捗",
       "percentComplete": "{percent}%完了",
@@ -20276,7 +20286,7 @@ class AppLocalizations {
       "lessons": "レッスン",
       "otherLessons": "その他のレッスン",
       "listeningPreloadTitle": "リスニング問題を読み込み中",
-      "listeningPreloadSubtitle": "「{lesson}」の\n聞いて入力データを準備中です。",
+      "listeningPreloadSubtitle": "「{lesson}」の 聞いて入力データを準備中です。",
       "ready": "準備完了！",
       "listeningOpening": "リスニング問題を開いています...",
       "listeningLoadingContent": "レッスン内容を読み込み中...",
@@ -20494,7 +20504,7 @@ class AppLocalizations {
       "recentHistory": "最近の履歴",
       "recentHistoryBody": "最近完了したレッスン",
       "recentHistoryEmpty": "完了したセッションはまだありません。レッスンを完了すると履歴が始まります。",
-      "todayAtTime": "今日\n{time}",
+      "todayAtTime": "今日 {time}",
       "weekdayMon": "月",
       "weekdayTue": "火",
       "weekdayWed": "水",
@@ -20906,8 +20916,8 @@ class AppLocalizations {
       "navProgress": "진행 상황",
       "navChallenges": "도전",
       "navProfile": "프로필",
-      "languageTitle": "모국어를\n선택하세요",
-      "languageSubtitle": "학습 여정을\n맞춤 설정해 드릴게요.",
+      "languageTitle": "모국어를 선택하세요",
+      "languageSubtitle": "학습 여정을 맞춤 설정해 드릴게요.",
       "languageSaveError": "언어를 저장할 수 없습니다. 다시 시도해 주세요.",
       "back": "뒤로",
       "continue": "계속",
@@ -20948,25 +20958,25 @@ class AppLocalizations {
       "levelAdvanced": "고급",
       "assessmentSkip": "내 수준을 알고 있어요",
       "assessmentTitle": "간단한 테스트 받기",
-      "assessmentSubtitle": "현재 수준을 평가해\n가장 적합한 학습 경로를 만들어 드릴게요.",
+      "assessmentSubtitle": "현재 수준을 평가해 가장 적합한 학습 경로를 만들어 드릴게요.",
       "assessmentStart": "테스트 시작",
       "assessmentBenefitLevel": "현재 수준을 확인할 수 있어요",
       "assessmentBenefitVocabulary": "어휘력을 확인해요",
       "assessmentBenefitAdapt": "앱이 수준에 맞게 조정돼요",
       "levelSelectionTitle": "영어 수준을 선택하세요",
-      "levelSelectionSubtitle": "알맞은 수준을 선택하면\n가장 적합한 학습 경로를 만들어 드릴게요.",
+      "levelSelectionSubtitle": "알맞은 수준을 선택하면 가장 적합한 학습 경로를 만들어 드릴게요.",
       "levelBeginnerDescription": "몇 개의 단어를 알고 있어요",
       "levelIntermediateDescription": "꽤 많이 알고 있고 더 배우고 싶어요",
       "levelAdvancedDescription": "어려운 단어를 배우고 싶어요",
-      "assessmentLevelTitle": "현재 영어 수준을\n평가해 보세요",
-      "assessmentLevelSubtitle": "알맞은 수준을 선택하면\n가장 적합한 학습 경로를 만들어 드릴게요.",
-      "assessmentLevelNew": "영어 공부를 막 시작해서\n아직 거의 몰라요",
-      "assessmentLevelBasic": "기초 문법을 조금 알고\n간단한 단어와\n표현을 말할 수 있어요",
-      "assessmentLevelConversational": "대화는 할 수 있지만\n아직 실수가 있고\n자주 망설여요",
-      "assessmentLevelFluent": "유창하게 말하고 책을 읽으며,\n영어로 영화를\n볼 수 있어요",
+      "assessmentLevelTitle": "현재 영어 수준을 평가해 보세요",
+      "assessmentLevelSubtitle": "알맞은 수준을 선택하면 가장 적합한 학습 경로를 만들어 드릴게요.",
+      "assessmentLevelNew": "영어 공부를 막 시작해서 아직 거의 몰라요",
+      "assessmentLevelBasic": "기초 문법을 조금 알고 간단한 단어와 표현을 말할 수 있어요",
+      "assessmentLevelConversational": "대화는 할 수 있지만 아직 실수가 있고 자주 망설여요",
+      "assessmentLevelFluent": "유창하게 말하고 책을 읽으며, 영어로 영화를 볼 수 있어요",
       "assessmentLevelStart": "테스트 시작",
-      "surveyIntroTitle": "간단한\n설문을 해볼까요!",
-      "surveyIntroSubtitle": "답변을 바탕으로 Leximon이\n가장 적합한 학습 방법을 선택해 드려요.",
+      "surveyIntroTitle": "간단한 설문을 해볼까요!",
+      "surveyIntroSubtitle": "답변을 바탕으로 Leximon이 가장 적합한 학습 방법을 선택해 드려요.",
       "freeTrialGift": "회원님께 드려요",
       "freeTrialDuration": "7일 무료",
       "freeTrialPurpose": "앱을 체험해 보세요",
@@ -20977,7 +20987,7 @@ class AppLocalizations {
       "trialReminderEnd": "무료 체험이 종료됩니다",
       "trialReminderPushDate": "{date}에 푸시 알림이 전송됩니다",
       "subscriptionCompleteError": "설정을 완료할 수 없습니다. 다시 시도해 주세요.",
-      "subscriptionHeadlineSubtitle": "영어가 직장에서 믿고 쓸 수 있는\n도구가 될 거예요",
+      "subscriptionHeadlineSubtitle": "영어가 직장에서 믿고 쓸 수 있는 도구가 될 거예요",
       "subscriptionLoadingPlans": "구독 플랜을 불러오는 중…",
       "subscriptionLoadError": "구독 플랜 정보를 불러올 수 없습니다.",
       "subscriptionStorePriceUnavailable": "App Store 가격을 확인할 수 없음",
@@ -20990,7 +21000,7 @@ class AppLocalizations {
       "subscriptionDays": "{count}일",
       "subscriptionIn": " ",
       "subscriptionDaySuffix": "일 후",
-      "subscriptionStart": "무료 체험 시작\n및 구독",
+      "subscriptionStart": "무료 체험 시작 및 구독",
       "surveySaveProgressError": "진행 상황을 저장할 수 없습니다. 다시 시도해 주세요.",
       "surveySaveTopicsError": "선택한 주제를 저장할 수 없습니다.",
       "surveyContinueWithLeximon": "Leximon으로 계속",
@@ -21029,11 +21039,11 @@ class AppLocalizations {
       "surveyStudy10To20": "10~20분",
       "surveyStudy20To60": "20~60분",
       "surveyStudyOverHour": "1시간 이상",
-      "surveyHabitTitle": "매일 영어 학습에 얼마나\n시간을 쓸 수 있나요?",
+      "surveyHabitTitle": "매일 영어 학습에 얼마나 시간을 쓸 수 있나요?",
       "surveyHabitDescription": "매일 일정한 시간을 정해두면 습관을 만들고 ",
       "surveyHabitHighlight": "더 빠르게 성장할 수 있어요.",
       "surveyPreferredTimeQuestion": "영어 공부하기에 가장 편한 시간은 언제인가요?",
-      "surveyReminderPrimary": "Leximon이 학습 시간을 알려드려\n하루도 놓치지 않도록 도와드려요.",
+      "surveyReminderPrimary": "Leximon이 학습 시간을 알려드려 하루도 놓치지 않도록 도와드려요.",
       "surveyReminderSecondary": "꾸준히 연습하면 영어 학습 속도가 거의 ",
       "surveyReminderHighlight": "4.6배 빨라질 수 있어요!",
       "surveyChallengeQuestion": "영어에서 가장 어려운 점은 무엇인가요?",
@@ -21057,19 +21067,19 @@ class AppLocalizations {
       "surveyReviewThreeTitle": "도움이 돼요",
       "surveyReviewThreeBody": "내 수준에 맞는 콘텐츠와 명확한 수업, 알림 덕분에 꾸준히 학습할 수 있어요.",
       "surveySocialProofPrefix": " 덕분에 ",
-      "surveySocialProofSuffix": "명의 사용자가\n영어 실력을 향상했어요",
-      "surveyTopicTitle": "배우고 싶은 주제를\n선택하세요",
+      "surveySocialProofSuffix": "명의 사용자가 영어 실력을 향상했어요",
+      "surveyTopicTitle": "배우고 싶은 주제를 선택하세요",
       "surveySelectAll": "전체 선택",
       "surveyAnalysisTopic": "주제 설정 중",
       "surveyAnalysisDictionary": "나만의 사전 만드는 중",
       "surveyAnalysisExercises": "연습 문제 선택 중",
       "surveyAnalysisPace": "학습 속도 설정 중",
-      "surveyAnalysisProcessing": "답변을\n분석하는 중",
-      "surveyKnowledgeLead": "영어는 여러분이\n",
+      "surveyAnalysisProcessing": "답변을 분석하는 중",
+      "surveyKnowledgeLead": "영어는 여러분이 ",
       "surveyKnowledgeOpen": "지식의 문을 열고,",
-      "surveyKnowledgeConnect": "\n세상과 연결되며 ",
+      "surveyKnowledgeConnect": " 세상과 연결되며 ",
       "surveyKnowledgeMore": "더 많은 기회를 잡게 해주는 열쇠예요.",
-      "surveySummaryTitle": "영어는 여러분을\n더 멀리 데려가요",
+      "surveySummaryTitle": "영어는 여러분을 더 멀리 데려가요",
       "surveySummaryQuoteOne": "영어는 국제적인 커리어 기회와 더 높은 소득으로 가는 문을 열어줍니다.",
       "surveySummaryQuoteTwo":
           "언어 능력은 채용 과정에서 돋보이게 하고, 글로벌 팀과 효율적으로 일하며 지속 가능한 커리어를 쌓는 데 도움을 줍니다.",
@@ -21116,7 +21126,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "개 정답",
       "vocabularyTestHalfwayTitle": "좋아요!",
       "vocabularyTestHalfwayBody":
-          "절반까지 왔어요!\n이 단어들을 정말 잘 풀었어요. 이제\n조금 더 어려운 문제에 도전해 보세요.",
+          "절반까지 왔어요! 이 단어들을 정말 잘 풀었어요. 이제 조금 더 어려운 문제에 도전해 보세요.",
       "vocabularyTestNextLevel": "다음 레벨: {level} · 파트 {part}",
       "skillListening": "듣기",
       "skillVocabulary": "어휘",
@@ -21287,7 +21297,7 @@ class AppLocalizations {
           "“{pack}”에서 완료한 모든 문제가 삭제되고 진행률이 0%로 돌아갑니다. 이 작업은 취소할 수 없습니다.",
       "grammarTitle": "문법",
       "done": "완료",
-      "grammarByLevelTitle": "레벨별\n문법 연습",
+      "grammarByLevelTitle": "레벨별 문법 연습",
       "grammarMotivation": "매일 배우고 한 단계씩 성장하세요!",
       "overallProgress": "전체 진행률",
       "percentComplete": "{percent}% 완료",
@@ -21340,7 +21350,7 @@ class AppLocalizations {
       "lessons": "수업",
       "otherLessons": "다른 수업",
       "listeningPreloadTitle": "듣기 연습 불러오는 중",
-      "listeningPreloadSubtitle": "“{lesson}”의 Listen & Type 데이터를\n준비하는 중입니다.",
+      "listeningPreloadSubtitle": "“{lesson}”의 Listen & Type 데이터를 준비하는 중입니다.",
       "ready": "준비 완료!",
       "listeningOpening": "듣기 연습을 여는 중...",
       "listeningLoadingContent": "수업 콘텐츠를 불러오는 중...",
@@ -21558,7 +21568,7 @@ class AppLocalizations {
       "recentHistory": "최근 기록",
       "recentHistoryBody": "최근 완료한 수업",
       "recentHistoryEmpty": "아직 완료한 세션이 없습니다. 수업을 완료하면 기록이 시작됩니다.",
-      "todayAtTime": "오늘\n{time}",
+      "todayAtTime": "오늘 {time}",
       "weekdayMon": "월",
       "weekdayTue": "화",
       "weekdayWed": "수",
@@ -21975,9 +21985,9 @@ class AppLocalizations {
       "navProgress": "Kemajuan",
       "navChallenges": "Cabaran",
       "navProfile": "Profil",
-      "languageTitle": "Pilih bahasa\nibunda anda",
+      "languageTitle": "Pilih bahasa ibunda anda",
       "languageSubtitle":
-          "Kami akan memperibadikan\nperjalanan pembelajaran anda.",
+          "Kami akan memperibadikan perjalanan pembelajaran anda.",
       "languageSaveError": "Bahasa tidak dapat disimpan. Sila cuba lagi.",
       "back": "Kembali",
       "continue": "Teruskan",
@@ -22009,7 +22019,8 @@ class AppLocalizations {
       "loading": "Memuatkan...",
       "preparingLanguagePackage": "Menyediakan kandungan bahasa...",
       "checkingLanguageModels": "Memeriksa model bahasa luar talian...",
-      "downloadingLanguageModel": "Memuat turun model bahasa {current}/{total}...",
+      "downloadingLanguageModel":
+          "Memuat turun model bahasa {current}/{total}...",
       "languageModelsReady": "Model bahasa sudah sedia",
       "languagePickerTitle": "Pilih bahasa",
       "languagePickerSubtitle": "Pilih bahasa yang ingin anda pelajari",
@@ -22020,7 +22031,7 @@ class AppLocalizations {
       "assessmentSkip": "Saya tahu tahap saya",
       "assessmentTitle": "Ambil ujian ringkas",
       "assessmentSubtitle":
-          "Kami akan menilai tahap anda untuk\nmembina laluan pembelajaran terbaik untuk anda.",
+          "Kami akan menilai tahap anda untuk membina laluan pembelajaran terbaik untuk anda.",
       "assessmentStart": "Ambil ujian",
       "assessmentBenefitLevel": "Anda akan mengetahui tahap anda",
       "assessmentBenefitVocabulary": "Semak kosa kata anda",
@@ -22028,26 +22039,26 @@ class AppLocalizations {
           "Aplikasi akan menyesuaikan diri dengan tahap anda",
       "levelSelectionTitle": "Pilih tahap bahasa Inggeris anda",
       "levelSelectionSubtitle":
-          "Pilih tahap yang sesuai supaya kami dapat\nmembina laluan pembelajaran terbaik untuk anda.",
+          "Pilih tahap yang sesuai supaya kami dapat membina laluan pembelajaran terbaik untuk anda.",
       "levelBeginnerDescription": "Saya tahu beberapa perkataan",
       "levelIntermediateDescription":
           "Saya tahu agak banyak dan mahu belajar lebih lagi",
       "levelAdvancedDescription":
           "Saya mahu mempelajari perkataan yang mencabar",
-      "assessmentLevelTitle": "Nilai tahap bahasa Inggeris\nanda sekarang",
+      "assessmentLevelTitle": "Nilai tahap bahasa Inggeris anda sekarang",
       "assessmentLevelSubtitle":
-          "Pilih tahap yang sesuai supaya kami dapat\nmembina laluan pembelajaran terbaik untuk anda.",
-      "assessmentLevelNew": "Saya baru mula belajar\ndan belum tahu apa-apa",
+          "Pilih tahap yang sesuai supaya kami dapat membina laluan pembelajaran terbaik untuk anda.",
+      "assessmentLevelNew": "Saya baru mula belajar dan belum tahu apa-apa",
       "assessmentLevelBasic":
-          "Saya tahu tatabahasa asas\ndan boleh menyebut perkataan\ndan frasa mudah",
+          "Saya tahu tatabahasa asas dan boleh menyebut perkataan dan frasa mudah",
       "assessmentLevelConversational":
-          "Saya boleh berbual, tetapi\nsaya masih melakukan kesilapan dan\nsering teragak-agak",
+          "Saya boleh berbual, tetapi saya masih melakukan kesilapan dan sering teragak-agak",
       "assessmentLevelFluent":
-          "Saya bertutur dengan lancar, membaca buku,\ndan menonton filem\ndalam bahasa Inggeris",
+          "Saya bertutur dengan lancar, membaca buku, dan menonton filem dalam bahasa Inggeris",
       "assessmentLevelStart": "Mulakan ujian",
-      "surveyIntroTitle": "Mari jawab\nsoal selidik ringkas!",
+      "surveyIntroTitle": "Mari jawab soal selidik ringkas!",
       "surveyIntroSubtitle":
-          "Berdasarkan jawapan anda, Leximon akan\nmemilih kaedah pembelajaran terbaik untuk anda.",
+          "Berdasarkan jawapan anda, Leximon akan memilih kaedah pembelajaran terbaik untuk anda.",
       "freeTrialGift": "Kami memberi anda",
       "freeTrialDuration": "Percuma 7 hari",
       "freeTrialPurpose": "untuk mencuba aplikasi kami",
@@ -22060,7 +22071,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Persediaan tidak dapat diselesaikan. Sila cuba lagi.",
       "subscriptionHeadlineSubtitle":
-          "bahasa Inggeris anda akan menjadi alat yang boleh dipercayai\ndi tempat kerja",
+          "bahasa Inggeris anda akan menjadi alat yang boleh dipercayai di tempat kerja",
       "subscriptionLoadingPlans": "Memuatkan pelan langganan…",
       "subscriptionLoadError": "Butiran pelan langganan tidak dapat dimuatkan.",
       "subscriptionStorePriceUnavailable": "Harga App Store tidak tersedia",
@@ -22073,7 +22084,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} hari",
       "subscriptionIn": "Dalam ",
       "subscriptionDaySuffix": " hari",
-      "subscriptionStart": "Mulakan percubaan percuma\ndan melanggan",
+      "subscriptionStart": "Mulakan percubaan percuma dan melanggan",
       "surveySaveProgressError":
           "Kemajuan anda tidak dapat disimpan. Sila cuba lagi.",
       "surveySaveTopicsError": "Topik yang dipilih tidak dapat disimpan.",
@@ -22126,14 +22137,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minit",
       "surveyStudyOverHour": "Lebih daripada 1 jam",
       "surveyHabitTitle":
-          "Berapa banyak masa yang anda sanggup\nluangkan untuk belajar bahasa Inggeris setiap hari?",
+          "Berapa banyak masa yang anda sanggup luangkan untuk belajar bahasa Inggeris setiap hari?",
       "surveyHabitDescription":
           "Meluangkan masa secara tetap setiap hari membantu anda membina tabiat dan ",
       "surveyHabitHighlight": "maju dengan lebih cepat.",
       "surveyPreferredTimeQuestion":
           "Bilakah masa yang paling sesuai untuk anda belajar bahasa Inggeris?",
       "surveyReminderPrimary":
-          "Leximon akan mengingatkan anda tentang pelajaran\nsupaya anda tidak terlepas satu hari pun.",
+          "Leximon akan mengingatkan anda tentang pelajaran supaya anda tidak terlepas satu hari pun.",
       "surveyReminderSecondary":
           "Kami mendapati latihan tetap boleh menjadikan pembelajaran bahasa Inggeris hampir ",
       "surveyReminderHighlight": "4,6× lebih cepat!",
@@ -22165,21 +22176,20 @@ class AppLocalizations {
           "Kandungannya sesuai dengan tahap saya, pelajarannya jelas, dan peringatan membantu saya tetap konsisten.",
       "surveySocialProofPrefix": " telah membantu ",
       "surveySocialProofSuffix":
-          " pengguna\nMeningkatkan bahasa Inggeris mereka",
-      "surveyTopicTitle": "Pilih topik\nyang mahu anda pelajari",
+          " pengguna Meningkatkan bahasa Inggeris mereka",
+      "surveyTopicTitle": "Pilih topik yang mahu anda pelajari",
       "surveySelectAll": "Pilih semua",
       "surveyAnalysisTopic": "Menyediakan topik",
       "surveyAnalysisDictionary": "Membuat kamus anda",
       "surveyAnalysisExercises": "Memilih latihan",
       "surveyAnalysisPace": "Mengatur rentak belajar anda",
-      "surveyAnalysisProcessing": "Menganalisis\nJawapan anda",
-      "surveyKnowledgeLead":
-          "Bahasa Inggeris adalah kunci yang membantu anda\n",
+      "surveyAnalysisProcessing": "Menganalisis Jawapan anda",
+      "surveyKnowledgeLead": "Bahasa Inggeris adalah kunci yang membantu anda ",
       "surveyKnowledgeOpen": "Membuka pintu pengetahuan,",
-      "surveyKnowledgeConnect": "\nTerhubung dengan dunia, dan meraih ",
+      "surveyKnowledgeConnect": " Terhubung dengan dunia, dan meraih ",
       "surveyKnowledgeMore": "Lebih banyak peluang.",
       "surveySummaryTitle":
-          "Bahasa Inggeris membantu anda\nMelangkah lebih jauh",
+          "Bahasa Inggeris membantu anda Melangkah lebih jauh",
       "surveySummaryQuoteOne":
           "Bahasa Inggeris membuka pintu menuju peluang kerjaya internasional dan pendapatan yang lebih menarik.",
       "surveySummaryQuoteTwo":
@@ -22236,7 +22246,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "Jawapan betul",
       "vocabularyTestHalfwayTitle": "Bagus!",
       "vocabularyTestHalfwayBody":
-          "Anda sudah setengah jalan!\nAnda sangat baik dengan perkataan ini. Sekarang cuba\nSoalan yang lebih menantang.",
+          "Anda sudah setengah jalan! Anda sangat baik dengan perkataan ini. Sekarang cuba Soalan yang lebih menantang.",
       "vocabularyTestNextLevel": "Tahap seterusnya: {level} · Bahagian {part}",
       "skillListening": "Mendengar",
       "skillVocabulary": "Kosa kata",
@@ -22425,7 +22435,7 @@ class AppLocalizations {
           "Semua soalan yang telah selesai di “{pack}” akan dipadam dan kemajuan akan kembali ke 0%. Tindakan ini tidak dapat dibatalkan.",
       "grammarTitle": "Tatabahasa",
       "done": "Selesai",
-      "grammarByLevelTitle": "Latihan tatabahasa\nBerdasarkan tahap",
+      "grammarByLevelTitle": "Latihan tatabahasa Berdasarkan tahap",
       "grammarMotivation":
           "Belajar setiap hari dan tingkatkan kemahiran langkah demi langkah!",
       "overallProgress": "Kemajuan keseluruhan",
@@ -22484,7 +22494,7 @@ class AppLocalizations {
       "otherLessons": "Pelajaran lain",
       "listeningPreloadTitle": "Memuatkan latihan mendengar",
       "listeningPreloadSubtitle":
-          "Menyediakan data Dengar & Taip\nuntuk “{lesson}”.",
+          "Menyediakan data Dengar & Taip untuk “{lesson}”.",
       "ready": "Sedia!",
       "listeningOpening": "Membuka latihan mendengar...",
       "listeningLoadingContent": "Memuatkan kandungan pelajaran...",
@@ -22742,7 +22752,7 @@ class AppLocalizations {
       "recentHistoryBody": "Pelajaran yang baharu saja anda selesaikan",
       "recentHistoryEmpty":
           "Belum ada sesi yang selesai. Selesaikan satu pelajaran untuk memulakan sejarah anda.",
-      "todayAtTime": "Hari ini\n{time}",
+      "todayAtTime": "Hari ini {time}",
       "weekdayMon": "Isn",
       "weekdayTue": "Sel",
       "weekdayWed": "Rab",
@@ -23234,8 +23244,8 @@ class AppLocalizations {
       "navProgress": "Fremgang",
       "navChallenges": "Utfordringer",
       "navProfile": "Profil",
-      "languageTitle": "Velg ditt\nmorsmål",
-      "languageSubtitle": "Vi tilpasser\nlæringsreisen din for deg.",
+      "languageTitle": "Velg ditt morsmål",
+      "languageSubtitle": "Vi tilpasser læringsreisen din for deg.",
       "languageSaveError": "Språket kunne ikke lagres. Prøv igjen.",
       "back": "Tilbake",
       "continue": "Fortsett",
@@ -23266,7 +23276,8 @@ class AppLocalizations {
       "disabled": "Av",
       "loading": "Laster...",
       "preparingLanguagePackage": "Forbereder språkinnhold...",
-      "checkingLanguageModels": "Kontrollerer språkmodeller for frakoblet bruk...",
+      "checkingLanguageModels":
+          "Kontrollerer språkmodeller for frakoblet bruk...",
       "downloadingLanguageModel": "Laster ned språkmodell {current}/{total}...",
       "languageModelsReady": "Språkmodellene er klare",
       "languagePickerTitle": "Velg et språk",
@@ -23278,32 +23289,32 @@ class AppLocalizations {
       "assessmentSkip": "Jeg kjenner nivået mitt",
       "assessmentTitle": "Ta en kort test",
       "assessmentSubtitle":
-          "Vi vurderer nivået ditt for å\nlage den beste læringsstien for deg.",
+          "Vi vurderer nivået ditt for å lage den beste læringsstien for deg.",
       "assessmentStart": "Ta testen",
       "assessmentBenefitLevel": "Du finner ut hvilket nivå du er på",
       "assessmentBenefitVocabulary": "Sjekk ordforrådet ditt",
       "assessmentBenefitAdapt": "Appen tilpasser seg nivået ditt",
       "levelSelectionTitle": "Velg engelsknivået ditt",
       "levelSelectionSubtitle":
-          "Velg riktig nivå, så kan vi\nlage den beste læringsstien for deg.",
+          "Velg riktig nivå, så kan vi lage den beste læringsstien for deg.",
       "levelBeginnerDescription": "Jeg kan noen få ord",
       "levelIntermediateDescription": "Jeg kan ganske mye og vil lære mer",
       "levelAdvancedDescription": "Jeg vil lære utfordrende ord",
-      "assessmentLevelTitle": "Vurder ditt nåværende\nengelsknivå",
+      "assessmentLevelTitle": "Vurder ditt nåværende engelsknivå",
       "assessmentLevelSubtitle":
-          "Velg riktig nivå, så kan vi\nlage den beste læringsstien for deg.",
+          "Velg riktig nivå, så kan vi lage den beste læringsstien for deg.",
       "assessmentLevelNew":
-          "Jeg har nettopp begynt å lære\nog kan ingenting ennå",
+          "Jeg har nettopp begynt å lære og kan ingenting ennå",
       "assessmentLevelBasic":
-          "Jeg kan litt grunnleggende grammatikk\nog kan si enkle ord\nog setninger",
+          "Jeg kan litt grunnleggende grammatikk og kan si enkle ord og setninger",
       "assessmentLevelConversational":
-          "Jeg kan ha samtaler, men\njeg gjør fortsatt feil og\nnøler ofte",
+          "Jeg kan ha samtaler, men jeg gjør fortsatt feil og nøler ofte",
       "assessmentLevelFluent":
-          "Jeg snakker flytende, leser bøker\nog ser filmer\npå engelsk",
+          "Jeg snakker flytende, leser bøker og ser filmer på engelsk",
       "assessmentLevelStart": "Start testen",
-      "surveyIntroTitle": "La oss ta en\nkort undersøkelse!",
+      "surveyIntroTitle": "La oss ta en kort undersøkelse!",
       "surveyIntroSubtitle":
-          "Basert på svarene dine velger Leximon\nden beste læringsmetoden for deg.",
+          "Basert på svarene dine velger Leximon den beste læringsmetoden for deg.",
       "freeTrialGift": "Vi gir deg",
       "freeTrialDuration": "7 dager gratis",
       "freeTrialPurpose": "for å prøve appen vår",
@@ -23316,7 +23327,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Oppsettet kunne ikke fullføres. Prøv igjen.",
       "subscriptionHeadlineSubtitle":
-          "engelsken din blir et pålitelig verktøy\npå jobb",
+          "engelsken din blir et pålitelig verktøy på jobb",
       "subscriptionLoadingPlans": "Laster abonnementer…",
       "subscriptionLoadError": "Kunne ikke laste informasjon om abonnementet.",
       "subscriptionStorePriceUnavailable":
@@ -23330,7 +23341,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} dager",
       "subscriptionIn": "Om ",
       "subscriptionDaySuffix": " dager",
-      "subscriptionStart": "Start gratis prøveperiode\nog abonner",
+      "subscriptionStart": "Start gratis prøveperiode og abonner",
       "surveySaveProgressError": "Dine fremgang kunne ikke lagres. Prøv igjen.",
       "surveySaveTopicsError": "De valgte temaer kunne ikke lagres.",
       "surveyContinueWithLeximon": "Fortsett med Leximon",
@@ -23377,14 +23388,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minutter",
       "surveyStudyOverHour": "Mer enn 1 time",
       "surveyHabitTitle":
-          "Hvor mye tid er du klar til å\nbruke på å lære engelsk hver dag?",
+          "Hvor mye tid er du klar til å bruke på å lære engelsk hver dag?",
       "surveyHabitDescription":
           "Å sette av fast tid hver dag hjelper deg med å bygge en vane og ",
       "surveyHabitHighlight": "gjøre raskere fremgang.",
       "surveyPreferredTimeQuestion":
           "Når passer det best for deg å studere engelsk?",
       "surveyReminderPrimary":
-          "Leximon minner deg på leksjonene dine\nslik at du ikke går glipp av en dag.",
+          "Leximon minner deg på leksjonene dine slik at du ikke går glipp av en dag.",
       "surveyReminderSecondary":
           "Vi har funnet ut at regelmessig øving kan gjøre engelsklæring nesten ",
       "surveyReminderHighlight": "4,6× raskere!",
@@ -23412,19 +23423,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Innholdet passer til nivået mitt, leksjonene er tydelige, og påminnelsene hjelper meg med å holde meg på rett spor.",
       "surveySocialProofPrefix": " har hjulpet ",
-      "surveySocialProofSuffix": " brukere\nmed å forbedre engelsken sin",
-      "surveyTopicTitle": "Velg de temaer,\ndu vil lære",
+      "surveySocialProofSuffix": " brukere med å forbedre engelsken sin",
+      "surveyTopicTitle": "Velg de temaer, du vil lære",
       "surveySelectAll": "Velg alle",
       "surveyAnalysisTopic": "Setter opp temaer",
       "surveyAnalysisDictionary": "Opretter din ordbok",
       "surveyAnalysisExercises": "Velger øvelser",
       "surveyAnalysisPace": "Indstiller ditt læringstempo",
-      "surveyAnalysisProcessing": "Analyserer dine\nsvar",
-      "surveyKnowledgeLead": "Engelsk er nøkkelen, der hjelper deg med at\n",
+      "surveyAnalysisProcessing": "Analyserer dine svar",
+      "surveyKnowledgeLead": "Engelsk er nøkkelen, der hjelper deg med at ",
       "surveyKnowledgeOpen": "åpne døren til kunnskap,",
-      "surveyKnowledgeConnect": "\nforbinde deg med verden og gribe ",
+      "surveyKnowledgeConnect": " forbinde deg med verden og gribe ",
       "surveyKnowledgeMore": "flere muligheter.",
-      "surveySummaryTitle": "Engelsk hjelper deg\nvidere",
+      "surveySummaryTitle": "Engelsk hjelper deg videre",
       "surveySummaryQuoteOne":
           "Engelsk åpner døren til internasjonale karrieremuligheter og mer attraktiv inntekt.",
       "surveySummaryQuoteTwo":
@@ -23479,7 +23490,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "riktige svar",
       "vocabularyTestHalfwayTitle": "Bra!",
       "vocabularyTestHalfwayBody":
-          "Du er halvveis!\nDu gjorde det veldig bra med disse ordene. Prøv nå\nnoen mer utfordrende spørsmål.",
+          "Du er halvveis! Du gjorde det veldig bra med disse ordene. Prøv nå noen mer utfordrende spørsmål.",
       "vocabularyTestNextLevel": "Neste nivå: {level} · Del {part}",
       "skillListening": "Lytting",
       "skillVocabulary": "Ordforråd",
@@ -23659,7 +23670,7 @@ class AppLocalizations {
           "Alle fullførte spørsmål i “{pack}” blir slettet, og fremgangen går tilbake til 0 %. Dette kan ikke angres.",
       "grammarTitle": "Grammatikk",
       "done": "Ferdig",
-      "grammarByLevelTitle": "Grammatikøvelser\netter nivå",
+      "grammarByLevelTitle": "Grammatikøvelser etter nivå",
       "grammarMotivation": "Lær hver dag, og bli bedre steg for steg!",
       "overallProgress": "Samlede fremgang",
       "percentComplete": "{percent}% fullført",
@@ -23717,7 +23728,7 @@ class AppLocalizations {
       "otherLessons": "Andre leksjoner",
       "listeningPreloadTitle": "Laster lytteøvelse",
       "listeningPreloadSubtitle":
-          "Forbereder data til Lytt og skriv\nfor “{lesson}”.",
+          "Forbereder data til Lytt og skriv for “{lesson}”.",
       "ready": "Klar!",
       "listeningOpening": "Åpner lytteøvelsen...",
       "listeningLoadingContent": "Laster leksjonsinnhold...",
@@ -23963,7 +23974,7 @@ class AppLocalizations {
       "recentHistoryBody": "Leksjoner, du har fullført for nylig",
       "recentHistoryEmpty":
           "Ingen fullførte økter ennå. Fuldfør en leksjon for å starte din historik.",
-      "todayAtTime": "I dag\n{time}",
+      "todayAtTime": "I dag {time}",
       "weekdayMon": "Man",
       "weekdayTue": "Tir",
       "weekdayWed": "Ons",
@@ -24437,8 +24448,8 @@ class AppLocalizations {
       "navProgress": "Voortgang",
       "navChallenges": "Uitdagingen",
       "navProfile": "Profiel",
-      "languageTitle": "Kies je\nmoedertaal",
-      "languageSubtitle": "We personaliseren je\nleertraject voor jou.",
+      "languageTitle": "Kies je moedertaal",
+      "languageSubtitle": "We personaliseren je leertraject voor jou.",
       "languageSaveError":
           "De taal kon niet worden opgeslagen. Probeer het opnieuw.",
       "back": "Terug",
@@ -24482,32 +24493,32 @@ class AppLocalizations {
       "assessmentSkip": "Ik ken mijn niveau",
       "assessmentTitle": "Doe een korte test",
       "assessmentSubtitle":
-          "We bepalen je niveau om\nhet beste leertraject voor je te maken.",
+          "We bepalen je niveau om het beste leertraject voor je te maken.",
       "assessmentStart": "Doe de test",
       "assessmentBenefitLevel": "Je ontdekt je niveau",
       "assessmentBenefitVocabulary": "Controleer je woordenschat",
       "assessmentBenefitAdapt": "De app past zich aan je niveau aan",
       "levelSelectionTitle": "Kies je Engelse niveau",
       "levelSelectionSubtitle":
-          "Kies het juiste niveau zodat we\nhet beste leertraject voor je kunnen maken.",
+          "Kies het juiste niveau zodat we het beste leertraject voor je kunnen maken.",
       "levelBeginnerDescription": "Ik ken een paar woorden",
       "levelIntermediateDescription":
           "Ik ken al behoorlijk veel en wil meer leren",
       "levelAdvancedDescription": "Ik wil uitdagende woorden leren",
-      "assessmentLevelTitle": "Bepaal je huidige\nEngelse niveau",
+      "assessmentLevelTitle": "Bepaal je huidige Engelse niveau",
       "assessmentLevelSubtitle":
-          "Kies het juiste niveau zodat we\nhet beste leertraject voor je kunnen maken.",
-      "assessmentLevelNew": "Ik ben net begonnen met leren\nen weet nog niets",
+          "Kies het juiste niveau zodat we het beste leertraject voor je kunnen maken.",
+      "assessmentLevelNew": "Ik ben net begonnen met leren en weet nog niets",
       "assessmentLevelBasic":
-          "Ik ken wat basisgrammatica\nen kan eenvoudige woorden\nen zinnen zeggen",
+          "Ik ken wat basisgrammatica en kan eenvoudige woorden en zinnen zeggen",
       "assessmentLevelConversational":
-          "Ik kan gesprekken voeren, maar\nmaak nog fouten en\ntwijfel vaak",
+          "Ik kan gesprekken voeren, maar maak nog fouten en twijfel vaak",
       "assessmentLevelFluent":
-          "Ik spreek vloeiend, lees boeken\nen kijk films\nin het Engels",
+          "Ik spreek vloeiend, lees boeken en kijk films in het Engels",
       "assessmentLevelStart": "Test starten",
-      "surveyIntroTitle": "Laten we een\nkorte enquête doen!",
+      "surveyIntroTitle": "Laten we een korte enquête doen!",
       "surveyIntroSubtitle":
-          "Op basis van je antwoorden kiest Leximon\nde beste leermethode voor jou.",
+          "Op basis van je antwoorden kiest Leximon de beste leermethode voor jou.",
       "freeTrialGift": "We geven je",
       "freeTrialDuration": "7 dagen gratis",
       "freeTrialPurpose": "om onze app uit te proberen",
@@ -24520,7 +24531,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "De installatie kon niet worden voltooid. Probeer het opnieuw.",
       "subscriptionHeadlineSubtitle":
-          "je Engels wordt een betrouwbaar hulpmiddel\nop het werk",
+          "je Engels wordt een betrouwbaar hulpmiddel op het werk",
       "subscriptionLoadingPlans": "Abonnementen laden…",
       "subscriptionLoadError":
           "De details van het abonnement konden niet worden geladen.",
@@ -24534,7 +24545,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} dagen",
       "subscriptionIn": "Over ",
       "subscriptionDaySuffix": " dagen",
-      "subscriptionStart": "Gratis proefperiode starten\nen abonneren",
+      "subscriptionStart": "Gratis proefperiode starten en abonneren",
       "surveySaveProgressError":
           "Je voortgang kon niet worden opgeslagen. Probeer het opnieuw.",
       "surveySaveTopicsError":
@@ -24586,14 +24597,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minuten",
       "surveyStudyOverHour": "Meer dan 1 uur",
       "surveyHabitTitle":
-          "Hoeveel tijd wil je elke dag\nbesteden aan het leren van Engels?",
+          "Hoeveel tijd wil je elke dag besteden aan het leren van Engels?",
       "surveyHabitDescription":
           "Elke dag op een vast moment oefenen helpt je een gewoonte op te bouwen en ",
       "surveyHabitHighlight": "sneller vooruitgang te boeken.",
       "surveyPreferredTimeQuestion":
           "Welk tijdstip is voor jou het handigst om Engels te leren?",
       "surveyReminderPrimary":
-          "Leximon herinnert je aan je lessen\nzodat je geen dag mist.",
+          "Leximon herinnert je aan je lessen zodat je geen dag mist.",
       "surveyReminderSecondary":
           "We hebben gemerkt dat regelmatig oefenen het leren van Engels bijna ",
       "surveyReminderHighlight": "4,6× sneller kan maken!",
@@ -24622,19 +24633,19 @@ class AppLocalizations {
           "De inhoud past bij mijn niveau, de lessen zijn duidelijk en herinneringen helpen me op schema te blijven.",
       "surveySocialProofPrefix": " heeft ",
       "surveySocialProofSuffix":
-          " gebruikers geholpen\nhun Engels te verbeteren",
-      "surveyTopicTitle": "Kies de onderwerpen\ndie je wilt leren",
+          " gebruikers geholpen hun Engels te verbeteren",
+      "surveyTopicTitle": "Kies de onderwerpen die je wilt leren",
       "surveySelectAll": "Alles selecteren",
       "surveyAnalysisTopic": "Onderwerpen instellen",
       "surveyAnalysisDictionary": "Je woordenboek maken",
       "surveyAnalysisExercises": "Oefeningen kiezen",
       "surveyAnalysisPace": "Je leertempo instellen",
-      "surveyAnalysisProcessing": "Je antwoorden\nanalyseren",
-      "surveyKnowledgeLead": "Engels is de sleutel die je helpt\n",
+      "surveyAnalysisProcessing": "Je antwoorden analyseren",
+      "surveyKnowledgeLead": "Engels is de sleutel die je helpt ",
       "surveyKnowledgeOpen": "de deur naar kennis te openen,",
-      "surveyKnowledgeConnect": "\nverbinding te maken met de wereld en ",
+      "surveyKnowledgeConnect": " verbinding te maken met de wereld en ",
       "surveyKnowledgeMore": "meer kansen te grijpen.",
-      "surveySummaryTitle": "Met Engels kom je\nverder",
+      "surveySummaryTitle": "Met Engels kom je verder",
       "surveySummaryQuoteOne":
           "Engels opent de deur naar internationale carrièremogelijkheden en een aantrekkelijker inkomen.",
       "surveySummaryQuoteTwo":
@@ -24689,7 +24700,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "juiste antwoorden",
       "vocabularyTestHalfwayTitle": "Geweldig!",
       "vocabularyTestHalfwayBody":
-          "Je bent op de helft!\nJe deed het erg goed met deze woorden. Probeer nu\neen paar moeilijkere vragen.",
+          "Je bent op de helft! Je deed het erg goed met deze woorden. Probeer nu een paar moeilijkere vragen.",
       "vocabularyTestNextLevel": "Volgend niveau: {level} · Deel {part}",
       "skillListening": "Luisteren",
       "skillVocabulary": "Woordenschat",
@@ -24874,7 +24885,7 @@ class AppLocalizations {
           "Alle voltooide vragen in “{pack}” worden verwijderd en de voortgang gaat terug naar 0%. Dit kan niet ongedaan worden gemaakt.",
       "grammarTitle": "Grammatica",
       "done": "Klaar",
-      "grammarByLevelTitle": "Grammatica oefenen\nper niveau",
+      "grammarByLevelTitle": "Grammatica oefenen per niveau",
       "grammarMotivation": "Leer elke dag en verbeter stap voor stap!",
       "overallProgress": "Totale voortgang",
       "percentComplete": "{percent}% voltooid",
@@ -24934,7 +24945,7 @@ class AppLocalizations {
       "otherLessons": "Andere lessen",
       "listeningPreloadTitle": "Luisteroefening laden",
       "listeningPreloadSubtitle":
-          "Gegevens voor Luisteren & typen voorbereiden\nvoor “{lesson}”.",
+          "Gegevens voor Luisteren & typen voorbereiden voor “{lesson}”.",
       "ready": "Klaar!",
       "listeningOpening": "Luisteroefening openen...",
       "listeningLoadingContent": "Lesinhoud laden...",
@@ -25191,7 +25202,7 @@ class AppLocalizations {
       "recentHistoryBody": "Lessen die je onlangs hebt voltooid",
       "recentHistoryEmpty":
           "Nog geen voltooide sessies. Voltooi een les om je geschiedenis te starten.",
-      "todayAtTime": "Vandaag\n{time}",
+      "todayAtTime": "Vandaag {time}",
       "weekdayMon": "Ma",
       "weekdayTue": "Di",
       "weekdayWed": "Wo",
@@ -25684,8 +25695,8 @@ class AppLocalizations {
       "navProgress": "Postępy",
       "navChallenges": "Wyzwania",
       "navProfile": "Profil",
-      "languageTitle": "Wybierz swój\njęzyk ojczysty",
-      "languageSubtitle": "Spersonalizujemy dla Ciebie\nTwoją ścieżkę nauki.",
+      "languageTitle": "Wybierz swój język ojczysty",
+      "languageSubtitle": "Spersonalizujemy dla Ciebie Twoją ścieżkę nauki.",
       "languageSaveError": "Nie udało się zapisać języka. Spróbuj ponownie.",
       "back": "Wstecz",
       "continue": "Kontynuuj",
@@ -25717,7 +25728,8 @@ class AppLocalizations {
       "loading": "Ładowanie...",
       "preparingLanguagePackage": "Przygotowywanie treści językowych...",
       "checkingLanguageModels": "Sprawdzanie modeli językowych offline...",
-      "downloadingLanguageModel": "Pobieranie modelu językowego {current}/{total}...",
+      "downloadingLanguageModel":
+          "Pobieranie modelu językowego {current}/{total}...",
       "languageModelsReady": "Modele językowe są gotowe",
       "languagePickerTitle": "Wybierz język",
       "languagePickerSubtitle": "Wybierz język, którego chcesz się uczyć",
@@ -25728,32 +25740,32 @@ class AppLocalizations {
       "assessmentSkip": "Znam swój poziom",
       "assessmentTitle": "Zrób krótki test",
       "assessmentSubtitle":
-          "Ocenimy Twój poziom, aby\nstworzyć dla Ciebie najlepszą ścieżkę nauki.",
+          "Ocenimy Twój poziom, aby stworzyć dla Ciebie najlepszą ścieżkę nauki.",
       "assessmentStart": "Rozpocznij test",
       "assessmentBenefitLevel": "Poznasz swój poziom",
       "assessmentBenefitVocabulary": "Sprawdzisz swoje słownictwo",
       "assessmentBenefitAdapt": "Aplikacja dostosuje się do Twojego poziomu",
       "levelSelectionTitle": "Wybierz swój poziom angielskiego",
       "levelSelectionSubtitle":
-          "Wybierz odpowiedni poziom, abyśmy mogli\nstworzyć dla Ciebie najlepszą ścieżkę nauki.",
+          "Wybierz odpowiedni poziom, abyśmy mogli stworzyć dla Ciebie najlepszą ścieżkę nauki.",
       "levelBeginnerDescription": "Znam kilka słów",
       "levelIntermediateDescription":
           "Znam już całkiem sporo i chcę nauczyć się więcej",
       "levelAdvancedDescription": "Chcę uczyć się trudniejszych słów",
-      "assessmentLevelTitle": "Oceń swój obecny\npoziom angielskiego",
+      "assessmentLevelTitle": "Oceń swój obecny poziom angielskiego",
       "assessmentLevelSubtitle":
-          "Wybierz odpowiedni poziom, abyśmy mogli\nstworzyć dla Ciebie najlepszą ścieżkę nauki.",
-      "assessmentLevelNew": "Dopiero zaczynam naukę\ni jeszcze nic nie umiem",
+          "Wybierz odpowiedni poziom, abyśmy mogli stworzyć dla Ciebie najlepszą ścieżkę nauki.",
+      "assessmentLevelNew": "Dopiero zaczynam naukę i jeszcze nic nie umiem",
       "assessmentLevelBasic":
-          "Znam podstawy gramatyki\ni potrafię używać prostych słów\noraz zwrotów",
+          "Znam podstawy gramatyki i potrafię używać prostych słów oraz zwrotów",
       "assessmentLevelConversational":
-          "Potrafię prowadzić rozmowy, ale\nwciąż popełniam błędy i\nczęsto się waham",
+          "Potrafię prowadzić rozmowy, ale wciąż popełniam błędy i często się waham",
       "assessmentLevelFluent":
-          "Mówię płynnie, czytam książki\ni oglądam filmy\npo angielsku",
+          "Mówię płynnie, czytam książki i oglądam filmy po angielsku",
       "assessmentLevelStart": "Rozpocznij test",
-      "surveyIntroTitle": "Zróbmy\nkrótką ankietę!",
+      "surveyIntroTitle": "Zróbmy krótką ankietę!",
       "surveyIntroSubtitle":
-          "Na podstawie Twoich odpowiedzi Leximon\ndobierze najlepszą metodę nauki.",
+          "Na podstawie Twoich odpowiedzi Leximon dobierze najlepszą metodę nauki.",
       "freeTrialGift": "Dajemy Ci",
       "freeTrialDuration": "7 dni za darmo",
       "freeTrialPurpose": "na wypróbowanie naszej aplikacji",
@@ -25766,7 +25778,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Nie udało się dokończyć konfiguracji. Spróbuj ponownie.",
       "subscriptionHeadlineSubtitle":
-          "Twój angielski stanie się niezawodnym narzędziem\nw pracy",
+          "Twój angielski stanie się niezawodnym narzędziem w pracy",
       "subscriptionLoadingPlans": "Ładowanie planów subskrypcji…",
       "subscriptionLoadError":
           "Nie udało się wczytać szczegółów planu subskrypcji.",
@@ -25780,7 +25792,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} dni",
       "subscriptionIn": "Za ",
       "subscriptionDaySuffix": " dni",
-      "subscriptionStart": "Rozpocznij bezpłatny okres próbny\ni zasubskrybuj",
+      "subscriptionStart": "Rozpocznij bezpłatny okres próbny i zasubskrybuj",
       "surveySaveProgressError":
           "Nie udało się zapisać postępu. Spróbuj ponownie.",
       "surveySaveTopicsError": "Nie udało się zapisać wybranych tematów.",
@@ -25828,14 +25840,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minut",
       "surveyStudyOverHour": "Więcej niż 1 godzina",
       "surveyHabitTitle":
-          "Ile czasu dziennie możesz\nprzeznaczyć na naukę angielskiego?",
+          "Ile czasu dziennie możesz przeznaczyć na naukę angielskiego?",
       "surveyHabitDescription":
           "Regularne przeznaczanie czasu na naukę każdego dnia pomaga wyrobić nawyk i ",
       "surveyHabitHighlight": "robić szybsze postępy.",
       "surveyPreferredTimeQuestion":
           "O jakiej porze najwygodniej Ci uczyć się angielskiego?",
       "surveyReminderPrimary":
-          "Leximon będzie przypominać Ci o lekcjach,\naby żaden dzień Ci nie umknął.",
+          "Leximon będzie przypominać Ci o lekcjach, aby żaden dzień Ci nie umknął.",
       "surveyReminderSecondary":
           "Zauważyliśmy, że regularna praktyka może przyspieszyć naukę angielskiego niemal ",
       "surveyReminderHighlight": "4,6×!",
@@ -25864,19 +25876,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Treści są dopasowane do mojego poziomu, lekcje są jasne, a przypomnienia pomagają mi trzymać się planu.",
       "surveySocialProofPrefix": " pomógł już ",
-      "surveySocialProofSuffix": " użytkownikom\npoprawić angielski",
-      "surveyTopicTitle": "Wybierz tematy,\nktórych chcesz się uczyć",
+      "surveySocialProofSuffix": " użytkownikom poprawić angielski",
+      "surveyTopicTitle": "Wybierz tematy, których chcesz się uczyć",
       "surveySelectAll": "Wybierz wszystko",
       "surveyAnalysisTopic": "Konfigurowanie tematów",
       "surveyAnalysisDictionary": "Tworzenie Twojego słownika",
       "surveyAnalysisExercises": "Dobieranie ćwiczeń",
       "surveyAnalysisPace": "Ustalanie tempa nauki",
-      "surveyAnalysisProcessing": "Analizowanie Twoich\nodpowiedzi",
-      "surveyKnowledgeLead": "Angielski jest kluczem, który pomaga Ci\n",
+      "surveyAnalysisProcessing": "Analizowanie Twoich odpowiedzi",
+      "surveyKnowledgeLead": "Angielski jest kluczem, który pomaga Ci ",
       "surveyKnowledgeOpen": "otworzyć drzwi do wiedzy,",
-      "surveyKnowledgeConnect": "\nłączyć się ze światem i wykorzystywać ",
+      "surveyKnowledgeConnect": " łączyć się ze światem i wykorzystywać ",
       "surveyKnowledgeMore": "więcej możliwości.",
-      "surveySummaryTitle": "Angielski pomaga Ci zajść\ndalej",
+      "surveySummaryTitle": "Angielski pomaga Ci zajść dalej",
       "surveySummaryQuoteOne":
           "Angielski otwiera drzwi do międzynarodowych możliwości zawodowych i atrakcyjniejszych zarobków.",
       "surveySummaryQuoteTwo":
@@ -25930,7 +25942,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "poprawnych odpowiedzi",
       "vocabularyTestHalfwayTitle": "Świetnie!",
       "vocabularyTestHalfwayBody":
-          "Jesteś już w połowie!\nBardzo dobrze poradziłeś(-aś) sobie z tymi słowami. Teraz spróbuj\nnieco trudniejszych pytań.",
+          "Jesteś już w połowie! Bardzo dobrze poradziłeś(-aś) sobie z tymi słowami. Teraz spróbuj nieco trudniejszych pytań.",
       "vocabularyTestNextLevel": "Następny poziom: {level} · Część {part}",
       "skillListening": "Słuchanie",
       "skillVocabulary": "Słownictwo",
@@ -26112,7 +26124,7 @@ class AppLocalizations {
           "Wszystkie ukończone pytania w „{pack}” zostaną usunięte, a postęp wróci do 0%. Tej operacji nie można cofnąć.",
       "grammarTitle": "Gramatyka",
       "done": "Gotowe",
-      "grammarByLevelTitle": "Ćwiczenia gramatyczne\nwedług poziomu",
+      "grammarByLevelTitle": "Ćwiczenia gramatyczne według poziomu",
       "grammarMotivation":
           "Ucz się codziennie i poprawiaj swoje umiejętności krok po kroku!",
       "overallProgress": "Łączny postęp",
@@ -26172,7 +26184,7 @@ class AppLocalizations {
       "otherLessons": "Inne lekcje",
       "listeningPreloadTitle": "Ładowanie ćwiczenia ze słuchu",
       "listeningPreloadSubtitle":
-          "Przygotowywanie danych do ćwiczenia Słuchaj i pisz\ndla „{lesson}”.",
+          "Przygotowywanie danych do ćwiczenia Słuchaj i pisz dla „{lesson}”.",
       "ready": "Gotowe!",
       "listeningOpening": "Otwieranie ćwiczenia ze słuchu...",
       "listeningLoadingContent": "Ładowanie zawartości lekcji...",
@@ -26427,7 +26439,7 @@ class AppLocalizations {
       "recentHistoryBody": "Ostatnio ukończone lekcje",
       "recentHistoryEmpty":
           "Brak ukończonych sesji. Ukończ lekcję, aby rozpocząć historię.",
-      "todayAtTime": "Dzisiaj\n{time}",
+      "todayAtTime": "Dzisiaj {time}",
       "weekdayMon": "Pon.",
       "weekdayTue": "Wt.",
       "weekdayWed": "Śr.",
@@ -26917,8 +26929,8 @@ class AppLocalizations {
       "navProgress": "Progresso",
       "navChallenges": "Desafios",
       "navProfile": "Perfil",
-      "languageTitle": "Escolha seu\nidioma nativo",
-      "languageSubtitle": "Vamos personalizar sua\njornada de aprendizagem.",
+      "languageTitle": "Escolha seu idioma nativo",
+      "languageSubtitle": "Vamos personalizar sua jornada de aprendizagem.",
       "languageSaveError": "Não foi possível salvar o idioma. Tente novamente.",
       "back": "Voltar",
       "continue": "Continuar",
@@ -26950,7 +26962,8 @@ class AppLocalizations {
       "loading": "Carregando...",
       "preparingLanguagePackage": "Preparando o conteúdo do idioma...",
       "checkingLanguageModels": "Verificando modelos de idioma offline...",
-      "downloadingLanguageModel": "Baixando modelo de idioma {current}/{total}...",
+      "downloadingLanguageModel":
+          "Baixando modelo de idioma {current}/{total}...",
       "languageModelsReady": "Os modelos de idioma estão prontos",
       "languagePickerTitle": "Escolha um idioma",
       "languagePickerSubtitle": "Escolha o idioma que você quer aprender",
@@ -26961,32 +26974,31 @@ class AppLocalizations {
       "assessmentSkip": "Eu sei meu nível",
       "assessmentTitle": "Faça um teste rápido",
       "assessmentSubtitle":
-          "Vamos avaliar seu nível para\ncriar a melhor trilha de aprendizagem para você.",
+          "Vamos avaliar seu nível para criar a melhor trilha de aprendizagem para você.",
       "assessmentStart": "Fazer o teste",
       "assessmentBenefitLevel": "Você descobrirá seu nível",
       "assessmentBenefitVocabulary": "Avalie seu vocabulário",
       "assessmentBenefitAdapt": "O app se adaptará ao seu nível",
       "levelSelectionTitle": "Escolha seu nível de inglês",
       "levelSelectionSubtitle":
-          "Escolha o nível certo para que possamos\ncriar a melhor trilha de aprendizagem para você.",
+          "Escolha o nível certo para que possamos criar a melhor trilha de aprendizagem para você.",
       "levelBeginnerDescription": "Conheço algumas palavras",
       "levelIntermediateDescription": "Sei bastante e quero aprender mais",
       "levelAdvancedDescription": "Quero aprender palavras desafiadoras",
-      "assessmentLevelTitle": "Avalie seu nível atual\nde inglês",
+      "assessmentLevelTitle": "Avalie seu nível atual de inglês",
       "assessmentLevelSubtitle":
-          "Escolha o nível certo para que possamos\ncriar a melhor trilha de aprendizagem para você.",
-      "assessmentLevelNew":
-          "Acabei de começar a aprender\ne ainda não sei nada",
+          "Escolha o nível certo para que possamos criar a melhor trilha de aprendizagem para você.",
+      "assessmentLevelNew": "Acabei de começar a aprender e ainda não sei nada",
       "assessmentLevelBasic":
-          "Conheço um pouco de gramática básica\ne consigo dizer palavras\ne frases simples",
+          "Conheço um pouco de gramática básica e consigo dizer palavras e frases simples",
       "assessmentLevelConversational":
-          "Consigo conversar, mas\nainda cometo erros e\nfrequentemente hesito",
+          "Consigo conversar, mas ainda cometo erros e frequentemente hesito",
       "assessmentLevelFluent":
-          "Falo com fluência, leio livros\ne assisto a filmes\nem inglês",
+          "Falo com fluência, leio livros e assisto a filmes em inglês",
       "assessmentLevelStart": "Iniciar o teste",
-      "surveyIntroTitle": "Vamos fazer uma\npesquisa rápida!",
+      "surveyIntroTitle": "Vamos fazer uma pesquisa rápida!",
       "surveyIntroSubtitle":
-          "Com base nas suas respostas, o Leximon vai\nescolher o melhor método de aprendizagem para você.",
+          "Com base nas suas respostas, o Leximon vai escolher o melhor método de aprendizagem para você.",
       "freeTrialGift": "Nós oferecemos a você",
       "freeTrialDuration": "7 dias grátis",
       "freeTrialPurpose": "para experimentar nosso app",
@@ -26999,7 +27011,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Não foi possível concluir a configuração. Tente novamente.",
       "subscriptionHeadlineSubtitle":
-          "seu inglês se tornará uma ferramenta confiável\nno trabalho",
+          "seu inglês se tornará uma ferramenta confiável no trabalho",
       "subscriptionLoadingPlans": "Carregando planos de assinatura…",
       "subscriptionLoadError":
           "Não foi possível carregar os detalhes do plano de assinatura.",
@@ -27013,7 +27025,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} dias",
       "subscriptionIn": "Em ",
       "subscriptionDaySuffix": " dias",
-      "subscriptionStart": "Iniciar teste grátis\ne assinar",
+      "subscriptionStart": "Iniciar teste grátis e assinar",
       "surveySaveProgressError":
           "Não foi possível salvar seu progresso. Tente novamente.",
       "surveySaveTopicsError": "Não foi possível salvar os temas selecionados.",
@@ -27062,14 +27074,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minutos",
       "surveyStudyOverHour": "Mais de 1 hora",
       "surveyHabitTitle":
-          "Quanto tempo você está disposto a\ndedicar ao inglês por dia?",
+          "Quanto tempo você está disposto a dedicar ao inglês por dia?",
       "surveyHabitDescription":
           "Reservar um horário regular todos os dias ajuda você a criar um hábito e ",
       "surveyHabitHighlight": "progredir mais rápido.",
       "surveyPreferredTimeQuestion":
           "Qual horário é mais conveniente para você estudar inglês?",
       "surveyReminderPrimary":
-          "O Leximon vai lembrar você das suas aulas\npara que você não perca nenhum dia.",
+          "O Leximon vai lembrar você das suas aulas para que você não perca nenhum dia.",
       "surveyReminderSecondary":
           "Descobrimos que a prática regular pode tornar o aprendizado de inglês quase ",
       "surveyReminderHighlight": "4,6× mais rápido!",
@@ -27097,19 +27109,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "O conteúdo combina com meu nível, as lições são claras e os lembretes me ajudam a manter o ritmo.",
       "surveySocialProofPrefix": " ajudou ",
-      "surveySocialProofSuffix": " usuários\na melhorar o inglês",
-      "surveyTopicTitle": "Escolha os temas\nque você quer aprender",
+      "surveySocialProofSuffix": " usuários a melhorar o inglês",
+      "surveyTopicTitle": "Escolha os temas que você quer aprender",
       "surveySelectAll": "Selecionar tudo",
       "surveyAnalysisTopic": "Configurando temas",
       "surveyAnalysisDictionary": "Criando seu dicionário",
       "surveyAnalysisExercises": "Escolhendo exercícios",
       "surveyAnalysisPace": "Definindo seu ritmo de aprendizagem",
-      "surveyAnalysisProcessing": "Analisando suas\nrespostas",
-      "surveyKnowledgeLead": "O inglês é a chave que ajuda você a\n",
+      "surveyAnalysisProcessing": "Analisando suas respostas",
+      "surveyKnowledgeLead": "O inglês é a chave que ajuda você a ",
       "surveyKnowledgeOpen": "abrir a porta para o conhecimento,",
-      "surveyKnowledgeConnect": "\nconectar-se com o mundo e aproveitar ",
+      "surveyKnowledgeConnect": " conectar-se com o mundo e aproveitar ",
       "surveyKnowledgeMore": "mais oportunidades.",
-      "surveySummaryTitle": "O inglês ajuda você a ir\nmais longe",
+      "surveySummaryTitle": "O inglês ajuda você a ir mais longe",
       "surveySummaryQuoteOne":
           "O inglês abre as portas para oportunidades de carreira internacional e rendas mais atraentes.",
       "surveySummaryQuoteTwo":
@@ -27165,7 +27177,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "respostas corretas",
       "vocabularyTestHalfwayTitle": "Ótimo!",
       "vocabularyTestHalfwayBody":
-          "Você chegou à metade!\nVocê se saiu muito bem com estas palavras. Agora tente\nalgumas perguntas mais desafiadoras.",
+          "Você chegou à metade! Você se saiu muito bem com estas palavras. Agora tente algumas perguntas mais desafiadoras.",
       "vocabularyTestNextLevel": "Próximo nível: {level} · Parte {part}",
       "skillListening": "Compreensão auditiva",
       "skillVocabulary": "Vocabulário",
@@ -27353,7 +27365,7 @@ class AppLocalizations {
           "Todas as perguntas concluídas em “{pack}” serão apagadas e o progresso voltará para 0%. Esta ação não pode ser desfeita.",
       "grammarTitle": "Gramática",
       "done": "Concluído",
-      "grammarByLevelTitle": "Prática de gramática\npor nível",
+      "grammarByLevelTitle": "Prática de gramática por nível",
       "grammarMotivation": "Aprenda todos os dias e melhore passo a passo!",
       "overallProgress": "Progresso geral",
       "percentComplete": "{percent}% concluído",
@@ -27413,7 +27425,7 @@ class AppLocalizations {
       "otherLessons": "Outras lições",
       "listeningPreloadTitle": "Carregando exercício de compreensão auditiva",
       "listeningPreloadSubtitle":
-          "Preparando dados de Ouvir e Digitar\npara “{lesson}”.",
+          "Preparando dados de Ouvir e Digitar para “{lesson}”.",
       "ready": "Pronto!",
       "listeningOpening": "Abrindo o exercício de compreensão auditiva...",
       "listeningLoadingContent": "Carregando conteúdo da lição...",
@@ -27670,7 +27682,7 @@ class AppLocalizations {
       "recentHistoryBody": "Lições concluídas recentemente",
       "recentHistoryEmpty":
           "Ainda não há sessões concluídas. Conclua uma lição para iniciar seu histórico.",
-      "todayAtTime": "Hoje\n{time}",
+      "todayAtTime": "Hoje {time}",
       "weekdayMon": "Seg",
       "weekdayTue": "Ter",
       "weekdayWed": "Qua",
@@ -28169,8 +28181,8 @@ class AppLocalizations {
       "navProgress": "Progres",
       "navChallenges": "Provocări",
       "navProfile": "Profil",
-      "languageTitle": "Alege limba ta\nmaternă",
-      "languageSubtitle": "Îți vom personaliza\nparcursul de învățare.",
+      "languageTitle": "Alege limba ta maternă",
+      "languageSubtitle": "Îți vom personaliza parcursul de învățare.",
       "languageSaveError": "Limba nu a putut fi salvată. Încearcă din nou.",
       "back": "Înapoi",
       "continue": "Continuă",
@@ -28202,7 +28214,8 @@ class AppLocalizations {
       "loading": "Se încarcă...",
       "preparingLanguagePackage": "Se pregătește conținutul lingvistic...",
       "checkingLanguageModels": "Se verifică modelele lingvistice offline...",
-      "downloadingLanguageModel": "Se descarcă modelul lingvistic {current}/{total}...",
+      "downloadingLanguageModel":
+          "Se descarcă modelul lingvistic {current}/{total}...",
       "languageModelsReady": "Modelele lingvistice sunt pregătite",
       "languagePickerTitle": "Alege o limbă",
       "languagePickerSubtitle": "Alege limba pe care vrei să o înveți",
@@ -28213,32 +28226,32 @@ class AppLocalizations {
       "assessmentSkip": "Îmi cunosc nivelul",
       "assessmentTitle": "Fă un test scurt",
       "assessmentSubtitle":
-          "Îți vom evalua nivelul pentru a\ncrea cel mai bun parcurs de învățare.",
+          "Îți vom evalua nivelul pentru a crea cel mai bun parcurs de învățare.",
       "assessmentStart": "Începe testul",
       "assessmentBenefitLevel": "Îți vei afla nivelul",
       "assessmentBenefitVocabulary": "Îți vei verifica vocabularul",
       "assessmentBenefitAdapt": "Aplicația se va adapta nivelului tău",
       "levelSelectionTitle": "Alege-ți nivelul de engleză",
       "levelSelectionSubtitle":
-          "Alege nivelul potrivit ca să putem\ncrea cel mai bun parcurs pentru tine.",
+          "Alege nivelul potrivit ca să putem crea cel mai bun parcurs pentru tine.",
       "levelBeginnerDescription": "Știu câteva cuvinte",
       "levelIntermediateDescription":
           "Știu destul de multe și vreau să învăț mai mult",
       "levelAdvancedDescription": "Vreau să învăț cuvinte dificile",
-      "assessmentLevelTitle": "Evaluează-ți nivelul actual\nde engleză",
+      "assessmentLevelTitle": "Evaluează-ți nivelul actual de engleză",
       "assessmentLevelSubtitle":
-          "Alege nivelul potrivit ca să putem\ncrea cel mai bun parcurs pentru tine.",
-      "assessmentLevelNew": "Abia am început să învăț\nși încă nu știu nimic",
+          "Alege nivelul potrivit ca să putem crea cel mai bun parcurs pentru tine.",
+      "assessmentLevelNew": "Abia am început să învăț și încă nu știu nimic",
       "assessmentLevelBasic":
-          "Știu puțină gramatică de bază\nși pot spune cuvinte\nși expresii simple",
+          "Știu puțină gramatică de bază și pot spune cuvinte și expresii simple",
       "assessmentLevelConversational":
-          "Pot purta conversații, dar\nîncă fac greșeli și\nezit des",
+          "Pot purta conversații, dar încă fac greșeli și ezit des",
       "assessmentLevelFluent":
-          "Vorbesc fluent, citesc cărți\nși mă uit la filme\nîn engleză",
+          "Vorbesc fluent, citesc cărți și mă uit la filme în engleză",
       "assessmentLevelStart": "Începe testul",
-      "surveyIntroTitle": "Hai să facem un\nscurt chestionar!",
+      "surveyIntroTitle": "Hai să facem un scurt chestionar!",
       "surveyIntroSubtitle":
-          "Pe baza răspunsurilor tale, Leximon va\nalege cea mai bună metodă de învățare pentru tine.",
+          "Pe baza răspunsurilor tale, Leximon va alege cea mai bună metodă de învățare pentru tine.",
       "freeTrialGift": "Îți oferim",
       "freeTrialDuration": "7 zile gratuit",
       "freeTrialPurpose": "ca să încerci aplicația",
@@ -28251,7 +28264,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Configurarea nu a putut fi finalizată. Încearcă din nou.",
       "subscriptionHeadlineSubtitle":
-          "engleza ta va deveni un instrument de încredere\nla serviciu",
+          "engleza ta va deveni un instrument de încredere la serviciu",
       "subscriptionLoadingPlans": "Se încarcă planurile de abonament…",
       "subscriptionLoadError":
           "Detaliile planului de abonament nu au putut fi încărcate.",
@@ -28266,7 +28279,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} zile",
       "subscriptionIn": "În ",
       "subscriptionDaySuffix": " zile",
-      "subscriptionStart": "Începe perioada gratuită\nși abonează-te",
+      "subscriptionStart": "Începe perioada gratuită și abonează-te",
       "surveySaveProgressError":
           "Progresul nu a putut fi salvat. Încearcă din nou.",
       "surveySaveTopicsError": "Subiectele selectate nu au putut fi salvate.",
@@ -28314,14 +28327,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 de minute",
       "surveyStudyOverHour": "Mai mult de 1 oră",
       "surveyHabitTitle":
-          "Cât timp ești pregătit să\naloci zilnic învățării limbii engleze?",
+          "Cât timp ești pregătit să aloci zilnic învățării limbii engleze?",
       "surveyHabitDescription":
           "Rezervarea unei perioade regulate în fiecare zi te ajută să-ți formezi un obicei și să ",
       "surveyHabitHighlight": "progresezi mai repede.",
       "surveyPreferredTimeQuestion":
           "Care este momentul cel mai convenabil pentru a studia engleza?",
       "surveyReminderPrimary":
-          "Leximon îți va aminti de lecții\nca să nu ratezi nicio zi.",
+          "Leximon îți va aminti de lecții ca să nu ratezi nicio zi.",
       "surveyReminderSecondary":
           "Am observat că practica regulată poate face învățarea limbii engleze de aproape ",
       "surveyReminderHighlight": "4,6× mai rapidă!",
@@ -28350,19 +28363,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Conținutul se potrivește nivelului meu, lecțiile sunt clare, iar mementourile mă ajută să rămân consecvent.",
       "surveySocialProofPrefix": " a ajutat ",
-      "surveySocialProofSuffix": " utilizatori\nsă-și îmbunătățească engleza",
-      "surveyTopicTitle": "Alege subiectele\npe care vrei să le înveți",
+      "surveySocialProofSuffix": " utilizatori să-și îmbunătățească engleza",
+      "surveyTopicTitle": "Alege subiectele pe care vrei să le înveți",
       "surveySelectAll": "Selectează tot",
       "surveyAnalysisTopic": "Se configurează subiectele",
       "surveyAnalysisDictionary": "Se creează dicționarul tău",
       "surveyAnalysisExercises": "Se aleg exercițiile",
       "surveyAnalysisPace": "Se setează ritmul de învățare",
-      "surveyAnalysisProcessing": "Se analizează\nrăspunsurile tale",
-      "surveyKnowledgeLead": "Engleza este cheia care te ajută să\n",
+      "surveyAnalysisProcessing": "Se analizează răspunsurile tale",
+      "surveyKnowledgeLead": "Engleza este cheia care te ajută să ",
       "surveyKnowledgeOpen": "deschizi ușa către cunoaștere,",
-      "surveyKnowledgeConnect": "\nsă te conectezi cu lumea și să profiți de ",
+      "surveyKnowledgeConnect": " să te conectezi cu lumea și să profiți de ",
       "surveyKnowledgeMore": "mai multe oportunități.",
-      "surveySummaryTitle": "Engleza te ajută să ajungi\nmai departe",
+      "surveySummaryTitle": "Engleza te ajută să ajungi mai departe",
       "surveySummaryQuoteOne":
           "Engleza deschide ușa către oportunități internaționale de carieră și venituri mai atractive.",
       "surveySummaryQuoteTwo":
@@ -28418,7 +28431,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "răspunsuri corecte",
       "vocabularyTestHalfwayTitle": "Excelent!",
       "vocabularyTestHalfwayBody":
-          "Ai ajuns la jumătate!\nTe-ai descurcat foarte bine cu aceste cuvinte. Acum încearcă\nîntrebări ceva mai dificile.",
+          "Ai ajuns la jumătate! Te-ai descurcat foarte bine cu aceste cuvinte. Acum încearcă întrebări ceva mai dificile.",
       "vocabularyTestNextLevel": "Nivelul următor: {level} · Partea {part}",
       "skillListening": "Ascultare",
       "skillVocabulary": "Vocabular",
@@ -28603,7 +28616,7 @@ class AppLocalizations {
           "Toate întrebările finalizate din „{pack}” vor fi șterse, iar progresul va reveni la 0%. Această acțiune nu poate fi anulată.",
       "grammarTitle": "Gramatică",
       "done": "Gata",
-      "grammarByLevelTitle": "Exersarea gramaticii\npe niveluri",
+      "grammarByLevelTitle": "Exersarea gramaticii pe niveluri",
       "grammarMotivation": "Învață în fiecare zi și progresează pas cu pas!",
       "overallProgress": "Progres general",
       "percentComplete": "{percent}% finalizat",
@@ -28663,7 +28676,7 @@ class AppLocalizations {
       "otherLessons": "Alte lecții",
       "listeningPreloadTitle": "Se încarcă exercițiul de ascultare",
       "listeningPreloadSubtitle":
-          "Se pregătesc datele Ascultă și scrie\npentru „{lesson}”.",
+          "Se pregătesc datele Ascultă și scrie pentru „{lesson}”.",
       "ready": "Gata!",
       "listeningOpening": "Se deschide exercițiul de ascultare...",
       "listeningLoadingContent": "Se încarcă conținutul lecției...",
@@ -28921,7 +28934,7 @@ class AppLocalizations {
       "recentHistoryBody": "Lecții finalizate recent",
       "recentHistoryEmpty":
           "Încă nu există sesiuni finalizate. Finalizează o lecție pentru a începe istoricul.",
-      "todayAtTime": "Azi\n{time}",
+      "todayAtTime": "Azi {time}",
       "weekdayMon": "Lun",
       "weekdayTue": "Mar",
       "weekdayWed": "Mie",
@@ -29416,8 +29429,8 @@ class AppLocalizations {
       "navProgress": "Framsteg",
       "navChallenges": "Utmaningar",
       "navProfile": "Profil",
-      "languageTitle": "Välj ditt\nmodersmål",
-      "languageSubtitle": "Vi anpassar din\nläranderesa efter dig.",
+      "languageTitle": "Välj ditt modersmål",
+      "languageSubtitle": "Vi anpassar din läranderesa efter dig.",
       "languageSaveError": "Språket kunde inte sparas. Försök igen.",
       "back": "Tillbaka",
       "continue": "Fortsätt",
@@ -29448,7 +29461,8 @@ class AppLocalizations {
       "disabled": "Av",
       "loading": "Laddar...",
       "preparingLanguagePackage": "Förbereder språkinnehåll...",
-      "checkingLanguageModels": "Kontrollerar språkmodeller för offlineanvändning...",
+      "checkingLanguageModels":
+          "Kontrollerar språkmodeller för offlineanvändning...",
       "downloadingLanguageModel": "Hämtar språkmodell {current}/{total}...",
       "languageModelsReady": "Språkmodellerna är klara",
       "languagePickerTitle": "Välj ett språk",
@@ -29460,33 +29474,33 @@ class AppLocalizations {
       "assessmentSkip": "Jag känner till min nivå",
       "assessmentTitle": "Gör ett kort test",
       "assessmentSubtitle":
-          "Vi bedömer din nivå för att\nskapa den bästa inlärningsvägen för dig.",
+          "Vi bedömer din nivå för att skapa den bästa inlärningsvägen för dig.",
       "assessmentStart": "Gör testet",
       "assessmentBenefitLevel": "Ta reda på vilken nivå du ligger på",
       "assessmentBenefitVocabulary": "Kontrollera ditt ordförråd",
       "assessmentBenefitAdapt": "Appen anpassar sig efter din nivå",
       "levelSelectionTitle": "Välj din engelskanivå",
       "levelSelectionSubtitle":
-          "Välj rätt nivå så att vi kan\nskapa den bästa inlärningsvägen för dig.",
+          "Välj rätt nivå så att vi kan skapa den bästa inlärningsvägen för dig.",
       "levelBeginnerDescription": "Jag kan några få ord",
       "levelIntermediateDescription":
           "Jag kan ganska mycket och vill lära mig mer",
       "levelAdvancedDescription": "Jag vill lära mig svårare ord",
-      "assessmentLevelTitle": "Bedöm din nuvarande\nengelskanivå",
+      "assessmentLevelTitle": "Bedöm din nuvarande engelskanivå",
       "assessmentLevelSubtitle":
-          "Välj rätt nivå så att vi kan\nskapa den bästa inlärningsvägen för dig.",
+          "Välj rätt nivå så att vi kan skapa den bästa inlärningsvägen för dig.",
       "assessmentLevelNew":
-          "Jag har precis börjat lära mig\noch kan ingenting ännu",
+          "Jag har precis börjat lära mig och kan ingenting ännu",
       "assessmentLevelBasic":
-          "Jag kan lite grundläggande grammatik\noch kan säga enkla ord\noch meningar",
+          "Jag kan lite grundläggande grammatik och kan säga enkla ord och meningar",
       "assessmentLevelConversational":
-          "Jag kan föra samtal, men\njag gör fortfarande misstag och\ntvekar ofta",
+          "Jag kan föra samtal, men jag gör fortfarande misstag och tvekar ofta",
       "assessmentLevelFluent":
-          "Jag talar flytande, läsr böcker\noch ser filmer\npå engelska",
+          "Jag talar flytande, läsr böcker och ser filmer på engelska",
       "assessmentLevelStart": "Starta testet",
-      "surveyIntroTitle": "Låt oss göra en\nkort undersökning!",
+      "surveyIntroTitle": "Låt oss göra en kort undersökning!",
       "surveyIntroSubtitle":
-          "Utifrån dina svar väljer Leximon\nden bästa inlärningsmetoden för dig.",
+          "Utifrån dina svar väljer Leximon den bästa inlärningsmetoden för dig.",
       "freeTrialGift": "Vi ger dig",
       "freeTrialDuration": "7 dagar gratis",
       "freeTrialPurpose": "för att prova vår app",
@@ -29499,7 +29513,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Konfigurationen kunde inte slutföras. Försök igen.",
       "subscriptionHeadlineSubtitle":
-          "din engelska blir ett pålitligt verktyg\npå jobbet",
+          "din engelska blir ett pålitligt verktyg på jobbet",
       "subscriptionLoadingPlans": "Laddar abonnemang…",
       "subscriptionLoadError": "Abonnemangsinformationen kunde inte laddas.",
       "subscriptionStorePriceUnavailable":
@@ -29513,7 +29527,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} dagar",
       "subscriptionIn": "Om ",
       "subscriptionDaySuffix": " dagar",
-      "subscriptionStart": "Starta gratis provperiod\noch prenumerera",
+      "subscriptionStart": "Starta gratis provperiod och prenumerera",
       "surveySaveProgressError":
           "Dina framsteg kunde inte sparas. Försök igen.",
       "surveySaveTopicsError": "De valda ämnena kunde inte sparas.",
@@ -29562,14 +29576,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 minuter",
       "surveyStudyOverHour": "Mer än 1 timme",
       "surveyHabitTitle":
-          "Hur mycket tid är du beredd att\nlägga på engelska varje dag?",
+          "Hur mycket tid är du beredd att lägga på engelska varje dag?",
       "surveyHabitDescription":
           "Att avsätta en fast tid varje dag hjälper dig att bygga en vana och ",
       "surveyHabitHighlight": "göra snabbare framsteg.",
       "surveyPreferredTimeQuestion":
           "När passar det bäst för dig att lära dig engelska?",
       "surveyReminderPrimary":
-          "Leximon påminner dig om dina lektioner\nså att du inte missar en dag.",
+          "Leximon påminner dig om dina lektioner så att du inte missar en dag.",
       "surveyReminderSecondary":
           "Vi har upptäckt att regelbunden träning kan göra din engelskinlärning nästan ",
       "surveyReminderHighlight": "4,6× snabbare!",
@@ -29598,19 +29612,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Innehållet passar min nivå, lektionerna är tydliga och påminnelserna hjälper mig att hålla kursen.",
       "surveySocialProofPrefix": " har hjälpt ",
-      "surveySocialProofSuffix": " användare\nmed att förbättra deras engelsk",
-      "surveyTopicTitle": "Välj de ämnen,\ndu vill lära",
+      "surveySocialProofSuffix": " användare med att förbättra deras engelsk",
+      "surveyTopicTitle": "Välj de ämnen, du vill lära",
       "surveySelectAll": "Välj alla",
       "surveyAnalysisTopic": "Konfigurerar ämnen",
       "surveyAnalysisDictionary": "Skapar din ordbok",
       "surveyAnalysisExercises": "Väljer övningar",
       "surveyAnalysisPace": "Ställer in ditt inlärningstempo",
-      "surveyAnalysisProcessing": "Analyserar dina\nsvar",
-      "surveyKnowledgeLead": "Engelska är nyckeln som hjälper dig att\n",
+      "surveyAnalysisProcessing": "Analyserar dina svar",
+      "surveyKnowledgeLead": "Engelska är nyckeln som hjälper dig att ",
       "surveyKnowledgeOpen": "öppna dörren till kunskap,",
-      "surveyKnowledgeConnect": "\nknyta kontakt med världen och ta vara på ",
+      "surveyKnowledgeConnect": " knyta kontakt med världen och ta vara på ",
       "surveyKnowledgeMore": "fler möjligheter.",
-      "surveySummaryTitle": "Engelsk hjälper dig\nvidare",
+      "surveySummaryTitle": "Engelsk hjälper dig vidare",
       "surveySummaryQuoteOne":
           "Engelsk öppnar dörren till internationella karriärmöjligheter och en mer attraktiv inkomst.",
       "surveySummaryQuoteTwo":
@@ -29665,7 +29679,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "korrekta svar",
       "vocabularyTestHalfwayTitle": "Bra!",
       "vocabularyTestHalfwayBody":
-          "Du är halvvägs!\nDu klarade de här orden riktigt bra. Försök nu\nmed några mer utmanande frågor.",
+          "Du är halvvägs! Du klarade de här orden riktigt bra. Försök nu med några mer utmanande frågor.",
       "vocabularyTestNextLevel": "Nästa nivå: {level} · Del {part}",
       "skillListening": "Lyssning",
       "skillVocabulary": "Ordförråd",
@@ -29845,7 +29859,7 @@ class AppLocalizations {
           "Alla slutförda frågor i “{pack}” blir raderade, och framsteget går tillbaka till 0 %. Det här kan inte ångras.",
       "grammarTitle": "Grammatik",
       "done": "Klar",
-      "grammarByLevelTitle": "Grammatikövningar\nefter nivå",
+      "grammarByLevelTitle": "Grammatikövningar efter nivå",
       "grammarMotivation": "Lär varje dag, och bli bättre steg för steg!",
       "overallProgress": "Totala framsteg",
       "percentComplete": "{percent}% slutförd",
@@ -29903,7 +29917,7 @@ class AppLocalizations {
       "otherLessons": "Andra lektioner",
       "listeningPreloadTitle": "Laddar lyssningsövning",
       "listeningPreloadSubtitle":
-          "Förbereder data för Lyssna och skriv\nför “{lesson}”.",
+          "Förbereder data för Lyssna och skriv för “{lesson}”.",
       "ready": "Klar!",
       "listeningOpening": "Öppnar lyssningsövningen...",
       "listeningLoadingContent": "Laddar lektionsinnehåll...",
@@ -30153,7 +30167,7 @@ class AppLocalizations {
       "recentHistoryBody": "Lektioner, du har slutförd för nyligen",
       "recentHistoryEmpty":
           "Ingen slutförda sessioner ännu. Slutför en lektion för att starta din historik.",
-      "todayAtTime": "I dag\n{time}",
+      "todayAtTime": "I dag {time}",
       "weekdayMon": "Mån",
       "weekdayTue": "Tis",
       "weekdayWed": "Ons",
@@ -30636,8 +30650,8 @@ class AppLocalizations {
       "navProgress": "ความคืบหน้า",
       "navChallenges": "ความท้าทาย",
       "navProfile": "โปรไฟล์",
-      "languageTitle": "เลือก\nภาษาแม่ของคุณ",
-      "languageSubtitle": "เราจะปรับเส้นทางการเรียนรู้\nให้เหมาะกับคุณ",
+      "languageTitle": "เลือก ภาษาแม่ของคุณ",
+      "languageSubtitle": "เราจะปรับเส้นทางการเรียนรู้ ให้เหมาะกับคุณ",
       "languageSaveError": "บันทึกภาษาไม่ได้ โปรดลองอีกครั้ง",
       "back": "ย้อนกลับ",
       "continue": "ดำเนินการต่อ",
@@ -30669,7 +30683,8 @@ class AppLocalizations {
       "loading": "กำลังโหลด...",
       "preparingLanguagePackage": "กำลังเตรียมเนื้อหาภาษา...",
       "checkingLanguageModels": "กำลังตรวจสอบโมเดลภาษาแบบออฟไลน์...",
-      "downloadingLanguageModel": "กำลังดาวน์โหลดโมเดลภาษา {current}/{total}...",
+      "downloadingLanguageModel":
+          "กำลังดาวน์โหลดโมเดลภาษา {current}/{total}...",
       "languageModelsReady": "โมเดลภาษาพร้อมใช้งานแล้ว",
       "languagePickerTitle": "เลือกภาษา",
       "languagePickerSubtitle": "เลือกภาษาที่คุณต้องการเรียน",
@@ -30680,31 +30695,31 @@ class AppLocalizations {
       "assessmentSkip": "ฉันรู้ระดับของตัวเอง",
       "assessmentTitle": "ทำแบบทดสอบสั้น ๆ",
       "assessmentSubtitle":
-          "เราจะประเมินระดับของคุณเพื่อ\nสร้างเส้นทางการเรียนที่เหมาะที่สุด",
+          "เราจะประเมินระดับของคุณเพื่อ สร้างเส้นทางการเรียนที่เหมาะที่สุด",
       "assessmentStart": "ทำแบบทดสอบ",
       "assessmentBenefitLevel": "คุณจะได้รู้ระดับของตัวเอง",
       "assessmentBenefitVocabulary": "ตรวจสอบคำศัพท์ของคุณ",
       "assessmentBenefitAdapt": "แอปจะปรับให้เหมาะกับระดับของคุณ",
       "levelSelectionTitle": "เลือกระดับภาษาอังกฤษของคุณ",
       "levelSelectionSubtitle":
-          "เลือกระดับที่เหมาะสมเพื่อให้เรา\nสร้างเส้นทางการเรียนที่ดีที่สุดสำหรับคุณ",
+          "เลือกระดับที่เหมาะสมเพื่อให้เรา สร้างเส้นทางการเรียนที่ดีที่สุดสำหรับคุณ",
       "levelBeginnerDescription": "ฉันรู้คำศัพท์ไม่กี่คำ",
       "levelIntermediateDescription": "ฉันรู้ค่อนข้างมากและอยากเรียนเพิ่ม",
       "levelAdvancedDescription": "ฉันอยากเรียนคำศัพท์ที่ท้าทาย",
-      "assessmentLevelTitle": "ประเมินระดับ\nภาษาอังกฤษปัจจุบันของคุณ",
+      "assessmentLevelTitle": "ประเมินระดับ ภาษาอังกฤษปัจจุบันของคุณ",
       "assessmentLevelSubtitle":
-          "เลือกระดับที่เหมาะสมเพื่อให้เรา\nสร้างเส้นทางการเรียนที่ดีที่สุดสำหรับคุณ",
-      "assessmentLevelNew": "ฉันเพิ่งเริ่มเรียน\nและยังไม่รู้อะไรเลย",
+          "เลือกระดับที่เหมาะสมเพื่อให้เรา สร้างเส้นทางการเรียนที่ดีที่สุดสำหรับคุณ",
+      "assessmentLevelNew": "ฉันเพิ่งเริ่มเรียน และยังไม่รู้อะไรเลย",
       "assessmentLevelBasic":
-          "ฉันรู้ไวยากรณ์พื้นฐานบางส่วน\nและพูดคำกับวลีง่าย ๆ\nได้",
+          "ฉันรู้ไวยากรณ์พื้นฐานบางส่วน และพูดคำกับวลีง่าย ๆ ได้",
       "assessmentLevelConversational":
-          "ฉันสนทนาได้ แต่\nยังทำผิดและ\nลังเลบ่อย ๆ",
+          "ฉันสนทนาได้ แต่ ยังทำผิดและ ลังเลบ่อย ๆ",
       "assessmentLevelFluent":
-          "ฉันพูดได้คล่อง อ่านหนังสือ\nและดูภาพยนตร์\nภาษาอังกฤษได้",
+          "ฉันพูดได้คล่อง อ่านหนังสือ และดูภาพยนตร์ ภาษาอังกฤษได้",
       "assessmentLevelStart": "เริ่มแบบทดสอบ",
-      "surveyIntroTitle": "มาทำแบบสำรวจ\nสั้น ๆ กัน!",
+      "surveyIntroTitle": "มาทำแบบสำรวจ สั้น ๆ กัน!",
       "surveyIntroSubtitle":
-          "จากคำตอบของคุณ Leximon จะ\nเลือกวิธีเรียนที่เหมาะที่สุดให้คุณ",
+          "จากคำตอบของคุณ Leximon จะ เลือกวิธีเรียนที่เหมาะที่สุดให้คุณ",
       "freeTrialGift": "เรามอบให้คุณ",
       "freeTrialDuration": "ทดลองใช้ฟรี 7 วัน",
       "freeTrialPurpose": "เพื่อทดลองใช้แอปของเรา",
@@ -30716,7 +30731,7 @@ class AppLocalizations {
       "trialReminderPushDate": "ระบบจะส่งการแจ้งเตือนแบบพุชในวันที่ {date}",
       "subscriptionCompleteError": "ตั้งค่าไม่สำเร็จ โปรดลองอีกครั้ง",
       "subscriptionHeadlineSubtitle":
-          "ภาษาอังกฤษของคุณจะกลายเป็นเครื่องมือที่ไว้ใจได้\nในการทำงาน",
+          "ภาษาอังกฤษของคุณจะกลายเป็นเครื่องมือที่ไว้ใจได้ ในการทำงาน",
       "subscriptionLoadingPlans": "กำลังโหลดแผนการสมัครสมาชิก…",
       "subscriptionLoadError": "โหลดรายละเอียดแผนการสมัครสมาชิกไม่ได้",
       "subscriptionStorePriceUnavailable": "ไม่มีราคาจาก App Store",
@@ -30729,7 +30744,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} วัน",
       "subscriptionIn": "ในอีก ",
       "subscriptionDaySuffix": " วัน",
-      "subscriptionStart": "เริ่มทดลองใช้ฟรี\nและสมัครสมาชิก",
+      "subscriptionStart": "เริ่มทดลองใช้ฟรี และสมัครสมาชิก",
       "surveySaveProgressError": "บันทึกความคืบหน้าไม่ได้ โปรดลองอีกครั้ง",
       "surveySaveTopicsError": "บันทึกหัวข้อที่เลือกไม่ได้",
       "surveyContinueWithLeximon": "ดำเนินการต่อกับ Leximon",
@@ -30769,14 +30784,14 @@ class AppLocalizations {
       "surveyStudy10To20": "10–20 นาที",
       "surveyStudy20To60": "20–60 นาที",
       "surveyStudyOverHour": "มากกว่า 1 ชั่วโมง",
-      "surveyHabitTitle": "คุณพร้อมใช้เวลา\nเรียนภาษาอังกฤษวันละเท่าไร?",
+      "surveyHabitTitle": "คุณพร้อมใช้เวลา เรียนภาษาอังกฤษวันละเท่าไร?",
       "surveyHabitDescription":
           "การกำหนดเวลาเรียนเป็นประจำทุกวันช่วยสร้างนิสัยและ ",
       "surveyHabitHighlight": "พัฒนาได้เร็วขึ้น",
       "surveyPreferredTimeQuestion":
           "ช่วงเวลาไหนสะดวกที่สุดสำหรับคุณในการเรียนภาษาอังกฤษ?",
       "surveyReminderPrimary":
-          "Leximon จะเตือนคุณเรื่องบทเรียน\nเพื่อให้คุณไม่พลาดแม้แต่วันเดียว",
+          "Leximon จะเตือนคุณเรื่องบทเรียน เพื่อให้คุณไม่พลาดแม้แต่วันเดียว",
       "surveyReminderSecondary":
           "เราพบว่าการฝึกอย่างสม่ำเสมอช่วยให้เรียนภาษาอังกฤษได้เร็วขึ้นเกือบ ",
       "surveyReminderHighlight": "4.6 เท่า!",
@@ -30804,19 +30819,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "เนื้อหาเหมาะกับระดับของฉัน บทเรียนเข้าใจง่าย และการแจ้งเตือนช่วยให้ฉันเรียนได้ต่อเนื่อง",
       "surveySocialProofPrefix": " ช่วยให้ผู้ใช้ ",
-      "surveySocialProofSuffix": " คน\nพัฒนาภาษาอังกฤษ",
-      "surveyTopicTitle": "เลือกหัวข้อ\nที่คุณอยากเรียน",
+      "surveySocialProofSuffix": " คน พัฒนาภาษาอังกฤษ",
+      "surveyTopicTitle": "เลือกหัวข้อ ที่คุณอยากเรียน",
       "surveySelectAll": "เลือกทั้งหมด",
       "surveyAnalysisTopic": "กำลังตั้งค่าหัวข้อ",
       "surveyAnalysisDictionary": "กำลังสร้างพจนานุกรมของคุณ",
       "surveyAnalysisExercises": "กำลังเลือกแบบฝึกหัด",
       "surveyAnalysisPace": "กำลังตั้งค่าความเร็วในการเรียน",
-      "surveyAnalysisProcessing": "กำลังวิเคราะห์\nคำตอบของคุณ",
-      "surveyKnowledgeLead": "ภาษาอังกฤษคือกุญแจที่ช่วยให้คุณ\n",
+      "surveyAnalysisProcessing": "กำลังวิเคราะห์ คำตอบของคุณ",
+      "surveyKnowledgeLead": "ภาษาอังกฤษคือกุญแจที่ช่วยให้คุณ ",
       "surveyKnowledgeOpen": "เปิดประตูสู่ความรู้",
-      "surveyKnowledgeConnect": "\nเชื่อมต่อกับโลก และคว้า ",
+      "surveyKnowledgeConnect": " เชื่อมต่อกับโลก และคว้า ",
       "surveyKnowledgeMore": "โอกาสได้มากขึ้น",
-      "surveySummaryTitle": "ภาษาอังกฤษช่วยให้คุณ\nไปได้ไกลกว่าเดิม",
+      "surveySummaryTitle": "ภาษาอังกฤษช่วยให้คุณ ไปได้ไกลกว่าเดิม",
       "surveySummaryQuoteOne":
           "ภาษาอังกฤษเปิดประตูสู่โอกาสทางอาชีพระดับนานาชาติและรายได้ที่น่าสนใจยิ่งขึ้น",
       "surveySummaryQuoteTwo":
@@ -30868,7 +30883,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "คำตอบที่ถูกต้อง",
       "vocabularyTestHalfwayTitle": "เยี่ยมมาก!",
       "vocabularyTestHalfwayBody":
-          "คุณมาถึงครึ่งทางแล้ว!\nคุณทำคำเหล่านี้ได้ดีมาก ตอนนี้ลอง\nคำถามที่ท้าทายขึ้นอีกหน่อย",
+          "คุณมาถึงครึ่งทางแล้ว! คุณทำคำเหล่านี้ได้ดีมาก ตอนนี้ลอง คำถามที่ท้าทายขึ้นอีกหน่อย",
       "vocabularyTestNextLevel": "ระดับถัดไป: {level} · ส่วน {part}",
       "skillListening": "การฟัง",
       "skillVocabulary": "คำศัพท์",
@@ -31041,7 +31056,7 @@ class AppLocalizations {
           "คำถามที่ทำเสร็จแล้วทั้งหมดใน “{pack}” จะถูกลบ และความคืบหน้าจะกลับเป็น 0% การดำเนินการนี้ย้อนกลับไม่ได้",
       "grammarTitle": "ไวยากรณ์",
       "done": "เสร็จสิ้น",
-      "grammarByLevelTitle": "ฝึกไวยากรณ์\nตามระดับ",
+      "grammarByLevelTitle": "ฝึกไวยากรณ์ ตามระดับ",
       "grammarMotivation": "เรียนทุกวันและพัฒนาทีละขั้น!",
       "overallProgress": "ความคืบหน้าโดยรวม",
       "percentComplete": "เสร็จแล้ว {percent}%",
@@ -31098,7 +31113,7 @@ class AppLocalizations {
       "otherLessons": "บทเรียนอื่น",
       "listeningPreloadTitle": "กำลังโหลดแบบฝึกการฟัง",
       "listeningPreloadSubtitle":
-          "กำลังเตรียมข้อมูลฟังและพิมพ์\nสำหรับ “{lesson}”",
+          "กำลังเตรียมข้อมูลฟังและพิมพ์ สำหรับ “{lesson}”",
       "ready": "พร้อม!",
       "listeningOpening": "กำลังเปิดแบบฝึกการฟัง...",
       "listeningLoadingContent": "กำลังโหลดเนื้อหาบทเรียน...",
@@ -31334,7 +31349,7 @@ class AppLocalizations {
       "recentHistoryBody": "บทเรียนที่คุณเพิ่งทำเสร็จ",
       "recentHistoryEmpty":
           "ยังไม่มีเซสชันที่ทำเสร็จ ทำบทเรียนให้เสร็จเพื่อเริ่มบันทึกประวัติ",
-      "todayAtTime": "วันนี้\n{time}",
+      "todayAtTime": "วันนี้ {time}",
       "weekdayMon": "จ.",
       "weekdayTue": "อ.",
       "weekdayWed": "พ.",
@@ -31793,9 +31808,9 @@ class AppLocalizations {
       "navProgress": "İlerleme",
       "navChallenges": "Görevler",
       "navProfile": "Profil",
-      "languageTitle": "Ana dilinizi\nseçin",
+      "languageTitle": "Ana dilinizi seçin",
       "languageSubtitle":
-          "Öğrenme yolculuğunuzu\nsizin için kişiselleştireceğiz.",
+          "Öğrenme yolculuğunuzu sizin için kişiselleştireceğiz.",
       "languageSaveError": "Dil kaydedilemedi. Lütfen tekrar deneyin.",
       "back": "Geri",
       "continue": "Devam et",
@@ -31838,33 +31853,33 @@ class AppLocalizations {
       "assessmentSkip": "Seviyemi biliyorum",
       "assessmentTitle": "Kısa bir test yapın",
       "assessmentSubtitle":
-          "Seviyenizi değerlendirip sizin için\nen uygun öğrenme yolunu oluşturacağız.",
+          "Seviyenizi değerlendirip sizin için en uygun öğrenme yolunu oluşturacağız.",
       "assessmentStart": "Teste başla",
       "assessmentBenefitLevel": "Seviyenizi öğreneceksiniz",
       "assessmentBenefitVocabulary": "Kelime bilginizi kontrol edin",
       "assessmentBenefitAdapt": "Uygulama seviyenize uyum sağlayacak",
       "levelSelectionTitle": "İngilizce seviyenizi seçin",
       "levelSelectionSubtitle":
-          "Size en uygun öğrenme yolunu oluşturabilmemiz için\ndoğru seviyeyi seçin.",
+          "Size en uygun öğrenme yolunu oluşturabilmemiz için doğru seviyeyi seçin.",
       "levelBeginnerDescription": "Birkaç kelime biliyorum",
       "levelIntermediateDescription":
           "Oldukça fazla şey biliyorum ve daha fazlasını öğrenmek istiyorum",
       "levelAdvancedDescription": "Zorlayıcı kelimeler öğrenmek istiyorum",
-      "assessmentLevelTitle": "Mevcut İngilizce\nseviyenizi değerlendirin",
+      "assessmentLevelTitle": "Mevcut İngilizce seviyenizi değerlendirin",
       "assessmentLevelSubtitle":
-          "Size en uygun öğrenme yolunu oluşturabilmemiz için\ndoğru seviyeyi seçin.",
+          "Size en uygun öğrenme yolunu oluşturabilmemiz için doğru seviyeyi seçin.",
       "assessmentLevelNew":
-          "Öğrenmeye yeni başladım\nve henüz hiçbir şey bilmiyorum",
+          "Öğrenmeye yeni başladım ve henüz hiçbir şey bilmiyorum",
       "assessmentLevelBasic":
-          "Bazı temel dil bilgisi kurallarını biliyorum\nve basit kelime ve\nifadeler söyleyebiliyorum",
+          "Bazı temel dil bilgisi kurallarını biliyorum ve basit kelime ve ifadeler söyleyebiliyorum",
       "assessmentLevelConversational":
-          "Sohbet edebiliyorum ama\nhâlâ hata yapıyor ve\nsık sık tereddüt ediyorum",
+          "Sohbet edebiliyorum ama hâlâ hata yapıyor ve sık sık tereddüt ediyorum",
       "assessmentLevelFluent":
-          "Akıcı konuşuyorum, kitap okuyorum\nve İngilizce\nfilm izliyorum",
+          "Akıcı konuşuyorum, kitap okuyorum ve İngilizce film izliyorum",
       "assessmentLevelStart": "Teste başla",
-      "surveyIntroTitle": "Kısa bir\nanket yapalım!",
+      "surveyIntroTitle": "Kısa bir anket yapalım!",
       "surveyIntroSubtitle":
-          "Yanıtlarınıza göre Leximon sizin için\nen uygun öğrenme yöntemini seçecek.",
+          "Yanıtlarınıza göre Leximon sizin için en uygun öğrenme yöntemini seçecek.",
       "freeTrialGift": "Size hediye ediyoruz",
       "freeTrialDuration": "7 gün ücretsiz",
       "freeTrialPurpose": "uygulamamızı denemeniz için",
@@ -31877,7 +31892,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Kurulum tamamlanamadı. Lütfen tekrar deneyin.",
       "subscriptionHeadlineSubtitle":
-          "İngilizceniz iş hayatında\ngüvenilir bir aracınız olacak",
+          "İngilizceniz iş hayatında güvenilir bir aracınız olacak",
       "subscriptionLoadingPlans": "Abonelik planları yükleniyor…",
       "subscriptionLoadError": "Abonelik planı ayrıntıları yüklenemedi.",
       "subscriptionStorePriceUnavailable": "App Store fiyatı kullanılamıyor",
@@ -31890,7 +31905,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} gün",
       "subscriptionIn": " ",
       "subscriptionDaySuffix": " gün içinde",
-      "subscriptionStart": "Ücretsiz denemeyi başlat\nve abone ol",
+      "subscriptionStart": "Ücretsiz denemeyi başlat ve abone ol",
       "surveySaveProgressError":
           "İlerlemeniz kaydedilemedi. Lütfen tekrar deneyin.",
       "surveySaveTopicsError": "Seçilen konular kaydedilemedi.",
@@ -31938,14 +31953,14 @@ class AppLocalizations {
       "surveyStudy20To60": "20–60 dakika",
       "surveyStudyOverHour": "1 saatten fazla",
       "surveyHabitTitle":
-          "Her gün İngilizce öğrenmeye ne kadar\nzaman ayırmaya hazırsınız?",
+          "Her gün İngilizce öğrenmeye ne kadar zaman ayırmaya hazırsınız?",
       "surveyHabitDescription":
           "Her gün düzenli bir zaman ayırmak alışkanlık oluşturmanıza ve ",
       "surveyHabitHighlight": "daha hızlı ilerlemenize yardımcı olur.",
       "surveyPreferredTimeQuestion":
           "İngilizce çalışmak için sizin için en uygun saat hangisi?",
       "surveyReminderPrimary":
-          "Leximon derslerinizi size hatırlatır,\nböylece hiçbir günü kaçırmazsınız.",
+          "Leximon derslerinizi size hatırlatır, böylece hiçbir günü kaçırmazsınız.",
       "surveyReminderSecondary":
           "Düzenli pratiğin İngilizce öğrenmeyi neredeyse ",
       "surveyReminderHighlight": "4,6 kat hızlandırabildiğini gördük!",
@@ -31974,20 +31989,20 @@ class AppLocalizations {
           "İçerik seviyeme uygun, dersler anlaşılır ve hatırlatıcılar düzenimi korumama yardımcı oluyor.",
       "surveySocialProofPrefix": " ",
       "surveySocialProofSuffix":
-          " kullanıcının\nİngilizcesini geliştirmesine yardımcı oldu",
-      "surveyTopicTitle": "Öğrenmek istediğiniz\nkonuları seçin",
+          " kullanıcının İngilizcesini geliştirmesine yardımcı oldu",
+      "surveyTopicTitle": "Öğrenmek istediğiniz konuları seçin",
       "surveySelectAll": "Tümünü seç",
       "surveyAnalysisTopic": "Konular ayarlanıyor",
       "surveyAnalysisDictionary": "Sözlüğünüz oluşturuluyor",
       "surveyAnalysisExercises": "Alıştırmalar seçiliyor",
       "surveyAnalysisPace": "Öğrenme hızınız ayarlanıyor",
-      "surveyAnalysisProcessing": "Yanıtlarınız\nanaliz ediliyor",
-      "surveyKnowledgeLead": "İngilizce, size\n",
+      "surveyAnalysisProcessing": "Yanıtlarınız analiz ediliyor",
+      "surveyKnowledgeLead": "İngilizce, size ",
       "surveyKnowledgeOpen": "bilginin kapısını açan,",
-      "surveyKnowledgeConnect": "\ndünyayla bağlantı kurmanızı ve ",
+      "surveyKnowledgeConnect": " dünyayla bağlantı kurmanızı ve ",
       "surveyKnowledgeMore":
           "daha fazla fırsatı değerlendirmenizi sağlayan anahtardır.",
-      "surveySummaryTitle": "İngilizce sizi\ndaha ileri taşır",
+      "surveySummaryTitle": "İngilizce sizi daha ileri taşır",
       "surveySummaryQuoteOne":
           "İngilizce, uluslararası kariyer fırsatlarının ve daha cazip gelir olanaklarının kapısını açar.",
       "surveySummaryQuoteTwo":
@@ -32040,7 +32055,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "doğru yanıt",
       "vocabularyTestHalfwayTitle": "Harika!",
       "vocabularyTestHalfwayBody":
-          "Yolun yarısına geldiniz!\nBu kelimelerde çok iyiydiniz. Şimdi\nbiraz daha zor soruları deneyin.",
+          "Yolun yarısına geldiniz! Bu kelimelerde çok iyiydiniz. Şimdi biraz daha zor soruları deneyin.",
       "vocabularyTestNextLevel": "Sonraki seviye: {level} · Bölüm {part}",
       "skillListening": "Dinleme",
       "skillVocabulary": "Kelime bilgisi",
@@ -32223,7 +32238,7 @@ class AppLocalizations {
           "“{pack}” içindeki tamamlanan tüm sorular silinecek ve ilerleme %0’a dönecek. Bu işlem geri alınamaz.",
       "grammarTitle": "Dil bilgisi",
       "done": "Bitti",
-      "grammarByLevelTitle": "Seviyeye göre\ndil bilgisi pratiği",
+      "grammarByLevelTitle": "Seviyeye göre dil bilgisi pratiği",
       "grammarMotivation": "Her gün öğrenin ve adım adım gelişin!",
       "overallProgress": "Genel ilerleme",
       "percentComplete": "%{percent} tamamlandı",
@@ -32282,7 +32297,7 @@ class AppLocalizations {
       "otherLessons": "Diğer dersler",
       "listeningPreloadTitle": "Dinleme alıştırması yükleniyor",
       "listeningPreloadSubtitle":
-          "“{lesson}” için Dinle ve Yaz verileri\nhazırlanıyor.",
+          "“{lesson}” için Dinle ve Yaz verileri hazırlanıyor.",
       "ready": "Hazır!",
       "listeningOpening": "Dinleme alıştırması açılıyor...",
       "listeningLoadingContent": "Ders içeriği yükleniyor...",
@@ -32531,7 +32546,7 @@ class AppLocalizations {
       "recentHistoryBody": "Yakın zamanda tamamladığınız dersler",
       "recentHistoryEmpty":
           "Henüz tamamlanmış oturum yok. Geçmişinizi başlatmak için bir ders tamamlayın.",
-      "todayAtTime": "Bugün\n{time}",
+      "todayAtTime": "Bugün {time}",
       "weekdayMon": "Pzt",
       "weekdayTue": "Sal",
       "weekdayWed": "Çar",
@@ -33013,8 +33028,8 @@ class AppLocalizations {
       "navProgress": "Прогрес",
       "navChallenges": "Виклики",
       "navProfile": "Профіль",
-      "languageTitle": "Оберіть свою\nрідну мову",
-      "languageSubtitle": "Ми персоналізуємо ваш\nшлях навчання.",
+      "languageTitle": "Оберіть свою рідну мову",
+      "languageSubtitle": "Ми персоналізуємо ваш шлях навчання.",
       "languageSaveError": "Не вдалося зберегти мову. Спробуйте ще раз.",
       "back": "Назад",
       "continue": "Продовжити",
@@ -33046,7 +33061,8 @@ class AppLocalizations {
       "loading": "Завантаження...",
       "preparingLanguagePackage": "Підготовка мовного вмісту...",
       "checkingLanguageModels": "Перевірка офлайн-моделей мови...",
-      "downloadingLanguageModel": "Завантаження мовної моделі {current}/{total}...",
+      "downloadingLanguageModel":
+          "Завантаження мовної моделі {current}/{total}...",
       "languageModelsReady": "Мовні моделі готові",
       "languagePickerTitle": "Виберіть мову",
       "languagePickerSubtitle": "Виберіть мову, яку хочете вивчати",
@@ -33057,32 +33073,32 @@ class AppLocalizations {
       "assessmentSkip": "Я знаю свій рівень",
       "assessmentTitle": "Пройдіть короткий тест",
       "assessmentSubtitle":
-          "Ми визначимо ваш рівень, щоб\nпобудувати найкращий шлях навчання.",
+          "Ми визначимо ваш рівень, щоб побудувати найкращий шлях навчання.",
       "assessmentStart": "Пройти тест",
       "assessmentBenefitLevel": "Ви дізнаєтесь свій рівень",
       "assessmentBenefitVocabulary": "Перевірите словниковий запас",
       "assessmentBenefitAdapt": "Застосунок підлаштується під ваш рівень",
       "levelSelectionTitle": "Оберіть свій рівень англійської",
       "levelSelectionSubtitle":
-          "Оберіть відповідний рівень, щоб ми могли\nпобудувати найкращий шлях навчання.",
+          "Оберіть відповідний рівень, щоб ми могли побудувати найкращий шлях навчання.",
       "levelBeginnerDescription": "Я знаю кілька слів",
       "levelIntermediateDescription":
           "Я знаю досить багато й хочу вивчати більше",
       "levelAdvancedDescription": "Я хочу вивчати складні слова",
-      "assessmentLevelTitle": "Оцініть свій поточний\nрівень англійської",
+      "assessmentLevelTitle": "Оцініть свій поточний рівень англійської",
       "assessmentLevelSubtitle":
-          "Оберіть відповідний рівень, щоб ми могли\nпобудувати найкращий шлях навчання.",
-      "assessmentLevelNew": "Я лише почав(-ла) вивчати\nі поки нічого не знаю",
+          "Оберіть відповідний рівень, щоб ми могли побудувати найкращий шлях навчання.",
+      "assessmentLevelNew": "Я лише почав(-ла) вивчати і поки нічого не знаю",
       "assessmentLevelBasic":
-          "Я знаю базову граматику\nі можу говорити прості слова\nта фрази",
+          "Я знаю базову граматику і можу говорити прості слова та фрази",
       "assessmentLevelConversational":
-          "Я можу спілкуватися, але\nвсе ще роблю помилки й\nчасто вагаюся",
+          "Я можу спілкуватися, але все ще роблю помилки й часто вагаюся",
       "assessmentLevelFluent":
-          "Я вільно говорю, читаю книжки\nта дивлюся фільми\nанглійською",
+          "Я вільно говорю, читаю книжки та дивлюся фільми англійською",
       "assessmentLevelStart": "Почати тест",
-      "surveyIntroTitle": "Пройдемо\nкоротке опитування!",
+      "surveyIntroTitle": "Пройдемо коротке опитування!",
       "surveyIntroSubtitle":
-          "На основі ваших відповідей Leximon\nобере найкращий метод навчання для вас.",
+          "На основі ваших відповідей Leximon обере найкращий метод навчання для вас.",
       "freeTrialGift": "Ми даруємо вам",
       "freeTrialDuration": "7 днів безкоштовно",
       "freeTrialPurpose": "щоб спробувати наш застосунок",
@@ -33095,7 +33111,7 @@ class AppLocalizations {
       "subscriptionCompleteError":
           "Не вдалося завершити налаштування. Спробуйте ще раз.",
       "subscriptionHeadlineSubtitle":
-          "ваша англійська стане надійним інструментом\nу роботі",
+          "ваша англійська стане надійним інструментом у роботі",
       "subscriptionLoadingPlans": "Завантаження планів підписки…",
       "subscriptionLoadError": "Не вдалося завантажити деталі плану підписки.",
       "subscriptionStorePriceUnavailable": "Ціна в App Store недоступна",
@@ -33108,7 +33124,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} днів",
       "subscriptionIn": "Через ",
       "subscriptionDaySuffix": " днів",
-      "subscriptionStart": "Почати безкоштовний період\nі оформити підписку",
+      "subscriptionStart": "Почати безкоштовний період і оформити підписку",
       "surveySaveProgressError":
           "Не вдалося зберегти прогрес. Спробуйте ще раз.",
       "surveySaveTopicsError": "Не вдалося зберегти вибрані теми.",
@@ -33154,15 +33170,14 @@ class AppLocalizations {
       "surveyStudy10To20": "10–20 хвилин",
       "surveyStudy20To60": "20–60 хвилин",
       "surveyStudyOverHour": "Понад 1 годину",
-      "surveyHabitTitle":
-          "Скільки часу щодня ви готові\nприділяти англійській?",
+      "surveyHabitTitle": "Скільки часу щодня ви готові приділяти англійській?",
       "surveyHabitDescription":
           "Щоденне навчання у визначений час допомагає сформувати звичку та ",
       "surveyHabitHighlight": "швидше прогресувати.",
       "surveyPreferredTimeQuestion":
           "Коли вам найзручніше займатися англійською?",
       "surveyReminderPrimary":
-          "Leximon нагадає про заняття,\nщоб ви не пропускали жодного дня.",
+          "Leximon нагадає про заняття, щоб ви не пропускали жодного дня.",
       "surveyReminderSecondary":
           "Ми з’ясували, що регулярна практика може зробити вивчення англійської майже ",
       "surveyReminderHighlight": "у 4,6 раза швидшим!",
@@ -33189,20 +33204,19 @@ class AppLocalizations {
       "surveyReviewThreeBody":
           "Контент відповідає моєму рівню, уроки зрозумілі, а нагадування допомагають не збиватися з курсу.",
       "surveySocialProofPrefix": " допоміг ",
-      "surveySocialProofSuffix": " користувачам\nпокращити англійську",
-      "surveyTopicTitle": "Оберіть теми,\nякі хочете вивчати",
+      "surveySocialProofSuffix": " користувачам покращити англійську",
+      "surveyTopicTitle": "Оберіть теми, які хочете вивчати",
       "surveySelectAll": "Вибрати все",
       "surveyAnalysisTopic": "Налаштовуємо теми",
       "surveyAnalysisDictionary": "Створюємо ваш словник",
       "surveyAnalysisExercises": "Добираємо вправи",
       "surveyAnalysisPace": "Налаштовуємо темп навчання",
-      "surveyAnalysisProcessing": "Аналізуємо ваші\nвідповіді",
-      "surveyKnowledgeLead": "Англійська — це ключ, який допомагає\n",
+      "surveyAnalysisProcessing": "Аналізуємо ваші відповіді",
+      "surveyKnowledgeLead": "Англійська — це ключ, який допомагає ",
       "surveyKnowledgeOpen": "відкрити двері до знань,",
-      "surveyKnowledgeConnect":
-          "\nналагодити зв’язок зі світом і скористатися ",
+      "surveyKnowledgeConnect": " налагодити зв’язок зі світом і скористатися ",
       "surveyKnowledgeMore": "більшими можливостями.",
-      "surveySummaryTitle": "Англійська допомагає вам\nрухатися далі",
+      "surveySummaryTitle": "Англійська допомагає вам рухатися далі",
       "surveySummaryQuoteOne":
           "Англійська відкриває двері до міжнародних кар’єрних можливостей і привабливішого доходу.",
       "surveySummaryQuoteTwo":
@@ -33257,7 +33271,7 @@ class AppLocalizations {
       "vocabularyTestAnswersCorrect": "правильних відповідей",
       "vocabularyTestHalfwayTitle": "Чудово!",
       "vocabularyTestHalfwayBody":
-          "Ви вже на півдорозі!\nВи дуже добре впоралися з цими словами. Тепер спробуйте\nтрохи складніші запитання.",
+          "Ви вже на півдорозі! Ви дуже добре впоралися з цими словами. Тепер спробуйте трохи складніші запитання.",
       "vocabularyTestNextLevel": "Наступний рівень: {level} · Частина {part}",
       "skillListening": "Аудіювання",
       "skillVocabulary": "Словниковий запас",
@@ -33437,7 +33451,7 @@ class AppLocalizations {
           "Усі виконані запитання в «{pack}» буде видалено, а прогрес повернеться до 0%. Цю дію не можна скасувати.",
       "grammarTitle": "Граматика",
       "done": "Готово",
-      "grammarByLevelTitle": "Практика граматики\nза рівнями",
+      "grammarByLevelTitle": "Практика граматики за рівнями",
       "grammarMotivation":
           "Навчайтеся щодня й покращуйте результат крок за кроком!",
       "overallProgress": "Загальний прогрес",
@@ -33496,7 +33510,7 @@ class AppLocalizations {
       "otherLessons": "Інші уроки",
       "listeningPreloadTitle": "Завантаження вправи з аудіювання",
       "listeningPreloadSubtitle":
-          "Готуємо дані «Слухай і друкуй»\nдля «{lesson}».",
+          "Готуємо дані «Слухай і друкуй» для «{lesson}».",
       "ready": "Готово!",
       "listeningOpening": "Відкриваємо вправу з аудіювання...",
       "listeningLoadingContent": "Завантаження вмісту уроку...",
@@ -33749,7 +33763,7 @@ class AppLocalizations {
       "recentHistoryBody": "Уроки, які ви нещодавно завершили",
       "recentHistoryEmpty":
           "Завершених сеансів поки немає. Завершіть урок, щоб почати історію.",
-      "todayAtTime": "Сьогодні\n{time}",
+      "todayAtTime": "Сьогодні {time}",
       "weekdayMon": "Пн",
       "weekdayTue": "Вт",
       "weekdayWed": "Ср",
@@ -34235,8 +34249,8 @@ class AppLocalizations {
       "navProgress": "进度",
       "navChallenges": "挑战",
       "navProfile": "我的",
-      "languageTitle": "选择你的\n母语",
-      "languageSubtitle": "我们将为你定制\n专属学习旅程。",
+      "languageTitle": "选择你的 母语",
+      "languageSubtitle": "我们将为你定制 专属学习旅程。",
       "languageSaveError": "无法保存语言设置，请重试。",
       "back": "返回",
       "continue": "继续",
@@ -34277,25 +34291,25 @@ class AppLocalizations {
       "levelAdvanced": "高级",
       "assessmentSkip": "我知道自己的水平",
       "assessmentTitle": "参加简短测试",
-      "assessmentSubtitle": "我们会评估你的水平，\n为你制定最合适的学习路径。",
+      "assessmentSubtitle": "我们会评估你的水平， 为你制定最合适的学习路径。",
       "assessmentStart": "开始测试",
       "assessmentBenefitLevel": "了解你的当前水平",
       "assessmentBenefitVocabulary": "检测你的词汇量",
       "assessmentBenefitAdapt": "应用会根据你的水平进行调整",
       "levelSelectionTitle": "选择你的英语水平",
-      "levelSelectionSubtitle": "选择合适的水平，\n我们会为你制定最佳学习路径。",
+      "levelSelectionSubtitle": "选择合适的水平， 我们会为你制定最佳学习路径。",
       "levelBeginnerDescription": "我只认识一些单词",
       "levelIntermediateDescription": "我已经掌握不少内容，还想继续提升",
       "levelAdvancedDescription": "我想学习更有挑战性的词汇",
-      "assessmentLevelTitle": "评估你当前的\n英语水平",
-      "assessmentLevelSubtitle": "选择合适的水平，\n我们会为你制定最佳学习路径。",
-      "assessmentLevelNew": "我刚开始学习，\n目前几乎什么都不会",
-      "assessmentLevelBasic": "我懂一些基础语法，\n能说简单的单词\n和短语",
-      "assessmentLevelConversational": "我可以进行对话，但\n仍会犯错，\n也经常犹豫",
-      "assessmentLevelFluent": "我能流利交流、阅读书籍，\n并观看\n英文电影",
+      "assessmentLevelTitle": "评估你当前的 英语水平",
+      "assessmentLevelSubtitle": "选择合适的水平， 我们会为你制定最佳学习路径。",
+      "assessmentLevelNew": "我刚开始学习， 目前几乎什么都不会",
+      "assessmentLevelBasic": "我懂一些基础语法， 能说简单的单词 和短语",
+      "assessmentLevelConversational": "我可以进行对话，但 仍会犯错， 也经常犹豫",
+      "assessmentLevelFluent": "我能流利交流、阅读书籍， 并观看 英文电影",
       "assessmentLevelStart": "开始测试",
-      "surveyIntroTitle": "来做一个\n简短问卷吧！",
-      "surveyIntroSubtitle": "根据你的回答，Leximon 将\n为你选择最合适的学习方式。",
+      "surveyIntroTitle": "来做一个 简短问卷吧！",
+      "surveyIntroSubtitle": "根据你的回答，Leximon 将 为你选择最合适的学习方式。",
       "freeTrialGift": "我们为你提供",
       "freeTrialDuration": "7 天免费试用",
       "freeTrialPurpose": "体验我们的应用",
@@ -34306,7 +34320,7 @@ class AppLocalizations {
       "trialReminderEnd": "你的免费试用即将结束",
       "trialReminderPushDate": "将于 {date} 发送推送通知",
       "subscriptionCompleteError": "无法完成设置，请重试。",
-      "subscriptionHeadlineSubtitle": "你的英语将成为工作中\n可靠的工具",
+      "subscriptionHeadlineSubtitle": "你的英语将成为工作中 可靠的工具",
       "subscriptionLoadingPlans": "正在加载订阅方案…",
       "subscriptionLoadError": "无法加载订阅方案详情。",
       "subscriptionStorePriceUnavailable": "App Store 价格暂不可用",
@@ -34319,7 +34333,7 @@ class AppLocalizations {
       "subscriptionDays": "{count} 天",
       "subscriptionIn": "在 ",
       "subscriptionDaySuffix": " 天后",
-      "subscriptionStart": "开始免费试用\n并订阅",
+      "subscriptionStart": "开始免费试用 并订阅",
       "surveySaveProgressError": "无法保存你的进度，请重试。",
       "surveySaveTopicsError": "无法保存所选主题。",
       "surveyContinueWithLeximon": "继续使用 Leximon",
@@ -34358,11 +34372,11 @@ class AppLocalizations {
       "surveyStudy10To20": "10–20 分钟",
       "surveyStudy20To60": "20–60 分钟",
       "surveyStudyOverHour": "超过 1 小时",
-      "surveyHabitTitle": "你每天愿意花多少时间\n学习英语？",
+      "surveyHabitTitle": "你每天愿意花多少时间 学习英语？",
       "surveyHabitDescription": "每天固定留出时间学习，有助于养成习惯并 ",
       "surveyHabitHighlight": "更快进步。",
       "surveyPreferredTimeQuestion": "什么时间最方便你学习英语？",
-      "surveyReminderPrimary": "Leximon 会提醒你上课，\n让你一天都不落下。",
+      "surveyReminderPrimary": "Leximon 会提醒你上课， 让你一天都不落下。",
       "surveyReminderSecondary": "我们发现，坚持规律练习可以让英语学习速度提升近 ",
       "surveyReminderHighlight": "4.6 倍！",
       "surveyChallengeQuestion": "你学习英语时最大的挑战是什么？",
@@ -34385,19 +34399,19 @@ class AppLocalizations {
       "surveyReviewThreeTitle": "很有帮助",
       "surveyReviewThreeBody": "内容符合我的水平，课程清晰，提醒功能也能帮助我坚持学习。",
       "surveySocialProofPrefix": " 已帮助 ",
-      "surveySocialProofSuffix": " 位用户\n提升英语水平",
-      "surveyTopicTitle": "选择你想学习的\n主题",
+      "surveySocialProofSuffix": " 位用户 提升英语水平",
+      "surveyTopicTitle": "选择你想学习的 主题",
       "surveySelectAll": "全选",
       "surveyAnalysisTopic": "设置主题",
       "surveyAnalysisDictionary": "创建你的词典",
       "surveyAnalysisExercises": "选择练习",
       "surveyAnalysisPace": "设置学习节奏",
-      "surveyAnalysisProcessing": "正在分析你的\n回答",
-      "surveyKnowledgeLead": "英语是一把钥匙，帮助你\n",
+      "surveyAnalysisProcessing": "正在分析你的 回答",
+      "surveyKnowledgeLead": "英语是一把钥匙，帮助你 ",
       "surveyKnowledgeOpen": "打开知识之门，",
-      "surveyKnowledgeConnect": "\n连接世界，并抓住 ",
+      "surveyKnowledgeConnect": " 连接世界，并抓住 ",
       "surveyKnowledgeMore": "更多机会。",
-      "surveySummaryTitle": "英语让你走得\n更远",
+      "surveySummaryTitle": "英语让你走得 更远",
       "surveySummaryQuoteOne": "英语能为你打开国际职业机会和更有吸引力的收入之门。",
       "surveySummaryQuoteTwo": "语言能力能帮助你在招聘中脱颖而出，与全球团队高效协作，并建立可持续的职业发展。",
       "surveySummaryQuoteThree": "自信地用英语交流，是领导力、晋升和长期成功的关键。",
@@ -34441,7 +34455,7 @@ class AppLocalizations {
       "vocabularyTestReady": "准备好！",
       "vocabularyTestAnswersCorrect": "道正确答案",
       "vocabularyTestHalfwayTitle": "太棒了！",
-      "vocabularyTestHalfwayBody": "你已经完成一半了！\n这些单词你答得很好。现在来试试\n更有挑战性的题目吧。",
+      "vocabularyTestHalfwayBody": "你已经完成一半了！ 这些单词你答得很好。现在来试试 更有挑战性的题目吧。",
       "vocabularyTestNextLevel": "下一等级：{level} · 第 {part} 部分",
       "skillListening": "听力",
       "skillVocabulary": "词汇",
@@ -34608,7 +34622,7 @@ class AppLocalizations {
       "grammarResetPackBody": "“{pack}”中所有已完成的题目都会被删除，进度将恢复为 0%。此操作无法撤销。",
       "grammarTitle": "语法",
       "done": "完成",
-      "grammarByLevelTitle": "按等级进行\n语法练习",
+      "grammarByLevelTitle": "按等级进行 语法练习",
       "grammarMotivation": "每天学习，一步步提升！",
       "overallProgress": "总体进度",
       "percentComplete": "已完成 {percent}%",
@@ -34661,7 +34675,7 @@ class AppLocalizations {
       "lessons": "课程",
       "otherLessons": "其他课程",
       "listeningPreloadTitle": "正在加载听力练习",
-      "listeningPreloadSubtitle": "正在为“{lesson}”准备\n听写数据。",
+      "listeningPreloadSubtitle": "正在为“{lesson}”准备 听写数据。",
       "ready": "准备好了！",
       "listeningOpening": "正在打开听力练习...",
       "listeningLoadingContent": "正在加载课程内容...",
@@ -34878,7 +34892,7 @@ class AppLocalizations {
       "recentHistory": "最近记录",
       "recentHistoryBody": "你最近完成的课程",
       "recentHistoryEmpty": "暂无已完成的学习记录。完成一节课后即可开始记录。",
-      "todayAtTime": "今天\n{time}",
+      "todayAtTime": "今天 {time}",
       "weekdayMon": "周一",
       "weekdayTue": "周二",
       "weekdayWed": "周三",

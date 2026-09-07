@@ -7,7 +7,6 @@ import 'package:go_router/go_router.dart';
 
 import 'core/theme/app_theme.dart';
 import 'core/localization/app_localizations.dart';
-import 'core/services/app_tracking_transparency_service.dart';
 import 'core/services/daily_notification_service.dart';
 import 'data/services/app_usage_service.dart';
 import 'data/models/onboarding_vocabulary_test.dart';
@@ -169,7 +168,6 @@ class _AppUsageLifecycleState extends ConsumerState<_AppUsageLifecycle>
         unawaited(_appUsageService!.resume());
       }
       unawaited(_initializeNotifications());
-      unawaited(AppTrackingTransparencyService.requestIfNeeded());
     });
   }
 

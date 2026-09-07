@@ -20,7 +20,10 @@ void main() {
 
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [iapCatalogProvider.overrideWith((ref) async => _catalog)],
+        overrides: [
+          iapCatalogProvider.overrideWith((ref) async => _catalog),
+          reviewModeProvider.overrideWith((ref) async => false),
+        ],
         child: MaterialApp(
           locale: const Locale('vi'),
           supportedLocales: AppLocalizations.supportedLocales,
@@ -46,6 +49,11 @@ void main() {
     );
     expect(find.text('129.000 ₫'), findsOneWidget);
     expect(find.text('Gói Pro năm'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('subscription-weekly-price')),
+      findsNothing,
+    );
+    _expectFunctionalLegalLinks(tester);
     expect(tester.takeException(), isNull);
   });
 
@@ -54,7 +62,10 @@ void main() {
   ) async {
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [iapCatalogProvider.overrideWith((ref) async => _catalog)],
+        overrides: [
+          iapCatalogProvider.overrideWith((ref) async => _catalog),
+          reviewModeProvider.overrideWith((ref) async => false),
+        ],
         child: MaterialApp(
           locale: const Locale('vi'),
           supportedLocales: AppLocalizations.supportedLocales,
@@ -75,11 +86,16 @@ void main() {
       findsOneWidget,
     );
     expect(find.byKey(const ValueKey('subscription-restore')), findsOneWidget);
+    _expectFunctionalLegalLinks(tester);
     expect(find.text('Điều khoản sử dụng'), findsOneWidget);
     expect(find.text('Chính sách về Quyền riêng tư'), findsOneWidget);
     expect(find.text('PHỔ BIẾN'), findsOneWidget);
     expect(find.text('129.000 ₫'), findsOneWidget);
-    expect(find.textContaining('₫'), findsNWidgets(3));
+    expect(find.textContaining('₫'), findsNWidgets(2));
+    expect(
+      find.byKey(const ValueKey('subscription-weekly-price')),
+      findsNothing,
+    );
     expect(find.textContaining(r'$'), findsNothing);
     expect(tester.takeException(), isNull);
   });
@@ -89,7 +105,10 @@ void main() {
   ) async {
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [iapCatalogProvider.overrideWith((ref) async => _catalog)],
+        overrides: [
+          iapCatalogProvider.overrideWith((ref) async => _catalog),
+          reviewModeProvider.overrideWith((ref) async => true),
+        ],
         child: MaterialApp(
           locale: const Locale('en'),
           supportedLocales: AppLocalizations.supportedLocales,
@@ -106,11 +125,18 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.textContaining('/ week'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('subscription-weekly-price')),
+      findsOneWidget,
+    );
     expect(find.textContaining('weeks'), findsNothing);
 
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [iapCatalogProvider.overrideWith((ref) async => _catalog)],
+        overrides: [
+          iapCatalogProvider.overrideWith((ref) async => _catalog),
+          reviewModeProvider.overrideWith((ref) async => true),
+        ],
         child: MaterialApp(
           locale: const Locale('en'),
           supportedLocales: AppLocalizations.supportedLocales,
@@ -127,8 +153,35 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.textContaining('/ week'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('subscription-weekly-price')),
+      findsOneWidget,
+    );
     expect(find.textContaining('weeks'), findsNothing);
   });
+}
+
+void _expectFunctionalLegalLinks(WidgetTester tester) {
+  final terms = find.byKey(const ValueKey('subscription-terms'));
+  final privacy = find.byKey(const ValueKey('subscription-privacy'));
+  expect(terms, findsOneWidget);
+  expect(privacy, findsOneWidget);
+  expect(
+    tester
+        .widget<TextButton>(
+          find.descendant(of: terms, matching: find.byType(TextButton)),
+        )
+        .onPressed,
+    isNotNull,
+  );
+  expect(
+    tester
+        .widget<TextButton>(
+          find.descendant(of: privacy, matching: find.byType(TextButton)),
+        )
+        .onPressed,
+    isNotNull,
+  );
 }
 
 final _package = IapPackage(

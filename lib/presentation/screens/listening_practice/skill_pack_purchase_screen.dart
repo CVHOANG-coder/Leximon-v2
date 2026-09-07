@@ -8,6 +8,7 @@ import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/iap_packages_response.dart';
 import '../../../data/services/iap_catalog_service.dart';
 import '../../../data/services/iap_purchase_service.dart';
+import '../../widgets/purchase_legal_links.dart';
 import '../../../shared/providers/app_providers.dart';
 
 enum SkillPackType {
@@ -132,7 +133,9 @@ class _SkillPackPurchaseScreenState
         body: Stack(
           children: [
             SingleChildScrollView(
-              padding: const EdgeInsets.only(bottom: 28),
+              padding: EdgeInsets.only(
+                bottom: MediaQuery.paddingOf(context).bottom + 78,
+              ),
               child: Column(
                 children: [
                   SizedBox(
@@ -268,6 +271,16 @@ class _SkillPackPurchaseScreenState
                     ),
                   ),
                 ],
+              ),
+            ),
+            const Positioned(
+              left: 16,
+              right: 16,
+              bottom: 0,
+              child: SafeArea(
+                top: false,
+                minimum: EdgeInsets.only(bottom: 4),
+                child: PurchaseLegalLinks(),
               ),
             ),
             Positioned(

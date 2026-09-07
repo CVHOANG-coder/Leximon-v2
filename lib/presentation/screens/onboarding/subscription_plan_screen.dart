@@ -12,6 +12,7 @@ import '../../../core/services/daily_notification_service.dart';
 import '../../../data/models/iap_packages_response.dart';
 import '../../../data/services/iap_catalog_service.dart';
 import '../../../data/services/iap_purchase_service.dart';
+import '../../widgets/purchase_legal_links.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class SubscriptionPlanScreen extends ConsumerStatefulWidget {
@@ -228,6 +229,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     final catalogState = ref.watch(iapCatalogProvider);
     final catalog = catalogState.valueOrNull;
     final packages = catalog?.subscriptionPackages ?? const <IapPackage>[];
+    final showWeeklyPrices = ref.watch(reviewModeProvider).valueOrNull == true;
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
@@ -320,6 +322,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                                 catalogState: catalogState,
                                 catalog: catalog,
                                 packages: packages,
+                                showWeeklyPrices: showWeeklyPrices,
                               ),
                             ),
                           ),
@@ -374,6 +377,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     required AsyncValue<IapCatalog> catalogState,
     required IapCatalog? catalog,
     required List<IapPackage> packages,
+    required bool showWeeklyPrices,
   }) {
     if (packages.isEmpty && catalogState.isLoading) {
       return [
@@ -427,7 +431,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
               ? _storePriceForAmount(context, product, 1.5) ??
                     _apiPriceLabelForAmount(package, package.price * 1.5)
               : null,
-          weeklyPrice: price == null
+          weeklyPrice: !showWeeklyPrices || price == null
               ? null
               : _weeklyPriceLabel(context, package, product),
           badgeLabel: package == mostExpensivePackage
@@ -752,6 +756,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                         alignment: Alignment.centerRight,
                         child: Text(
                           weeklyPrice!,
+                          key: const ValueKey('subscription-weekly-price'),
                           textAlign: TextAlign.right,
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
@@ -933,7 +938,6 @@ class _SubscriptionLegalFooter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const footerTextColor = Color(0xFFBBD7FF);
-    const footerMutedColor = Color(0xFF8EB8F5);
 
     return Container(
       key: const ValueKey('subscription-legal-footer'),
@@ -971,48 +975,8 @@ class _SubscriptionLegalFooter extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 3),
-          Wrap(
-            alignment: WrapAlignment.center,
-            crossAxisAlignment: WrapCrossAlignment.center,
-            spacing: 9,
-            runSpacing: 2,
-            children: [
-              _LegalFooterLink(
-                key: const ValueKey('subscription-terms'),
-                label: context.l10n.text('subscriptionTerms'),
-              ),
-              const Text(
-                '•',
-                style: TextStyle(color: footerMutedColor, fontSize: 13),
-              ),
-              _LegalFooterLink(
-                key: const ValueKey('subscription-privacy'),
-                label: context.l10n.text('subscriptionPrivacy'),
-              ),
-            ],
-          ),
+          const PurchaseLegalLinks(textColor: Color(0xFF8EB8F5)),
         ],
-      ),
-    );
-  }
-}
-
-class _LegalFooterLink extends StatelessWidget {
-  const _LegalFooterLink({super.key, required this.label});
-
-  final String label;
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(
-      label,
-      textAlign: TextAlign.center,
-      style: const TextStyle(
-        color: Color(0xFF8EB8F5),
-        fontSize: 12.5,
-        fontWeight: FontWeight.w500,
-        decoration: TextDecoration.underline,
-        decorationColor: Color(0xFF8EB8F5),
       ),
     );
   }

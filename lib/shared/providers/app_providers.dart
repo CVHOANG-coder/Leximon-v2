@@ -11,6 +11,7 @@ import '../../core/services/device_id_keychain_storage.dart';
 import '../../core/services/device_info_service.dart';
 import '../../core/services/firebase_analytics_service.dart';
 import '../../core/services/firebase_messaging_service.dart';
+import '../../core/services/review_mode_service.dart';
 import '../../data/datasources/sentence_asset_data_source.dart';
 import '../../data/datasources/ipa_asset_data_source.dart';
 import '../../data/datasources/listening_asset_data_source.dart';
@@ -92,6 +93,12 @@ final firebaseMessagingServiceProvider = Provider<FirebaseMessagingService>((
 
 final firebaseAnalyticsServiceProvider = Provider<FirebaseAnalyticsService>(
   (ref) => FirebaseAnalyticsService(),
+);
+
+/// Only an explicit Remote Config `true` enables normalized offer prices.
+/// Loading and failure states are intentionally treated as `false` by callers.
+final reviewModeProvider = FutureProvider<bool>(
+  (ref) => ReviewModeService.instance.reviewModeEnabled,
 );
 
 final authTokenStorageProvider = Provider<AuthTokenStorage>(

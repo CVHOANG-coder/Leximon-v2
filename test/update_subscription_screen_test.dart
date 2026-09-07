@@ -66,6 +66,7 @@ void main() {
             ),
           ),
           iapPurchaseServiceProvider.overrideWithValue(purchaseService),
+          reviewModeProvider.overrideWith((ref) async => false),
         ],
         child: MaterialApp(
           locale: const Locale('vi'),
@@ -88,6 +89,12 @@ void main() {
         matching: find.text('Weekly'),
       ),
       findsOneWidget,
+    );
+    expect(find.byKey(const ValueKey('subscription-terms')), findsOneWidget);
+    expect(find.byKey(const ValueKey('subscription-privacy')), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('subscription-weekly-price')),
+      findsNothing,
     );
 
     final buyButton = find.byKey(const ValueKey('subscription-start'));
