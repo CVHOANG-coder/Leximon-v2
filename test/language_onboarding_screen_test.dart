@@ -275,6 +275,32 @@ void main() {
     expect(await service.isCarouselCompleted(), isFalse);
   });
 
+  testWidgets('retries ATT from the first onboarding action', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    var requestCount = 0;
+
+    await tester.pumpWidget(
+      ProviderScope(
+        child: MaterialApp(
+          home: LanguageOnboardingScreen(
+            requestTrackingPermission: () async {
+              requestCount++;
+              throw StateError('Stop after the ATT test hook.');
+            },
+          ),
+        ),
+      ),
+    );
+    await tester.pump();
+
+    await tester.tap(
+      find.byKey(const ValueKey('language-onboarding-continue')),
+    );
+    await tester.pump();
+
+    expect(requestCount, 1);
+  });
+
   testWidgets('selects and persists the app language before continuing', (
     tester,
   ) async {

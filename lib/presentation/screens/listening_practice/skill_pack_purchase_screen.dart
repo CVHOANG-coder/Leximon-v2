@@ -415,6 +415,7 @@ class _SkillPackPurchaseScreenState
   }
 
   String _purchaseMessage(IapPurchaseResult result) => switch (result.status) {
+    IapPurchaseResultStatus.pending => context.l10n.text('iapPurchasePending'),
     IapPurchaseResultStatus.networkUnavailable => context.l10n.text(
       'iapNetworkUnavailable',
     ),
@@ -423,6 +424,9 @@ class _SkillPackPurchaseScreenState
     ),
     IapPurchaseResultStatus.productUnavailable => context.l10n.text(
       'skillPackUnavailable',
+    ),
+    IapPurchaseResultStatus.purchaseNotAllowed => context.l10n.text(
+      'iapPurchaseNotAllowed',
     ),
     IapPurchaseResultStatus.verificationFailed => context.l10n.text(
       'iapVerificationFailed',

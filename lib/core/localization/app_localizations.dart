@@ -382,6 +382,10 @@ class AppLocalizations {
           'Payment succeeded but server verification failed. Please try again later.',
       'iapPurchaseFailed': 'The purchase could not be completed.',
       'iapPurchaseBusy': 'Another purchase is currently being processed.',
+      'iapPurchasePending':
+          'The App Store is still processing this purchase. You can leave this screen and return later.',
+      'iapPurchaseNotAllowed':
+          'Purchases are not allowed for this Apple ID or device. Check App Store and Screen Time settings.',
       'saleHeadlinePrefix': 'Start a free trial ',
       'saleHeadlineDays': 'for {days} days',
       'saleHeadlineSubtitle': 'Unlock every lesson with no ads',
@@ -2846,6 +2850,10 @@ class AppLocalizations {
           'Thanh toán đã thành công nhưng máy chủ chưa thể xác minh. Vui lòng thử lại sau.',
       'iapPurchaseFailed': 'Không thể hoàn tất giao dịch.',
       'iapPurchaseBusy': 'Một giao dịch khác đang được xử lý.',
+      'iapPurchasePending':
+          'App Store vẫn đang xử lý giao dịch này. Bạn có thể rời màn hình và quay lại sau.',
+      'iapPurchaseNotAllowed':
+          'Apple ID hoặc thiết bị này không được phép mua hàng. Vui lòng kiểm tra App Store và cài đặt Thời gian sử dụng.',
       'saleHeadlinePrefix': 'Dùng thử miễn phí ',
       'saleHeadlineDays': '{days} ngày',
       'saleHeadlineSubtitle': 'Mở khoá toàn bộ bài học, không quảng cáo',

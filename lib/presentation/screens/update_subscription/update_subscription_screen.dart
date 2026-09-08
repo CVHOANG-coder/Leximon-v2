@@ -423,8 +423,25 @@ class _UpdateSubscriptionScreenState
     try {
       final result = await ref
           .read(iapPurchaseServiceProvider)
-          .purchase(package: package, product: product);
+          .purchase(
+            package: package,
+            product: product,
+            previousSubscriptionProductId: current?.productId,
+          );
       if (!mounted) return;
+      if (result.status == IapPurchaseResultStatus.pending) {
+        final upgradedProfile = result.verificationResponse == null
+            ? null
+            : await _reloadSubscriptionProfile(package);
+        if (!mounted) return;
+        if (upgradedProfile != null) {
+          await _applySuccessfulUpgrade(package, upgradedProfile);
+          return;
+        }
+        setState(() => _isSubmitting = false);
+        _showMessage(_purchaseMessage(result));
+        return;
+      }
       if (!result.isSuccess) {
         setState(() => _isSubmitting = false);
         if (result.status != IapPurchaseResultStatus.canceled) {
@@ -439,13 +456,7 @@ class _UpdateSubscriptionScreenState
             profile: responseProfile,
             package: package,
           )) {
-        setState(() {
-          _isSubmitting = false;
-          _selectedProductId = null;
-          _latestProfile = responseProfile;
-        });
-        ref.invalidate(remoteUserProfileProvider);
-        _showMessage('Giao dịch thành công. Gói của bạn đã được cập nhật.');
+        await _applySuccessfulUpgrade(package, responseProfile);
         return;
       }
 
@@ -457,12 +468,7 @@ class _UpdateSubscriptionScreenState
         return;
       }
 
-      setState(() {
-        _isSubmitting = false;
-        _selectedProductId = null;
-        _latestProfile = upgradedProfile;
-      });
-      _showMessage('Giao dịch thành công. Gói của bạn đã được cập nhật.');
+      await _applySuccessfulUpgrade(package, upgradedProfile);
     } on Object {
       if (!mounted) return;
       setState(() => _isSubmitting = false);
@@ -473,9 +479,11 @@ class _UpdateSubscriptionScreenState
   Future<UserProfile?> _reloadSubscriptionProfile(
     IapPackage targetPackage,
   ) async {
-    for (var attempt = 0; attempt < 5; attempt++) {
+    for (var attempt = 0; attempt < 3; attempt++) {
       try {
-        final profile = await ref.refresh(remoteUserProfileProvider.future);
+        final profile = await ref
+            .refresh(remoteUserProfileProvider.future)
+            .timeout(const Duration(seconds: 5));
         if (isSubscriptionPackageActive(
           profile: profile,
           package: targetPackage,
@@ -485,14 +493,32 @@ class _UpdateSubscriptionScreenState
       } on Object {
         // The backend may still be processing the receipt. Retry below.
       }
-      if (attempt < 4) {
+      if (attempt < 2) {
         await Future<void>.delayed(Duration(milliseconds: 400 * (attempt + 1)));
       }
     }
     return null;
   }
 
+  Future<void> _applySuccessfulUpgrade(
+    IapPackage package,
+    UserProfile profile,
+  ) async {
+    await ref
+        .read(iapPurchaseServiceProvider)
+        .completePendingPurchase(package.productId);
+    if (!mounted) return;
+    setState(() {
+      _isSubmitting = false;
+      _selectedProductId = null;
+      _latestProfile = profile;
+    });
+    ref.invalidate(remoteUserProfileProvider);
+    _showMessage('Giao dịch thành công. Gói của bạn đã được cập nhật.');
+  }
+
   String _purchaseMessage(IapPurchaseResult result) => switch (result.status) {
+    IapPurchaseResultStatus.pending => context.l10n.text('iapPurchasePending'),
     IapPurchaseResultStatus.networkUnavailable => context.l10n.text(
       'iapNetworkUnavailable',
     ),
@@ -501,6 +527,9 @@ class _UpdateSubscriptionScreenState
     ),
     IapPurchaseResultStatus.productUnavailable => context.l10n.text(
       'iapProductUnavailable',
+    ),
+    IapPurchaseResultStatus.purchaseNotAllowed => context.l10n.text(
+      'iapPurchaseNotAllowed',
     ),
     IapPurchaseResultStatus.verificationFailed => context.l10n.text(
       'iapVerificationFailed',

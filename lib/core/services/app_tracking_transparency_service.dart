@@ -14,10 +14,16 @@ class AppTrackingTransparencyService {
   static const _initialPromptDelay = Duration(milliseconds: 500);
   static const _retryDelay = Duration(seconds: 1);
   static const _maxRequestAttempts = 3;
+  static Future<PermissionStatus?>? _requestInFlight;
 
-  static Future<PermissionStatus?> requestIfNeeded() async {
-    if (defaultTargetPlatform != TargetPlatform.iOS) return null;
+  static Future<PermissionStatus?> requestIfNeeded() {
+    if (defaultTargetPlatform != TargetPlatform.iOS) {
+      return Future<PermissionStatus?>.value();
+    }
+    return _requestInFlight ??= _requestAndRelease();
+  }
 
+  static Future<PermissionStatus?> _requestAndRelease() async {
     try {
       return await requestWhenActive(
         readStatus: () => Permission.appTrackingTransparency.status,
@@ -30,6 +36,8 @@ class AppTrackingTransparencyService {
       debugPrint('ATT permission request skipped: $error');
       debugPrintStack(stackTrace: stackTrace);
       return null;
+    } finally {
+      _requestInFlight = null;
     }
   }
 

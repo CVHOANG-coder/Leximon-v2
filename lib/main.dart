@@ -20,13 +20,23 @@ void main() {
   // first Flutter frame. Starting them afterwards prevents native plugin setup
   // from extending the blank launch-screen interval on slower devices.
   WidgetsBinding.instance.addPostFrameCallback((_) {
-    unawaited(_initializePlatformServices());
+    // Keep ATT independent from the orientation channel. A platform-channel
+    // failure on newer iPadOS versions must never skip the privacy prompt.
+    unawaited(_configurePreferredOrientations());
+    unawaited(_initializePrivacyAwareServices());
   });
 }
 
-Future<void> _initializePlatformServices() async {
-  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+Future<void> _configurePreferredOrientations() async {
+  try {
+    await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  } on Object catch (error, stackTrace) {
+    debugPrint('Preferred orientation setup skipped: $error');
+    debugPrintStack(stackTrace: stackTrace);
+  }
+}
 
+Future<void> _initializePrivacyAwareServices() async {
   PermissionStatus? trackingStatus;
   if (defaultTargetPlatform == TargetPlatform.iOS) {
     // Ask only after the first frame and once iOS reports the app as active.

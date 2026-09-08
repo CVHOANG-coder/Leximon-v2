@@ -183,6 +183,10 @@ final iapPurchaseServiceProvider = Provider<IapPurchaseService>((ref) {
     purchaseEventLogger: (package, purchase) => ref
         .read(firebaseAnalyticsServiceProvider)
         .logPurchase(package: package, purchase: purchase),
+    purchaseErrorLogger:
+        ({required productId, required phase, required code}) => ref
+            .read(firebaseAnalyticsServiceProvider)
+            .logPurchaseError(productId: productId, phase: phase, code: code),
   );
   ref.onDispose(service.dispose);
   return service;

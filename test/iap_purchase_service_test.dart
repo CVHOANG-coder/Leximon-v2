@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
@@ -627,7 +628,15 @@ void main() {
         authToken: 'token',
       );
       final store = _FakeStoreGateway()
-        ..unfinishedPurchaseDetails = [_purchase(PurchaseStatus.purchased)];
+        ..unfinishedPurchaseDetails = [
+          _purchaseFor(
+            _package.productId,
+            PurchaseStatus.purchased,
+            expiresDate: DateTime.now()
+                .subtract(const Duration(minutes: 1))
+                .millisecondsSinceEpoch,
+          ),
+        ];
       final service = IapPurchaseService(
         store,
         IapTransactionApiService(client),
@@ -750,7 +759,7 @@ void main() {
 
       expect(store.completedPurchases, hasLength(1));
       expect(store.startedProductIds, [productId]);
-      expect(verificationCalls, 0);
+      expect(verificationCalls, 1);
       store.emit([_purchaseFor(productId, PurchaseStatus.canceled)]);
       expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
     });
@@ -781,11 +790,17 @@ void main() {
             _package.productId,
             PurchaseStatus.purchased,
             purchaseId: 'old-renewal-1',
+            expiresDate: DateTime.now()
+                .subtract(const Duration(minutes: 2))
+                .millisecondsSinceEpoch,
           ),
           _purchaseFor(
             _package.productId,
             PurchaseStatus.purchased,
             purchaseId: 'old-renewal-2',
+            expiresDate: DateTime.now()
+                .subtract(const Duration(minutes: 1))
+                .millisecondsSinceEpoch,
           ),
         ];
       final service = IapPurchaseService(
@@ -835,7 +850,106 @@ void main() {
         ..purchaseError = StateError('storekit_duplicate_product_object')
         ..purchaseErrorOnce = true
         ..returnUnfinishedAfterFirstLookup = true
-        ..unfinishedPurchaseDetails = [_purchase(PurchaseStatus.purchased)];
+        ..completePurchaseRemovalDelayLookups = 2
+        ..unfinishedPurchaseDetails = [
+          _purchaseFor(
+            _package.productId,
+            PurchaseStatus.purchased,
+            expiresDate: DateTime.now()
+                .subtract(const Duration(minutes: 1))
+                .millisecondsSinceEpoch,
+          ),
+        ];
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => _package,
+        () async {},
+        storeQueuePollDelay: const Duration(milliseconds: 1),
+        storeQueueClearTimeout: const Duration(milliseconds: 50),
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final resultFuture = service.purchase(
+        package: _package,
+        product: _product,
+      );
+      await Future<void>.delayed(const Duration(milliseconds: 10));
+
+      expect(store.startedProductIds, [_product.id, _product.id]);
+      expect(store.completedPurchases, hasLength(1));
+      store.emit([_purchase(PurchaseStatus.canceled)]);
+      expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
+    },
+  );
+
+  test('returns pending when StoreKit still reports a duplicate', () async {
+    final reportedCodes = <String>[];
+    final client = ApiClient(
+      client: MockClient((request) async => http.Response('{}', 200)),
+      baseUrl: 'https://example.com',
+    );
+    final store = _FakeStoreGateway()
+      ..purchaseError = StateError('storekit_duplicate_product_object');
+    final service = IapPurchaseService(
+      store,
+      IapTransactionApiService(client),
+      (_) async => _package,
+      () async {},
+      storeQueuePollDelay: Duration.zero,
+      storeQueueClearTimeout: Duration.zero,
+      purchaseErrorLogger:
+          ({required productId, required phase, required code}) async {
+            reportedCodes.add(code);
+          },
+    );
+    addTearDown(() async {
+      await service.dispose();
+      await store.close();
+      client.close();
+    });
+
+    final result = await service.purchase(package: _package, product: _product);
+    await Future<void>.delayed(Duration.zero);
+
+    expect(result.status, IapPurchaseResultStatus.pending);
+    expect(store.startedProductIds, [_package.productId, _package.productId]);
+    expect(reportedCodes, [
+      'storekit_duplicate_product_object',
+      'storekit_duplicate_product_object',
+    ]);
+  });
+
+  test(
+    'keeps a current ungranted subscription transaction unfinished',
+    () async {
+      final client = ApiClient(
+        client: MockClient((request) async {
+          return http.Response(
+            jsonEncode({
+              'success': true,
+              'data': {'isPremium': false},
+            }),
+            200,
+            headers: const {'content-type': 'application/json'},
+          );
+        }),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final unfinished = _purchaseFor(
+        _package.productId,
+        PurchaseStatus.purchased,
+        expiresDate: DateTime.now()
+            .add(const Duration(days: 7))
+            .millisecondsSinceEpoch,
+      );
+      final store = _FakeStoreGateway()
+        ..unfinishedPurchaseDetails = [unfinished];
       final service = IapPurchaseService(
         store,
         IapTransactionApiService(client),
@@ -848,16 +962,14 @@ void main() {
         client.close();
       });
 
-      final resultFuture = service.purchase(
+      final result = await service.purchase(
         package: _package,
         product: _product,
       );
-      await Future<void>.delayed(Duration.zero);
 
-      expect(store.startedProductIds, [_product.id, _product.id]);
-      expect(store.completedPurchases, hasLength(1));
-      store.emit([_purchase(PurchaseStatus.canceled)]);
-      expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
+      expect(result.status, IapPurchaseResultStatus.pending);
+      expect(store.completedPurchases, isEmpty);
+      expect(store.startedProductIds, isEmpty);
     },
   );
 
@@ -895,6 +1007,286 @@ void main() {
       expect(result.message, isNull);
     },
   );
+
+  test(
+    'maps StoreKit account and product errors to actionable states',
+    () async {
+      final reportedCodes = <String>[];
+      final client = ApiClient(
+        client: MockClient((request) async => http.Response('{}', 200)),
+        baseUrl: 'https://example.com',
+      );
+      final store = _FakeStoreGateway()
+        ..purchaseError = PlatformException(
+          code: 'storekit2_failed_to_fetch_product',
+        );
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => _package,
+        () async {},
+        purchaseErrorLogger:
+            ({required productId, required phase, required code}) async {
+              reportedCodes.add(code);
+            },
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final unavailable = await service.purchase(
+        package: _package,
+        product: _product,
+      );
+      store.purchaseError = PlatformException(code: 'payment_not_allowed');
+      final notAllowed = await service.purchase(
+        package: _package,
+        product: _product,
+      );
+      await Future<void>.delayed(Duration.zero);
+
+      expect(unavailable.status, IapPurchaseResultStatus.productUnavailable);
+      expect(notAllowed.status, IapPurchaseResultStatus.purchaseNotAllowed);
+      expect(reportedCodes, [
+        'storekit2_failed_to_fetch_product',
+        'payment_not_allowed',
+      ]);
+    },
+  );
+
+  test('returns pending without leaving the purchase service busy', () async {
+    final client = ApiClient(
+      client: MockClient((request) async => http.Response('{}', 200)),
+      baseUrl: 'https://example.com',
+    );
+    final store = _FakeStoreGateway();
+    final service = IapPurchaseService(
+      store,
+      IapTransactionApiService(client),
+      (_) async => _package,
+      () async {},
+    );
+    addTearDown(() async {
+      await service.dispose();
+      await store.close();
+      client.close();
+    });
+
+    final resultFuture = service.purchase(package: _package, product: _product);
+    await Future<void>.delayed(Duration.zero);
+    store.emit([_purchase(PurchaseStatus.pending)]);
+
+    expect((await resultFuture).status, IapPurchaseResultStatus.pending);
+    expect(
+      (await service.purchase(package: _package, product: _product)).status,
+      IapPurchaseResultStatus.pending,
+    );
+    expect(store.startedProductIds, [_package.productId]);
+  });
+
+  test('a repeated tap waits for the same active store purchase', () async {
+    final client = ApiClient(
+      client: MockClient((request) async => http.Response('{}', 200)),
+      baseUrl: 'https://example.com',
+    );
+    final store = _FakeStoreGateway();
+    final service = IapPurchaseService(
+      store,
+      IapTransactionApiService(client),
+      (_) async => _package,
+      () async {},
+    );
+    addTearDown(() async {
+      await service.dispose();
+      await store.close();
+      client.close();
+    });
+
+    final first = service.purchase(package: _package, product: _product);
+    await Future<void>.delayed(Duration.zero);
+    final second = service.purchase(package: _package, product: _product);
+    await Future<void>.delayed(Duration.zero);
+
+    expect(store.startedProductIds, [_package.productId]);
+    store.emit([_purchase(PurchaseStatus.canceled)]);
+    expect((await first).status, IapPurchaseResultStatus.canceled);
+    expect((await second).status, IapPurchaseResultStatus.canceled);
+  });
+
+  test('times out the UI wait while allowing a later retry', () async {
+    final client = ApiClient(
+      client: MockClient((request) async => http.Response('{}', 200)),
+      baseUrl: 'https://example.com',
+    );
+    final store = _FakeStoreGateway();
+    final service = IapPurchaseService(
+      store,
+      IapTransactionApiService(client),
+      (_) async => _package,
+      () async {},
+      purchaseTimeout: const Duration(milliseconds: 20),
+    );
+    addTearDown(() async {
+      await service.dispose();
+      await store.close();
+      client.close();
+    });
+
+    final first = await service.purchase(package: _package, product: _product);
+    expect(first.status, IapPurchaseResultStatus.pending);
+
+    final second = service.purchase(package: _package, product: _product);
+    await Future<void>.delayed(Duration.zero);
+    expect(store.startedProductIds, [_package.productId, _package.productId]);
+    store.emit([_purchase(PurchaseStatus.canceled)]);
+    expect((await second).status, IapPurchaseResultStatus.canceled);
+  });
+
+  test(
+    'resumes the unfinished upgrade instead of starting a second purchase',
+    () async {
+      final annualPackage = _subscriptionPackage('subscription.year');
+      final annualProduct = _subscriptionProduct(annualPackage.productId);
+      var verificationCalls = 0;
+      final client = ApiClient(
+        client: MockClient((request) async {
+          verificationCalls++;
+          return http.Response(
+            jsonEncode({
+              'success': true,
+              'data': {
+                'isPremium': true,
+                'subscription': {
+                  'productId': verificationCalls == 1
+                      ? 'subscription.week'
+                      : annualPackage.productId,
+                },
+              },
+            }),
+            200,
+            headers: const {'content-type': 'application/json'},
+          );
+        }),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final store = _FakeStoreGateway();
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => annualPackage,
+        () async {},
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final resultFuture = service.purchase(
+        package: annualPackage,
+        product: annualProduct,
+        previousSubscriptionProductId: 'subscription.week',
+      );
+      await Future<void>.delayed(Duration.zero);
+      final purchase = _purchaseFor(
+        annualPackage.productId,
+        PurchaseStatus.purchased,
+      );
+      store.emit([purchase]);
+
+      final result = await resultFuture;
+      expect(result.status, IapPurchaseResultStatus.pending);
+      expect(store.completedPurchases, isEmpty);
+
+      store.unfinishedPurchaseDetails = [purchase];
+      final resumedResult = await service.purchase(
+        package: annualPackage,
+        product: annualProduct,
+        previousSubscriptionProductId: 'subscription.week',
+      );
+
+      expect(resumedResult.status, IapPurchaseResultStatus.verified);
+      expect(verificationCalls, 2);
+      expect(store.startedProductIds, [annualPackage.productId]);
+      expect(store.completedPurchases, [purchase]);
+    },
+  );
+
+  test(
+    'confirms an upgrade only when the target product is returned',
+    () async {
+      final annualPackage = _subscriptionPackage('subscription.year');
+      final annualProduct = _subscriptionProduct(annualPackage.productId);
+      final client = ApiClient(
+        client: MockClient((request) async {
+          return http.Response(
+            jsonEncode({
+              'success': true,
+              'data': {
+                'isPremium': true,
+                'subscription': {'productId': annualPackage.productId},
+              },
+            }),
+            200,
+            headers: const {'content-type': 'application/json'},
+          );
+        }),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final store = _FakeStoreGateway();
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => annualPackage,
+        () async {},
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final resultFuture = service.purchase(
+        package: annualPackage,
+        product: annualProduct,
+        previousSubscriptionProductId: 'subscription.week',
+      );
+      await Future<void>.delayed(Duration.zero);
+      store.emit([
+        _purchaseFor(annualPackage.productId, PurchaseStatus.purchased),
+      ]);
+
+      expect((await resultFuture).status, IapPurchaseResultStatus.verified);
+      expect(store.completedPurchases, hasLength(1));
+    },
+  );
+
+  test('restore purchases forwards the request to the store', () async {
+    final client = ApiClient(
+      client: MockClient((request) async => http.Response('{}', 200)),
+      baseUrl: 'https://example.com',
+    );
+    final store = _FakeStoreGateway();
+    final service = IapPurchaseService(
+      store,
+      IapTransactionApiService(client),
+      (_) async => _package,
+      () async {},
+    );
+    addTearDown(() async {
+      await service.dispose();
+      await store.close();
+      client.close();
+    });
+
+    await service.restorePurchases();
+
+    expect(store.restoreCalls, 1);
+  });
 }
 
 class _FakeStoreGateway implements IapStoreGateway {
@@ -905,11 +1297,14 @@ class _FakeStoreGateway implements IapStoreGateway {
   Object? purchaseError;
   bool purchaseErrorOnce = false;
   bool returnUnfinishedAfterFirstLookup = false;
+  int completePurchaseRemovalDelayLookups = 0;
   var unfinishedPurchaseLookups = 0;
+  final Map<String, int> _completedVisibilityLookups = {};
   List<PurchaseDetails> unfinishedPurchaseDetails = [];
   final List<String> startedProductIds = [];
   final List<String> startedConsumableProductIds = [];
   final List<PurchaseDetails> completedPurchases = [];
+  var restoreCalls = 0;
 
   @override
   Stream<List<PurchaseDetails>> get purchaseStream => _controller.stream;
@@ -945,21 +1340,42 @@ class _FakeStoreGateway implements IapStoreGateway {
     if (returnUnfinishedAfterFirstLookup && unfinishedPurchaseLookups == 1) {
       return const [];
     }
-    return unfinishedPurchaseDetails
+    final result = unfinishedPurchaseDetails
         .where((purchase) => purchase.productID == productId)
         .toList(growable: false);
+    final completedIds = _completedVisibilityLookups.keys.toList();
+    for (final purchaseId in completedIds) {
+      final remaining = _completedVisibilityLookups[purchaseId]! - 1;
+      if (remaining <= 0) {
+        _completedVisibilityLookups.remove(purchaseId);
+        unfinishedPurchaseDetails.removeWhere(
+          (purchase) => purchase.purchaseID == purchaseId,
+        );
+      } else {
+        _completedVisibilityLookups[purchaseId] = remaining;
+      }
+    }
+    return result;
   }
 
   @override
   Future<void> completePurchase(PurchaseDetails purchase) async {
     completedPurchases.add(purchase);
+    if (completePurchaseRemovalDelayLookups > 0 &&
+        purchase.purchaseID != null) {
+      _completedVisibilityLookups[purchase.purchaseID!] =
+          completePurchaseRemovalDelayLookups;
+      return;
+    }
     unfinishedPurchaseDetails.removeWhere(
       (item) => item.purchaseID == purchase.purchaseID,
     );
   }
 
   @override
-  Future<void> restorePurchases() async {}
+  Future<void> restorePurchases() async {
+    restoreCalls++;
+  }
 
   void emit(List<PurchaseDetails> purchases) => _controller.add(purchases);
 

@@ -93,9 +93,9 @@ Availability, eligibility, discount amount, and trial duration are determined by
 
 ## Restore a Previous Purchase
 
-The onboarding subscription screen contains a **Restore Purchases** option. In the current app build, this control only acknowledges the restore request; it does not yet start the App Store or Google Play restoration flow.
+The onboarding subscription screen contains a **Restore Purchases** option. Use the same store account that originally made the purchase. Leximon asks the App Store or Google Play to redeliver owned transactions, verifies them with the server, and restores the matching entitlement.
 
-Until full restoration is enabled, use the same store account that originally made the purchase and contact support if an existing entitlement is not detected. Do not buy the same product again solely to restore access.
+Do not buy the same product again solely to restore access. If the store reports that a purchase is still processing, leave the screen and return later; Leximon continues listening for the final store result.
 
 ## If a Purchase Does Not Complete
 
@@ -118,4 +118,3 @@ Use the message shown by Leximon to identify the next step:
 - Canceling a subscription normally prevents a future renewal; access generally remains available until the end of the already-paid period, subject to the store's terms.
 - One-time skill packs do not renew automatically.
 - Keep the app open and connected after confirming a payment so the transaction can be verified and the entitlement can be applied to your Leximon profile.
-

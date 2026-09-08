@@ -314,6 +314,9 @@ class _SubscriptionPlanScreenState
 
   String _purchaseMessage(IapPurchaseResult result) {
     return switch (result.status) {
+      IapPurchaseResultStatus.pending => context.l10n.text(
+        'iapPurchasePending',
+      ),
       IapPurchaseResultStatus.networkUnavailable => context.l10n.text(
         'iapNetworkUnavailable',
       ),
@@ -322,6 +325,9 @@ class _SubscriptionPlanScreenState
       ),
       IapPurchaseResultStatus.productUnavailable => context.l10n.text(
         'iapProductUnavailable',
+      ),
+      IapPurchaseResultStatus.purchaseNotAllowed => context.l10n.text(
+        'iapPurchaseNotAllowed',
       ),
       IapPurchaseResultStatus.verificationFailed => context.l10n.text(
         'iapVerificationFailed',

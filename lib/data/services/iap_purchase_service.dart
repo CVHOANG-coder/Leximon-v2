@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:in_app_purchase_storekit/in_app_purchase_storekit.dart';
 import 'package:in_app_purchase_storekit/store_kit_2_wrappers.dart';
@@ -13,6 +14,12 @@ typedef IapPackageResolver = Future<IapPackage?> Function(String productId);
 typedef IapAuthenticationEnsurer = Future<void> Function();
 typedef IapPurchaseEventLogger =
     Future<void> Function(IapPackage package, PurchaseDetails purchase);
+typedef IapPurchaseErrorLogger =
+    Future<void> Function({
+      required String productId,
+      required String phase,
+      required String code,
+    });
 
 abstract class IapStoreGateway {
   Stream<List<PurchaseDetails>> get purchaseStream;
@@ -106,10 +113,12 @@ class FlutterIapStoreGateway implements IapStoreGateway {
 
 enum IapPurchaseResultStatus {
   verified,
+  pending,
   canceled,
   networkUnavailable,
   storeUnavailable,
   productUnavailable,
+  purchaseNotAllowed,
   failed,
   verificationFailed,
   busy,
@@ -132,6 +141,9 @@ class IapPurchaseResult {
 class IapPurchaseService {
   static const _skillPackRetryDelay = Duration(milliseconds: 500);
   static const _skillPackRetryTimeout = Duration(seconds: 20);
+  static const _defaultPurchaseTimeout = Duration(seconds: 90);
+  static const _defaultStoreQueuePollDelay = Duration(milliseconds: 200);
+  static const _defaultStoreQueueClearTimeout = Duration(seconds: 3);
 
   IapPurchaseService(
     this._store,
@@ -139,7 +151,15 @@ class IapPurchaseService {
     this._packageResolver,
     this._ensureAuthenticated, {
     IapPurchaseEventLogger? purchaseEventLogger,
-  }) : _purchaseEventLogger = purchaseEventLogger {
+    IapPurchaseErrorLogger? purchaseErrorLogger,
+    Duration purchaseTimeout = _defaultPurchaseTimeout,
+    Duration storeQueuePollDelay = _defaultStoreQueuePollDelay,
+    Duration storeQueueClearTimeout = _defaultStoreQueueClearTimeout,
+  }) : _purchaseEventLogger = purchaseEventLogger,
+       _purchaseErrorLogger = purchaseErrorLogger,
+       _purchaseTimeout = purchaseTimeout,
+       _storeQueuePollDelay = storeQueuePollDelay,
+       _storeQueueClearTimeout = storeQueueClearTimeout {
     _purchaseSubscription = _store.purchaseStream.listen(
       _handlePurchaseUpdates,
       onError: _handlePurchaseStreamError,
@@ -151,9 +171,16 @@ class IapPurchaseService {
   final IapPackageResolver _packageResolver;
   final IapAuthenticationEnsurer _ensureAuthenticated;
   final IapPurchaseEventLogger? _purchaseEventLogger;
+  final IapPurchaseErrorLogger? _purchaseErrorLogger;
+  final Duration _purchaseTimeout;
+  final Duration _storeQueuePollDelay;
+  final Duration _storeQueueClearTimeout;
   final Set<String> _verificationsInFlight = {};
   final Set<String> _locallyCompletedPurchaseKeys = {};
+  final Set<String> _storePendingProductIds = {};
+  final Set<String> _nativePurchasesInFlight = {};
   final Map<String, PurchaseDetails> _pendingPurchases = {};
+  final Map<String, String> _subscriptionUpgradeSources = {};
 
   late final StreamSubscription<List<PurchaseDetails>> _purchaseSubscription;
   Completer<IapPurchaseResult>? _activePurchase;
@@ -161,19 +188,31 @@ class IapPurchaseService {
   int? _activePurchaseStartedAtMs;
   IapPackage? _activePackage;
   ProductDetails? _activeProduct;
+  Timer? _activePurchaseTimer;
   bool _skillPackRetryScheduled = false;
 
   Future<IapPurchaseResult> purchase({
     required IapPackage package,
     required ProductDetails? product,
+    String? previousSubscriptionProductId,
   }) async {
-    if (_activePurchase != null) {
-      return const IapPurchaseResult(IapPurchaseResultStatus.busy);
-    }
     if (product == null || product.id != package.productId) {
       return const IapPurchaseResult(
         IapPurchaseResultStatus.productUnavailable,
       );
+    }
+    if (_nativePurchasesInFlight.contains(package.productId)) {
+      return const IapPurchaseResult(IapPurchaseResultStatus.pending);
+    }
+    final activePurchase = _activePurchase;
+    if (activePurchase != null) {
+      if (_activeProductId == package.productId) {
+        return activePurchase.future;
+      }
+      return const IapPurchaseResult(IapPurchaseResultStatus.pending);
+    }
+    if (_storePendingProductIds.contains(package.productId)) {
+      return const IapPurchaseResult(IapPurchaseResultStatus.pending);
     }
 
     final completer = Completer<IapPurchaseResult>();
@@ -182,14 +221,15 @@ class IapPurchaseService {
     _activePurchaseStartedAtMs = DateTime.now().millisecondsSinceEpoch;
     _activePackage = package;
     _activeProduct = product;
-
-    // StoreKit 2 refuses to start another purchase while the same product has
-    // an unfinished transaction. Expired subscription renewals no longer grant
-    // access, so acknowledge them locally before recovery and let the user's
-    // Buy action create a fresh transaction without depending on the backend.
-    if (_isSubscription(package)) {
-      await _finishExpiredUnfinishedSubscriptions(package.productId);
+    final previousProductId = previousSubscriptionProductId?.trim();
+    if (_isSubscription(package) &&
+        previousProductId?.isNotEmpty == true &&
+        previousProductId != package.productId) {
+      _subscriptionUpgradeSources[package.productId] = previousProductId!;
+    } else {
+      _subscriptionUpgradeSources.remove(package.productId);
     }
+    _startActivePurchaseTimeout(package.productId);
 
     // A skill pack is an independent one-time product. Always ask the store to
     // purchase it first so buying one pack can never short-circuit a later Buy
@@ -199,10 +239,27 @@ class IapPurchaseService {
       // Finish transactions left in StoreKit by an earlier purchase before
       // asking Apple to create another transaction for the same product. An
       // expired subscription is cleanup work, not a successful new Buy action.
-      final recoveryResult = await _recoverUnfinishedBeforePurchase(package);
+      var completedRecoveredTransaction = false;
+      final recoveryResult = await _recoverUnfinishedBeforePurchase(
+        package,
+        onTransactionCompleted: () => completedRecoveredTransaction = true,
+      );
+      if (!identical(_activePurchase, completer)) return completer.future;
       if (recoveryResult != null) {
         _finishActive(recoveryResult);
         return completer.future;
+      }
+      if (completedRecoveredTransaction) {
+        final storeQueueReady = await _waitForStoreQueueToClear(
+          package.productId,
+        );
+        if (!identical(_activePurchase, completer)) return completer.future;
+        if (!storeQueueReady) {
+          _finishActive(
+            const IapPurchaseResult(IapPurchaseResultStatus.pending),
+          );
+          return completer.future;
+        }
       }
     }
 
@@ -210,6 +267,11 @@ class IapPurchaseService {
     try {
       available = await _store.isAvailable();
     } on Object catch (error) {
+      _reportPurchaseError(
+        productId: package.productId,
+        phase: 'store_availability',
+        error: error,
+      );
       _finishActive(
         _safeFailureResult(
           error,
@@ -218,6 +280,7 @@ class IapPurchaseService {
       );
       return completer.future;
     }
+    if (!identical(_activePurchase, completer)) return completer.future;
     if (!available) {
       _finishActive(
         const IapPurchaseResult(IapPurchaseResultStatus.storeUnavailable),
@@ -228,6 +291,7 @@ class IapPurchaseService {
     if (_isSkillPack(package)) {
       final finishedTransactions =
           await _finishUnfinishedSandboxSkillPackPurchases(package.productId);
+      if (!identical(_activePurchase, completer)) return completer.future;
       if (finishedTransactions > 0) {
         debugPrint(
           '[IAP][SkillPack][Sandbox] Cleanup completed: '
@@ -238,36 +302,6 @@ class IapPurchaseService {
     }
     await _startStorePurchase(package, product);
     return completer.future;
-  }
-
-  Future<int> _finishExpiredUnfinishedSubscriptions(String productId) async {
-    var finishedTransactions = 0;
-    try {
-      final purchases = await _store.unfinishedPurchases(productId);
-      final nowMs = DateTime.now().millisecondsSinceEpoch;
-      for (final purchase in purchases) {
-        final expiresAtMs = _storeKitExpirationDateMs(purchase);
-        if (expiresAtMs == null || expiresAtMs > nowMs) continue;
-
-        debugPrint(
-          '[IAP][Subscription] Finishing expired unfinished transaction: '
-          'purchaseID=${purchase.purchaseID}, '
-          'productID=${purchase.productID}, expiresAtMs=$expiresAtMs',
-        );
-        await _store.completePurchase(purchase);
-        _locallyCompletedPurchaseKeys.add(_verificationKey(purchase));
-        _removePendingPurchase(purchase);
-        finishedTransactions++;
-      }
-    } on Object catch (error, stackTrace) {
-      // If StoreKit cleanup fails, keep the transaction untouched and let the
-      // normal recovery path handle it instead of risking a duplicate buy.
-      debugPrint(
-        '[IAP][Subscription] Could not finish expired transaction: $error',
-      );
-      if (kDebugMode) debugPrintStack(stackTrace: stackTrace);
-    }
-    return finishedTransactions;
   }
 
   Future<int> _finishUnfinishedSandboxSkillPackPurchases(
@@ -317,15 +351,36 @@ class IapPurchaseService {
     ProductDetails product, {
     bool recoverDuplicate = true,
   }) async {
+    _nativePurchasesInFlight.add(package.productId);
     try {
       final started = _isConsumable(package)
           ? await _store.buyConsumable(product)
           : await _store.buyNonConsumable(product);
       if (!started) {
-        _finishActive(const IapPurchaseResult(IapPurchaseResultStatus.failed));
+        _reportPurchaseError(
+          productId: package.productId,
+          phase: 'purchase_request',
+          code: 'purchase_request_not_started',
+        );
+        _finishForProduct(
+          package.productId,
+          const IapPurchaseResult(IapPurchaseResultStatus.failed),
+        );
       }
     } on Object catch (error) {
-      if (recoverDuplicate && _isDuplicateProductError(error)) {
+      _reportPurchaseError(
+        productId: package.productId,
+        phase: 'purchase_request',
+        error: error,
+      );
+      if (_isDuplicateProductError(error)) {
+        if (!recoverDuplicate) {
+          _finishForProduct(
+            package.productId,
+            const IapPurchaseResult(IapPurchaseResultStatus.pending),
+          );
+          return;
+        }
         if (_isSkillPack(package)) {
           final finishedTransactions =
               await _finishUnfinishedSandboxSkillPackPurchases(
@@ -346,24 +401,60 @@ class IapPurchaseService {
           if (_skillPackRetryScheduled) return;
         }
 
+        // StoreKit can surface the duplicate before Transaction.unfinished is
+        // visible to Dart. Give the queue one short turn before recovery.
+        await Future<void>.delayed(_storeQueuePollDelay);
         final recoveryResult = await _recoverUnfinishedBeforePurchase(package);
         if (recoveryResult != null) {
-          _finishActive(recoveryResult);
+          _finishForProduct(package.productId, recoveryResult);
           return;
         }
 
-        // StoreKit may publish the unfinished transaction at the same moment
-        // the first buy call fails. Retry only once after it has been finished.
+        final storeQueueReady = await _waitForStoreQueueToClear(
+          package.productId,
+        );
+        if (!storeQueueReady) {
+          _finishForProduct(
+            package.productId,
+            const IapPurchaseResult(IapPurchaseResultStatus.pending),
+          );
+          return;
+        }
+
+        // Retry only after StoreKit confirms the old transaction disappeared.
         await _startStorePurchase(package, product, recoverDuplicate: false);
         return;
       }
-      _finishActive(_safeFailureResult(error));
+      _finishForProduct(package.productId, _safeFailureResult(error));
+    } finally {
+      _nativePurchasesInFlight.remove(package.productId);
+    }
+  }
+
+  Future<bool> _waitForStoreQueueToClear(String productId) async {
+    final deadline = DateTime.now().add(_storeQueueClearTimeout);
+    while (true) {
+      try {
+        final unfinished = await _store.unfinishedPurchases(productId);
+        if (unfinished.isEmpty) return true;
+      } on Object catch (error) {
+        _reportPurchaseError(
+          productId: productId,
+          phase: 'unfinished_queue_check',
+          error: error,
+        );
+        return false;
+      }
+
+      if (!DateTime.now().isBefore(deadline)) return false;
+      await Future<void>.delayed(_storeQueuePollDelay);
     }
   }
 
   Future<IapPurchaseResult?> _recoverUnfinishedBeforePurchase(
-    IapPackage package,
-  ) async {
+    IapPackage package, {
+    VoidCallback? onTransactionCompleted,
+  }) async {
     final purchasesByKey = <String, PurchaseDetails>{};
     final memoryPending = _pendingPurchases[package.productId];
     if (memoryPending != null) {
@@ -388,7 +479,7 @@ class IapPurchaseService {
     for (final purchase in purchasesByKey.values) {
       final verificationKey = _verificationKey(purchase);
       if (!_verificationsInFlight.add(verificationKey)) {
-        return const IapPurchaseResult(IapPurchaseResultStatus.busy);
+        return const IapPurchaseResult(IapPurchaseResultStatus.pending);
       }
       _pendingPurchases[purchase.productID] = purchase;
 
@@ -424,15 +515,49 @@ class IapPurchaseService {
                 'The backend did not grant the purchased skill-pack product.',
           );
         }
+        if (_isSubscription(package) && !grantsEntitlement) {
+          final expiresAtMs = _storeKitExpirationDateMs(purchase);
+          final isExpired =
+              expiresAtMs != null &&
+              expiresAtMs <= DateTime.now().millisecondsSinceEpoch;
+          if (!isExpired) {
+            return IapPurchaseResult(
+              IapPurchaseResultStatus.pending,
+              verificationResponse: response,
+            );
+          }
+        }
+
+        if (grantsEntitlement) {
+          if (_subscriptionEntitlementIsStillProcessing(package, response)) {
+            final expiresAtMs = _storeKitExpirationDateMs(purchase);
+            final isExpired =
+                expiresAtMs != null &&
+                expiresAtMs <= DateTime.now().millisecondsSinceEpoch;
+            if (!isExpired) {
+              return IapPurchaseResult(
+                IapPurchaseResultStatus.pending,
+                verificationResponse: response,
+              );
+            }
+          } else {
+            activeEntitlementResponse = response;
+          }
+        }
 
         if (purchase.pendingCompletePurchase) {
           await _store.completePurchase(purchase);
+          onTransactionCompleted?.call();
         }
         _removePendingPurchase(purchase);
-        if (grantsEntitlement) activeEntitlementResponse = response;
       } on Object catch (error) {
         // Keep an unverified transaction unfinished. Starting another StoreKit
         // transaction here would recreate the duplicate-product error.
+        _reportPurchaseError(
+          productId: package.productId,
+          phase: 'unfinished_verification',
+          error: error,
+        );
         return _safeFailureResult(
           error,
           fallbackStatus: IapPurchaseResultStatus.verificationFailed,
@@ -443,36 +568,77 @@ class IapPurchaseService {
       }
     }
 
-    return activeEntitlementResponse == null
-        ? null
-        : IapPurchaseResult(
-            IapPurchaseResultStatus.verified,
-            verificationResponse: activeEntitlementResponse,
-          );
+    if (activeEntitlementResponse == null) return null;
+    _subscriptionUpgradeSources.remove(package.productId);
+    return IapPurchaseResult(
+      IapPurchaseResultStatus.verified,
+      verificationResponse: activeEntitlementResponse,
+    );
   }
 
   Future<void> restorePurchases() => _store.restorePurchases();
 
-  Future<void> dispose() => _purchaseSubscription.cancel();
+  /// Finishes a transaction after a refreshed profile confirms that the
+  /// backend has applied the exact subscription product.
+  Future<void> completePendingPurchase(String productId) async {
+    final purchase = _pendingPurchases[productId];
+    if (purchase == null) return;
+
+    try {
+      if (purchase.pendingCompletePurchase) {
+        await _store.completePurchase(purchase);
+      }
+      _removePendingPurchase(purchase);
+      _subscriptionUpgradeSources.remove(productId);
+
+      if (purchase.status == PurchaseStatus.purchased) {
+        final package = await _packageResolver(productId);
+        if (package != null) unawaited(_logVerifiedPurchase(package, purchase));
+      }
+    } on Object catch (error, stackTrace) {
+      // StoreKit will redeliver an unfinished transaction on a later launch.
+      debugPrint('[IAP] Could not finish confirmed transaction: $error');
+      if (kDebugMode) debugPrintStack(stackTrace: stackTrace);
+    }
+  }
+
+  Future<void> dispose() async {
+    _activePurchaseTimer?.cancel();
+    await _purchaseSubscription.cancel();
+  }
 
   Future<void> _handlePurchaseUpdates(List<PurchaseDetails> purchases) async {
     for (final purchase in purchases) {
       switch (purchase.status) {
         case PurchaseStatus.pending:
-          break;
+          _storePendingProductIds.add(purchase.productID);
+          _finishForProduct(
+            purchase.productID,
+            const IapPurchaseResult(IapPurchaseResultStatus.pending),
+          );
         case PurchaseStatus.purchased:
         case PurchaseStatus.restored:
+          _storePendingProductIds.remove(purchase.productID);
           // A transaction redelivered by StoreKit/Play is an existing store
           // transaction, not a new Buy request. Verify and finish it here;
           // never route it through purchase(), which must start a new store
           // purchase when the user taps Buy.
           await _verifyAndComplete(purchase);
         case PurchaseStatus.error:
+          _storePendingProductIds.remove(purchase.productID);
+          _subscriptionUpgradeSources.remove(purchase.productID);
+          _reportPurchaseError(
+            productId: purchase.productID,
+            phase: 'purchase_update',
+            error: purchase.error,
+          );
           _finishForProduct(
             purchase.productID,
             _safeFailureResult(purchase.error),
           );
         case PurchaseStatus.canceled:
+          _storePendingProductIds.remove(purchase.productID);
+          _subscriptionUpgradeSources.remove(purchase.productID);
           _finishForProduct(
             purchase.productID,
             const IapPurchaseResult(IapPurchaseResultStatus.canceled),
@@ -483,9 +649,9 @@ class IapPurchaseService {
 
   Future<void> _verifyAndComplete(PurchaseDetails purchase) async {
     final verificationKey = _verificationKey(purchase);
-    // A StoreKit update may already be queued when an expired subscription or
-    // stale sandbox skill-pack transaction is completed locally. Ignore that
-    // delayed update so only the fresh purchase is sent to the backend.
+    // A StoreKit update may already be queued when a stale sandbox skill-pack
+    // transaction is completed locally. Ignore that delayed update so only the
+    // fresh purchase is sent to the backend.
     if (_locallyCompletedPurchaseKeys.contains(verificationKey)) return;
     if (!_verificationsInFlight.add(verificationKey)) return;
     _pendingPurchases[purchase.productID] = purchase;
@@ -535,8 +701,11 @@ class IapPurchaseService {
       final verificationResponse = await _transactionApiService.verifyPurchase(
         request,
       );
-      if (_isSkillPack(package) &&
-          _grantsEntitlement(package, verificationResponse) != true) {
+      final grantsEntitlement = _grantsEntitlement(
+        package,
+        verificationResponse,
+      );
+      if (_isSkillPack(package) && grantsEntitlement != true) {
         _finishForProduct(
           purchase.productID,
           const IapPurchaseResult(
@@ -547,6 +716,46 @@ class IapPurchaseService {
         );
         return;
       }
+      if (_isSubscription(package) &&
+          _activeProductId == purchase.productID &&
+          grantsEntitlement != true) {
+        _finishForProduct(
+          purchase.productID,
+          const IapPurchaseResult(
+            IapPurchaseResultStatus.verificationFailed,
+            message:
+                'The backend did not grant the purchased subscription product.',
+          ),
+        );
+        return;
+      }
+
+      final upgradeStillProcessing = _subscriptionEntitlementIsStillProcessing(
+        package,
+        verificationResponse,
+      );
+      if (upgradeStillProcessing) {
+        final expiresAtMs = _storeKitExpirationDateMs(purchase);
+        final isExpired =
+            expiresAtMs != null &&
+            expiresAtMs <= DateTime.now().millisecondsSinceEpoch;
+        if (!isExpired) {
+          _finishForProduct(
+            purchase.productID,
+            IapPurchaseResult(
+              IapPurchaseResultStatus.pending,
+              verificationResponse: verificationResponse,
+            ),
+          );
+          return;
+        }
+
+        if (purchase.pendingCompletePurchase) {
+          await _store.completePurchase(purchase);
+        }
+        _removePendingPurchase(purchase);
+        return;
+      }
 
       if (purchase.pendingCompletePurchase) {
         await _store.completePurchase(purchase);
@@ -555,6 +764,7 @@ class IapPurchaseService {
       if (purchase.status == PurchaseStatus.purchased) {
         unawaited(_logVerifiedPurchase(package, purchase));
       }
+      _subscriptionUpgradeSources.remove(purchase.productID);
       _finishForProduct(
         purchase.productID,
         IapPurchaseResult(
@@ -565,6 +775,11 @@ class IapPurchaseService {
     } on Object catch (error) {
       // Do not complete the store transaction when backend verification fails.
       // StoreKit/Google Play can redeliver it and the app can safely retry.
+      _reportPurchaseError(
+        productId: purchase.productID,
+        phase: 'purchase_verification',
+        error: error,
+      );
       _finishForProduct(
         purchase.productID,
         _safeFailureResult(
@@ -842,6 +1057,45 @@ class IapPurchaseService {
     return hasOwnershipState ? false : true;
   }
 
+  bool _requiresExactSubscriptionProduct(IapPackage package) {
+    final previousProductId = _subscriptionUpgradeSources[package.productId];
+    return _isSubscription(package) &&
+        previousProductId?.isNotEmpty == true &&
+        previousProductId != package.productId;
+  }
+
+  bool _subscriptionEntitlementIsStillProcessing(
+    IapPackage package,
+    IapTransactionBuyResponse response,
+  ) {
+    if (!_isSubscription(package)) return false;
+
+    final subscription = response.data['subscription'];
+    final responseIdentifiesSubscription =
+        subscription is Map && subscription.isNotEmpty;
+    final mustMatchExactProduct =
+        _requiresExactSubscriptionProduct(package) ||
+        responseIdentifiesSubscription;
+    return mustMatchExactProduct &&
+        !_responseContainsProduct(response, package.productId);
+  }
+
+  bool _responseContainsProduct(
+    IapTransactionBuyResponse response,
+    String productId,
+  ) {
+    final expected = productId.trim();
+    if (expected.isEmpty) return false;
+
+    bool visit(Object? value) {
+      if (value is Map) return value.values.any(visit);
+      if (value is Iterable) return value.any(visit);
+      return value?.toString().trim() == expected;
+    }
+
+    return visit(response.data);
+  }
+
   void _removePendingPurchase(PurchaseDetails purchase) {
     final pending = _pendingPurchases[purchase.productID];
     if (pending != null &&
@@ -850,7 +1104,7 @@ class IapPurchaseService {
     }
   }
 
-  bool _isDuplicateProductError(Object error) {
+  bool _isDuplicateProductError(Object? error) {
     final message = '$error'.toLowerCase();
     return message.contains('storekit_duplicate_product_object') ||
         message.contains('pending transaction for the same product');
@@ -861,14 +1115,131 @@ class IapPurchaseService {
     IapPurchaseResultStatus fallbackStatus = IapPurchaseResultStatus.failed,
     bool classifyNetwork = true,
   }) {
-    if (kDebugMode && error != null) {
-      debugPrint('IAP error: $error');
+    if (_isDuplicateProductError(error)) {
+      return const IapPurchaseResult(IapPurchaseResultStatus.pending);
     }
+    if (_isCancellationError(error)) {
+      return const IapPurchaseResult(IapPurchaseResultStatus.canceled);
+    }
+    if (_isProductUnavailableError(error)) {
+      return const IapPurchaseResult(
+        IapPurchaseResultStatus.productUnavailable,
+      );
+    }
+    if (_isPurchaseNotAllowedError(error)) {
+      return const IapPurchaseResult(
+        IapPurchaseResultStatus.purchaseNotAllowed,
+      );
+    }
+    debugPrint('IAP error: ${_errorCode(error)}');
     return IapPurchaseResult(
       classifyNetwork && _isNetworkError(error)
           ? IapPurchaseResultStatus.networkUnavailable
           : fallbackStatus,
     );
+  }
+
+  bool _isCancellationError(Object? error) {
+    final message = _normalizedError(error);
+    return message.contains('payment_cancelled') ||
+        message.contains('payment_canceled') ||
+        message.contains('user_cancelled') ||
+        message.contains('user_canceled');
+  }
+
+  bool _isProductUnavailableError(Object? error) {
+    final message = _normalizedError(error);
+    return message.contains('storekit2_failed_to_fetch_product') ||
+        message.contains('product_not_available') ||
+        message.contains('productnotavailable') ||
+        message.contains('item_unavailable') ||
+        message.contains('itemunavailable');
+  }
+
+  bool _isPurchaseNotAllowedError(Object? error) {
+    final message = _normalizedError(error);
+    return message.contains('payment_not_allowed') ||
+        message.contains('paymentnotallowed') ||
+        message.contains('client_invalid') ||
+        message.contains('clientinvalid') ||
+        message.contains('not allowed to make payments') ||
+        message.contains('cannot make payments') ||
+        message.contains('privacy_acknowledgement_required') ||
+        message.contains('cloud_service_permission_denied');
+  }
+
+  String _normalizedError(Object? error) => switch (error) {
+    PlatformException value =>
+      '${value.code} ${value.message ?? ''} ${value.details ?? ''}'
+          .toLowerCase(),
+    IAPError value =>
+      '${value.code} ${value.message} ${value.details ?? ''}'.toLowerCase(),
+    InAppPurchaseException value =>
+      '${value.code} ${value.message ?? ''}'.toLowerCase(),
+    _ => '${error ?? ''}'.toLowerCase(),
+  };
+
+  String _errorCode(Object? error) {
+    final typedCode = switch (error) {
+      PlatformException value => value.code,
+      IAPError value => value.code,
+      InAppPurchaseException value => value.code,
+      null => 'unknown',
+      _ => '',
+    };
+    if (typedCode.trim().isNotEmpty) return typedCode.trim();
+
+    final normalized = _normalizedError(error);
+    const knownCodes = <String>[
+      'storekit_duplicate_product_object',
+      'storekit2_failed_to_fetch_product',
+      'payment_not_allowed',
+      'payment_cancelled',
+      'payment_canceled',
+      'user_cancelled',
+      'user_canceled',
+      'product_not_available',
+      'item_unavailable',
+      'network_error',
+      'networkerror',
+    ];
+    for (final code in knownCodes) {
+      if (normalized.contains(code)) return code;
+    }
+
+    return error?.runtimeType.toString() ?? 'unknown';
+  }
+
+  void _reportPurchaseError({
+    required String productId,
+    required String phase,
+    Object? error,
+    String? code,
+  }) {
+    final logger = _purchaseErrorLogger;
+    if (logger == null) return;
+    unawaited(
+      _sendPurchaseError(
+        logger,
+        productId: productId,
+        phase: phase,
+        code: code ?? _errorCode(error),
+      ),
+    );
+  }
+
+  Future<void> _sendPurchaseError(
+    IapPurchaseErrorLogger logger, {
+    required String productId,
+    required String phase,
+    required String code,
+  }) async {
+    try {
+      await logger(productId: productId, phase: phase, code: code);
+    } on Object catch (error, stackTrace) {
+      debugPrint('Could not log IAP error: $error');
+      if (kDebugMode) debugPrintStack(stackTrace: stackTrace);
+    }
   }
 
   bool _isNetworkError(Object? error) {
@@ -898,7 +1269,20 @@ class IapPurchaseService {
 
   void _handlePurchaseStreamError(Object error, StackTrace stackTrace) {
     if (kDebugMode) debugPrintStack(stackTrace: stackTrace);
+    _reportPurchaseError(
+      productId: _activeProductId ?? 'unknown',
+      phase: 'purchase_stream',
+      error: error,
+    );
     _finishActive(_safeFailureResult(error));
+  }
+
+  void _startActivePurchaseTimeout(String productId) {
+    _activePurchaseTimer?.cancel();
+    _activePurchaseTimer = Timer(_purchaseTimeout, () {
+      if (_activeProductId != productId) return;
+      _finishActive(const IapPurchaseResult(IapPurchaseResultStatus.pending));
+    });
   }
 
   void _finishForProduct(String productId, IapPurchaseResult result) {
@@ -907,6 +1291,12 @@ class IapPurchaseService {
 
   void _finishActive(IapPurchaseResult result) {
     final completer = _activePurchase;
+    final productId = _activeProductId;
+    if (result.status != IapPurchaseResultStatus.pending && productId != null) {
+      _subscriptionUpgradeSources.remove(productId);
+    }
+    _activePurchaseTimer?.cancel();
+    _activePurchaseTimer = null;
     _activePurchase = null;
     _activeProductId = null;
     _activePurchaseStartedAtMs = null;

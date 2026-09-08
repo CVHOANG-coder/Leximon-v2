@@ -188,7 +188,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
 
     setState(() => _isRestoring = true);
     try {
-      // await ref.read(iapPurchaseServiceProvider).restorePurchases();
+      await ref.read(iapPurchaseServiceProvider).restorePurchases();
       if (!mounted) return;
       _showPurchaseMessage(context.l10n.text('subscriptionRestoreStarted'));
     } on Object {
@@ -201,6 +201,9 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
 
   String _purchaseMessage(IapPurchaseResult result) {
     return switch (result.status) {
+      IapPurchaseResultStatus.pending => context.l10n.text(
+        'iapPurchasePending',
+      ),
       IapPurchaseResultStatus.networkUnavailable => context.l10n.text(
         'iapNetworkUnavailable',
       ),
@@ -209,6 +212,9 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       ),
       IapPurchaseResultStatus.productUnavailable => context.l10n.text(
         'iapProductUnavailable',
+      ),
+      IapPurchaseResultStatus.purchaseNotAllowed => context.l10n.text(
+        'iapPurchaseNotAllowed',
       ),
       IapPurchaseResultStatus.verificationFailed => context.l10n.text(
         'iapVerificationFailed',

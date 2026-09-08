@@ -10,6 +10,29 @@ import '../../data/models/iap_packages_response.dart';
 class FirebaseAnalyticsService {
   FirebaseAnalytics? _analytics;
 
+  Future<void> logPurchaseError({
+    required String productId,
+    required String phase,
+    required String code,
+  }) async {
+    final analytics = await _loadAnalytics();
+    if (analytics == null) return;
+
+    try {
+      await analytics.logEvent(
+        name: 'iap_purchase_error',
+        parameters: {
+          'product_id': productId,
+          'phase': phase,
+          'error_code': code,
+        },
+      );
+    } on Object catch (error, stackTrace) {
+      debugPrint('Could not log Firebase IAP error event: $error');
+      debugPrintStack(stackTrace: stackTrace);
+    }
+  }
+
   Future<void> logPurchase({
     required IapPackage package,
     required PurchaseDetails purchase,

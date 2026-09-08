@@ -7,12 +7,15 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/localization/app_localizations.dart';
+import '../../../core/services/app_tracking_transparency_service.dart';
 import '../../../data/datasources/topic_asset_data_source.dart';
 import '../../../data/models/topic_language.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class LanguageOnboardingScreen extends ConsumerStatefulWidget {
-  const LanguageOnboardingScreen({super.key});
+  const LanguageOnboardingScreen({this.requestTrackingPermission, super.key});
+
+  final Future<void> Function()? requestTrackingPermission;
 
   @override
   ConsumerState<LanguageOnboardingScreen> createState() =>
@@ -34,6 +37,15 @@ class _LanguageOnboardingScreenState
     if (_isSaving) return;
     setState(() => _isSaving = true);
     try {
+      // This user-initiated retry covers the case where iPadOS ignored the
+      // automatic launch request while the app was still settling. Calls are
+      // serialized by the service, so it cannot open duplicate prompts.
+      final requestTrackingPermission = widget.requestTrackingPermission;
+      if (requestTrackingPermission == null) {
+        await AppTrackingTransparencyService.requestIfNeeded();
+      } else {
+        await requestTrackingPermission();
+      }
       await ref
           .read(appLanguageServiceProvider)
           .saveSelectedLanguage(_selectedLanguageCode);
