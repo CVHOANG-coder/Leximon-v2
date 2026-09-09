@@ -25,7 +25,9 @@ void main() {
     await tester.binding.setSurfaceSize(const Size(390, 844));
     addTearDown(() => tester.binding.setSurfaceSize(null));
 
-    final store = _SuccessfulStoreGateway();
+    final completionGate = Completer<void>();
+    final store = _SuccessfulStoreGateway()
+      ..completePurchaseGate = completionGate.future;
     final client = ApiClient(
       client: MockClient((request) async {
         return http.Response(
@@ -51,6 +53,7 @@ void main() {
       () async {},
     );
     addTearDown(() async {
+      if (!completionGate.isCompleted) completionGate.complete();
       await purchaseService.dispose();
       await store.close();
       client.close();
@@ -114,11 +117,15 @@ void main() {
       findsNothing,
     );
     expect(find.text('Nâng cấp lên gói năm'), findsWidgets);
+    expect(completionGate.isCompleted, isFalse);
+
+    completionGate.complete();
   });
 }
 
 class _SuccessfulStoreGateway implements IapStoreGateway {
   final _controller = StreamController<List<PurchaseDetails>>.broadcast();
+  Future<void>? completePurchaseGate;
 
   @override
   Stream<List<PurchaseDetails>> get purchaseStream => _controller.stream;
@@ -153,7 +160,9 @@ class _SuccessfulStoreGateway implements IapStoreGateway {
       const [];
 
   @override
-  Future<void> completePurchase(PurchaseDetails purchase) async {}
+  Future<void> completePurchase(PurchaseDetails purchase) async {
+    await completePurchaseGate;
+  }
 
   @override
   Future<void> restorePurchases() async {}

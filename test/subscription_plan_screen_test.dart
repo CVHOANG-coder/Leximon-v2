@@ -23,6 +23,9 @@ void main() {
         overrides: [
           iapCatalogProvider.overrideWith((ref) async => _catalog),
           reviewModeProvider.overrideWith((ref) async => false),
+          subscriptionTrialEligibilityProvider.overrideWith(
+            (ref) async => true,
+          ),
         ],
         child: MaterialApp(
           locale: const Locale('vi'),
@@ -65,6 +68,9 @@ void main() {
         overrides: [
           iapCatalogProvider.overrideWith((ref) async => _catalog),
           reviewModeProvider.overrideWith((ref) async => false),
+          subscriptionTrialEligibilityProvider.overrideWith(
+            (ref) async => true,
+          ),
         ],
         child: MaterialApp(
           locale: const Locale('vi'),
@@ -100,6 +106,49 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
+  testWidgets('hides trial messaging for a previous subscriber', (
+    tester,
+  ) async {
+    Widget app(Widget home) => ProviderScope(
+      overrides: [
+        iapCatalogProvider.overrideWith((ref) async => _catalog),
+        reviewModeProvider.overrideWith((ref) async => false),
+        subscriptionTrialEligibilityProvider.overrideWith((ref) async => false),
+      ],
+      child: MaterialApp(
+        locale: const Locale('vi'),
+        supportedLocales: AppLocalizations.supportedLocales,
+        localizationsDelegates: const [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+        ],
+        home: home,
+      ),
+    );
+
+    await tester.pumpWidget(app(const SubscriptionPlanScreen()));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Đăng ký ngay'), findsOneWidget);
+    expect(find.text('Dùng thử miễn phí và đăng ký'), findsNothing);
+    expect(
+      find.text('Chọn gói đăng ký sau 7 ngày dùng thử miễn phí'),
+      findsNothing,
+    );
+
+    await tester.pumpWidget(
+      app(const onboarding_subscription.SubscriptionPlanScreen()),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('Đăng ký ngay'), findsOneWidget);
+    expect(find.text('Dùng thử 7 ngày miễn phí'), findsNothing);
+    expect(find.text('Dùng thử miễn phí và đăng ký'), findsNothing);
+    expect(tester.takeException(), isNull);
+  });
+
   testWidgets('uses the singular week label for normalized prices', (
     tester,
   ) async {
@@ -108,6 +157,9 @@ void main() {
         overrides: [
           iapCatalogProvider.overrideWith((ref) async => _catalog),
           reviewModeProvider.overrideWith((ref) async => true),
+          subscriptionTrialEligibilityProvider.overrideWith(
+            (ref) async => true,
+          ),
         ],
         child: MaterialApp(
           locale: const Locale('en'),
@@ -136,6 +188,9 @@ void main() {
         overrides: [
           iapCatalogProvider.overrideWith((ref) async => _catalog),
           reviewModeProvider.overrideWith((ref) async => true),
+          subscriptionTrialEligibilityProvider.overrideWith(
+            (ref) async => true,
+          ),
         ],
         child: MaterialApp(
           locale: const Locale('en'),

@@ -32,6 +32,9 @@ class _SubscriptionPlanScreenState
     final packages = catalog?.subscriptionPackages ?? const <IapPackage>[];
     final selectedPackage = _selectedPackage(packages, catalog);
     final showWeeklyPrices = ref.watch(reviewModeProvider).valueOrNull == true;
+    final trialEligible =
+        ref.watch(subscriptionTrialEligibilityProvider).valueOrNull == true;
+    final showTrial = trialEligible && (selectedPackage?.trialDays ?? 0) > 0;
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
@@ -54,7 +57,10 @@ class _SubscriptionPlanScreenState
                 child: Column(
                   children: [
                     const _SubscriptionHero(),
-                    _TrialHeadline(trialDays: selectedPackage?.trialDays ?? 7),
+                    if (showTrial)
+                      _TrialHeadline(trialDays: selectedPackage?.trialDays ?? 7)
+                    else
+                      const _SubscriptionHeadlineSubtitle(),
                     const SizedBox(height: 20),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -65,6 +71,7 @@ class _SubscriptionPlanScreenState
                         packages,
                         selectedPackage,
                         showWeeklyPrices,
+                        showTrial,
                       ),
                     ),
                   ],
@@ -84,6 +91,7 @@ class _SubscriptionPlanScreenState
     List<IapPackage> packages,
     IapPackage? selectedPackage,
     bool showWeeklyPrices,
+    bool showTrial,
   ) {
     if (packages.isEmpty && catalogState.isLoading) {
       return const Padding(
@@ -134,24 +142,27 @@ class _SubscriptionPlanScreenState
           ],
         ),
         const SizedBox(height: 18),
-        Text(
-          context.l10n.text(
-            'saleChooseAfterTrial',
-            values: {'days': package.trialDays},
+        if (showTrial) ...[
+          Text(
+            context.l10n.text(
+              'saleChooseAfterTrial',
+              values: {'days': package.trialDays},
+            ),
+            textAlign: TextAlign.center,
+            style: const TextStyle(
+              color: Color(0xFF536686),
+              fontSize: 14,
+              height: 1.3,
+              fontWeight: FontWeight.w500,
+            ),
           ),
-          textAlign: TextAlign.center,
-          style: const TextStyle(
-            color: Color(0xFF536686),
-            fontSize: 14,
-            height: 1.3,
-            fontWeight: FontWeight.w500,
-          ),
-        ),
-        const SizedBox(height: 13),
+          const SizedBox(height: 13),
+        ],
         _SubscriptionStartButton(
           key: const ValueKey('subscription-start'),
           isLoading: _isSubmitting,
           enabled: selectedProduct != null && currentPrice != null,
+          showTrial: showTrial,
           onTap: _startSubscription,
         ),
         const SizedBox(height: 10),
@@ -404,6 +415,26 @@ class _TrialHeadline extends StatelessWidget {
           ),
         ),
       ],
+    ),
+  );
+}
+
+class _SubscriptionHeadlineSubtitle extends StatelessWidget {
+  const _SubscriptionHeadlineSubtitle();
+
+  @override
+  Widget build(BuildContext context) => Padding(
+    padding: const EdgeInsets.symmetric(horizontal: 20),
+    child: Text(
+      context.l10n.text('subscriptionHeadlineSubtitle'),
+      key: const ValueKey('subscription-headline'),
+      textAlign: TextAlign.center,
+      style: const TextStyle(
+        color: Color(0xFF526584),
+        fontSize: 18,
+        height: 1.3,
+        fontWeight: FontWeight.w600,
+      ),
     ),
   );
 }
@@ -782,11 +813,13 @@ class _SubscriptionStartButton extends StatelessWidget {
     super.key,
     required this.isLoading,
     required this.enabled,
+    required this.showTrial,
     required this.onTap,
   });
 
   final bool isLoading;
   final bool enabled;
+  final bool showTrial;
   final VoidCallback onTap;
 
   @override
@@ -843,7 +876,11 @@ class _SubscriptionStartButton extends StatelessWidget {
                   const SizedBox(width: 11),
                   Flexible(
                     child: Text(
-                      context.l10n.text('subscriptionStart'),
+                      context.l10n.text(
+                        showTrial
+                            ? 'subscriptionStart'
+                            : 'subscriptionSubscribe',
+                      ),
                       textAlign: TextAlign.center,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,

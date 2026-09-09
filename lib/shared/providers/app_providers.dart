@@ -12,6 +12,7 @@ import '../../core/services/device_info_service.dart';
 import '../../core/services/firebase_analytics_service.dart';
 import '../../core/services/firebase_messaging_service.dart';
 import '../../core/services/review_mode_service.dart';
+import '../../core/services/subscription_trial_eligibility_service.dart';
 import '../../data/datasources/sentence_asset_data_source.dart';
 import '../../data/datasources/ipa_asset_data_source.dart';
 import '../../data/datasources/listening_asset_data_source.dart';
@@ -159,6 +160,21 @@ final iapCatalogProvider = FutureProvider<IapCatalog>((ref) {
   return _loadIapCatalog(ref, platform: platform);
 });
 
+final subscriptionTrialEligibilityServiceProvider =
+    Provider<SubscriptionTrialEligibilityService>(
+      (ref) => SubscriptionTrialEligibilityService(),
+    );
+
+final subscriptionTrialEligibilityProvider = FutureProvider<bool>((ref) async {
+  final catalog = await ref.watch(iapCatalogProvider.future);
+  final productIds = catalog.subscriptionPackages
+      .where((package) => package.trialDays > 0)
+      .map((package) => package.productId);
+  return ref
+      .watch(subscriptionTrialEligibilityServiceProvider)
+      .isEligible(productIds);
+});
+
 Future<IapCatalog> _loadIapCatalog(Ref ref, {required String platform}) async {
   // The packages endpoint is authenticated. Constructing this provider also
   // installs the shared 401/403 token-refresh handler on ApiClient.
@@ -180,6 +196,12 @@ final iapPurchaseServiceProvider = Provider<IapPurchaseService>((ref) {
       return null;
     },
     ref.watch(authApiServiceProvider).ensureToken,
+    subscriptionPurchaseRecorder: () async {
+      await ref
+          .read(subscriptionTrialEligibilityServiceProvider)
+          .markSubscriptionPurchased();
+      ref.invalidate(subscriptionTrialEligibilityProvider);
+    },
     purchaseEventLogger: (package, purchase) => ref
         .read(firebaseAnalyticsServiceProvider)
         .logPurchase(package: package, purchase: purchase),

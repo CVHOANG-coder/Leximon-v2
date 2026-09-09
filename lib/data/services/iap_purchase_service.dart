@@ -12,6 +12,7 @@ import 'iap_transaction_api_service.dart';
 
 typedef IapPackageResolver = Future<IapPackage?> Function(String productId);
 typedef IapAuthenticationEnsurer = Future<void> Function();
+typedef IapSubscriptionPurchaseRecorder = Future<void> Function();
 typedef IapPurchaseEventLogger =
     Future<void> Function(IapPackage package, PurchaseDetails purchase);
 typedef IapPurchaseErrorLogger =
@@ -142,6 +143,7 @@ class IapPurchaseService {
   static const _skillPackRetryDelay = Duration(milliseconds: 500);
   static const _skillPackRetryTimeout = Duration(seconds: 20);
   static const _defaultPurchaseTimeout = Duration(seconds: 90);
+  static const _defaultVerificationUiTimeout = Duration(seconds: 12);
   static const _defaultStoreQueuePollDelay = Duration(milliseconds: 200);
   static const _defaultStoreQueueClearTimeout = Duration(seconds: 3);
 
@@ -150,14 +152,15 @@ class IapPurchaseService {
     this._transactionApiService,
     this._packageResolver,
     this._ensureAuthenticated, {
-    IapPurchaseEventLogger? purchaseEventLogger,
-    IapPurchaseErrorLogger? purchaseErrorLogger,
+    this._subscriptionPurchaseRecorder,
+    this._purchaseEventLogger,
+    this._purchaseErrorLogger,
     Duration purchaseTimeout = _defaultPurchaseTimeout,
+    Duration verificationUiTimeout = _defaultVerificationUiTimeout,
     Duration storeQueuePollDelay = _defaultStoreQueuePollDelay,
     Duration storeQueueClearTimeout = _defaultStoreQueueClearTimeout,
-  }) : _purchaseEventLogger = purchaseEventLogger,
-       _purchaseErrorLogger = purchaseErrorLogger,
-       _purchaseTimeout = purchaseTimeout,
+  }) : _purchaseTimeout = purchaseTimeout,
+       _verificationUiTimeout = verificationUiTimeout,
        _storeQueuePollDelay = storeQueuePollDelay,
        _storeQueueClearTimeout = storeQueueClearTimeout {
     _purchaseSubscription = _store.purchaseStream.listen(
@@ -170,16 +173,21 @@ class IapPurchaseService {
   final IapTransactionApiService _transactionApiService;
   final IapPackageResolver _packageResolver;
   final IapAuthenticationEnsurer _ensureAuthenticated;
+  final IapSubscriptionPurchaseRecorder? _subscriptionPurchaseRecorder;
   final IapPurchaseEventLogger? _purchaseEventLogger;
   final IapPurchaseErrorLogger? _purchaseErrorLogger;
   final Duration _purchaseTimeout;
+  final Duration _verificationUiTimeout;
   final Duration _storeQueuePollDelay;
   final Duration _storeQueueClearTimeout;
   final Set<String> _verificationsInFlight = {};
+  final Set<String> _completionsInFlight = {};
   final Set<String> _locallyCompletedPurchaseKeys = {};
   final Set<String> _storePendingProductIds = {};
   final Set<String> _nativePurchasesInFlight = {};
+  final Set<String> _supersededUpgradeSourceProductIds = {};
   final Map<String, PurchaseDetails> _pendingPurchases = {};
+  final Map<String, PurchaseDetails> _deferredUpgradeSourcePurchases = {};
   final Map<String, String> _subscriptionUpgradeSources = {};
 
   late final StreamSubscription<List<PurchaseDetails>> _purchaseSubscription;
@@ -569,6 +577,7 @@ class IapPurchaseService {
     }
 
     if (activeEntitlementResponse == null) return null;
+    unawaited(_recordSubscriptionPurchase(package));
     _subscriptionUpgradeSources.remove(package.productId);
     return IapPurchaseResult(
       IapPurchaseResultStatus.verified,
@@ -583,6 +592,12 @@ class IapPurchaseService {
   Future<void> completePendingPurchase(String productId) async {
     final purchase = _pendingPurchases[productId];
     if (purchase == null) return;
+    final verificationKey = _verificationKey(purchase);
+    if (!_completionsInFlight.add(verificationKey)) return;
+    final upgradeSourceProductId = _subscriptionUpgradeSources[productId];
+    if (upgradeSourceProductId != null) {
+      _supersededUpgradeSourceProductIds.add(upgradeSourceProductId);
+    }
 
     try {
       if (purchase.pendingCompletePurchase) {
@@ -593,12 +608,20 @@ class IapPurchaseService {
 
       if (purchase.status == PurchaseStatus.purchased) {
         final package = await _packageResolver(productId);
-        if (package != null) unawaited(_logVerifiedPurchase(package, purchase));
+        if (package != null) {
+          unawaited(_logVerifiedPurchase(package, purchase));
+          unawaited(_recordSubscriptionPurchase(package));
+        }
       }
     } on Object catch (error, stackTrace) {
       // StoreKit will redeliver an unfinished transaction on a later launch.
       debugPrint('[IAP] Could not finish confirmed transaction: $error');
       if (kDebugMode) debugPrintStack(stackTrace: stackTrace);
+    } finally {
+      _completionsInFlight.remove(verificationKey);
+    }
+    if (upgradeSourceProductId != null) {
+      await _completeSupersededUpgradeSourcePurchases(upgradeSourceProductId);
     }
   }
 
@@ -608,7 +631,38 @@ class IapPurchaseService {
   }
 
   Future<void> _handlePurchaseUpdates(List<PurchaseDetails> purchases) async {
-    for (final purchase in purchases) {
+    final activeProductId = _activeProductId;
+    final deferredUpgradeKeys = <String>{};
+    if (activeProductId != null) {
+      for (final purchase in purchases) {
+        if (purchase.status != PurchaseStatus.purchased &&
+            purchase.status != PurchaseStatus.restored) {
+          continue;
+        }
+        if (_deferUpgradeSourcePurchase(activeProductId, purchase)) {
+          deferredUpgradeKeys.add(_verificationKey(purchase));
+        }
+      }
+    }
+    final orderedPurchases = activeProductId == null
+        ? purchases
+        : [
+            ...purchases.where(
+              (purchase) => purchase.productID == activeProductId,
+            ),
+            ...purchases.where(
+              (purchase) => purchase.productID != activeProductId,
+            ),
+          ];
+
+    for (final purchase in orderedPurchases) {
+      if (deferredUpgradeKeys.contains(_verificationKey(purchase))) continue;
+      if ((purchase.status == PurchaseStatus.purchased ||
+              purchase.status == PurchaseStatus.restored) &&
+          _supersededUpgradeSourceProductIds.contains(purchase.productID)) {
+        await _completeSupersededUpgradeSourcePurchase(purchase);
+        continue;
+      }
       switch (purchase.status) {
         case PurchaseStatus.pending:
           _storePendingProductIds.add(purchase.productID);
@@ -619,6 +673,15 @@ class IapPurchaseService {
         case PurchaseStatus.purchased:
         case PurchaseStatus.restored:
           _storePendingProductIds.remove(purchase.productID);
+          if (_activeProductId == purchase.productID) {
+            // Apple has finished its purchase UI. From this point onward the
+            // user must not remain blocked by a slow backend or StoreKit
+            // finish call; verification continues after this bounded wait.
+            _startActivePurchaseTimeout(
+              purchase.productID,
+              timeout: _verificationUiTimeout,
+            );
+          }
           // A transaction redelivered by StoreKit/Play is an existing store
           // transaction, not a new Buy request. Verify and finish it here;
           // never route it through purchase(), which must start a new store
@@ -757,12 +820,11 @@ class IapPurchaseService {
         return;
       }
 
-      if (purchase.pendingCompletePurchase) {
-        await _store.completePurchase(purchase);
-      }
-      _removePendingPurchase(purchase);
-      if (purchase.status == PurchaseStatus.purchased) {
-        unawaited(_logVerifiedPurchase(package, purchase));
+      final upgradeSourceProductId =
+          _subscriptionUpgradeSources[purchase.productID];
+      unawaited(_recordSubscriptionPurchase(package));
+      if (upgradeSourceProductId != null) {
+        _supersededUpgradeSourceProductIds.add(upgradeSourceProductId);
       }
       _subscriptionUpgradeSources.remove(purchase.productID);
       _finishForProduct(
@@ -771,6 +833,11 @@ class IapPurchaseService {
           IapPurchaseResultStatus.verified,
           verificationResponse: verificationResponse,
         ),
+      );
+      await _completeVerifiedPurchase(
+        package,
+        purchase,
+        upgradeSourceProductId: upgradeSourceProductId,
       );
     } on Object catch (error) {
       // Do not complete the store transaction when backend verification fails.
@@ -805,6 +872,105 @@ class IapPurchaseService {
     } on Object catch (error, stackTrace) {
       debugPrint('Could not log verified purchase event: $error');
       debugPrintStack(stackTrace: stackTrace);
+    }
+  }
+
+  Future<void> _recordSubscriptionPurchase(IapPackage package) async {
+    final recorder = _subscriptionPurchaseRecorder;
+    if (recorder == null || !_isSubscription(package)) return;
+    try {
+      await recorder();
+    } on Object catch (error, stackTrace) {
+      debugPrint('Could not persist subscription purchase history: $error');
+      if (kDebugMode) debugPrintStack(stackTrace: stackTrace);
+    }
+  }
+
+  Future<void> _completeVerifiedPurchase(
+    IapPackage package,
+    PurchaseDetails purchase, {
+    String? upgradeSourceProductId,
+  }) async {
+    final verificationKey = _verificationKey(purchase);
+    if (!_completionsInFlight.add(verificationKey)) return;
+
+    try {
+      if (purchase.pendingCompletePurchase) {
+        await _store.completePurchase(purchase);
+      }
+      _removePendingPurchase(purchase);
+      if (purchase.status == PurchaseStatus.purchased) {
+        unawaited(_logVerifiedPurchase(package, purchase));
+      }
+    } on Object catch (error) {
+      // The entitlement is already confirmed and the UI has been released.
+      // StoreKit will redeliver an unfinished transaction on a later launch.
+      _reportPurchaseError(
+        productId: purchase.productID,
+        phase: 'purchase_completion',
+        error: error,
+      );
+    } finally {
+      _completionsInFlight.remove(verificationKey);
+    }
+    if (upgradeSourceProductId != null) {
+      await _completeSupersededUpgradeSourcePurchases(upgradeSourceProductId);
+    }
+  }
+
+  bool _deferUpgradeSourcePurchase(
+    String activeProductId,
+    PurchaseDetails purchase,
+  ) {
+    if (purchase.productID == activeProductId) {
+      return false;
+    }
+    final sourceProductId = _subscriptionUpgradeSources[activeProductId];
+    if (sourceProductId == null || purchase.productID != sourceProductId) {
+      return false;
+    }
+
+    final verificationKey = _verificationKey(purchase);
+    _deferredUpgradeSourcePurchases[verificationKey] = purchase;
+    debugPrint(
+      '[IAP][Subscription] Deferred source transaction during upgrade: '
+      'sourceProductID=${purchase.productID}, '
+      'targetProductID=$activeProductId, '
+      'purchaseID=${purchase.purchaseID}',
+    );
+    return true;
+  }
+
+  Future<void> _completeSupersededUpgradeSourcePurchases(
+    String sourceProductId,
+  ) async {
+    final deferredEntries = _deferredUpgradeSourcePurchases.entries
+        .where((entry) => entry.value.productID == sourceProductId)
+        .toList(growable: false);
+    for (final entry in deferredEntries) {
+      await _completeSupersededUpgradeSourcePurchase(entry.value);
+    }
+  }
+
+  Future<void> _completeSupersededUpgradeSourcePurchase(
+    PurchaseDetails purchase,
+  ) async {
+    final verificationKey = _verificationKey(purchase);
+    if (!_completionsInFlight.add(verificationKey)) return;
+    try {
+      if (purchase.pendingCompletePurchase) {
+        await _store.completePurchase(purchase);
+      }
+      _locallyCompletedPurchaseKeys.add(verificationKey);
+      _deferredUpgradeSourcePurchases.remove(verificationKey);
+    } on Object catch (error) {
+      _reportPurchaseError(
+        productId: purchase.productID,
+        phase: 'superseded_upgrade_source_completion',
+        error: error,
+      );
+    } finally {
+      _completionsInFlight.remove(verificationKey);
     }
   }
 
@@ -1277,9 +1443,9 @@ class IapPurchaseService {
     _finishActive(_safeFailureResult(error));
   }
 
-  void _startActivePurchaseTimeout(String productId) {
+  void _startActivePurchaseTimeout(String productId, {Duration? timeout}) {
     _activePurchaseTimer?.cancel();
-    _activePurchaseTimer = Timer(_purchaseTimeout, () {
+    _activePurchaseTimer = Timer(timeout ?? _purchaseTimeout, () {
       if (_activeProductId != productId) return;
       _finishActive(const IapPurchaseResult(IapPurchaseResultStatus.pending));
     });

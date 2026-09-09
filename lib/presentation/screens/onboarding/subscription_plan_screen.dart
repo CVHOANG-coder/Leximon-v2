@@ -236,6 +236,17 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     final catalog = catalogState.valueOrNull;
     final packages = catalog?.subscriptionPackages ?? const <IapPackage>[];
     final showWeeklyPrices = ref.watch(reviewModeProvider).valueOrNull == true;
+    final trialEligible =
+        ref.watch(subscriptionTrialEligibilityProvider).valueOrNull == true;
+    final defaultPackage =
+        _mostExpensivePackage(packages, catalog) ?? packages.firstOrNull;
+    final selectedPackage = packages.isEmpty
+        ? null
+        : packages.firstWhere(
+            (item) => item.productId == _selectedProductId,
+            orElse: () => defaultPackage!,
+          );
+    final showTrial = trialEligible && (selectedPackage?.trialDays ?? 0) > 0;
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
@@ -329,6 +340,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                                 catalog: catalog,
                                 packages: packages,
                                 showWeeklyPrices: showWeeklyPrices,
+                                showTrial: showTrial,
                               ),
                             ),
                           ),
@@ -340,6 +352,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                             position: _buttonSlide,
                             child: _SubscriptionStartButton(
                               isLoading: _isSubmitting,
+                              showTrial: showTrial,
                               onTap: _startSubscription,
                             ),
                           ),
@@ -384,6 +397,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     required IapCatalog? catalog,
     required List<IapPackage> packages,
     required bool showWeeklyPrices,
+    required bool showTrial,
   }) {
     if (packages.isEmpty && catalogState.isLoading) {
       return [
@@ -456,7 +470,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       }
     }
 
-    if (selectedPackage.trialDays > 0) {
+    if (showTrial) {
       children.add(const SizedBox(height: 13));
       children.add(
         Text(
@@ -865,10 +879,12 @@ class _SubscriptionPlanCard extends StatelessWidget {
 class _SubscriptionStartButton extends StatelessWidget {
   const _SubscriptionStartButton({
     required this.isLoading,
+    required this.showTrial,
     required this.onTap,
   });
 
   final bool isLoading;
+  final bool showTrial;
   final VoidCallback onTap;
 
   @override
@@ -914,7 +930,11 @@ class _SubscriptionStartButton extends StatelessWidget {
                       ),
                     )
                   : Text(
-                      context.l10n.text('subscriptionStart'),
+                      context.l10n.text(
+                        showTrial
+                            ? 'subscriptionStart'
+                            : 'subscriptionSubscribe',
+                      ),
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Color(0xFF155BF3),

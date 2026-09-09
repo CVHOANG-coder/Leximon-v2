@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -169,6 +171,7 @@ class _UpdateSubscriptionScreenState
     extends ConsumerState<UpdateSubscriptionScreen> {
   String? _selectedProductId;
   bool _isSubmitting = false;
+  bool _isReconcilingPendingUpgrade = false;
   UserProfile? _latestProfile;
 
   @override
@@ -430,16 +433,9 @@ class _UpdateSubscriptionScreenState
           );
       if (!mounted) return;
       if (result.status == IapPurchaseResultStatus.pending) {
-        final upgradedProfile = result.verificationResponse == null
-            ? null
-            : await _reloadSubscriptionProfile(package);
-        if (!mounted) return;
-        if (upgradedProfile != null) {
-          await _applySuccessfulUpgrade(package, upgradedProfile);
-          return;
-        }
         setState(() => _isSubmitting = false);
         _showMessage(_purchaseMessage(result));
+        unawaited(_reconcilePendingUpgrade(package));
         return;
       }
       if (!result.isSuccess) {
@@ -460,15 +456,9 @@ class _UpdateSubscriptionScreenState
         return;
       }
 
-      final upgradedProfile = await _reloadSubscriptionProfile(package);
-      if (!mounted) return;
-      if (upgradedProfile == null) {
-        setState(() => _isSubmitting = false);
-        _showMessage(context.l10n.text('iapVerificationFailed'));
-        return;
-      }
-
-      await _applySuccessfulUpgrade(package, upgradedProfile);
+      setState(() => _isSubmitting = false);
+      _showMessage(context.l10n.text('iapPurchasePending'));
+      unawaited(_reconcilePendingUpgrade(package));
     } on Object {
       if (!mounted) return;
       setState(() => _isSubmitting = false);
@@ -480,6 +470,7 @@ class _UpdateSubscriptionScreenState
     IapPackage targetPackage,
   ) async {
     for (var attempt = 0; attempt < 3; attempt++) {
+      if (!mounted) return null;
       try {
         final profile = await ref
             .refresh(remoteUserProfileProvider.future)
@@ -500,14 +491,28 @@ class _UpdateSubscriptionScreenState
     return null;
   }
 
+  Future<void> _reconcilePendingUpgrade(IapPackage package) async {
+    if (_isReconcilingPendingUpgrade) return;
+    _isReconcilingPendingUpgrade = true;
+    try {
+      final upgradedProfile = await _reloadSubscriptionProfile(package);
+      if (!mounted || upgradedProfile == null) return;
+      await _applySuccessfulUpgrade(package, upgradedProfile);
+    } finally {
+      _isReconcilingPendingUpgrade = false;
+    }
+  }
+
   Future<void> _applySuccessfulUpgrade(
     IapPackage package,
     UserProfile profile,
   ) async {
-    await ref
-        .read(iapPurchaseServiceProvider)
-        .completePendingPurchase(package.productId);
     if (!mounted) return;
+    unawaited(
+      ref
+          .read(iapPurchaseServiceProvider)
+          .completePendingPurchase(package.productId),
+    );
     setState(() {
       _isSubmitting = false;
       _selectedProductId = null;
