@@ -4,6 +4,8 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
+import 'package:in_app_purchase_android/billing_client_wrappers.dart';
+import 'package:in_app_purchase_android/in_app_purchase_android.dart';
 import 'package:in_app_purchase_storekit/in_app_purchase_storekit.dart';
 import 'package:in_app_purchase_storekit/store_kit_2_wrappers.dart';
 
@@ -21,15 +23,21 @@ typedef IapPurchaseErrorLogger =
       required String phase,
       required String code,
     });
+typedef IapEntitlementChanged = void Function();
 
 abstract class IapStoreGateway {
   Stream<List<PurchaseDetails>> get purchaseStream;
 
   Future<bool> isAvailable();
 
-  Future<bool> buyNonConsumable(ProductDetails productDetails);
+  Future<bool> buyNonConsumable(
+    ProductDetails productDetails, {
+    PurchaseDetails? oldSubscription,
+  });
 
   Future<bool> buyConsumable(ProductDetails productDetails);
+
+  Future<PurchaseDetails?> pastPurchase(String productId);
 
   Future<List<PurchaseDetails>> unfinishedPurchases(String productId);
 
@@ -58,10 +66,32 @@ class FlutterIapStoreGateway implements IapStoreGateway {
   Future<bool> isAvailable() => _inAppPurchase.isAvailable();
 
   @override
-  Future<bool> buyNonConsumable(ProductDetails productDetails) {
-    final purchaseParam = _platformProvider() == TargetPlatform.iOS
-        ? Sk2PurchaseParam(productDetails: productDetails)
-        : PurchaseParam(productDetails: productDetails);
+  Future<bool> buyNonConsumable(
+    ProductDetails productDetails, {
+    PurchaseDetails? oldSubscription,
+  }) {
+    final platform = _platformProvider();
+    final PurchaseParam purchaseParam;
+    if (platform == TargetPlatform.iOS) {
+      purchaseParam = Sk2PurchaseParam(productDetails: productDetails);
+    } else if (platform == TargetPlatform.android) {
+      if (oldSubscription != null &&
+          oldSubscription is! GooglePlayPurchaseDetails) {
+        throw StateError('The previous subscription is not from Google Play.');
+      }
+      purchaseParam = GooglePlayPurchaseParam(
+        productDetails: productDetails,
+        changeSubscriptionParam: oldSubscription == null
+            ? null
+            : ChangeSubscriptionParam(
+                oldPurchaseDetails:
+                    oldSubscription as GooglePlayPurchaseDetails,
+                replacementMode: ReplacementMode.withTimeProration,
+              ),
+      );
+    } else {
+      purchaseParam = PurchaseParam(productDetails: productDetails);
+    }
     return _inAppPurchase.buyNonConsumable(purchaseParam: purchaseParam);
   }
 
@@ -71,6 +101,22 @@ class FlutterIapStoreGateway implements IapStoreGateway {
         ? Sk2PurchaseParam(productDetails: productDetails)
         : PurchaseParam(productDetails: productDetails);
     return _inAppPurchase.buyConsumable(purchaseParam: purchaseParam);
+  }
+
+  @override
+  Future<PurchaseDetails?> pastPurchase(String productId) async {
+    if (_platformProvider() != TargetPlatform.android) return null;
+
+    final addition = _inAppPurchase
+        .getPlatformAddition<InAppPurchaseAndroidPlatformAddition>();
+    final response = await addition.queryPastPurchases();
+    if (response.error != null) {
+      throw StateError(response.error!.message);
+    }
+    for (final purchase in response.pastPurchases) {
+      if (purchase.productID == productId) return purchase;
+    }
+    return null;
   }
 
   @override
@@ -147,22 +193,48 @@ class IapPurchaseService {
   static const _defaultStoreQueuePollDelay = Duration(milliseconds: 200);
   static const _defaultStoreQueueClearTimeout = Duration(seconds: 3);
 
-  IapPurchaseService(
-    this._store,
-    this._transactionApiService,
-    this._packageResolver,
-    this._ensureAuthenticated, {
-    this._subscriptionPurchaseRecorder,
-    this._purchaseEventLogger,
-    this._purchaseErrorLogger,
+  factory IapPurchaseService(
+    IapStoreGateway store,
+    IapTransactionApiService transactionApiService,
+    IapPackageResolver packageResolver,
+    IapAuthenticationEnsurer ensureAuthenticated, {
+    IapSubscriptionPurchaseRecorder? subscriptionPurchaseRecorder,
+    IapPurchaseEventLogger? purchaseEventLogger,
+    IapPurchaseErrorLogger? purchaseErrorLogger,
+    IapEntitlementChanged? entitlementChanged,
     Duration purchaseTimeout = _defaultPurchaseTimeout,
     Duration verificationUiTimeout = _defaultVerificationUiTimeout,
     Duration storeQueuePollDelay = _defaultStoreQueuePollDelay,
     Duration storeQueueClearTimeout = _defaultStoreQueueClearTimeout,
-  }) : _purchaseTimeout = purchaseTimeout,
-       _verificationUiTimeout = verificationUiTimeout,
-       _storeQueuePollDelay = storeQueuePollDelay,
-       _storeQueueClearTimeout = storeQueueClearTimeout {
+  }) => IapPurchaseService._(
+    store,
+    transactionApiService,
+    packageResolver,
+    ensureAuthenticated,
+    subscriptionPurchaseRecorder,
+    purchaseEventLogger,
+    purchaseErrorLogger,
+    entitlementChanged,
+    purchaseTimeout,
+    verificationUiTimeout,
+    storeQueuePollDelay,
+    storeQueueClearTimeout,
+  );
+
+  IapPurchaseService._(
+    this._store,
+    this._transactionApiService,
+    this._packageResolver,
+    this._ensureAuthenticated,
+    this._subscriptionPurchaseRecorder,
+    this._purchaseEventLogger,
+    this._purchaseErrorLogger,
+    this._entitlementChanged,
+    this._purchaseTimeout,
+    this._verificationUiTimeout,
+    this._storeQueuePollDelay,
+    this._storeQueueClearTimeout,
+  ) {
     _purchaseSubscription = _store.purchaseStream.listen(
       _handlePurchaseUpdates,
       onError: _handlePurchaseStreamError,
@@ -176,6 +248,7 @@ class IapPurchaseService {
   final IapSubscriptionPurchaseRecorder? _subscriptionPurchaseRecorder;
   final IapPurchaseEventLogger? _purchaseEventLogger;
   final IapPurchaseErrorLogger? _purchaseErrorLogger;
+  final IapEntitlementChanged? _entitlementChanged;
   final Duration _purchaseTimeout;
   final Duration _verificationUiTimeout;
   final Duration _storeQueuePollDelay;
@@ -308,7 +381,11 @@ class IapPurchaseService {
         );
       }
     }
-    await _startStorePurchase(package, product);
+    await _startStorePurchase(
+      package,
+      product,
+      previousSubscriptionProductId: previousSubscriptionProductId,
+    );
     return completer.future;
   }
 
@@ -358,12 +435,31 @@ class IapPurchaseService {
     IapPackage package,
     ProductDetails product, {
     bool recoverDuplicate = true,
+    String? previousSubscriptionProductId,
   }) async {
     _nativePurchasesInFlight.add(package.productId);
     try {
+      PurchaseDetails? oldSubscription;
+      if (_isAndroidSubscriptionChange(
+        package,
+        previousSubscriptionProductId,
+      )) {
+        oldSubscription = await _store.pastPurchase(
+          previousSubscriptionProductId!,
+        );
+        if (oldSubscription == null) {
+          _finishActive(
+            const IapPurchaseResult(IapPurchaseResultStatus.failed),
+          );
+          return;
+        }
+      }
       final started = _isConsumable(package)
           ? await _store.buyConsumable(product)
-          : await _store.buyNonConsumable(product);
+          : await _store.buyNonConsumable(
+              product,
+              oldSubscription: oldSubscription,
+            );
       if (!started) {
         _reportPurchaseError(
           productId: package.productId,
@@ -430,7 +526,12 @@ class IapPurchaseService {
         }
 
         // Retry only after StoreKit confirms the old transaction disappeared.
-        await _startStorePurchase(package, product, recoverDuplicate: false);
+        await _startStorePurchase(
+          package,
+          product,
+          recoverDuplicate: false,
+          previousSubscriptionProductId: previousSubscriptionProductId,
+        );
         return;
       }
       _finishForProduct(package.productId, _safeFailureResult(error));
@@ -506,7 +607,7 @@ class IapPurchaseService {
           productId: purchase.productID,
           signedTransaction: receiptData,
         );
-        _logSkillPackValidationBill(package, purchase, request);
+        _logSkillPackValidationBill(package, purchase);
         final response = await _transactionApiService.verifyPurchase(request);
         final grantsEntitlement = _grantsEntitlement(package, response);
         if (grantsEntitlement == null) {
@@ -579,6 +680,7 @@ class IapPurchaseService {
     if (activeEntitlementResponse == null) return null;
     unawaited(_recordSubscriptionPurchase(package));
     _subscriptionUpgradeSources.remove(package.productId);
+    _notifyEntitlementChanged();
     return IapPurchaseResult(
       IapPurchaseResultStatus.verified,
       verificationResponse: activeEntitlementResponse,
@@ -760,7 +862,7 @@ class IapPurchaseService {
         productId: purchase.productID,
         signedTransaction: receiptData,
       );
-      _logSkillPackValidationBill(package, purchase, request);
+      _logSkillPackValidationBill(package, purchase);
       final verificationResponse = await _transactionApiService.verifyPurchase(
         request,
       );
@@ -771,10 +873,11 @@ class IapPurchaseService {
       if (_isSkillPack(package) && grantsEntitlement != true) {
         _finishForProduct(
           purchase.productID,
-          const IapPurchaseResult(
+          IapPurchaseResult(
             IapPurchaseResultStatus.verificationFailed,
-            message:
-                'The backend did not grant the purchased skill-pack product.',
+            message: _isSkillPack(package)
+                ? 'The backend did not grant the purchased skill-pack product.'
+                : 'The backend did not grant the purchased subscription.',
           ),
         );
         return;
@@ -782,6 +885,22 @@ class IapPurchaseService {
       if (_isSubscription(package) &&
           _activeProductId == purchase.productID &&
           grantsEntitlement != true) {
+        _finishForProduct(
+          purchase.productID,
+          const IapPurchaseResult(
+            IapPurchaseResultStatus.verificationFailed,
+            message:
+                'The backend did not grant the purchased subscription product.',
+          ),
+        );
+        return;
+      }
+
+      if (_hasMismatchedSubscriptionEntitlement(
+            package,
+            verificationResponse,
+          ) &&
+          !_requiresExactSubscriptionProduct(package)) {
         _finishForProduct(
           purchase.productID,
           const IapPurchaseResult(
@@ -827,6 +946,7 @@ class IapPurchaseService {
         _supersededUpgradeSourceProductIds.add(upgradeSourceProductId);
       }
       _subscriptionUpgradeSources.remove(purchase.productID);
+      if (grantsEntitlement == true) _notifyEntitlementChanged();
       _finishForProduct(
         purchase.productID,
         IapPurchaseResult(
@@ -882,6 +1002,15 @@ class IapPurchaseService {
       await recorder();
     } on Object catch (error, stackTrace) {
       debugPrint('Could not persist subscription purchase history: $error');
+      if (kDebugMode) debugPrintStack(stackTrace: stackTrace);
+    }
+  }
+
+  void _notifyEntitlementChanged() {
+    try {
+      _entitlementChanged?.call();
+    } on Object catch (error, stackTrace) {
+      debugPrint('Could not refresh IAP entitlement state: $error');
       if (kDebugMode) debugPrintStack(stackTrace: stackTrace);
     }
   }
@@ -977,7 +1106,6 @@ class IapPurchaseService {
   void _logSkillPackValidationBill(
     IapPackage package,
     PurchaseDetails purchase,
-    IapTransactionBuyRequest request,
   ) {
     if (!_isSkillPack(package)) return;
 
@@ -993,22 +1121,6 @@ class IapPurchaseService {
       'activePurchaseStartedAtMs=$_activePurchaseStartedAtMs, '
       'activeProductID=$_activeProductId',
     );
-    final bill = <String, Object?>{
-      'billSource': billClassification.source,
-      'isOldUnfinished': billClassification.isOldUnfinished,
-      'environment': environment,
-      'purchaseID': purchase.purchaseID,
-      'productID': purchase.productID,
-      'transactionDate': purchase.transactionDate,
-      'verificationSource': purchase.verificationData.source,
-      'localVerificationData': purchase.verificationData.localVerificationData,
-      'serverVerificationData':
-          purchase.verificationData.serverVerificationData,
-      'validateRequest': request.toJson(),
-    };
-    debugPrint(
-      '[IAP][SkillPack] StoreKit bill before validate: ${jsonEncode(bill)}',
-    );
   }
 
   bool _isConsumable(IapPackage package) =>
@@ -1016,6 +1128,16 @@ class IapPurchaseService {
 
   bool _isSubscription(IapPackage package) =>
       package.productType.trim().toUpperCase().contains('SUBSCRIPTION');
+
+  bool _isAndroidSubscriptionChange(
+    IapPackage package,
+    String? previousSubscriptionProductId,
+  ) =>
+      _isSubscription(package) &&
+      package.platform.trim().toUpperCase() == 'ANDROID' &&
+      previousSubscriptionProductId != null &&
+      previousSubscriptionProductId.isNotEmpty &&
+      previousSubscriptionProductId != package.productId;
 
   bool _isSkillPack(IapPackage package) =>
       package.group.trim().toUpperCase() == 'SKILL_PACK';
@@ -1234,32 +1356,60 @@ class IapPurchaseService {
     IapPackage package,
     IapTransactionBuyResponse response,
   ) {
-    if (!_isSubscription(package)) return false;
-
-    final subscription = response.data['subscription'];
-    final responseIdentifiesSubscription =
-        subscription is Map && subscription.isNotEmpty;
-    final mustMatchExactProduct =
-        _requiresExactSubscriptionProduct(package) ||
-        responseIdentifiesSubscription;
-    return mustMatchExactProduct &&
-        !_responseContainsProduct(response, package.productId);
+    return _requiresExactSubscriptionProduct(package) &&
+        !_subscriptionEntitlementMatches(package, response);
   }
 
-  bool _responseContainsProduct(
+  bool _hasMismatchedSubscriptionEntitlement(
+    IapPackage package,
     IapTransactionBuyResponse response,
-    String productId,
   ) {
-    final expected = productId.trim();
-    if (expected.isEmpty) return false;
+    if (!_isSubscription(package)) return false;
+    final subscription = response.data['subscription'];
+    return subscription is Map &&
+        subscription.isNotEmpty &&
+        !_subscriptionEntitlementMatches(package, response);
+  }
 
-    bool visit(Object? value) {
-      if (value is Map) return value.values.any(visit);
-      if (value is Iterable) return value.any(visit);
-      return value?.toString().trim() == expected;
+  bool _subscriptionEntitlementMatches(
+    IapPackage package,
+    IapTransactionBuyResponse response,
+  ) {
+    final subscription = response.data['subscription'];
+    return subscription is Map &&
+        _subscriptionDataMatchesPackage(subscription, package);
+  }
+
+  bool _subscriptionDataMatchesPackage(Map subscription, IapPackage package) {
+    final productId = package.productId.trim();
+    bool containsProductId(Object? value) {
+      if (value is Map) return value.values.any(containsProductId);
+      if (value is Iterable) return value.any(containsProductId);
+      return productId.isNotEmpty && value?.toString().trim() == productId;
     }
 
-    return visit(response.data);
+    if (containsProductId(subscription)) return true;
+    const durationKeys = {
+      'packDurationDay',
+      'packDurationDays',
+      'durationDay',
+      'durationDays',
+      'duration',
+    };
+    bool containsDuration(Map value) {
+      for (final entry in value.entries) {
+        if (durationKeys.contains(entry.key) &&
+            int.tryParse('${entry.value}') == package.packDurationDay) {
+          return true;
+        }
+        if (entry.value is Map && containsDuration(entry.value as Map)) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    return containsDuration(subscription);
   }
 
   void _removePendingPurchase(PurchaseDetails purchase) {

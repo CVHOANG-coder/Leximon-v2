@@ -52,12 +52,42 @@ void main() {
     );
     expect(find.text('129.000 ₫'), findsOneWidget);
     expect(find.text('Gói Pro năm'), findsOneWidget);
+    expect(find.text('Dùng thử miễn phí và đăng ký'), findsOneWidget);
     expect(
       find.byKey(const ValueKey('subscription-weekly-price')),
       findsNothing,
     );
     _expectFunctionalLegalLinks(tester);
     expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('does not advertise a trial when the store says ineligible', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          iapCatalogProvider.overrideWith((ref) async => _catalogWithoutTrial),
+          reviewModeProvider.overrideWith((ref) async => false),
+        ],
+        child: MaterialApp(
+          locale: const Locale('vi'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+          ],
+          home: const SubscriptionPlanScreen(),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.textContaining('dùng thử miễn phí'), findsNothing);
+    expect(find.text('Mở khóa Leximon Pro'), findsOneWidget);
+    expect(find.text('Đăng ký ngay'), findsOneWidget);
   });
 
   testWidgets('shows the legal footer on the onboarding subscription screen', (
@@ -97,7 +127,7 @@ void main() {
     expect(find.text('Chính sách về Quyền riêng tư'), findsOneWidget);
     expect(find.text('PHỔ BIẾN'), findsOneWidget);
     expect(find.text('129.000 ₫'), findsOneWidget);
-    expect(find.textContaining('₫'), findsNWidgets(2));
+    expect(find.textContaining('₫'), findsOneWidget);
     expect(
       find.byKey(const ValueKey('subscription-weekly-price')),
       findsNothing,
@@ -278,4 +308,10 @@ final _catalog = IapCatalog(
       currencySymbol: '₫',
     ),
   },
+  trialEligibleProductIds: {_package.productId},
+);
+
+final _catalogWithoutTrial = IapCatalog(
+  apiResponse: _catalog.apiResponse,
+  storeProducts: _catalog.storeProducts,
 );

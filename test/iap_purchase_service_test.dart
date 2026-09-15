@@ -285,6 +285,103 @@ void main() {
   });
 
   test(
+    'does not acknowledge a subscription without premium entitlement',
+    () async {
+      final client = ApiClient(
+        client: MockClient((request) async {
+          return http.Response(
+            jsonEncode({
+              'success': true,
+              'data': {'isPremium': false},
+            }),
+            200,
+            headers: const {'content-type': 'application/json'},
+          );
+        }),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final store = _FakeStoreGateway();
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => _package,
+        () async {},
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final resultFuture = service.purchase(
+        package: _package,
+        product: _product,
+      );
+      await Future<void>.delayed(Duration.zero);
+      store.emit([_purchase(PurchaseStatus.purchased)]);
+
+      expect(
+        (await resultFuture).status,
+        IapPurchaseResultStatus.verificationFailed,
+      );
+      expect(store.completedPurchases, isEmpty);
+    },
+  );
+
+  test(
+    'does not acknowledge an upgrade while the old plan is still active',
+    () async {
+      final targetPackage = _subscriptionPackage('subscription.annual');
+      final targetProduct = _subscriptionProduct(targetPackage.productId);
+      final client = ApiClient(
+        client: MockClient((request) async {
+          return http.Response(
+            jsonEncode({
+              'success': true,
+              'data': {
+                'isPremium': true,
+                'subscription': {'productId': 'subscription.monthly'},
+              },
+            }),
+            200,
+            headers: const {'content-type': 'application/json'},
+          );
+        }),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final store = _FakeStoreGateway();
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => targetPackage,
+        () async {},
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final resultFuture = service.purchase(
+        package: targetPackage,
+        product: targetProduct,
+      );
+      await Future<void>.delayed(Duration.zero);
+      store.emit([
+        _purchaseFor(targetPackage.productId, PurchaseStatus.purchased),
+      ]);
+
+      expect(
+        (await resultFuture).status,
+        IapPurchaseResultStatus.verificationFailed,
+      );
+      expect(store.completedPurchases, isEmpty);
+    },
+  );
+
+  test(
     'retries the unfinished transaction instead of starting a duplicate purchase',
     () async {
       var verificationCalls = 0;
@@ -379,6 +476,96 @@ void main() {
     expect(store.completedPurchases, isEmpty);
   });
 
+  test('returns pending without leaving the active purchase busy', () async {
+    final client = ApiClient(
+      client: MockClient((request) async {
+        return http.Response(
+          jsonEncode({
+            'success': true,
+            'data': {'isPremium': true},
+          }),
+          200,
+          headers: const {'content-type': 'application/json'},
+        );
+      }),
+      baseUrl: 'https://example.com',
+      authToken: 'token',
+    );
+    final store = _FakeStoreGateway();
+    var entitlementChanges = 0;
+    final service = IapPurchaseService(
+      store,
+      IapTransactionApiService(client),
+      (_) async => _package,
+      () async {},
+      entitlementChanged: () => entitlementChanges++,
+    );
+    addTearDown(() async {
+      await service.dispose();
+      await store.close();
+      client.close();
+    });
+
+    final resultFuture = service.purchase(package: _package, product: _product);
+    await Future<void>.delayed(Duration.zero);
+    store.emit([_purchase(PurchaseStatus.pending)]);
+
+    expect((await resultFuture).status, IapPurchaseResultStatus.pending);
+
+    store.emit([_purchase(PurchaseStatus.purchased)]);
+    await Future<void>.delayed(const Duration(milliseconds: 10));
+    expect(store.completedPurchases, hasLength(1));
+    expect(entitlementChanges, 1);
+  });
+
+  test(
+    'still completes a verified purchase when entitlement refresh fails',
+    () async {
+      final client = ApiClient(
+        client: MockClient((request) async {
+          return http.Response(
+            jsonEncode({
+              'success': true,
+              'data': {
+                'isPremium': true,
+                'subscription': {'productId': _package.productId},
+              },
+            }),
+            200,
+            headers: const {'content-type': 'application/json'},
+          );
+        }),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final store = _FakeStoreGateway();
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => _package,
+        () async {},
+        entitlementChanged: () => throw StateError('refresh failed'),
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final resultFuture = service.purchase(
+        package: _package,
+        product: _product,
+      );
+      await Future<void>.delayed(Duration.zero);
+      final purchase = _purchase(PurchaseStatus.purchased);
+      store.emit([purchase]);
+
+      expect((await resultFuture).status, IapPurchaseResultStatus.verified);
+      await Future<void>.delayed(Duration.zero);
+      expect(store.completedPurchases, [purchase]);
+    },
+  );
+
   test('uses the consumable store API for consumable packages', () async {
     final client = ApiClient(
       client: MockClient((request) async {
@@ -409,6 +596,48 @@ void main() {
     expect(store.startedConsumableProductIds, [_consumableProduct.id]);
 
     store.emit([_purchaseFor(_consumableProduct.id, PurchaseStatus.canceled)]);
+    expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
+  });
+
+  test('passes the current Google Play subscription into an upgrade', () async {
+    final oldPackage = _subscriptionPackage('subscription.monthly.android');
+    final targetPackage = _subscriptionPackage(
+      'subscription.annual.android',
+      platform: 'ANDROID',
+    );
+    final targetProduct = _subscriptionProduct(targetPackage.productId);
+    final oldPurchase = _purchaseFor(
+      oldPackage.productId,
+      PurchaseStatus.purchased,
+    );
+    final client = ApiClient(
+      client: MockClient((request) async => http.Response('{}', 200)),
+      baseUrl: 'https://example.com',
+    );
+    final store = _FakeStoreGateway()..pastPurchaseDetails = oldPurchase;
+    final service = IapPurchaseService(
+      store,
+      IapTransactionApiService(client),
+      (_) async => targetPackage,
+      () async {},
+    );
+    addTearDown(() async {
+      await service.dispose();
+      await store.close();
+      client.close();
+    });
+
+    final resultFuture = service.purchase(
+      package: targetPackage,
+      product: targetProduct,
+      previousSubscriptionProductId: oldPackage.productId,
+    );
+    await Future<void>.delayed(Duration.zero);
+
+    expect(store.receivedOldSubscription, same(oldPurchase));
+    store.emit([
+      _purchaseFor(targetPackage.productId, PurchaseStatus.canceled),
+    ]);
     expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
   });
 
@@ -738,7 +967,10 @@ void main() {
         client: MockClient((request) async {
           verificationCalls++;
           return http.Response(
-            jsonEncode({'success': true, 'data': {}}),
+            jsonEncode({
+              'success': true,
+              'data': {'isPremium': true},
+            }),
             200,
             headers: const {'content-type': 'application/json'},
           );
@@ -1045,7 +1277,13 @@ void main() {
         package: _package,
         product: _product,
       );
-      await Future<void>.delayed(const Duration(milliseconds: 10));
+      for (
+        var attempt = 0;
+        attempt < 20 && store.startedProductIds.length < 2;
+        attempt++
+      ) {
+        await Future<void>.delayed(const Duration(milliseconds: 5));
+      }
 
       expect(store.startedProductIds, [_product.id, _product.id]);
       expect(store.completedPurchases, hasLength(1));
@@ -1558,6 +1796,8 @@ class _FakeStoreGateway implements IapStoreGateway {
   final List<String> startedConsumableProductIds = [];
   final List<PurchaseDetails> completedPurchases = [];
   var restoreCalls = 0;
+  PurchaseDetails? pastPurchaseDetails;
+  PurchaseDetails? receivedOldSubscription;
 
   @override
   Stream<List<PurchaseDetails>> get purchaseStream => _controller.stream;
@@ -1566,7 +1806,11 @@ class _FakeStoreGateway implements IapStoreGateway {
   Future<bool> isAvailable() async => available;
 
   @override
-  Future<bool> buyNonConsumable(ProductDetails productDetails) async {
+  Future<bool> buyNonConsumable(
+    ProductDetails productDetails, {
+    PurchaseDetails? oldSubscription,
+  }) async {
+    receivedOldSubscription = oldSubscription;
     startedProductIds.add(productDetails.id);
     final error = purchaseError;
     if (error != null) {
@@ -1585,6 +1829,12 @@ class _FakeStoreGateway implements IapStoreGateway {
     }
     startedConsumableProductIds.add(productDetails.id);
     return startsPurchase;
+  }
+
+  @override
+  Future<PurchaseDetails?> pastPurchase(String productId) async {
+    final purchase = pastPurchaseDetails;
+    return purchase?.productID == productId ? purchase : null;
   }
 
   @override
@@ -1727,24 +1977,25 @@ const _skillPackIds = [
   _readingPackId,
 ];
 
-IapPackage _subscriptionPackage(String productId) => IapPackage(
-  id: 10,
-  productId: productId,
-  productType: 'SUBSCRIPTION',
-  name: productId,
-  description: '',
-  price: 4.99,
-  currency: 'USD',
-  platform: 'IOS',
-  packDurationDay: 30,
-  trialDays: 0,
-  isEnabled: true,
-  sortOrder: 1,
-  adjustEventToken: '',
-  createdAt: null,
-  updatedAt: null,
-  group: 'PREMIUM',
-);
+IapPackage _subscriptionPackage(String productId, {String platform = 'IOS'}) =>
+    IapPackage(
+      id: 10,
+      productId: productId,
+      productType: 'SUBSCRIPTION',
+      name: productId,
+      description: '',
+      price: 4.99,
+      currency: 'USD',
+      platform: platform,
+      packDurationDay: 30,
+      trialDays: 0,
+      isEnabled: true,
+      sortOrder: 1,
+      adjustEventToken: '',
+      createdAt: null,
+      updatedAt: null,
+      group: 'PREMIUM',
+    );
 
 final _consumableProduct = ProductDetails(
   id: 'com.example.coins.100',

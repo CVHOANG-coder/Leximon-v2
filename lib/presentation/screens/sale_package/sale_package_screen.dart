@@ -28,6 +28,7 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
     final catalog = catalogState.valueOrNull;
     final package = catalog?.salePackages.firstOrNull;
     final regularPackage = _findRegularPackage(catalog, package);
+    final trialDays = package == null ? 0 : catalog?.trialDaysFor(package) ?? 0;
     final showNormalizedPrice =
         ref.watch(reviewModeProvider).valueOrNull == true;
 
@@ -52,7 +53,7 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
                 child: Column(
                   children: [
                     const _SaleHero(),
-                    _SaleHeadline(trialDays: package?.trialDays ?? 7),
+                    _SaleHeadline(trialDays: trialDays),
                     const SizedBox(height: 20),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -99,12 +100,13 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
     final currentPrice = _displayPrice(saleProduct);
     final originalPrice = _displayPrice(regularProduct);
     final saving = _savingLabel(context, saleProduct, regularProduct);
-    final trialDays = package.trialDays;
+    final trialDays = catalog?.trialDaysFor(package) ?? 0;
 
     return Column(
       children: [
         _SalePlanCard(
           package: package,
+          trialDays: trialDays,
           currentPrice: currentPrice ?? context.l10n.text('skillPackLoading'),
           originalPrice: originalPrice,
           saving: saving,
@@ -133,26 +135,30 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
             ),
           ],
         ),
-        const SizedBox(height: 18),
-        Text(
-          context.l10n.text(
-            'saleChooseAfterTrial',
-            values: {'days': trialDays},
+        if (trialDays > 0) ...[
+          const SizedBox(height: 18),
+          Text(
+            context.l10n.text(
+              'saleChooseAfterTrial',
+              values: {'days': trialDays},
+            ),
+            textAlign: TextAlign.center,
+            style: const TextStyle(
+              color: Color(0xFF536686),
+              fontSize: 14,
+              height: 1.3,
+              fontWeight: FontWeight.w500,
+            ),
           ),
-          textAlign: TextAlign.center,
-          style: const TextStyle(
-            color: Color(0xFF536686),
-            fontSize: 14,
-            height: 1.3,
-            fontWeight: FontWeight.w500,
-          ),
-        ),
+        ],
         const SizedBox(height: 13),
         _SaleButton(
           loading: _isPurchasing,
           enabled:
               saleProduct != null && currentPrice != null && !_isPurchasing,
-          label: context.l10n.text('saleStartTrial'),
+          label: context.l10n.text(
+            trialDays > 0 ? 'saleStartTrial' : 'subscriptionSubscribe',
+          ),
           onTap: _buy,
         ),
         const SizedBox(height: 10),
@@ -361,18 +367,20 @@ class _SaleHeadline extends StatelessWidget {
     child: Column(
       children: [
         Text.rich(
-          TextSpan(
-            children: [
-              TextSpan(text: context.l10n.text('saleHeadlinePrefix')),
-              TextSpan(
-                text: context.l10n.text(
-                  'saleHeadlineDays',
-                  values: {'days': trialDays},
-                ),
-                style: const TextStyle(color: Color(0xFF1466EE)),
-              ),
-            ],
-          ),
+          trialDays > 0
+              ? TextSpan(
+                  children: [
+                    TextSpan(text: context.l10n.text('saleHeadlinePrefix')),
+                    TextSpan(
+                      text: context.l10n.text(
+                        'saleHeadlineDays',
+                        values: {'days': trialDays},
+                      ),
+                      style: const TextStyle(color: Color(0xFF1466EE)),
+                    ),
+                  ],
+                )
+              : TextSpan(text: context.l10n.text('subscriptionUnlockTitle')),
           key: const ValueKey('sale-package-headline'),
           textAlign: TextAlign.center,
           style: const TextStyle(
@@ -402,6 +410,7 @@ class _SaleHeadline extends StatelessWidget {
 class _SalePlanCard extends StatelessWidget {
   const _SalePlanCard({
     required this.package,
+    required this.trialDays,
     required this.currentPrice,
     required this.originalPrice,
     required this.saving,
@@ -409,6 +418,7 @@ class _SalePlanCard extends StatelessWidget {
   });
 
   final IapPackage package;
+  final int trialDays;
   final String currentPrice;
   final String? originalPrice;
   final String? saving;
@@ -569,7 +579,7 @@ class _SalePlanCard extends StatelessWidget {
                 ],
               ),
             ],
-            if (package.trialDays > 0) ...[
+            if (trialDays > 0) ...[
               const SizedBox(height: 12),
               Align(
                 alignment: Alignment.center,
@@ -596,7 +606,7 @@ class _SalePlanCard extends StatelessWidget {
                         child: Text(
                           context.l10n.text(
                             'saleTrialDays',
-                            values: {'days': package.trialDays},
+                            values: {'days': trialDays},
                           ),
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,

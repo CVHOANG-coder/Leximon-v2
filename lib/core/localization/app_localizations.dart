@@ -362,6 +362,7 @@ class AppLocalizations {
       'subscriptionDays': '{count} days',
       'subscriptionIn': 'In ',
       'subscriptionDaySuffix': ' days',
+      'subscriptionUnlockTitle': 'Unlock Leximon Pro',
       'subscriptionStart': 'Start free trial and subscribe',
       'subscriptionSubscribe': 'Subscribe now',
       'subscriptionTrialOnly': 'Free trial only',
@@ -382,9 +383,9 @@ class AppLocalizations {
       'iapVerificationFailed':
           'Payment succeeded but server verification failed. Please try again later.',
       'iapPurchaseFailed': 'The purchase could not be completed.',
-      'iapPurchaseBusy': 'Another purchase is currently being processed.',
       'iapPurchasePending':
-          'The App Store is still processing this purchase. You can leave this screen and return later.',
+          'Your purchase is awaiting approval. Access will update automatically after approval.',
+      'iapPurchaseBusy': 'Another purchase is currently being processed.',
       'iapPurchaseNotAllowed':
           'Purchases are not allowed for this Apple ID or device. Check App Store and Screen Time settings.',
       'saleHeadlinePrefix': 'Start a free trial ',
@@ -2831,6 +2832,7 @@ class AppLocalizations {
       'subscriptionDays': '{count} ngày',
       'subscriptionIn': 'Trong ',
       'subscriptionDaySuffix': ' ngày',
+      'subscriptionUnlockTitle': 'Mở khóa Leximon Pro',
       'subscriptionStart': 'Dùng thử miễn phí và đăng ký',
       'subscriptionSubscribe': 'Đăng ký ngay',
       'subscriptionTrialOnly': 'Chỉ dùng thử miễn phí',
@@ -2851,9 +2853,9 @@ class AppLocalizations {
       'iapVerificationFailed':
           'Thanh toán đã thành công nhưng máy chủ chưa thể xác minh. Vui lòng thử lại sau.',
       'iapPurchaseFailed': 'Không thể hoàn tất giao dịch.',
-      'iapPurchaseBusy': 'Một giao dịch khác đang được xử lý.',
       'iapPurchasePending':
-          'App Store vẫn đang xử lý giao dịch này. Bạn có thể rời màn hình và quay lại sau.',
+          'Giao dịch đang chờ phê duyệt. Quyền truy cập sẽ tự động cập nhật sau khi được duyệt.',
+      'iapPurchaseBusy': 'Một giao dịch khác đang được xử lý.',
       'iapPurchaseNotAllowed':
           'Apple ID hoặc thiết bị này không được phép mua hàng. Vui lòng kiểm tra App Store và cài đặt Thời gian sử dụng.',
       'saleHeadlinePrefix': 'Dùng thử miễn phí ',

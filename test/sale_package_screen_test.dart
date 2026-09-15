@@ -147,6 +147,7 @@ final _catalog = IapCatalog(
       currencySymbol: r'$',
     ),
   },
+  trialEligibleProductIds: {_salePackage.productId},
 );
 
 IapPackage _package({

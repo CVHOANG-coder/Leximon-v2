@@ -128,12 +128,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       _showPurchaseMessage(context.l10n.text('iapProductUnavailable'));
       return;
     }
-    final defaultPackage =
-        _mostExpensivePackage(packages, catalog) ?? packages.first;
-    final package = packages.firstWhere(
-      (item) => item.productId == _selectedProductId,
-      orElse: () => defaultPackage,
-    );
+    final package = _selectedSubscriptionPackage(packages, catalog)!;
 
     setState(() => _isSubmitting = true);
     try {
@@ -235,18 +230,15 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     final catalogState = ref.watch(iapCatalogProvider);
     final catalog = catalogState.valueOrNull;
     final packages = catalog?.subscriptionPackages ?? const <IapPackage>[];
+    final selectedPackage = _selectedSubscriptionPackage(packages, catalog);
+    final storeTrialDays = selectedPackage == null
+        ? 0
+        : catalog?.trialDaysFor(selectedPackage) ?? 0;
     final showWeeklyPrices = ref.watch(reviewModeProvider).valueOrNull == true;
     final trialEligible =
         ref.watch(subscriptionTrialEligibilityProvider).valueOrNull == true;
-    final defaultPackage =
-        _mostExpensivePackage(packages, catalog) ?? packages.firstOrNull;
-    final selectedPackage = packages.isEmpty
-        ? null
-        : packages.firstWhere(
-            (item) => item.productId == _selectedProductId,
-            orElse: () => defaultPackage!,
-          );
-    final showTrial = trialEligible && (selectedPackage?.trialDays ?? 0) > 0;
+    final showTrial = trialEligible && storeTrialDays > 0;
+    final trialDays = showTrial ? storeTrialDays : 0;
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
@@ -302,7 +294,9 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                             child: Column(
                               key: const ValueKey('subscription-headline'),
                               children: [
-                                const _TwentyEightDayHeadline(),
+                                _SubscriptionOfferHeadline(
+                                  trialDays: trialDays,
+                                ),
                                 const SizedBox(height: 8),
                                 Text(
                                   context.l10n.text(
@@ -352,7 +346,11 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                             position: _buttonSlide,
                             child: _SubscriptionStartButton(
                               isLoading: _isSubmitting,
-                              showTrial: showTrial,
+                              label: context.l10n.text(
+                                trialDays > 0
+                                    ? 'subscriptionStart'
+                                    : 'subscriptionSubscribe',
+                              ),
                               onTap: _startSubscription,
                             ),
                           ),
@@ -428,11 +426,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     }
 
     final mostExpensivePackage = _mostExpensivePackage(packages, catalog);
-    final defaultPackage = mostExpensivePackage ?? packages.first;
-    final selectedPackage = packages.firstWhere(
-      (item) => item.productId == _selectedProductId,
-      orElse: () => defaultPackage,
-    );
+    final selectedPackage = _selectedSubscriptionPackage(packages, catalog)!;
 
     final children = <Widget>[];
     for (var index = 0; index < packages.length; index++) {
@@ -447,10 +441,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
               ? _durationLabel(package.packDurationDay)
               : package.name.trim(),
           totalPrice: price,
-          originalPrice: package == mostExpensivePackage
-              ? _storePriceForAmount(context, product, 1.5) ??
-                    _apiPriceLabelForAmount(package, package.price * 1.5)
-              : null,
+          originalPrice: null,
           weeklyPrice: !showWeeklyPrices || price == null
               ? null
               : _weeklyPriceLabel(context, package, product),
@@ -470,13 +461,16 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       }
     }
 
-    if (showTrial) {
+    final trialDays = showTrial
+        ? catalog?.trialDaysFor(selectedPackage) ?? 0
+        : 0;
+    if (trialDays > 0) {
       children.add(const SizedBox(height: 13));
       children.add(
         Text(
           context.l10n.text(
             'subscriptionTrialDays',
-            values: {'days': selectedPackage.trialDays},
+            values: {'days': trialDays},
           ),
           textAlign: TextAlign.center,
           style: const TextStyle(
@@ -510,6 +504,18 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       }
     }
     return mostExpensivePackage;
+  }
+
+  IapPackage? _selectedSubscriptionPackage(
+    List<IapPackage> packages,
+    IapCatalog? catalog,
+  ) {
+    if (packages.isEmpty) return null;
+    final fallback = _mostExpensivePackage(packages, catalog) ?? packages.first;
+    return packages.firstWhere(
+      (item) => item.productId == _selectedProductId,
+      orElse: () => fallback,
+    );
   }
 
   String? _apiPriceLabel(IapPackage package) {
@@ -605,8 +611,10 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
   }
 }
 
-class _TwentyEightDayHeadline extends StatelessWidget {
-  const _TwentyEightDayHeadline();
+class _SubscriptionOfferHeadline extends StatelessWidget {
+  const _SubscriptionOfferHeadline({required this.trialDays});
+
+  final int trialDays;
 
   @override
   Widget build(BuildContext context) {
@@ -621,6 +629,14 @@ class _TwentyEightDayHeadline extends StatelessWidget {
         Shadow(color: Color(0xA000144D), blurRadius: 7, offset: Offset(0, 3)),
       ],
     );
+
+    if (trialDays <= 0) {
+      return Text(
+        context.l10n.text('subscriptionUnlockTitle'),
+        textAlign: TextAlign.center,
+        style: style,
+      );
+    }
 
     return FittedBox(
       fit: BoxFit.scaleDown,
@@ -639,7 +655,7 @@ class _TwentyEightDayHeadline extends StatelessWidget {
                 BoxShadow(color: Color(0xFF267CFF), blurRadius: 16),
               ],
             ),
-            child: const Text('28', style: style),
+            child: Text('$trialDays', style: style),
           ),
           Text(context.l10n.text('subscriptionDaySuffix'), style: style),
         ],
@@ -879,12 +895,12 @@ class _SubscriptionPlanCard extends StatelessWidget {
 class _SubscriptionStartButton extends StatelessWidget {
   const _SubscriptionStartButton({
     required this.isLoading,
-    required this.showTrial,
+    required this.label,
     required this.onTap,
   });
 
   final bool isLoading;
-  final bool showTrial;
+  final String label;
   final VoidCallback onTap;
 
   @override
@@ -930,11 +946,7 @@ class _SubscriptionStartButton extends StatelessWidget {
                       ),
                     )
                   : Text(
-                      context.l10n.text(
-                        showTrial
-                            ? 'subscriptionStart'
-                            : 'subscriptionSubscribe',
-                      ),
+                      label,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Color(0xFF155BF3),
