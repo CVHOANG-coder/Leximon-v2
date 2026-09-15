@@ -427,6 +427,7 @@ class _SkillPackPurchaseScreenState
     IapPurchaseResultStatus.verificationFailed => context.l10n.text(
       'iapVerificationFailed',
     ),
+    IapPurchaseResultStatus.pending => context.l10n.text('iapPurchasePending'),
     IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
     _ => context.l10n.text('skillPackPurchaseError'),
   };

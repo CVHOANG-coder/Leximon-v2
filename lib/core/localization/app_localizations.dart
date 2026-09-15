@@ -362,7 +362,9 @@ class AppLocalizations {
       'subscriptionDays': '{count} days',
       'subscriptionIn': 'In ',
       'subscriptionDaySuffix': ' days',
+      'subscriptionUnlockTitle': 'Unlock Leximon Pro',
       'subscriptionStart': 'Start free trial and subscribe',
+      'subscriptionSubscribe': 'Subscribe now',
       'subscriptionTrialOnly': 'Free trial only',
       'subscriptionBenefitUnlimited': 'Unlimited learning',
       'subscriptionBenefitQuality': 'High-quality lessons',
@@ -381,6 +383,8 @@ class AppLocalizations {
       'iapVerificationFailed':
           'Payment succeeded but server verification failed. Please try again later.',
       'iapPurchaseFailed': 'The purchase could not be completed.',
+      'iapPurchasePending':
+          'Your purchase is awaiting approval. Access will update automatically after approval.',
       'iapPurchaseBusy': 'Another purchase is currently being processed.',
       'saleHeadlinePrefix': 'Start a free trial ',
       'saleHeadlineDays': 'for {days} days',
@@ -2826,7 +2830,9 @@ class AppLocalizations {
       'subscriptionDays': '{count} ngày',
       'subscriptionIn': 'Trong ',
       'subscriptionDaySuffix': ' ngày',
+      'subscriptionUnlockTitle': 'Mở khóa Leximon Pro',
       'subscriptionStart': 'Dùng thử miễn phí và đăng ký',
+      'subscriptionSubscribe': 'Đăng ký ngay',
       'subscriptionTrialOnly': 'Chỉ dùng thử miễn phí',
       'subscriptionBenefitUnlimited': 'Học không giới hạn',
       'subscriptionBenefitQuality': 'Bài học chất lượng cao',
@@ -2845,6 +2851,8 @@ class AppLocalizations {
       'iapVerificationFailed':
           'Thanh toán đã thành công nhưng máy chủ chưa thể xác minh. Vui lòng thử lại sau.',
       'iapPurchaseFailed': 'Không thể hoàn tất giao dịch.',
+      'iapPurchasePending':
+          'Giao dịch đang chờ phê duyệt. Quyền truy cập sẽ tự động cập nhật sau khi được duyệt.',
       'iapPurchaseBusy': 'Một giao dịch khác đang được xử lý.',
       'saleHeadlinePrefix': 'Dùng thử miễn phí ',
       'saleHeadlineDays': '{days} ngày',

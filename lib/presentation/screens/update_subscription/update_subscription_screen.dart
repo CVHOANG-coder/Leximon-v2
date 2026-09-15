@@ -423,7 +423,11 @@ class _UpdateSubscriptionScreenState
     try {
       final result = await ref
           .read(iapPurchaseServiceProvider)
-          .purchase(package: package, product: product);
+          .purchase(
+            package: package,
+            product: product,
+            oldSubscriptionProductId: current?.productId,
+          );
       if (!mounted) return;
       if (!result.isSuccess) {
         setState(() => _isSubmitting = false);
@@ -505,6 +509,7 @@ class _UpdateSubscriptionScreenState
     IapPurchaseResultStatus.verificationFailed => context.l10n.text(
       'iapVerificationFailed',
     ),
+    IapPurchaseResultStatus.pending => context.l10n.text('iapPurchasePending'),
     IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
     _ => context.l10n.text('iapPurchaseFailed'),
   };

@@ -51,7 +51,7 @@ class IapTransactionBuyResponse {
       );
     }
 
-    final success = json['success'] != false;
+    final success = json['success'] == true;
     final message = json['message']?.toString() ?? '';
     if (!success) {
       throw StateError(

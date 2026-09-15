@@ -127,7 +127,10 @@ class _SuccessfulStoreGateway implements IapStoreGateway {
   Future<bool> isAvailable() async => true;
 
   @override
-  Future<bool> buyNonConsumable(ProductDetails productDetails) async {
+  Future<bool> buyNonConsumable(
+    ProductDetails productDetails, {
+    PurchaseDetails? oldSubscription,
+  }) async {
     scheduleMicrotask(() {
       final purchase = PurchaseDetails(
         purchaseID: '2000000123456789',
@@ -147,6 +150,9 @@ class _SuccessfulStoreGateway implements IapStoreGateway {
 
   @override
   Future<bool> buyConsumable(ProductDetails productDetails) async => false;
+
+  @override
+  Future<PurchaseDetails?> pastPurchase(String productId) async => null;
 
   @override
   Future<List<PurchaseDetails>> unfinishedPurchases(String productId) async =>

@@ -54,4 +54,32 @@ void main() {
     expect(response.lifetimeProductId, isNull);
     expect(response.ownedProductIds, {'com.example.annual.sale'});
   });
+
+  test('rejects a verification response without explicit success', () async {
+    final client = ApiClient(
+      client: MockClient((request) async {
+        return http.Response(
+          jsonEncode({
+            'data': {'isPremium': true},
+          }),
+          200,
+          headers: const {'content-type': 'application/json'},
+        );
+      }),
+      baseUrl: 'https://example.com',
+      authToken: 'access-token',
+    );
+    addTearDown(client.close);
+
+    expect(
+      () => IapTransactionApiService(client).verifyPurchase(
+        const IapTransactionBuyRequest(
+          platform: 'IOS',
+          productId: 'com.example.annual.sale',
+          signedTransaction: 'signed-storekit-transaction-jws',
+        ),
+      ),
+      throwsA(isA<StateError>()),
+    );
+  });
 }

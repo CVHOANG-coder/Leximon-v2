@@ -31,6 +31,9 @@ class _SubscriptionPlanScreenState
     final catalog = catalogState.valueOrNull;
     final packages = catalog?.subscriptionPackages ?? const <IapPackage>[];
     final selectedPackage = _selectedPackage(packages, catalog);
+    final trialDays = selectedPackage == null
+        ? 0
+        : catalog?.trialDaysFor(selectedPackage) ?? 0;
     final showWeeklyPrices = ref.watch(reviewModeProvider).valueOrNull == true;
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
@@ -54,7 +57,7 @@ class _SubscriptionPlanScreenState
                 child: Column(
                   children: [
                     const _SubscriptionHero(),
-                    _TrialHeadline(trialDays: selectedPackage?.trialDays ?? 7),
+                    _TrialHeadline(trialDays: trialDays),
                     const SizedBox(height: 20),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -102,6 +105,7 @@ class _SubscriptionPlanScreenState
     final featuredPackage = _featuredPackage(packages, catalog);
     final selectedProduct = catalog?.productFor(package);
     final currentPrice = _displayPrice(selectedProduct);
+    final trialDays = catalog?.trialDaysFor(package) ?? 0;
 
     return Column(
       children: [
@@ -133,25 +137,30 @@ class _SubscriptionPlanScreenState
             ),
           ],
         ),
-        const SizedBox(height: 18),
-        Text(
-          context.l10n.text(
-            'saleChooseAfterTrial',
-            values: {'days': package.trialDays},
+        if (trialDays > 0) ...[
+          const SizedBox(height: 18),
+          Text(
+            context.l10n.text(
+              'saleChooseAfterTrial',
+              values: {'days': trialDays},
+            ),
+            textAlign: TextAlign.center,
+            style: const TextStyle(
+              color: Color(0xFF536686),
+              fontSize: 14,
+              height: 1.3,
+              fontWeight: FontWeight.w500,
+            ),
           ),
-          textAlign: TextAlign.center,
-          style: const TextStyle(
-            color: Color(0xFF536686),
-            fontSize: 14,
-            height: 1.3,
-            fontWeight: FontWeight.w500,
-          ),
-        ),
+        ],
         const SizedBox(height: 13),
         _SubscriptionStartButton(
           key: const ValueKey('subscription-start'),
           isLoading: _isSubmitting,
           enabled: selectedProduct != null && currentPrice != null,
+          label: context.l10n.text(
+            trialDays > 0 ? 'subscriptionStart' : 'subscriptionSubscribe',
+          ),
           onTap: _startSubscription,
         ),
         const SizedBox(height: 10),
@@ -326,6 +335,9 @@ class _SubscriptionPlanScreenState
       IapPurchaseResultStatus.verificationFailed => context.l10n.text(
         'iapVerificationFailed',
       ),
+      IapPurchaseResultStatus.pending => context.l10n.text(
+        'iapPurchasePending',
+      ),
       IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
       _ => context.l10n.text('iapPurchaseFailed'),
     };
@@ -366,16 +378,18 @@ class _TrialHeadline extends StatelessWidget {
     child: Column(
       children: [
         Text.rich(
-          TextSpan(
-            children: [
-              TextSpan(text: context.l10n.text('subscriptionIn')),
-              TextSpan(
-                text: '$trialDays',
-                style: const TextStyle(color: Color(0xFF1466EE)),
-              ),
-              TextSpan(text: context.l10n.text('subscriptionDaySuffix')),
-            ],
-          ),
+          trialDays > 0
+              ? TextSpan(
+                  children: [
+                    TextSpan(text: context.l10n.text('subscriptionIn')),
+                    TextSpan(
+                      text: '$trialDays',
+                      style: const TextStyle(color: Color(0xFF1466EE)),
+                    ),
+                    TextSpan(text: context.l10n.text('subscriptionDaySuffix')),
+                  ],
+                )
+              : TextSpan(text: context.l10n.text('subscriptionUnlockTitle')),
           key: const ValueKey('subscription-headline'),
           textAlign: TextAlign.center,
           style: const TextStyle(
@@ -776,11 +790,13 @@ class _SubscriptionStartButton extends StatelessWidget {
     super.key,
     required this.isLoading,
     required this.enabled,
+    required this.label,
     required this.onTap,
   });
 
   final bool isLoading;
   final bool enabled;
+  final String label;
   final VoidCallback onTap;
 
   @override
@@ -837,7 +853,7 @@ class _SubscriptionStartButton extends StatelessWidget {
                   const SizedBox(width: 11),
                   Flexible(
                     child: Text(
-                      context.l10n.text('subscriptionStart'),
+                      label,
                       textAlign: TextAlign.center,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,

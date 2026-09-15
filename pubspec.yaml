@@ -42,6 +42,7 @@ dependencies:
     flutter_tts: ^4.2.5
     http: ^1.6.0
     in_app_purchase: ^3.3.0
+    in_app_purchase_android: ^0.5.2
     in_app_purchase_storekit: ^0.4.11+1
     intl: ^0.20.2
     device_info_plus: ^11.5.0

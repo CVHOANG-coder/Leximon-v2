@@ -183,6 +183,7 @@ final iapPurchaseServiceProvider = Provider<IapPurchaseService>((ref) {
     purchaseEventLogger: (package, purchase) => ref
         .read(firebaseAnalyticsServiceProvider)
         .logPurchase(package: package, purchase: purchase),
+    entitlementChanged: () => ref.invalidate(remoteUserProfileProvider),
   );
   ref.onDispose(service.dispose);
   return service;
