@@ -136,6 +136,48 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
+  testWidgets('restore action does not invoke the purchase service', (
+    tester,
+  ) async {
+    var purchaseServiceWasRead = false;
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          iapCatalogProvider.overrideWith((ref) async => _catalog),
+          reviewModeProvider.overrideWith((ref) async => false),
+          subscriptionTrialEligibilityProvider.overrideWith(
+            (ref) async => true,
+          ),
+          iapPurchaseServiceProvider.overrideWith((ref) {
+            purchaseServiceWasRead = true;
+            throw StateError('Restore must not reach the purchase service.');
+          }),
+        ],
+        child: MaterialApp(
+          locale: const Locale('vi'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+          ],
+          home: const onboarding_subscription.SubscriptionPlanScreen(),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    final restoreButton = find.byKey(const ValueKey('subscription-restore'));
+    await tester.ensureVisible(restoreButton);
+    await tester.tap(restoreButton);
+    await tester.pumpAndSettle();
+
+    expect(purchaseServiceWasRead, isFalse);
+    expect(tester.takeException(), isNull);
+  });
+
   testWidgets('hides trial messaging for a previous subscriber', (
     tester,
   ) async {

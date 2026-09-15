@@ -183,7 +183,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
 
     setState(() => _isRestoring = true);
     try {
-      await ref.read(iapPurchaseServiceProvider).restorePurchases();
+      // Keep the legal-footer action visible without starting a store restore.
       if (!mounted) return;
       _showPurchaseMessage(context.l10n.text('subscriptionRestoreStarted'));
     } on Object {
