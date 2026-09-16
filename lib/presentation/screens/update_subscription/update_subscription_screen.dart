@@ -339,6 +339,14 @@ class _UpdateSubscriptionScreenState
           ],
         ),
         const SizedBox(height: 18),
+        if (selected != null) ...[
+          SubscriptionBillingDisclosure(
+            package: selected,
+            product: selectedProduct,
+            trialDays: 0,
+          ),
+          const SizedBox(height: 13),
+        ],
         _UpgradeButton(
           key: const ValueKey('subscription-start'),
           package: selected,
@@ -369,6 +377,7 @@ class _UpdateSubscriptionScreenState
           ),
         ),
         const SizedBox(height: 10),
+        const PurchaseRestoreButton(),
         const PurchaseLegalLinks(),
       ],
     );

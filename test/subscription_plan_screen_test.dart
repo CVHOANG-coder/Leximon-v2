@@ -6,6 +6,7 @@ import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:leximon/core/localization/app_localizations.dart';
 import 'package:leximon/data/models/iap_packages_response.dart';
 import 'package:leximon/data/services/iap_catalog_service.dart';
+import 'package:leximon/data/services/iap_purchase_service.dart';
 import 'package:leximon/presentation/screens/onboarding/subscription_plan_screen.dart'
     as onboarding_subscription;
 import 'package:leximon/presentation/screens/subscription_plan/subscription_plan_screen.dart';
@@ -15,6 +16,7 @@ void main() {
   testWidgets('renders the subscription offer with the StoreKit price', (
     tester,
   ) async {
+    final purchaseService = _RecordingPurchaseService();
     await tester.binding.setSurfaceSize(const Size(390, 844));
     addTearDown(() => tester.binding.setSurfaceSize(null));
 
@@ -26,6 +28,7 @@ void main() {
           subscriptionTrialEligibilityProvider.overrideWith(
             (ref) async => true,
           ),
+          iapPurchaseServiceProvider.overrideWithValue(purchaseService),
         ],
         child: MaterialApp(
           locale: const Locale('vi'),
@@ -54,10 +57,22 @@ void main() {
     expect(find.text('Gói Pro năm'), findsOneWidget);
     expect(find.text('Dùng thử miễn phí và đăng ký'), findsOneWidget);
     expect(
+      find.text(
+        'Dùng thử miễn phí 7 ngày, sau đó tự động thanh toán 129.000 ₫ '
+        'cho mỗi 1 năm. Gói đăng ký tự động gia hạn cho đến khi bạn hủy.',
+      ),
+      findsOneWidget,
+    );
+    expect(
       find.byKey(const ValueKey('subscription-weekly-price')),
       findsNothing,
     );
     _expectFunctionalLegalLinks(tester);
+    final restoreButton = find.byKey(const ValueKey('subscription-restore'));
+    await tester.ensureVisible(restoreButton);
+    await tester.tap(restoreButton);
+    await tester.pumpAndSettle();
+    expect(purchaseService.restoreCallCount, 1);
     expect(tester.takeException(), isNull);
   });
 
@@ -88,6 +103,13 @@ void main() {
     expect(find.textContaining('dùng thử miễn phí'), findsNothing);
     expect(find.text('Mở khóa Leximon Pro'), findsOneWidget);
     expect(find.text('Đăng ký ngay'), findsOneWidget);
+    expect(
+      find.text(
+        '129.000 ₫ cho mỗi 1 năm. Gói đăng ký tự động gia hạn cho đến '
+        'khi bạn hủy.',
+      ),
+      findsOneWidget,
+    );
   });
 
   testWidgets('shows the legal footer on the onboarding subscription screen', (
@@ -127,7 +149,14 @@ void main() {
     expect(find.text('Chính sách về Quyền riêng tư'), findsOneWidget);
     expect(find.text('PHỔ BIẾN'), findsOneWidget);
     expect(find.text('129.000 ₫'), findsOneWidget);
-    expect(find.textContaining('₫'), findsOneWidget);
+    expect(
+      find.text(
+        'Dùng thử miễn phí 7 ngày, sau đó tự động thanh toán 129.000 ₫ '
+        'cho mỗi 1 năm. Gói đăng ký tự động gia hạn cho đến khi bạn hủy.',
+      ),
+      findsOneWidget,
+    );
+    expect(find.textContaining('₫'), findsWidgets);
     expect(
       find.byKey(const ValueKey('subscription-weekly-price')),
       findsNothing,
@@ -136,10 +165,10 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  testWidgets('restore action does not invoke the purchase service', (
+  testWidgets('restore action invokes the native purchase restore flow', (
     tester,
   ) async {
-    var purchaseServiceWasRead = false;
+    final purchaseService = _RecordingPurchaseService();
 
     await tester.pumpWidget(
       ProviderScope(
@@ -149,10 +178,7 @@ void main() {
           subscriptionTrialEligibilityProvider.overrideWith(
             (ref) async => true,
           ),
-          iapPurchaseServiceProvider.overrideWith((ref) {
-            purchaseServiceWasRead = true;
-            throw StateError('Restore must not reach the purchase service.');
-          }),
+          iapPurchaseServiceProvider.overrideWithValue(purchaseService),
         ],
         child: MaterialApp(
           locale: const Locale('vi'),
@@ -174,7 +200,8 @@ void main() {
     await tester.tap(restoreButton);
     await tester.pumpAndSettle();
 
-    expect(purchaseServiceWasRead, isFalse);
+    expect(purchaseService.restoreCallCount, 1);
+    expect(find.text('Đã gửi yêu cầu khôi phục mua hàng.'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 
@@ -250,6 +277,10 @@ void main() {
 
     expect(find.textContaining('/ week'), findsOneWidget);
     expect(
+      find.textContaining('Payment starts automatically after the trial'),
+      findsOneWidget,
+    );
+    expect(
       find.byKey(const ValueKey('subscription-weekly-price')),
       findsOneWidget,
     );
@@ -286,6 +317,30 @@ void main() {
     );
     expect(find.textContaining('weeks'), findsNothing);
   });
+}
+
+class _RecordingPurchaseService implements IapPurchaseService {
+  int restoreCallCount = 0;
+
+  @override
+  Future<void> restorePurchases() async {
+    restoreCallCount++;
+  }
+
+  @override
+  Future<IapPurchaseResult> purchase({
+    required IapPackage package,
+    required ProductDetails? product,
+    String? previousSubscriptionProductId,
+  }) {
+    throw UnsupportedError('Purchase is not used by this test.');
+  }
+
+  @override
+  Future<void> completePendingPurchase(String productId) async {}
+
+  @override
+  Future<void> dispose() async {}
 }
 
 void _expectFunctionalLegalLinks(WidgetTester tester) {

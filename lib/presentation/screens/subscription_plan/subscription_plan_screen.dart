@@ -143,22 +143,12 @@ class _SubscriptionPlanScreenState
             ),
           ],
         ),
-        if (trialDays > 0) ...[
-          const SizedBox(height: 18),
-          Text(
-            context.l10n.text(
-              'saleChooseAfterTrial',
-              values: {'days': trialDays},
-            ),
-            textAlign: TextAlign.center,
-            style: const TextStyle(
-              color: Color(0xFF536686),
-              fontSize: 14,
-              height: 1.3,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-        ],
+        const SizedBox(height: 18),
+        SubscriptionBillingDisclosure(
+          package: package,
+          product: selectedProduct,
+          trialDays: trialDays,
+        ),
         const SizedBox(height: 13),
         _SubscriptionStartButton(
           key: const ValueKey('subscription-start'),
@@ -170,6 +160,7 @@ class _SubscriptionPlanScreenState
           onTap: _startSubscription,
         ),
         const SizedBox(height: 10),
+        const PurchaseRestoreButton(),
         const PurchaseLegalLinks(),
         // Temporarily hide the standalone "Free trial only" action.
         /*

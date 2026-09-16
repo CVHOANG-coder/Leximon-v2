@@ -48,6 +48,14 @@ void main() {
       findsNothing,
     );
     expect(find.text('7 ngày dùng thử miễn phí'), findsOneWidget);
+    expect(
+      find.text(
+        r'Dùng thử miễn phí 7 ngày, sau đó tự động thanh toán $29.99 '
+        'cho mỗi 1 năm. Gói đăng ký tự động gia hạn cho đến khi bạn hủy.',
+      ),
+      findsOneWidget,
+    );
+    expect(find.byKey(const ValueKey('subscription-restore')), findsOneWidget);
     expect(find.byKey(const ValueKey('subscription-terms')), findsOneWidget);
     expect(find.byKey(const ValueKey('subscription-privacy')), findsOneWidget);
     expect(find.byKey(const ValueKey('sale-package-back')), findsNothing);

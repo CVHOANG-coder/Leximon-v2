@@ -95,6 +95,7 @@ void main() {
     );
     expect(find.byKey(const ValueKey('subscription-terms')), findsOneWidget);
     expect(find.byKey(const ValueKey('subscription-privacy')), findsOneWidget);
+    expect(find.byKey(const ValueKey('subscription-restore')), findsOneWidget);
     expect(
       find.byKey(const ValueKey('subscription-weekly-price')),
       findsNothing,
@@ -117,6 +118,13 @@ void main() {
       findsNothing,
     );
     expect(find.text('Nâng cấp lên gói năm'), findsWidgets);
+    expect(
+      find.text(
+        r'$4.99 cho mỗi 1 năm. Gói đăng ký tự động gia hạn cho đến khi '
+        'bạn hủy.',
+      ),
+      findsOneWidget,
+    );
     expect(completionGate.isCompleted, isFalse);
 
     completionGate.complete();

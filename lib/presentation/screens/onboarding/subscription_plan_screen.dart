@@ -183,7 +183,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
 
     setState(() => _isRestoring = true);
     try {
-      // Keep the legal-footer action visible without starting a store restore.
+      await ref.read(iapPurchaseServiceProvider).restorePurchases();
       if (!mounted) return;
       _showPurchaseMessage(context.l10n.text('subscriptionRestoreStarted'));
     } on Object {
@@ -464,24 +464,17 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     final trialDays = showTrial
         ? catalog?.trialDaysFor(selectedPackage) ?? 0
         : 0;
-    if (trialDays > 0) {
-      children.add(const SizedBox(height: 13));
-      children.add(
-        Text(
-          context.l10n.text(
-            'subscriptionTrialDays',
-            values: {'days': trialDays},
-          ),
-          textAlign: TextAlign.center,
-          style: const TextStyle(
-            color: Color(0xFFAAC7FF),
-            fontSize: 15,
-            height: 1.25,
-            fontWeight: FontWeight.w400,
-          ),
-        ),
-      );
-    }
+    children.add(const SizedBox(height: 13));
+    children.add(
+      SubscriptionBillingDisclosure(
+        package: selectedPackage,
+        product: catalog?.productFor(selectedPackage),
+        trialDays: trialDays,
+        textColor: const Color(0xFFD9E9FF),
+        backgroundColor: const Color(0x66061A58),
+        borderColor: const Color(0x665B9CFF),
+      ),
+    );
 
     return children;
   }

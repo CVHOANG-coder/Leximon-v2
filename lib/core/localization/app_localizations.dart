@@ -366,6 +366,10 @@ class AppLocalizations {
       'subscriptionStart': 'Start free trial and subscribe',
       'subscriptionSubscribe': 'Subscribe now',
       'subscriptionTrialOnly': 'Free trial only',
+      'subscriptionTrialBillingDisclosure':
+          '{days}-day free trial, then {price} for {period}. Payment starts automatically after the trial and the subscription renews until canceled.',
+      'subscriptionBillingDisclosure':
+          '{price} for {period}. The subscription renews automatically until canceled.',
       'subscriptionBenefitUnlimited': 'Unlimited learning',
       'subscriptionBenefitQuality': 'High-quality lessons',
       'subscriptionBenefitProgress': 'Clear progress every day',
@@ -2836,6 +2840,10 @@ class AppLocalizations {
       'subscriptionStart': 'Dùng thử miễn phí và đăng ký',
       'subscriptionSubscribe': 'Đăng ký ngay',
       'subscriptionTrialOnly': 'Chỉ dùng thử miễn phí',
+      'subscriptionTrialBillingDisclosure':
+          'Dùng thử miễn phí {days} ngày, sau đó tự động thanh toán {price} cho mỗi {period}. Gói đăng ký tự động gia hạn cho đến khi bạn hủy.',
+      'subscriptionBillingDisclosure':
+          '{price} cho mỗi {period}. Gói đăng ký tự động gia hạn cho đến khi bạn hủy.',
       'subscriptionBenefitUnlimited': 'Học không giới hạn',
       'subscriptionBenefitQuality': 'Bài học chất lượng cao',
       'subscriptionBenefitProgress': 'Tiến bộ rõ ràng mỗi ngày',

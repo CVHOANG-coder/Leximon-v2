@@ -135,22 +135,12 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
             ),
           ],
         ),
-        if (trialDays > 0) ...[
-          const SizedBox(height: 18),
-          Text(
-            context.l10n.text(
-              'saleChooseAfterTrial',
-              values: {'days': trialDays},
-            ),
-            textAlign: TextAlign.center,
-            style: const TextStyle(
-              color: Color(0xFF536686),
-              fontSize: 14,
-              height: 1.3,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-        ],
+        const SizedBox(height: 18),
+        SubscriptionBillingDisclosure(
+          package: package,
+          product: saleProduct,
+          trialDays: trialDays,
+        ),
         const SizedBox(height: 13),
         _SaleButton(
           loading: _isPurchasing,
@@ -162,6 +152,7 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
           onTap: _buy,
         ),
         const SizedBox(height: 10),
+        const PurchaseRestoreButton(),
         const PurchaseLegalLinks(),
         // Temporarily hide the "Later" action.
         /*
