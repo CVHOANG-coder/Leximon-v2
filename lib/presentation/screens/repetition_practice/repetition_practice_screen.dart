@@ -561,7 +561,7 @@ class _RepetitionTopBar extends StatelessWidget {
                   const Text(
                     'SELECTED REVIEW',
                     style: TextStyle(
-                      color: Color(0xFF2A79D8),
+                      color: Color(0xFF7E63E1),
                       fontSize: 10,
                       fontWeight: FontWeight.w800,
                       letterSpacing: 1.8,
@@ -717,7 +717,7 @@ class _StatCard extends StatelessWidget {
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: const TextStyle(
-              color: Color(0xFF5680B7),
+              color: Color(0xFF7964A9),
               fontSize: 13,
               fontWeight: FontWeight.w500,
             ),
@@ -782,7 +782,7 @@ class _TimerStatCard extends StatelessWidget {
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
-                  color: Color(0xFF5680B7),
+                  color: Color(0xFF7964A9),
                   fontSize: 13,
                   fontWeight: FontWeight.w500,
                 ),
@@ -850,7 +850,7 @@ class _IntroContent extends StatelessWidget {
                   values: {'count': '$totalWords'},
                 ),
               ),
-              const Divider(height: 1, color: Color(0xFFDCE7F3)),
+              const Divider(height: 1, color: Color(0xFFE4E1EE)),
               _InfoRow(
                 label: context.l10n.text('repetitionPerRound'),
                 value: context.l10n.text(
@@ -858,7 +858,7 @@ class _IntroContent extends StatelessWidget {
                   values: {'count': '$chunkSize'},
                 ),
               ),
-              const Divider(height: 1, color: Color(0xFFDCE7F3)),
+              const Divider(height: 1, color: Color(0xFFE4E1EE)),
               _InfoRow(
                 label: context.l10n.text('repetitionRoundCount'),
                 value: context.l10n.text(
@@ -890,12 +890,12 @@ class _RepetitionStartButton extends StatelessWidget {
       height: 58,
       decoration: BoxDecoration(
         gradient: const LinearGradient(
-          colors: [Color(0xFF65C7FF), Color(0xFF1768EF)],
+          colors: [Color(0xFFFF7C9B), Color(0xFF7A59EF)],
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
         ),
         borderRadius: BorderRadius.circular(25),
-        border: Border.all(color: const Color(0xFF72C9FF), width: 2),
+        border: Border.all(color: const Color(0xFFFF89A4), width: 2),
         boxShadow: const [
           BoxShadow(
             color: Color(0x4D1768EF),
@@ -955,7 +955,7 @@ class _CountdownContent extends StatelessWidget {
             children: [
               const Text(
                 '✦',
-                style: TextStyle(color: Color(0xFF83B3FF), fontSize: 16),
+                style: TextStyle(color: Color(0xFFB19FEF), fontSize: 16),
               ),
               const SizedBox(width: 13),
               Text(
@@ -970,7 +970,7 @@ class _CountdownContent extends StatelessWidget {
               const SizedBox(width: 13),
               const Text(
                 '✦',
-                style: TextStyle(color: Color(0xFF83B3FF), fontSize: 16),
+                style: TextStyle(color: Color(0xFFB19FEF), fontSize: 16),
               ),
             ],
           ),
@@ -1000,7 +1000,7 @@ class _CountdownContent extends StatelessWidget {
                       decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         gradient: RadialGradient(
-                          colors: [Color(0xFFF9FBFF), Color(0xFFEAF2FF)],
+                          colors: [Color(0xFFFBFAFE), Color(0xFFF1EFFA)],
                         ),
                       ),
                       child: Text(
@@ -1237,7 +1237,7 @@ class _WordPreviewCard extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.left,
                       style: const TextStyle(
-                        color: Color(0xFF6481A9),
+                        color: Color(0xFF7D6E9F),
                         fontSize: 14,
                       ),
                     ),
@@ -1246,7 +1246,7 @@ class _WordPreviewCard extends StatelessWidget {
               ),
             ),
             if (index != words.length - 1)
-              const Divider(height: 1, color: Color(0xFFDCE7F3)),
+              const Divider(height: 1, color: Color(0xFFE4E1EE)),
           ],
         ],
       ),
@@ -1338,7 +1338,7 @@ class _PracticeContent extends StatelessWidget {
                     width: 48,
                     height: 48,
                     decoration: const BoxDecoration(
-                      color: Color(0xFFF7FAFF),
+                      color: Color(0xFFF8F5FF),
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
@@ -1384,7 +1384,7 @@ class _PracticeContent extends StatelessWidget {
                 Text(
                   question.word.transliteration,
                   style: const TextStyle(
-                    color: Color(0xFF7891B6),
+                    color: Color(0xFF8E81AD),
                     fontSize: 17,
                     fontWeight: FontWeight.w600,
                   ),
@@ -1404,7 +1404,7 @@ class _PracticeContent extends StatelessWidget {
                             values: {'seconds': '${secondsLeft.ceil()}'},
                           ),
                     style: const TextStyle(
-                      color: Color(0xFF5276AA),
+                      color: Color(0xFF715E9E),
                       fontSize: 12,
                       fontWeight: FontWeight.w800,
                     ),
@@ -1425,7 +1425,7 @@ class _PracticeContent extends StatelessWidget {
                 child: LinearProgressIndicator(
                   value: timerProgress,
                   minHeight: 9,
-                  backgroundColor: const Color(0xFFDDE7F5),
+                  backgroundColor: const Color(0xFFE5E2F0),
                   color: AppColors.primary,
                 ),
               ),
@@ -1438,7 +1438,7 @@ class _PracticeContent extends StatelessWidget {
           child: Text(
             context.l10n.text('chooseOneAnswer'),
             style: const TextStyle(
-              color: Color(0xFF4F76B0),
+              color: Color(0xFF725DA2),
               fontSize: 12,
               fontWeight: FontWeight.w900,
               letterSpacing: 1.5,
@@ -1472,7 +1472,7 @@ class _PracticeContent extends StatelessWidget {
               context.l10n.text('repetitionKeepPaceHint'),
               textAlign: TextAlign.center,
               style: const TextStyle(
-                color: Color(0xFF6686B5),
+                color: Color(0xFF8271AA),
                 fontSize: 14,
                 fontWeight: FontWeight.w700,
               ),
@@ -1580,7 +1580,7 @@ class _AnswerTile extends StatelessWidget {
                     : Icons.chevron_right_rounded,
                 color: isSubmitted && isCorrect
                     ? accent
-                    : const Color(0xFF7893B9),
+                    : const Color(0xFF8F81B0),
                 size: 26,
               ),
             ],
@@ -1712,7 +1712,7 @@ class _DoneContent extends StatelessWidget {
               context.l10n.text('repetitionCompleteTitle'),
               textAlign: TextAlign.center,
               style: const TextStyle(
-                color: Color(0xFF103D93),
+                color: Color(0xFF4C3483),
                 fontSize: 29,
                 height: 1.1,
                 fontWeight: FontWeight.w800,
@@ -1735,7 +1735,7 @@ class _DoneContent extends StatelessWidget {
               ),
               textAlign: TextAlign.center,
               style: const TextStyle(
-                color: Color(0xFF7C91B5),
+                color: Color(0xFF9084AD),
                 fontSize: 15,
                 height: 1.35,
                 fontWeight: FontWeight.w500,
@@ -1810,8 +1810,8 @@ class _ResultPrimaryButton extends StatelessWidget {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: onPressed == null
-              ? const [Color(0xFF9CB7E9), Color(0xFF8CA9DE)]
-              : const [Color(0xFF377FF5), Color(0xFF155CFF)],
+              ? const [Color(0xFFB3A2F0), Color(0xFFA08BEC)]
+              : const [Color(0xFF9479F5), Color(0xFF7C5CFC)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -1983,7 +1983,7 @@ class _ResultMetric extends StatelessWidget {
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF6B84B4),
+                    color: Color(0xFF8575AA),
                     fontSize: 14,
                     fontWeight: FontWeight.w500,
                   ),

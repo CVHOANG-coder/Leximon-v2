@@ -100,12 +100,12 @@ class _ListeningPreloadScreenState
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: Color(0xFFF7FAFF),
+        systemNavigationBarColor: Color(0xFFF8F5FF),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
         key: const ValueKey('listening-preload-screen'),
-        backgroundColor: const Color(0xFFF7FAFF),
+        backgroundColor: const Color(0xFFF8F5FF),
         body: Stack(
           children: [
             Positioned.fill(
@@ -147,7 +147,7 @@ class _ListeningPreloadScreenState
                           ),
                           key: const ValueKey('listening-preload-description'),
                           style: TextStyle(
-                            color: const Color(0xFF6F88AD),
+                            color: const Color(0xFF8578A4),
                             fontSize: compact ? 15 : 17,
                             height: 1.55,
                             fontWeight: FontWeight.w500,
@@ -240,7 +240,7 @@ class _LoadingDetails extends StatelessWidget {
                   child: Stack(
                     fit: StackFit.expand,
                     children: [
-                      const ColoredBox(color: Color(0xFFDCE9F9)),
+                      const ColoredBox(color: Color(0xFFE6E3F2)),
                       TweenAnimationBuilder<double>(
                         tween: Tween(end: progress.fraction),
                         duration: const Duration(milliseconds: 220),
@@ -251,7 +251,11 @@ class _LoadingDetails extends StatelessWidget {
                           child: const DecoratedBox(
                             decoration: BoxDecoration(
                               gradient: LinearGradient(
-                                colors: [Color(0xFF0964FF), Color(0xFF04B7EE)],
+                                colors: [
+                                  Color(0xFF7C5CFC),
+                                  Color(0xFFC05CFF),
+                                  Color(0xFFFF6F91),
+                                ],
                               ),
                             ),
                           ),
@@ -272,7 +276,7 @@ class _LoadingDetails extends StatelessWidget {
                 maxLines: 1,
                 softWrap: false,
                 style: const TextStyle(
-                  color: Color(0xFF0964E9),
+                  color: Color(0xFF6D4DE8),
                   fontSize: 18,
                   fontWeight: FontWeight.w900,
                 ),
@@ -285,7 +289,7 @@ class _LoadingDetails extends StatelessWidget {
           countLabel,
           key: const ValueKey('listening-preload-audio-count'),
           style: const TextStyle(
-            color: Color(0xFF59759D),
+            color: Color(0xFF716393),
             fontSize: 14,
             fontWeight: FontWeight.w700,
           ),
@@ -306,7 +310,7 @@ class _LoadingDetails extends StatelessWidget {
           context.l10n.text('pleaseWait'),
           textAlign: TextAlign.center,
           style: TextStyle(
-            color: Color(0xFF7A91B2),
+            color: Color(0xFF8E82AA),
             fontSize: 15,
             fontWeight: FontWeight.w500,
           ),
@@ -340,7 +344,7 @@ class _LoadingError extends StatelessWidget {
           context.l10n.text('checkConnectionTryAgain'),
           textAlign: TextAlign.center,
           style: TextStyle(
-            color: Color(0xFF7A91B2),
+            color: Color(0xFF8E82AA),
             fontSize: 15,
             fontWeight: FontWeight.w500,
           ),

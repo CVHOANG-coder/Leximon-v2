@@ -324,7 +324,7 @@ class _ProgressHeader extends StatelessWidget {
               Text(
                 context.l10n.text('learningDashboard'),
                 style: const TextStyle(
-                  color: Color(0xFF52739A),
+                  color: Color(0xFF6C5C90),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1,
@@ -391,7 +391,7 @@ class _ProgressHero extends StatelessWidget {
                     Text(
                       context.l10n.text('thisWeekProgress'),
                       style: const TextStyle(
-                        color: Color(0xFF7990B0),
+                        color: Color(0xFF8D81A8),
                         fontSize: 9,
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1.1,
@@ -462,7 +462,7 @@ class _ProgressHero extends StatelessWidget {
                   value: '${dashboard.masteredWords}',
                   label: context.l10n.text('masteredShort'),
                   accent: AppColors.primary,
-                  background: const Color(0xFFEEF3FF),
+                  background: const Color(0xFFF4F2FB),
                 ),
               ),
               const SizedBox(width: 8),
@@ -479,7 +479,7 @@ class _ProgressHero extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Material(
-            color: const Color(0xFFF5F8FD),
+            color: const Color(0xFFF8F7FB),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(14),
               side: const BorderSide(color: AppColors.divider),
@@ -611,7 +611,7 @@ class _ProgressCard extends StatelessWidget {
                                       maxLines: 1,
                                       overflow: TextOverflow.ellipsis,
                                       style: TextStyle(
-                                        color: Color(0xFFDCEAFF),
+                                        color: Color(0xFFE8E4F7),
                                         fontSize: 9,
                                         fontWeight: FontWeight.w800,
                                         letterSpacing: .8,
@@ -653,7 +653,7 @@ class _ProgressCard extends StatelessWidget {
                                   values: {'count': dashboard.masteredWords},
                                 ),
                                 style: const TextStyle(
-                                  color: Color(0xFFC7DCFF),
+                                  color: Color(0xFFDBD3F8),
                                   fontSize: 9,
                                   fontWeight: FontWeight.w500,
                                 ),
@@ -714,7 +714,7 @@ class _ProgressCard extends StatelessWidget {
                                     Text(
                                       context.l10n.text('total'),
                                       style: const TextStyle(
-                                        color: Color(0xFFD9EFFF),
+                                        color: Color(0xFFE6E2F6),
                                         fontSize: 8,
                                         fontWeight: FontWeight.w800,
                                         letterSpacing: .8,
@@ -746,7 +746,7 @@ class _ProgressCard extends StatelessWidget {
                           child: Text(
                             context.l10n.text('wordsInPath'),
                             style: const TextStyle(
-                              color: Color(0xFFBFD6FF),
+                              color: Color(0xFFDBD3F8),
                               fontSize: 9,
                             ),
                           ),
@@ -963,8 +963,8 @@ class _ActivityChart extends StatelessWidget {
                         colors: index == values.length - 1
                             ? [AppColors.primary, AppColors.cyan]
                             : [
-                                const Color(0xFFCFE0FF),
-                                const Color(0xFF8EB7FF),
+                                const Color(0xFFE0DAF4),
+                                const Color(0xFFB8A9F1),
                               ],
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
@@ -1088,8 +1088,8 @@ class _HeatLegend extends StatelessWidget {
   Widget build(BuildContext context) => Row(
     children: [
       for (final color in [
-        const Color(0xFFE1E9F4),
-        const Color(0xFFB8D0FF),
+        const Color(0xFFE7E5F0),
+        const Color(0xFFD6CDF7),
         AppColors.primary,
       ]) ...[
         Container(
@@ -1099,8 +1099,8 @@ class _HeatLegend extends StatelessWidget {
           decoration: BoxDecoration(
             color: color,
             borderRadius: BorderRadius.circular(3),
-            border: color == const Color(0xFFE1E9F4)
-                ? Border.all(color: const Color(0xFFCFDAE9))
+            border: color == const Color(0xFFE7E5F0)
+                ? Border.all(color: const Color(0xFFDEDBEA))
                 : null,
           ),
         ),
@@ -1118,9 +1118,9 @@ class _Heatmap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const colors = [
-      Color(0xFFE1E9F4),
-      Color(0xFFD6E4FF),
-      Color(0xFF8EB7FF),
+      Color(0xFFE7E5F0),
+      Color(0xFFE4DFF6),
+      Color(0xFFB8A9F1),
       AppColors.primary,
     ];
     return GridView.count(
@@ -1136,7 +1136,7 @@ class _Heatmap extends StatelessWidget {
                 color: colors[level],
                 borderRadius: BorderRadius.circular(4),
                 border: level == 0
-                    ? Border.all(color: const Color(0xFFCFDAE9))
+                    ? Border.all(color: const Color(0xFFDEDBEA))
                     : null,
               ),
             ),

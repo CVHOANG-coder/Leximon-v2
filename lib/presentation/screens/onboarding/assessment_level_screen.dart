@@ -66,7 +66,7 @@ class _AssessmentLevelScreenState extends State<AssessmentLevelScreen>
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFF061D4C),
+        backgroundColor: const Color(0xFF3B2B5D),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -253,7 +253,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
     return Container(
       width: double.infinity,
       decoration: const BoxDecoration(
-        color: Color(0xFFFBFDFF),
+        color: Color(0xFFFCFCFE),
         borderRadius: BorderRadius.vertical(top: Radius.circular(38)),
         boxShadow: [
           BoxShadow(
@@ -304,7 +304,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
                       child: DecoratedBox(
                         decoration: BoxDecoration(
                           gradient: const LinearGradient(
-                            colors: [Color(0xFF0C4DE4), Color(0xFF147BFF)],
+                            colors: [Color(0xFF6240DF), Color(0xFF906FFF)],
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
                           ),
@@ -441,12 +441,12 @@ class _AssessmentOptionCard extends StatelessWidget {
               vertical: compact ? 11 : 10,
             ),
             decoration: BoxDecoration(
-              color: selected ? const Color(0xFFF2F7FF) : Colors.white,
+              color: selected ? const Color(0xFFF6F5FC) : Colors.white,
               borderRadius: BorderRadius.circular(22),
               border: Border.all(
                 color: selected
-                    ? const Color(0xFF9FC4FF)
-                    : const Color(0xFFEAF0F8),
+                    ? const Color(0xFFC4B7F3)
+                    : const Color(0xFFEFEDF5),
                 width: selected ? 1.5 : 1,
               ),
               boxShadow: const [
@@ -463,7 +463,7 @@ class _AssessmentOptionCard extends StatelessWidget {
                   width: compact ? 74 : 84,
                   height: compact ? 86 : 83,
                   decoration: BoxDecoration(
-                    color: const Color(0xFFEAF3FF),
+                    color: const Color(0xFFF1EFFA),
                     borderRadius: BorderRadius.circular(18),
                   ),
                   padding: EdgeInsets.all(compact ? 5 : 6),
@@ -480,7 +480,7 @@ class _AssessmentOptionCard extends StatelessWidget {
                     maxLines: 3,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
-                      color: const Color(0xFF071944),
+                      color: const Color(0xFF302747),
                       fontSize: compact ? 14.5 : 17,
                       height: 1.25,
                       fontWeight: FontWeight.w700,
@@ -515,7 +515,7 @@ class _AssessmentRadio extends StatelessWidget {
         color: Colors.white,
         shape: BoxShape.circle,
         border: Border.all(
-          color: selected ? const Color(0xFF13BD2A) : const Color(0xFFD5DDEB),
+          color: selected ? const Color(0xFF13BD2A) : const Color(0xFFE2DFEC),
           width: 2.5,
         ),
       ),

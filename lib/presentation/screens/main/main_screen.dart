@@ -231,7 +231,7 @@ class _BottomNavItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final iconColor = selected ? Colors.white : const Color(0xFFA8B4C5);
+    final iconColor = selected ? Colors.white : const Color(0xFFB7B2C7);
     final profileIconAsset = selected
         ? 'assets/images/tab_personal_active.png'
         : 'assets/images/tab_personal_inactive.png';
@@ -269,7 +269,7 @@ class _BottomNavItem extends StatelessWidget {
                       borderRadius: BorderRadius.circular(13),
                       gradient: selected && !profile
                           ? const LinearGradient(
-                              colors: [Color(0xFF1658D3), Color(0xFF2481FA)],
+                              colors: [Color(0xFF6844E7), Color(0xFF8869F8)],
                               begin: Alignment.topLeft,
                               end: Alignment.bottomRight,
                             )
@@ -320,8 +320,8 @@ class _BottomNavItem extends StatelessWidget {
                 curve: Curves.easeOutCubic,
                 style: TextStyle(
                   color: selected
-                      ? const Color(0xFF2475E6)
-                      : const Color(0xFFA8B4C5),
+                      ? const Color(0xFF7658E2)
+                      : const Color(0xFFB7B2C7),
                   fontSize: 9,
                   height: 1.2,
                   fontWeight: FontWeight.w600,

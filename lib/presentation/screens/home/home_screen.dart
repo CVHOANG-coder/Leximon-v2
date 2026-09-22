@@ -239,13 +239,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
                                         ),
                                         padding: EdgeInsets.zero,
                                         foregroundColor: const Color(
-                                          0xFF1769E8,
+                                          0xFF7757EA,
                                         ),
                                         backgroundColor: const Color(
-                                          0xFFF0F6FF,
+                                          0xFFF5F3FC,
                                         ),
                                         side: const BorderSide(
-                                          color: Color(0xFFCFE1FA),
+                                          color: Color(0xFFDBD3F8),
                                         ),
                                         textStyle: const TextStyle(
                                           inherit: false,
@@ -319,7 +319,7 @@ class _LearningHeader extends StatelessWidget {
               Text(
                 context.l10n.text('homeGreetingEyebrow'),
                 style: const TextStyle(
-                  color: Color(0xFF3D628D),
+                  color: Color(0xFF594882),
                   fontSize: 9,
                   fontWeight: FontWeight.w700,
                   letterSpacing: .72,
@@ -413,7 +413,7 @@ class _BrandMark extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
         gradient: const LinearGradient(
-          colors: [Color(0xFF1D75FF), Color(0xFF064EE0)],
+          colors: [Color(0xFF7C5CFC), Color(0xFFC05CFF), Color(0xFFFF6F91)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -1188,9 +1188,9 @@ class _FirstTrainingGreeting extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.fromLTRB(8, 8, 14, 8),
       decoration: BoxDecoration(
-        color: const Color(0xFFEAF3FF),
+        color: const Color(0xFFF1EFFA),
         borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0xFFD2E3FF)),
+        border: Border.all(color: const Color(0xFFE1DCF5)),
       ),
       child: Row(
         children: [
@@ -1521,7 +1521,7 @@ class _AdditionalTasksSheet extends StatelessWidget {
                 onPressed: () => Navigator.of(context).pop(),
                 icon: const Icon(Icons.close_rounded),
                 style: IconButton.styleFrom(
-                  backgroundColor: const Color(0xFFF1F5FC),
+                  backgroundColor: const Color(0xFFF5F3FA),
                   foregroundColor: AppColors.textSecondary,
                 ),
               ),
@@ -1532,7 +1532,7 @@ class _AdditionalTasksSheet extends StatelessWidget {
             (type) => Padding(
               padding: const EdgeInsets.only(bottom: 9),
               child: Material(
-                color: const Color(0xFFF7F9FE),
+                color: const Color(0xFFF9F9FC),
                 borderRadius: BorderRadius.circular(18),
                 child: InkWell(
                   onTap: () => Navigator.of(context).pop(type),
@@ -1708,10 +1708,10 @@ _dailyTaskColors(DailyTaskType type, bool done) {
   }
   return switch (type) {
     DailyTaskType.repeat => (
-      background: const Color(0xFFF0F5FF),
-      border: const Color(0xFFC8DAFF),
-      iconBackground: const Color(0xFFDCE8FF),
-      icon: const Color(0xFF426FD0),
+      background: const Color(0xFFF5F3FC),
+      border: const Color(0xFFDBD3F8),
+      iconBackground: const Color(0xFFE8E4F7),
+      icon: const Color(0xFF8970E4),
       title: AppColors.textPrimary,
     ),
     DailyTaskType.learn => (
@@ -1805,13 +1805,13 @@ class _EmptyWelcomePanel extends StatelessWidget {
                             vertical: 7,
                           ),
                           decoration: BoxDecoration(
-                            color: const Color(0xFFEAF1FF),
+                            color: const Color(0xFFF1EFFA),
                             borderRadius: BorderRadius.circular(99),
                           ),
                           child: Text(
                             context.l10n.text('homeJourneyStart'),
                             style: const TextStyle(
-                              color: Color(0xFF0F57DF),
+                              color: Color(0xFF6843EE),
                               fontSize: 9,
                               fontWeight: FontWeight.w800,
                             ),
@@ -1893,7 +1893,7 @@ class _MascotSpeech extends StatelessWidget {
           Text(
             context.l10n.text('hello'),
             style: const TextStyle(
-              color: Color(0xFF173661),
+              color: Color(0xFF402C6F),
               fontSize: 12,
               height: 1.1,
               fontWeight: FontWeight.w800,
@@ -2055,9 +2055,9 @@ class _EmptyActionCard extends StatelessWidget {
                 end: Alignment.bottomRight,
               )
             : null,
-        color: primary ? null : const Color(0xFFF3F6FB),
+        color: primary ? null : const Color(0xFFF6F5F9),
         border: Border.all(
-          color: primary ? const Color(0x80FFC928) : const Color(0xFFE1E8F2),
+          color: primary ? const Color(0x80FFC928) : const Color(0xFFE6E3F0),
         ),
         boxShadow: const [
           BoxShadow(
@@ -2076,12 +2076,12 @@ class _EmptyActionCard extends StatelessWidget {
             decoration: BoxDecoration(
               color: primary
                   ? const Color(0x2EFFFFFF)
-                  : const Color(0xFFE3E9F2),
+                  : const Color(0xFFE7E5F0),
               borderRadius: BorderRadius.circular(16),
             ),
             child: Icon(
               icon,
-              color: primary ? Colors.white : const Color(0xFF9AA8BB),
+              color: primary ? Colors.white : const Color(0xFF9A91A8),
               size: 20,
             ),
           ),
@@ -2096,7 +2096,7 @@ class _EmptyActionCard extends StatelessWidget {
                   style: TextStyle(
                     color: primary
                         ? const Color(0xE6FFFFFF)
-                        : const Color(0xFF9AA8BB),
+                        : const Color(0xFF9A91A8),
                     fontSize: 9,
                     fontWeight: FontWeight.w700,
                   ),
@@ -2105,7 +2105,7 @@ class _EmptyActionCard extends StatelessWidget {
                 Text(
                   title,
                   style: TextStyle(
-                    color: primary ? Colors.white : const Color(0xFF8C9AAF),
+                    color: primary ? Colors.white : const Color(0xFF9891AA),
                     fontSize: 15,
                     height: 1.15,
                     fontWeight: FontWeight.w700,
@@ -2180,7 +2180,7 @@ class _SearchRow extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
                   gradient: const LinearGradient(
-                    colors: [Color(0xFF1658D3), Color(0xFF2481FA)],
+                    colors: [Color(0xFF6844E7), Color(0xFF8869F8)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -2263,7 +2263,7 @@ class _FilterChips extends ConsumerWidget {
               side: BorderSide(
                 color: selected == label
                     ? AppColors.primary
-                    : const Color(0xFFD8E3F1),
+                    : const Color(0xFFE1DDEE),
                 width: 1,
               ),
               shape: RoundedRectangleBorder(

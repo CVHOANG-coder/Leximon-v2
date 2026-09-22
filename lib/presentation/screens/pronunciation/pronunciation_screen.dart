@@ -77,12 +77,12 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: Color(0xFFF7FBFF),
+        systemNavigationBarColor: Color(0xFFFAF9FD),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
         key: const ValueKey('pronunciation-screen'),
-        backgroundColor: const Color(0xFFF7FBFF),
+        backgroundColor: const Color(0xFFFAF9FD),
         body: Stack(
           children: [
             const Positioned.fill(child: _SoundsBackdrop()),
@@ -110,9 +110,9 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                         child: _SoundSection(
                           title: 'Vowel Sounds',
                           icon: Icons.volume_up_rounded,
-                          accent: const Color(0xFF1673F9),
-                          soft: const Color(0xFFDCEEFF),
-                          sparkle: const Color(0xFF75B2FF),
+                          accent: const Color(0xFF7C5BF7),
+                          soft: const Color(0xFFE8E4F7),
+                          sparkle: const Color(0xFFA793ED),
                           columns: 4,
                           childAspectRatio: 1.2,
                           sounds: _ofGroup(sounds, IpaSoundGroup.vowel),
@@ -279,12 +279,12 @@ class _SoundsHeader extends StatelessWidget {
                   width: 46,
                   height: 46,
                   decoration: const BoxDecoration(
-                    color: Color(0xFFCFE8FF),
+                    color: Color(0xFFE0DAF4),
                     shape: BoxShape.circle,
                   ),
                   child: const Icon(
                     Icons.music_note_rounded,
-                    color: Color(0xFF176EE8),
+                    color: Color(0xFF7757EA),
                     size: 28,
                   ),
                 ),
@@ -307,7 +307,7 @@ class _SoundsHeader extends StatelessWidget {
                       Text(
                         context.l10n.text('pronunciationGroupTitle'),
                         style: TextStyle(
-                          color: Color(0xFF435D91),
+                          color: Color(0xFF5F4E86),
                           fontSize: 13,
                           height: 1.2,
                           fontWeight: FontWeight.w500,
@@ -603,7 +603,7 @@ class _SoundTile extends StatelessWidget {
                           sound.example,
                           maxLines: 1,
                           style: TextStyle(
-                            color: const Color(0xFF334E83),
+                            color: const Color(0xFF504076),
                             fontSize: compact ? 9 : 11,
                             height: 1,
                             fontWeight: FontWeight.w500,
@@ -747,7 +747,7 @@ class _IpaLoading extends StatelessWidget {
     final current = progress;
     return Scaffold(
       key: const ValueKey('ipa-loading-screen'),
-      backgroundColor: const Color(0xFFF7FAFF),
+      backgroundColor: const Color(0xFFF8F5FF),
       body: Stack(
         children: [
           Positioned.fill(
@@ -787,7 +787,7 @@ class _IpaLoading extends StatelessWidget {
                         context.l10n.text('ipaPreloadSubtitle'),
                         key: const ValueKey('ipa-loading-description'),
                         style: TextStyle(
-                          color: const Color(0xFF6F88AD),
+                          color: const Color(0xFF8578A4),
                           fontSize: compact ? 15 : 17,
                           height: 1.55,
                           fontWeight: FontWeight.w500,
@@ -845,7 +845,7 @@ class _IpaLoadingDetails extends StatelessWidget {
                   child: Stack(
                     fit: StackFit.expand,
                     children: [
-                      const ColoredBox(color: Color(0xFFDCE9F9)),
+                      const ColoredBox(color: Color(0xFFE6E3F2)),
                       TweenAnimationBuilder<double>(
                         tween: Tween(end: fraction),
                         duration: const Duration(milliseconds: 220),
@@ -856,7 +856,11 @@ class _IpaLoadingDetails extends StatelessWidget {
                           child: const DecoratedBox(
                             decoration: BoxDecoration(
                               gradient: LinearGradient(
-                                colors: [Color(0xFF0964FF), Color(0xFF04B7EE)],
+                                colors: [
+                                  Color(0xFF7C5CFC),
+                                  Color(0xFFC05CFF),
+                                  Color(0xFFFF6F91),
+                                ],
                               ),
                             ),
                           ),
@@ -877,7 +881,7 @@ class _IpaLoadingDetails extends StatelessWidget {
                 maxLines: 1,
                 softWrap: false,
                 style: const TextStyle(
-                  color: Color(0xFF0964E9),
+                  color: Color(0xFF6D4DE8),
                   fontSize: 18,
                   fontWeight: FontWeight.w900,
                 ),
@@ -895,7 +899,7 @@ class _IpaLoadingDetails extends StatelessWidget {
               : context.l10n.text('ipaReadingData'),
           key: const ValueKey('ipa-loading-count'),
           style: const TextStyle(
-            color: Color(0xFF59759D),
+            color: Color(0xFF716393),
             fontSize: 14,
             fontWeight: FontWeight.w700,
           ),
@@ -921,7 +925,7 @@ class _IpaLoadingDetails extends StatelessWidget {
           context.l10n.text('pleaseWait'),
           textAlign: TextAlign.center,
           style: const TextStyle(
-            color: Color(0xFF7A91B2),
+            color: Color(0xFF8E82AA),
             fontSize: 15,
             fontWeight: FontWeight.w500,
           ),

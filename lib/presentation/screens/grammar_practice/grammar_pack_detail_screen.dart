@@ -61,12 +61,12 @@ class _GrammarPackDetailScreenState extends State<GrammarPackDetailScreen> {
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: Color(0xFFF7FAFF),
+        systemNavigationBarColor: Color(0xFFF8F5FF),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
         key: const ValueKey('grammar-pack-detail-screen'),
-        backgroundColor: const Color(0xFFF7FAFF),
+        backgroundColor: const Color(0xFFF8F5FF),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -361,9 +361,9 @@ class _PackSummary extends StatelessWidget {
             height: 91,
             padding: const EdgeInsets.all(13),
             decoration: BoxDecoration(
-              color: const Color(0xFFEDF7FF),
+              color: const Color(0xFFF3F1FB),
               shape: BoxShape.circle,
-              border: Border.all(color: const Color(0xFFD5E9FF)),
+              border: Border.all(color: const Color(0xFFE3DEF6)),
             ),
             child: Image.asset(pack.iconAsset, fit: BoxFit.contain),
           ),
@@ -450,7 +450,7 @@ class _SummaryProgressRing extends StatelessWidget {
           const CircularProgressIndicator(
             value: 1,
             strokeWidth: 8,
-            color: Color(0xFFE8F0FC),
+            color: Color(0xFFEFECF8),
           ),
           CircularProgressIndicator(
             value: progress / 100,
@@ -570,9 +570,9 @@ class _LessonCard extends StatelessWidget {
                   width: 56,
                   height: 56,
                   decoration: BoxDecoration(
-                    color: const Color(0xFFF0F7FF),
+                    color: const Color(0xFFF5F3FC),
                     shape: BoxShape.circle,
-                    border: Border.all(color: const Color(0xFFDCEBFF)),
+                    border: Border.all(color: const Color(0xFFE8E4F7)),
                   ),
                   child: Center(
                     child: Container(
@@ -582,7 +582,7 @@ class _LessonCard extends StatelessWidget {
                         gradient: const LinearGradient(
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
-                          colors: [Color(0xFF53B6FF), Color(0xFF345BEF)],
+                          colors: [Color(0xFFAD97FC), Color(0xFF9075F1)],
                         ),
                         borderRadius: BorderRadius.circular(7),
                         boxShadow: const [
@@ -638,7 +638,7 @@ class _LessonCard extends StatelessWidget {
                           const _LessonBadge(
                             label: 'Grammar',
                             color: AppColors.primary,
-                            background: Color(0xFFEDF4FF),
+                            background: Color(0xFFF3F1FB),
                           ),
                           const SizedBox(width: 7),
                           _LessonBadge(
@@ -656,7 +656,7 @@ class _LessonCard extends StatelessWidget {
                         child: LinearProgressIndicator(
                           value: topic.progress / 100,
                           minHeight: 5,
-                          backgroundColor: Color(0xFFEAF1FA),
+                          backgroundColor: Color(0xFFF0EEF6),
                           color: AppColors.primary,
                         ),
                       ),
@@ -671,7 +671,7 @@ class _LessonCard extends StatelessWidget {
                     onPressed: topic.progress > 0 ? onReset : null,
                     style: IconButton.styleFrom(
                       backgroundColor: const Color(0xFFFFEEEE),
-                      disabledBackgroundColor: const Color(0xFFF3F6FB),
+                      disabledBackgroundColor: const Color(0xFFF6F5F9),
                     ),
                     icon: Icon(
                       Icons.restart_alt_rounded,
@@ -688,7 +688,7 @@ class _LessonCard extends StatelessWidget {
                         : Icons.chevron_right_rounded,
                     color: isLocked
                         ? AppColors.textMuted
-                        : const Color(0xFF91ADD2),
+                        : const Color(0xFFA89AC9),
                     size: isLocked ? 22 : 28,
                   ),
                 const SizedBox(width: 8),
@@ -761,7 +761,7 @@ class _DetailBackdrop extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
-          colors: [Color(0xFFE6F7FF), Color(0xFFF9FCFF), Color(0xFFEDF7FF)],
+          colors: [Color(0xFFF9ECEF), Color(0xFFFBFAFE), Color(0xFFF3F1FB)],
           stops: [0, .5, 1],
         ),
       ),

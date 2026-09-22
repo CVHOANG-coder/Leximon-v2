@@ -373,10 +373,10 @@ class _ResultBackdrop extends StatelessWidget {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            Color(0xFF071A3D),
-            Color(0xFF0F58D8),
-            Color(0xFF28A3EF),
-            Color(0xFF58CCFF),
+            Color(0xFF282238),
+            Color(0xFF633DED),
+            Color(0xFFF53965),
+            Color(0xFFFF6F91),
           ],
           stops: [0, .34, .68, 1],
           begin: Alignment.topCenter,

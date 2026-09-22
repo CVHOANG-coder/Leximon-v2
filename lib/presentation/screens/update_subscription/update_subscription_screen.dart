@@ -198,12 +198,12 @@ class _UpdateSubscriptionScreenState
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: Color(0xFFF9FCFF),
+        systemNavigationBarColor: Color(0xFFFBFAFE),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
         key: const ValueKey('update-subscription-screen'),
-        backgroundColor: const Color(0xFFF9FCFF),
+        backgroundColor: const Color(0xFFFBFAFE),
         body: Stack(
           children: [
             Positioned.fill(
@@ -252,7 +252,7 @@ class _UpdateSubscriptionScreenState
                         height: 54,
                         child: Icon(
                           Icons.arrow_back_ios_new_rounded,
-                          color: Color(0xFF172267),
+                          color: Color(0xFF432E74),
                           size: 28,
                         ),
                       ),
@@ -280,7 +280,7 @@ class _UpdateSubscriptionScreenState
     if (packages.isEmpty && catalogState.isLoading) {
       return const Padding(
         padding: EdgeInsets.symmetric(vertical: 64),
-        child: CircularProgressIndicator(color: Color(0xFF2271F5)),
+        child: CircularProgressIndicator(color: Color(0xFF7C5CFC)),
       );
     }
     if (packages.isEmpty) {
@@ -323,14 +323,14 @@ class _UpdateSubscriptionScreenState
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.lock_rounded, color: Color(0xFF8391AA), size: 17),
+            const Icon(Icons.lock_rounded, color: Color(0xFF9188A5), size: 17),
             const SizedBox(width: 8),
             Flexible(
               child: Text(
                 context.l10n.text('saleSecurePayment'),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: Color(0xFF687897),
+                  color: Color(0xFF796F90),
                   fontSize: 13,
                   fontWeight: FontWeight.w500,
                 ),
@@ -611,14 +611,14 @@ class _UpgradeHeadline extends StatelessWidget {
                       const TextSpan(text: 'Nâng cấp lên gói '),
                       TextSpan(
                         text: targetLabel,
-                        style: const TextStyle(color: Color(0xFF1466EE)),
+                        style: const TextStyle(color: Color(0xFF7252EC)),
                       ),
                     ],
             ),
             key: const ValueKey('subscription-headline'),
             textAlign: TextAlign.center,
             style: const TextStyle(
-              color: Color(0xFF071735),
+              color: Color(0xFF282238),
               fontSize: 27,
               height: 1.15,
               fontWeight: FontWeight.w900,
@@ -634,7 +634,7 @@ class _UpgradeHeadline extends StatelessWidget {
                 : 'Bạn đang dùng $currentLabel. Nâng cấp lên gói $targetLabel để tiết kiệm hơn và học liên tục không gián đoạn.',
             textAlign: TextAlign.center,
             style: const TextStyle(
-              color: Color(0xFF526584),
+              color: Color(0xFF64597D),
               fontSize: 16,
               height: 1.3,
               fontWeight: FontWeight.w500,
@@ -664,7 +664,7 @@ class _CurrentSubscriptionCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: .96),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFFDDE9FA)),
+        border: Border.all(color: const Color(0xFFE7E4F3)),
         boxShadow: const [
           BoxShadow(
             color: Color(0x132D70B5),
@@ -687,13 +687,13 @@ class _CurrentSubscriptionCard extends StatelessWidget {
                     vertical: 5,
                   ),
                   decoration: BoxDecoration(
-                    color: const Color(0xFFE7F0FF),
+                    color: const Color(0xFFEFECFA),
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: Text(
                     'GÓI HIỆN TẠI',
                     style: const TextStyle(
-                      color: Color(0xFF1C66DE),
+                      color: Color(0xFF7657E6),
                       fontSize: 11,
                       fontWeight: FontWeight.w800,
                     ),
@@ -705,7 +705,7 @@ class _CurrentSubscriptionCard extends StatelessWidget {
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF071735),
+                    color: Color(0xFF282238),
                     fontSize: 19,
                     fontWeight: FontWeight.w800,
                   ),
@@ -718,7 +718,7 @@ class _CurrentSubscriptionCard extends StatelessWidget {
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF637594),
+                    color: Color(0xFF746A8D),
                     fontSize: 13,
                     height: 1.25,
                   ),
@@ -797,8 +797,8 @@ class _UpgradePackageCard extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
                 border: Border.all(
                   color: recommended || selected
-                      ? const Color(0xFF1E77F7)
-                      : const Color(0xFFE0E9F6),
+                      ? const Color(0xFF8262F5)
+                      : const Color(0xFFE8E5F1),
                   width: recommended || selected ? 2 : 1,
                 ),
                 boxShadow: const [
@@ -823,7 +823,7 @@ class _UpgradePackageCard extends StatelessWidget {
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: const TextStyle(
-                            color: Color(0xFF071735),
+                            color: Color(0xFF282238),
                             fontSize: 19,
                             fontWeight: FontWeight.w800,
                           ),
@@ -836,7 +836,7 @@ class _UpgradePackageCard extends StatelessWidget {
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                           style: const TextStyle(
-                            color: Color(0xFF637594),
+                            color: Color(0xFF746A8D),
                             fontSize: 13,
                             height: 1.25,
                           ),
@@ -849,7 +849,7 @@ class _UpgradePackageCard extends StatelessWidget {
                                 price!,
                                 key: const ValueKey('subscription-price'),
                                 style: const TextStyle(
-                                  color: Color(0xFF1466EE),
+                                  color: Color(0xFF7252EC),
                                   fontSize: 23,
                                   fontWeight: FontWeight.w900,
                                 ),
@@ -857,7 +857,7 @@ class _UpgradePackageCard extends StatelessWidget {
                               Text(
                                 isYear ? ' / năm' : ' / kỳ',
                                 style: const TextStyle(
-                                  color: Color(0xFF637594),
+                                  color: Color(0xFF746A8D),
                                   fontSize: 13,
                                   fontWeight: FontWeight.w600,
                                 ),
@@ -871,7 +871,7 @@ class _UpgradePackageCard extends StatelessWidget {
                                 text:
                                     '${_weeklyPrice(context, product, package)} ',
                                 style: const TextStyle(
-                                  color: Color(0xFF637594),
+                                  color: Color(0xFF746A8D),
                                   fontSize: 12,
                                   fontWeight: FontWeight.w600,
                                 ),
@@ -889,7 +889,7 @@ class _UpgradePackageCard extends StatelessWidget {
                           Text(
                             'Tiết kiệm hơn so với ${_localizedDuration(context, current!)}',
                             style: const TextStyle(
-                              color: Color(0xFF637594),
+                              color: Color(0xFF746A8D),
                               fontSize: 12,
                               fontWeight: FontWeight.w600,
                             ),
@@ -901,7 +901,7 @@ class _UpgradePackageCard extends StatelessWidget {
                   if (recommended)
                     const Icon(
                       Icons.star_rounded,
-                      color: Color(0xFF1B72F1),
+                      color: Color(0xFF7D5DF1),
                       size: 27,
                     ),
                 ],
@@ -917,7 +917,7 @@ class _UpgradePackageCard extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 6),
               decoration: BoxDecoration(
                 gradient: const LinearGradient(
-                  colors: [Color(0xFF4C96FF), Color(0xFF176CF0)],
+                  colors: [Color(0xFFA891FC), Color(0xFF7A59F0)],
                 ),
                 borderRadius: BorderRadius.circular(16),
               ),
@@ -989,7 +989,7 @@ class _BenefitsCard extends StatelessWidget {
     decoration: BoxDecoration(
       color: Colors.white.withValues(alpha: .96),
       borderRadius: BorderRadius.circular(20),
-      border: Border.all(color: const Color(0xFFE2EBF7)),
+      border: Border.all(color: const Color(0xFFE9E7F2)),
       boxShadow: const [
         BoxShadow(
           color: Color(0x132D70B5),
@@ -1042,7 +1042,7 @@ class _Benefit extends StatelessWidget {
           label,
           maxLines: 3,
           style: const TextStyle(
-            color: Color(0xFF28446F),
+            color: Color(0xFF423562),
             fontSize: 11,
             height: 1.25,
             fontWeight: FontWeight.w500,
@@ -1058,7 +1058,7 @@ class _BenefitDivider extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-      Container(width: 1, height: 48, color: const Color(0xFFDDE6F1));
+      Container(width: 1, height: 48, color: const Color(0xFFE3E0EE));
 }
 
 class _UpgradeButton extends StatelessWidget {
@@ -1085,8 +1085,8 @@ class _UpgradeButton extends StatelessWidget {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: enabled
-              ? const [Color(0xFF347CF8), Color(0xFF16D6BD)]
-              : const [Color(0xFFB8CCE5), Color(0xFFB9DEDB)],
+              ? const [Color(0xFF9377F7), Color(0xFF16D6BD)]
+              : const [Color(0xFFCDC7E3), Color(0xFFB9DEDB)],
         ),
         borderRadius: BorderRadius.circular(30),
         boxShadow: enabled
@@ -1165,7 +1165,7 @@ class _SubscriptionLoadError extends StatelessWidget {
         Text(
           context.l10n.text('subscriptionLoadError'),
           textAlign: TextAlign.center,
-          style: const TextStyle(color: Color(0xFF526584), fontSize: 15),
+          style: const TextStyle(color: Color(0xFF64597D), fontSize: 15),
         ),
         const SizedBox(height: 8),
         TextButton(onPressed: onRetry, child: Text(context.l10n.retry)),

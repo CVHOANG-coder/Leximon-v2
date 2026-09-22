@@ -104,11 +104,11 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.light,
         statusBarBrightness: Brightness.dark,
-        systemNavigationBarColor: Color(0xFF01062A),
+        systemNavigationBarColor: Color(0xFF282238),
         systemNavigationBarIconBrightness: Brightness.light,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFF01062A),
+        backgroundColor: const Color(0xFF282238),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -187,7 +187,7 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                                     letterSpacing: -1,
                                     shadows: [
                                       Shadow(
-                                        color: Color(0xFF297BFF),
+                                        color: Color(0xFF8D6FFB),
                                         blurRadius: 15,
                                       ),
                                       Shadow(
@@ -222,7 +222,7 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                                   context.l10n.text('freeTrialNoPayment'),
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
-                                    color: Color(0xFF9EBEFF),
+                                    color: Color(0xFFC4B7F3),
                                     fontSize: 16.5,
                                     height: 1.2,
                                     fontWeight: FontWeight.w400,
@@ -271,10 +271,10 @@ class _FreeTrialButton extends StatelessWidget {
       child: DecoratedBox(
         decoration: BoxDecoration(
           gradient: const LinearGradient(
-            colors: [Color(0xFFFFFFFF), Color(0xFFEAF4FF), Color(0xFFFDFEFF)],
+            colors: [Color(0xFFFFFFFF), Color(0xFFF1EFFA), Color(0xFFFEFDFF)],
           ),
           borderRadius: BorderRadius.circular(38),
-          border: Border.all(color: const Color(0xFF4C83FF), width: 1.6),
+          border: Border.all(color: const Color(0xFFA891FC), width: 1.6),
           boxShadow: const [
             BoxShadow(
               color: Color(0xC02275FF),
@@ -300,14 +300,14 @@ class _FreeTrialButton extends StatelessWidget {
                   ? const SizedBox.square(
                       dimension: 25,
                       child: CircularProgressIndicator(
-                        color: Color(0xFF155BF3),
+                        color: Color(0xFF7C5CFC),
                         strokeWidth: 2.5,
                       ),
                     )
                   : Text(
                       context.l10n.text('freeTrialStart'),
                       style: const TextStyle(
-                        color: Color(0xFF155BF3),
+                        color: Color(0xFF7C5CFC),
                         fontSize: 21,
                         fontWeight: FontWeight.w800,
                         letterSpacing: -0.4,

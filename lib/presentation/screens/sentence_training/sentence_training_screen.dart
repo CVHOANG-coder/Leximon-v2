@@ -273,7 +273,7 @@ class _SentenceTrainingScreenState
           if (!didPop) unawaited(_handleBack());
         },
         child: Scaffold(
-          backgroundColor: const Color(0xFFEAF7FF),
+          backgroundColor: const Color(0xFFFAEFF2),
           body: Stack(
             fit: StackFit.expand,
             children: [
@@ -403,7 +403,7 @@ class _Header extends StatelessWidget {
                   height: 48,
                   child: Icon(
                     Icons.arrow_back_ios_new_rounded,
-                    color: Color(0xFF123CA4),
+                    color: Color(0xFF471EDB),
                     size: 23,
                   ),
                 ),
@@ -419,7 +419,7 @@ class _Header extends StatelessWidget {
                 Text(
                   context.l10n.text('sentenceEyebrow'),
                   style: const TextStyle(
-                    color: Color(0xFF2466DE),
+                    color: Color(0xFF7D61E3),
                     fontSize: 11,
                     fontWeight: FontWeight.w900,
                     letterSpacing: 1.8,
@@ -429,7 +429,7 @@ class _Header extends StatelessWidget {
                 Text(
                   context.l10n.text('sentenceTrainingTitle'),
                   style: const TextStyle(
-                    color: Color(0xFF123AA3),
+                    color: Color(0xFF461EDA),
                     fontSize: 27,
                     height: 1,
                     fontWeight: FontWeight.w700,
@@ -446,7 +446,7 @@ class _Header extends StatelessWidget {
               child: Text(
                 '$current / $total',
                 style: const TextStyle(
-                  color: Color(0xFF155CFF),
+                  color: Color(0xFF7C5CFC),
                   fontSize: 13,
                   fontWeight: FontWeight.w900,
                 ),
@@ -607,7 +607,7 @@ class _IntroView extends StatelessWidget {
                           textAlign: TextAlign.center,
                           maxLines: 1,
                           style: const TextStyle(
-                            color: Color(0xFF123AA3),
+                            color: Color(0xFF461EDA),
                             fontSize: 27,
                             height: 1.05,
                             fontWeight: FontWeight.w700,
@@ -627,7 +627,7 @@ class _IntroView extends StatelessWidget {
                       ),
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF6E84A9),
+                        color: Color(0xFF8376A1),
                         fontSize: 15,
                         height: 1.5,
                         fontWeight: FontWeight.w500,
@@ -642,8 +642,8 @@ class _IntroView extends StatelessWidget {
                             label: context.l10n.text(
                               'sentenceConstructorSkill',
                             ),
-                            backgroundColor: Color(0xFFF1F7FF),
-                            borderColor: Color(0xFFD8E9FF),
+                            backgroundColor: Color(0xFFF6F4FC),
+                            borderColor: Color(0xFFE5E1F6),
                           ),
                         ),
                         const SizedBox(width: 10),
@@ -740,23 +740,23 @@ class _SentencePrimaryButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final isEnabled = onPressed != null;
     final radius = height >= 60 ? 28.0 : 24.0;
-    final foregroundColor = isEnabled ? Colors.white : const Color(0xFF929EAF);
+    final foregroundColor = isEnabled ? Colors.white : const Color(0xFF9C95AC);
     return Container(
       key: containerKey,
       width: double.infinity,
       height: height,
       decoration: BoxDecoration(
-        color: isEnabled ? null : const Color(0xFFD9DEE7),
+        color: isEnabled ? null : const Color(0xFFE3E1EA),
         gradient: isEnabled
             ? const LinearGradient(
-                colors: [Color(0xFF55BFFF), Color(0xFF075FF2)],
+                colors: [Color(0xFFFF6C8E), Color(0xFF6C46F5)],
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
               )
             : null,
         borderRadius: BorderRadius.circular(radius),
         border: Border.all(
-          color: isEnabled ? const Color(0xFF2B83F7) : const Color(0xFFE8EBF0),
+          color: isEnabled ? const Color(0xFF8C6EF6) : const Color(0xFFE9E7F1),
           width: isEnabled ? 2.5 : 1.5,
         ),
         boxShadow: isEnabled
@@ -852,7 +852,7 @@ class _IntroChip extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(icon, size: 24, color: const Color(0xFF2B70EB)),
+          Icon(icon, size: 24, color: const Color(0xFF876BED)),
           const SizedBox(width: 7),
           Flexible(
             child: FittedBox(
@@ -861,7 +861,7 @@ class _IntroChip extends StatelessWidget {
                 label,
                 maxLines: 1,
                 style: const TextStyle(
-                  color: Color(0xFF12347F),
+                  color: Color(0xFF4B3381),
                   fontSize: 14,
                   fontWeight: FontWeight.w800,
                 ),
@@ -1061,7 +1061,7 @@ class _QuestionCardTitle extends StatelessWidget {
       children: [
         const Text(
           '✦',
-          style: TextStyle(color: Color(0xFF8BC5FF), fontSize: 12, height: 1),
+          style: TextStyle(color: Color(0xFFB6A6F1), fontSize: 12, height: 1),
         ),
         const SizedBox(width: 9),
         Flexible(
@@ -1071,7 +1071,7 @@ class _QuestionCardTitle extends StatelessWidget {
             overflow: TextOverflow.ellipsis,
             textAlign: TextAlign.center,
             style: const TextStyle(
-              color: Color(0xFF176DEB),
+              color: Color(0xFF7C5CFC),
               fontSize: 10,
               fontWeight: FontWeight.w800,
               letterSpacing: 1.45,
@@ -1081,7 +1081,7 @@ class _QuestionCardTitle extends StatelessWidget {
         const SizedBox(width: 9),
         const Text(
           '✦',
-          style: TextStyle(color: Color(0xFF8BC5FF), fontSize: 12, height: 1),
+          style: TextStyle(color: Color(0xFFB6A6F1), fontSize: 12, height: 1),
         ),
       ],
     );
@@ -1107,7 +1107,7 @@ class _ProgressBar extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(99),
         child: ColoredBox(
-          color: const Color(0xFFD7E9FA),
+          color: const Color(0xFFE3DFF2),
           child: Align(
             alignment: Alignment.centerLeft,
             child: TweenAnimationBuilder<double>(
@@ -1129,7 +1129,11 @@ class _ProgressBar extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(99)),
                   gradient: LinearGradient(
-                    colors: [Color(0xFF155CFF), Color(0xFF66CFF4)],
+                    colors: [
+                      Color(0xFF7C5CFC),
+                      Color(0xFFC05CFF),
+                      Color(0xFFFF6F91),
+                    ],
                   ),
                 ),
               ),
@@ -1289,7 +1293,7 @@ class _AnswerArea extends StatelessWidget {
       constraints: const BoxConstraints(minHeight: 82),
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: const Color(0xFFF7F9FE),
+        color: const Color(0xFFF9F9FC),
         borderRadius: BorderRadius.circular(17),
         border: Border.all(color: AppColors.divider),
       ),
@@ -1561,7 +1565,7 @@ class _AnswerLine extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: correct ? const Color(0xFFF0F9F5) : const Color(0xFFF7F9FE),
+        color: correct ? const Color(0xFFF0F9F5) : const Color(0xFFF9F9FC),
         borderRadius: BorderRadius.circular(14),
       ),
       child: Column(
@@ -1646,7 +1650,7 @@ class _ExplanationPanel extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(13),
       decoration: BoxDecoration(
-        color: const Color(0xFFF1F5FF),
+        color: const Color(0xFFF6F4FC),
         borderRadius: BorderRadius.circular(14),
         border: Border.all(color: const Color(0x22155CFF)),
       ),

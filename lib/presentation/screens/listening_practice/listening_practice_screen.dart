@@ -200,7 +200,7 @@ class _ListeningHeader extends StatelessWidget {
             child: DecoratedBox(
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Color(0xFFD9F3FF), Color(0xFFEDF5FF)],
+                  colors: [Color(0xFFF5E3E7), Color(0xFFF3F1FB)],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
@@ -256,7 +256,7 @@ class _ListeningHeader extends StatelessWidget {
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
-                    color: Color(0xFF52739A),
+                    color: Color(0xFF6C5C90),
                     fontSize: 11,
                     height: 1.4,
                     fontWeight: FontWeight.w500,
@@ -303,7 +303,7 @@ class _SearchField extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: .94),
         borderRadius: BorderRadius.circular(22),
-        border: Border.all(color: const Color(0xFFD7E5F7)),
+        border: Border.all(color: const Color(0xFFE2DEF0)),
         boxShadow: const [
           BoxShadow(
             color: Color(0x1F2A70B8),
@@ -347,7 +347,7 @@ class _SearchField extends StatelessWidget {
             decoration: BoxDecoration(
               color: AppColors.surfaceBlue,
               borderRadius: BorderRadius.circular(15),
-              border: Border.all(color: const Color(0xFFCFE0FA)),
+              border: Border.all(color: const Color(0xFFDBD3F8)),
             ),
             child: const Icon(
               Icons.tune_rounded,
@@ -405,7 +405,7 @@ class _FilterChip extends StatelessWidget {
     final shape = RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(18),
       side: BorderSide(
-        color: selected ? Colors.transparent : const Color(0xFFD5E2F4),
+        color: selected ? Colors.transparent : const Color(0xFFDBD3F8),
       ),
     );
     return Material(
@@ -457,7 +457,7 @@ class _FeaturedCourseCard extends StatelessWidget {
         clipBehavior: Clip.antiAlias,
         decoration: BoxDecoration(
           gradient: const LinearGradient(
-            colors: [Color(0xFFF8FCFF), Color(0xFFE9F2FF)],
+            colors: [Color(0xFFFAFAFD), Color(0xFFF1EEFA)],
             begin: Alignment.topCenter,
             end: Alignment.bottomRight,
           ),
@@ -491,9 +491,9 @@ class _FeaturedCourseCard extends StatelessWidget {
                       ),
                       gradient: LinearGradient(
                         colors: [
-                          Color(0xFF9FE3FF),
-                          Color(0xFFC8F1FF),
-                          Color(0xFFF8FCFF),
+                          Color(0xFFFF99B1),
+                          Color(0xFFF1D6DC),
+                          Color(0xFFFAFAFD),
                         ],
                         stops: [0, .62, 1],
                         begin: Alignment.centerLeft,
@@ -586,7 +586,7 @@ class _CourseCard extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.white.withValues(alpha: .92),
             borderRadius: BorderRadius.circular(22),
-            border: Border.all(color: const Color(0xFFE5ECF6)),
+            border: Border.all(color: const Color(0xFFE8E0F2)),
             boxShadow: const [
               BoxShadow(
                 color: Color(0x182A70B8),
@@ -697,7 +697,7 @@ class _CourseLessonCount extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Row(
     children: [
-      const Icon(Icons.menu_book_rounded, color: Color(0xFF52739A), size: 15),
+      const Icon(Icons.menu_book_rounded, color: Color(0xFF6C5C90), size: 15),
       const SizedBox(width: 4),
       Expanded(
         child: Text(
@@ -705,7 +705,7 @@ class _CourseLessonCount extends StatelessWidget {
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
           style: const TextStyle(
-            color: Color(0xFF52739A),
+            color: Color(0xFF6C5C90),
             fontSize: 10,
             fontWeight: FontWeight.w600,
           ),
@@ -782,7 +782,7 @@ class _CourseListArrow extends StatelessWidget {
     decoration: BoxDecoration(
       color: AppColors.surfaceBlue,
       shape: BoxShape.circle,
-      border: Border.all(color: const Color(0xFFE3ECFA)),
+      border: Border.all(color: const Color(0xFFEBE8F5)),
     ),
     child: const Icon(
       Icons.arrow_forward_rounded,

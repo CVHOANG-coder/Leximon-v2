@@ -96,7 +96,7 @@ class _LevelSelectionScreenState extends ConsumerState<LevelSelectionScreen>
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFF061D4C),
+        backgroundColor: const Color(0xFF3B2B5D),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -264,7 +264,7 @@ class _LevelSelectionPanel extends StatelessWidget {
     _LevelOptionData(
       level: LearningLanguageLevel.beginner,
       imageAsset: 'assets/images/onboarding/basic.png',
-      imageBackground: Color(0xFFE9F6FF),
+      imageBackground: Color(0xFFF9EFF1),
     ),
     _LevelOptionData(
       level: LearningLanguageLevel.intermediate,
@@ -283,7 +283,7 @@ class _LevelSelectionPanel extends StatelessWidget {
     return Container(
       width: double.infinity,
       decoration: const BoxDecoration(
-        color: Color(0xFFFBFDFF),
+        color: Color(0xFFFCFCFE),
         borderRadius: BorderRadius.vertical(top: Radius.circular(38)),
         boxShadow: [
           BoxShadow(
@@ -324,8 +324,8 @@ class _LevelSelectionPanel extends StatelessWidget {
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                             colors: isSaving
-                                ? const [Color(0xFF78A2FF), Color(0xFF8DB4FF)]
-                                : const [Color(0xFF0C55F2), Color(0xFF1576FF)],
+                                ? const [Color(0xFFA996EE), Color(0xFFB8A8F1)]
+                                : const [Color(0xFF724FF2), Color(0xFF7E5BFB)],
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
                           ),
@@ -452,16 +452,16 @@ class _LevelOptionCard extends StatelessWidget {
             decoration: BoxDecoration(
               gradient: selected
                   ? const LinearGradient(
-                      colors: [Color(0xFFF0F7FF), Color(0xFFF9FCFF)],
+                      colors: [Color(0xFFF5F3FC), Color(0xFFFBFAFE)],
                     )
                   : const LinearGradient(
-                      colors: [Color(0xFFFFFFFF), Color(0xFFFDFEFF)],
+                      colors: [Color(0xFFFFFFFF), Color(0xFFFEFDFF)],
                     ),
               borderRadius: BorderRadius.circular(22),
               border: Border.all(
                 color: selected
-                    ? const Color(0xFF9FC4FF)
-                    : const Color(0xFFE9EEF7),
+                    ? const Color(0xFFC4B7F3)
+                    : const Color(0xFFEEECF4),
                 width: selected ? 1.5 : 1,
               ),
               boxShadow: const [
@@ -497,7 +497,7 @@ class _LevelOptionCard extends StatelessWidget {
                       Text(
                         _levelLabel(context, option.level),
                         style: const TextStyle(
-                          color: Color(0xFF061D4C),
+                          color: Color(0xFF3B2B5D),
                           fontSize: 18,
                           height: 1.1,
                           fontWeight: FontWeight.w700,
@@ -510,7 +510,7 @@ class _LevelOptionCard extends StatelessWidget {
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(
-                          color: Color(0xFF66728F),
+                          color: Color(0xFF756C89),
                           fontSize: 13,
                           height: 1.38,
                           fontWeight: FontWeight.w500,
@@ -561,7 +561,7 @@ class _LevelRadio extends StatelessWidget {
         color: Colors.white,
         shape: BoxShape.circle,
         border: Border.all(
-          color: selected ? const Color(0xFF13BD2A) : const Color(0xFFD7DDE8),
+          color: selected ? const Color(0xFF13BD2A) : const Color(0xFFE3E1EA),
           width: 3,
         ),
       ),

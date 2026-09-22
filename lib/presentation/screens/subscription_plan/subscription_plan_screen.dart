@@ -50,7 +50,7 @@ class _SubscriptionPlanScreenState
       ),
       child: Scaffold(
         key: const ValueKey('subscription-screen'),
-        backgroundColor: const Color(0xFFF9FCFF),
+        backgroundColor: const Color(0xFFFBFAFE),
         body: Stack(
           children: [
             Positioned.fill(
@@ -97,7 +97,7 @@ class _SubscriptionPlanScreenState
     if (packages.isEmpty && catalogState.isLoading) {
       return const Padding(
         padding: EdgeInsets.symmetric(vertical: 64),
-        child: CircularProgressIndicator(color: Color(0xFF2271F5)),
+        child: CircularProgressIndicator(color: Color(0xFF7C5CFC)),
       );
     }
 
@@ -128,14 +128,14 @@ class _SubscriptionPlanScreenState
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.lock_rounded, color: Color(0xFF8391AA), size: 17),
+            const Icon(Icons.lock_rounded, color: Color(0xFF9188A5), size: 17),
             const SizedBox(width: 8),
             Flexible(
               child: Text(
                 context.l10n.text('saleSecurePayment'),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: Color(0xFF687897),
+                  color: Color(0xFF796F90),
                   fontSize: 13,
                   fontWeight: FontWeight.w500,
                 ),
@@ -384,7 +384,7 @@ class _TrialHeadline extends StatelessWidget {
                     TextSpan(text: context.l10n.text('subscriptionIn')),
                     TextSpan(
                       text: '$trialDays',
-                      style: const TextStyle(color: Color(0xFF1466EE)),
+                      style: const TextStyle(color: Color(0xFF7252EC)),
                     ),
                     TextSpan(text: context.l10n.text('subscriptionDaySuffix')),
                   ],
@@ -393,7 +393,7 @@ class _TrialHeadline extends StatelessWidget {
           key: const ValueKey('subscription-headline'),
           textAlign: TextAlign.center,
           style: const TextStyle(
-            color: Color(0xFF071735),
+            color: Color(0xFF282238),
             fontSize: 27,
             height: 1.15,
             fontWeight: FontWeight.w900,
@@ -405,7 +405,7 @@ class _TrialHeadline extends StatelessWidget {
           context.l10n.text('subscriptionHeadlineSubtitle'),
           textAlign: TextAlign.center,
           style: const TextStyle(
-            color: Color(0xFF526584),
+            color: Color(0xFF64597D),
             fontSize: 16,
             height: 1.3,
             fontWeight: FontWeight.w500,
@@ -459,12 +459,12 @@ class _SubscriptionPlanCard extends StatelessWidget {
               margin: EdgeInsets.only(top: topSpacing),
               padding: EdgeInsets.fromLTRB(12, 16, 12, 24),
               decoration: BoxDecoration(
-                color: selected ? Colors.white : const Color(0xFFFCFEFF),
+                color: selected ? Colors.white : const Color(0xFFFEFDFD),
                 borderRadius: BorderRadius.circular(22),
                 border: Border.all(
                   color: selected
-                      ? const Color(0xFF1D6AF2)
-                      : const Color(0xFFE5EDF7),
+                      ? const Color(0xFF7F60F2)
+                      : const Color(0xFFEBE9F3),
                   width: selected ? 2.5 : 1.1,
                 ),
                 boxShadow: [
@@ -499,7 +499,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: const TextStyle(
-                            color: Color(0xFF071735),
+                            color: Color(0xFF282238),
                             fontSize: 18,
                             height: 1.05,
                             fontWeight: FontWeight.w800,
@@ -511,7 +511,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(
-                              color: Color(0xFF7E8BA2),
+                              color: Color(0xFF8B839D),
                               fontSize: 16,
                               decoration: TextDecoration.lineThrough,
                               fontWeight: FontWeight.w600,
@@ -525,8 +525,8 @@ class _SubscriptionPlanCard extends StatelessWidget {
                             overflow: TextOverflow.ellipsis,
                             style: TextStyle(
                               color: selected
-                                  ? const Color(0xFF071735)
-                                  : const Color(0xFF657492),
+                                  ? const Color(0xFF282238)
+                                  : const Color(0xFF756B8C),
                               fontSize: 19,
                               fontWeight: FontWeight.w800,
                             ),
@@ -545,7 +545,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                               TextSpan(
                                 text: weeklyPrice,
                                 style: const TextStyle(
-                                  color: Color(0xFF2168E8),
+                                  color: Color(0xFF7F61EB),
                                   fontSize: 17,
                                   fontWeight: FontWeight.w800,
                                 ),
@@ -553,7 +553,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                               TextSpan(
                                 text: ' ${context.l10n.text('salePerWeek')}',
                                 style: const TextStyle(
-                                  color: Color(0xFF657492),
+                                  color: Color(0xFF756B8C),
                                   fontSize: 13,
                                   fontWeight: FontWeight.w600,
                                 ),
@@ -604,7 +604,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(14, 8, 20, 8),
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Color(0xFF3B8BFF), Color(0xFF1768EE)],
+                  colors: [Color(0xFF9B81FC), Color(0xFF7959EF)],
                 ),
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(19),
@@ -630,7 +630,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
               width: 38,
               height: 38,
               decoration: const BoxDecoration(
-                color: Color(0xFF2675F2),
+                color: Color(0xFF8668F2),
                 shape: BoxShape.circle,
               ),
               child: const Icon(
@@ -713,7 +713,7 @@ class _SubscriptionBenefitsCard extends StatelessWidget {
     decoration: BoxDecoration(
       color: Colors.white.withValues(alpha: .94),
       borderRadius: BorderRadius.circular(20),
-      border: Border.all(color: const Color(0xFFE2EBF7)),
+      border: Border.all(color: const Color(0xFFE9E7F2)),
       boxShadow: const [
         BoxShadow(
           color: Color(0x132D70B5),
@@ -766,7 +766,7 @@ class _SubscriptionBenefit extends StatelessWidget {
           label,
           maxLines: 3,
           style: const TextStyle(
-            color: Color(0xFF28446F),
+            color: Color(0xFF423562),
             fontSize: 11,
             height: 1.25,
             fontWeight: FontWeight.w500,
@@ -782,7 +782,7 @@ class _SubscriptionBenefitDivider extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-      Container(width: 1, height: 48, color: const Color(0xFFDDE6F1));
+      Container(width: 1, height: 48, color: const Color(0xFFE3E0EE));
 }
 
 class _SubscriptionStartButton extends StatelessWidget {
@@ -805,7 +805,7 @@ class _SubscriptionStartButton extends StatelessWidget {
       gradient: LinearGradient(
         colors: enabled
             ? const [Color(0xFF21D86A), Color(0xFF08B95C)]
-            : const [Color(0xFFB8CCE5), Color(0xFFB9DEDB)],
+            : const [Color(0xFFCDC7E3), Color(0xFFB9DEDB)],
       ),
       borderRadius: BorderRadius.circular(30),
       boxShadow: enabled
@@ -883,7 +883,7 @@ class _SubscriptionLoadError extends StatelessWidget {
         Text(
           context.l10n.text('subscriptionLoadError'),
           textAlign: TextAlign.center,
-          style: const TextStyle(color: Color(0xFF526584), fontSize: 15),
+          style: const TextStyle(color: Color(0xFF64597D), fontSize: 15),
         ),
         const SizedBox(height: 8),
         TextButton(onPressed: onRetry, child: Text(context.l10n.retry)),

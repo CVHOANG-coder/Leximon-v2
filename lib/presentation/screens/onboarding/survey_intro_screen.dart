@@ -54,11 +54,11 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.light,
         statusBarBrightness: Brightness.dark,
-        systemNavigationBarColor: Color(0xFF0870F9),
+        systemNavigationBarColor: Color(0xFF7C5CFC),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFF0870F9),
+        backgroundColor: const Color(0xFF7C5CFC),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -102,7 +102,7 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                         context.l10n.text('surveyIntroTitle'),
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          color: const Color(0xFF031B65),
+                          color: const Color(0xFF432E70),
                           fontSize: titleSize,
                           height: 1.08,
                           fontWeight: FontWeight.w800,
@@ -118,7 +118,7 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                         context.l10n.text('surveyIntroSubtitle'),
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          color: const Color(0xFF032263),
+                          color: const Color(0xFF493379),
                           fontSize: width < 430 ? 17 : 19,
                           height: 1.42,
                           fontWeight: FontWeight.w400,
@@ -139,9 +139,9 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                           decoration: BoxDecoration(
                             gradient: const LinearGradient(
                               colors: [
-                                Color(0xFFF9FCFF),
-                                Color(0xFFEAF6FF),
-                                Color(0xFFF9FCFF),
+                                Color(0xFFFBFAFE),
+                                Color(0xFFF1EFFA),
+                                Color(0xFFFBFAFE),
                               ],
                               begin: Alignment.centerLeft,
                               end: Alignment.centerRight,
@@ -174,7 +174,7 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                                 child: Text(
                                   context.l10n.continueLabel,
                                   style: const TextStyle(
-                                    color: Color(0xFF1263F4),
+                                    color: Color(0xFF7C5CFC),
                                     fontSize: 26,
                                     fontWeight: FontWeight.w700,
                                   ),

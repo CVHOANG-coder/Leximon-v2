@@ -357,12 +357,12 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                                   gradient: LinearGradient(
                                     colors: _isSaving
                                         ? const [
-                                            Color(0xFF78A2FF),
-                                            Color(0xFF8DB4FF),
+                                            Color(0xFFA996EE),
+                                            Color(0xFFB8A8F1),
                                           ]
                                         : const [
-                                            Color(0xFF0C4DE4),
-                                            Color(0xFF147BFF),
+                                            Color(0xFF6240DF),
+                                            Color(0xFF906FFF),
                                           ],
                                     begin: Alignment.centerLeft,
                                     end: Alignment.centerRight,
@@ -500,7 +500,7 @@ class _EditProfileTopBar extends StatelessWidget {
                 Text(
                   context.l10n.profileEyebrow,
                   style: const TextStyle(
-                    color: Color(0xFF52739A),
+                    color: Color(0xFF6C5C90),
                     fontSize: 9,
                     fontWeight: FontWeight.w800,
                     letterSpacing: 1,
@@ -525,7 +525,7 @@ class _EditProfileTopBar extends StatelessWidget {
             decoration: BoxDecoration(
               color: AppColors.surfaceBlue,
               borderRadius: BorderRadius.circular(15),
-              border: Border.all(color: const Color(0xFFD9E7FF)),
+              border: Border.all(color: const Color(0xFFE6E2F6)),
             ),
             child: const Icon(
               Icons.edit_outlined,
@@ -623,7 +623,7 @@ class _AvatarImage extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(radius),
         gradient: const LinearGradient(
-          colors: [Color(0xFF1D75FF), Color(0xFF064EE0)],
+          colors: [Color(0xFF7C5CFC), Color(0xFFC05CFF), Color(0xFFFF6F91)],
         ),
         boxShadow: const [
           BoxShadow(
@@ -681,11 +681,11 @@ class _ProfileField extends StatelessWidget {
         ),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(17),
-          borderSide: const BorderSide(color: Color(0xFFE3EAF4)),
+          borderSide: const BorderSide(color: Color(0xFFE8E6F1)),
         ),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(17),
-          borderSide: const BorderSide(color: Color(0xFFE3EAF4)),
+          borderSide: const BorderSide(color: Color(0xFFE8E6F1)),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(17),

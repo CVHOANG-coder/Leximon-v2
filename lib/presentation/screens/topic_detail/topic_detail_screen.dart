@@ -196,12 +196,12 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
               gradient: const LinearGradient(
-                colors: [Color(0xFFFFFFFF), Color(0xFFEAF1FF)],
+                colors: [Color(0xFFFFFFFF), Color(0xFFF1EFFA)],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               ),
               borderRadius: BorderRadius.circular(20),
-              border: Border.all(color: const Color(0xFFD2E0FA), width: 1.2),
+              border: Border.all(color: const Color(0xFFE0DBF1), width: 1.2),
               boxShadow: const [
                 BoxShadow(
                   color: Color(0x24155CFF),
@@ -376,8 +376,8 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                     'topicReviewMinimum',
                     values: {'count': TopicRepetitionService.minimumWordCount},
                   ),
-            color: const Color(0xFFF3F7FF),
-            iconBackground: const Color(0xFFE8F0FF),
+            color: const Color(0xFFF7F6FC),
+            iconBackground: const Color(0xFFF0EDFA),
             accentColor: AppColors.primary,
             isLoading: isLoading,
             onTap: canRepeat && !isLoading ? _openTopicRepetition : null,
@@ -509,7 +509,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(18),
-          border: Border.all(color: const Color(0xFFEDF1F7)),
+          border: Border.all(color: const Color(0xFFF0EEF6)),
         ),
         child: Row(
           children: [
@@ -556,9 +556,9 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
     return Container(
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
-        color: const Color(0xFFF0F6FF),
+        color: const Color(0xFFF5F3FC),
         borderRadius: BorderRadius.circular(22),
-        border: Border.all(color: const Color(0xFFDDE9FB)),
+        border: Border.all(color: const Color(0xFFE7E4F4)),
       ),
       child: Row(
         children: [
@@ -795,7 +795,7 @@ class _StatCard extends StatelessWidget {
     decoration: BoxDecoration(
       color: Colors.white,
       borderRadius: BorderRadius.circular(20),
-      border: Border.all(color: const Color(0xFFEDF1F7)),
+      border: Border.all(color: const Color(0xFFF0EEF6)),
       boxShadow: const [
         BoxShadow(
           color: Color(0x0F27477F),
@@ -846,7 +846,7 @@ class _SectionHeading extends StatelessWidget {
       Text(
         kicker.toUpperCase(),
         style: const TextStyle(
-          color: Color(0xFF7990B0),
+          color: Color(0xFF8D81A8),
           fontSize: 9,
           fontWeight: FontWeight.w800,
           letterSpacing: 1.1,
@@ -891,9 +891,9 @@ class _ActionItem extends StatelessWidget {
   Widget build(BuildContext context) {
     final isDisabled = onTap == null && !isLoading;
     final foregroundColor = isDisabled
-        ? const Color(0xFF8290A5)
+        ? const Color(0xFF8E87A0)
         : AppColors.textPrimary;
-    final stateColor = isDisabled ? const Color(0xFF95A3B7) : accentColor;
+    final stateColor = isDisabled ? const Color(0xFFA19AB2) : accentColor;
 
     return AnimatedContainer(
       duration: const Duration(milliseconds: 180),
@@ -911,12 +911,12 @@ class _ActionItem extends StatelessWidget {
               ],
       ),
       child: Material(
-        color: isDisabled ? const Color(0xFFF1F4F8) : color,
+        color: isDisabled ? const Color(0xFFF3F2F7) : color,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
           side: BorderSide(
             color: isDisabled
-                ? const Color(0xFFDCE3ED)
+                ? const Color(0xFFE2E0EB)
                 : accentColor.withValues(alpha: .55),
             width: isDisabled ? 1 : 1.4,
           ),
@@ -934,12 +934,12 @@ class _ActionItem extends StatelessWidget {
                   padding: const EdgeInsets.all(6),
                   decoration: BoxDecoration(
                     color: isDisabled
-                        ? const Color(0xFFE7ECF3)
+                        ? const Color(0xFFEAE8F2)
                         : iconBackground,
                     borderRadius: BorderRadius.circular(16),
                     border: Border.all(
                       color: isDisabled
-                          ? const Color(0xFFD9E0EA)
+                          ? const Color(0xFFE3E0EB)
                           : accentColor.withValues(alpha: .18),
                     ),
                   ),
@@ -949,7 +949,7 @@ class _ActionItem extends StatelessWidget {
                     fit: BoxFit.contain,
                     colorFilter: isDisabled
                         ? const ColorFilter.mode(
-                            Color(0xFF91A0B4),
+                            Color(0xFF9D96AF),
                             BlendMode.srcIn,
                           )
                         : null,
@@ -973,7 +973,7 @@ class _ActionItem extends StatelessWidget {
                         description,
                         style: TextStyle(
                           color: isDisabled
-                              ? const Color(0xFF9AA7B9)
+                              ? const Color(0xFFA59EB5)
                               : AppColors.textSecondary,
                           fontSize: 10,
                           height: 1.4,
@@ -1046,7 +1046,7 @@ class _RepetitionRequirement extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: const Color(0xFFF7F9FC),
+        color: const Color(0xFFF9F8FB),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -1085,7 +1085,7 @@ class _RepetitionRequirement extends StatelessWidget {
             child: LinearProgressIndicator(
               value: progress,
               minHeight: 6,
-              backgroundColor: const Color(0xFFE3E9F3),
+              backgroundColor: const Color(0xFFE8E5F1),
               color: AppColors.primary,
             ),
           ),

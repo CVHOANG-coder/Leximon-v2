@@ -1029,7 +1029,7 @@ class _PracticeTopBar extends StatelessWidget {
                   Text(
                     kicker,
                     style: const TextStyle(
-                      color: Color(0xFF176DEB),
+                      color: Color(0xFF7C5CFC),
                       fontSize: 10,
                       fontWeight: FontWeight.w800,
                       letterSpacing: 2.1,
@@ -1081,7 +1081,7 @@ class _PracticeProgress extends StatelessWidget {
                 child: Text(
                   label,
                   style: const TextStyle(
-                    color: Color(0xFF176DEB),
+                    color: Color(0xFF7C5CFC),
                     fontSize: 13,
                     fontWeight: FontWeight.w800,
                   ),
@@ -1090,7 +1090,7 @@ class _PracticeProgress extends StatelessWidget {
               Text(
                 '$current / $total',
                 style: const TextStyle(
-                  color: Color(0xFF176DEB),
+                  color: Color(0xFF7C5CFC),
                   fontSize: 13,
                   fontWeight: FontWeight.w800,
                 ),
@@ -1110,7 +1110,7 @@ class _PracticeProgress extends StatelessWidget {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(99),
               child: ColoredBox(
-                color: const Color(0xFFD7E9FA),
+                color: const Color(0xFFE3DFF2),
                 child: Align(
                   alignment: Alignment.centerLeft,
                   child: TweenAnimationBuilder<double>(
@@ -1134,7 +1134,11 @@ class _PracticeProgress extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(99)),
                         gradient: LinearGradient(
-                          colors: [Color(0xFF155CFF), Color(0xFF66CFF4)],
+                          colors: [
+                            Color(0xFF7C5CFC),
+                            Color(0xFFC05CFF),
+                            Color(0xFFFF6F91),
+                          ],
                         ),
                       ),
                     ),
@@ -1200,7 +1204,7 @@ class _PracticeIntroCard extends StatelessWidget {
                       context.l10n.text('reviewIntroBody'),
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF5679B2),
+                        color: Color(0xFF7763A5),
                         fontSize: 12,
                         height: 1.55,
                       ),
@@ -1243,7 +1247,7 @@ class _IntroDashedDivider extends StatelessWidget {
               const SizedBox(
                 width: dashWidth,
                 height: 1,
-                child: ColoredBox(color: Color(0xFFBBD6F5)),
+                child: ColoredBox(color: Color(0xFFD1C7F6)),
               ),
           ],
         );
@@ -1264,9 +1268,9 @@ class _IntroWordRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 15),
       alignment: Alignment.centerLeft,
       decoration: BoxDecoration(
-        color: const Color(0xFFF8FBFF),
+        color: const Color(0xFFFAFAFD),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFFD7E7F8)),
+        border: Border.all(color: const Color(0xFFE2DEF1)),
       ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -1287,7 +1291,7 @@ class _IntroWordRow extends StatelessWidget {
           Text(
             word.translation,
             textAlign: TextAlign.left,
-            style: const TextStyle(color: Color(0xFF5679B2), fontSize: 15),
+            style: const TextStyle(color: Color(0xFF7763A5), fontSize: 15),
           ),
         ],
       ),
@@ -1307,12 +1311,12 @@ class _StartPracticeButton extends StatelessWidget {
       height: 58,
       decoration: BoxDecoration(
         gradient: const LinearGradient(
-          colors: [Color(0xFF4B94FF), Color(0xFF1C6FF1)],
+          colors: [Color(0xFFA890FC), Color(0xFF7E5EF1)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFF1564EE), width: 1.2),
+        border: Border.all(color: const Color(0xFF7857EE), width: 1.2),
         boxShadow: const [
           BoxShadow(
             color: Color(0x3D1769EA),
@@ -1464,7 +1468,7 @@ class _ListeningChoiceCard extends StatelessWidget {
                       context.l10n.text('reviewChooseCorrectAudio'),
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF7D8EA8),
+                        color: Color(0xFF8C83A2),
                         fontSize: 12,
                         height: 1.45,
                         fontWeight: FontWeight.w600,
@@ -1490,7 +1494,7 @@ class _ListeningChoiceCard extends StatelessWidget {
                       question.word.translation,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF6E83A1),
+                        color: Color(0xFF80759A),
                         fontSize: 19,
                       ),
                     ),
@@ -1501,13 +1505,13 @@ class _ListeningChoiceCard extends StatelessWidget {
                         vertical: 10,
                       ),
                       decoration: BoxDecoration(
-                        color: const Color(0xFFF3F7FC),
+                        color: const Color(0xFFF6F5FA),
                         borderRadius: BorderRadius.circular(16),
                       ),
                       child: Text(
                         status,
                         style: const TextStyle(
-                          color: Color(0xFF5C7493),
+                          color: Color(0xFF70648B),
                           fontSize: 12,
                           fontWeight: FontWeight.w800,
                         ),
@@ -1621,7 +1625,7 @@ class _ListeningAudioOption extends StatelessWidget {
           constraints: const BoxConstraints(minHeight: 84),
           padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(
-            color: background == null ? const Color(0xFFF8FBFF) : null,
+            color: background == null ? const Color(0xFFFAFAFD) : null,
             gradient: background,
             borderRadius: BorderRadius.circular(22),
             border: Border.all(
@@ -1629,7 +1633,7 @@ class _ListeningAudioOption extends StatelessWidget {
                   ? Colors.transparent
                   : selected
                   ? const Color(0x29155CFF)
-                  : const Color(0xFFE7EEF8),
+                  : const Color(0xFFEDEBF4),
               width: selected ? 2 : 1,
             ),
             boxShadow: const [
@@ -1649,7 +1653,7 @@ class _ListeningAudioOption extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: highlighted
                       ? const Color(0x2EFFFFFF)
-                      : const Color(0xFFEAF1FF),
+                      : const Color(0xFFF1EFFA),
                   borderRadius: BorderRadius.circular(18),
                 ),
                 child: Icon(
@@ -1682,7 +1686,7 @@ class _ListeningAudioOption extends StatelessWidget {
                       style: TextStyle(
                         color: highlighted
                             ? const Color(0xD6FFFFFF)
-                            : const Color(0xFF7185A2),
+                            : const Color(0xFF82789B),
                         fontSize: 11,
                       ),
                     ),
@@ -1720,7 +1724,7 @@ class _AudioWave extends StatelessWidget {
               decoration: BoxDecoration(
                 color: highlighted
                     ? const Color(0xC7FFFFFF)
-                    : const Color(0xFF8BB7FF),
+                    : const Color(0xFFB6A6F1),
                 borderRadius: BorderRadius.circular(99),
               ),
             ),
@@ -1801,7 +1805,7 @@ class _SpeakingCard extends StatelessWidget {
                       context.l10n.text('reviewPronounceWord'),
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF7D8EA8),
+                        color: Color(0xFF8C83A2),
                         fontSize: 14,
                         height: 1.3,
                         fontWeight: FontWeight.w700,
@@ -1846,8 +1850,8 @@ class _SpeakingCard extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: isRecording
-                            ? const Color(0xFF3B86D8)
-                            : const Color(0xFF8B9AB0),
+                            ? const Color(0xFF8A71E4)
+                            : const Color(0xFF9890AB),
                         fontSize: 17,
                         height: 1.35,
                         fontWeight: FontWeight.w600,
@@ -1878,9 +1882,9 @@ class _SpeakingCard extends StatelessWidget {
                         width: double.infinity,
                         padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
                         decoration: BoxDecoration(
-                          color: const Color(0xFFF3F7FF),
+                          color: const Color(0xFFF7F6FC),
                           borderRadius: BorderRadius.circular(16),
-                          border: Border.all(color: const Color(0xFFDCE8F8)),
+                          border: Border.all(color: const Color(0xFFE6E2F2)),
                         ),
                         child: Text(
                           recognizedText,
@@ -1958,9 +1962,9 @@ class _SpeakingCard extends StatelessWidget {
             child: OutlinedButton(
               onPressed: onSkip,
               style: OutlinedButton.styleFrom(
-                foregroundColor: const Color(0xFF3B68B5),
-                backgroundColor: const Color(0xFFEAF2FF),
-                side: const BorderSide(color: Color(0xFFC9DCF6)),
+                foregroundColor: const Color(0xFF6A549C),
+                backgroundColor: const Color(0xFFF1EFFA),
+                side: const BorderSide(color: Color(0xFFDBD3F8)),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(18),
                 ),
@@ -2065,8 +2069,8 @@ class _SpeakingRecordButtonState extends State<_SpeakingRecordButton>
                     shape: BoxShape.circle,
                     color:
                         (active
-                                ? const Color(0xFF56D8FF)
-                                : const Color(0xFF56D8FF))
+                                ? const Color(0xFFFF6F91)
+                                : const Color(0xFFFF6F91))
                             .withValues(alpha: active ? .18 : .10),
                   ),
                 ),
@@ -2089,7 +2093,7 @@ class _SpeakingRecordButtonState extends State<_SpeakingRecordButton>
                   gradient: LinearGradient(
                     colors: submitted
                         ? const [Color(0xFF18B865), Color(0xFF28CE52)]
-                        : const [Color(0xFF5EC3FF), Color(0xFF489EEC)],
+                        : const [Color(0xFFFF7595), Color(0xFF9D87EF)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -2167,7 +2171,7 @@ class _ChoiceOfFourListeningCard extends StatelessWidget {
                       context.l10n.text('reviewListenChooseTranslation'),
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF7D8EA8),
+                        color: Color(0xFF8C83A2),
                         fontSize: 14,
                         height: 1.3,
                         fontWeight: FontWeight.w700,
@@ -2283,11 +2287,11 @@ class _ReviewSlowAudioButtonState extends State<_ReviewSlowAudioButton>
           height: 62,
           decoration: BoxDecoration(
             color: _isPlaying
-                ? const Color(0xFFE0ECFF)
-                : const Color(0xFFF0F5FF),
+                ? const Color(0xFFEBE7F8)
+                : const Color(0xFFF5F3FC),
             borderRadius: BorderRadius.circular(21),
             border: Border.all(
-              color: _isPlaying ? AppColors.primary : const Color(0xFFDCE8FF),
+              color: _isPlaying ? AppColors.primary : const Color(0xFFE8E4F7),
             ),
             boxShadow: _isPlaying
                 ? const [
@@ -2325,7 +2329,7 @@ class _ReviewSlowAudioButtonState extends State<_ReviewSlowAudioButton>
                 style: TextStyle(
                   color: _isPlaying
                       ? AppColors.primary
-                      : const Color(0xFF3B68B5),
+                      : const Color(0xFF6A549C),
                   fontSize: 8,
                   fontWeight: FontWeight.w800,
                 ),
@@ -2438,9 +2442,9 @@ class _CannotHearButton extends StatelessWidget {
       child: OutlinedButton(
         onPressed: onPressed,
         style: OutlinedButton.styleFrom(
-          foregroundColor: const Color(0xFF3B68B5),
-          backgroundColor: const Color(0xFFEAF2FF),
-          side: const BorderSide(color: Color(0xFFC9DCF6)),
+          foregroundColor: const Color(0xFF6A549C),
+          backgroundColor: const Color(0xFFF1EFFA),
+          side: const BorderSide(color: Color(0xFFDBD3F8)),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(18),
           ),
@@ -2491,17 +2495,17 @@ class _ListeningTranslationOption extends StatelessWidget {
         ? const Color(0xFFEAFBF1)
         : showWrong
         ? const Color(0xFFFFF0ED)
-        : const Color(0xFFF5F9FF);
+        : const Color(0xFFF8F7FD);
     final border = showCorrect
         ? const Color(0xFFBDEED1)
         : showWrong
         ? const Color(0xFFF5CEC7)
-        : const Color(0xFFE1EAF6);
+        : const Color(0xFFE8E6F1);
     final accent = showCorrect
         ? const Color(0xFF18B865)
         : showWrong
         ? const Color(0xFFEC5B42)
-        : const Color(0xFFEDF4FF);
+        : const Color(0xFFF3F1FB);
     final textColor = showCorrect
         ? const Color(0xFF168A5A)
         : showWrong
@@ -2511,7 +2515,7 @@ class _ListeningTranslationOption extends StatelessWidget {
         ? const Color(0xFF39916D)
         : showWrong
         ? const Color(0xFFC16559)
-        : const Color(0xFF7488A4);
+        : const Color(0xFF857B9D);
 
     return Semantics(
       button: !answered,
@@ -2555,7 +2559,7 @@ class _ListeningTranslationOption extends StatelessWidget {
                     style: TextStyle(
                       color: showCorrect || showWrong
                           ? Colors.white
-                          : const Color(0xFF155CFF),
+                          : const Color(0xFF7C5CFC),
                       fontSize: 14,
                       fontWeight: FontWeight.w800,
                     ),
@@ -2607,7 +2611,7 @@ class _ListeningTranslationOption extends StatelessWidget {
                         ? const Color(0xFF18B865)
                         : showWrong
                         ? const Color(0xFFEC5B42)
-                        : const Color(0xFF84A7D4),
+                        : const Color(0xFFA293C5),
                     size: 24,
                   ),
                 ),
@@ -2647,7 +2651,7 @@ class _ChoiceOfFourCard extends StatelessWidget {
     return Container(
       clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
-        color: const Color(0xFFF7FAFF),
+        color: const Color(0xFFF8F5FF),
         borderRadius: BorderRadius.circular(30),
         border: Border.all(color: const Color(0x1208397A)),
         boxShadow: const [
@@ -2679,7 +2683,7 @@ class _ChoiceOfFourCard extends StatelessWidget {
                               prompt,
                               textAlign: TextAlign.center,
                               style: const TextStyle(
-                                color: Color(0xFF7D8EA8),
+                                color: Color(0xFF8C83A2),
                                 fontSize: 12,
                                 height: 1.45,
                                 fontWeight: FontWeight.w600,
@@ -2707,7 +2711,7 @@ class _ChoiceOfFourCard extends StatelessWidget {
                                 question.word.transliteration,
                                 textAlign: TextAlign.center,
                                 style: const TextStyle(
-                                  color: Color(0xFF6E83A1),
+                                  color: Color(0xFF80759A),
                                   fontSize: 12,
                                 ),
                               ),
@@ -2727,7 +2731,7 @@ class _ChoiceOfFourCard extends StatelessWidget {
                       style: IconButton.styleFrom(
                         fixedSize: const Size(44, 44),
                         padding: EdgeInsets.zero,
-                        backgroundColor: const Color(0xFFEDF3FF),
+                        backgroundColor: const Color(0xFFF0EBFF),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15),
                         ),
@@ -2749,7 +2753,7 @@ class _ChoiceOfFourCard extends StatelessWidget {
                     selectedAnswer == null ? 'chooseOneAnswer' : 'reviewResult',
                   ),
                   style: const TextStyle(
-                    color: Color(0xFF7589A5),
+                    color: Color(0xFF867C9E),
                     fontSize: 10,
                     fontWeight: FontWeight.w800,
                     letterSpacing: 1.2,
@@ -2818,17 +2822,17 @@ class _AnswerOption extends StatelessWidget {
         ? const Color(0xFFE9FBF2)
         : showWrong
         ? const Color(0xFFFFF0EE)
-        : const Color(0xFFF7FAFF);
+        : const Color(0xFFF8F5FF);
     final itemBorder = showCorrect
         ? const Color(0xFFC8F0DD)
         : showWrong
         ? const Color(0xFFF5D1CC)
-        : const Color(0xFFE5EDF8);
+        : const Color(0xFFECE9F4);
     final accent = showCorrect
         ? const Color(0xFF20BF78)
         : showWrong
         ? const Color(0xFFE85B49)
-        : const Color(0xFFEAF1FF);
+        : const Color(0xFFF1EFFA);
     final primaryText = showCorrect
         ? const Color(0xFF128356)
         : showWrong
@@ -2838,7 +2842,7 @@ class _AnswerOption extends StatelessWidget {
         ? const Color(0xFF39916D)
         : showWrong
         ? const Color(0xFFC16559)
-        : const Color(0xFF8394AB);
+        : const Color(0xFF9189A5);
 
     return Semantics(
       button: !answered,
@@ -2882,7 +2886,7 @@ class _AnswerOption extends StatelessWidget {
                     style: TextStyle(
                       color: showCorrect || showWrong
                           ? Colors.white
-                          : const Color(0xFF155CFF),
+                          : const Color(0xFF7C5CFC),
                       fontSize: 13,
                       fontWeight: FontWeight.w800,
                     ),
@@ -2940,7 +2944,7 @@ class _AnswerOption extends StatelessWidget {
                       ? const SizedBox.shrink()
                       : const Icon(
                           Icons.chevron_right_rounded,
-                          color: Color(0xFF8DA2BE),
+                          color: Color(0xFF9E94B7),
                           size: 20,
                         ),
                 ),
@@ -3051,7 +3055,7 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
         child: Text(
           context.l10n.text('reviewNoCharactersSelected'),
           style: const TextStyle(
-            color: Color(0xFFB1BFD2),
+            color: Color(0xFFC2BED2),
             fontSize: 20,
             fontWeight: FontWeight.w700,
           ),
@@ -3119,7 +3123,7 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                     Text(
                       context.l10n.text('reviewEnterTranslation'),
                       style: const TextStyle(
-                        color: Color(0xFF7D90AC),
+                        color: Color(0xFF8E84A5),
                         fontSize: 11,
                         fontWeight: FontWeight.w700,
                         letterSpacing: 1.2,
@@ -3133,7 +3137,7 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                     Text(
                       description,
                       style: const TextStyle(
-                        color: Color(0xFF7E90AB),
+                        color: Color(0xFF8E84A5),
                         fontSize: 12,
                         height: 1.45,
                       ),
@@ -3150,11 +3154,11 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                       : Icons.lock_outline_rounded,
                   size: 22,
                 ),
-                color: const Color(0xFF1971FF),
+                color: const Color(0xFF7C5CFC),
                 style: IconButton.styleFrom(
                   fixedSize: const Size(42, 42),
                   padding: EdgeInsets.zero,
-                  backgroundColor: const Color(0xFFEDF4FF),
+                  backgroundColor: const Color(0xFFF3F1FB),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(14),
                   ),
@@ -3176,7 +3180,7 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                     child: Text(
                       answerLabel,
                       style: const TextStyle(
-                        color: Color(0xFF7D90AC),
+                        color: Color(0xFF8E84A5),
                         fontSize: 11,
                         fontWeight: FontWeight.w700,
                         letterSpacing: 1.1,
@@ -3189,13 +3193,13 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                       onPressed: input.isEmpty ? null : onRemoveCharacter,
                       tooltip: context.l10n.text('reviewDeleteLastCharacter'),
                       icon: const Icon(Icons.backspace_outlined, size: 18),
-                      color: const Color(0xFF1971FF),
-                      disabledColor: const Color(0xFF1971FF),
+                      color: const Color(0xFF7C5CFC),
+                      disabledColor: const Color(0xFF7C5CFC),
                       style: IconButton.styleFrom(
                         fixedSize: const Size(36, 36),
                         padding: EdgeInsets.zero,
-                        backgroundColor: const Color(0xFFEFF4FF),
-                        disabledBackgroundColor: const Color(0xFFEFF4FF),
+                        backgroundColor: const Color(0xFFF5F3FB),
+                        disabledBackgroundColor: const Color(0xFFF5F3FB),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
@@ -3208,13 +3212,13 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                       vertical: 6,
                     ),
                     decoration: BoxDecoration(
-                      color: const Color(0xFFEFF4FF),
+                      color: const Color(0xFFF5F3FB),
                       borderRadius: BorderRadius.circular(99),
                     ),
                     child: Text(
                       answerMeta,
                       style: const TextStyle(
-                        color: Color(0xFF1971FF),
+                        color: Color(0xFF7C5CFC),
                         fontSize: 11,
                         fontWeight: FontWeight.w800,
                       ),
@@ -3239,7 +3243,7 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                       : 'reviewTypingWrongHint',
                 ),
                 style: const TextStyle(
-                  color: Color(0xFF93A2B7),
+                  color: Color(0xFFA098B2),
                   fontSize: 12,
                   height: 1.45,
                 ),
@@ -3266,7 +3270,7 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                             : 'reviewAvailableCharacters',
                       ),
                       style: const TextStyle(
-                        color: Color(0xFF7D90AC),
+                        color: Color(0xFF8E84A5),
                         fontSize: 11,
                         fontWeight: FontWeight.w700,
                         letterSpacing: 1.1,
@@ -3281,7 +3285,7 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                         ),
                         textAlign: TextAlign.right,
                         style: const TextStyle(
-                          color: Color(0xFF95A6BC),
+                          color: Color(0xFFA39AB7),
                           fontSize: 11,
                           fontWeight: FontWeight.w700,
                         ),
@@ -3319,7 +3323,7 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                   Text(
                     context.l10n.text('reviewCharacterSetHint'),
                     style: const TextStyle(
-                      color: Color(0xFF7E90AB),
+                      color: Color(0xFF8E84A5),
                       fontSize: 12,
                       height: 1.45,
                     ),
@@ -3489,9 +3493,9 @@ class _TypingCharacterChip extends StatelessWidget {
               height: 48,
               alignment: Alignment.center,
               decoration: BoxDecoration(
-                color: const Color(0xFFF3F7FF),
+                color: const Color(0xFFF7F6FC),
                 borderRadius: BorderRadius.circular(16),
-                border: Border.all(color: const Color(0xFFE0E9F8)),
+                border: Border.all(color: const Color(0xFFE8E5F3)),
                 boxShadow: const [
                   BoxShadow(
                     color: Color(0x12072762),
@@ -3522,7 +3526,7 @@ class _TypingCharacterChip extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 5),
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                    color: const Color(0xFF2F7CFF),
+                    color: const Color(0xFF9275FB),
                     borderRadius: BorderRadius.circular(99),
                     border: Border.all(color: Colors.white, width: 2),
                   ),
@@ -3569,9 +3573,9 @@ class _TypingSpaceChip extends StatelessWidget {
           height: 48,
           alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: const Color(0xFFF3F7FF),
+            color: const Color(0xFFF7F6FC),
             borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: const Color(0xFFE0E9F8)),
+            border: Border.all(color: const Color(0xFFE8E5F3)),
             boxShadow: const [
               BoxShadow(
                 color: Color(0x12072762),
@@ -3647,7 +3651,7 @@ class _TypingWrongAnswerSheet extends StatelessWidget {
               ],
             ),
             style: const TextStyle(
-              color: Color(0xFF7E90AB),
+              color: Color(0xFF8E84A5),
               fontSize: 13,
               height: 1.5,
             ),
@@ -3658,10 +3662,10 @@ class _TypingWrongAnswerSheet extends StatelessWidget {
             child: IconButton(
               onPressed: () => onPlay(question.word),
               icon: const Icon(Icons.volume_up_rounded),
-              color: const Color(0xFF1971FF),
+              color: const Color(0xFF7C5CFC),
               style: IconButton.styleFrom(
                 fixedSize: const Size(36, 36),
-                backgroundColor: const Color(0xFFEDF4FF),
+                backgroundColor: const Color(0xFFF3F1FB),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
@@ -3695,7 +3699,7 @@ class _QuestionAnswerDivider extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SizedBox(
       height: 2,
-      child: ColoredBox(color: Color(0xFFD7E1ED)),
+      child: ColoredBox(color: Color(0xFFE2DFEC)),
     );
   }
 }
@@ -3804,7 +3808,7 @@ class _ListeningWrongAnswerSheet extends StatelessWidget {
               ],
             ),
             style: const TextStyle(
-              color: Color(0xFF6F84A2),
+              color: Color(0xFF81769B),
               fontSize: 13,
               height: 1.5,
             ),
@@ -3863,7 +3867,7 @@ class _ListeningFeedbackCard extends StatelessWidget {
           Text(
             label.toUpperCase(),
             style: const TextStyle(
-              color: Color(0xFF8193AC),
+              color: Color(0xFF9087A6),
               fontSize: 12,
               fontWeight: FontWeight.w800,
               letterSpacing: 1.5,
@@ -3900,7 +3904,7 @@ class _ListeningFeedbackCard extends StatelessWidget {
           Text(
             word.writing,
             style: const TextStyle(
-              color: Color(0xFF7286A3),
+              color: Color(0xFF83799C),
               fontSize: 17,
               fontWeight: FontWeight.w600,
             ),
@@ -3939,7 +3943,7 @@ class _WrongAnswerSheet extends StatelessWidget {
           Text(
             context.l10n.text('reviewAudioDifferenceHint'),
             style: const TextStyle(
-              color: Color(0xFF6F84A2),
+              color: Color(0xFF81769B),
               fontSize: 13,
               height: 1.5,
             ),
@@ -3994,7 +3998,7 @@ class _FeedbackCard extends StatelessWidget {
           Text(
             label.toUpperCase(),
             style: const TextStyle(
-              color: Color(0xFF8193AC),
+              color: Color(0xFF9087A6),
               fontSize: 12,
               fontWeight: FontWeight.w700,
               letterSpacing: 1.5,
@@ -4031,7 +4035,7 @@ class _FeedbackCard extends StatelessWidget {
           Text(
             word.writing,
             style: const TextStyle(
-              color: Color(0xFF7286A3),
+              color: Color(0xFF83799C),
               fontSize: 17,
               fontWeight: FontWeight.w600,
             ),

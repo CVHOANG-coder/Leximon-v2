@@ -122,7 +122,7 @@ class _LevelAssessmentIntroScreenState extends State<LevelAssessmentIntroScreen>
                         onPressed: () =>
                             context.push('/onboarding/assessment-intro/level'),
                         style: TextButton.styleFrom(
-                          foregroundColor: const Color(0xFF155CFF),
+                          foregroundColor: const Color(0xFF7C5CFC),
                           textStyle: const TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.w500,
@@ -247,7 +247,7 @@ class _AssessmentPanel extends StatelessWidget {
       width: double.infinity,
       margin: const EdgeInsets.symmetric(horizontal: 10),
       decoration: const BoxDecoration(
-        color: Color(0xFFFBFDFF),
+        color: Color(0xFFFCFCFE),
         borderRadius: BorderRadius.all(Radius.circular(30)),
         boxShadow: [
           BoxShadow(
@@ -282,7 +282,7 @@ class _AssessmentPanel extends StatelessWidget {
                               child: DecoratedBox(
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
-                                  color: Color(0xFFEAF2FF),
+                                  color: Color(0xFFF1EFFA),
                                 ),
                               ),
                             ),
@@ -308,7 +308,7 @@ class _AssessmentPanel extends StatelessWidget {
                             top: 123,
                             child: _FourPointSparkle(
                               size: 14,
-                              color: Color(0xFF9DBFFF),
+                              color: Color(0xFFC3B6F3),
                             ),
                           ),
                           const Positioned(
@@ -327,7 +327,7 @@ class _AssessmentPanel extends StatelessWidget {
                             top: 33,
                             child: DecoratedBox(
                               decoration: BoxDecoration(
-                                color: Color(0xFFC4D9FF),
+                                color: Color(0xFFDBD3F8),
                                 shape: BoxShape.circle,
                               ),
                               child: SizedBox.square(dimension: 5),
@@ -338,7 +338,7 @@ class _AssessmentPanel extends StatelessWidget {
                             top: 13,
                             child: _FourPointSparkle(
                               size: 15,
-                              color: Color(0xFFA8C6FF),
+                              color: Color(0xFFCBBFF5),
                             ),
                           ),
                           const Positioned(
@@ -346,7 +346,7 @@ class _AssessmentPanel extends StatelessWidget {
                             top: 132,
                             child: DecoratedBox(
                               decoration: BoxDecoration(
-                                color: Color(0xFFCFDDF8),
+                                color: Color(0xFFDBD3F8),
                                 shape: BoxShape.circle,
                               ),
                               child: SizedBox.square(dimension: 6),
@@ -360,7 +360,7 @@ class _AssessmentPanel extends StatelessWidget {
                       context.l10n.assessmentTitle,
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        color: Color(0xFF061D4C),
+                        color: Color(0xFF3B2B5D),
                         fontSize: 23,
                         height: 1.1,
                         fontWeight: FontWeight.w700,
@@ -379,11 +379,11 @@ class _AssessmentPanel extends StatelessWidget {
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                             colors: isFinishing
-                                ? const [Color(0xFF78A2FF), Color(0xFF8DB4FF)]
+                                ? const [Color(0xFFA996EE), Color(0xFFB8A8F1)]
                                 : const [
-                                    Color(0xFF063AAE),
-                                    Color(0xFF0C54E7),
-                                    Color(0xFF1676FF),
+                                    Color(0xFF3D0EE8),
+                                    Color(0xFF6847E5),
+                                    Color(0xFF7F5CFB),
                                   ],
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
@@ -465,7 +465,7 @@ class _AssessmentBenefits extends StatelessWidget {
                   child: Text(
                     benefit,
                     style: const TextStyle(
-                      color: Color(0xFF082657),
+                      color: Color(0xFF36255D),
                       fontSize: 13,
                       height: 1.3,
                       fontWeight: FontWeight.w500,

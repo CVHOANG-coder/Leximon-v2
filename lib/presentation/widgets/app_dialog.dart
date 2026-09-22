@@ -70,7 +70,7 @@ class AppDialog extends StatelessWidget {
               message,
               textAlign: TextAlign.center,
               style: const TextStyle(
-                color: Color(0xFF7187AA),
+                color: Color(0xFF8579A2),
                 fontSize: 16,
                 height: 1.45,
                 fontWeight: FontWeight.w500,
@@ -152,16 +152,16 @@ class _DialogDivider extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const Expanded(child: Divider(color: Color(0xFFDCE8FA), height: 1)),
+        const Expanded(child: Divider(color: Color(0xFFE6E3F3), height: 1)),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 12),
           child: Icon(
             Icons.auto_awesome_rounded,
-            color: const Color(0xFFA8C9FF),
+            color: const Color(0xFFCBBFF5),
             size: 19,
           ),
         ),
-        const Expanded(child: Divider(color: Color(0xFFDCE8FA), height: 1)),
+        const Expanded(child: Divider(color: Color(0xFFE6E3F3), height: 1)),
       ],
     );
   }

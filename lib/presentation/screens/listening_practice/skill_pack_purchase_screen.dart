@@ -125,11 +125,11 @@ class _SkillPackPurchaseScreenState
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: Color(0xFFF3FBFF),
+        systemNavigationBarColor: Color(0xFFFCF6F7),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFFF3FBFF),
+        backgroundColor: const Color(0xFFFCF6F7),
         body: Stack(
           children: [
             SingleChildScrollView(
@@ -210,13 +210,13 @@ class _SkillPackPurchaseScreenState
                       const Icon(
                         Icons.lock_rounded,
                         size: 16,
-                        color: Color(0xFF8091B0),
+                        color: Color(0xFF9187A9),
                       ),
                       const SizedBox(width: 7),
                       Text(
                         context.l10n.text('skillPackSecure'),
                         style: const TextStyle(
-                          color: Color(0xFF6E7F9F),
+                          color: Color(0xFF7F7598),
                           fontSize: 13,
                           fontWeight: FontWeight.w500,
                         ),
@@ -295,7 +295,7 @@ class _SkillPackPurchaseScreenState
                   onPressed: () => Navigator.of(context).maybePop(),
                   icon: const Icon(
                     Icons.arrow_back_rounded,
-                    color: Color(0xFF132A58),
+                    color: Color(0xFF3B2966),
                   ),
                 ),
               ),
@@ -489,7 +489,7 @@ class _PackIntroCard extends StatelessWidget {
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
-                  color: Color(0xFF102955),
+                  color: Color(0xFF392762),
                   fontSize: 18,
                   height: 1.1,
                   fontWeight: FontWeight.w800,
@@ -501,7 +501,7 @@ class _PackIntroCard extends StatelessWidget {
                 maxLines: 4,
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
-                  color: Color(0xFF627596),
+                  color: Color(0xFF75698F),
                   fontSize: 13,
                   height: 1.45,
                   fontWeight: FontWeight.w500,
@@ -531,7 +531,7 @@ class _PackBenefit extends StatelessWidget {
         textAlign: TextAlign.center,
         maxLines: 3,
         style: const TextStyle(
-          color: Color(0xFF304A78),
+          color: Color(0xFF4A3B6D),
           fontSize: 13,
           height: 1.35,
           fontWeight: FontWeight.w500,
@@ -558,7 +558,7 @@ class _PackPriceCard extends StatelessWidget {
     decoration: BoxDecoration(
       color: Colors.white.withValues(alpha: .94),
       borderRadius: BorderRadius.circular(24),
-      border: Border.all(color: const Color(0xFFB7DFFF), width: 1.5),
+      border: Border.all(color: const Color(0xFFD5CCF7), width: 1.5),
     ),
     child: Column(
       children: [
@@ -571,7 +571,7 @@ class _PackPriceCard extends StatelessWidget {
                 child: Text(
                   context.l10n.text('skillPackOneTime'),
                   style: const TextStyle(
-                    color: Color(0xFF102955),
+                    color: Color(0xFF392762),
                     fontSize: 16,
                     fontWeight: FontWeight.w700,
                   ),
@@ -584,7 +584,7 @@ class _PackPriceCard extends StatelessWidget {
                 Text(
                   currentPrice,
                   style: const TextStyle(
-                    color: Color(0xFF1768E8),
+                    color: Color(0xFF7757EA),
                     fontSize: 27,
                     height: 1,
                     fontWeight: FontWeight.w700,
@@ -594,7 +594,7 @@ class _PackPriceCard extends StatelessWidget {
                   Text(
                     originalPrice!,
                     style: const TextStyle(
-                      color: Color(0xFF8291AD),
+                      color: Color(0xFF9188A7),
                       fontSize: 18,
                       fontWeight: FontWeight.w500,
                       decoration: TextDecoration.lineThrough,
@@ -668,8 +668,8 @@ class _PurchaseButton extends StatelessWidget {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: enabled
-              ? const [Color(0xFF55A9FF), Color(0xFF27D5C6)]
-              : const [Color(0xFFB5D0E8), Color(0xFFB7DFDD)],
+              ? const [Color(0xFFAD97FC), Color(0xFF27D5C6)]
+              : const [Color(0xFFCDC7E3), Color(0xFFB7DFDD)],
         ),
         borderRadius: BorderRadius.circular(32),
         boxShadow: enabled

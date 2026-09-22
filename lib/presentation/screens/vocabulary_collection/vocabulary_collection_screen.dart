@@ -47,7 +47,7 @@ class _VocabularyCollectionScreenState
     final totalWords = snapshot?.totalWordCount ?? 0;
 
     return Scaffold(
-      backgroundColor: const Color(0xFFEAF7FF),
+      backgroundColor: const Color(0xFFFAEFF2),
       body: Stack(
         children: [
           const Positioned.fill(child: _CollectionBackdrop()),
@@ -293,10 +293,10 @@ class _CollectionBackdrop extends StatelessWidget {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color(0xFFCDEBFF),
-                Color(0xFFE6F5FF),
-                Color(0xFFF7FCFF),
-                Color(0xFFEAF7FF),
+                Color(0xFFF2DAE0),
+                Color(0xFFF9ECEF),
+                Color(0xFFFDF9FA),
+                Color(0xFFFAEFF2),
               ],
               stops: [0, .28, .62, 1],
               begin: Alignment.topCenter,
@@ -638,7 +638,7 @@ class _CollectionSummary extends StatelessWidget {
                   vertical: 10,
                 ),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFF0F7FF),
+                  color: const Color(0xFFF5F3FC),
                   borderRadius: BorderRadius.circular(18),
                 ),
                 child: Column(
@@ -671,7 +671,7 @@ class _CollectionSummary extends StatelessWidget {
             child: LinearProgressIndicator(
               value: progress.clamp(0, 1),
               minHeight: 10,
-              backgroundColor: const Color(0xFFE2EEFC),
+              backgroundColor: const Color(0xFFEBE8F6),
               valueColor: const AlwaysStoppedAnimation(accent),
             ),
           ),
@@ -727,7 +727,7 @@ class _SearchShell extends StatelessWidget {
         height: 56,
         padding: const EdgeInsets.symmetric(horizontal: 14),
         decoration: BoxDecoration(
-          color: open ? Colors.white : const Color(0xFFF3F8FF),
+          color: open ? Colors.white : const Color(0xFFF7F6FC),
           borderRadius: BorderRadius.circular(18),
           border: Border.all(
             color: open ? const Color(0x3355A8EF) : const Color(0x0F0E3F91),
@@ -746,7 +746,7 @@ class _SearchShell extends StatelessWidget {
           children: [
             const Icon(
               Icons.search_rounded,
-              color: Color(0xFF8AA7D0),
+              color: Color(0xFFA394C6),
               size: 21,
             ),
             const SizedBox(width: 12),
@@ -766,7 +766,7 @@ class _SearchShell extends StatelessWidget {
                   decoration: InputDecoration(
                     hintText: context.l10n.text('searchWordList'),
                     hintStyle: const TextStyle(
-                      color: Color(0xFFA6B5C8),
+                      color: Color(0xFFB7B3C8),
                       fontSize: 14,
                     ),
                     border: InputBorder.none,
@@ -779,7 +779,7 @@ class _SearchShell extends StatelessWidget {
                 child: Text(
                   context.l10n.text('searchWordList'),
                   style: const TextStyle(
-                    color: Color(0xFF7D90AC),
+                    color: Color(0xFF8E84A5),
                     fontSize: 14,
                   ),
                 ),
@@ -789,7 +789,7 @@ class _SearchShell extends StatelessWidget {
                 onPressed: onClose,
                 icon: const Icon(
                   Icons.close_rounded,
-                  color: Color(0xFF8AA7D0),
+                  color: Color(0xFFA394C6),
                   size: 20,
                 ),
                 splashRadius: 18,
@@ -811,7 +811,7 @@ class _WordItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: const Color(0xFFF9FBFF),
+      color: const Color(0xFFFBFAFE),
       borderRadius: BorderRadius.circular(24),
       child: InkWell(
         onTap: () => onTap(entry),
@@ -821,7 +821,7 @@ class _WordItem extends StatelessWidget {
           child: Row(
             children: [
               Material(
-                color: const Color(0xFFEEF6FF),
+                color: const Color(0xFFF4F2FB),
                 borderRadius: BorderRadius.circular(18),
                 child: InkWell(
                   onTap: () =>
@@ -832,7 +832,7 @@ class _WordItem extends StatelessWidget {
                     height: 54,
                     child: Icon(
                       Icons.volume_up_rounded,
-                      color: Color(0xFF3CA0FF),
+                      color: Color(0xFF9C82FC),
                       size: 24,
                     ),
                   ),
@@ -870,7 +870,7 @@ class _WordItem extends StatelessWidget {
               ),
               const Icon(
                 Icons.chevron_right_rounded,
-                color: Color(0xFF9AB0CD),
+                color: Color(0xFFB1AACA),
                 size: 22,
               ),
             ],
@@ -889,9 +889,9 @@ class _EmptyCollection extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.fromLTRB(12, 22, 12, 24),
       decoration: BoxDecoration(
-        color: const Color(0xFFF5FAFF),
+        color: const Color(0xFFF8F7FD),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: const Color(0xFFDDEBFC), width: 1.2),
+        border: Border.all(color: const Color(0xFFE8E4F5), width: 1.2),
       ),
       child: Column(
         children: [
@@ -948,10 +948,10 @@ class _CollectionCta extends StatelessWidget {
             borderRadius: BorderRadius.circular(24),
             gradient: onPressed == null
                 ? const LinearGradient(
-                    colors: [Color(0xFFDCE7F5), Color(0xFFEAF0F8)],
+                    colors: [Color(0xFFE5E2EF), Color(0xFFEFEDF5)],
                   )
                 : const LinearGradient(
-                    colors: [Color(0xFF1658D3), Color(0xFF2481FA)],
+                    colors: [Color(0xFF6844E7), Color(0xFF8869F8)],
                   ),
             border: Border.all(color: Colors.white, width: 1.4),
             boxShadow: [
@@ -973,7 +973,7 @@ class _CollectionCta extends StatelessWidget {
                 Icon(
                   Icons.menu_book_rounded,
                   color: onPressed == null
-                      ? const Color(0xFF8EA2C0)
+                      ? const Color(0xFFA095B9)
                       : Colors.white,
                   size: 24,
                 ),
@@ -982,7 +982,7 @@ class _CollectionCta extends StatelessWidget {
                   label,
                   style: TextStyle(
                     color: onPressed == null
-                        ? const Color(0xFF8EA2C0)
+                        ? const Color(0xFFA095B9)
                         : Colors.white,
                     fontSize: 19,
                     fontWeight: FontWeight.w800,
@@ -1017,7 +1017,7 @@ class _WordDetailSheet extends StatelessWidget {
                     context.l10n.text('viewingWord'),
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: Color(0xFF55A8EF),
+                      color: Color(0xFFA894F2),
                       fontSize: 10,
                       fontWeight: FontWeight.w800,
                       letterSpacing: 1.1,
@@ -1028,7 +1028,7 @@ class _WordDetailSheet extends StatelessWidget {
                   onPressed: () => Navigator.of(context).pop(),
                   icon: const Icon(Icons.close_rounded),
                   style: IconButton.styleFrom(
-                    backgroundColor: const Color(0xFFF5F8FD),
+                    backgroundColor: const Color(0xFFF8F7FB),
                     foregroundColor: AppColors.textPrimary,
                   ),
                   tooltip: context.l10n.text('close'),
@@ -1138,9 +1138,9 @@ class _AudioButton extends StatelessWidget {
       button: true,
       label: label,
       child: Material(
-        color: const Color(0xFFF6FBFF),
+        color: const Color(0xFFF9F8FD),
         shape: CircleBorder(
-          side: const BorderSide(color: Color(0xFFBFE0FB), width: 3),
+          side: const BorderSide(color: Color(0xFFD8CFF7), width: 3),
         ),
         child: InkWell(
           onTap: onTap,
@@ -1148,7 +1148,7 @@ class _AudioButton extends StatelessWidget {
           child: SizedBox(
             width: size,
             height: size,
-            child: Icon(icon, color: const Color(0xFF55A8EF), size: 28),
+            child: Icon(icon, color: const Color(0xFFA894F2), size: 28),
           ),
         ),
       ),

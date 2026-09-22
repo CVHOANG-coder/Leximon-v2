@@ -281,7 +281,7 @@ class _ListeningExerciseScreenState
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: Color(0xFFE7EEF9),
+        systemNavigationBarColor: Color(0xFFEDEBF5),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
@@ -297,9 +297,9 @@ class _ListeningExerciseScreenState
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      Color(0xFFEAF6FF),
-                      Color(0xFFF9FCFF),
-                      Color(0xFFEAF3FF),
+                      Color(0xFFF1EFFA),
+                      Color(0xFFFBFAFE),
+                      Color(0xFFF1EFFA),
                     ],
                     stops: [0, .56, 1],
                   ),
@@ -327,7 +327,7 @@ class _ListeningExerciseScreenState
                   gradient: LinearGradient(
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
-                    colors: [Color(0x00F9FCFF), Color(0xFFF9FCFF)],
+                    colors: [Color(0x00F9FCFF), Color(0xFFFBFAFE)],
                   ),
                 ),
               ),
@@ -1297,7 +1297,7 @@ class _YoutubeVideoMeta extends StatelessWidget {
           //             maxLines: 1,
           //             overflow: TextOverflow.ellipsis,
           //             style: const TextStyle(
-          //               color: Color(0xFF6277A1),
+          //               color: Color(0xFF786B98),
           //               fontSize: 10,
           //               fontWeight: FontWeight.w500,
           //             ),
@@ -1324,7 +1324,7 @@ class _YoutubePrompt extends StatelessWidget {
         height: 48,
         padding: const EdgeInsets.all(4),
         decoration: const BoxDecoration(
-          color: Color(0xFFE8F3FF),
+          color: Color(0xFFF0EDFA),
           shape: BoxShape.circle,
         ),
         child: Image.asset('assets/images/practice_listen/owl_listener.png'),
@@ -1345,7 +1345,7 @@ class _YoutubePrompt extends StatelessWidget {
             Text(
               context.l10n.text('listeningTypeSubtitle'),
               style: const TextStyle(
-                color: Color(0xFF6277A1),
+                color: Color(0xFF786B98),
                 fontSize: 11,
                 fontWeight: FontWeight.w500,
               ),
@@ -1391,7 +1391,7 @@ class _YoutubeAnswerField extends StatelessWidget {
       counterText: '',
       hintText: 'Type what you hear...',
       hintStyle: const TextStyle(
-        color: Color(0xFF9AA6BE),
+        color: Color(0xFFA79FB9),
         fontSize: 16,
         fontWeight: FontWeight.w500,
       ),
@@ -1401,7 +1401,7 @@ class _YoutubeAnswerField extends StatelessWidget {
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(14),
         borderSide: BorderSide(
-          color: isIncorrect ? AppColors.orange : const Color(0xFF9FC8FF),
+          color: isIncorrect ? AppColors.orange : const Color(0xFFC4B7F3),
           width: 1.3,
         ),
       ),
@@ -1470,7 +1470,7 @@ class _YoutubeToolButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Material(
-    color: filled ? const Color(0xFFF1F6FF) : Colors.white,
+    color: filled ? const Color(0xFFF6F4FC) : Colors.white,
     borderRadius: BorderRadius.circular(12),
     child: InkWell(
       onTap: onTap,
@@ -1480,7 +1480,7 @@ class _YoutubeToolButton extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 11),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
-          border: filled ? null : Border.all(color: const Color(0xFFD6E4F8)),
+          border: filled ? null : Border.all(color: const Color(0xFFE2DEF0)),
         ),
         child: Row(
           mainAxisSize: MainAxisSize.min,
@@ -1580,7 +1580,7 @@ class _YoutubeActionButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final colors = success
         ? const [Color(0xFF62DC70), Color(0xFF16BE43)]
-        : const [Color(0xFF438EFF), Color(0xFF1760F2)];
+        : const [Color(0xFFA188FC), Color(0xFF7B5AF2)];
 
     return DecoratedBox(
       decoration: BoxDecoration(
@@ -1593,7 +1593,7 @@ class _YoutubeActionButton extends StatelessWidget {
             : const LinearGradient(
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
-                colors: [Color(0xFFF3F7FF), Color(0xFFEAF2FF)],
+                colors: [Color(0xFFF7F6FC), Color(0xFFF1EFFA)],
               ),
         borderRadius: BorderRadius.circular(14),
       ),
@@ -1744,7 +1744,7 @@ class _IpaExerciseCard extends StatelessWidget {
                   'Select the correct pronunciation for:',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Color(0xFF607FB4),
+                    color: Color(0xFF7E6CA8),
                     fontSize: 16,
                     fontWeight: FontWeight.w500,
                   ),
@@ -1764,7 +1764,7 @@ class _IpaExerciseCard extends StatelessWidget {
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF041D55),
+                    color: Color(0xFF342459),
                     fontSize: 45,
                     height: 1,
                     fontWeight: FontWeight.w800,
@@ -1809,8 +1809,8 @@ class _IpaExerciseCard extends StatelessWidget {
                   ? onCheck
                   : null,
               style: FilledButton.styleFrom(
-                disabledBackgroundColor: const Color(0xFFE8EDF5),
-                disabledForegroundColor: const Color(0xFFA8B5C9),
+                disabledBackgroundColor: const Color(0xFFECEAF3),
+                disabledForegroundColor: const Color(0xFFB9B4C9),
                 backgroundColor: const Color(0xFF2DC654),
                 foregroundColor: Colors.white,
                 shape: RoundedRectangleBorder(
@@ -1842,7 +1842,7 @@ class _IpaQuestionMark extends StatelessWidget {
     width: 25,
     height: 25,
     decoration: const BoxDecoration(
-      color: Color(0xFF82B9F1),
+      color: Color(0xFFA692ED),
       shape: BoxShape.circle,
     ),
     alignment: Alignment.center,
@@ -1872,7 +1872,7 @@ class _IpaAudioButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = large ? 58.0 : 48.0;
     return Material(
-      color: const Color(0xFFF3F8FF),
+      color: const Color(0xFFF7F6FC),
       shape: const CircleBorder(),
       child: InkWell(
         onTap: onTap,
@@ -1926,12 +1926,12 @@ class _IpaOptionTile extends StatelessWidget {
         ? const Color(0xFF35BF60)
         : isIncorrect
         ? const Color(0xFFFF3E6C)
-        : const Color(0xFF6DA8FF);
+        : const Color(0xFFA18CEC);
     final background = isCorrect
         ? const Color(0xFFF0FCF3)
         : isIncorrect
         ? const Color(0xFFFFF3F6)
-        : const Color(0xFFFBFDFF);
+        : const Color(0xFFFCFCFE);
 
     return AnimatedContainer(
       duration: const Duration(milliseconds: 180),
@@ -1942,7 +1942,7 @@ class _IpaOptionTile extends StatelessWidget {
         border: Border.all(
           color: selected
               ? accent.withValues(alpha: .45)
-              : const Color(0xFFDDE9F8),
+              : const Color(0xFFE6E3F2),
           width: selected ? 1.8 : 1.2,
         ),
         boxShadow: const [
@@ -1992,7 +1992,7 @@ class _IpaOptionTile extends StatelessWidget {
                         '/${option.phonetic}/',
                         maxLines: 1,
                         style: const TextStyle(
-                          color: Color(0xFF061D52),
+                          color: Color(0xFF332358),
                           fontSize: 27,
                           height: 1,
                           fontWeight: FontWeight.w700,
@@ -2005,7 +2005,7 @@ class _IpaOptionTile extends StatelessWidget {
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: const TextStyle(
-                            color: Color(0xFF718BB7),
+                            color: Color(0xFF8A7BAD),
                             fontSize: 15,
                             fontWeight: FontWeight.w500,
                           ),
@@ -2132,7 +2132,7 @@ class _ExerciseHeader extends StatelessWidget {
                 const Icon(
                   Icons.schedule_rounded,
                   size: 17,
-                  color: Color(0xFF6681AC),
+                  color: Color(0xFF7F70A2),
                 ),
                 const SizedBox(width: 6),
                 Expanded(
@@ -2141,7 +2141,7 @@ class _ExerciseHeader extends StatelessWidget {
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: const TextStyle(
-                      color: Color(0xFF6681AC),
+                      color: Color(0xFF7F70A2),
                       fontSize: 10,
                       fontWeight: FontWeight.w600,
                     ),
@@ -2457,7 +2457,7 @@ class _AnswerArea extends StatelessWidget {
             decoration: InputDecoration(
               hintText: 'Start typing here...',
               hintStyle: const TextStyle(
-                color: Color(0xFF98A6BE),
+                color: Color(0xFFA69DB9),
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
               ),
@@ -2468,7 +2468,7 @@ class _AnswerArea extends StatelessWidget {
                 borderSide: BorderSide(
                   color: state == _AnswerState.incorrect
                       ? AppColors.orange
-                      : const Color(0xFFD5DFEF),
+                      : const Color(0xFFE1DDEE),
                 ),
               ),
               focusedBorder: OutlineInputBorder(
@@ -2530,7 +2530,7 @@ class _AnswerArea extends StatelessWidget {
                       'Listen carefully and type exactly what you hear.',
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        color: Color(0xFF5873A0),
+                        color: Color(0xFF726296),
                         fontSize: 10,
                         fontWeight: FontWeight.w600,
                       ),
@@ -2638,7 +2638,7 @@ class _RevealedAnswer extends StatelessWidget {
           Text(
             translation!,
             style: const TextStyle(
-              color: Color(0xFF6681AC),
+              color: Color(0xFF7F70A2),
               fontSize: 14,
               fontWeight: FontWeight.w500,
             ),
@@ -2712,7 +2712,7 @@ class _CorrectionHint extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: .94),
         borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0xFFE8F0FA)),
+        border: Border.all(color: const Color(0xFFEEECF6)),
         boxShadow: const [
           BoxShadow(
             color: Color(0x142E72B8),
@@ -2736,7 +2736,7 @@ class _CorrectionHint extends StatelessWidget {
           ),
           const SizedBox(width: 8),
           Material(
-            color: const Color(0xFFF8FBFF),
+            color: const Color(0xFFFAFAFD),
             borderRadius: BorderRadius.circular(18),
             child: InkWell(
               onTap: onReveal,
@@ -2747,7 +2747,7 @@ class _CorrectionHint extends StatelessWidget {
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(18),
-                  border: Border.all(color: const Color(0xFFDCE8F8)),
+                  border: Border.all(color: const Color(0xFFE6E2F2)),
                 ),
                 child: Icon(
                   revealAll
@@ -2842,14 +2842,14 @@ class _ActionButton extends StatelessWidget {
             end: Alignment.bottomRight,
             colors: success
                 ? const [Color(0xFF62DC70), Color(0xFF16BE43)]
-                : const [Color(0xFF4A95FF), Color(0xFF0068F5)],
+                : const [Color(0xFFA78FFC), Color(0xFF663DFA)],
           )
         : LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
               Colors.white.withValues(alpha: .95),
-              const Color(0xFFF7FAFF).withValues(alpha: .9),
+              const Color(0xFFF8F5FF).withValues(alpha: .9),
             ],
           );
 

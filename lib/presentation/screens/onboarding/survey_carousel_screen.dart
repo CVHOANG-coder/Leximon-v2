@@ -191,11 +191,11 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.light,
         statusBarBrightness: Brightness.dark,
-        systemNavigationBarColor: Color(0xFF0870F9),
+        systemNavigationBarColor: Color(0xFF7C5CFC),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFF0870F9),
+        backgroundColor: const Color(0xFF7C5CFC),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -438,19 +438,19 @@ class _SurveyProgressIndicator extends StatelessWidget {
               height: 7,
               decoration: BoxDecoration(
                 color: currentPage == index
-                    ? const Color(0xFF77D4FF)
-                    : const Color(0xFF326DD1),
+                    ? const Color(0xFFFF8EA8)
+                    : const Color(0xFF7F64E1),
                 // ? usesDarkBackground
-                //       ? const Color(0xFF77D4FF)
-                //       : const Color(0xFF073FC8)
+                //       ? const Color(0xFFFF8EA8)
+                //       : const Color(0xFF4D20F1)
                 // : usesDarkBackground
-                // ? const Color(0xFF326DD1)
+                // ? const Color(0xFF7F64E1)
                 // : Colors.white.withValues(alpha: 0.42),
                 shape: BoxShape.circle,
                 boxShadow: currentPage == index && usesDarkBackground
                     ? const [
                         BoxShadow(
-                          color: Color(0xFF2A8EFF),
+                          color: Color(0xFF8E70FB),
                           blurRadius: 12,
                           spreadRadius: 2,
                         ),
@@ -547,7 +547,7 @@ class _AgeOptionCard extends StatelessWidget {
                 child: Text(
                   context.l10n.text(label),
                   style: const TextStyle(
-                    color: Color(0xFF061B62),
+                    color: Color(0xFF432E70),
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
                   ),
@@ -647,8 +647,8 @@ class _GoalOptionCard extends StatelessWidget {
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
                   color: selected
-                      ? const Color(0xFFCFE7FF)
-                      : const Color(0xFFE7F2FF),
+                      ? const Color(0xFFE0DAF4)
+                      : const Color(0xFFEFECFA),
                   borderRadius: const BorderRadius.horizontal(
                     left: Radius.circular(17),
                   ),
@@ -666,7 +666,7 @@ class _GoalOptionCard extends StatelessWidget {
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF061B62),
+                    color: Color(0xFF432E70),
                     fontSize: 15,
                     height: 1.25,
                     fontWeight: FontWeight.w600,
@@ -784,12 +784,12 @@ class _FrequencyOptionCard extends StatelessWidget {
           height: 84,
           decoration: BoxDecoration(
             color: selected
-                ? const Color(0xFFF0F9FF)
+                ? const Color(0xFFFBF4F6)
                 : Colors.white.withValues(alpha: 0.93),
             borderRadius: BorderRadius.circular(18),
             border: Border.all(
               color: selected
-                  ? const Color(0xFF1FD7FF)
+                  ? const Color(0xFFFF6F91)
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
@@ -811,7 +811,7 @@ class _FrequencyOptionCard extends StatelessWidget {
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
-                    colors: [Color(0xFF1E6FE9), Color(0xFF073CCB)],
+                    colors: [Color(0xFF7D5EEB), Color(0xFF4F23F2)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -819,7 +819,7 @@ class _FrequencyOptionCard extends StatelessWidget {
                     left: Radius.circular(17),
                   ),
                   border: selected
-                      ? Border.all(color: const Color(0xFF31E4FF), width: 1.5)
+                      ? Border.all(color: const Color(0xFFFF7897), width: 1.5)
                       : null,
                 ),
                 child: Image.asset(
@@ -835,7 +835,7 @@ class _FrequencyOptionCard extends StatelessWidget {
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF061B62),
+                    color: Color(0xFF432E70),
                     fontSize: 14.5,
                     height: 1.28,
                     fontWeight: FontWeight.w600,
@@ -948,12 +948,12 @@ class _LearningMethodCard extends StatelessWidget {
           height: 74,
           decoration: BoxDecoration(
             color: selected
-                ? const Color(0xFFF0F9FF)
+                ? const Color(0xFFFBF4F6)
                 : Colors.white.withValues(alpha: 0.93),
             borderRadius: BorderRadius.circular(18),
             border: Border.all(
               color: selected
-                  ? const Color(0xFF1FD7FF)
+                  ? const Color(0xFFFF6F91)
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
@@ -975,7 +975,7 @@ class _LearningMethodCard extends StatelessWidget {
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
-                    colors: [Color(0xFF1E6FE9), Color(0xFF073CCB)],
+                    colors: [Color(0xFF7D5EEB), Color(0xFF4F23F2)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -983,7 +983,7 @@ class _LearningMethodCard extends StatelessWidget {
                     left: Radius.circular(17),
                   ),
                   border: selected
-                      ? Border.all(color: const Color(0xFF31E4FF), width: 1.5)
+                      ? Border.all(color: const Color(0xFFFF7897), width: 1.5)
                       : null,
                 ),
                 child: Image.asset(
@@ -999,7 +999,7 @@ class _LearningMethodCard extends StatelessWidget {
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF061B62),
+                    color: Color(0xFF432E70),
                     fontSize: 14.5,
                     height: 1.25,
                     fontWeight: FontWeight.w600,
@@ -1106,12 +1106,12 @@ class _ResultTimelineCard extends StatelessWidget {
           height: 100,
           decoration: BoxDecoration(
             color: selected
-                ? const Color(0xFFF0F9FF)
+                ? const Color(0xFFFBF4F6)
                 : Colors.white.withValues(alpha: 0.93),
             borderRadius: BorderRadius.circular(18),
             border: Border.all(
               color: selected
-                  ? const Color(0xFF1FD7FF)
+                  ? const Color(0xFFFF6F91)
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
@@ -1133,7 +1133,7 @@ class _ResultTimelineCard extends StatelessWidget {
                 padding: const EdgeInsets.all(11),
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
-                    colors: [Color(0xFF2E85F9), Color(0xFF0B50DB)],
+                    colors: [Color(0xFF8F72F7), Color(0xFF6038F0)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -1141,7 +1141,7 @@ class _ResultTimelineCard extends StatelessWidget {
                     left: Radius.circular(17),
                   ),
                   border: selected
-                      ? Border.all(color: const Color(0xFF31E4FF), width: 1.5)
+                      ? Border.all(color: const Color(0xFFFF7897), width: 1.5)
                       : null,
                 ),
                 child: Image.asset(
@@ -1157,7 +1157,7 @@ class _ResultTimelineCard extends StatelessWidget {
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF061B62),
+                    color: Color(0xFF432E70),
                     fontSize: 15,
                     height: 1.3,
                     fontWeight: FontWeight.w600,
@@ -1271,12 +1271,12 @@ class _DailyStudyTimeCard extends StatelessWidget {
           height: 90,
           decoration: BoxDecoration(
             color: selected
-                ? const Color(0xFFF0F9FF)
+                ? const Color(0xFFFBF4F6)
                 : Colors.white.withValues(alpha: 0.93),
             borderRadius: BorderRadius.circular(18),
             border: Border.all(
               color: selected
-                  ? const Color(0xFF1FD7FF)
+                  ? const Color(0xFFFF6F91)
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
@@ -1298,7 +1298,7 @@ class _DailyStudyTimeCard extends StatelessWidget {
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
-                    colors: [Color(0xFF2E85F9), Color(0xFF0B50DB)],
+                    colors: [Color(0xFF8F72F7), Color(0xFF6038F0)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -1306,7 +1306,7 @@ class _DailyStudyTimeCard extends StatelessWidget {
                     left: Radius.circular(17),
                   ),
                   border: selected
-                      ? Border.all(color: const Color(0xFF31E4FF), width: 1.5)
+                      ? Border.all(color: const Color(0xFFFF7897), width: 1.5)
                       : null,
                 ),
                 child: Image.asset(
@@ -1320,7 +1320,7 @@ class _DailyStudyTimeCard extends StatelessWidget {
                 child: Text(
                   context.l10n.text(label),
                   style: const TextStyle(
-                    color: Color(0xFF061B62),
+                    color: Color(0xFF432E70),
                     fontSize: 20,
                     height: 1.2,
                     fontWeight: FontWeight.w600,
@@ -1485,7 +1485,7 @@ class _StudyHabitPageState extends State<_StudyHabitPage>
                     TextSpan(
                       text: context.l10n.text('surveyHabitHighlight'),
                       style: const TextStyle(
-                        color: Color(0xFF55A8FF),
+                        color: Color(0xFFAD97FC),
                         fontWeight: FontWeight.w800,
                       ),
                     ),
@@ -1528,7 +1528,7 @@ class _PreferredStudyTimePage extends StatefulWidget {
   final ValueChanged<double> onChanged;
 
   static const _timeLabelStyle = TextStyle(
-    color: Color(0xFFA8C8FF),
+    color: Color(0xFFCBBFF5),
     fontSize: 14.5,
     fontWeight: FontWeight.w500,
     shadows: [
@@ -1698,13 +1698,13 @@ class _PreferredStudyTimePageState extends State<_PreferredStudyTimePage>
                 _formatTime(widget.selectedMinutes),
                 key: const ValueKey('survey-preferred-time-value'),
                 style: const TextStyle(
-                  color: Color(0xFF8AC5FF),
+                  color: Color(0xFFB6A5F0),
                   fontSize: 43,
                   height: 1,
                   fontWeight: FontWeight.w700,
                   letterSpacing: 0.5,
                   shadows: [
-                    Shadow(color: Color(0xFF1B75FF), blurRadius: 16),
+                    Shadow(color: Color(0xFF8361FB), blurRadius: 16),
                     Shadow(
                       color: Color(0x80001162),
                       blurRadius: 7,
@@ -1733,9 +1733,9 @@ class _PreferredStudyTimePageState extends State<_PreferredStudyTimePage>
                           gradient: const LinearGradient(
                             colors: [
                               Color(0xFF7738FF),
-                              Color(0xFF3C6EFF),
-                              Color(0xFF3AA7FF),
-                              Color(0xFF477BFF),
+                              Color(0xFF9C82FC),
+                              Color(0xFF9A80FC),
+                              Color(0xFFA48CFC),
                             ],
                           ),
                           borderRadius: BorderRadius.circular(99),
@@ -1751,7 +1751,7 @@ class _PreferredStudyTimePageState extends State<_PreferredStudyTimePage>
                           inactiveTrackColor: Colors.transparent,
                           disabledActiveTrackColor: Colors.transparent,
                           disabledInactiveTrackColor: Colors.transparent,
-                          thumbColor: const Color(0xFFF7FBFF),
+                          thumbColor: const Color(0xFFFAF9FD),
                           overlayColor: const Color(0x332B8CFF),
                           thumbShape: const RoundSliderThumbShape(
                             enabledThumbRadius: 20,
@@ -2032,7 +2032,7 @@ class _EnglishChallengePage extends StatelessWidget {
               letterSpacing: -0.65,
               shadows: [
                 Shadow(
-                  color: Color(0xFF2379FF),
+                  color: Color(0xFF8668FC),
                   blurRadius: 12,
                   offset: Offset(0, 2),
                 ),
@@ -2090,7 +2090,7 @@ class _EnglishChallengeCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(18),
             border: Border.all(
               color: selected
-                  ? const Color(0xFF66C9FF)
+                  ? const Color(0xFFFF7D9B)
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
@@ -2112,7 +2112,7 @@ class _EnglishChallengeCard extends StatelessWidget {
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
-                    colors: [Color(0xFF2681F7), Color(0xFF073CCB)],
+                    colors: [Color(0xFF886AF6), Color(0xFF4F23F2)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -2120,7 +2120,7 @@ class _EnglishChallengeCard extends StatelessWidget {
                     left: Radius.circular(17),
                   ),
                   border: Border.all(
-                    color: const Color(0xFF6BE0FF),
+                    color: const Color(0xFFFF829F),
                     width: 1.2,
                   ),
                 ),
@@ -2137,7 +2137,7 @@ class _EnglishChallengeCard extends StatelessWidget {
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF071B65),
+                    color: Color(0xFF432E70),
                     fontSize: 16,
                     height: 1.2,
                     fontWeight: FontWeight.w600,
@@ -2209,7 +2209,7 @@ class _LearningBarrierPage extends StatelessWidget {
               letterSpacing: -0.7,
               shadows: [
                 Shadow(
-                  color: Color(0xFF2379FF),
+                  color: Color(0xFF8668FC),
                   blurRadius: 12,
                   offset: Offset(0, 2),
                 ),
@@ -2267,7 +2267,7 @@ class _LearningBarrierCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(17),
             border: Border.all(
               color: selected
-                  ? const Color(0xFF66C9FF)
+                  ? const Color(0xFFFF7D9B)
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
@@ -2289,7 +2289,7 @@ class _LearningBarrierCard extends StatelessWidget {
                 padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
-                    colors: [Color(0xFF2681F7), Color(0xFF073CCB)],
+                    colors: [Color(0xFF886AF6), Color(0xFF4F23F2)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -2297,7 +2297,7 @@ class _LearningBarrierCard extends StatelessWidget {
                     left: Radius.circular(16),
                   ),
                   border: Border.all(
-                    color: const Color(0xFF6BE0FF),
+                    color: const Color(0xFFFF829F),
                     width: 1.2,
                   ),
                 ),
@@ -2314,7 +2314,7 @@ class _LearningBarrierCard extends StatelessWidget {
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF071B65),
+                    color: Color(0xFF432E70),
                     fontSize: 16,
                     height: 1.22,
                     fontWeight: FontWeight.w600,
@@ -2369,7 +2369,7 @@ class _SocialProofPage extends StatelessWidget {
                 const TextSpan(
                   text: 'Leximon',
                   style: TextStyle(
-                    color: Color(0xFF39A9FF),
+                    color: Color(0xFF9A7FFC),
                     fontWeight: FontWeight.w800,
                   ),
                 ),
@@ -2377,7 +2377,7 @@ class _SocialProofPage extends StatelessWidget {
                 const TextSpan(
                   text: '2.000.000',
                   style: TextStyle(
-                    color: Color(0xFF42D7F4),
+                    color: Color(0xFFF9547A),
                     fontWeight: FontWeight.w800,
                   ),
                 ),
@@ -2436,7 +2436,7 @@ class _SocialRating extends StatelessWidget {
       children: [
         const Icon(
           Icons.energy_savings_leaf_rounded,
-          color: Color(0xFF5A9BFF),
+          color: Color(0xFFAD97FC),
           size: 31,
         ),
         const SizedBox(width: 8),
@@ -2447,7 +2447,7 @@ class _SocialRating extends StatelessWidget {
             fontSize: 35,
             height: 1,
             fontWeight: FontWeight.w800,
-            shadows: [Shadow(color: Color(0xFF2C8CFF), blurRadius: 14)],
+            shadows: [Shadow(color: Color(0xFF9072FB), blurRadius: 14)],
           ),
         ),
         const SizedBox(width: 12),
@@ -2457,7 +2457,7 @@ class _SocialRating extends StatelessWidget {
         const SizedBox(width: 8),
         const Icon(
           Icons.energy_savings_leaf_rounded,
-          color: Color(0xFF5A9BFF),
+          color: Color(0xFFAD97FC),
           size: 31,
         ),
       ],
@@ -2482,9 +2482,9 @@ class _SocialReviewCard extends StatelessWidget {
       width: 310,
       padding: const EdgeInsets.fromLTRB(18, 14, 18, 15),
       decoration: BoxDecoration(
-        color: const Color(0xFF083795).withValues(alpha: 0.68),
+        color: const Color(0xFF4C3483).withValues(alpha: 0.68),
         borderRadius: BorderRadius.circular(17),
-        border: Border.all(color: const Color(0xFF2769ED), width: 1.2),
+        border: Border.all(color: const Color(0xFF8568EF), width: 1.2),
         boxShadow: const [
           BoxShadow(
             color: Color(0x660052D5),
@@ -2511,7 +2511,7 @@ class _SocialReviewCard extends StatelessWidget {
               Text(
                 author,
                 style: const TextStyle(
-                  color: Color(0xFF54A1FF),
+                  color: Color(0xFFAD97FC),
                   fontSize: 13.5,
                   fontWeight: FontWeight.w600,
                 ),
@@ -2595,7 +2595,7 @@ class _TopicSelectionPage extends ConsumerWidget {
               letterSpacing: -0.75,
               shadows: [
                 Shadow(
-                  color: Color(0xFF2379FF),
+                  color: Color(0xFF8668FC),
                   blurRadius: 13,
                   offset: Offset(0, 2),
                 ),
@@ -2709,7 +2709,7 @@ class _TopicOptionCard extends StatelessWidget {
                 height: double.infinity,
                 padding: const EdgeInsets.all(8),
                 decoration: const BoxDecoration(
-                  color: Color(0xFFDCEEFF),
+                  color: Color(0xFFE8E4F7),
                   borderRadius: BorderRadius.horizontal(
                     left: Radius.circular(16),
                   ),
@@ -2765,7 +2765,7 @@ class _TopicSelectionIndicator extends StatelessWidget {
         border: Border.all(
           color: hasSelection
               ? const Color(0xFF2CDD67)
-              : const Color(0xFF6898F6),
+              : const Color(0xFFB09CF7),
           width: 1.5,
         ),
         boxShadow: hasSelection
@@ -2791,7 +2791,7 @@ class _TopicSelectionIndicator extends StatelessWidget {
 
 abstract final class _TopicSelectionStyles {
   static const labelStyle = TextStyle(
-    color: Color(0xFF071B65),
+    color: Color(0xFF432E70),
     fontSize: 16.5,
     height: 1.2,
     fontWeight: FontWeight.w700,
@@ -2801,7 +2801,7 @@ abstract final class _TopicSelectionStyles {
   static final cardDecoration = BoxDecoration(
     color: Colors.white.withValues(alpha: 0.95),
     borderRadius: BorderRadius.circular(17),
-    border: Border.all(color: const Color(0xFF73C5FF), width: 1.1),
+    border: Border.all(color: const Color(0xFFFF8AA5), width: 1.1),
     boxShadow: const [
       BoxShadow(color: Color(0xA02286F5), blurRadius: 14, offset: Offset(0, 5)),
     ],
@@ -2902,8 +2902,8 @@ class _AnalysisLoadingPageState extends State<_AnalysisLoadingPage> {
                   shape: BoxShape.circle,
                   gradient: RadialGradient(
                     colors: [
-                      const Color(0xFF1677FF).withValues(alpha: 0.22),
-                      const Color(0xFF004AE8).withValues(alpha: 0.08),
+                      const Color(0xFF7F5CFB).withValues(alpha: 0.22),
+                      const Color(0xFF5C31FA).withValues(alpha: 0.08),
                       Colors.transparent,
                     ],
                   ),
@@ -2947,7 +2947,7 @@ class _AnalysisLoadingPageState extends State<_AnalysisLoadingPage> {
                           height: 1.15,
                           fontWeight: FontWeight.w700,
                           shadows: [
-                            Shadow(color: Color(0xFF2E8DFF), blurRadius: 13),
+                            Shadow(color: Color(0xFF9174FB), blurRadius: 13),
                           ],
                         ),
                       ),
@@ -3114,7 +3114,7 @@ class _AnalysisStep extends StatelessWidget {
                     color: Colors.white,
                     fontSize: 17,
                     fontWeight: FontWeight.w500,
-                    shadows: [Shadow(color: Color(0xFF125FFF), blurRadius: 8)],
+                    shadows: [Shadow(color: Color(0xFF7C59FB), blurRadius: 8)],
                   ),
                 ),
               ),
@@ -3376,7 +3376,7 @@ class _QuoteCard extends StatelessWidget {
                 child: Text(
                   context.l10n.text(text),
                   style: const TextStyle(
-                    color: Color(0xFF061B62),
+                    color: Color(0xFF432E70),
                     fontSize: 15.5,
                     height: 1.25,
                     fontWeight: FontWeight.w700,
@@ -3390,7 +3390,7 @@ class _QuoteCard extends StatelessWidget {
                 child: Text(
                   '”',
                   style: TextStyle(
-                    color: Color(0xFF061B62),
+                    color: Color(0xFF432E70),
                     fontSize: 52,
                     height: 1,
                     fontWeight: FontWeight.w900,
@@ -3404,7 +3404,7 @@ class _QuoteCard extends StatelessWidget {
             source,
             textAlign: TextAlign.right,
             style: const TextStyle(
-              color: Color(0xFF174697),
+              color: Color(0xFF4C3483),
               fontSize: 11.5,
               height: 1.25,
               fontWeight: FontWeight.w500,
@@ -3432,7 +3432,7 @@ class _SurveyRadio extends StatelessWidget {
         color: Colors.white,
         shape: BoxShape.circle,
         border: Border.all(
-          color: selected ? const Color(0xFF13BD2A) : const Color(0xFF8DB5F5),
+          color: selected ? const Color(0xFF13BD2A) : const Color(0xFFB19FEF),
           width: 2.5,
         ),
       ),
@@ -3469,7 +3469,7 @@ class _SurveyCheckbox extends StatelessWidget {
         color: selected ? null : Colors.white.withValues(alpha: 0.72),
         borderRadius: BorderRadius.circular(7),
         border: Border.all(
-          color: selected ? const Color(0xFF2CDD67) : const Color(0xFF6898F6),
+          color: selected ? const Color(0xFF2CDD67) : const Color(0xFFB09CF7),
           width: 1.5,
         ),
         boxShadow: selected
@@ -3516,26 +3516,26 @@ class _SurveyContinueButton extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: !isEnabled
               ? const LinearGradient(
-                  colors: [Color(0xFFD9E2EC), Color(0xFFEEF3F8)],
+                  colors: [Color(0xFFE2E0EB), Color(0xFFF1F0F6)],
                 )
               : useBlueGradient
               ? const LinearGradient(
                   colors: [
-                    Color(0xFF1846F5),
-                    Color(0xFF3266FF),
-                    Color(0xFF244AF3),
+                    Color(0xFF7D5CF4),
+                    Color(0xFF9478FC),
+                    Color(0xFF8567F3),
                   ],
                 )
               : const LinearGradient(
                   colors: [
-                    Color(0xFFF9FCFF),
-                    Color(0xFFEAF6FF),
-                    Color(0xFFF9FCFF),
+                    Color(0xFFFBFAFE),
+                    Color(0xFFF1EFFA),
+                    Color(0xFFFBFAFE),
                   ],
                 ),
           borderRadius: BorderRadius.circular(34),
           border: Border.all(
-            color: isEnabled ? Colors.white : const Color(0xFFC9D5E1),
+            color: isEnabled ? Colors.white : const Color(0xFFD7D4E2),
             width: 1.5,
           ),
           boxShadow: isEnabled
@@ -3563,10 +3563,10 @@ class _SurveyContinueButton extends StatelessWidget {
                     dimension: 24,
                     child: CircularProgressIndicator(
                       color: useBlueGradient
-                          ? (isEnabled ? Colors.white : const Color(0xFF8393A5))
+                          ? (isEnabled ? Colors.white : const Color(0xFF8F87A1))
                           : (isEnabled
-                                ? const Color(0xFF1263F4)
-                                : const Color(0xFF8393A5)),
+                                ? const Color(0xFF7C5CFC)
+                                : const Color(0xFF8F87A1)),
                       strokeWidth: 2.5,
                     ),
                   )
@@ -3576,10 +3576,10 @@ class _SurveyContinueButton extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: useBlueGradient
-                          ? (isEnabled ? Colors.white : const Color(0xFF8393A5))
+                          ? (isEnabled ? Colors.white : const Color(0xFF8F87A1))
                           : (isEnabled
-                                ? const Color(0xFF1263F4)
-                                : const Color(0xFF8393A5)),
+                                ? const Color(0xFF7C5CFC)
+                                : const Color(0xFF8F87A1)),
                       fontSize: label.length > 10 ? 18 : 19,
                       fontWeight: FontWeight.w700,
                     ),
@@ -3589,7 +3589,7 @@ class _SurveyContinueButton extends StatelessWidget {
                       right: 29,
                       child: Icon(
                         Icons.arrow_forward_rounded,
-                        color: Color(0xFF0B4DEB),
+                        color: Color(0xFF6C47F2),
                         size: 30,
                       ),
                     ),
@@ -3615,12 +3615,12 @@ abstract final class _SurveyStyles {
   static BoxDecoration cardDecoration({bool selected = false}) {
     return BoxDecoration(
       color: selected
-          ? const Color(0xFFF0F7FF)
+          ? const Color(0xFFF5F3FC)
           : Colors.white.withValues(alpha: 0.9),
       borderRadius: BorderRadius.circular(18),
       border: Border.all(
         color: selected
-            ? const Color(0xFFA9C9FF)
+            ? const Color(0xFFCBC0F5)
             : Colors.white.withValues(alpha: 0.92),
         width: selected ? 1.5 : 1,
       ),

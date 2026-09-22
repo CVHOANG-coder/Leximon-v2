@@ -137,49 +137,49 @@ List<Color> topicGradient(Topic topic) {
     [Color(0xFFFF9C56), Color(0xFFFF4F70)],
     [Color(0xFFFFCF4B), Color(0xFFFF8B22)],
     [Color(0xFFFF87AF), Color(0xFFC756FF)],
-    [Color(0xFF6A9DFF), Color(0xFF5844E8)],
-    [Color(0xFF27C7C6), Color(0xFF126BD9)],
+    [Color(0xFF9F8AEC), Color(0xFF5844E8)],
+    [Color(0xFF27C7C6), Color(0xFF6743EB)],
     [Color(0xFF9A78FF), Color(0xFF5B3FE7)],
     [Color(0xFFFFD166), Color(0xFFF28F3B)],
-    [Color(0xFF56D8FF), Color(0xFF1982C4)],
+    [Color(0xFFFF6F91), Color(0xFFE95A7C)],
     [Color(0xFFB279A2), Color(0xFF6C4AB6)],
     [Color(0xFFF4978E), Color(0xFFF26A8D)],
     [Color(0xFFFFAFCC), Color(0xFFCDB4DB)],
     [Color(0xFFFFBC45), Color(0xFFEC5A4B)],
     [Color(0xFFFF9F68), Color(0xFFD95D39)],
-    [Color(0xFF7BDFF2), Color(0xFF1D8A99)],
+    [Color(0xFFF78DA6), Color(0xFFD85775)],
     [Color(0xFF68D391), Color(0xFF1A9A70)],
     [Color(0xFFFFD6A5), Color(0xFFF4A261)],
-    [Color(0xFF7CC4FF), Color(0xFF2563EB)],
+    [Color(0xFFAC99EE), Color(0xFF8365ED)],
     [Color(0xFFE0A9C9), Color(0xFFA64D79)],
     [Color(0xFFFF7B72), Color(0xFFD1495B)],
     [Color(0xFFF9F871), Color(0xFFA8C256)],
     [Color(0xFF65D6CE), Color(0xFF1C9A9A)],
     [Color(0xFFCDB4DB), Color(0xFF7A5CFA)],
     [Color(0xFFA8D5BA), Color(0xFF5E9C76)],
-    [Color(0xFFBDE0FE), Color(0xFF5B8DEF)],
-    [Color(0xFF8E9BFF), Color(0xFF4B4EAF)],
+    [Color(0xFFD9D0F7), Color(0xFFAD9AF3)],
+    [Color(0xFFB8A9F1), Color(0xFF6F59A1)],
     [Color(0xFF95D5B2), Color(0xFF3A9D6C)],
     [Color(0xFFFFB4A2), Color(0xFFE56B6F)],
-    [Color(0xFFA9DEF9), Color(0xFF5DADE2)],
+    [Color(0xFFFB9DB3), Color(0xFFE86E8A)],
     [Color(0xFFD0BFFF), Color(0xFF8A6FD1)],
     [Color(0xFFFFE08A), Color(0xFFD9A441)],
     [Color(0xFF91E6B3), Color(0xFF3BB273)],
     [Color(0xFFF7B2D8), Color(0xFFC05DA9)],
-    [Color(0xFFA1C6EA), Color(0xFF4A90E2)],
+    [Color(0xFFB7A7F1), Color(0xFF9B86E9)],
     [Color(0xFFB5E48C), Color(0xFF52B788)],
     [Color(0xFFFFD166), Color(0xFFEF8354)],
-    [Color(0xFF8FD3B3), Color(0xFF5E60CE)],
+    [Color(0xFF8FD3B3), Color(0xFF8977B5)],
     [Color(0xFFF4A261), Color(0xFFE76F51)],
-    [Color(0xFF7BDFF2), Color(0xFF00A6A6)],
+    [Color(0xFFF78DA6), Color(0xFF00A6A6)],
     [Color(0xFFFF9F9F), Color(0xFFD62828)],
-    [Color(0xFF90DBF4), Color(0xFF277DA1)],
+    [Color(0xFFF8A0B5), Color(0xFFE85F7E)],
     [Color(0xFFF5A6E6), Color(0xFF9B5DE5)],
     [Color(0xFFFFE1A8), Color(0xFFFFC857)],
-    [Color(0xFFA9BCFF), Color(0xFF3D5A80)],
+    [Color(0xFFCBC0F5), Color(0xFF554677)],
     [Color(0xFFB7E4C7), Color(0xFF52B788)],
     [Color(0xFFC9ADA7), Color(0xFF6D597A)],
-    [Color(0xFFB8B8FF), Color(0xFF6A67CE)],
+    [Color(0xFFD6CDF7), Color(0xFF6A67CE)],
     [Color(0xFFD4A5A5), Color(0xFF9D4EDD)],
   ];
   final index = (topic.order - 1).clamp(0, gradients.length - 1);
@@ -255,7 +255,7 @@ class SectionHeader extends StatelessWidget {
               Text(
                 kicker.toUpperCase(),
                 style: const TextStyle(
-                  color: Color(0xFF7990B0),
+                  color: Color(0xFF8D81A8),
                   fontSize: 9,
                   fontWeight: FontWeight.w700,
                   letterSpacing: 1.1,
@@ -297,7 +297,7 @@ class ProgressLine extends StatelessWidget {
         minHeight: 8,
         backgroundColor: dark
             ? Colors.white.withValues(alpha: .16)
-            : const Color(0xFFE7EEF8),
+            : const Color(0xFFEDEBF4),
         valueColor: AlwaysStoppedAnimation(
           dark ? AppColors.cyan : AppColors.primary,
         ),
@@ -321,7 +321,7 @@ class OwlAvatar extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(radius),
         gradient: const LinearGradient(
-          colors: [Color(0xFF1D75FF), Color(0xFF064EE0)],
+          colors: [Color(0xFF7C5CFC), Color(0xFFC05CFF), Color(0xFFFF6F91)],
         ),
         boxShadow: const [
           BoxShadow(
@@ -355,7 +355,7 @@ class TopicCard extends StatelessWidget {
     final colors = topicGradient(topic);
     final cardShape = RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(18),
-      side: const BorderSide(color: Color(0xFFDCE6F2)),
+      side: const BorderSide(color: Color(0xFFE3E0EE)),
     );
     return Container(
       key: ValueKey('topic-card-shadow-${topic.id}'),
@@ -496,7 +496,7 @@ class TopicCard extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: progressValue > 0
                           ? AppColors.green
-                          : const Color(0xFFD9E0EB),
+                          : const Color(0xFFE2E0EB),
                       boxShadow: progressValue > 0
                           ? const [
                               BoxShadow(
@@ -530,7 +530,7 @@ List<Color> _topicProgressBadgeColors(double progress) {
     return const [Color(0xFFF2BC32), Color(0xFFD79709)];
   }
   if (percentage <= 74) {
-    return const [Color(0xFF4A96F5), Color(0xFF236BCF)];
+    return const [Color(0xFFA38CF6), Color(0xFF7356DF)];
   }
   if (percentage < 100) {
     return const [Color(0xFF2BBCA0), Color(0xFF128A75)];
@@ -552,7 +552,7 @@ class _TopicProgressLine extends StatelessWidget {
         child: Stack(
           fit: StackFit.expand,
           children: [
-            const ColoredBox(color: Color(0xFFEDF1F6)),
+            const ColoredBox(color: Color(0xFFEFEEF5)),
             Align(
               alignment: Alignment.centerLeft,
               child: FractionallySizedBox(

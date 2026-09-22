@@ -76,7 +76,7 @@ class _GrammarExerciseScreenState extends ConsumerState<GrammarExerciseScreen> {
       ),
       child: Scaffold(
         key: const ValueKey('grammar-exercise-screen'),
-        backgroundColor: const Color(0xFFF7FAFF),
+        backgroundColor: const Color(0xFFF8F5FF),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -508,7 +508,7 @@ class _GrammarExerciseProgressBar extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(99),
         child: ColoredBox(
-          color: const Color(0xFFD7E9FA),
+          color: const Color(0xFFE3DFF2),
           child: Align(
             alignment: Alignment.centerLeft,
             child: TweenAnimationBuilder<double>(
@@ -530,7 +530,11 @@ class _GrammarExerciseProgressBar extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(99)),
                   gradient: LinearGradient(
-                    colors: [Color(0xFF155CFF), Color(0xFF66CFF4)],
+                    colors: [
+                      Color(0xFF7C5CFC),
+                      Color(0xFFC05CFF),
+                      Color(0xFFFF6F91),
+                    ],
                   ),
                 ),
               ),
@@ -561,7 +565,7 @@ class _QuestionTypePill extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
       decoration: BoxDecoration(
-        color: const Color(0xFFEBF4FF),
+        color: const Color(0xFFF2EFFB),
         borderRadius: BorderRadius.circular(99),
       ),
       child: Row(
@@ -702,10 +706,10 @@ class _RewriteQuestionBody extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
           decoration: BoxDecoration(
             gradient: const LinearGradient(
-              colors: [Color(0xFFE9F2FF), Color(0xFFF2F8FF)],
+              colors: [Color(0xFFF1EEFA), Color(0xFFF6F5FC)],
             ),
             borderRadius: BorderRadius.circular(14),
-            border: Border.all(color: const Color(0xFFCFE2FF)),
+            border: Border.all(color: const Color(0xFFE0DAF4)),
           ),
           child: Row(
             children: [
@@ -835,7 +839,7 @@ class _RewriteMarker extends StatelessWidget {
     height: 28,
     alignment: Alignment.center,
     decoration: BoxDecoration(
-      color: const Color(0xFFEBF3FF),
+      color: const Color(0xFFF2EFFB),
       borderRadius: BorderRadius.circular(9),
     ),
     child: Text(
@@ -875,9 +879,9 @@ class _RewriteGap extends StatelessWidget {
     constraints: const BoxConstraints(minWidth: 92),
     padding: const EdgeInsets.fromLTRB(14, 8, 14, 7),
     decoration: BoxDecoration(
-      color: const Color(0xFFEDF5FF),
+      color: const Color(0xFFF3F1FB),
       borderRadius: BorderRadius.circular(11),
-      border: Border.all(color: const Color(0xFF9DC8FF), width: 1.3),
+      border: Border.all(color: const Color(0xFFC3B6F3), width: 1.3),
     ),
     child: const Text(
       '__________',
@@ -913,9 +917,9 @@ class _InlineQuestionBody extends StatelessWidget {
               height: 29,
               alignment: Alignment.center,
               decoration: BoxDecoration(
-                color: const Color(0xFFEDF5FF),
+                color: const Color(0xFFF3F1FB),
                 borderRadius: BorderRadius.circular(9),
-                border: Border.all(color: const Color(0xFFBED9FA)),
+                border: Border.all(color: const Color(0xFFD7CEF7)),
               ),
               child: const Text(
                 '•••',
@@ -1054,7 +1058,7 @@ class _GrammarAssetImage extends StatelessWidget {
         width: double.infinity,
         alignment: Alignment.center,
         decoration: BoxDecoration(
-          color: const Color(0xFFF0F5FB),
+          color: const Color(0xFFF4F2F9),
           borderRadius: BorderRadius.circular(16),
         ),
         child: Column(
@@ -1138,7 +1142,7 @@ class _GrammarAssetAudioButtonState extends State<_GrammarAssetAudioButton> {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: const Color(0xFFEEF6FF),
+      color: const Color(0xFFF4F2FB),
       borderRadius: BorderRadius.circular(14),
       clipBehavior: Clip.antiAlias,
       child: InkWell(
@@ -1257,7 +1261,7 @@ class _AnswerOptionCard extends StatelessWidget {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(18),
         side: BorderSide(
-          color: (selected || showCorrect) ? accent : const Color(0xFFE1EAF6),
+          color: (selected || showCorrect) ? accent : const Color(0xFFE8E6F1),
           width: (selected || showCorrect) ? 1.5 : 1,
         ),
       ),
@@ -1275,7 +1279,7 @@ class _AnswerOptionCard extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: (selected || showCorrect)
                       ? accent
-                      : const Color(0xFFF0F5FB),
+                      : const Color(0xFFF4F2F9),
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: (selected || showCorrect)
@@ -1352,11 +1356,11 @@ class _TextGapRenderer extends StatelessWidget {
               ),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(16),
-                borderSide: const BorderSide(color: Color(0xFFDDE8F6)),
+                borderSide: const BorderSide(color: Color(0xFFE6E3F0)),
               ),
               enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(16),
-                borderSide: const BorderSide(color: Color(0xFFDDE8F6)),
+                borderSide: const BorderSide(color: Color(0xFFE6E3F0)),
               ),
               focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(16),
@@ -1433,7 +1437,7 @@ class _ChoiceGapRendererState extends State<_ChoiceGapRenderer> {
               ActionChip(
                 key: ValueKey('grammar-gap-option-${index + 1}'),
                 backgroundColor: Colors.white,
-                side: const BorderSide(color: Color(0xFFDDE8F6)),
+                side: const BorderSide(color: Color(0xFFE6E3F0)),
                 label: Text(widget.question.options[index].data),
                 onPressed: widget.locked
                     ? null
@@ -1478,7 +1482,7 @@ class _ReorderRenderer extends StatelessWidget {
           constraints: const BoxConstraints(minHeight: 74),
           padding: const EdgeInsets.all(12),
           decoration: BoxDecoration(
-            color: const Color(0xFFEDF5FF),
+            color: const Color(0xFFF3F1FB),
             borderRadius: BorderRadius.circular(18),
           ),
           child: Wrap(
@@ -1509,7 +1513,7 @@ class _ReorderRenderer extends StatelessWidget {
                   key: ValueKey('grammar-reorder-option-$optionIndex'),
                   label: Text(question.options[optionIndex - 1].data),
                   backgroundColor: Colors.white,
-                  side: const BorderSide(color: Color(0xFFDDE8F6)),
+                  side: const BorderSide(color: Color(0xFFE6E3F0)),
                   onPressed: locked
                       ? null
                       : () {
@@ -1646,7 +1650,7 @@ class _MatchPairCard extends StatelessWidget {
         border: Border.all(
           color: locked
               ? stateColor.withValues(alpha: .38)
-              : const Color(0xFFE1EBF8),
+              : const Color(0xFFE9E6F3),
           width: locked ? 1.5 : 1,
         ),
         boxShadow: const [
@@ -1668,7 +1672,7 @@ class _MatchPairCard extends StatelessWidget {
                 height: 32,
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  color: const Color(0xFFEAF3FF),
+                  color: const Color(0xFFF1EFFA),
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Text(
@@ -1728,7 +1732,7 @@ class _MatchPairCard extends StatelessWidget {
           Material(
             color: hasAnswer
                 ? stateColor.withValues(alpha: locked ? .09 : .06)
-                : const Color(0xFFF7FAFE),
+                : const Color(0xFFF9F9FC),
             borderRadius: BorderRadius.circular(15),
             child: InkWell(
               key: ValueKey('grammar-match-answer-${number - 1}'),
@@ -1743,7 +1747,7 @@ class _MatchPairCard extends StatelessWidget {
                   border: Border.all(
                     color: hasAnswer
                         ? stateColor.withValues(alpha: .32)
-                        : const Color(0xFFDDE8F6),
+                        : const Color(0xFFE6E3F0),
                   ),
                 ),
                 child: Row(
@@ -1755,7 +1759,7 @@ class _MatchPairCard extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: hasAnswer
                             ? stateColor.withValues(alpha: .13)
-                            : const Color(0xFFEAF1FA),
+                            : const Color(0xFFF0EEF6),
                         shape: BoxShape.circle,
                       ),
                       child: Icon(
@@ -1855,7 +1859,7 @@ Future<int?> _showMatchOptionsSheet(
         height: height,
         padding: const EdgeInsets.fromLTRB(18, 10, 18, 14),
         decoration: const BoxDecoration(
-          color: Color(0xFFF8FBFF),
+          color: Color(0xFFFAFAFD),
           borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
         ),
         child: Column(
@@ -1866,7 +1870,7 @@ Future<int?> _showMatchOptionsSheet(
                 width: 42,
                 height: 5,
                 decoration: BoxDecoration(
-                  color: const Color(0xFFD3DFEE),
+                  color: const Color(0xFFE1DEED),
                   borderRadius: BorderRadius.circular(99),
                 ),
               ),
@@ -1922,7 +1926,7 @@ Future<int?> _showMatchOptionsSheet(
                           border: Border.all(
                             color: selected
                                 ? AppColors.primary.withValues(alpha: .5)
-                                : const Color(0xFFE1EAF5),
+                                : const Color(0xFFE8E5F1),
                           ),
                         ),
                         child: Row(
@@ -1933,7 +1937,7 @@ Future<int?> _showMatchOptionsSheet(
                               decoration: BoxDecoration(
                                 color: selected
                                     ? AppColors.primary
-                                    : const Color(0xFFEDF3FB),
+                                    : const Color(0xFFF2F0F8),
                                 shape: BoxShape.circle,
                               ),
                               child: Icon(
@@ -1966,7 +1970,7 @@ Future<int?> _showMatchOptionsSheet(
                                   vertical: 5,
                                 ),
                                 decoration: BoxDecoration(
-                                  color: const Color(0xFFEDF3FB),
+                                  color: const Color(0xFFF2F0F8),
                                   borderRadius: BorderRadius.circular(99),
                                 ),
                                 child: Text(
@@ -2098,7 +2102,7 @@ class _LabellingWordChip extends StatelessWidget {
     final borderColor =
         showCorrect || showWrong || showMissing || showPendingSelection
         ? accent
-        : const Color(0xFFD5DEEC);
+        : const Color(0xFFE2DFEC);
     final showStatusIcon =
         showCorrect || showWrong || showMissing || showPendingSelection;
 
@@ -2219,7 +2223,7 @@ class _GroupingRenderer extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(16),
-              border: Border.all(color: const Color(0xFFE0EAF6)),
+              border: Border.all(color: const Color(0xFFE8E5F1)),
             ),
             child: Row(
               children: [
@@ -2317,7 +2321,7 @@ class _ExerciseFooter extends StatelessWidget {
         color: isResolved
             ? feedbackColor.withValues(alpha: .1)
             : Colors.white.withValues(alpha: .95),
-        border: const Border(top: BorderSide(color: Color(0xFFE7EEF7))),
+        border: const Border(top: BorderSide(color: Color(0xFFECEBF3))),
       ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -2383,7 +2387,7 @@ class _ExerciseFooter extends StatelessWidget {
             style: FilledButton.styleFrom(
               minimumSize: const Size(double.infinity, 50),
               backgroundColor: isResolved ? feedbackColor : AppColors.primary,
-              disabledBackgroundColor: const Color(0xFFD7E1EE),
+              disabledBackgroundColor: const Color(0xFFE1DEED),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(17),
               ),
@@ -2500,7 +2504,7 @@ class GrammarTopicResultScreen extends ConsumerWidget {
         .length;
     return Scaffold(
       key: const ValueKey('grammar-topic-result-screen'),
-      backgroundColor: const Color(0xFFF1F8FF),
+      backgroundColor: const Color(0xFFF6F4FC),
       body: Stack(
         fit: StackFit.expand,
         children: [
@@ -2625,7 +2629,7 @@ class GrammarTopicResultScreen extends ConsumerWidget {
                   decoration: BoxDecoration(
                     color: Colors.white.withValues(alpha: .9),
                     border: const Border(
-                      top: BorderSide(color: Color(0xFFE1EAF5)),
+                      top: BorderSide(color: Color(0xFFE8E5F1)),
                     ),
                   ),
                   child: _ResultBottomButton(
@@ -2755,7 +2759,7 @@ class _ResultHeaderIcon extends StatelessWidget {
       gradient: const LinearGradient(
         begin: Alignment.topLeft,
         end: Alignment.bottomRight,
-        colors: [Color(0xFF4BA7FF), Color(0xFF155CFF)],
+        colors: [Color(0xFFA890FC), Color(0xFF7C5CFC)],
       ),
       borderRadius: BorderRadius.circular(10),
       boxShadow: const [
@@ -2783,7 +2787,7 @@ class _ResultQuestionDot extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final color = response == null
-        ? const Color(0xFFB4C2D5)
+        ? const Color(0xFFC5C1D5)
         : response!.isCorrect
         ? AppColors.green
         : const Color(0xFFFF5F66);
@@ -3242,7 +3246,7 @@ class _ResultBottomButton extends StatelessWidget {
     height: 54,
     decoration: BoxDecoration(
       gradient: const LinearGradient(
-        colors: [Color(0xFF155CFF), Color(0xFF287AF7)],
+        colors: [Color(0xFF7C5CFC), Color(0xFF896CF6)],
       ),
       borderRadius: BorderRadius.circular(19),
       boxShadow: const [

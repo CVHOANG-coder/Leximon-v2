@@ -86,7 +86,7 @@ class _LanguageOnboardingScreenState
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFF061D4C),
+        backgroundColor: const Color(0xFF3B2B5D),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -230,7 +230,7 @@ class _LanguagePanel extends StatelessWidget {
       width: double.infinity,
       margin: const EdgeInsets.symmetric(horizontal: 14),
       decoration: const BoxDecoration(
-        color: Color(0xFFFBFDFF),
+        color: Color(0xFFFCFCFE),
         borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
         boxShadow: [
           BoxShadow(
@@ -268,11 +268,11 @@ class _LanguagePanel extends StatelessWidget {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: isSaving
-                        ? const [Color(0xFF78A2FF), Color(0xFF8DB4FF)]
+                        ? const [Color(0xFFA996EE), Color(0xFFB8A8F1)]
                         : const [
-                            Color(0xFF063AAE),
-                            Color(0xFF0C54E7),
-                            Color(0xFF1676FF),
+                            Color(0xFF3D0EE8),
+                            Color(0xFF6847E5),
+                            Color(0xFF7F5CFB),
                           ],
                     begin: Alignment.centerLeft,
                     end: Alignment.centerRight,
@@ -347,11 +347,11 @@ class _LanguageTile extends StatelessWidget {
           ? '${language.label}, ${language.code}'
           : language.label,
       child: Material(
-        color: selected ? const Color(0xFFF0F5FF) : Colors.white,
+        color: selected ? const Color(0xFFF5F3FC) : Colors.white,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(14),
           side: BorderSide(
-            color: selected ? const Color(0xFFC8DAFF) : const Color(0xFFE1E9F7),
+            color: selected ? const Color(0xFFDBD3F8) : const Color(0xFFE9E6F2),
           ),
         ),
         child: InkWell(
@@ -380,7 +380,7 @@ class _LanguageTile extends StatelessWidget {
                           ? TextDirection.rtl
                           : TextDirection.ltr,
                       style: TextStyle(
-                        color: const Color(0xFF082657),
+                        color: const Color(0xFF36255D),
                         fontSize: 15,
                         fontWeight: selected
                             ? FontWeight.w700
@@ -398,21 +398,21 @@ class _LanguageTile extends StatelessWidget {
                       ),
                       decoration: BoxDecoration(
                         color: selected
-                            ? const Color(0xFFDCE8FF)
-                            : const Color(0xFFF1F5FC),
+                            ? const Color(0xFFE8E4F7)
+                            : const Color(0xFFF5F3FA),
                         borderRadius: BorderRadius.circular(8),
                         border: Border.all(
                           color: selected
-                              ? const Color(0xFFB8CEFF)
-                              : const Color(0xFFD8E2F2),
+                              ? const Color(0xFFD6CDF7)
+                              : const Color(0xFFE1DDEE),
                         ),
                       ),
                       child: Text(
                         language.code,
                         style: TextStyle(
                           color: selected
-                              ? const Color(0xFF0C54E7)
-                              : const Color(0xFF526987),
+                              ? const Color(0xFF6847E5)
+                              : const Color(0xFF655980),
                           fontSize: 11,
                           fontWeight: FontWeight.w700,
                           letterSpacing: 0.2,

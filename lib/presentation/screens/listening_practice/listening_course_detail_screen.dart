@@ -466,7 +466,7 @@ class _HeaderMetaPill extends StatelessWidget {
     decoration: BoxDecoration(
       color: Colors.white.withValues(alpha: .72),
       borderRadius: BorderRadius.circular(99),
-      border: Border.all(color: const Color(0xFFD8E6F8)),
+      border: Border.all(color: const Color(0xFFE3DFF1)),
     ),
     child: Row(
       mainAxisSize: MainAxisSize.min,
@@ -476,7 +476,7 @@ class _HeaderMetaPill extends StatelessWidget {
         Text(
           label,
           style: const TextStyle(
-            color: Color(0xFF315B98),
+            color: Color(0xFF584683),
             fontSize: 10,
             fontWeight: FontWeight.w700,
           ),
@@ -500,7 +500,7 @@ class _ModeSwitcher extends StatelessWidget {
       gradient: LinearGradient(
         colors: [
           Colors.white.withValues(alpha: .9),
-          const Color(0xFFEAF4FF).withValues(alpha: .88),
+          const Color(0xFFF1EFFA).withValues(alpha: .88),
         ],
       ),
       borderRadius: BorderRadius.circular(23),
@@ -554,7 +554,7 @@ class _ModeOption extends StatelessWidget {
               ? const LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
-                  colors: [Color(0xFF65A0FF), Color(0xFF2168F4)],
+                  colors: [Color(0xFFAD97FC), Color(0xFF8364F3)],
                 )
               : null,
           borderRadius: BorderRadius.circular(18),
@@ -743,7 +743,7 @@ class _StatusChip extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
           border: Border.all(
-            color: selected ? AppColors.primary : const Color(0xFFD8E4F4),
+            color: selected ? AppColors.primary : const Color(0xFFE2DEEE),
           ),
         ),
         child: Row(
@@ -791,7 +791,7 @@ class _LessonGroupCard extends StatelessWidget {
   final bool ownsSkillPack;
 
   static const _sectionColors = [
-    [Color(0xFF87C8FF), Color(0xFF286AFF)],
+    [Color(0xFFB3A3F0), Color(0xFF8D6EFB)],
     [Color(0xFF8CE8C2), Color(0xFF20B979)],
     [Color(0xFFC5B1FF), Color(0xFF7755E8)],
     [Color(0xFFFFD171), Color(0xFFFFA51F)],
@@ -1020,7 +1020,7 @@ class _LessonCard extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.white.withValues(alpha: .94),
           borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: const Color(0xFFE3EBF6)),
+          border: Border.all(color: const Color(0xFFEAE7F2)),
           boxShadow: const [
             BoxShadow(
               color: Color(0x122A70B8),
@@ -1110,7 +1110,7 @@ class _LessonCard extends StatelessWidget {
               isLocked
                   ? Icons.lock_outline_rounded
                   : Icons.chevron_right_rounded,
-              color: isLocked ? AppColors.textMuted : const Color(0xFF5F79A6),
+              color: isLocked ? AppColors.textMuted : const Color(0xFF78699C),
               size: isLocked ? 22 : 25,
             ),
           ],

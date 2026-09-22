@@ -207,7 +207,7 @@ class _ChallengeHero extends StatelessWidget {
                 child: Text(
                   context.l10n.text('dailyChallengeEyebrow'),
                   style: TextStyle(
-                    color: const Color(0xFF52749E),
+                    color: const Color(0xFF6D5D93),
                     fontSize: compact ? 9 : 10,
                     fontWeight: FontWeight.w800,
                     letterSpacing: 1.25,
@@ -221,7 +221,7 @@ class _ChallengeHero extends StatelessWidget {
                 child: Text(
                   context.l10n.text('dailyChallengeTitle'),
                   style: TextStyle(
-                    color: const Color(0xFF092F75),
+                    color: const Color(0xFF432E74),
                     fontSize: compact ? 27 : 31,
                     height: 1.12,
                     fontWeight: FontWeight.w800,
@@ -237,7 +237,7 @@ class _ChallengeHero extends StatelessWidget {
                   context.l10n.text('dailyChallengeBody'),
                   maxLines: compact ? 2 : 1,
                   style: TextStyle(
-                    color: const Color(0xFF6683A8),
+                    color: const Color(0xFF7D6F9F),
                     fontSize: compact ? 10 : 11,
                     height: 1.35,
                     fontWeight: FontWeight.w500,
@@ -301,7 +301,7 @@ class _StreakBadge extends StatelessWidget {
               Text(
                 context.l10n.text('dayCount', values: {'count': streak}),
                 style: const TextStyle(
-                  color: Color(0xFF0A3274),
+                  color: Color(0xFF432E74),
                   fontSize: 12,
                   height: 1.1,
                   fontWeight: FontWeight.w800,
@@ -311,7 +311,7 @@ class _StreakBadge extends StatelessWidget {
               Text(
                 context.l10n.text('streakDaysLabel'),
                 style: const TextStyle(
-                  color: Color(0xFF7188A8),
+                  color: Color(0xFF8579A0),
                   fontSize: 9,
                   fontWeight: FontWeight.w700,
                 ),
@@ -369,7 +369,7 @@ class _WeeklyGoalCard extends StatelessWidget {
                     Text(
                       context.l10n.text('weeklyGoal'),
                       style: TextStyle(
-                        color: Color(0xFF60799C),
+                        color: Color(0xFF756894),
                         fontSize: 9,
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1.05,
@@ -383,7 +383,7 @@ class _WeeklyGoalCard extends StatelessWidget {
                       ),
                       maxLines: 1,
                       style: const TextStyle(
-                        color: Color(0xFF071D49),
+                        color: Color(0xFF392A57),
                         fontSize: 20,
                         height: 1.15,
                         fontWeight: FontWeight.w800,
@@ -401,7 +401,7 @@ class _WeeklyGoalCard extends StatelessWidget {
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
-                        color: Color(0xFF7187A5),
+                        color: Color(0xFF84789E),
                         fontSize: 10,
                       ),
                     ),
@@ -411,19 +411,19 @@ class _WeeklyGoalCard extends StatelessWidget {
               const SizedBox(width: 12),
               _ProgressRing(
                 value: progress,
-                color: const Color(0xFF2168ED),
+                color: const Color(0xFF8062EE),
                 size: 67,
                 label: '$progressPercent%',
               ),
             ],
           ),
           const SizedBox(height: 14),
-          _RoundedProgressBar(value: progress, color: const Color(0xFF2168ED)),
+          _RoundedProgressBar(value: progress, color: const Color(0xFF8062EE)),
           const SizedBox(height: 16),
           Opacity(
             opacity: recommendationLocked ? .52 : 1,
             child: Material(
-              color: const Color(0xFFF2F6FC),
+              color: const Color(0xFFF5F4FA),
               borderRadius: BorderRadius.circular(18),
               clipBehavior: Clip.antiAlias,
               child: InkWell(
@@ -462,7 +462,7 @@ class _WeeklyGoalCard extends StatelessWidget {
                             Text(
                               context.l10n.text('nextRecommendation'),
                               style: TextStyle(
-                                color: Color(0xFF758BA8),
+                                color: Color(0xFF877CA1),
                                 fontSize: 8,
                                 fontWeight: FontWeight.w800,
                                 letterSpacing: .8,
@@ -475,7 +475,7 @@ class _WeeklyGoalCard extends StatelessWidget {
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
                               style: const TextStyle(
-                                color: Color(0xFF092857),
+                                color: Color(0xFF37265E),
                                 fontSize: 11,
                                 fontWeight: FontWeight.w800,
                               ),
@@ -487,7 +487,7 @@ class _WeeklyGoalCard extends StatelessWidget {
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
                                 style: const TextStyle(
-                                  color: Color(0xFF758BA8),
+                                  color: Color(0xFF877CA1),
                                   fontSize: 7.5,
                                   fontWeight: FontWeight.w600,
                                 ),
@@ -505,7 +505,7 @@ class _WeeklyGoalCard extends StatelessWidget {
                           },
                         ),
                         style: const TextStyle(
-                          color: Color(0xFF7288A6),
+                          color: Color(0xFF85799F),
                           fontSize: 9,
                           fontWeight: FontWeight.w700,
                         ),
@@ -515,7 +515,7 @@ class _WeeklyGoalCard extends StatelessWidget {
                         recommendationLocked
                             ? Icons.lock_outline_rounded
                             : Icons.chevron_right_rounded,
-                        color: Color(0xFF7890AF),
+                        color: Color(0xFF8C80A7),
                         size: recommendationLocked ? 17 : 20,
                       ),
                     ],
@@ -552,7 +552,7 @@ class _PracticeModesSection extends StatelessWidget {
         Text(
           context.l10n.text('fiveCoreSkills'),
           style: TextStyle(
-            color: Color(0xFF071D49),
+            color: Color(0xFF392A57),
             fontSize: 16,
             fontWeight: FontWeight.w800,
             letterSpacing: -.3,
@@ -561,7 +561,7 @@ class _PracticeModesSection extends StatelessWidget {
         const SizedBox(height: 5),
         Text(
           context.l10n.text('chooseSkillToPractice'),
-          style: TextStyle(color: Color(0xFF7187A5), fontSize: 10),
+          style: TextStyle(color: Color(0xFF84789E), fontSize: 10),
         ),
         const SizedBox(height: 14),
         LayoutBuilder(
@@ -587,7 +587,7 @@ class _PracticeModesSection extends StatelessWidget {
                   description: context.l10n.text('listeningSkillBody'),
                   progressText: _progressText(context, listening, 'lessonUnit'),
                   progress: listening?.ratio ?? 0,
-                  color: const Color(0xFF1767F2),
+                  color: const Color(0xFF7C5CFC),
                   onTap: () => _open(context, const ListeningPracticeScreen()),
                 ),
                 _PracticeModeCard(
@@ -741,7 +741,7 @@ class _WeeklyActivityChart extends StatelessWidget {
                     Text(
                       context.l10n.text('weeklyActivityTitle'),
                       style: TextStyle(
-                        color: Color(0xFF071D49),
+                        color: Color(0xFF392A57),
                         fontSize: 15,
                         fontWeight: FontWeight.w800,
                       ),
@@ -749,7 +749,7 @@ class _WeeklyActivityChart extends StatelessWidget {
                     SizedBox(height: 4),
                     Text(
                       context.l10n.text('weeklyActivityBody'),
-                      style: TextStyle(color: Color(0xFF7187A5), fontSize: 9),
+                      style: TextStyle(color: Color(0xFF84789E), fontSize: 9),
                     ),
                   ],
                 ),
@@ -760,13 +760,13 @@ class _WeeklyActivityChart extends StatelessWidget {
                   vertical: 6,
                 ),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFEAF2FF),
+                  color: const Color(0xFFF1EFFA),
                   borderRadius: BorderRadius.circular(99),
                 ),
                 child: Text(
                   context.l10n.text('sessionCount', values: {'count': total}),
                   style: const TextStyle(
-                    color: Color(0xFF1767F2),
+                    color: Color(0xFF7C5CFC),
                     fontSize: 10,
                     fontWeight: FontWeight.w800,
                   ),
@@ -798,8 +798,8 @@ class _WeeklyActivityChart extends StatelessWidget {
                           '$value',
                           style: TextStyle(
                             color: isToday
-                                ? const Color(0xFF1767F2)
-                                : const Color(0xFF60799C),
+                                ? const Color(0xFF7C5CFC)
+                                : const Color(0xFF756894),
                             fontSize: 9,
                             fontWeight: FontWeight.w800,
                           ),
@@ -823,10 +823,10 @@ class _WeeklyActivityChart extends StatelessWidget {
                                   height: height,
                                   decoration: BoxDecoration(
                                     color: value == 0
-                                        ? const Color(0xFFE7EEF9)
+                                        ? const Color(0xFFEDEBF5)
                                         : isToday
-                                        ? const Color(0xFF1767F2)
-                                        : const Color(0xFF80AEFA),
+                                        ? const Color(0xFF7C5CFC)
+                                        : const Color(0xFFAB98EE),
                                     borderRadius: BorderRadius.circular(7),
                                   ),
                                 ),
@@ -839,8 +839,8 @@ class _WeeklyActivityChart extends StatelessWidget {
                           labels[index],
                           style: TextStyle(
                             color: isToday
-                                ? const Color(0xFF1767F2)
-                                : const Color(0xFF7B90AB),
+                                ? const Color(0xFF7C5CFC)
+                                : const Color(0xFF8C82A4),
                             fontSize: 9,
                             fontWeight: isToday
                                 ? FontWeight.w800
@@ -877,7 +877,7 @@ class _PracticeHistoryCard extends StatelessWidget {
           Text(
             context.l10n.text('recentHistory'),
             style: TextStyle(
-              color: Color(0xFF071D49),
+              color: Color(0xFF392A57),
               fontSize: 15,
               fontWeight: FontWeight.w800,
             ),
@@ -885,7 +885,7 @@ class _PracticeHistoryCard extends StatelessWidget {
           const SizedBox(height: 4),
           Text(
             context.l10n.text('recentHistoryBody'),
-            style: TextStyle(color: Color(0xFF7187A5), fontSize: 9),
+            style: TextStyle(color: Color(0xFF84789E), fontSize: 9),
           ),
           const SizedBox(height: 11),
           if (entries.isEmpty)
@@ -895,7 +895,7 @@ class _PracticeHistoryCard extends StatelessWidget {
                 children: [
                   const Icon(
                     Icons.history_rounded,
-                    color: Color(0xFF9AAEC7),
+                    color: Color(0xFFAAA0C1),
                     size: 25,
                   ),
                   const SizedBox(width: 11),
@@ -903,7 +903,7 @@ class _PracticeHistoryCard extends StatelessWidget {
                     child: Text(
                       context.l10n.text('recentHistoryEmpty'),
                       style: const TextStyle(
-                        color: Color(0xFF7187A5),
+                        color: Color(0xFF84789E),
                         fontSize: 10,
                         height: 1.35,
                       ),
@@ -919,7 +919,7 @@ class _PracticeHistoryCard extends StatelessWidget {
                 entry: entries[index],
               ),
               if (index < entries.length - 1)
-                const Divider(height: 1, color: Color(0xFFE9EFF7)),
+                const Divider(height: 1, color: Color(0xFFEEECF4)),
             ],
         ],
       ),
@@ -965,7 +965,7 @@ class _PracticeHistoryRow extends StatelessWidget {
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                    color: Color(0xFF071D49),
+                    color: Color(0xFF392A57),
                     fontSize: 11,
                     fontWeight: FontWeight.w800,
                   ),
@@ -975,7 +975,7 @@ class _PracticeHistoryRow extends StatelessWidget {
                   entry.contextLabel,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: const TextStyle(color: Color(0xFF7187A5), fontSize: 9),
+                  style: const TextStyle(color: Color(0xFF84789E), fontSize: 9),
                 ),
               ],
             ),
@@ -985,7 +985,7 @@ class _PracticeHistoryRow extends StatelessWidget {
             _formatHistoryTime(context, entry.completedAt),
             textAlign: TextAlign.right,
             style: const TextStyle(
-              color: Color(0xFF8A9DB5),
+              color: Color(0xFF9990AF),
               fontSize: 8,
               height: 1.3,
               fontWeight: FontWeight.w600,
@@ -1022,7 +1022,7 @@ String _skillIconAsset(PracticeSkill? skill) => switch (skill) {
 };
 
 Color _historySkillColor(PracticeSkill skill) => switch (skill) {
-  PracticeSkill.listening => const Color(0xFF1767F2),
+  PracticeSkill.listening => const Color(0xFF7C5CFC),
   PracticeSkill.speaking => const Color(0xFFEE5C8A),
   PracticeSkill.grammar => const Color(0xFFFF7B24),
   PracticeSkill.pronunciation => const Color(0xFF17C889),
@@ -1114,7 +1114,7 @@ class _PracticeModeCard extends StatelessWidget {
                 text: TextSpan(
                   text: title,
                   style: const TextStyle(
-                    color: Color(0xFF071D49),
+                    color: Color(0xFF392A57),
                     fontFamily: 'M PLUS Rounded 1c',
                     fontSize: 12,
                     fontWeight: FontWeight.w800,
@@ -1129,7 +1129,7 @@ class _PracticeModeCard extends StatelessWidget {
                 description,
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
-                style: const TextStyle(color: Color(0xFF7187A5), fontSize: 9),
+                style: const TextStyle(color: Color(0xFF84789E), fontSize: 9),
               ),
               const Spacer(),
               Row(
@@ -1196,7 +1196,7 @@ class _ProgressRing extends StatelessWidget {
             child: Text(
               label,
               style: TextStyle(
-                color: const Color(0xFF071D49),
+                color: const Color(0xFF392A57),
                 fontSize: size >= 60 ? 13 : 9,
                 fontWeight: FontWeight.w800,
               ),

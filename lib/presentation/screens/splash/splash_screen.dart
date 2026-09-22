@@ -94,11 +94,11 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.light,
         statusBarBrightness: Brightness.dark,
-        systemNavigationBarColor: Color(0xFF00164D),
+        systemNavigationBarColor: Color(0xFF2F2051),
         systemNavigationBarIconBrightness: Brightness.light,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFF00164D),
+        backgroundColor: const Color(0xFF2F2051),
         body: Stack(
           fit: StackFit.expand,
           children: [

@@ -714,7 +714,7 @@ class _StudyTopBar extends StatelessWidget {
               Text(
                 context.l10n.text('todayStudySet'),
                 style: const TextStyle(
-                  color: Color(0xFF2F80ED),
+                  color: Color(0xFF8B6FEF),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1.2,
@@ -865,7 +865,7 @@ class _TopicStripState extends State<_TopicStrip> {
                     borderRadius: BorderRadius.circular(99),
                     border: Border.all(
                       color: active
-                          ? const Color(0xFFF4F8FF)
+                          ? const Color(0xFFF8F6FD)
                           : Colors.white.withValues(alpha: .9),
                     ),
                     boxShadow: active
@@ -885,14 +885,14 @@ class _TopicStripState extends State<_TopicStrip> {
                             const Icon(
                               Icons.star_rounded,
                               key: ValueKey('word-study-active-topic-star'),
-                              color: Color(0xFF1E78EE),
+                              color: Color(0xFF7F5FEF),
                               size: 15,
                             ),
                             const SizedBox(width: 7),
                             Text(
                               topic.translated,
                               style: const TextStyle(
-                                color: Color(0xFF082B70),
+                                color: Color(0xFF4B347D),
                                 fontSize: 11,
                                 fontWeight: FontWeight.w800,
                               ),
@@ -902,7 +902,7 @@ class _TopicStripState extends State<_TopicStrip> {
                       : Text(
                           topic.translated,
                           style: const TextStyle(
-                            color: Color(0xFF17549A),
+                            color: Color(0xFF4C3483),
                             fontSize: 10,
                             fontWeight: FontWeight.w700,
                           ),
@@ -1239,7 +1239,7 @@ class _WordCard extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(30),
         gradient: const LinearGradient(
-          colors: [Colors.white, Color(0xFFF9FBFF)],
+          colors: [Colors.white, Color(0xFFFBFAFE)],
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
         ),
@@ -1286,7 +1286,7 @@ class _WordCard extends StatelessWidget {
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(
-                              color: Color(0xFF8394AA),
+                              color: Color(0xFF9188A5),
                               fontSize: 9,
                               fontWeight: FontWeight.w800,
                               letterSpacing: 1.1,
@@ -1359,7 +1359,7 @@ class _WordCard extends StatelessWidget {
                                           '0',
                                         ),
                                         style: const TextStyle(
-                                          color: Color(0xFFEDF2FA),
+                                          color: Color(0xFFF1F0F7),
                                           fontSize: 58,
                                           height: 1,
                                           fontWeight: FontWeight.w700,
@@ -1397,7 +1397,7 @@ class _WordCard extends StatelessWidget {
                           translation,
                           textAlign: TextAlign.center,
                           style: const TextStyle(
-                            color: Color(0xFF6A7F9B),
+                            color: Color(0xFF7B7194),
                             fontSize: 21,
                             height: 1.15,
                             fontWeight: FontWeight.w500,
@@ -1408,7 +1408,7 @@ class _WordCard extends StatelessWidget {
                           Text(
                             transcription,
                             style: const TextStyle(
-                              color: Color(0xFF98A7BA),
+                              color: Color(0xFFA49DB5),
                               fontSize: 12,
                             ),
                           ),
@@ -1431,7 +1431,7 @@ class _WordCard extends StatelessWidget {
                             vertical: 13,
                           ),
                           decoration: BoxDecoration(
-                            color: const Color(0xFFF4F8FC),
+                            color: const Color(0xFFF7F6FA),
                             borderRadius: BorderRadius.circular(20),
                           ),
                           child: Text(
@@ -1441,7 +1441,7 @@ class _WordCard extends StatelessWidget {
                             ),
                             textAlign: TextAlign.center,
                             style: const TextStyle(
-                              color: Color(0xFF637A98),
+                              color: Color(0xFF766A91),
                               fontSize: 10,
                               height: 1.45,
                             ),
@@ -1551,11 +1551,11 @@ class _SlowAudioButtonState extends State<_SlowAudioButton>
           height: 82,
           decoration: BoxDecoration(
             color: _isPlaying
-                ? const Color(0xFFE3EEFF)
-                : const Color(0xFFF3F8FF),
+                ? const Color(0xFFEDE9F9)
+                : const Color(0xFFF7F6FC),
             borderRadius: BorderRadius.circular(23),
             border: Border.all(
-              color: _isPlaying ? AppColors.primary : const Color(0xFFD9E8FA),
+              color: _isPlaying ? AppColors.primary : const Color(0xFFE4E0F3),
             ),
             boxShadow: [
               BoxShadow(
@@ -1593,7 +1593,7 @@ class _SlowAudioButtonState extends State<_SlowAudioButton>
                 style: TextStyle(
                   color: _isPlaying
                       ? AppColors.primary
-                      : const Color(0xFF3B68B5),
+                      : const Color(0xFF6A549C),
                   fontSize: 10,
                   fontWeight: FontWeight.w800,
                 ),
@@ -1665,7 +1665,7 @@ class _AudioButtonState extends State<_AudioButton>
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(28),
             gradient: const LinearGradient(
-              colors: [Color(0xFF4B94FF), Color(0xFF1763E9)],
+              colors: [Color(0xFFA890FC), Color(0xFF7757EB)],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
@@ -1808,7 +1808,7 @@ class _StudyFooter extends StatelessWidget {
                     Text(
                       context.l10n.text('selectedWords'),
                       style: const TextStyle(
-                        color: Color(0xFF5F7FA8),
+                        color: Color(0xFF79699E),
                         fontSize: 8,
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1.1,
@@ -1850,7 +1850,7 @@ class _StudyFooter extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: index < selectedCount
                           ? AppColors.primary
-                          : const Color(0xFFDCE8F8),
+                          : const Color(0xFFE6E2F2),
                       borderRadius: BorderRadius.circular(99),
                     ),
                   ),

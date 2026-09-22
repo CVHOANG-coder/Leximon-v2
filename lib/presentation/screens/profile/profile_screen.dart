@@ -133,7 +133,7 @@ class _ProfileHeader extends StatelessWidget {
               Text(
                 context.l10n.profileEyebrow,
                 style: TextStyle(
-                  color: Color(0xFF52739A),
+                  color: Color(0xFF6C5C90),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1,
@@ -224,7 +224,7 @@ class _ProfileAvatar extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(radius),
         gradient: const LinearGradient(
-          colors: [Color(0xFF1D75FF), Color(0xFF064EE0)],
+          colors: [Color(0xFF7C5CFC), Color(0xFFC05CFF), Color(0xFFFF6F91)],
         ),
         boxShadow: const [
           BoxShadow(

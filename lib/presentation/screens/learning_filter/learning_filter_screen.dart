@@ -243,7 +243,7 @@ class _SetupHeader extends StatelessWidget {
         //   decoration: BoxDecoration(
         //     color: Colors.white.withValues(alpha: .5),
         //     borderRadius: BorderRadius.circular(99),
-        //     border: Border.all(color: const Color(0xFF2A7DF4), width: 1.1),
+        //     border: Border.all(color: const Color(0xFF8063EF), width: 1.1),
         //     boxShadow: const [
         //       BoxShadow(
         //         color: Color(0x142A7DF4),
@@ -255,12 +255,12 @@ class _SetupHeader extends StatelessWidget {
         //   child: const Row(
         //     mainAxisSize: MainAxisSize.min,
         //     children: [
-        //       Icon(Icons.tune_rounded, color: Color(0xFF2A7DF4), size: 16),
+        //       Icon(Icons.tune_rounded, color: Color(0xFF8063EF), size: 16),
         //       SizedBox(width: 7),
         //       Text(
         //         'BỘ LỌC HỌC',
         //         style: TextStyle(
-        //           color: Color(0xFF2475E6),
+        //           color: Color(0xFF7658E2),
         //           fontSize: 9,
         //           fontWeight: FontWeight.w800,
         //           letterSpacing: .15,
@@ -360,7 +360,7 @@ class _SetupTabs extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(22),
                       gradient: const LinearGradient(
-                        colors: [Color(0xFF1658D3), Color(0xFF2481FA)],
+                        colors: [Color(0xFF6844E7), Color(0xFF8869F8)],
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
                       ),
@@ -423,7 +423,7 @@ class _SetupTab extends StatelessWidget {
               duration: const Duration(milliseconds: 220),
               curve: Curves.easeOutCubic,
               style: TextStyle(
-                color: selected ? Colors.white : const Color(0xFF8796AA),
+                color: selected ? Colors.white : const Color(0xFF938CA5),
                 fontSize: selected ? 13 : 12.5,
                 fontWeight: FontWeight.w800,
               ),
@@ -622,7 +622,7 @@ class _LevelOption extends StatelessWidget {
         duration: const Duration(milliseconds: 180),
         padding: const EdgeInsets.all(13),
         decoration: BoxDecoration(
-          color: selected ? const Color(0xFFEAF3FF) : const Color(0xEFFFFFFF),
+          color: selected ? const Color(0xFFF1EFFA) : const Color(0xEFFFFFFF),
           borderRadius: BorderRadius.circular(23),
           border: Border.all(
             color: selected ? AppColors.primary : const Color(0xCFFFFFFF),
@@ -726,7 +726,7 @@ class _MetaPill extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
       decoration: BoxDecoration(
-        color: const Color(0xFFEFF4FA),
+        color: const Color(0xFFF3F1F8),
         borderRadius: BorderRadius.circular(99),
       ),
       child: Text(
@@ -873,13 +873,13 @@ class _TopicsStep extends ConsumerWidget {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 8),
               decoration: BoxDecoration(
-                color: const Color(0xFFE6F0FF),
+                color: const Color(0xFFEFECF9),
                 borderRadius: BorderRadius.circular(99),
               ),
               child: Text(
                 context.l10n.text('recommended'),
                 style: const TextStyle(
-                  color: Color(0xFF2475E6),
+                  color: Color(0xFF7658E2),
                   fontSize: 10,
                   fontWeight: FontWeight.w800,
                 ),
@@ -962,7 +962,7 @@ class _TopicOption extends StatelessWidget {
               : Colors.white.withValues(alpha: .82),
           borderRadius: BorderRadius.circular(18),
           border: Border.all(
-            color: selected ? const Color(0xFF2A7DF4) : const Color(0xFFDCE5F0),
+            color: selected ? const Color(0xFF8063EF) : const Color(0xFFE2DFED),
             width: selected ? 1.5 : 1,
           ),
           boxShadow: [
@@ -1064,14 +1064,14 @@ class _CheckIndicator extends StatelessWidget {
         color: selected ? null : Colors.white.withValues(alpha: .4),
         gradient: selected
             ? const LinearGradient(
-                colors: [Color(0xFF3A8EFF), Color(0xFF155CFF)],
+                colors: [Color(0xFF9A80FC), Color(0xFF7C5CFC)],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               )
             : null,
         borderRadius: BorderRadius.circular(8),
         border: Border.all(
-          color: selected ? const Color(0xFF1C69F4) : const Color(0xFFAAB6C5),
+          color: selected ? const Color(0xFF7F5FF3) : const Color(0xFFB8B3C8),
           width: 1.5,
         ),
         boxShadow: selected
@@ -1168,14 +1168,14 @@ class _SetupBottomBar extends StatelessWidget {
                       borderRadius: BorderRadius.circular(25),
                       gradient: selectedTopicCount > 0
                           ? const LinearGradient(
-                              colors: [Color(0xFF9FD2FF), Color(0xFF62A9FF)],
+                              colors: [Color(0xFFC4B7F3), Color(0xFFAD97FC)],
                               begin: Alignment.topLeft,
                               end: Alignment.bottomRight,
                             )
                           : null,
                       color: selectedTopicCount > 0
                           ? null
-                          : const Color(0xFFD2DAE7),
+                          : const Color(0xFFDFDDE9),
                       boxShadow: selectedTopicCount > 0
                           ? const [
                               BoxShadow(
@@ -1190,10 +1190,10 @@ class _SetupBottomBar extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: selectedTopicCount > 0
                             ? null
-                            : const Color(0xFFB9C7DC),
+                            : const Color(0xFFCBC6DC),
                         gradient: selectedTopicCount > 0
                             ? const LinearGradient(
-                                colors: [Color(0xFF4A8CFF), Color(0xFF245CEB)],
+                                colors: [Color(0xFFA78FFC), Color(0xFF8264ED)],
                                 begin: Alignment.topLeft,
                                 end: Alignment.bottomRight,
                               )

@@ -1,21 +1,26 @@
 import 'package:flutter/material.dart';
 
 abstract final class AppColors {
-  static const background = Color(0xFFF7FAFF);
+  static const background = Color(0xFFF8F5FF);
   static const surface = Color(0xFFFFFFFF);
-  static const surfaceSoft = Color(0xFFF0F4FA);
-  static const surfaceBlue = Color(0xFFEDF3FF);
-  static const primary = Color(0xFF155CFF);
-  static const primaryDark = Color(0xFF082B70);
-  static const cyan = Color(0xFF56D8FF);
+  static const surfaceSoft = Color(0xFFF3EEFF);
+  static const surfaceBlue = Color(0xFFF0EBFF);
+  static const primary = Color(0xFF7C5CFC);
+  static const primaryDark = Color(0xFF4B347D);
+  static const secondary = Color(0xFFFF6F91);
+  static const highlight = Color(0xFFFF9F68);
+  static const gradientMid = Color(0xFFC05CFF);
+  static const cyan = secondary;
   static const yellow = Color(0xFFFFC928);
   static const green = Color(0xFF20C988);
-  static const orange = Color(0xFFFF8A34);
-  static const purple = Color(0xFF7A5CFF);
-  static const pink = Color(0xFFFF5F87);
-  static const textPrimary = Color(0xFF071A3D);
-  static const textSecondary = Color(0xFF7084A0);
-  static const textMuted = Color(0xFF9AA8BB);
-  static const divider = Color(0xFFE5ECF6);
+  static const orange = highlight;
+  static const purple = gradientMid;
+  static const pink = secondary;
+  static const textPrimary = Color(0xFF282238);
+  static const textSecondary = Color(0xFF6E667D);
+  static const textMuted = Color(0xFF9A91A8);
+  static const divider = Color(0xFFE8E0F2);
   static const success = Color(0xFF20C988);
+
+  static const primaryGradient = <Color>[primary, gradientMid, secondary];
 }

@@ -161,12 +161,12 @@ class _ReadingHeader extends StatelessWidget {
                   width: 46,
                   height: 46,
                   decoration: const BoxDecoration(
-                    color: Color(0xFFCFE8FF),
+                    color: Color(0xFFE0DAF4),
                     shape: BoxShape.circle,
                   ),
                   child: const Icon(
                     Icons.auto_stories_rounded,
-                    color: Color(0xFF176EE8),
+                    color: Color(0xFF7757EA),
                     size: 27,
                   ),
                 ),
@@ -193,7 +193,7 @@ class _ReadingHeader extends StatelessWidget {
                         ),
                         key: const ValueKey('reading-story-count'),
                         style: const TextStyle(
-                          color: Color(0xFF435D91),
+                          color: Color(0xFF5F4E86),
                           fontSize: 13,
                           height: 1.2,
                           fontWeight: FontWeight.w500,
@@ -311,7 +311,7 @@ class _StoryCard extends StatelessWidget {
   final VoidCallback onTap;
 
   static const _accentColors = <Color>[
-    Color(0xFF61A8FF),
+    Color(0xFFAD97FC),
     Color(0xFF66D187),
     Color(0xFFB995FF),
     Color(0xFFFF8EBD),
@@ -378,7 +378,7 @@ class _StoryCard extends StatelessWidget {
                               decoration: BoxDecoration(
                                 color: completed
                                     ? const Color(0xFF19B96E)
-                                    : const Color(0xFF287BE8),
+                                    : const Color(0xFF8467EB),
                                 shape: BoxShape.circle,
                                 border: Border.all(
                                   color: Colors.white,
@@ -612,7 +612,7 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
     final content = _showTranslation ? story.content : story.originalContent;
     return Scaffold(
       key: const ValueKey('reading-detail-screen'),
-      backgroundColor: const Color(0xFFE7F5FF),
+      backgroundColor: const Color(0xFFEFECFA),
       body: Stack(
         children: [
           const Positioned.fill(child: _ReadingDetailBackdrop()),
@@ -797,7 +797,7 @@ class _ReadingStoryTextState extends State<_ReadingStoryText> {
   Widget build(BuildContext context) {
     final compact = MediaQuery.sizeOf(context).width < 360;
     final style = TextStyle(
-      color: const Color(0xFF07143D),
+      color: const Color(0xFF302747),
       fontSize: compact ? 17 : 19,
       height: compact ? 1.75 : 1.85,
       fontWeight: FontWeight.w500,
@@ -877,9 +877,9 @@ class _ReadingWordSheetState extends State<_ReadingWordSheet> {
             width: double.infinity,
             padding: const EdgeInsets.all(18),
             decoration: BoxDecoration(
-              color: const Color(0xFFF4F8FF),
+              color: const Color(0xFFF8F6FD),
               borderRadius: BorderRadius.circular(22),
-              border: Border.all(color: const Color(0xFFD6E5FA)),
+              border: Border.all(color: const Color(0xFFE2DEF2)),
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -908,8 +908,8 @@ class _ReadingWordSheetState extends State<_ReadingWordSheet> {
                       ),
                       icon: const Icon(Icons.volume_up_rounded),
                       style: IconButton.styleFrom(
-                        foregroundColor: const Color(0xFF2778D7),
-                        backgroundColor: const Color(0xFFE2EFFF),
+                        foregroundColor: const Color(0xFF7C60E1),
+                        backgroundColor: const Color(0xFFECE9F8),
                       ),
                     ),
                   ],
@@ -1024,9 +1024,9 @@ class _ReadingTranslatedWordSheetState
             width: double.infinity,
             padding: const EdgeInsets.all(18),
             decoration: BoxDecoration(
-              color: const Color(0xFFF4F8FF),
+              color: const Color(0xFFF8F6FD),
               borderRadius: BorderRadius.circular(22),
-              border: Border.all(color: const Color(0xFFD6E5FA)),
+              border: Border.all(color: const Color(0xFFE2DEF2)),
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,

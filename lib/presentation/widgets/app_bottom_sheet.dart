@@ -14,7 +14,7 @@ class AppBottomSheet extends StatelessWidget {
       clipBehavior: Clip.antiAlias,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(32)),
-        side: BorderSide(color: Color(0xFFD9E8FB), width: 1.2),
+        side: BorderSide(color: Color(0xFFE5E1F3), width: 1.2),
       ),
       child: SafeArea(
         top: false,
@@ -50,7 +50,7 @@ class AppBottomSheetHandle extends StatelessWidget {
         width: 48,
         height: 5,
         decoration: BoxDecoration(
-          color: const Color(0xFFCFE1FA),
+          color: const Color(0xFFDBD3F8),
           borderRadius: BorderRadius.circular(99),
         ),
       ),
@@ -62,7 +62,7 @@ class AppBottomSheetTitle extends StatelessWidget {
   const AppBottomSheetTitle({
     required this.title,
     this.icon = Icons.auto_awesome_rounded,
-    this.color = const Color(0xFF2B72E8),
+    this.color = const Color(0xFF866AEB),
     super.key,
   });
 
@@ -89,7 +89,7 @@ class AppBottomSheetTitle extends StatelessWidget {
           child: Text(
             title,
             style: const TextStyle(
-              color: Color(0xFF071A3D),
+              color: Color(0xFF282238),
               fontSize: 25,
               height: 1.1,
               fontWeight: FontWeight.w800,

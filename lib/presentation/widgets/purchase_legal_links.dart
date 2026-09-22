@@ -14,9 +14,9 @@ class SubscriptionBillingDisclosure extends StatelessWidget {
     required this.package,
     required this.product,
     required this.trialDays,
-    this.textColor = const Color(0xFF536686),
-    this.backgroundColor = const Color(0xFFF1F6FD),
-    this.borderColor = const Color(0xFFD9E6F8),
+    this.textColor = const Color(0xFF655A7F),
+    this.backgroundColor = const Color(0xFFF5F4FA),
+    this.borderColor = const Color(0xFFE4E0F1),
   });
 
   final IapPackage package;
@@ -102,7 +102,7 @@ class SubscriptionBillingDisclosure extends StatelessWidget {
 class PurchaseRestoreButton extends ConsumerStatefulWidget {
   const PurchaseRestoreButton({
     super.key,
-    this.textColor = const Color(0xFF536686),
+    this.textColor = const Color(0xFF655A7F),
   });
 
   final Color textColor;
@@ -166,7 +166,7 @@ class _PurchaseRestoreButtonState extends ConsumerState<PurchaseRestoreButton> {
 class PurchaseLegalLinks extends StatelessWidget {
   const PurchaseLegalLinks({
     super.key,
-    this.textColor = const Color(0xFF536686),
+    this.textColor = const Color(0xFF655A7F),
   });
 
   static final privacyPolicyUri = Uri.parse(

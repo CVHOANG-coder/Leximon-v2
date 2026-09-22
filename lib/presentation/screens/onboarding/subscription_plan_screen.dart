@@ -245,11 +245,11 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.light,
         statusBarBrightness: Brightness.dark,
-        systemNavigationBarColor: Color(0xFF01062A),
+        systemNavigationBarColor: Color(0xFF282238),
         systemNavigationBarIconBrightness: Brightness.light,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFF01062A),
+        backgroundColor: const Color(0xFF282238),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -376,7 +376,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                         color: Colors.white,
                         size: 32,
                         shadows: [
-                          Shadow(color: Color(0xFF2887FF), blurRadius: 10),
+                          Shadow(color: Color(0xFF8D6EFB), blurRadius: 10),
                         ],
                       ),
                     ),
@@ -401,11 +401,11 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       return [
         const Padding(
           padding: EdgeInsets.symmetric(vertical: 30),
-          child: CircularProgressIndicator(color: Color(0xFF8CCBFF)),
+          child: CircularProgressIndicator(color: Color(0xFFB7A7F1)),
         ),
         Text(
           context.l10n.text('subscriptionLoadingPlans'),
-          style: const TextStyle(color: Color(0xFFAAC7FF), fontSize: 15),
+          style: const TextStyle(color: Color(0xFFCCC1F5), fontSize: 15),
         ),
       ];
     }
@@ -415,7 +415,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
         Text(
           context.l10n.text('subscriptionLoadError'),
           textAlign: TextAlign.center,
-          style: TextStyle(color: Color(0xFFAAC7FF), fontSize: 15),
+          style: TextStyle(color: Color(0xFFCCC1F5), fontSize: 15),
         ),
         const SizedBox(height: 8),
         TextButton(
@@ -470,7 +470,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
         package: selectedPackage,
         product: catalog?.productFor(selectedPackage),
         trialDays: trialDays,
-        textColor: const Color(0xFFD9E9FF),
+        textColor: const Color(0xFFE6E2F6),
         backgroundColor: const Color(0x66061A58),
         borderColor: const Color(0x665B9CFF),
       ),
@@ -618,7 +618,7 @@ class _SubscriptionOfferHeadline extends StatelessWidget {
       fontWeight: FontWeight.w800,
       letterSpacing: -0.7,
       shadows: [
-        Shadow(color: Color(0xFF287BFF), blurRadius: 10),
+        Shadow(color: Color(0xFF8D6EFB), blurRadius: 10),
         Shadow(color: Color(0xA000144D), blurRadius: 7, offset: Offset(0, 3)),
       ],
     );
@@ -641,11 +641,11 @@ class _SubscriptionOfferHeadline extends StatelessWidget {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
             decoration: BoxDecoration(
-              color: const Color(0xFF082C93).withValues(alpha: 0.62),
+              color: const Color(0xFF4C3483).withValues(alpha: 0.62),
               borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: const Color(0xFF6AD8FF), width: 1.1),
+              border: Border.all(color: const Color(0xFFFF819E), width: 1.1),
               boxShadow: const [
-                BoxShadow(color: Color(0xFF267CFF), blurRadius: 16),
+                BoxShadow(color: Color(0xFF8B6CFB), blurRadius: 16),
               ],
             ),
             child: Text('$trialDays', style: style),
@@ -679,7 +679,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final foregroundColor = selected ? const Color(0xFF061541) : Colors.white;
+    final foregroundColor = selected ? const Color(0xFF2C1E4C) : Colors.white;
 
     return Material(
       color: Colors.transparent,
@@ -699,7 +699,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
           decoration: BoxDecoration(
             gradient: selected
                 ? const LinearGradient(
-                    colors: [Color(0xFFFFFFFF), Color(0xFFEAF4FF)],
+                    colors: [Color(0xFFFFFFFF), Color(0xFFF1EFFA)],
                   )
                 : const LinearGradient(
                     colors: [Color(0xB512326F), Color(0xB506154B)],
@@ -707,8 +707,8 @@ class _SubscriptionPlanCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(18),
             border: Border.all(
               color: selected
-                  ? const Color(0xFF62CFFF)
-                  : const Color(0xFF4A7CFF),
+                  ? const Color(0xFFFF7998)
+                  : const Color(0xFFA78FFC),
               width: selected ? 1.8 : 1.2,
             ),
             boxShadow: [
@@ -768,7 +768,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                             overflow: TextOverflow.ellipsis,
                             style: TextStyle(
                               color: selected
-                                  ? const Color(0xFF061541)
+                                  ? const Color(0xFF2C1E4C)
                                   : Colors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.w700,
@@ -791,8 +791,8 @@ class _SubscriptionPlanCard extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             color: selected
-                                ? const Color(0xFF1657E8)
-                                : const Color(0xFF8AAEFF),
+                                ? const Color(0xFF7656EB)
+                                : const Color(0xFFB6A5F0),
                             fontSize: 15,
                             fontWeight: FontWeight.w700,
                           ),
@@ -815,7 +815,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                     ),
                     decoration: BoxDecoration(
                       gradient: const LinearGradient(
-                        colors: [Color(0xFF65DFFF), Color(0xFF176BFF)],
+                        colors: [Color(0xFFFF7C9B), Color(0xFF805DFB)],
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
                       ),
@@ -904,11 +904,11 @@ class _SubscriptionStartButton extends StatelessWidget {
       child: DecoratedBox(
         decoration: BoxDecoration(
           gradient: const LinearGradient(
-            colors: [Color(0xFFFFFFFF), Color(0xFFDDECFF), Color(0xFF7FB5FF)],
+            colors: [Color(0xFFFFFFFF), Color(0xFFE9E5F7), Color(0xFFAE9CEF)],
             stops: [0, 0.6, 1],
           ),
           borderRadius: BorderRadius.circular(38),
-          border: Border.all(color: const Color(0xFF72D5FF), width: 1.5),
+          border: Border.all(color: const Color(0xFFFF89A4), width: 1.5),
           boxShadow: const [
             BoxShadow(
               color: Color(0xD02B7DFF),
@@ -934,7 +934,7 @@ class _SubscriptionStartButton extends StatelessWidget {
                   ? const SizedBox.square(
                       dimension: 25,
                       child: CircularProgressIndicator(
-                        color: Color(0xFF155BF3),
+                        color: Color(0xFF7C5CFC),
                         strokeWidth: 2.5,
                       ),
                     )
@@ -942,7 +942,7 @@ class _SubscriptionStartButton extends StatelessWidget {
                       label,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF155BF3),
+                        color: Color(0xFF7C5CFC),
                         fontSize: 20,
                         height: 1.05,
                         fontWeight: FontWeight.w800,
@@ -968,7 +968,7 @@ class _SubscriptionLegalFooter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const footerTextColor = Color(0xFFBBD7FF);
+    const footerTextColor = Color(0xFFD8CFF7);
 
     return Container(
       key: const ValueKey('subscription-legal-footer'),
@@ -1006,7 +1006,7 @@ class _SubscriptionLegalFooter extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 3),
-          const PurchaseLegalLinks(textColor: Color(0xFF8EB8F5)),
+          const PurchaseLegalLinks(textColor: Color(0xFFB1A0F0)),
         ],
       ),
     );

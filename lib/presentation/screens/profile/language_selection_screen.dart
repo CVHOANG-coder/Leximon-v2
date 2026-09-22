@@ -268,7 +268,7 @@ class _LanguageSaveProgress extends StatelessWidget {
                   '${(progress * 100).round()}%',
                   key: const ValueKey('language-model-download-percent'),
                   style: const TextStyle(
-                    color: Color(0xFF0964E9),
+                    color: Color(0xFF6D4DE8),
                     fontSize: 14,
                     fontWeight: FontWeight.w800,
                   ),
@@ -281,8 +281,8 @@ class _LanguageSaveProgress extends StatelessWidget {
               child: LinearProgressIndicator(
                 value: progress,
                 minHeight: 9,
-                backgroundColor: const Color(0xFFDCE9F9),
-                color: const Color(0xFF0964FF),
+                backgroundColor: const Color(0xFFE6E3F2),
+                color: const Color(0xFF7C5CFC),
               ),
             ),
           ],
@@ -341,7 +341,7 @@ class _LanguageHero extends StatelessWidget {
           //       gradient: LinearGradient(
           //         begin: Alignment.topCenter,
           //         end: Alignment.bottomCenter,
-          //         colors: [Color(0x00FDFEFF), Color(0xFFFDFEFF)],
+          //         colors: [Color(0x00FDFEFF), Color(0xFFFEFDFF)],
           //         stops: [0.8, 0.86],
           //       ),
           //       borderRadius: BorderRadius.vertical(
@@ -384,7 +384,7 @@ class _LanguageHero extends StatelessWidget {
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
-                  colors: [Color(0xFFFDFEFF), Color(0xFFFDFEFF)],
+                  colors: [Color(0xFFFEFDFF), Color(0xFFFEFDFF)],
                   stops: [0.1, 0.86],
                 ),
                 borderRadius: BorderRadius.vertical(
@@ -409,7 +409,7 @@ class _LanguageHero extends StatelessWidget {
                     context.l10n.text('languagePickerSubtitle'),
                     textAlign: TextAlign.center,
                     style: const TextStyle(
-                      color: Color(0xFF657BA5),
+                      color: Color(0xFF7C6E9C),
                       fontSize: 15,
                       fontWeight: FontWeight.w500,
                     ),
@@ -456,8 +456,8 @@ class _SelectableLanguageTile extends StatelessWidget {
               borderRadius: BorderRadius.circular(22),
               border: Border.all(
                 color: selected
-                    ? const Color(0xFF1770FF)
-                    : const Color(0xFFF0F3F8),
+                    ? const Color(0xFF805DFB)
+                    : const Color(0xFFF2F1F7),
                 width: selected ? 2.5 : 1,
               ),
               boxShadow: const [
@@ -494,7 +494,7 @@ class _SelectableLanguageTile extends StatelessWidget {
                       Text(
                         englishLanguageName(language.code, label),
                         style: const TextStyle(
-                          color: Color(0xFF7185AA),
+                          color: Color(0xFF8579A2),
                           fontSize: 14,
                           fontWeight: FontWeight.w500,
                         ),
@@ -508,11 +508,11 @@ class _SelectableLanguageTile extends StatelessWidget {
                   height: 26,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: selected ? const Color(0xFF1D75FF) : Colors.white,
+                    color: selected ? const Color(0xFF7C5CFC) : Colors.white,
                     border: Border.all(
                       color: selected
-                          ? const Color(0xFF1D75FF)
-                          : const Color(0xFFD7E0EE),
+                          ? const Color(0xFF7C5CFC)
+                          : const Color(0xFFE1DEED),
                       width: 2.5,
                     ),
                   ),
@@ -544,8 +544,8 @@ class _SaveButton extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: isSaving
-                ? const [Color(0xFF78A2FF), Color(0xFF8DB4FF)]
-                : const [Color(0xFF2378FF), Color(0xFF46CFC0)],
+                ? const [Color(0xFFA996EE), Color(0xFFB8A8F1)]
+                : const [Color(0xFF8969FB), Color(0xFF46CFC0)],
           ),
           borderRadius: BorderRadius.circular(30),
           boxShadow: const [

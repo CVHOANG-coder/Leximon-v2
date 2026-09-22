@@ -523,7 +523,7 @@ class _SpeakingExerciseScreenState
       ),
       child: Scaffold(
         key: const ValueKey('speaking-exercise-screen'),
-        backgroundColor: const Color(0xFFF3F8FF),
+        backgroundColor: const Color(0xFFF7F6FC),
         body: FutureBuilder<ListeningExercise>(
           future: _exerciseFuture,
           builder: (context, snapshot) {
@@ -629,7 +629,7 @@ class _SpeakingHeader extends StatelessWidget {
           child: LinearProgressIndicator(
             value: current / total,
             minHeight: 7,
-            backgroundColor: const Color(0xFFDDE9F8),
+            backgroundColor: const Color(0xFFE6E3F2),
             color: const Color(0xFFEE5C8A),
           ),
         ),
@@ -675,7 +675,7 @@ class _SpeakingSentenceCard extends StatelessWidget {
     decoration: BoxDecoration(
       color: Colors.white,
       borderRadius: BorderRadius.circular(28),
-      border: Border.all(color: const Color(0xFFDCE8F7)),
+      border: Border.all(color: const Color(0xFFE5E2F1)),
       boxShadow: const [
         BoxShadow(
           color: Color(0x14214B82),
@@ -691,7 +691,7 @@ class _SpeakingSentenceCard extends StatelessWidget {
           context.l10n.text('speakingListenAndRepeat'),
           textAlign: TextAlign.center,
           style: TextStyle(
-            color: Color(0xFF7890AD),
+            color: Color(0xFF8B7FA6),
             fontSize: 11,
             fontWeight: FontWeight.w800,
             letterSpacing: 1.2,
@@ -729,7 +729,7 @@ class _SpeakingSentenceCard extends StatelessWidget {
             icon: const Icon(Icons.volume_up_rounded),
             label: Text(context.l10n.text('speakingListenToSample')),
             style: FilledButton.styleFrom(
-              backgroundColor: const Color(0xFF2774F5),
+              backgroundColor: const Color(0xFF886AF4),
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
             ),
           ),
@@ -774,7 +774,7 @@ class _SpeakingSentenceCard extends StatelessWidget {
               : context.l10n.text('speakingRecordingPrompt'),
           textAlign: TextAlign.center,
           style: const TextStyle(
-            color: Color(0xFF7A8DA7),
+            color: Color(0xFF8A80A1),
             fontSize: 12,
             fontWeight: FontWeight.w600,
           ),
@@ -822,7 +822,7 @@ class _SpeakingSentenceCard extends StatelessWidget {
             key: const ValueKey('speaking-next-button'),
             onPressed: onNext,
             style: FilledButton.styleFrom(
-              backgroundColor: const Color(0xFF2774F5),
+              backgroundColor: const Color(0xFF886AF4),
               padding: const EdgeInsets.symmetric(vertical: 15),
             ),
             child: Text(
@@ -951,7 +951,7 @@ class _ResultLegend extends StatelessWidget {
       Text(
         label,
         style: const TextStyle(
-          color: Color(0xFF74849A),
+          color: Color(0xFF817995),
           fontSize: 10,
           fontWeight: FontWeight.w700,
         ),

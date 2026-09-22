@@ -45,11 +45,11 @@ class _GrammarPracticeScreenState extends ConsumerState<GrammarPracticeScreen> {
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: Color(0xFFF7FAFF),
+        systemNavigationBarColor: Color(0xFFF8F5FF),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFFF7FAFF),
+        backgroundColor: const Color(0xFFF8F5FF),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -698,7 +698,7 @@ class _GrammarPackTile extends StatelessWidget {
         color: Colors.white.withValues(alpha: .9),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(17),
-          side: const BorderSide(color: Color(0xFFE7EFFA)),
+          side: const BorderSide(color: Color(0xFFEEEBF6)),
         ),
         clipBehavior: Clip.antiAlias,
         child: InkWell(
@@ -772,7 +772,7 @@ class _GrammarPackTile extends StatelessWidget {
                         child: LinearProgressIndicator(
                           value: pack.progress / 100,
                           minHeight: 4,
-                          backgroundColor: const Color(0xFFEAF1FA),
+                          backgroundColor: const Color(0xFFF0EEF6),
                           color: style.color,
                         ),
                       ),
@@ -785,7 +785,7 @@ class _GrammarPackTile extends StatelessWidget {
                   height: 27,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                    color: const Color(0xFFF3F6FB),
+                    color: const Color(0xFFF6F5F9),
                     borderRadius: BorderRadius.circular(99),
                   ),
                   child: Text(
@@ -805,7 +805,7 @@ class _GrammarPackTile extends StatelessWidget {
                     onPressed: pack.progress > 0 ? onReset : null,
                     style: IconButton.styleFrom(
                       backgroundColor: const Color(0xFFFFEEEE),
-                      disabledBackgroundColor: const Color(0xFFF3F6FB),
+                      disabledBackgroundColor: const Color(0xFFF6F5F9),
                     ),
                     icon: Icon(
                       Icons.restart_alt_rounded,
@@ -874,7 +874,7 @@ class _GrammarBackdrop extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
-          colors: [Color(0xFFE7F6FF), Color(0xFFF8FBFF), Color(0xFFEEF7FF)],
+          colors: [Color(0xFFF9EDF0), Color(0xFFFAFAFD), Color(0xFFF4F2FB)],
           stops: [0, .48, 1],
         ),
       ),

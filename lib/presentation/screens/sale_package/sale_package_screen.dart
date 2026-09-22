@@ -42,7 +42,7 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
       ),
       child: Scaffold(
         key: const ValueKey('sale-package-screen'),
-        backgroundColor: const Color(0xFFF9FCFF),
+        backgroundColor: const Color(0xFFFBFAFE),
         body: Stack(
           children: [
             Positioned.fill(
@@ -85,7 +85,7 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
     if (package == null && catalogState.isLoading) {
       return const Padding(
         padding: EdgeInsets.symmetric(vertical: 64),
-        child: CircularProgressIndicator(color: Color(0xFF2271F5)),
+        child: CircularProgressIndicator(color: Color(0xFF7C5CFC)),
       );
     }
 
@@ -120,14 +120,14 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.lock_rounded, color: Color(0xFF8391AA), size: 17),
+            const Icon(Icons.lock_rounded, color: Color(0xFF9188A5), size: 17),
             const SizedBox(width: 8),
             Flexible(
               child: Text(
                 context.l10n.text('saleSecurePayment'),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: Color(0xFF687897),
+                  color: Color(0xFF796F90),
                   fontSize: 13,
                   fontWeight: FontWeight.w500,
                 ),
@@ -367,7 +367,7 @@ class _SaleHeadline extends StatelessWidget {
                         'saleHeadlineDays',
                         values: {'days': trialDays},
                       ),
-                      style: const TextStyle(color: Color(0xFF1466EE)),
+                      style: const TextStyle(color: Color(0xFF7252EC)),
                     ),
                   ],
                 )
@@ -375,7 +375,7 @@ class _SaleHeadline extends StatelessWidget {
           key: const ValueKey('sale-package-headline'),
           textAlign: TextAlign.center,
           style: const TextStyle(
-            color: Color(0xFF071735),
+            color: Color(0xFF282238),
             fontSize: 27,
             height: 1.15,
             fontWeight: FontWeight.w900,
@@ -387,7 +387,7 @@ class _SaleHeadline extends StatelessWidget {
           context.l10n.text('saleHeadlineSubtitle'),
           textAlign: TextAlign.center,
           style: const TextStyle(
-            color: Color(0xFF526584),
+            color: Color(0xFF64597D),
             fontSize: 16,
             height: 1.3,
             fontWeight: FontWeight.w500,
@@ -427,7 +427,7 @@ class _SalePlanCard extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.white.withValues(alpha: .96),
           borderRadius: BorderRadius.circular(22),
-          border: Border.all(color: const Color(0xFFD9E6F8)),
+          border: Border.all(color: const Color(0xFFE4E0F1)),
           boxShadow: const [
             BoxShadow(
               color: Color(0x182D70B5),
@@ -457,7 +457,7 @@ class _SalePlanCard extends StatelessWidget {
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(
-                          color: Color(0xFF071735),
+                          color: Color(0xFF282238),
                           fontSize: 21,
                           height: 1.1,
                           fontWeight: FontWeight.w800,
@@ -474,7 +474,7 @@ class _SalePlanCard extends StatelessWidget {
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
                               style: const TextStyle(
-                                color: Color(0xFF1B61EA),
+                                color: Color(0xFF7B5CEC),
                                 fontSize: 28,
                                 height: 1,
                                 fontWeight: FontWeight.w800,
@@ -488,7 +488,7 @@ class _SalePlanCard extends StatelessWidget {
                             child: Text(
                               _periodLabel(context, package.packDurationDay),
                               style: const TextStyle(
-                                color: Color(0xFF657492),
+                                color: Color(0xFF756B8C),
                                 fontSize: 13,
                                 fontWeight: FontWeight.w600,
                               ),
@@ -505,7 +505,7 @@ class _SalePlanCard extends StatelessWidget {
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(
-                              color: Color(0xFF7B879F),
+                              color: Color(0xFF887F9B),
                               fontSize: 12,
                               decoration: TextDecoration.lineThrough,
                               fontWeight: FontWeight.w600,
@@ -534,7 +534,7 @@ class _SalePlanCard extends StatelessWidget {
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(
-                          color: Color(0xFF637392),
+                          color: Color(0xFF746A8B),
                           fontSize: 12.5,
                           fontWeight: FontWeight.w500,
                         ),
@@ -624,7 +624,7 @@ class _SalePlanCard extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(14, 9, 18, 9),
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color(0xFF66A8FF), Color(0xFF1461F0)],
+              colors: [Color(0xFF9C86EB), Color(0xFF7856F0)],
             ),
             borderRadius: BorderRadius.only(
               topLeft: Radius.circular(19),
@@ -696,7 +696,7 @@ class _BenefitsCard extends StatelessWidget {
     decoration: BoxDecoration(
       color: Colors.white.withValues(alpha: .94),
       borderRadius: BorderRadius.circular(20),
-      border: Border.all(color: const Color(0xFFE2EBF7)),
+      border: Border.all(color: const Color(0xFFE9E7F2)),
       boxShadow: const [
         BoxShadow(
           color: Color(0x132D70B5),
@@ -749,7 +749,7 @@ class _Benefit extends StatelessWidget {
           label,
           maxLines: 3,
           style: const TextStyle(
-            color: Color(0xFF28446F),
+            color: Color(0xFF423562),
             fontSize: 11,
             height: 1.25,
             fontWeight: FontWeight.w600,
@@ -765,7 +765,7 @@ class _BenefitDivider extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-      Container(width: 1, height: 48, color: const Color(0xFFDDE6F1));
+      Container(width: 1, height: 48, color: const Color(0xFFE3E0EE));
 }
 
 class _SaleButton extends StatelessWidget {
@@ -785,7 +785,7 @@ class _SaleButton extends StatelessWidget {
   Widget build(BuildContext context) => DecoratedBox(
     decoration: BoxDecoration(
       gradient: const LinearGradient(
-        colors: [Color(0xFF2B72FA), Color(0xFF20D4C8)],
+        colors: [Color(0xFF8D6FF8), Color(0xFF20D4C8)],
       ),
       borderRadius: BorderRadius.circular(30),
       boxShadow: const [
@@ -861,7 +861,7 @@ class _LoadError extends StatelessWidget {
         Text(
           context.l10n.text('saleLoadError'),
           textAlign: TextAlign.center,
-          style: const TextStyle(color: Color(0xFF526584), fontSize: 15),
+          style: const TextStyle(color: Color(0xFF64597D), fontSize: 15),
         ),
         const SizedBox(height: 8),
         TextButton(onPressed: onRetry, child: Text(context.l10n.retry)),

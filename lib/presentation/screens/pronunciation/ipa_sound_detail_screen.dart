@@ -158,12 +158,12 @@ class _IpaSoundDetailScreenState extends State<IpaSoundDetailScreen>
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: Color(0xFFF7FBFF),
+        systemNavigationBarColor: Color(0xFFFAF9FD),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
         key: const ValueKey('ipa-sound-detail-screen'),
-        backgroundColor: const Color(0xFFF7FBFF),
+        backgroundColor: const Color(0xFFFAF9FD),
         body: FutureBuilder<void>(
           future: _mediaReadyFuture,
           builder: (context, snapshot) {
@@ -415,7 +415,7 @@ class _DetailHeader extends StatelessWidget {
               height: 48,
               child: Icon(
                 Icons.arrow_back_rounded,
-                color: Color(0xFF237EDB),
+                color: Color(0xFF7B5FE1),
                 size: 27,
               ),
             ),
@@ -553,7 +553,7 @@ class _SoundDescriptionCard extends StatelessWidget {
                 child: Text(
                   sound.typeLabel.toUpperCase(),
                   style: const TextStyle(
-                    color: Color(0xFF43618D),
+                    color: Color(0xFF5D4D83),
                     fontSize: 11,
                     fontWeight: FontWeight.w800,
                     letterSpacing: .7,
@@ -613,7 +613,7 @@ class _VideoSection extends StatelessWidget {
             children: [
               Icon(
                 Icons.play_circle_fill_rounded,
-                color: Color(0xFF268BE9),
+                color: Color(0xFF8366EC),
                 size: 24,
               ),
               SizedBox(width: 9),
@@ -631,14 +631,14 @@ class _VideoSection extends StatelessWidget {
         ClipRRect(
           borderRadius: BorderRadius.circular(18),
           child: ColoredBox(
-            color: const Color(0xFFEAF3FC),
+            color: const Color(0xFFF0EEF8),
             child: controller == null
                 ? const AspectRatio(
                     aspectRatio: 16 / 9,
                     child: Center(
                       child: Text(
                         'Video is unavailable',
-                        style: TextStyle(color: Color(0xFF63799B)),
+                        style: TextStyle(color: Color(0xFF776B93)),
                       ),
                     ),
                   )
@@ -646,7 +646,7 @@ class _VideoSection extends StatelessWidget {
                     key: const ValueKey('ipa-youtube-player'),
                     controller: controller!,
                     aspectRatio: 16 / 9,
-                    backgroundColor: const Color(0xFFEAF3FC),
+                    backgroundColor: const Color(0xFFF0EEF8),
                     keepAlive: true,
                   ),
           ),
@@ -731,7 +731,7 @@ class _WordSection extends StatelessWidget {
                   padding: EdgeInsets.symmetric(vertical: 18),
                   child: Text(
                     'No examples available for this sound.',
-                    style: TextStyle(color: Color(0xFF71819F)),
+                    style: TextStyle(color: Color(0xFF817799)),
                   ),
                 )
               else
@@ -777,7 +777,7 @@ class _WordRow extends StatelessWidget {
                 ? '${word.name}  ${word.transcription}'
                 : word.name,
             style: const TextStyle(
-              color: Color(0xFF264475),
+              color: Color(0xFF443665),
               fontSize: 15,
               height: 1.3,
               fontWeight: FontWeight.w500,
@@ -804,7 +804,7 @@ class _RoundAudioButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Material(
-    color: isPlaying ? const Color(0xFF278DEB) : Colors.white,
+    color: isPlaying ? const Color(0xFF8467ED) : Colors.white,
     elevation: 3,
     shadowColor: const Color(0x33234E7C),
     shape: const CircleBorder(),
@@ -816,7 +816,7 @@ class _RoundAudioButton extends StatelessWidget {
         height: size,
         child: Icon(
           isPlaying ? Icons.pause_rounded : Icons.volume_up_rounded,
-          color: isPlaying ? Colors.white : const Color(0xFF278DEB),
+          color: isPlaying ? Colors.white : const Color(0xFF8467ED),
           size: size * .48,
         ),
       ),

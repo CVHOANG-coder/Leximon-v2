@@ -433,14 +433,14 @@ class _VocabularyTestScreenState extends State<VocabularyTestScreen> {
         statusBarIconBrightness: Brightness.light,
         statusBarBrightness: Brightness.dark,
         systemNavigationBarColor: isCountdown
-            ? const Color(0xFF063BA4)
+            ? const Color(0xFF4C3483)
             : Colors.white,
         systemNavigationBarIconBrightness: isCountdown
             ? Brightness.light
             : Brightness.dark,
       ),
       child: Scaffold(
-        backgroundColor: const Color(0xFF061D4C),
+        backgroundColor: const Color(0xFF3B2B5D),
         body: Stack(
           fit: StackFit.expand,
           children: [
@@ -463,7 +463,7 @@ class _VocabularyTestScreenState extends State<VocabularyTestScreen> {
                       decoration: isDarkAssessmentPhase
                           ? null
                           : const BoxDecoration(
-                              color: Color(0xFFFBFDFF),
+                              color: Color(0xFFFCFCFE),
                               borderRadius: BorderRadius.vertical(
                                 top: Radius.circular(34),
                               ),
@@ -541,7 +541,7 @@ class _AssessmentBackdrop extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: [Color(0xFF020A38), Color(0xFF062A79), Color(0xFF064BC2)],
+          colors: [Color(0xFF271B43), Color(0xFF432E74), Color(0xFF4718F2)],
           stops: [0, .48, 1],
         ),
       ),
@@ -576,11 +576,11 @@ class _BackdropStar extends StatelessWidget {
       width: size,
       height: size,
       decoration: BoxDecoration(
-        color: const Color(0xFF8DE8FF),
+        color: const Color(0xFFFF99B1),
         shape: BoxShape.circle,
         boxShadow: [
           BoxShadow(
-            color: const Color(0xFF51D7FF).withValues(alpha: .9),
+            color: const Color(0xFFFF688B).withValues(alpha: .9),
             blurRadius: size * 3,
             spreadRadius: size / 2,
           ),
@@ -642,7 +642,7 @@ class _TestHeader extends StatelessWidget {
                       Text(
                         context.l10n.text('vocabularyTestHeader'),
                         style: const TextStyle(
-                          color: Color(0xFF58DCFF),
+                          color: Color(0xFFFF6F91),
                           fontSize: 11,
                           fontWeight: FontWeight.w800,
                           letterSpacing: 1.15,
@@ -675,7 +675,7 @@ class _TestHeader extends StatelessWidget {
                           width: 76,
                           height: 76,
                           fit: BoxFit.contain,
-                          color: const Color(0xFF65E4FF),
+                          color: const Color(0xFFFF7C9B),
                           colorBlendMode: BlendMode.srcIn,
                         ),
                       ),
@@ -730,7 +730,7 @@ class _ExamProgressIndicator extends StatelessWidget {
               width: constraints.maxWidth * progress.clamp(0.0, 1.0),
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Color(0xFFB4F7FF), Color(0xFF39BFFF)],
+                  colors: [Color(0xFFFF99B1), Color(0xFFFF5079)],
                 ),
                 borderRadius: BorderRadius.all(Radius.circular(99)),
               ),
@@ -799,7 +799,7 @@ class _QuestionView extends StatelessWidget {
                     values: {'current': questionNumber, 'total': questionCount},
                   ),
                   style: const TextStyle(
-                    color: Color(0xFF7E92AD),
+                    color: Color(0xFF8F85A6),
                     fontSize: 11,
                     fontWeight: FontWeight.w700,
                     letterSpacing: 1,
@@ -809,7 +809,7 @@ class _QuestionView extends StatelessWidget {
                 Text(
                   _instruction(context),
                   style: const TextStyle(
-                    color: Color(0xFF071944),
+                    color: Color(0xFF302747),
                     fontSize: 23,
                     height: 1.15,
                     fontWeight: FontWeight.w800,
@@ -915,10 +915,10 @@ class _TextPrompt extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 22),
       decoration: BoxDecoration(
         gradient: const LinearGradient(
-          colors: [Color(0xFFEAF3FF), Color(0xFFF6FAFF)],
+          colors: [Color(0xFFF1EFFA), Color(0xFFF9F8FD)],
         ),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: const Color(0xFFD7E6FF)),
+        border: Border.all(color: const Color(0xFFE5E0F6)),
       ),
       child: Row(
         children: [
@@ -929,7 +929,7 @@ class _TextPrompt extends StatelessWidget {
                 Text(
                   inverse ? question.translation : question.writing,
                   style: const TextStyle(
-                    color: Color(0xFF071944),
+                    color: Color(0xFF302747),
                     fontSize: 27,
                     height: 1.15,
                     fontWeight: FontWeight.w800,
@@ -941,7 +941,7 @@ class _TextPrompt extends StatelessWidget {
                   Text(
                     question.transcription,
                     style: const TextStyle(
-                      color: Color(0xFF7188A8),
+                      color: Color(0xFF8579A0),
                       fontSize: 14,
                       fontWeight: FontWeight.w500,
                     ),
@@ -955,7 +955,7 @@ class _TextPrompt extends StatelessWidget {
               key: const ValueKey('vocabulary-test-speak'),
               onPressed: onSpeak,
               style: IconButton.styleFrom(
-                backgroundColor: const Color(0xFF155CFF),
+                backgroundColor: const Color(0xFF7C5CFC),
                 foregroundColor: Colors.white,
               ),
               icon: const Icon(Icons.volume_up_rounded),
@@ -1016,7 +1016,7 @@ class _SentenceConstructorCard extends StatelessWidget {
                   const Text(
                     '✦',
                     style: TextStyle(
-                      color: Color(0xFF8BC5FF),
+                      color: Color(0xFFB6A6F1),
                       fontSize: 12,
                       height: 1,
                     ),
@@ -1029,7 +1029,7 @@ class _SentenceConstructorCard extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF176DEB),
+                        color: Color(0xFF7C5CFC),
                         fontSize: 10,
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1.45,
@@ -1040,7 +1040,7 @@ class _SentenceConstructorCard extends StatelessWidget {
                   const Text(
                     '✦',
                     style: TextStyle(
-                      color: Color(0xFF8BC5FF),
+                      color: Color(0xFFB6A6F1),
                       fontSize: 12,
                       height: 1,
                     ),
@@ -1155,7 +1155,7 @@ class _OnboardingSentenceProgress extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(99),
         child: ColoredBox(
-          color: const Color(0xFFD7E9FA),
+          color: const Color(0xFFE3DFF2),
           child: Align(
             alignment: Alignment.centerLeft,
             child: TweenAnimationBuilder<double>(
@@ -1176,7 +1176,11 @@ class _OnboardingSentenceProgress extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(99)),
                   gradient: LinearGradient(
-                    colors: [Color(0xFF155CFF), Color(0xFF66CFF4)],
+                    colors: [
+                      Color(0xFF7C5CFC),
+                      Color(0xFFC05CFF),
+                      Color(0xFFFF6F91),
+                    ],
                   ),
                 ),
               ),
@@ -1206,7 +1210,7 @@ class _OnboardingAnswerArea extends StatelessWidget {
       constraints: const BoxConstraints(minHeight: 82),
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: const Color(0xFFF7F9FE),
+        color: const Color(0xFFF9F9FC),
         borderRadius: BorderRadius.circular(17),
         border: Border.all(color: AppColors.divider),
       ),
@@ -1365,7 +1369,7 @@ class _OnboardingWrongChoiceSheet extends StatelessWidget {
           Text(
             context.l10n.text('vocabularyTestCompareAnswers'),
             style: const TextStyle(
-              color: Color(0xFF6F84A2),
+              color: Color(0xFF81769B),
               fontSize: 11,
               height: 1.5,
             ),
@@ -1425,9 +1429,9 @@ class _OnboardingChoiceFeedbackCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
-        color: const Color(0xFFF6F9FF),
+        color: const Color(0xFFF9F8FD),
         borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0xFFEDF1F7)),
+        border: Border.all(color: const Color(0xFFF0EEF6)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -1435,7 +1439,7 @@ class _OnboardingChoiceFeedbackCard extends StatelessWidget {
           Text(
             label.toUpperCase(),
             style: const TextStyle(
-              color: Color(0xFF8193AC),
+              color: Color(0xFF9087A6),
               fontSize: 10,
               fontWeight: FontWeight.w800,
               letterSpacing: 1.1,
@@ -1561,7 +1565,7 @@ class _OnboardingAnswerLine extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: correct ? const Color(0xFFF0F9F5) : const Color(0xFFF7F9FE),
+        color: correct ? const Color(0xFFF0F9F5) : const Color(0xFFF9F9FC),
         borderRadius: BorderRadius.circular(14),
       ),
       child: Column(
@@ -1602,7 +1606,7 @@ class _AudioPrompt extends StatelessWidget {
       child: Column(
         children: [
           Material(
-            color: const Color(0xFF155CFF),
+            color: const Color(0xFF7C5CFC),
             shape: const CircleBorder(),
             elevation: 9,
             shadowColor: const Color(0x66155CFF),
@@ -1624,7 +1628,7 @@ class _AudioPrompt extends StatelessWidget {
           Text(
             context.l10n.text('vocabularyTestTapToListen'),
             style: const TextStyle(
-              color: Color(0xFF7188A8),
+              color: Color(0xFF8579A0),
               fontSize: 13,
               fontWeight: FontWeight.w600,
             ),
@@ -1646,22 +1650,22 @@ class _ConstructorUnavailableCard extends StatelessWidget {
       key: const ValueKey('vocabulary-test-constructor-coming-soon'),
       padding: const EdgeInsets.all(22),
       decoration: BoxDecoration(
-        color: const Color(0xFFF2F6FC),
+        color: const Color(0xFFF5F4FA),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: const Color(0xFFDDE6F2)),
+        border: Border.all(color: const Color(0xFFE4E1EE)),
       ),
       child: Column(
         children: [
           const Icon(
             Icons.construction_rounded,
             size: 44,
-            color: Color(0xFF155CFF),
+            color: Color(0xFF7C5CFC),
           ),
           const SizedBox(height: 12),
           Text(
             context.l10n.text('vocabularyTestComingSoon'),
             style: const TextStyle(
-              color: Color(0xFF071944),
+              color: Color(0xFF302747),
               fontSize: 21,
               fontWeight: FontWeight.w800,
             ),
@@ -1674,7 +1678,7 @@ class _ConstructorUnavailableCard extends StatelessWidget {
             ),
             textAlign: TextAlign.center,
             style: const TextStyle(
-              color: Color(0xFF7188A8),
+              color: Color(0xFF8579A0),
               height: 1.45,
               fontWeight: FontWeight.w500,
             ),
@@ -1709,14 +1713,14 @@ class _AnswerChoiceCard extends StatelessWidget {
         : showWrong
         ? const Color(0xFFFF667D)
         : selected
-        ? const Color(0xFF155CFF)
-        : const Color(0xFFE1E9F3);
+        ? const Color(0xFF7C5CFC)
+        : const Color(0xFFE7E4F0);
     final backgroundColor = showCorrect
         ? const Color(0xFFEAFFF6)
         : showWrong
         ? const Color(0xFFFFF0F3)
         : selected
-        ? const Color(0xFFEDF4FF)
+        ? const Color(0xFFF3F1FB)
         : Colors.white;
 
     return Semantics(
@@ -1755,7 +1759,7 @@ class _AnswerChoiceCard extends StatelessWidget {
                         ? const Color(0xFF20C988)
                         : showWrong
                         ? const Color(0xFFFF667D)
-                        : const Color(0xFFF0F4FA),
+                        : const Color(0xFFF3EEFF),
                     shape: BoxShape.circle,
                   ),
                   child: showCorrect
@@ -1773,7 +1777,7 @@ class _AnswerChoiceCard extends StatelessWidget {
                       : Text(
                           String.fromCharCode(65 + index),
                           style: const TextStyle(
-                            color: Color(0xFF7188A8),
+                            color: Color(0xFF8579A0),
                             fontSize: 13,
                             fontWeight: FontWeight.w800,
                           ),
@@ -1784,7 +1788,7 @@ class _AnswerChoiceCard extends StatelessWidget {
                   child: Text(
                     choice.text,
                     style: const TextStyle(
-                      color: Color(0xFF071944),
+                      color: Color(0xFF302747),
                       fontSize: 16,
                       height: 1.25,
                       fontWeight: FontWeight.w700,
@@ -1855,10 +1859,10 @@ class _PrimaryTestButton extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: enabled
               ? const LinearGradient(
-                  colors: [Color(0xFF0C4DE4), Color(0xFF147BFF)],
+                  colors: [Color(0xFF6240DF), Color(0xFF906FFF)],
                 )
               : const LinearGradient(
-                  colors: [Color(0xFFD3DDEA), Color(0xFFC9D4E2)],
+                  colors: [Color(0xFFE1DEEB), Color(0xFFD8D4E3)],
                 ),
           borderRadius: BorderRadius.circular(19),
           boxShadow: enabled
@@ -1940,7 +1944,7 @@ class _CountdownView extends StatelessWidget {
                           child: Text(
                             context.l10n.text('vocabularyTestReady'),
                             style: const TextStyle(
-                              color: Color(0xFF0B2A71),
+                              color: Color(0xFF422E72),
                               fontSize: 34,
                               fontWeight: FontWeight.w800,
                               letterSpacing: -.7,
@@ -1976,7 +1980,7 @@ class _CountdownView extends StatelessWidget {
                                   '$count',
                                   key: ValueKey(count),
                                   style: const TextStyle(
-                                    color: Color(0xFF0C5BEB),
+                                    color: Color(0xFF6D48F1),
                                     fontSize: 82,
                                     fontWeight: FontWeight.w900,
                                   ),
@@ -2076,7 +2080,7 @@ class _BetweenPartsView extends StatelessWidget {
               fontSize: 40,
               fontWeight: FontWeight.w900,
               letterSpacing: -.8,
-              shadows: [Shadow(color: Color(0xFF4D9CFF), blurRadius: 16)],
+              shadows: [Shadow(color: Color(0xFFA992FC), blurRadius: 16)],
             ),
           ),
           const SizedBox(height: 12),
@@ -2084,7 +2088,7 @@ class _BetweenPartsView extends StatelessWidget {
             context.l10n.text('vocabularyTestHalfwayBody'),
             textAlign: TextAlign.center,
             style: const TextStyle(
-              color: Color(0xFFC8D9FF),
+              color: Color(0xFFDBD3F8),
               fontSize: 16,
               height: 1.45,
               fontWeight: FontWeight.w500,
@@ -2096,7 +2100,7 @@ class _BetweenPartsView extends StatelessWidget {
             height: 64,
             child: DecoratedBox(
               decoration: BoxDecoration(
-                color: const Color(0xFFF4F8FF),
+                color: const Color(0xFFF8F6FD),
                 borderRadius: BorderRadius.circular(36),
                 boxShadow: const [
                   BoxShadow(
@@ -2117,7 +2121,7 @@ class _BetweenPartsView extends StatelessWidget {
                     child: Text(
                       context.l10n.continueLabel,
                       style: const TextStyle(
-                        color: Color(0xFF145CE8),
+                        color: Color(0xFF7453EC),
                         fontSize: 22,
                         fontWeight: FontWeight.w800,
                       ),
@@ -2134,7 +2138,7 @@ class _BetweenPartsView extends StatelessWidget {
               values: {'level': level.label, 'part': partNumber},
             ),
             style: const TextStyle(
-              color: Color(0xFF8FB7FF),
+              color: Color(0xFFB9AAF1),
               fontSize: 11,
               fontWeight: FontWeight.w600,
             ),
@@ -2209,7 +2213,7 @@ class _ResultView extends StatelessWidget {
                   context.l10n.text('vocabularyTestComplete'),
                   textAlign: TextAlign.center,
                   style: const TextStyle(
-                    color: Color(0xFF071944),
+                    color: Color(0xFF302747),
                     fontSize: 26,
                     fontWeight: FontWeight.w800,
                     letterSpacing: -.5,
@@ -2220,7 +2224,7 @@ class _ResultView extends StatelessWidget {
                   context.l10n.text('vocabularyTestCurrentLevel'),
                   textAlign: TextAlign.center,
                   style: const TextStyle(
-                    color: Color(0xFF52698D),
+                    color: Color(0xFF675A85),
                     fontSize: 15,
                     fontWeight: FontWeight.w500,
                   ),
@@ -2249,7 +2253,7 @@ class _ResultView extends StatelessWidget {
                           child: _ResultStat(
                             value: '$percentage%',
                             label: context.l10n.text('vocabularyTestAccuracy'),
-                            color: const Color(0xFF155CFF),
+                            color: const Color(0xFF7C5CFC),
                             icon: Icons.trending_up_rounded,
                             compact: compact,
                           ),
@@ -2315,12 +2319,12 @@ class _ResultStat extends StatelessWidget {
       ),
       decoration: BoxDecoration(
         gradient: const LinearGradient(
-          colors: [Color(0xFFF9FCFF), Color(0xFFEAF5FF)],
+          colors: [Color(0xFFFBFAFE), Color(0xFFF1EFFA)],
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
         ),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFFB9D8F6)),
+        border: Border.all(color: const Color(0xFFD0C6F6)),
         boxShadow: const [
           BoxShadow(
             color: Color(0x183A8CF4),
@@ -2354,7 +2358,7 @@ class _ResultStat extends StatelessWidget {
             label,
             textAlign: TextAlign.center,
             style: const TextStyle(
-              color: Color(0xFF435B84),
+              color: Color(0xFF5A4C7B),
               fontSize: 11,
               fontWeight: FontWeight.w600,
             ),
@@ -2411,10 +2415,10 @@ class _LevelResultBadge extends StatelessWidget {
             alignment: Alignment.center,
             decoration: BoxDecoration(
               gradient: const LinearGradient(
-                colors: [Color(0xFF0F3FD0), Color(0xFF1E78F5)],
+                colors: [Color(0xFF5D36EB), Color(0xFF8161F4)],
               ),
               borderRadius: BorderRadius.circular(18),
-              border: Border.all(color: const Color(0xFF9ED9FF), width: 2),
+              border: Border.all(color: const Color(0xFFFF99B1), width: 2),
               boxShadow: const [
                 BoxShadow(
                   color: Color(0x45155CFF),
@@ -2477,9 +2481,9 @@ class _SkillAnalysis extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(14, 14, 14, 9),
       decoration: BoxDecoration(
-        color: const Color(0xFFF2F8FF),
+        color: const Color(0xFFF6F5FC),
         borderRadius: BorderRadius.circular(22),
-        border: Border.all(color: const Color(0xFFB9D8F6)),
+        border: Border.all(color: const Color(0xFFD0C6F6)),
         boxShadow: const [
           BoxShadow(
             color: Color(0x163A8CF4),
@@ -2495,14 +2499,14 @@ class _SkillAnalysis extends StatelessWidget {
             children: [
               const Icon(
                 Icons.bar_chart_rounded,
-                color: Color(0xFF176AE8),
+                color: Color(0xFF7757EA),
                 size: 25,
               ),
               const SizedBox(width: 8),
               Text(
                 context.l10n.text('vocabularyTestSkillAnalysis'),
                 style: const TextStyle(
-                  color: Color(0xFF071944),
+                  color: Color(0xFF302747),
                   fontSize: 17,
                   fontWeight: FontWeight.w800,
                 ),
@@ -2513,7 +2517,7 @@ class _SkillAnalysis extends StatelessWidget {
           for (var index = 0; index < scores.length; index++) ...[
             _SkillRow(score: scores[index]),
             if (index < scores.length - 1)
-              const Divider(height: 10, indent: 43, color: Color(0xFFD7E6F7)),
+              const Divider(height: 10, indent: 43, color: Color(0xFFE2DEF0)),
           ],
         ],
       ),
@@ -2546,7 +2550,7 @@ class _SkillRow extends StatelessWidget {
           child: Text(
             score.label,
             style: const TextStyle(
-              color: Color(0xFF142957),
+              color: Color(0xFF3B2966),
               fontSize: 14,
               fontWeight: FontWeight.w700,
             ),
@@ -2559,7 +2563,7 @@ class _SkillRow extends StatelessWidget {
             child: LinearProgressIndicator(
               minHeight: 11,
               value: score.value / 100,
-              backgroundColor: const Color(0xFFD8E8F9),
+              backgroundColor: const Color(0xFFE3DFF2),
               valueColor: AlwaysStoppedAnimation(score.color),
             ),
           ),
@@ -2596,7 +2600,7 @@ class _LoadingTestView extends StatelessWidget {
           Text(
             context.l10n.text('vocabularyTestPreparing'),
             style: const TextStyle(
-              color: Color(0xFF7188A8),
+              color: Color(0xFF8579A0),
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -2629,7 +2633,7 @@ class _ErrorTestView extends StatelessWidget {
             Text(
               context.l10n.text('vocabularyTestLoadError'),
               style: const TextStyle(
-                color: Color(0xFF071944),
+                color: Color(0xFF302747),
                 fontSize: 21,
                 fontWeight: FontWeight.w800,
               ),
@@ -2640,7 +2644,7 @@ class _ErrorTestView extends StatelessWidget {
               maxLines: 3,
               overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.center,
-              style: const TextStyle(color: Color(0xFF7188A8)),
+              style: const TextStyle(color: Color(0xFF8579A0)),
             ),
             const SizedBox(height: 23),
             SizedBox(

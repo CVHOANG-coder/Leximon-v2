@@ -102,12 +102,12 @@ class _LanguagePackageLoadingScreenState
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
         statusBarBrightness: Brightness.light,
-        systemNavigationBarColor: Color(0xFFF7FAFF),
+        systemNavigationBarColor: Color(0xFFF8F5FF),
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
         key: const ValueKey('language-package-loading-screen'),
-        backgroundColor: const Color(0xFFF7FAFF),
+        backgroundColor: const Color(0xFFF8F5FF),
         body: Stack(
           children: [
             Positioned.fill(
@@ -148,7 +148,7 @@ class _LanguagePackageLoadingScreenState
                             'language-package-loading-description',
                           ),
                           style: TextStyle(
-                            color: const Color(0xFF6F88AD),
+                            color: const Color(0xFF8578A4),
                             fontSize: compact ? 15 : 17,
                             height: 1.55,
                             fontWeight: FontWeight.w500,
@@ -219,8 +219,8 @@ class _LanguagePackageProgress extends StatelessWidget {
                     height: 17,
                     child: LinearProgressIndicator(
                       value: animatedProgress,
-                      backgroundColor: const Color(0xFFDCE9F9),
-                      color: const Color(0xFF0964FF),
+                      backgroundColor: const Color(0xFFE6E3F2),
+                      color: const Color(0xFF7C5CFC),
                       minHeight: 17,
                     ),
                   ),
@@ -243,7 +243,7 @@ class _LanguagePackageProgress extends StatelessWidget {
                       '${(animatedProgress * 100).round()}%',
                       key: const ValueKey('language-package-loading-percent'),
                       style: const TextStyle(
-                        color: Color(0xFF0964E9),
+                        color: Color(0xFF6D4DE8),
                         fontSize: 18,
                         fontWeight: FontWeight.w900,
                       ),
@@ -255,7 +255,7 @@ class _LanguagePackageProgress extends StatelessWidget {
                   context.l10n.text('pleaseWait'),
                   textAlign: TextAlign.center,
                   style: const TextStyle(
-                    color: Color(0xFF7A91B2),
+                    color: Color(0xFF8E82AA),
                     fontSize: 15,
                     fontWeight: FontWeight.w500,
                   ),
@@ -293,7 +293,7 @@ class _LanguagePackageError extends StatelessWidget {
           context.l10n.text('checkConnectionTryAgain'),
           textAlign: TextAlign.center,
           style: const TextStyle(
-            color: Color(0xFF7A91B2),
+            color: Color(0xFF8E82AA),
             fontSize: 15,
             fontWeight: FontWeight.w500,
           ),
