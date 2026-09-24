@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Leximon</string>
+	<string>Axolume</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Leximon</string>
+	<string>Axolume</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -29,15 +29,15 @@
 	<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
 	<false/>
 	<key>NSCameraUsageDescription</key>
-	<string>Leximon cần quyền camera để bạn chụp ảnh đại diện.</string>
+	<string>Axolume cần quyền camera để bạn chụp ảnh đại diện.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Leximon cần quyền microphone để ghi nhận phát âm của bạn.</string>
+	<string>Axolume cần quyền microphone để ghi nhận phát âm của bạn.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Leximon cần quyền truy cập thư viện ảnh để bạn chọn ảnh đại diện.</string>
+	<string>Axolume cần quyền truy cập thư viện ảnh để bạn chọn ảnh đại diện.</string>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>Leximon uses your device identifier to measure advertising performance and improve your experience.</string>
+	<string>Axolume uses your device identifier to measure advertising performance and improve your experience.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>Leximon cần quyền nhận dạng giọng nói để chấm phát âm.</string>
+	<string>Axolume cần quyền nhận dạng giọng nói để chấm phát âm.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

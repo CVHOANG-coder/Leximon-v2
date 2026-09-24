@@ -30,7 +30,7 @@ void main() {
     expect(find.text('MỤC TIÊU HÔM NAY'), findsNothing);
     expect(find.text('3 / 10 bài'), findsOneWidget);
     expect(find.text('Bài nghe phù hợp'), findsOneWidget);
-    expect(find.byKey(const ValueKey('challenge-owl')), findsOneWidget);
+    expect(find.byKey(const ValueKey('challenge-axolotl')), findsOneWidget);
     await tester.drag(
       find.byKey(const ValueKey('challenge-scroll')),
       const Offset(0, -800),

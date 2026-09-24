@@ -327,7 +327,7 @@ class _LearningHeader extends StatelessWidget {
               ),
               const SizedBox(height: 3),
               const Text(
-                'Leximon',
+                'Axolume',
                 style: TextStyle(
                   color: AppColors.primaryDark,
                   fontSize: 23,
@@ -466,7 +466,7 @@ class _BrandMark extends StatelessWidget {
           Transform.scale(
             scale: 1.14,
             child: Image.asset(
-              'assets/images/leximon-owl.png',
+              'assets/images/leximon-axolotl.png',
               fit: BoxFit.cover,
             ),
           ),
@@ -882,8 +882,8 @@ class _DailyCardHero extends StatelessWidget {
             height: 160,
             child: IgnorePointer(
               child: Image.asset(
-                'assets/images/owl_daily_home.png',
-                key: const ValueKey('home-daily-owl'),
+                'assets/images/axolotl_daily_home.png',
+                key: const ValueKey('home-daily-axolotl'),
                 fit: BoxFit.contain,
                 alignment: Alignment.bottomRight,
                 filterQuality: FilterQuality.high,
@@ -1195,7 +1195,7 @@ class _FirstTrainingGreeting extends StatelessWidget {
       child: Row(
         children: [
           Image.asset(
-            'assets/images/leximon-owl-wave.png',
+            'assets/images/leximon-axolotl-wave.png',
             width: 58,
             height: 58,
             fit: BoxFit.contain,
@@ -1846,7 +1846,7 @@ class _EmptyWelcomePanel extends StatelessWidget {
                   bottom: -25,
                   width: 186,
                   child: Image.asset(
-                    'assets/images/leximon-owl-wave.png',
+                    'assets/images/leximon-axolotl-wave.png',
                     fit: BoxFit.contain,
                     filterQuality: FilterQuality.high,
                   ),

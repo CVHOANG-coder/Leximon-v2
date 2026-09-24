@@ -209,12 +209,14 @@ class _ProfileAvatar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final image = path == null
-        ? Image.asset('assets/images/leximon-owl.png', fit: BoxFit.cover)
+        ? Image.asset('assets/images/leximon-axolotl.png', fit: BoxFit.cover)
         : Image.file(
             File(path!),
             fit: BoxFit.cover,
-            errorBuilder: (context, error, stackTrace) =>
-                Image.asset('assets/images/leximon-owl.png', fit: BoxFit.cover),
+            errorBuilder: (context, error, stackTrace) => Image.asset(
+              'assets/images/leximon-axolotl.png',
+              fit: BoxFit.cover,
+            ),
           );
 
     return Container(
@@ -301,7 +303,7 @@ class _ProfileHero extends StatelessWidget {
                     ),
                     SizedBox(height: 9),
                     Text(
-                      profile?.name ?? 'Leximon',
+                      profile?.name ?? 'Axolume',
                       style: TextStyle(
                         fontSize: 25,
                         height: 1,

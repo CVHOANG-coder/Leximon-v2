@@ -28,7 +28,7 @@ class EditProfileScreen extends ConsumerStatefulWidget {
 }
 
 class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
-  static const _defaultName = 'Leximon';
+  static const _defaultName = 'Axolume';
   static const _defaultEmail = 'hello@leximon.app';
 
   final _formKey = GlobalKey<FormState>();
@@ -608,12 +608,14 @@ class _AvatarImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final image = path == null
-        ? Image.asset('assets/images/leximon-owl.png', fit: BoxFit.cover)
+        ? Image.asset('assets/images/leximon-axolotl.png', fit: BoxFit.cover)
         : Image.file(
             File(path!),
             fit: BoxFit.cover,
-            errorBuilder: (context, error, stackTrace) =>
-                Image.asset('assets/images/leximon-owl.png', fit: BoxFit.cover),
+            errorBuilder: (context, error, stackTrace) => Image.asset(
+              'assets/images/leximon-axolotl.png',
+              fit: BoxFit.cover,
+            ),
           );
 
     return Container(

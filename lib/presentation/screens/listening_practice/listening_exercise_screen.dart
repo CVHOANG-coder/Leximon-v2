@@ -1327,7 +1327,9 @@ class _YoutubePrompt extends StatelessWidget {
           color: Color(0xFFF0EDFA),
           shape: BoxShape.circle,
         ),
-        child: Image.asset('assets/images/practice_listen/owl_listener.png'),
+        child: Image.asset(
+          'assets/images/practice_listen/axolotl_listener.png',
+        ),
       ),
       const SizedBox(width: 12),
       Expanded(

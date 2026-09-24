@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/learning_language_level.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -231,7 +232,7 @@ class _LevelSelectionHeader extends StatelessWidget {
             right: 10,
             top: 40,
             child: Image.asset(
-              'assets/images/owls/owl_level.png',
+              'assets/images/axolotls/axolotl_level.png',
               width: 131,
               height: 165,
               fit: BoxFit.contain,
@@ -325,7 +326,7 @@ class _LevelSelectionPanel extends StatelessWidget {
                           gradient: LinearGradient(
                             colors: isSaving
                                 ? const [Color(0xFFA996EE), Color(0xFFB8A8F1)]
-                                : const [Color(0xFF724FF2), Color(0xFF7E5BFB)],
+                                : AppColors.onboardingPrimaryGradient,
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
                           ),

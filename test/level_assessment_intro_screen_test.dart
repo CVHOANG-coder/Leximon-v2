@@ -297,7 +297,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.textContaining('Tiếng Anh giúp bạn tiến'), findsOneWidget);
-    expect(find.text('Tiếp tục cùng Leximon'), findsOneWidget);
+    expect(find.text('Tiếp tục cùng Axolume'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
@@ -397,7 +397,7 @@ void main() {
 
     expect(
       find.text(
-        'Leximon sẽ nhắc nhở bạn về các buổi học\n'
+        'Axolume sẽ nhắc nhở bạn về các buổi học\n'
         'để bạn không bỏ lỡ ngày nào.',
       ),
       findsOneWidget,

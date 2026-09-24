@@ -1,6 +1,6 @@
-# How to Purchase In-App Packages in Leximon
+# How to Purchase In-App Packages in Axolume
 
-This guide explains how to purchase a Leximon Pro subscription or an individual skill pack from the app.
+This guide explains how to purchase an Axolume Pro subscription or an individual skill pack from the app.
 
 ## Before You Start
 
@@ -11,20 +11,20 @@ Make sure that:
 - In-app purchases are allowed on your device.
 - A valid payment method is associated with your store account.
 
-The price, currency, billing period, and free-trial duration shown in Leximon come from the App Store or Google Play. Always review the store confirmation screen before approving a purchase.
+The price, currency, billing period, and free-trial duration shown in Axolume come from the App Store or Google Play. Always review the store confirmation screen before approving a purchase.
 
 ## Available Purchase Types
 
-Leximon offers two main purchase types:
+Axolume offers two main purchase types:
 
 | Purchase type | What it includes | Billing model |
 | --- | --- | --- |
-| Leximon Pro subscription | Unlimited access to all lessons, high-quality learning content, and progress features | Recurring subscription based on the selected plan |
+| Axolume Pro subscription | Unlimited access to all lessons, high-quality learning content, and progress features | Recurring subscription based on the selected plan |
 | Individual skill pack | Full access to one skill area: Listening, Speaking, Reading, or Grammar | One-time purchase with permanent access to that pack |
 
 Promotional Pro plans may also appear during onboarding or when you open a promotional notification.
 
-## Purchase a Leximon Pro Subscription
+## Purchase an Axolume Pro Subscription
 
 ### During Onboarding
 
@@ -35,7 +35,7 @@ Promotional Pro plans may also appear during onboarding or when you open a promo
 5. Review the displayed price and free-trial information.
 6. Tap **Start Free Trial and Subscribe**.
 7. Confirm the purchase in the App Store or Google Play payment sheet.
-8. Wait while Leximon verifies the transaction. After successful verification, the app opens the main learning screen and activates Pro access.
+8. Wait while Axolume verifies the transaction. After successful verification, the app opens the main learning screen and activates Pro access.
 
 ### From the Home Screen
 
@@ -45,7 +45,7 @@ Promotional Pro plans may also appear during onboarding or when you open a promo
 4. Tap the plan you want to select it.
 5. Tap the purchase or upgrade button at the bottom of the screen.
 6. Confirm the transaction in the store payment sheet.
-7. Keep Leximon open until the success message confirms that your plan has been updated.
+7. Keep Axolume open until the success message confirms that your plan has been updated.
 
 ## Upgrade an Existing Subscription
 
@@ -70,36 +70,36 @@ The following one-time packs are available when enabled in the current store cat
 To purchase a pack:
 
 1. Open the relevant learning area: **Listening**, **Speaking**, **Reading**, or **Grammar**.
-2. Select locked content in that area. Leximon opens the matching skill-pack purchase screen.
+2. Select locked content in that area. Axolume opens the matching skill-pack purchase screen.
 3. Review the pack description, benefits, and localized store price.
 4. Tap **Buy Now for [price]**.
 5. Confirm the payment in the App Store or Google Play sheet.
-6. Wait for Leximon to verify the purchase.
+6. Wait for Axolume to verify the purchase.
 7. After verification, the purchase screen closes and the content for that skill becomes available.
 
 Each skill pack is a separate product. Purchasing one pack does not purchase the other three packs.
 
 ## Purchase a Promotional Pro Offer
 
-A promotional annual Pro offer may appear after onboarding or after you open a Leximon promotional notification.
+A promotional annual Pro offer may appear after onboarding or after you open an Axolume promotional notification.
 
 1. Open the promotional offer screen.
 2. Review the plan duration, current price, any displayed saving, and the free-trial period.
 3. Tap **Start Free Trial and Subscribe**.
 4. Confirm the subscription in the store payment sheet.
-5. Wait for verification. Leximon returns to the main screen after the Pro subscription is active.
+5. Wait for verification. Axolume returns to the main screen after the Pro subscription is active.
 
 Availability, eligibility, discount amount, and trial duration are determined by the current catalog and your store account. A promotion shown to one account may not be available to another.
 
 ## Restore a Previous Purchase
 
-The onboarding subscription screen contains a **Restore Purchases** option. Use the same store account that originally made the purchase. Leximon asks the App Store or Google Play to redeliver owned transactions, verifies them with the server, and restores the matching entitlement.
+The onboarding subscription screen contains a **Restore Purchases** option. Use the same store account that originally made the purchase. Axolume asks the App Store or Google Play to redeliver owned transactions, verifies them with the server, and restores the matching entitlement.
 
-Do not buy the same product again solely to restore access. If the store reports that a purchase is still processing, leave the screen and return later; Leximon continues listening for the final store result.
+Do not buy the same product again solely to restore access. If the store reports that a purchase is still processing, leave the screen and return later; Axolume continues listening for the final store result.
 
 ## If a Purchase Does Not Complete
 
-Use the message shown by Leximon to identify the next step:
+Use the message shown by Axolume to identify the next step:
 
 | Message or situation | What to do |
 | --- | --- |
@@ -117,4 +117,4 @@ Use the message shown by Leximon to identify the next step:
 - Canceling or changing automatic renewal must be done in the subscription settings of the relevant store.
 - Canceling a subscription normally prevents a future renewal; access generally remains available until the end of the already-paid period, subject to the store's terms.
 - One-time skill packs do not renew automatically.
-- Keep the app open and connected after confirming a payment so the transaction can be verified and the entitlement can be applied to your Leximon profile.
+- Keep the app open and connected after confirming a payment so the transaction can be verified and the entitlement can be applied to your Axolume profile.

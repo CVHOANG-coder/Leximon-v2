@@ -30,7 +30,7 @@ void main() {
     await tester.pump();
     await tester.pump(const Duration(seconds: 1));
 
-    expect(find.text('Leximon'), findsOneWidget);
+    expect(find.text('Axolume'), findsOneWidget);
     expect(find.text('Học tập'), findsOneWidget);
     expect(
       find.byKey(const ValueKey('assets/images/tab_personal_inactive.png')),

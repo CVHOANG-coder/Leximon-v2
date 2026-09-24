@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/daily_notification_service.dart';
 
@@ -271,13 +272,16 @@ class _FreeTrialButton extends StatelessWidget {
       child: DecoratedBox(
         decoration: BoxDecoration(
           gradient: const LinearGradient(
-            colors: [Color(0xFFFFFFFF), Color(0xFFF1EFFA), Color(0xFFFEFDFF)],
+            colors: AppColors.onboardingPrimaryGradient,
+            stops: AppColors.onboardingPrimaryGradientStops,
+            begin: Alignment.centerLeft,
+            end: Alignment.centerRight,
           ),
           borderRadius: BorderRadius.circular(38),
-          border: Border.all(color: const Color(0xFFA891FC), width: 1.6),
+          border: Border.all(color: const Color(0x999F8CFF), width: 1.6),
           boxShadow: const [
             BoxShadow(
-              color: Color(0xC02275FF),
+              color: Color(0x803D0EE8),
               blurRadius: 22,
               spreadRadius: 2,
             ),
@@ -300,14 +304,14 @@ class _FreeTrialButton extends StatelessWidget {
                   ? const SizedBox.square(
                       dimension: 25,
                       child: CircularProgressIndicator(
-                        color: Color(0xFF7C5CFC),
+                        color: Colors.white,
                         strokeWidth: 2.5,
                       ),
                     )
                   : Text(
                       context.l10n.text('freeTrialStart'),
                       style: const TextStyle(
-                        color: Color(0xFF7C5CFC),
+                        color: Colors.white,
                         fontSize: 21,
                         fontWeight: FontWeight.w800,
                         letterSpacing: -0.4,

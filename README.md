@@ -1,6 +1,6 @@
-# Leximon
+# Axolume
 
-A clean Flutter mobile app foundation named Leximon and inspired by the structure and visual language of WaifuAI.
+A clean Flutter mobile app foundation named Axolume and inspired by the structure and visual language of WaifuAI.
 
 ## Included
 

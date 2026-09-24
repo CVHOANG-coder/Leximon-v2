@@ -91,8 +91,8 @@ class DifficultWordsResultScreen extends StatelessWidget {
                                 ),
                                 Image.asset(
                                   _isComplete
-                                      ? 'assets/images/leximon-owl-wave.png'
-                                      : 'assets/images/leximon-owl.png',
+                                      ? 'assets/images/leximon-axolotl-wave.png'
+                                      : 'assets/images/leximon-axolotl.png',
                                   height: 188,
                                   fit: BoxFit.contain,
                                 ),

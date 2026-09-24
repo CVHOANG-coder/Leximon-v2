@@ -120,7 +120,7 @@ class LeximonApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return _AppUsageLifecycle(
       child: MaterialApp.router(
-        title: 'Leximon',
+        title: 'Axolume',
         debugShowCheckedModeBanner: false,
         theme: buildAppTheme(),
         locale: AppLocalizations.localeForCode(

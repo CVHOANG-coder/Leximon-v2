@@ -306,8 +306,8 @@ class ProgressLine extends StatelessWidget {
   }
 }
 
-class OwlAvatar extends StatelessWidget {
-  const OwlAvatar({this.size = 54, this.radius = 17, super.key});
+class AxolotlAvatar extends StatelessWidget {
+  const AxolotlAvatar({this.size = 54, this.radius = 17, super.key});
 
   final double size;
   final double radius;
@@ -333,7 +333,10 @@ class OwlAvatar extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(radius - 2),
-        child: Image.asset('assets/images/leximon-owl.png', fit: BoxFit.cover),
+        child: Image.asset(
+          'assets/images/leximon-axolotl.png',
+          fit: BoxFit.cover,
+        ),
       ),
     );
   }

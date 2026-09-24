@@ -591,7 +591,7 @@ class _IntroView extends StatelessWidget {
                 Column(
                   children: [
                     Image.asset(
-                      'assets/images/owls/owl_match_sentence.png',
+                      'assets/images/axolotls/axolotl_match_sentence.png',
                       key: const Key('sentence-training-mascot'),
                       width: 200,
                       height: 200,
@@ -1731,7 +1731,7 @@ class _ResultView extends StatelessWidget {
         child: Column(
           children: [
             Image.asset(
-              'assets/images/leximon-owl-wave.png',
+              'assets/images/leximon-axolotl-wave.png',
               width: 112,
               height: 112,
             ),

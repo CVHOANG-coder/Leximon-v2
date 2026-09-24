@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:intl/intl.dart';
 
+import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/daily_notification_service.dart';
 import '../../../data/models/iap_packages_response.dart';
@@ -304,16 +305,15 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                                   ),
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
-                                    color: Colors.white,
+                                    color: AppColors.primaryDark,
                                     fontSize: 16,
                                     height: 1.3,
-                                    fontWeight: FontWeight.w400,
+                                    fontWeight: FontWeight.w600,
                                     letterSpacing: -0.2,
                                     shadows: [
                                       Shadow(
-                                        color: Color(0xA000144D),
-                                        blurRadius: 7,
-                                        offset: Offset(0, 2),
+                                        color: Color(0xCCFFFFFF),
+                                        blurRadius: 8,
                                       ),
                                     ],
                                   ),
@@ -904,21 +904,18 @@ class _SubscriptionStartButton extends StatelessWidget {
       child: DecoratedBox(
         decoration: BoxDecoration(
           gradient: const LinearGradient(
-            colors: [Color(0xFFFFFFFF), Color(0xFFE9E5F7), Color(0xFFAE9CEF)],
-            stops: [0, 0.6, 1],
+            colors: AppColors.onboardingPrimaryGradient,
+            stops: AppColors.onboardingPrimaryGradientStops,
+            begin: Alignment.centerLeft,
+            end: Alignment.centerRight,
           ),
           borderRadius: BorderRadius.circular(38),
-          border: Border.all(color: const Color(0xFFFF89A4), width: 1.5),
+          border: Border.all(color: const Color(0x999F8CFF), width: 1.5),
           boxShadow: const [
             BoxShadow(
-              color: Color(0xD02B7DFF),
-              blurRadius: 23,
-              spreadRadius: 2,
-            ),
-            BoxShadow(
-              color: Color(0x702579FF),
-              blurRadius: 28,
-              offset: Offset(0, 10),
+              color: Color(0x667C5CFC),
+              blurRadius: 16,
+              offset: Offset(0, 7),
             ),
           ],
         ),
@@ -934,7 +931,7 @@ class _SubscriptionStartButton extends StatelessWidget {
                   ? const SizedBox.square(
                       dimension: 25,
                       child: CircularProgressIndicator(
-                        color: Color(0xFF7C5CFC),
+                        color: Colors.white,
                         strokeWidth: 2.5,
                       ),
                     )
@@ -942,7 +939,7 @@ class _SubscriptionStartButton extends StatelessWidget {
                       label,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF7C5CFC),
+                        color: Colors.white,
                         fontSize: 20,
                         height: 1.05,
                         fontWeight: FontWeight.w800,

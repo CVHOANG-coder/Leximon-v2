@@ -287,8 +287,8 @@ class AppLocalizations {
       'listeningPractice': 'Listening practice',
       'termsOfUse': 'Terms of Use',
       'privacyPolicy': 'Privacy Policy',
-      'termsOfUseBody': 'Read the terms for using Leximon',
-      'privacyPolicyBody': 'Learn how Leximon protects your privacy',
+      'termsOfUseBody': 'Read the terms for using Axolume',
+      'privacyPolicyBody': 'Learn how Axolume protects your privacy',
       'deleteAccount': 'Delete account',
       'deleteAccountBody': 'Delete your local profile and learning data',
       'deleteAccountConfirmTitle': 'Delete account?',
@@ -337,7 +337,7 @@ class AppLocalizations {
       'assessmentLevelStart': 'Start the test',
       'surveyIntroTitle': 'Let’s take a short survey!',
       'surveyIntroSubtitle':
-          'Based on your answers, Leximon will choose the best learning method for you.',
+          'Based on your answers, Axolume will choose the best learning method for you.',
       'freeTrialGift': 'We are giving you',
       'freeTrialDuration': '7 days free',
       'freeTrialPurpose': 'to try our app',
@@ -362,7 +362,7 @@ class AppLocalizations {
       'subscriptionDays': '{count} days',
       'subscriptionIn': 'In ',
       'subscriptionDaySuffix': ' days',
-      'subscriptionUnlockTitle': 'Unlock Leximon Pro',
+      'subscriptionUnlockTitle': 'Unlock Axolume Pro',
       'subscriptionStart': 'Start free trial and subscribe',
       'subscriptionSubscribe': 'Subscribe now',
       'subscriptionTrialOnly': 'Free trial only',
@@ -462,7 +462,7 @@ class AppLocalizations {
       'surveySaveProgressError':
           'Could not save your progress. Please try again.',
       'surveySaveTopicsError': 'Could not save the selected topics.',
-      'surveyContinueWithLeximon': 'Continue with Leximon',
+      'surveyContinueWithLeximon': 'Continue with Axolume',
       'surveyContinueJourney': 'Continue your journey',
       'surveyGreat': 'Great!',
       'surveyStartLearning': 'Let’s start learning!',
@@ -510,7 +510,7 @@ class AppLocalizations {
       'surveyPreferredTimeQuestion':
           'What time is most convenient for you to study English?',
       'surveyReminderPrimary':
-          'Leximon will remind you about your lessons so you never miss a day.',
+          'Axolume will remind you about your lessons so you never miss a day.',
       'surveyReminderSecondary':
           'We have found that regular practice can make learning English nearly ',
       'surveyReminderHighlight': '4.6× faster!',
@@ -681,7 +681,7 @@ class AppLocalizations {
       'homeJourneyStart': 'Start your journey',
       'homeNoWordsTitle': 'Today’s mission',
       'homeNoWordsBody':
-          'You have not learned any words yet. Start with your first topic so Leximon can build the right path for you.',
+          'You have not learned any words yet. Start with your first topic so Axolume can build the right path for you.',
       'hello': 'Hello!',
       'homeMascotStart': 'Let’s get started!',
       'homeDayOneGoal': 'DAY 1 GOAL',
@@ -733,10 +733,10 @@ class AppLocalizations {
       'profileReminderUpdateError': 'Could not update reminder time: {error}',
       'profileNotificationPermissionTitle': 'Notification permission required',
       'profileNotificationPermissionBody':
-          'Leximon needs notification permission to remind you to study every day. Enable it in the app settings.',
+          'Axolume needs notification permission to remind you to study every day. Enable it in the app settings.',
       'profileMicPermissionTitle': 'Microphone permission required',
       'profileMicPermissionBody':
-          'Leximon needs microphone and speech-recognition permission for pronunciation practice. Grant access in the app settings.',
+          'Axolume needs microphone and speech-recognition permission for pronunciation practice. Grant access in the app settings.',
       'profileMicPermissionNeeded': 'Mic permission needed',
       'profileReminderEnabledBody':
           'Every evening at {time} · tap to change time',
@@ -753,7 +753,7 @@ class AppLocalizations {
       'photoLibrary': 'photo library',
       'permissionRequired': 'Permission required',
       'editProfileImagePermissionBody':
-          'Leximon does not have access to your {permission}. You can enable it in the app settings.',
+          'Axolume does not have access to your {permission}. You can enable it in the app settings.',
       'editProfileSaveError': 'Could not save your profile: {error}',
       'editProfileAvatar': 'Profile picture',
       'editProfileDetails': 'Personal details',
@@ -876,7 +876,7 @@ class AppLocalizations {
       'learningFilterChooseLevel': 'Choose a level',
       'learningFilterLevelQuestion': 'Where would you like to start?',
       'learningFilterLevelDescription':
-          'Leximon will adjust the difficulty, vocabulary groups, and practice challenges based on your choice.',
+          'Axolume will adjust the difficulty, vocabulary groups, and practice challenges based on your choice.',
       'learningFilterBeginnerDescription':
           'Start with familiar words that are approachable and easy to remember.',
       'learningFilterIntermediateDescription':
@@ -899,7 +899,7 @@ class AppLocalizations {
       'learningFilterChooseTopics': 'Choose topics',
       'learningFilterTopicQuestion': 'Which topics are right for you?',
       'learningFilterTopicDescription':
-          'Choose multiple topics for Leximon to prioritize at the beginning. We recommend 3–5 topics.',
+          'Choose multiple topics for Axolume to prioritize at the beginning. We recommend 3–5 topics.',
       'selectedTopicCount': '{count} topics selected',
       'learningFilterSmallGroupHint': 'Start with a small group first',
       'learningFilterTopicLoadError': 'Could not load the topic list.',
@@ -944,7 +944,7 @@ class AppLocalizations {
       'topicPreviewTitle': 'A few words from this topic',
       'viewAll': 'View all',
       'topicNoWords': 'There are no words in this topic yet.',
-      'leximonTip': 'Leximon tip',
+      'leximonTip': 'Axolume tip',
       'topicReviewTip':
           'Review due words before learning new ones for better results.',
       'topicReviewTitle': 'Review • {topic}',
@@ -963,7 +963,7 @@ class AppLocalizations {
       'topicReviewRequirement':
           'Once you have {count} words, you can start reviewing them',
       'vocabularyCollection': 'VOCABULARY COLLECTION',
-      'vocabularyCollectionTitle': 'Leximon library',
+      'vocabularyCollectionTitle': 'Axolume library',
       'practiseWords': 'Practise words',
       'reviewWordsAction': 'Review',
       'reviewMasteredWords': 'Review mastered words',
@@ -1321,7 +1321,7 @@ class AppLocalizations {
       'reviewIntroInstruction':
           'Read the words below carefully before starting the review.',
       'reviewIntroBody':
-          'Leximon will ask questions based on the words you\'ve selected to strengthen your short-term memory.',
+          'Axolume will ask questions based on the words you\'ve selected to strengthen your short-term memory.',
       'reviewStart': 'Start review',
       'reviewChooseAudioCount': 'Choose 1 of {count} audio clips',
       'reviewAudioSelectedHint': 'Audio selected — tap Choose to check',
@@ -1407,7 +1407,7 @@ class AppLocalizations {
       'reviewEndAction': 'End review',
       'notificationStudyTitle': 'Time to study! 📚',
       'notificationStudyBody':
-          'Spend a few minutes reviewing vocabulary with Leximon.',
+          'Spend a few minutes reviewing vocabulary with Axolume.',
       'notificationChannelName': 'Daily study reminder',
       'notificationChannelDescription':
           'Reminders to help you keep up your vocabulary-learning habit.',
@@ -1415,7 +1415,7 @@ class AppLocalizations {
       'notificationSaleBody': 'Get the annual Pro plan at a special price.',
       'notificationSaleChannelName': 'Subscription offers',
       'notificationSaleChannelDescription':
-          'Special offers for Leximon subscription plans.',
+          'Special offers for Axolume subscription plans.',
       'sentenceTypeConstructor': 'Build an English sentence',
       'sentenceTypeInverse': 'Build a Vietnamese sentence',
       'sentenceTypeAudio': 'Listen and build the sentence',
@@ -1539,7 +1539,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Commencer le test",
       "surveyIntroTitle": "Faisons un court questionnaire !",
       "surveyIntroSubtitle":
-          "D’après vos réponses, Leximon choisira la méthode d’apprentissage qui vous convient le mieux.",
+          "D’après vos réponses, Axolume choisira la méthode d’apprentissage qui vous convient le mieux.",
       "freeTrialGift": "Nous vous offrons",
       "freeTrialDuration": "7 jours gratuits",
       "freeTrialPurpose": "pour essayer notre application",
@@ -1571,7 +1571,7 @@ class AppLocalizations {
           "Impossible d’enregistrer votre progression. Veuillez réessayer.",
       "surveySaveTopicsError":
           "Impossible d’enregistrer les thèmes sélectionnés.",
-      "surveyContinueWithLeximon": "Continuer avec Leximon",
+      "surveyContinueWithLeximon": "Continuer avec Axolume",
       "surveyContinueJourney": "Poursuivre votre parcours",
       "surveyGreat": "Super !",
       "surveyStartLearning": "Commençons à apprendre !",
@@ -1625,7 +1625,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Quel moment vous convient le mieux pour étudier l’anglais ?",
       "surveyReminderPrimary":
-          "Leximon vous rappellera vos leçons afin que vous ne manquiez aucun jour.",
+          "Axolume vous rappellera vos leçons afin que vous ne manquiez aucun jour.",
       "surveyReminderSecondary":
           "Nous avons constaté qu’une pratique régulière peut rendre l’apprentissage de l’anglais près de ",
       "surveyReminderHighlight": "4,6× plus rapide !",
@@ -1808,7 +1808,7 @@ class AppLocalizations {
       "homeJourneyStart": "Commencer votre parcours",
       "homeNoWordsTitle": "Mission du jour",
       "homeNoWordsBody":
-          "Vous n’avez encore appris aucun mot. Commencez par votre premier thème afin que Leximon puisse créer le parcours qui vous convient.",
+          "Vous n’avez encore appris aucun mot. Commencez par votre premier thème afin que Axolume puisse créer le parcours qui vous convient.",
       "hello": "Bonjour !",
       "homeMascotStart": "C’est parti !",
       "homeDayOneGoal": "OBJECTIF DU JOUR 1",
@@ -1864,10 +1864,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Autorisation de notification requise",
       "profileNotificationPermissionBody":
-          "Leximon a besoin de l’autorisation d’envoyer des notifications pour vous rappeler d’étudier chaque jour. Activez-la dans les réglages de l’application.",
+          "Axolume a besoin de l’autorisation d’envoyer des notifications pour vous rappeler d’étudier chaque jour. Activez-la dans les réglages de l’application.",
       "profileMicPermissionTitle": "Autorisation du microphone requise",
       "profileMicPermissionBody":
-          "Leximon a besoin des autorisations du microphone et de la reconnaissance vocale pour les exercices de prononciation. Accordez-les dans les réglages de l’application.",
+          "Axolume a besoin des autorisations du microphone et de la reconnaissance vocale pour les exercices de prononciation. Accordez-les dans les réglages de l’application.",
       "profileMicPermissionNeeded": "Autorisation du micro requise",
       "profileReminderEnabledBody":
           "Tous les soirs à {time} · touchez pour modifier l’heure",
@@ -1884,7 +1884,7 @@ class AppLocalizations {
       "photoLibrary": "photothèque",
       "permissionRequired": "Autorisation requise",
       "editProfileImagePermissionBody":
-          "Leximon n’a pas accès à votre {permission}. Vous pouvez autoriser l’accès dans les réglages de l’application.",
+          "Axolume n’a pas accès à votre {permission}. Vous pouvez autoriser l’accès dans les réglages de l’application.",
       "editProfileSaveError": "Impossible d’enregistrer votre profil : {error}",
       "editProfileAvatar": "Photo de profil",
       "editProfileDetails": "Informations personnelles",
@@ -2006,7 +2006,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Choisissez un niveau",
       "learningFilterLevelQuestion": "Par où souhaitez-vous commencer ?",
       "learningFilterLevelDescription":
-          "Leximon adaptera la difficulté, les groupes de vocabulaire et les défis d’entraînement en fonction de votre choix.",
+          "Axolume adaptera la difficulté, les groupes de vocabulaire et les défis d’entraînement en fonction de votre choix.",
       "learningFilterBeginnerDescription":
           "Commencez par des mots familiers, accessibles et faciles à mémoriser.",
       "learningFilterIntermediateDescription":
@@ -2029,7 +2029,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Choisissez des thèmes",
       "learningFilterTopicQuestion": "Quels thèmes vous conviennent ?",
       "learningFilterTopicDescription":
-          "Choisissez plusieurs thèmes que Leximon privilégiera au début. Nous recommandons 3 à 5 thèmes.",
+          "Choisissez plusieurs thèmes que Axolume privilégiera au début. Nous recommandons 3 à 5 thèmes.",
       "selectedTopicCount": "{count} thèmes sélectionnés",
       "learningFilterSmallGroupHint": "Commencez d’abord par un petit groupe",
       "learningFilterTopicLoadError":
@@ -2075,7 +2075,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Quelques mots de ce thème",
       "viewAll": "Tout voir",
       "topicNoWords": "Ce thème ne contient encore aucun mot.",
-      "leximonTip": "Conseil Leximon",
+      "leximonTip": "Conseil Axolume",
       "topicReviewTip":
           "Pour de meilleurs résultats, révisez les mots arrivés à échéance avant d’en apprendre de nouveaux.",
       "topicReviewTitle": "Révision • {topic}",
@@ -2095,7 +2095,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Dès que vous aurez {count} mots, vous pourrez commencer à les réviser",
       "vocabularyCollection": "COLLECTION DE VOCABULAIRE",
-      "vocabularyCollectionTitle": "Bibliothèque Leximon",
+      "vocabularyCollectionTitle": "Bibliothèque Axolume",
       "practiseWords": "S’entraîner sur les mots",
       "reviewWordsAction": "Réviser",
       "reviewMasteredWords": "Réviser les mots maîtrisés",
@@ -2466,7 +2466,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Lisez attentivement les mots ci-dessous avant de commencer la révision.",
       "reviewIntroBody":
-          "Leximon vous posera des questions à partir des mots sélectionnés afin de renforcer votre mémoire à court terme.",
+          "Axolume vous posera des questions à partir des mots sélectionnés afin de renforcer votre mémoire à court terme.",
       "reviewStart": "Commencer la révision",
       "reviewChooseAudioCount": "Choisissez 1 extrait audio parmi {count}",
       "reviewAudioSelectedHint":
@@ -2555,7 +2555,7 @@ class AppLocalizations {
       "reviewEndAction": "Terminer la révision",
       "notificationStudyTitle": "C’est l’heure d’étudier ! 📚",
       "notificationStudyBody":
-          "Prenez quelques minutes pour réviser du vocabulaire avec Leximon.",
+          "Prenez quelques minutes pour réviser du vocabulaire avec Axolume.",
       "notificationChannelName": "Rappel d’étude quotidien",
       "notificationChannelDescription":
           "Des rappels pour vous aider à maintenir votre habitude d’apprentissage du vocabulaire.",
@@ -2640,14 +2640,14 @@ class AppLocalizations {
           "Ce pack n’est pas disponible pour le moment.",
       "listeningPackUnlock": "Débloquer le pack d’écoute",
       "notificationSaleBody":
-          "Profitez d’une offre spéciale à durée limitée sur Leximon Pro. Débloquez toutes les leçons et apprenez sans publicité.",
+          "Profitez d’une offre spéciale à durée limitée sur Axolume Pro. Débloquez toutes les leçons et apprenez sans publicité.",
       "notificationSaleChannelDescription":
-          "Notifications sur les offres spéciales et les réductions de Leximon.",
+          "Notifications sur les offres spéciales et les réductions de Axolume.",
       "notificationSaleChannelName": "Offres et réductions",
       "notificationSaleTitle": "Une offre spéciale pour vous 🎉",
       "privacyPolicy": "Politique de confidentialité",
       "privacyPolicyBody":
-          "Découvrez comment Leximon collecte, utilise et protège vos données.",
+          "Découvrez comment Axolume collecte, utilise et protège vos données.",
       "saleAnnualPlan": "Formule annuelle",
       "saleApproxMonthly": "Environ {price} par mois",
       "saleBenefitNoAds": "Apprenez sans publicité",
@@ -2721,7 +2721,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} jours d’essai gratuit",
       "termsOfUse": "Conditions d’utilisation",
       "termsOfUseBody":
-          "Consultez les conditions qui régissent votre utilisation de l’application Leximon et de ses services.",
+          "Consultez les conditions qui régissent votre utilisation de l’application Axolume et de ses services.",
     },
     'vi': {
       'navStudy': 'Học tập',
@@ -2761,8 +2761,8 @@ class AppLocalizations {
       'listeningPractice': 'Luyện nghe',
       'termsOfUse': 'Điều khoản sử dụng',
       'privacyPolicy': 'Chính sách quyền riêng tư',
-      'termsOfUseBody': 'Đọc các điều khoản khi sử dụng Leximon',
-      'privacyPolicyBody': 'Tìm hiểu cách Leximon bảo vệ quyền riêng tư',
+      'termsOfUseBody': 'Đọc các điều khoản khi sử dụng Axolume',
+      'privacyPolicyBody': 'Tìm hiểu cách Axolume bảo vệ quyền riêng tư',
       'deleteAccount': 'Xóa tài khoản',
       'deleteAccountBody': 'Xóa hồ sơ và dữ liệu học tập trên thiết bị',
       'deleteAccountConfirmTitle': 'Xóa tài khoản?',
@@ -2810,7 +2810,7 @@ class AppLocalizations {
       'assessmentLevelStart': 'Bắt đầu bài kiểm tra',
       'surveyIntroTitle': 'Hãy làm một khảo sát ngắn nhé!',
       'surveyIntroSubtitle':
-          'Dựa vào câu trả lời của bạn, Leximon sẽ chọn ra cách học phù hợp nhất với bạn',
+          'Dựa vào câu trả lời của bạn, Axolume sẽ chọn ra cách học phù hợp nhất với bạn',
       'freeTrialGift': 'Chúng tôi tặng bạn',
       'freeTrialDuration': '7 ngày miễn phí',
       'freeTrialPurpose': 'để dùng thử ứng dụng của chúng tôi',
@@ -2836,7 +2836,7 @@ class AppLocalizations {
       'subscriptionDays': '{count} ngày',
       'subscriptionIn': 'Trong ',
       'subscriptionDaySuffix': ' ngày',
-      'subscriptionUnlockTitle': 'Mở khóa Leximon Pro',
+      'subscriptionUnlockTitle': 'Mở khóa Axolume Pro',
       'subscriptionStart': 'Dùng thử miễn phí và đăng ký',
       'subscriptionSubscribe': 'Đăng ký ngay',
       'subscriptionTrialOnly': 'Chỉ dùng thử miễn phí',
@@ -2936,7 +2936,7 @@ class AppLocalizations {
       'skillPackPurchaseError': 'Không thể bắt đầu thanh toán.',
       'surveySaveProgressError': 'Không thể lưu tiến độ. Vui lòng thử lại.',
       'surveySaveTopicsError': 'Không thể lưu chủ đề đã chọn.',
-      'surveyContinueWithLeximon': 'Tiếp tục cùng Leximon',
+      'surveyContinueWithLeximon': 'Tiếp tục cùng Axolume',
       'surveyContinueJourney': 'Tiếp tục hành trình',
       'surveyGreat': 'Tuyệt vời!',
       'surveyStartLearning': 'Bắt đầu học nào!',
@@ -2987,7 +2987,7 @@ class AppLocalizations {
       'surveyPreferredTimeQuestion':
           'Với bạn, giờ nào là thuận tiện để học tiếng Anh?',
       'surveyReminderPrimary':
-          'Leximon sẽ nhắc nhở bạn về các buổi học để bạn không bỏ lỡ ngày nào.',
+          'Axolume sẽ nhắc nhở bạn về các buổi học để bạn không bỏ lỡ ngày nào.',
       'surveyReminderSecondary':
           'Chúng tôi nhận thấy rằng việc thực hành thường xuyên có thể giúp tăng tốc độ học tiếng Anh lên gần ',
       'surveyReminderHighlight': '4,6 lần!',
@@ -3155,7 +3155,7 @@ class AppLocalizations {
       'homeJourneyStart': 'Khởi động hành trình',
       'homeNoWordsTitle': 'Nhiệm vụ cho hôm nay',
       'homeNoWordsBody':
-          'Bạn chưa học từ nào cả. Hãy bắt đầu với một chủ đề đầu tiên để Leximon tạo lộ trình phù hợp cho bạn.',
+          'Bạn chưa học từ nào cả. Hãy bắt đầu với một chủ đề đầu tiên để Axolume tạo lộ trình phù hợp cho bạn.',
       'hello': 'Xin chào!',
       'homeMascotStart': 'Bắt đầu cùng mình nhé!',
       'homeDayOneGoal': 'MỤC TIÊU NGÀY 1',
@@ -3207,10 +3207,10 @@ class AppLocalizations {
       'profileReminderUpdateError': 'Không thể cập nhật giờ nhắc: {error}',
       'profileNotificationPermissionTitle': 'Cần quyền thông báo',
       'profileNotificationPermissionBody':
-          'Leximon cần quyền thông báo để nhắc bạn học mỗi ngày. Hãy bật quyền trong phần Cài đặt của ứng dụng.',
+          'Axolume cần quyền thông báo để nhắc bạn học mỗi ngày. Hãy bật quyền trong phần Cài đặt của ứng dụng.',
       'profileMicPermissionTitle': 'Cần quyền microphone',
       'profileMicPermissionBody':
-          'Leximon cần quyền microphone và nhận dạng giọng nói để bật luyện phát âm. Hãy cấp quyền trong phần Cài đặt của ứng dụng.',
+          'Axolume cần quyền microphone và nhận dạng giọng nói để bật luyện phát âm. Hãy cấp quyền trong phần Cài đặt của ứng dụng.',
       'profileMicPermissionNeeded': 'Cần quyền mic',
       'profileReminderEnabledBody': 'Mỗi tối lúc {time} · chạm để đổi giờ',
       'profileReminderDisabledBody': 'Đã tắt · chạm để bật',
@@ -3226,7 +3226,7 @@ class AppLocalizations {
       'photoLibrary': 'thư viện ảnh',
       'permissionRequired': 'Cần cấp quyền',
       'editProfileImagePermissionBody':
-          'Leximon chưa được cấp quyền truy cập {permission}. Bạn có thể bật quyền trong phần Cài đặt của ứng dụng.',
+          'Axolume chưa được cấp quyền truy cập {permission}. Bạn có thể bật quyền trong phần Cài đặt của ứng dụng.',
       'editProfileSaveError': 'Không thể lưu hồ sơ: {error}',
       'editProfileAvatar': 'Ảnh đại diện',
       'editProfileDetails': 'Thông tin cá nhân',
@@ -3349,7 +3349,7 @@ class AppLocalizations {
       'learningFilterChooseLevel': 'Chọn trình độ',
       'learningFilterLevelQuestion': 'Bạn muốn bắt đầu ở mức nào?',
       'learningFilterLevelDescription':
-          'Leximon sẽ điều chỉnh độ khó, nhóm từ vựng và thử thách luyện tập dựa trên lựa chọn của bạn.',
+          'Axolume sẽ điều chỉnh độ khó, nhóm từ vựng và thử thách luyện tập dựa trên lựa chọn của bạn.',
       'learningFilterBeginnerDescription':
           'Bắt đầu từ những từ quen thuộc, dễ tiếp cận và dễ ghi nhớ.',
       'learningFilterIntermediateDescription':
@@ -3372,7 +3372,7 @@ class AppLocalizations {
       'learningFilterChooseTopics': 'Chọn chủ đề',
       'learningFilterTopicQuestion': 'Những chủ đề nào phù hợp với bạn?',
       'learningFilterTopicDescription':
-          'Bạn có thể chọn nhiều chủ đề để Leximon ưu tiên trong giai đoạn đầu. Đề xuất tốt nhất là 3–5 chủ đề.',
+          'Bạn có thể chọn nhiều chủ đề để Axolume ưu tiên trong giai đoạn đầu. Đề xuất tốt nhất là 3–5 chủ đề.',
       'selectedTopicCount': '{count} chủ đề đã chọn',
       'learningFilterSmallGroupHint': 'Bắt đầu tốt với một nhóm nhỏ trước',
       'learningFilterTopicLoadError': 'Không thể tải danh sách chủ đề.',
@@ -3416,7 +3416,7 @@ class AppLocalizations {
       'topicPreviewTitle': 'Một vài từ trong chủ đề',
       'viewAll': 'Xem tất cả',
       'topicNoWords': 'Chưa có từ trong topic này.',
-      'leximonTip': 'Gợi ý từ Leximon',
+      'leximonTip': 'Gợi ý từ Axolume',
       'topicReviewTip':
           'Hãy ôn các từ đang đến hạn trước khi học từ mới để đạt hiệu quả tốt hơn.',
       'topicReviewTitle': 'Ôn • {topic}',
@@ -3435,7 +3435,7 @@ class AppLocalizations {
       'topicReviewRequirement':
           'Ngay khi có {count} từ, bạn có thể bắt đầu lặp lại chúng',
       'vocabularyCollection': 'BỘ SƯU TẬP TỪ VỰNG',
-      'vocabularyCollectionTitle': 'Thư viện Leximon',
+      'vocabularyCollectionTitle': 'Thư viện Axolume',
       'practiseWords': 'Luyện từ',
       'reviewWordsAction': 'Ôn luyện',
       'reviewMasteredWords': 'Ôn từ đã biết',
@@ -3788,7 +3788,7 @@ class AppLocalizations {
       'reviewIntroInstruction':
           'Đọc kỹ các từ bên dưới trước khi bắt đầu phần ôn tập.',
       'reviewIntroBody':
-          'Leximon sẽ đưa ra các câu hỏi dựa trên nhóm từ bạn đã chọn để ôn lại trí nhớ ngắn hạn.',
+          'Axolume sẽ đưa ra các câu hỏi dựa trên nhóm từ bạn đã chọn để ôn lại trí nhớ ngắn hạn.',
       'reviewStart': 'Bắt đầu ôn tập',
       'reviewChooseAudioCount': 'Chọn 1 trong {count} âm thanh',
       'reviewAudioSelectedHint': 'Đã chọn âm thanh — nhấn Chọn để kiểm tra',
@@ -3871,7 +3871,7 @@ class AppLocalizations {
           'Tiến độ của phiên hiện tại sẽ không được lưu. Bạn luôn có thể bắt đầu lại bộ từ này bất cứ lúc nào.',
       'reviewEndAction': 'Kết thúc ôn tập',
       'notificationStudyTitle': 'Đến giờ học rồi! 📚',
-      'notificationStudyBody': 'Dành vài phút ôn từ vựng cùng Leximon nhé.',
+      'notificationStudyBody': 'Dành vài phút ôn từ vựng cùng Axolume nhé.',
       'notificationChannelName': 'Nhắc học hằng ngày',
       'notificationChannelDescription':
           'Thông báo nhắc bạn duy trì thói quen học từ vựng.',
@@ -3880,7 +3880,7 @@ class AppLocalizations {
           'Gói Pro năm đang có giá đặc biệt. Xem ưu đãi ngay nhé!',
       'notificationSaleChannelName': 'Ưu đãi đăng ký',
       'notificationSaleChannelDescription':
-          'Ưu đãi đặc biệt cho các gói đăng ký Leximon.',
+          'Ưu đãi đặc biệt cho các gói đăng ký Axolume.',
       'sentenceTypeConstructor': 'Ghép câu tiếng Anh',
       'sentenceTypeInverse': 'Ghép câu tiếng Việt',
       'sentenceTypeAudio': 'Nghe và ghép câu',
@@ -3998,7 +3998,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Начать тест",
       "surveyIntroTitle": "Пройдём короткий опрос!",
       "surveyIntroSubtitle":
-          "На основе ваших ответов Leximon подберёт лучший метод обучения для вас.",
+          "На основе ваших ответов Axolume подберёт лучший метод обучения для вас.",
       "freeTrialGift": "Мы дарим вам",
       "freeTrialDuration": "7 дней бесплатно",
       "freeTrialPurpose": "чтобы попробовать приложение",
@@ -4028,7 +4028,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Не удалось сохранить прогресс. Попробуйте ещё раз.",
       "surveySaveTopicsError": "Не удалось сохранить выбранные темы.",
-      "surveyContinueWithLeximon": "Продолжить с Leximon",
+      "surveyContinueWithLeximon": "Продолжить с Axolume",
       "surveyContinueJourney": "Продолжить обучение",
       "surveyGreat": "Отлично!",
       "surveyStartLearning": "Начнём учиться!",
@@ -4080,7 +4080,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "В какое время вам удобнее всего заниматься английским?",
       "surveyReminderPrimary":
-          "Leximon будет напоминать о занятиях, чтобы вы не пропускали ни дня.",
+          "Axolume будет напоминать о занятиях, чтобы вы не пропускали ни дня.",
       "surveyReminderSecondary":
           "Мы выяснили, что регулярная практика может ускорить изучение английского почти в ",
       "surveyReminderHighlight": "4,6 раза!",
@@ -4253,7 +4253,7 @@ class AppLocalizations {
       "homeJourneyStart": "Начните свой путь",
       "homeNoWordsTitle": "Миссия на сегодня",
       "homeNoWordsBody":
-          "Вы ещё не выучили ни одного слова. Начните с первой темы, чтобы Leximon смог построить для вас подходящий путь.",
+          "Вы ещё не выучили ни одного слова. Начните с первой темы, чтобы Axolume смог построить для вас подходящий путь.",
       "hello": "Привет!",
       "homeMascotStart": "Начнём!",
       "homeDayOneGoal": "ЦЕЛЬ НА ДЕНЬ 1",
@@ -4308,10 +4308,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Требуется разрешение на уведомления",
       "profileNotificationPermissionBody":
-          "Leximon нужно разрешение на уведомления, чтобы каждый день напоминать вам об учёбе. Включите его в настройках приложения.",
+          "Axolume нужно разрешение на уведомления, чтобы каждый день напоминать вам об учёбе. Включите его в настройках приложения.",
       "profileMicPermissionTitle": "Требуется доступ к микрофону",
       "profileMicPermissionBody":
-          "Leximon нужны разрешения на микрофон и распознавание речи для практики произношения. Разрешите доступ в настройках приложения.",
+          "Axolume нужны разрешения на микрофон и распознавание речи для практики произношения. Разрешите доступ в настройках приложения.",
       "profileMicPermissionNeeded": "Нужен доступ к микрофону",
       "profileReminderEnabledBody":
           "Каждый вечер в {time} · нажмите, чтобы изменить время",
@@ -4328,7 +4328,7 @@ class AppLocalizations {
       "photoLibrary": "медиатека",
       "permissionRequired": "Требуется разрешение",
       "editProfileImagePermissionBody":
-          "У Leximon нет доступа к {permission}. Вы можете включить его в настройках приложения.",
+          "У Axolume нет доступа к {permission}. Вы можете включить его в настройках приложения.",
       "editProfileSaveError": "Не удалось сохранить профиль: {error}",
       "editProfileAvatar": "Фото профиля",
       "editProfileDetails": "Личные данные",
@@ -4449,7 +4449,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Выберите уровень",
       "learningFilterLevelQuestion": "С какого уровня вы хотите начать?",
       "learningFilterLevelDescription":
-          "Leximon настроит сложность, группы слов и практические задания в зависимости от вашего выбора.",
+          "Axolume настроит сложность, группы слов и практические задания в зависимости от вашего выбора.",
       "learningFilterBeginnerDescription":
           "Начните со знакомых, понятных и легко запоминающихся слов.",
       "learningFilterIntermediateDescription":
@@ -4472,7 +4472,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Выберите темы",
       "learningFilterTopicQuestion": "Какие темы подходят вам?",
       "learningFilterTopicDescription":
-          "Выберите несколько тем, которым Leximon отдаст приоритет в начале. Рекомендуем 3–5 тем.",
+          "Выберите несколько тем, которым Axolume отдаст приоритет в начале. Рекомендуем 3–5 тем.",
       "selectedTopicCount": "Выбрано тем: {count}",
       "learningFilterSmallGroupHint": "Сначала начните с небольшой группы",
       "learningFilterTopicLoadError": "Не удалось загрузить список тем.",
@@ -4517,7 +4517,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Несколько слов из этой темы",
       "viewAll": "Показать все",
       "topicNoWords": "В этой теме пока нет слов.",
-      "leximonTip": "Совет Leximon",
+      "leximonTip": "Совет Axolume",
       "topicReviewTip":
           "Для лучших результатов сначала повторите слова, которые уже пора повторять, а затем учите новые.",
       "topicReviewTitle": "Повторение • {topic}",
@@ -4536,7 +4536,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Когда у вас будет {count} слов, вы сможете начать их повторять",
       "vocabularyCollection": "КОЛЛЕКЦИЯ СЛОВ",
-      "vocabularyCollectionTitle": "Библиотека Leximon",
+      "vocabularyCollectionTitle": "Библиотека Axolume",
       "practiseWords": "Практиковать слова",
       "reviewWordsAction": "Повторить",
       "reviewMasteredWords": "Повторить освоенные слова",
@@ -4903,7 +4903,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Внимательно прочитайте слова ниже перед началом повторения.",
       "reviewIntroBody":
-          "Leximon задаст вопросы по выбранным вами словам, чтобы укрепить кратковременную память.",
+          "Axolume задаст вопросы по выбранным вами словам, чтобы укрепить кратковременную память.",
       "reviewStart": "Начать повторение",
       "reviewChooseAudioCount": "Выберите 1 из {count} аудиозаписей",
       "reviewAudioSelectedHint":
@@ -4991,7 +4991,7 @@ class AppLocalizations {
       "reviewEndAction": "Завершить повторение",
       "notificationStudyTitle": "Время учиться! 📚",
       "notificationStudyBody":
-          "Уделите несколько минут повторению слов с Leximon.",
+          "Уделите несколько минут повторению слов с Axolume.",
       "notificationChannelName": "Ежедневное напоминание об учёбе",
       "notificationChannelDescription":
           "Напоминания, которые помогают поддерживать привычку регулярно учить слова.",
@@ -5075,14 +5075,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Этот пакет сейчас недоступен.",
       "listeningPackUnlock": "Разблокировать пакет для тренировки аудирования",
       "notificationSaleBody":
-          "Воспользуйтесь специальным предложением Leximon Pro, доступным ограниченное время. Разблокируйте все уроки и учитесь без рекламы.",
+          "Воспользуйтесь специальным предложением Axolume Pro, доступным ограниченное время. Разблокируйте все уроки и учитесь без рекламы.",
       "notificationSaleChannelDescription":
-          "Уведомления о специальных предложениях и скидках Leximon.",
+          "Уведомления о специальных предложениях и скидках Axolume.",
       "notificationSaleChannelName": "Предложения и скидки",
       "notificationSaleTitle": "Специальное предложение для вас 🎉",
       "privacyPolicy": "Политика конфиденциальности",
       "privacyPolicyBody":
-          "Узнайте, как Leximon собирает, использует и защищает ваши данные.",
+          "Узнайте, как Axolume собирает, использует и защищает ваши данные.",
       "saleAnnualPlan": "Годовой план",
       "saleApproxMonthly": "Около {price} в месяц",
       "saleBenefitNoAds": "Учитесь без рекламы",
@@ -5154,7 +5154,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} дней бесплатного пробного периода",
       "termsOfUse": "Условия использования",
       "termsOfUseBody":
-          "Ознакомьтесь с условиями использования приложения Leximon и его сервисов.",
+          "Ознакомьтесь с условиями использования приложения Axolume и его сервисов.",
     },
     'de': {
       "navStudy": "Lernen",
@@ -5233,7 +5233,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Test starten",
       "surveyIntroTitle": "Machen wir eine kurze Umfrage!",
       "surveyIntroSubtitle":
-          "Anhand deiner Antworten wählt Leximon die beste Lernmethode für dich aus.",
+          "Anhand deiner Antworten wählt Axolume die beste Lernmethode für dich aus.",
       "freeTrialGift": "Wir schenken dir",
       "freeTrialDuration": "7 Tage kostenlos",
       "freeTrialPurpose": "zum Ausprobieren unserer App",
@@ -5265,7 +5265,7 @@ class AppLocalizations {
           "Dein Fortschritt konnte nicht gespeichert werden. Bitte versuche es erneut.",
       "surveySaveTopicsError":
           "Die ausgewählten Themen konnten nicht gespeichert werden.",
-      "surveyContinueWithLeximon": "Mit Leximon fortfahren",
+      "surveyContinueWithLeximon": "Mit Axolume fortfahren",
       "surveyContinueJourney": "Deinen Lernweg fortsetzen",
       "surveyGreat": "Super!",
       "surveyStartLearning": "Lass uns mit dem Lernen beginnen!",
@@ -5319,7 +5319,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Zu welcher Zeit lernst du am liebsten Englisch?",
       "surveyReminderPrimary":
-          "Leximon erinnert dich an deine Lektionen, damit du keinen Tag verpasst.",
+          "Axolume erinnert dich an deine Lektionen, damit du keinen Tag verpasst.",
       "surveyReminderSecondary":
           "Wir haben festgestellt, dass regelmäßiges Üben das Englischlernen um fast ",
       "surveyReminderHighlight": "das 4,6-Fache beschleunigen kann!",
@@ -5498,7 +5498,7 @@ class AppLocalizations {
       "homeJourneyStart": "Deinen Lernweg starten",
       "homeNoWordsTitle": "Heutige Mission",
       "homeNoWordsBody":
-          "Du hast noch keine Wörter gelernt. Starte mit deinem ersten Thema, damit Leximon den passenden Lernweg für dich erstellen kann.",
+          "Du hast noch keine Wörter gelernt. Starte mit deinem ersten Thema, damit Axolume den passenden Lernweg für dich erstellen kann.",
       "hello": "Hallo!",
       "homeMascotStart": "Los geht’s!",
       "homeDayOneGoal": "ZIEL FÜR TAG 1",
@@ -5553,10 +5553,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Benachrichtigungsberechtigung erforderlich",
       "profileNotificationPermissionBody":
-          "Leximon benötigt die Berechtigung für Benachrichtigungen, um dich jeden Tag ans Lernen zu erinnern. Aktiviere sie in den App-Einstellungen.",
+          "Axolume benötigt die Berechtigung für Benachrichtigungen, um dich jeden Tag ans Lernen zu erinnern. Aktiviere sie in den App-Einstellungen.",
       "profileMicPermissionTitle": "Mikrofonberechtigung erforderlich",
       "profileMicPermissionBody":
-          "Leximon benötigt Zugriff auf Mikrofon und Spracherkennung für das Aussprachetraining. Erteile den Zugriff in den App-Einstellungen.",
+          "Axolume benötigt Zugriff auf Mikrofon und Spracherkennung für das Aussprachetraining. Erteile den Zugriff in den App-Einstellungen.",
       "profileMicPermissionNeeded": "Mikrofonberechtigung erforderlich",
       "profileReminderEnabledBody":
           "Jeden Abend um {time} · tippen, um die Zeit zu ändern",
@@ -5574,7 +5574,7 @@ class AppLocalizations {
       "photoLibrary": "Fotomediathek",
       "permissionRequired": "Berechtigung erforderlich",
       "editProfileImagePermissionBody":
-          "Leximon hat keinen Zugriff auf deine {permission}. Du kannst den Zugriff in den App-Einstellungen aktivieren.",
+          "Axolume hat keinen Zugriff auf deine {permission}. Du kannst den Zugriff in den App-Einstellungen aktivieren.",
       "editProfileSaveError":
           "Dein Profil konnte nicht gespeichert werden: {error}",
       "editProfileAvatar": "Profilbild",
@@ -5699,7 +5699,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Niveau auswählen",
       "learningFilterLevelQuestion": "Wo möchtest du anfangen?",
       "learningFilterLevelDescription":
-          "Leximon passt Schwierigkeit, Wortschatzgruppen und Übungsaufgaben anhand deiner Auswahl an.",
+          "Axolume passt Schwierigkeit, Wortschatzgruppen und Übungsaufgaben anhand deiner Auswahl an.",
       "learningFilterBeginnerDescription":
           "Beginne mit vertrauten Wörtern, die leicht zugänglich und gut zu merken sind.",
       "learningFilterIntermediateDescription":
@@ -5722,7 +5722,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Themen auswählen",
       "learningFilterTopicQuestion": "Welche Themen passen zu dir?",
       "learningFilterTopicDescription":
-          "Wähle mehrere Themen aus, die Leximon am Anfang priorisieren soll. Wir empfehlen 3–5 Themen.",
+          "Wähle mehrere Themen aus, die Axolume am Anfang priorisieren soll. Wir empfehlen 3–5 Themen.",
       "selectedTopicCount": "{count} Themen ausgewählt",
       "learningFilterSmallGroupHint": "Beginne zuerst mit einer kleinen Gruppe",
       "learningFilterTopicLoadError":
@@ -5769,7 +5769,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Einige Wörter aus diesem Thema",
       "viewAll": "Alle anzeigen",
       "topicNoWords": "In diesem Thema gibt es noch keine Wörter.",
-      "leximonTip": "Leximon-Tipp",
+      "leximonTip": "Axolume-Tipp",
       "topicReviewTip":
           "Wiederhole fällige Wörter, bevor du neue lernst, um bessere Ergebnisse zu erzielen.",
       "topicReviewTitle": "Wiederholen • {topic}",
@@ -5789,7 +5789,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Sobald du {count} Wörter hast, kannst du mit der Wiederholung beginnen",
       "vocabularyCollection": "WORTSCHATZSAMMLUNG",
-      "vocabularyCollectionTitle": "Leximon-Bibliothek",
+      "vocabularyCollectionTitle": "Axolume-Bibliothek",
       "practiseWords": "Wörter üben",
       "reviewWordsAction": "Wiederholen",
       "reviewMasteredWords": "Beherrschte Wörter wiederholen",
@@ -6165,7 +6165,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Lies die Wörter unten sorgfältig durch, bevor du mit der Wiederholung beginnst.",
       "reviewIntroBody":
-          "Leximon stellt dir Fragen zu den ausgewählten Wörtern, um dein Kurzzeitgedächtnis zu stärken.",
+          "Axolume stellt dir Fragen zu den ausgewählten Wörtern, um dein Kurzzeitgedächtnis zu stärken.",
       "reviewStart": "Wiederholung starten",
       "reviewChooseAudioCount": "Wähle 1 von {count} Audioclips",
       "reviewAudioSelectedHint":
@@ -6255,7 +6255,7 @@ class AppLocalizations {
       "reviewEndAction": "Wiederholung beenden",
       "notificationStudyTitle": "Zeit zum Lernen! 📚",
       "notificationStudyBody":
-          "Nimm dir ein paar Minuten, um mit Leximon Vokabeln zu wiederholen.",
+          "Nimm dir ein paar Minuten, um mit Axolume Vokabeln zu wiederholen.",
       "notificationChannelName": "Tägliche Lernerinnerung",
       "notificationChannelDescription":
           "Erinnerungen, die dir helfen, deine Gewohnheit zum Vokabellernen beizubehalten.",
@@ -6341,14 +6341,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Dieses Paket ist derzeit nicht verfügbar.",
       "listeningPackUnlock": "Hörverständnis-Paket freischalten",
       "notificationSaleBody":
-          "Nutze für kurze Zeit ein Sonderangebot für Leximon Pro. Schalte alle Lektionen frei und lerne ohne Werbung.",
+          "Nutze für kurze Zeit ein Sonderangebot für Axolume Pro. Schalte alle Lektionen frei und lerne ohne Werbung.",
       "notificationSaleChannelDescription":
-          "Benachrichtigungen über Sonderangebote und Rabatte von Leximon.",
+          "Benachrichtigungen über Sonderangebote und Rabatte von Axolume.",
       "notificationSaleChannelName": "Angebote und Rabatte",
       "notificationSaleTitle": "Ein Sonderangebot für dich 🎉",
       "privacyPolicy": "Datenschutzerklärung",
       "privacyPolicyBody":
-          "Erfahre, wie Leximon deine Daten erhebt, verwendet und schützt.",
+          "Erfahre, wie Axolume deine Daten erhebt, verwendet und schützt.",
       "saleAnnualPlan": "Jahresabo",
       "saleApproxMonthly": "Ca. {price} pro Monat",
       "saleBenefitNoAds": "Ohne Werbung lernen",
@@ -6421,7 +6421,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} Tage kostenlos testen",
       "termsOfUse": "Nutzungsbedingungen",
       "termsOfUseBody":
-          "Informiere dich über die Bedingungen für die Nutzung der Leximon-App und ihrer Dienste.",
+          "Informiere dich über die Bedingungen für die Nutzung der Axolume-App und ihrer Dienste.",
     },
     'ar': {
       "navStudy": "تعلّم",
@@ -6496,7 +6496,7 @@ class AppLocalizations {
       "assessmentLevelStart": "بدء الاختبار",
       "surveyIntroTitle": "لنُجرِ استبيانًا قصيرًا!",
       "surveyIntroSubtitle":
-          "بناءً على إجاباتك، سيختار Leximon أفضل طريقة تعلّم لك.",
+          "بناءً على إجاباتك، سيختار Axolume أفضل طريقة تعلّم لك.",
       "freeTrialGift": "نمنحك",
       "freeTrialDuration": "7 أيام مجانًا",
       "freeTrialPurpose": "لتجربة تطبيقنا",
@@ -6525,7 +6525,7 @@ class AppLocalizations {
       "subscriptionStart": "ابدأ التجربة المجانية واشترك",
       "surveySaveProgressError": "تعذّر حفظ تقدّمك. يُرجى المحاولة مرة أخرى.",
       "surveySaveTopicsError": "تعذّر حفظ الموضوعات المحددة.",
-      "surveyContinueWithLeximon": "المتابعة مع Leximon",
+      "surveyContinueWithLeximon": "المتابعة مع Axolume",
       "surveyContinueJourney": "تابع رحلتك",
       "surveyGreat": "رائع!",
       "surveyStartLearning": "لنبدأ التعلّم!",
@@ -6572,7 +6572,7 @@ class AppLocalizations {
       "surveyHabitHighlight": "التقدم بشكل أسرع.",
       "surveyPreferredTimeQuestion": "ما الوقت الأنسب لك لدراسة الإنجليزية؟",
       "surveyReminderPrimary":
-          "سيذكّرك Leximon بدروسك حتى لا تفوّت يومًا واحدًا.",
+          "سيذكّرك Axolume بدروسك حتى لا تفوّت يومًا واحدًا.",
       "surveyReminderSecondary":
           "وجدنا أن الممارسة المنتظمة يمكن أن تجعل تعلّم الإنجليزية أسرع بنحو ",
       "surveyReminderHighlight": "4.6×!",
@@ -6738,7 +6738,7 @@ class AppLocalizations {
       "homeJourneyStart": "ابدأ رحلتك",
       "homeNoWordsTitle": "مهمة اليوم",
       "homeNoWordsBody":
-          "لم تتعلّم أي كلمات بعد. ابدأ بأول موضوع ليتمكن Leximon من بناء المسار المناسب لك.",
+          "لم تتعلّم أي كلمات بعد. ابدأ بأول موضوع ليتمكن Axolume من بناء المسار المناسب لك.",
       "hello": "مرحبًا!",
       "homeMascotStart": "لنبدأ!",
       "homeDayOneGoal": "هدف اليوم الأول",
@@ -6790,10 +6790,10 @@ class AppLocalizations {
       "profileReminderUpdateError": "تعذّر تحديث وقت التذكير: {error}",
       "profileNotificationPermissionTitle": "إذن الإشعارات مطلوب",
       "profileNotificationPermissionBody":
-          "يحتاج Leximon إلى إذن الإشعارات لتذكيرك بالدراسة كل يوم. فعّله من إعدادات التطبيق.",
+          "يحتاج Axolume إلى إذن الإشعارات لتذكيرك بالدراسة كل يوم. فعّله من إعدادات التطبيق.",
       "profileMicPermissionTitle": "إذن الميكروفون مطلوب",
       "profileMicPermissionBody":
-          "يحتاج Leximon إلى إذن الميكروفون والتعرّف على الكلام لتدريب النطق. امنح الوصول من إعدادات التطبيق.",
+          "يحتاج Axolume إلى إذن الميكروفون والتعرّف على الكلام لتدريب النطق. امنح الوصول من إعدادات التطبيق.",
       "profileMicPermissionNeeded": "إذن الميكروفون مطلوب",
       "profileReminderEnabledBody": "كل مساء في {time} · اضغط لتغيير الوقت",
       "profileReminderDisabledBody": "متوقف · اضغط للتفعيل",
@@ -6809,7 +6809,7 @@ class AppLocalizations {
       "photoLibrary": "مكتبة الصور",
       "permissionRequired": "الإذن مطلوب",
       "editProfileImagePermissionBody":
-          "لا يملك Leximon إذن الوصول إلى {permission}. يمكنك تفعيله من إعدادات التطبيق.",
+          "لا يملك Axolume إذن الوصول إلى {permission}. يمكنك تفعيله من إعدادات التطبيق.",
       "editProfileSaveError": "تعذّر حفظ ملفك الشخصي: {error}",
       "editProfileAvatar": "صورة الملف الشخصي",
       "editProfileDetails": "البيانات الشخصية",
@@ -6925,7 +6925,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "اختر مستوى",
       "learningFilterLevelQuestion": "من أين تريد أن تبدأ؟",
       "learningFilterLevelDescription":
-          "سيضبط Leximon مستوى الصعوبة ومجموعات المفردات وتحديات التدريب بناءً على اختيارك.",
+          "سيضبط Axolume مستوى الصعوبة ومجموعات المفردات وتحديات التدريب بناءً على اختيارك.",
       "learningFilterBeginnerDescription":
           "ابدأ بكلمات مألوفة وسهلة التعلّم والتذكر.",
       "learningFilterIntermediateDescription":
@@ -6947,7 +6947,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "اختر الموضوعات",
       "learningFilterTopicQuestion": "ما الموضوعات المناسبة لك؟",
       "learningFilterTopicDescription":
-          "اختر عدة موضوعات ليعطيها Leximon أولوية في البداية. نوصي باختيار 3–5 موضوعات.",
+          "اختر عدة موضوعات ليعطيها Axolume أولوية في البداية. نوصي باختيار 3–5 موضوعات.",
       "selectedTopicCount": "تم تحديد {count} موضوعات",
       "learningFilterSmallGroupHint": "ابدأ بمجموعة صغيرة أولًا",
       "learningFilterTopicLoadError": "تعذّر تحميل قائمة الموضوعات.",
@@ -6988,7 +6988,7 @@ class AppLocalizations {
       "topicPreviewTitle": "بعض الكلمات من هذا الموضوع",
       "viewAll": "عرض الكل",
       "topicNoWords": "لا توجد كلمات في هذا الموضوع بعد.",
-      "leximonTip": "نصيحة من Leximon",
+      "leximonTip": "نصيحة من Axolume",
       "topicReviewTip":
           "راجع الكلمات المستحقة قبل تعلّم كلمات جديدة للحصول على نتائج أفضل.",
       "topicReviewTitle": "مراجعة • {topic}",
@@ -7006,7 +7006,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "عندما يكون لديك {count} كلمات، يمكنك البدء في مراجعتها",
       "vocabularyCollection": "مجموعة المفردات",
-      "vocabularyCollectionTitle": "مكتبة Leximon",
+      "vocabularyCollectionTitle": "مكتبة Axolume",
       "practiseWords": "تدريب الكلمات",
       "reviewWordsAction": "مراجعة",
       "reviewMasteredWords": "مراجعة الكلمات المتقنة",
@@ -7355,7 +7355,7 @@ class AppLocalizations {
       "reviewExitAction": "الخروج من المراجعة",
       "reviewIntroInstruction": "اقرأ الكلمات أدناه بعناية قبل بدء المراجعة.",
       "reviewIntroBody":
-          "سيطرح Leximon أسئلة بناءً على الكلمات التي اخترتها لتقوية ذاكرتك قصيرة المدى.",
+          "سيطرح Axolume أسئلة بناءً على الكلمات التي اخترتها لتقوية ذاكرتك قصيرة المدى.",
       "reviewStart": "بدء المراجعة",
       "reviewChooseAudioCount": "اختر مقطعًا صوتيًا واحدًا من {count}",
       "reviewAudioSelectedHint": "تم اختيار الصوت — اضغط على اختيار للتحقق",
@@ -7436,7 +7436,7 @@ class AppLocalizations {
           "لن يتم حفظ تقدّمك في هذه الجلسة. يمكنك إعادة بدء مجموعة الكلمات هذه في أي وقت.",
       "reviewEndAction": "إنهاء المراجعة",
       "notificationStudyTitle": "حان وقت الدراسة! 📚",
-      "notificationStudyBody": "خصص بضع دقائق لمراجعة المفردات مع Leximon.",
+      "notificationStudyBody": "خصص بضع دقائق لمراجعة المفردات مع Axolume.",
       "notificationChannelName": "تذكير الدراسة اليومي",
       "notificationChannelDescription":
           "تذكيرات تساعدك على الحفاظ على عادة تعلّم المفردات.",
@@ -7518,14 +7518,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "هذه الحزمة غير متاحة حاليًا.",
       "listeningPackUnlock": "فتح حزمة الاستماع",
       "notificationSaleBody":
-          "استفد من عرض خاص على Leximon Pro لفترة محدودة. افتح جميع الدروس وتعلّم بدون إعلانات.",
+          "استفد من عرض خاص على Axolume Pro لفترة محدودة. افتح جميع الدروس وتعلّم بدون إعلانات.",
       "notificationSaleChannelDescription":
-          "إشعارات بالعروض والخصومات الخاصة من Leximon.",
+          "إشعارات بالعروض والخصومات الخاصة من Axolume.",
       "notificationSaleChannelName": "العروض والخصومات",
       "notificationSaleTitle": "عرض خاص لك 🎉",
       "privacyPolicy": "سياسة الخصوصية",
       "privacyPolicyBody":
-          "تعرّف على كيفية جمع Leximon لبياناتك واستخدامها وحمايتها.",
+          "تعرّف على كيفية جمع Axolume لبياناتك واستخدامها وحمايتها.",
       "saleAnnualPlan": "الخطة السنوية",
       "saleApproxMonthly": "حوالي {price} شهريًا",
       "saleBenefitNoAds": "تعلّم بدون إعلانات",
@@ -7591,7 +7591,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "تجربة مجانية لمدة {days} أيام",
       "termsOfUse": "شروط الاستخدام",
       "termsOfUseBody":
-          "تعرّف على الشروط التي تنظّم استخدامك لتطبيق Leximon وخدماته.",
+          "تعرّف على الشروط التي تنظّم استخدامك لتطبيق Axolume وخدماته.",
     },
     'cs': {
       "navStudy": "Učit se",
@@ -7668,7 +7668,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Spustit test",
       "surveyIntroTitle": "Pojďme na krátký průzkum!",
       "surveyIntroSubtitle":
-          "Na základě vašich odpovědí Leximon vybere nejlepší způsob učení právě pro vás.",
+          "Na základě vašich odpovědí Axolume vybere nejlepší způsob učení právě pro vás.",
       "freeTrialGift": "Dáváme vám",
       "freeTrialDuration": "7 dní zdarma",
       "freeTrialPurpose": "na vyzkoušení naší aplikace",
@@ -7699,7 +7699,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Pokrok se nepodařilo uložit. Zkuste to znovu.",
       "surveySaveTopicsError": "Vybraná témata se nepodařilo uložit.",
-      "surveyContinueWithLeximon": "Pokračovat s Leximonem",
+      "surveyContinueWithLeximon": "Pokračovat s Axolumeem",
       "surveyContinueJourney": "Pokračovat ve své cestě",
       "surveyGreat": "Skvělé!",
       "surveyStartLearning": "Pojďme se učit!",
@@ -7748,7 +7748,7 @@ class AppLocalizations {
       "surveyHabitHighlight": "budete postupovat rychleji.",
       "surveyPreferredTimeQuestion": "Kdy se vám nejlépe učí anglicky?",
       "surveyReminderPrimary":
-          "Leximon vám připomene vaše lekce, abyste nevynechali ani den.",
+          "Axolume vám připomene vaše lekce, abyste nevynechali ani den.",
       "surveyReminderSecondary":
           "Zjistili jsme, že pravidelné procvičování může učení angličtiny zrychlit téměř ",
       "surveyReminderHighlight": "4,6×!",
@@ -7918,7 +7918,7 @@ class AppLocalizations {
       "homeJourneyStart": "Začněte svou cestu",
       "homeNoWordsTitle": "Dnešní mise",
       "homeNoWordsBody":
-          "Zatím jste se nenaučili žádná slova. Začněte prvním tématem, aby vám Leximon mohl vytvořit správnou studijní cestu.",
+          "Zatím jste se nenaučili žádná slova. Začněte prvním tématem, aby vám Axolume mohl vytvořit správnou studijní cestu.",
       "hello": "Ahoj!",
       "homeMascotStart": "Pojďme začít!",
       "homeDayOneGoal": "CÍL 1. DNE",
@@ -7974,10 +7974,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Je vyžadováno oprávnění k oznámením",
       "profileNotificationPermissionBody":
-          "Leximon potřebuje oprávnění k oznámením, aby vám mohl každý den připomínat učení. Povolte ho v nastavení aplikace.",
+          "Axolume potřebuje oprávnění k oznámením, aby vám mohl každý den připomínat učení. Povolte ho v nastavení aplikace.",
       "profileMicPermissionTitle": "Je vyžadováno oprávnění k mikrofonu",
       "profileMicPermissionBody":
-          "Leximon potřebuje oprávnění k mikrofonu a rozpoznávání řeči pro procvičování výslovnosti. Povolte přístup v nastavení aplikace.",
+          "Axolume potřebuje oprávnění k mikrofonu a rozpoznávání řeči pro procvičování výslovnosti. Povolte přístup v nastavení aplikace.",
       "profileMicPermissionNeeded": "Je potřeba oprávnění k mikrofonu",
       "profileReminderEnabledBody":
           "Každý večer v {time} · klepnutím změníte čas",
@@ -7994,7 +7994,7 @@ class AppLocalizations {
       "photoLibrary": "knihovna fotografií",
       "permissionRequired": "Je vyžadováno oprávnění",
       "editProfileImagePermissionBody":
-          "Leximon nemá oprávnění pro: {permission}. Přístup můžete povolit v nastavení aplikace.",
+          "Axolume nemá oprávnění pro: {permission}. Přístup můžete povolit v nastavení aplikace.",
       "editProfileSaveError": "Profil se nepodařilo uložit: {error}",
       "editProfileAvatar": "Profilový obrázek",
       "editProfileDetails": "Osobní údaje",
@@ -8112,7 +8112,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Vyberte úroveň",
       "learningFilterLevelQuestion": "Kde chcete začít?",
       "learningFilterLevelDescription":
-          "Leximon podle vaší volby upraví obtížnost, skupiny slovní zásoby a procvičovací výzvy.",
+          "Axolume podle vaší volby upraví obtížnost, skupiny slovní zásoby a procvičovací výzvy.",
       "learningFilterBeginnerDescription":
           "Začněte známými slovy, která jsou přístupná a snadno se pamatují.",
       "learningFilterIntermediateDescription":
@@ -8135,7 +8135,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Vyberte témata",
       "learningFilterTopicQuestion": "Která témata jsou pro vás vhodná?",
       "learningFilterTopicDescription":
-          "Vyberte více témat, kterým má Leximon zpočátku dát přednost. Doporučujeme 3–5 témat.",
+          "Vyberte více témat, kterým má Axolume zpočátku dát přednost. Doporučujeme 3–5 témat.",
       "selectedTopicCount": "Vybráno {count} témat",
       "learningFilterSmallGroupHint": "Začněte nejprve s malou skupinou",
       "learningFilterTopicLoadError": "Seznam témat se nepodařilo načíst.",
@@ -8180,7 +8180,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Několik slov z tohoto tématu",
       "viewAll": "Zobrazit vše",
       "topicNoWords": "V tomto tématu zatím nejsou žádná slova.",
-      "leximonTip": "Tip od Leximonu",
+      "leximonTip": "Tip od Axolumeu",
       "topicReviewTip":
           "Pro lepší výsledky nejprve zopakujte slova, která jsou na řadě, a teprve potom se učte nová.",
       "topicReviewTitle": "Opakování • {topic}",
@@ -8200,7 +8200,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Jakmile budete mít {count} slov, můžete je začít opakovat",
       "vocabularyCollection": "SBÍRKA SLOVNÍ ZÁSOBY",
-      "vocabularyCollectionTitle": "Knihovna Leximon",
+      "vocabularyCollectionTitle": "Knihovna Axolume",
       "practiseWords": "Procvičovat slova",
       "reviewWordsAction": "Opakovat",
       "reviewMasteredWords": "Opakovat zvládnutá slova",
@@ -8563,7 +8563,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Před zahájením opakování si pečlivě přečtěte slova níže.",
       "reviewIntroBody":
-          "Leximon bude pokládat otázky podle vybraných slov, aby posílil vaši krátkodobou paměť.",
+          "Axolume bude pokládat otázky podle vybraných slov, aby posílil vaši krátkodobou paměť.",
       "reviewStart": "Spustit opakování",
       "reviewChooseAudioCount": "Vyberte 1 z {count} zvukových ukázek",
       "reviewAudioSelectedHint":
@@ -8650,7 +8650,7 @@ class AppLocalizations {
       "reviewEndAction": "Ukončit opakování",
       "notificationStudyTitle": "Čas na učení! 📚",
       "notificationStudyBody":
-          "Věnujte pár minut opakování slovní zásoby s Leximonem.",
+          "Věnujte pár minut opakování slovní zásoby s Axolumeem.",
       "notificationChannelName": "Denní připomenutí učení",
       "notificationChannelDescription":
           "Připomenutí, která vám pomohou udržet pravidelný návyk učení slovní zásoby.",
@@ -8732,14 +8732,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Tento balíček momentálně není k dispozici.",
       "listeningPackUnlock": "Odemknout balíček poslechu",
       "notificationSaleBody":
-          "Využijte časově omezenou speciální nabídku Leximon Pro. Odemkněte všechny lekce a učte se bez reklam.",
+          "Využijte časově omezenou speciální nabídku Axolume Pro. Odemkněte všechny lekce a učte se bez reklam.",
       "notificationSaleChannelDescription":
-          "Upozornění na speciální nabídky a slevy od Leximonu.",
+          "Upozornění na speciální nabídky a slevy od Axolumeu.",
       "notificationSaleChannelName": "Nabídky a slevy",
       "notificationSaleTitle": "Speciální nabídka pro vás 🎉",
       "privacyPolicy": "Zásady ochrany osobních údajů",
       "privacyPolicyBody":
-          "Zjistěte, jak Leximon shromažďuje, používá a chrání vaše údaje.",
+          "Zjistěte, jak Axolume shromažďuje, používá a chrání vaše údaje.",
       "saleAnnualPlan": "Roční plán",
       "saleApproxMonthly": "Přibližně {price} měsíčně",
       "saleBenefitNoAds": "Učení bez reklam",
@@ -8808,7 +8808,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "Bezplatná zkušební verze na {days} dní",
       "termsOfUse": "Podmínky používání",
       "termsOfUseBody":
-          "Seznamte se s podmínkami, které upravují používání aplikace Leximon a jejích služeb.",
+          "Seznamte se s podmínkami, které upravují používání aplikace Axolume a jejích služeb.",
     },
     'da': {
       "navStudy": "Lær",
@@ -8884,7 +8884,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Start testen",
       "surveyIntroTitle": "Lad os tage en kort undersøgelse!",
       "surveyIntroSubtitle":
-          "Ud fra dine svar vælger Leximon den bedste læringsmetode til dig.",
+          "Ud fra dine svar vælger Axolume den bedste læringsmetode til dig.",
       "freeTrialGift": "Vi giver dig",
       "freeTrialDuration": "7 dage gratis",
       "freeTrialPurpose": "til at prøve vores app",
@@ -8916,7 +8916,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Dine fremskridt kunne ikke gemmes. Prøv igen.",
       "surveySaveTopicsError": "De valgte emner kunne ikke gemmes.",
-      "surveyContinueWithLeximon": "Fortsæt med Leximon",
+      "surveyContinueWithLeximon": "Fortsæt med Axolume",
       "surveyContinueJourney": "Fortsæt din rejse",
       "surveyGreat": "Godt!",
       "surveyStartLearning": "Lad os begynde at lære!",
@@ -8967,7 +8967,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Hvornår passer det dig bedst at lære engelsk?",
       "surveyReminderPrimary":
-          "Leximon minder dig om dine lektioner, så du ikke går glip af en dag.",
+          "Axolume minder dig om dine lektioner, så du ikke går glip af en dag.",
       "surveyReminderSecondary":
           "Vi har fundet ud af, at regelmæssig træning kan gøre din engelsklæring næsten ",
       "surveyReminderHighlight": "4,6× hurtigere!",
@@ -9140,7 +9140,7 @@ class AppLocalizations {
       "homeJourneyStart": "Start din rejse",
       "homeNoWordsTitle": "Dagens mission",
       "homeNoWordsBody":
-          "Du har ikke lært nogen ord endnu. Start med dit første emne, så Leximon kan skabe den rigtige læringssti til dig.",
+          "Du har ikke lært nogen ord endnu. Start med dit første emne, så Axolume kan skabe den rigtige læringssti til dig.",
       "hello": "Hej!",
       "homeMascotStart": "Lad os komme i gang!",
       "homeDayOneGoal": "MÅL FOR DAG 1",
@@ -9194,10 +9194,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Tilladelse til notifikationer kræves",
       "profileNotificationPermissionBody":
-          "Leximon skal have tilladelse til notifikationer for at minde dig om at lære hver dag. Aktivér det i appens indstillinger.",
+          "Axolume skal have tilladelse til notifikationer for at minde dig om at lære hver dag. Aktivér det i appens indstillinger.",
       "profileMicPermissionTitle": "Mikrofontilladelse kræves",
       "profileMicPermissionBody":
-          "Leximon skal have adgang til mikrofon og talegenkendelse til udtaletræning. Giv adgang i appens indstillinger.",
+          "Axolume skal have adgang til mikrofon og talegenkendelse til udtaletræning. Giv adgang i appens indstillinger.",
       "profileMicPermissionNeeded": "Mikrofontilladelse kræves",
       "profileReminderEnabledBody":
           "Hver aften kl. {time} · tryk for at ændre tidspunkt",
@@ -9214,7 +9214,7 @@ class AppLocalizations {
       "photoLibrary": "fotobibliotek",
       "permissionRequired": "Tilladelse kræves",
       "editProfileImagePermissionBody":
-          "Leximon har ikke adgang til dit/din {permission}. Du kan aktivere adgangen i appens indstillinger.",
+          "Axolume har ikke adgang til dit/din {permission}. Du kan aktivere adgangen i appens indstillinger.",
       "editProfileSaveError": "Din profil kunne ikke gemmes: {error}",
       "editProfileAvatar": "Profilbillede",
       "editProfileDetails": "Personlige oplysninger",
@@ -9330,7 +9330,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Vælg et niveau",
       "learningFilterLevelQuestion": "Hvor vil du gerne starte?",
       "learningFilterLevelDescription":
-          "Leximon tilpasser sværhedsgrad, ordgrupper og øvelser ud fra dit valg.",
+          "Axolume tilpasser sværhedsgrad, ordgrupper og øvelser ud fra dit valg.",
       "learningFilterBeginnerDescription":
           "Start med velkendte ord, der er lette at gå til og huske.",
       "learningFilterIntermediateDescription":
@@ -9353,7 +9353,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Vælg emner",
       "learningFilterTopicQuestion": "Hvilke emner passer til dig?",
       "learningFilterTopicDescription":
-          "Vælg flere emner, som Leximon skal prioritere i starten. Vi anbefaler 3–5 emner.",
+          "Vælg flere emner, som Axolume skal prioritere i starten. Vi anbefaler 3–5 emner.",
       "selectedTopicCount": "{count} emner valgt",
       "learningFilterSmallGroupHint": "Start med en lille gruppe først",
       "learningFilterTopicLoadError": "Emnelisten kunne ikke indlæses.",
@@ -9396,7 +9396,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Et par ord fra dette emne",
       "viewAll": "Vis alle",
       "topicNoWords": "Der er ingen ord i dette emne endnu.",
-      "leximonTip": "Leximon-tip",
+      "leximonTip": "Axolume-tip",
       "topicReviewTip":
           "Gentag ord, der er klar til repetition, før du lærer nye, for at få bedre resultater.",
       "topicReviewTitle": "Gentag • {topic}",
@@ -9415,7 +9415,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Når du har {count} ord, kan du begynde at gentage dem",
       "vocabularyCollection": "ORDFORRÅDSSAMLING",
-      "vocabularyCollectionTitle": "Leximon-bibliotek",
+      "vocabularyCollectionTitle": "Axolume-bibliotek",
       "practiseWords": "Øv ord",
       "reviewWordsAction": "Gentag",
       "reviewMasteredWords": "Gentag mestrede ord",
@@ -9775,7 +9775,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Læs ordene nedenfor grundigt, før du starter repetitionen.",
       "reviewIntroBody":
-          "Leximon stiller spørgsmål ud fra de ord, du har valgt, for at styrke din korttidshukommelse.",
+          "Axolume stiller spørgsmål ud fra de ord, du har valgt, for at styrke din korttidshukommelse.",
       "reviewStart": "Start repetition",
       "reviewChooseAudioCount": "Vælg 1 af {count} lydklip",
       "reviewAudioSelectedHint": "Lyd valgt — tryk på Vælg for at tjekke",
@@ -9861,7 +9861,7 @@ class AppLocalizations {
       "reviewEndAction": "Afslut repetition",
       "notificationStudyTitle": "Tid til at lære! 📚",
       "notificationStudyBody":
-          "Brug et par minutter på at gentage ordforråd med Leximon.",
+          "Brug et par minutter på at gentage ordforråd med Axolume.",
       "notificationChannelName": "Daglig læringspåmindelse",
       "notificationChannelDescription":
           "Påmindelser, der hjælper dig med at holde fast i din vane med at lære ordforråd.",
@@ -9942,14 +9942,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Denne pakke er ikke tilgængelig lige nu.",
       "listeningPackUnlock": "Lås lyttepakken op",
       "notificationSaleBody":
-          "Få et særligt tidsbegrænset tilbud på Leximon Pro. Lås alle lektioner op, og lær uden reklamer.",
+          "Få et særligt tidsbegrænset tilbud på Axolume Pro. Lås alle lektioner op, og lær uden reklamer.",
       "notificationSaleChannelDescription":
-          "Notifikationer om særlige tilbud og rabatter fra Leximon.",
+          "Notifikationer om særlige tilbud og rabatter fra Axolume.",
       "notificationSaleChannelName": "Tilbud og rabatter",
       "notificationSaleTitle": "Et særligt tilbud til dig 🎉",
       "privacyPolicy": "Privatlivspolitik",
       "privacyPolicyBody":
-          "Læs, hvordan Leximon indsamler, bruger og beskytter dine data.",
+          "Læs, hvordan Axolume indsamler, bruger og beskytter dine data.",
       "saleAnnualPlan": "Årsabonnement",
       "saleApproxMonthly": "Ca. {price} pr. måned",
       "saleBenefitNoAds": "Lær uden reklamer",
@@ -10016,7 +10016,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} dages gratis prøveperiode",
       "termsOfUse": "Brugsvilkår",
       "termsOfUseBody":
-          "Læs de vilkår, der gælder for din brug af Leximon-appen og dens tjenester.",
+          "Læs de vilkår, der gælder for din brug af Axolume-appen og dens tjenester.",
     },
     'es-ES': {
       "navStudy": "Aprender",
@@ -10093,7 +10093,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Empezar la prueba",
       "surveyIntroTitle": "¡Hagamos una breve encuesta!",
       "surveyIntroSubtitle":
-          "Según tus respuestas, Leximon elegirá el mejor método de aprendizaje para ti.",
+          "Según tus respuestas, Axolume elegirá el mejor método de aprendizaje para ti.",
       "freeTrialGift": "Te regalamos",
       "freeTrialDuration": "7 días gratis",
       "freeTrialPurpose": "para probar nuestra aplicación",
@@ -10125,7 +10125,7 @@ class AppLocalizations {
           "No se ha podido guardar tu progreso. Inténtalo de nuevo.",
       "surveySaveTopicsError":
           "No se han podido guardar los temas seleccionados.",
-      "surveyContinueWithLeximon": "Continuar con Leximon",
+      "surveyContinueWithLeximon": "Continuar con Axolume",
       "surveyContinueJourney": "Continuar tu camino",
       "surveyGreat": "¡Genial!",
       "surveyStartLearning": "¡Empecemos a aprender!",
@@ -10176,7 +10176,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "¿Qué hora te viene mejor para estudiar inglés?",
       "surveyReminderPrimary":
-          "Leximon te recordará tus lecciones para que no te saltes ningún día.",
+          "Axolume te recordará tus lecciones para que no te saltes ningún día.",
       "surveyReminderSecondary":
           "Hemos comprobado que practicar con regularidad puede hacer que aprendas inglés casi ",
       "surveyReminderHighlight": "¡4,6 veces más rápido!",
@@ -10355,7 +10355,7 @@ class AppLocalizations {
       "homeJourneyStart": "Empieza tu camino",
       "homeNoWordsTitle": "Misión de hoy",
       "homeNoWordsBody":
-          "Todavía no has aprendido ninguna palabra. Empieza con tu primer tema para que Leximon pueda crear la ruta adecuada para ti.",
+          "Todavía no has aprendido ninguna palabra. Empieza con tu primer tema para que Axolume pueda crear la ruta adecuada para ti.",
       "hello": "¡Hola!",
       "homeMascotStart": "¡Vamos a empezar!",
       "homeDayOneGoal": "OBJETIVO DEL DÍA 1",
@@ -10410,10 +10410,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Se necesita permiso para las notificaciones",
       "profileNotificationPermissionBody":
-          "Leximon necesita permiso para enviarte notificaciones y recordarte que estudies cada día. Actívalo en los ajustes de la aplicación.",
+          "Axolume necesita permiso para enviarte notificaciones y recordarte que estudies cada día. Actívalo en los ajustes de la aplicación.",
       "profileMicPermissionTitle": "Se necesita permiso para el micrófono",
       "profileMicPermissionBody":
-          "Leximon necesita acceso al micrófono y al reconocimiento de voz para practicar la pronunciación. Concede el permiso en los ajustes de la aplicación.",
+          "Axolume necesita acceso al micrófono y al reconocimiento de voz para practicar la pronunciación. Concede el permiso en los ajustes de la aplicación.",
       "profileMicPermissionNeeded": "Se necesita permiso para el micrófono",
       "profileReminderEnabledBody":
           "Cada tarde a las {time} · toca para cambiar la hora",
@@ -10430,7 +10430,7 @@ class AppLocalizations {
       "photoLibrary": "fototeca",
       "permissionRequired": "Permiso necesario",
       "editProfileImagePermissionBody":
-          "Leximon no tiene acceso a tu {permission}. Puedes activarlo en los ajustes de la aplicación.",
+          "Axolume no tiene acceso a tu {permission}. Puedes activarlo en los ajustes de la aplicación.",
       "editProfileSaveError": "No se ha podido guardar tu perfil: {error}",
       "editProfileAvatar": "Foto de perfil",
       "editProfileDetails": "Datos personales",
@@ -10555,7 +10555,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Elige un nivel",
       "learningFilterLevelQuestion": "¿Por dónde quieres empezar?",
       "learningFilterLevelDescription":
-          "Leximon ajustará la dificultad, los grupos de vocabulario y los retos de práctica según tu elección.",
+          "Axolume ajustará la dificultad, los grupos de vocabulario y los retos de práctica según tu elección.",
       "learningFilterBeginnerDescription":
           "Empieza con palabras conocidas, sencillas y fáciles de recordar.",
       "learningFilterIntermediateDescription":
@@ -10577,7 +10577,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Elegir temas",
       "learningFilterTopicQuestion": "¿Qué temas son adecuados para ti?",
       "learningFilterTopicDescription":
-          "Elige varios temas para que Leximon les dé prioridad al principio. Recomendamos entre 3 y 5 temas.",
+          "Elige varios temas para que Axolume les dé prioridad al principio. Recomendamos entre 3 y 5 temas.",
       "selectedTopicCount": "{count} temas seleccionados",
       "learningFilterSmallGroupHint": "Empieza primero con un grupo pequeño",
       "learningFilterTopicLoadError":
@@ -10624,7 +10624,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Algunas palabras de este tema",
       "viewAll": "Ver todo",
       "topicNoWords": "Todavía no hay palabras en este tema.",
-      "leximonTip": "Consejo de Leximon",
+      "leximonTip": "Consejo de Axolume",
       "topicReviewTip":
           "Repasa las palabras pendientes antes de aprender otras nuevas para obtener mejores resultados.",
       "topicReviewTitle": "Repaso • {topic}",
@@ -10643,7 +10643,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Cuando tengas {count} palabras, podrás empezar a repasarlas",
       "vocabularyCollection": "COLECCIÓN DE VOCABULARIO",
-      "vocabularyCollectionTitle": "Biblioteca de Leximon",
+      "vocabularyCollectionTitle": "Biblioteca de Axolume",
       "practiseWords": "Practicar palabras",
       "reviewWordsAction": "Repasar",
       "reviewMasteredWords": "Repasar palabras dominadas",
@@ -11018,7 +11018,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Lee con atención las palabras de abajo antes de empezar el repaso.",
       "reviewIntroBody":
-          "Leximon te hará preguntas basadas en las palabras que has seleccionado para reforzar tu memoria a corto plazo.",
+          "Axolume te hará preguntas basadas en las palabras que has seleccionado para reforzar tu memoria a corto plazo.",
       "reviewStart": "Empezar repaso",
       "reviewChooseAudioCount": "Elige 1 de {count} audios",
       "reviewAudioSelectedHint":
@@ -11106,7 +11106,7 @@ class AppLocalizations {
       "reviewEndAction": "Finalizar repaso",
       "notificationStudyTitle": "¡Hora de estudiar! 📚",
       "notificationStudyBody":
-          "Dedica unos minutos a repasar vocabulario con Leximon.",
+          "Dedica unos minutos a repasar vocabulario con Axolume.",
       "notificationChannelName": "Recordatorio diario de estudio",
       "notificationChannelDescription":
           "Recordatorios para ayudarte a mantener tu hábito de aprender vocabulario.",
@@ -11193,14 +11193,14 @@ class AppLocalizations {
           "Este paquete no está disponible en este momento.",
       "listeningPackUnlock": "Desbloquear paquete de comprensión auditiva",
       "notificationSaleBody":
-          "Aprovecha una oferta especial por tiempo limitado en Leximon Pro. Desbloquea todas las lecciones y aprende sin anuncios.",
+          "Aprovecha una oferta especial por tiempo limitado en Axolume Pro. Desbloquea todas las lecciones y aprende sin anuncios.",
       "notificationSaleChannelDescription":
-          "Notificaciones sobre ofertas especiales y descuentos de Leximon.",
+          "Notificaciones sobre ofertas especiales y descuentos de Axolume.",
       "notificationSaleChannelName": "Ofertas y descuentos",
       "notificationSaleTitle": "Una oferta especial para ti 🎉",
       "privacyPolicy": "Política de privacidad",
       "privacyPolicyBody":
-          "Descubre cómo Leximon recopila, utiliza y protege tus datos.",
+          "Descubre cómo Axolume recopila, utiliza y protege tus datos.",
       "saleAnnualPlan": "Plan anual",
       "saleApproxMonthly": "Aprox. {price} al mes",
       "saleBenefitNoAds": "Aprende sin anuncios",
@@ -11275,7 +11275,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} días de prueba gratuita",
       "termsOfUse": "Términos de uso",
       "termsOfUseBody":
-          "Consulta las condiciones que regulan el uso de la aplicación Leximon y sus servicios.",
+          "Consulta las condiciones que regulan el uso de la aplicación Axolume y sus servicios.",
     },
     'es-US': esUsTranslations,
     'fi': {
@@ -11353,7 +11353,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Aloita testi",
       "surveyIntroTitle": "Tehdään lyhyt kysely!",
       "surveyIntroSubtitle":
-          "Vastaustesi perusteella Leximon valitsee sinulle parhaan oppimistavan.",
+          "Vastaustesi perusteella Axolume valitsee sinulle parhaan oppimistavan.",
       "freeTrialGift": "Annamme sinulle",
       "freeTrialDuration": "7 päivää ilmaiseksi",
       "freeTrialPurpose": "sovelluksemme kokeilemiseen",
@@ -11383,7 +11383,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Edistymistäsi ei voitu tallentaa. Yritä uudelleen.",
       "surveySaveTopicsError": "Valittuja aiheita ei voitu tallentaa.",
-      "surveyContinueWithLeximon": "Jatka Leximonilla",
+      "surveyContinueWithLeximon": "Jatka Axolumeilla",
       "surveyContinueJourney": "Jatka matkaasi",
       "surveyGreat": "Hienoa!",
       "surveyStartLearning": "Aloitetaan oppiminen!",
@@ -11436,7 +11436,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Mihin aikaan sinun on kätevintä opiskella englantia?",
       "surveyReminderPrimary":
-          "Leximon muistuttaa sinua oppitunneistasi, jotta et jätä päivääkään väliin.",
+          "Axolume muistuttaa sinua oppitunneistasi, jotta et jätä päivääkään väliin.",
       "surveyReminderSecondary":
           "Olemme havainneet, että säännöllinen harjoittelu voi tehdä englannin oppimisesta lähes ",
       "surveyReminderHighlight": "4,6× nopeampaa!",
@@ -11609,7 +11609,7 @@ class AppLocalizations {
       "homeJourneyStart": "Aloita matkasi",
       "homeNoWordsTitle": "Tämän päivän tehtävä",
       "homeNoWordsBody":
-          "Et ole vielä oppinut yhtään sanaa. Aloita ensimmäisestä aiheestasi, jotta Leximon voi rakentaa sinulle sopivan polun.",
+          "Et ole vielä oppinut yhtään sanaa. Aloita ensimmäisestä aiheestasi, jotta Axolume voi rakentaa sinulle sopivan polun.",
       "hello": "Hei!",
       "homeMascotStart": "Aloitetaan!",
       "homeDayOneGoal": "PÄIVÄN 1 TAVOITE",
@@ -11663,10 +11663,10 @@ class AppLocalizations {
           "Muistutuksen aikaa ei voitu päivittää: {error}",
       "profileNotificationPermissionTitle": "Ilmoituslupa tarvitaan",
       "profileNotificationPermissionBody":
-          "Leximon tarvitsee ilmoitusluvan muistuttaakseen sinua opiskelusta joka päivä. Ota se käyttöön sovelluksen asetuksissa.",
+          "Axolume tarvitsee ilmoitusluvan muistuttaakseen sinua opiskelusta joka päivä. Ota se käyttöön sovelluksen asetuksissa.",
       "profileMicPermissionTitle": "Mikrofonilupa tarvitaan",
       "profileMicPermissionBody":
-          "Leximon tarvitsee mikrofonin ja puheentunnistuksen käyttöluvan ääntämisharjoittelua varten. Salli käyttö sovelluksen asetuksissa.",
+          "Axolume tarvitsee mikrofonin ja puheentunnistuksen käyttöluvan ääntämisharjoittelua varten. Salli käyttö sovelluksen asetuksissa.",
       "profileMicPermissionNeeded": "Mikrofonilupa tarvitaan",
       "profileReminderEnabledBody":
           "Joka ilta klo {time} · muuta aikaa napauttamalla",
@@ -11683,7 +11683,7 @@ class AppLocalizations {
       "photoLibrary": "kuvakirjasto",
       "permissionRequired": "Lupa tarvitaan",
       "editProfileImagePermissionBody":
-          "Leximonilla ei ole käyttöoikeutta: {permission}. Voit sallia sen sovelluksen asetuksissa.",
+          "Axolumeilla ei ole käyttöoikeutta: {permission}. Voit sallia sen sovelluksen asetuksissa.",
       "editProfileSaveError": "Profiiliasi ei voitu tallentaa: {error}",
       "editProfileAvatar": "Profiilikuva",
       "editProfileDetails": "Henkilötiedot",
@@ -11802,7 +11802,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Valitse taso",
       "learningFilterLevelQuestion": "Mistä haluaisit aloittaa?",
       "learningFilterLevelDescription":
-          "Leximon säätää vaikeustasoa, sanastoryhmiä ja harjoitushaasteita valintasi perusteella.",
+          "Axolume säätää vaikeustasoa, sanastoryhmiä ja harjoitushaasteita valintasi perusteella.",
       "learningFilterBeginnerDescription":
           "Aloita tutuilla sanoilla, jotka ovat helposti lähestyttäviä ja muistettavia.",
       "learningFilterIntermediateDescription":
@@ -11825,7 +11825,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Valitse aiheet",
       "learningFilterTopicQuestion": "Mitkä aiheet sopivat sinulle?",
       "learningFilterTopicDescription":
-          "Valitse useita aiheita, jotka Leximon asettaa alussa etusijalle. Suosittelemme 3–5 aihetta.",
+          "Valitse useita aiheita, jotka Axolume asettaa alussa etusijalle. Suosittelemme 3–5 aihetta.",
       "selectedTopicCount": "{count} aihetta valittu",
       "learningFilterSmallGroupHint": "Aloita ensin pienellä ryhmällä",
       "learningFilterTopicLoadError": "Aihelistaa ei voitu ladata.",
@@ -11870,7 +11870,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Muutama sana tästä aiheesta",
       "viewAll": "Näytä kaikki",
       "topicNoWords": "Tässä aiheessa ei ole vielä sanoja.",
-      "leximonTip": "Leximon-vinkki",
+      "leximonTip": "Axolume-vinkki",
       "topicReviewTip":
           "Kertaa erääntyneet sanat ennen uusien oppimista saadaksesi parempia tuloksia.",
       "topicReviewTitle": "Kertaus • {topic}",
@@ -11889,7 +11889,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Kun sinulla on {count} sanaa, voit aloittaa niiden kertaamisen",
       "vocabularyCollection": "SANASTOKOKOELMA",
-      "vocabularyCollectionTitle": "Leximon-kirjasto",
+      "vocabularyCollectionTitle": "Axolume-kirjasto",
       "practiseWords": "Harjoittele sanoja",
       "reviewWordsAction": "Kertaa",
       "reviewMasteredWords": "Kertaa hallitut sanat",
@@ -12255,7 +12255,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Lue alla olevat sanat huolellisesti ennen kertauksen aloittamista.",
       "reviewIntroBody":
-          "Leximon esittää valitsemiesi sanojen perusteella kysymyksiä lyhytkestoisen muistisi vahvistamiseksi.",
+          "Axolume esittää valitsemiesi sanojen perusteella kysymyksiä lyhytkestoisen muistisi vahvistamiseksi.",
       "reviewStart": "Aloita kertaus",
       "reviewChooseAudioCount": "Valitse 1 / {count} äänileikkeestä",
       "reviewAudioSelectedHint":
@@ -12341,7 +12341,7 @@ class AppLocalizations {
       "reviewEndAction": "Lopeta kertaus",
       "notificationStudyTitle": "Aika opiskella! 📚",
       "notificationStudyBody":
-          "Käytä muutama minuutti sanaston kertaamiseen Leximonilla.",
+          "Käytä muutama minuutti sanaston kertaamiseen Axolumeilla.",
       "notificationChannelName": "Päivittäinen opiskelumuistutus",
       "notificationChannelDescription":
           "Muistutukset auttavat sinua ylläpitämään sanastonoppimistapaasi.",
@@ -12424,14 +12424,14 @@ class AppLocalizations {
           "Tämä paketti ei ole tällä hetkellä saatavilla.",
       "listeningPackUnlock": "Avaa kuuntelupaketti",
       "notificationSaleBody":
-          "Hyödynnä Leximon Pron erikoistarjous rajoitetun ajan. Avaa kaikki oppitunnit ja opiskele ilman mainoksia.",
+          "Hyödynnä Axolume Pron erikoistarjous rajoitetun ajan. Avaa kaikki oppitunnit ja opiskele ilman mainoksia.",
       "notificationSaleChannelDescription":
-          "Ilmoitukset Leximonin erikoistarjouksista ja alennuksista.",
+          "Ilmoitukset Axolumein erikoistarjouksista ja alennuksista.",
       "notificationSaleChannelName": "Tarjoukset ja alennukset",
       "notificationSaleTitle": "Erikoistarjous sinulle 🎉",
       "privacyPolicy": "Tietosuojakäytäntö",
       "privacyPolicyBody":
-          "Lue, miten Leximon kerää, käyttää ja suojaa tietojasi.",
+          "Lue, miten Axolume kerää, käyttää ja suojaa tietojasi.",
       "saleAnnualPlan": "Vuositilaus",
       "saleApproxMonthly": "Noin {price} kuukaudessa",
       "saleBenefitNoAds": "Opiskele ilman mainoksia",
@@ -12502,7 +12502,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} päivän ilmainen kokeilu",
       "termsOfUse": "Käyttöehdot",
       "termsOfUseBody":
-          "Tutustu ehtoihin, jotka koskevat Leximon-sovelluksen ja sen palvelujen käyttöä.",
+          "Tutustu ehtoihin, jotka koskevat Axolume-sovelluksen ja sen palvelujen käyttöä.",
     },
     'fil': {
       "navStudy": "Matuto",
@@ -12583,7 +12583,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Simulan ang pagsusulit",
       "surveyIntroTitle": "Sagutan natin ang maikling survey!",
       "surveyIntroSubtitle":
-          "Batay sa iyong mga sagot, pipili ang Leximon ng pinakamainam na paraan ng pag-aaral para sa iyo.",
+          "Batay sa iyong mga sagot, pipili ang Axolume ng pinakamainam na paraan ng pag-aaral para sa iyo.",
       "freeTrialGift": "Ibinibigay namin sa iyo ang",
       "freeTrialDuration": "7 araw na libre",
       "freeTrialPurpose": "para masubukan ang aming app",
@@ -12615,7 +12615,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Hindi ma-save ang iyong progreso. Pakisubukang muli.",
       "surveySaveTopicsError": "Hindi ma-save ang mga napiling paksa.",
-      "surveyContinueWithLeximon": "Magpatuloy sa Leximon",
+      "surveyContinueWithLeximon": "Magpatuloy sa Axolume",
       "surveyContinueJourney": "Ipagpatuloy ang iyong paglalakbay",
       "surveyGreat": "Ayos!",
       "surveyStartLearning": "Magsimula na tayong matuto!",
@@ -12669,7 +12669,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Anong oras ang pinakaangkop para sa iyo na mag-aral ng English?",
       "surveyReminderPrimary":
-          "Paalalahanan ka ng Leximon tungkol sa iyong mga lesson para hindi ka makaligtaan ng kahit isang araw.",
+          "Paalalahanan ka ng Axolume tungkol sa iyong mga lesson para hindi ka makaligtaan ng kahit isang araw.",
       "surveyReminderSecondary":
           "Nalaman namin na ang regular na pagsasanay ay maaaring gawing halos ",
       "surveyReminderHighlight": "4.6× na mas mabilis!",
@@ -12853,7 +12853,7 @@ class AppLocalizations {
       "homeJourneyStart": "Simulan ang iyong paglalakbay",
       "homeNoWordsTitle": "Misyon ngayong araw",
       "homeNoWordsBody":
-          "Wala ka pang natutuhang salita. Magsimula sa una mong paksa para makabuo ang Leximon ng tamang landas para sa iyo.",
+          "Wala ka pang natutuhang salita. Magsimula sa una mong paksa para makabuo ang Axolume ng tamang landas para sa iyo.",
       "hello": "Kumusta!",
       "homeMascotStart": "Magsimula na tayo!",
       "homeDayOneGoal": "LAYUNIN SA ARAW 1",
@@ -12909,10 +12909,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Kailangan ang pahintulot para sa notification",
       "profileNotificationPermissionBody":
-          "Kailangan ng Leximon ng pahintulot para sa notification upang mapaalalahanan kang mag-aral araw-araw. I-enable ito sa mga setting ng app.",
+          "Kailangan ng Axolume ng pahintulot para sa notification upang mapaalalahanan kang mag-aral araw-araw. I-enable ito sa mga setting ng app.",
       "profileMicPermissionTitle": "Kailangan ang pahintulot sa mikropono",
       "profileMicPermissionBody":
-          "Kailangan ng Leximon ng pahintulot sa mikropono at speech recognition para sa pagsasanay sa pagbigkas. Magbigay ng access sa mga setting ng app.",
+          "Kailangan ng Axolume ng pahintulot sa mikropono at speech recognition para sa pagsasanay sa pagbigkas. Magbigay ng access sa mga setting ng app.",
       "profileMicPermissionNeeded": "Kailangan ang pahintulot sa mic",
       "profileReminderEnabledBody":
           "Tuwing gabi nang {time} · i-tap para baguhin ang oras",
@@ -12929,7 +12929,7 @@ class AppLocalizations {
       "photoLibrary": "library ng larawan",
       "permissionRequired": "Kailangan ang pahintulot",
       "editProfileImagePermissionBody":
-          "Walang access ang Leximon sa iyong {permission}. Maaari mo itong i-enable sa mga setting ng app.",
+          "Walang access ang Axolume sa iyong {permission}. Maaari mo itong i-enable sa mga setting ng app.",
       "editProfileSaveError": "Hindi ma-save ang iyong profile: {error}",
       "editProfileAvatar": "Larawan sa profile",
       "editProfileDetails": "Personal na detalye",
@@ -13051,7 +13051,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Pumili ng antas",
       "learningFilterLevelQuestion": "Saan mo gustong magsimula?",
       "learningFilterLevelDescription":
-          "Iaangkop ng Leximon ang hirap, mga grupo ng bokabularyo, at mga hamon sa pagsasanay batay sa iyong pinili.",
+          "Iaangkop ng Axolume ang hirap, mga grupo ng bokabularyo, at mga hamon sa pagsasanay batay sa iyong pinili.",
       "learningFilterBeginnerDescription":
           "Magsimula sa mga pamilyar na salitang madaling lapitan at tandaan.",
       "learningFilterIntermediateDescription":
@@ -13074,7 +13074,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Pumili ng mga paksa",
       "learningFilterTopicQuestion": "Aling mga paksa ang angkop para sa iyo?",
       "learningFilterTopicDescription":
-          "Pumili ng maraming paksa na uunahin ng Leximon sa simula. Inirerekomenda namin ang 3–5 paksa.",
+          "Pumili ng maraming paksa na uunahin ng Axolume sa simula. Inirerekomenda namin ang 3–5 paksa.",
       "selectedTopicCount": "{count} paksa ang napili",
       "learningFilterSmallGroupHint": "Magsimula muna sa maliit na grupo",
       "learningFilterTopicLoadError": "Hindi ma-load ang listahan ng paksa.",
@@ -13119,7 +13119,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Ilang salita mula sa paksang ito",
       "viewAll": "Tingnan lahat",
       "topicNoWords": "Wala pang salita sa paksang ito.",
-      "leximonTip": "Tip mula sa Leximon",
+      "leximonTip": "Tip mula sa Axolume",
       "topicReviewTip":
           "Balikan muna ang mga salitang nakatakdang i-review bago matuto ng bago para sa mas magandang resulta.",
       "topicReviewTitle": "Balikan • {topic}",
@@ -13139,7 +13139,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Kapag mayroon ka nang {count} salita, maaari mo nang simulang balikan ang mga ito",
       "vocabularyCollection": "KOLEKSYON NG BOKABULARYO",
-      "vocabularyCollectionTitle": "Aklatan ng Leximon",
+      "vocabularyCollectionTitle": "Aklatan ng Axolume",
       "practiseWords": "Magsanay ng mga salita",
       "reviewWordsAction": "Balikan",
       "reviewMasteredWords": "Balikan ang mga kabisadong salita",
@@ -13515,7 +13515,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Basahing mabuti ang mga salita sa ibaba bago simulan ang review.",
       "reviewIntroBody":
-          "Magtatanong ang Leximon batay sa mga salitang pinili mo para mapalakas ang iyong short-term memory.",
+          "Magtatanong ang Axolume batay sa mga salitang pinili mo para mapalakas ang iyong short-term memory.",
       "reviewStart": "Simulan ang review",
       "reviewChooseAudioCount": "Pumili ng 1 sa {count} audio clip",
       "reviewAudioSelectedHint":
@@ -13603,7 +13603,7 @@ class AppLocalizations {
       "reviewEndAction": "Tapusin ang review",
       "notificationStudyTitle": "Oras na para mag-aral! 📚",
       "notificationStudyBody":
-          "Maglaan ng ilang minuto sa pag-review ng bokabularyo kasama ang Leximon.",
+          "Maglaan ng ilang minuto sa pag-review ng bokabularyo kasama ang Axolume.",
       "notificationChannelName": "Araw-araw na paalala sa pag-aaral",
       "notificationChannelDescription":
           "Mga paalala para tulungan kang mapanatili ang habit sa pag-aaral ng bokabularyo.",
@@ -13689,14 +13689,14 @@ class AppLocalizations {
           "Hindi available ang package na ito sa ngayon.",
       "listeningPackUnlock": "I-unlock ang listening package",
       "notificationSaleBody":
-          "Samantalahin ang espesyal na limited-time offer para sa Leximon Pro. I-unlock ang lahat ng lessons at matuto nang walang ads.",
+          "Samantalahin ang espesyal na limited-time offer para sa Axolume Pro. I-unlock ang lahat ng lessons at matuto nang walang ads.",
       "notificationSaleChannelDescription":
-          "Mga notification tungkol sa special offers at discounts mula sa Leximon.",
+          "Mga notification tungkol sa special offers at discounts mula sa Axolume.",
       "notificationSaleChannelName": "Mga offer at discount",
       "notificationSaleTitle": "Espesyal na offer para sa iyo 🎉",
       "privacyPolicy": "Patakaran sa Privacy",
       "privacyPolicyBody":
-          "Alamin kung paano kinokolekta, ginagamit, at pinoprotektahan ng Leximon ang iyong data.",
+          "Alamin kung paano kinokolekta, ginagamit, at pinoprotektahan ng Axolume ang iyong data.",
       "saleAnnualPlan": "Taunang plan",
       "saleApproxMonthly": "Humigit-kumulang {price} bawat buwan",
       "saleBenefitNoAds": "Matuto nang walang ads",
@@ -13767,7 +13767,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} araw na libreng trial",
       "termsOfUse": "Mga Tuntunin ng Paggamit",
       "termsOfUseBody":
-          "Basahin ang mga tuntuning namamahala sa paggamit mo ng Leximon app at mga serbisyo nito.",
+          "Basahin ang mga tuntuning namamahala sa paggamit mo ng Axolume app at mga serbisyo nito.",
     },
     'hi': {
       "navStudy": "सीखें",
@@ -13846,7 +13846,7 @@ class AppLocalizations {
       "assessmentLevelStart": "टेस्ट शुरू करें",
       "surveyIntroTitle": "आइए एक छोटा सर्वे करें!",
       "surveyIntroSubtitle":
-          "आपके जवाबों के आधार पर Leximon आपके लिए सबसे अच्छा सीखने का तरीका चुनेगा।",
+          "आपके जवाबों के आधार पर Axolume आपके लिए सबसे अच्छा सीखने का तरीका चुनेगा।",
       "freeTrialGift": "हम आपको दे रहे हैं",
       "freeTrialDuration": "7 दिन मुफ़्त",
       "freeTrialPurpose": "हमारा ऐप आज़माने के लिए",
@@ -13876,7 +13876,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "आपकी प्रगति सहेजी नहीं जा सकी। कृपया फिर से कोशिश करें।",
       "surveySaveTopicsError": "चुने गए विषय सहेजे नहीं जा सके।",
-      "surveyContinueWithLeximon": "Leximon के साथ जारी रखें",
+      "surveyContinueWithLeximon": "Axolume के साथ जारी रखें",
       "surveyContinueJourney": "अपनी यात्रा जारी रखें",
       "surveyGreat": "बहुत बढ़िया!",
       "surveyStartLearning": "आइए सीखना शुरू करें!",
@@ -13925,7 +13925,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "अंग्रेज़ी पढ़ने के लिए आपके लिए कौन-सा समय सबसे सुविधाजनक है?",
       "surveyReminderPrimary":
-          "Leximon आपको पाठों की याद दिलाएगा ताकि आपका एक भी दिन न छूटे।",
+          "Axolume आपको पाठों की याद दिलाएगा ताकि आपका एक भी दिन न छूटे।",
       "surveyReminderSecondary":
           "हमने पाया है कि नियमित अभ्यास से अंग्रेज़ी सीखना लगभग ",
       "surveyReminderHighlight": "4.6× तेज़ हो सकता है!",
@@ -14099,7 +14099,7 @@ class AppLocalizations {
       "homeJourneyStart": "अपनी यात्रा शुरू करें",
       "homeNoWordsTitle": "आज का मिशन",
       "homeNoWordsBody":
-          "आपने अभी कोई शब्द नहीं सीखा है। अपने पहले विषय से शुरू करें ताकि Leximon आपके लिए सही मार्ग बना सके।",
+          "आपने अभी कोई शब्द नहीं सीखा है। अपने पहले विषय से शुरू करें ताकि Axolume आपके लिए सही मार्ग बना सके।",
       "hello": "नमस्ते!",
       "homeMascotStart": "आइए शुरू करें!",
       "homeDayOneGoal": "दिन 1 का लक्ष्य",
@@ -14152,10 +14152,10 @@ class AppLocalizations {
           "रिमाइंडर का समय अपडेट नहीं हो सका: {error}",
       "profileNotificationPermissionTitle": "सूचना अनुमति आवश्यक है",
       "profileNotificationPermissionBody":
-          "Leximon को हर दिन पढ़ाई की याद दिलाने के लिए सूचना अनुमति चाहिए। इसे ऐप सेटिंग्स में चालू करें।",
+          "Axolume को हर दिन पढ़ाई की याद दिलाने के लिए सूचना अनुमति चाहिए। इसे ऐप सेटिंग्स में चालू करें।",
       "profileMicPermissionTitle": "माइक्रोफ़ोन अनुमति आवश्यक है",
       "profileMicPermissionBody":
-          "उच्चारण अभ्यास के लिए Leximon को माइक्रोफ़ोन और वाक्-पहचान की अनुमति चाहिए। ऐप सेटिंग्स में पहुँच दें।",
+          "उच्चारण अभ्यास के लिए Axolume को माइक्रोफ़ोन और वाक्-पहचान की अनुमति चाहिए। ऐप सेटिंग्स में पहुँच दें।",
       "profileMicPermissionNeeded": "माइक की अनुमति चाहिए",
       "profileReminderEnabledBody":
           "हर शाम {time} पर · समय बदलने के लिए टैप करें",
@@ -14172,7 +14172,7 @@ class AppLocalizations {
       "photoLibrary": "फ़ोटो लाइब्रेरी",
       "permissionRequired": "अनुमति आवश्यक है",
       "editProfileImagePermissionBody":
-          "Leximon को आपके {permission} की पहुँच नहीं है। आप इसे ऐप सेटिंग्स में चालू कर सकते हैं।",
+          "Axolume को आपके {permission} की पहुँच नहीं है। आप इसे ऐप सेटिंग्स में चालू कर सकते हैं।",
       "editProfileSaveError": "आपकी प्रोफ़ाइल सहेजी नहीं जा सकी: {error}",
       "editProfileAvatar": "प्रोफ़ाइल तस्वीर",
       "editProfileDetails": "व्यक्तिगत विवरण",
@@ -14289,7 +14289,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "एक स्तर चुनें",
       "learningFilterLevelQuestion": "आप कहाँ से शुरू करना चाहते हैं?",
       "learningFilterLevelDescription":
-          "आपकी पसंद के आधार पर Leximon कठिनाई, शब्द समूह और अभ्यास चुनौतियाँ समायोजित करेगा।",
+          "आपकी पसंद के आधार पर Axolume कठिनाई, शब्द समूह और अभ्यास चुनौतियाँ समायोजित करेगा।",
       "learningFilterBeginnerDescription":
           "ऐसे परिचित शब्दों से शुरू करें जो आसान और याद रखने में सरल हों।",
       "learningFilterIntermediateDescription":
@@ -14311,7 +14311,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "विषय चुनें",
       "learningFilterTopicQuestion": "आपके लिए कौन-से विषय सही हैं?",
       "learningFilterTopicDescription":
-          "शुरुआत में Leximon किन विषयों को प्राथमिकता दे, इसके लिए कई विषय चुनें। हम 3–5 विषय सुझाते हैं।",
+          "शुरुआत में Axolume किन विषयों को प्राथमिकता दे, इसके लिए कई विषय चुनें। हम 3–5 विषय सुझाते हैं।",
       "selectedTopicCount": "{count} विषय चुने गए",
       "learningFilterSmallGroupHint": "पहले छोटे समूह से शुरू करें",
       "learningFilterTopicLoadError": "विषय सूची लोड नहीं हो सकी।",
@@ -14355,7 +14355,7 @@ class AppLocalizations {
       "topicPreviewTitle": "इस विषय के कुछ शब्द",
       "viewAll": "सभी देखें",
       "topicNoWords": "इस विषय में अभी कोई शब्द नहीं है।",
-      "leximonTip": "Leximon सुझाव",
+      "leximonTip": "Axolume सुझाव",
       "topicReviewTip":
           "बेहतर परिणामों के लिए नए शब्द सीखने से पहले निर्धारित शब्द दोहराएँ।",
       "topicReviewTitle": "दोहराव • {topic}",
@@ -14373,7 +14373,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "जब आपके पास {count} शब्द हो जाएँ, तो आप उनका दोहराव शुरू कर सकते हैं",
       "vocabularyCollection": "शब्दावली संग्रह",
-      "vocabularyCollectionTitle": "Leximon लाइब्रेरी",
+      "vocabularyCollectionTitle": "Axolume लाइब्रेरी",
       "practiseWords": "शब्दों का अभ्यास करें",
       "reviewWordsAction": "दोहराएँ",
       "reviewMasteredWords": "सीखे हुए शब्द दोहराएँ",
@@ -14731,7 +14731,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "दोहराव शुरू करने से पहले नीचे दिए शब्द ध्यान से पढ़ें।",
       "reviewIntroBody":
-          "आपकी अल्पकालिक स्मृति मजबूत करने के लिए Leximon आपके चुने शब्दों पर आधारित प्रश्न पूछेगा।",
+          "आपकी अल्पकालिक स्मृति मजबूत करने के लिए Axolume आपके चुने शब्दों पर आधारित प्रश्न पूछेगा।",
       "reviewStart": "दोहराव शुरू करें",
       "reviewChooseAudioCount": "{count} ऑडियो क्लिप में से 1 चुनें",
       "reviewAudioSelectedHint":
@@ -14816,7 +14816,7 @@ class AppLocalizations {
           "इस सत्र की आपकी प्रगति सहेजी नहीं जाएगी। आप इस शब्द सेट को कभी भी फिर से शुरू कर सकते हैं।",
       "reviewEndAction": "दोहराव समाप्त करें",
       "notificationStudyTitle": "पढ़ाई का समय! 📚",
-      "notificationStudyBody": "Leximon के साथ कुछ मिनट शब्दावली दोहराएँ।",
+      "notificationStudyBody": "Axolume के साथ कुछ मिनट शब्दावली दोहराएँ।",
       "notificationChannelName": "दैनिक अध्ययन रिमाइंडर",
       "notificationChannelDescription":
           "शब्दावली सीखने की आदत बनाए रखने में मदद करने वाले रिमाइंडर।",
@@ -14900,14 +14900,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "यह पैक अभी उपलब्ध नहीं है।",
       "listeningPackUnlock": "सुनने का अभ्यास पैक अनलॉक करें",
       "notificationSaleBody":
-          "सीमित समय के लिए Leximon Pro के विशेष ऑफ़र का लाभ उठाएँ। सभी पाठ अनलॉक करें और बिना विज्ञापनों के सीखें।",
+          "सीमित समय के लिए Axolume Pro के विशेष ऑफ़र का लाभ उठाएँ। सभी पाठ अनलॉक करें और बिना विज्ञापनों के सीखें।",
       "notificationSaleChannelDescription":
-          "Leximon के विशेष ऑफ़र और छूट की सूचनाएँ।",
+          "Axolume के विशेष ऑफ़र और छूट की सूचनाएँ।",
       "notificationSaleChannelName": "ऑफ़र और छूट",
       "notificationSaleTitle": "आपके लिए एक खास ऑफ़र 🎉",
       "privacyPolicy": "गोपनीयता नीति",
       "privacyPolicyBody":
-          "जानें कि Leximon आपका डेटा कैसे एकत्र, उपयोग और सुरक्षित करता है।",
+          "जानें कि Axolume आपका डेटा कैसे एकत्र, उपयोग और सुरक्षित करता है।",
       "saleAnnualPlan": "वार्षिक प्लान",
       "saleApproxMonthly": "लगभग {price} प्रति माह",
       "saleBenefitNoAds": "बिना विज्ञापनों के सीखें",
@@ -14980,7 +14980,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} दिन का मुफ़्त ट्रायल",
       "termsOfUse": "उपयोग की शर्तें",
       "termsOfUseBody":
-          "Leximon ऐप और उसकी सेवाओं के उपयोग पर लागू शर्तें पढ़ें।",
+          "Axolume ऐप और उसकी सेवाओं के उपयोग पर लागू शर्तें पढ़ें।",
     },
     'hu': {
       "navStudy": "Tanulás",
@@ -15058,7 +15058,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Teszt indítása",
       "surveyIntroTitle": "Töltsünk ki egy rövid kérdőívet!",
       "surveyIntroSubtitle":
-          "A válaszaid alapján a Leximon kiválasztja számodra a legjobb tanulási módszert.",
+          "A válaszaid alapján a Axolume kiválasztja számodra a legjobb tanulási módszert.",
       "freeTrialGift": "Ezt adjuk neked",
       "freeTrialDuration": "7 nap ingyen",
       "freeTrialPurpose": "az alkalmazás kipróbálásához",
@@ -15089,7 +15089,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Nem sikerült menteni a haladásodat. Próbáld újra.",
       "surveySaveTopicsError": "Nem sikerült menteni a kiválasztott témákat.",
-      "surveyContinueWithLeximon": "Folytatás a Leximonnal",
+      "surveyContinueWithLeximon": "Folytatás a Axolumenal",
       "surveyContinueJourney": "Folytasd az utadat",
       "surveyGreat": "Remek!",
       "surveyStartLearning": "Kezdjünk tanulni!",
@@ -15138,7 +15138,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Mikor a legkényelmesebb számodra angolt tanulni?",
       "surveyReminderPrimary":
-          "A Leximon emlékeztetni fog az óráidra, hogy egyetlen napot se hagyj ki.",
+          "A Axolume emlékeztetni fog az óráidra, hogy egyetlen napot se hagyj ki.",
       "surveyReminderSecondary":
           "Azt tapasztaltuk, hogy a rendszeres gyakorlás az angoltanulást közel ",
       "surveyReminderHighlight": "4,6× gyorsabbá teheti!",
@@ -15313,7 +15313,7 @@ class AppLocalizations {
       "homeJourneyStart": "Kezdd el az utadat",
       "homeNoWordsTitle": "Mai küldetés",
       "homeNoWordsBody":
-          "Még egyetlen szót sem tanultál meg. Kezdd az első témáddal, hogy a Leximon összeállíthassa számodra a megfelelő tanulási utat.",
+          "Még egyetlen szót sem tanultál meg. Kezdd az első témáddal, hogy a Axolume összeállíthassa számodra a megfelelő tanulási utat.",
       "hello": "Szia!",
       "homeMascotStart": "Kezdjünk hozzá!",
       "homeDayOneGoal": "1. NAPI CÉL",
@@ -15367,10 +15367,10 @@ class AppLocalizations {
           "Nem sikerült frissíteni az emlékeztető időpontját: {error}",
       "profileNotificationPermissionTitle": "Értesítési engedély szükséges",
       "profileNotificationPermissionBody":
-          "A Leximonnak értesítési engedélyre van szüksége, hogy minden nap emlékeztessen a tanulásra. Engedélyezd az alkalmazás beállításaiban.",
+          "A Axolumenak értesítési engedélyre van szüksége, hogy minden nap emlékeztessen a tanulásra. Engedélyezd az alkalmazás beállításaiban.",
       "profileMicPermissionTitle": "Mikrofonengedély szükséges",
       "profileMicPermissionBody":
-          "A Leximonnak mikrofon- és beszédfelismerési engedélyre van szüksége a kiejtés gyakorlásához. Engedélyezd a hozzáférést az alkalmazás beállításaiban.",
+          "A Axolumenak mikrofon- és beszédfelismerési engedélyre van szüksége a kiejtés gyakorlásához. Engedélyezd a hozzáférést az alkalmazás beállításaiban.",
       "profileMicPermissionNeeded": "Mikrofonengedély szükséges",
       "profileReminderEnabledBody":
           "Minden este {time}-kor · koppints az időpont módosításához",
@@ -15387,7 +15387,7 @@ class AppLocalizations {
       "photoLibrary": "fotókönyvtár",
       "permissionRequired": "Engedély szükséges",
       "editProfileImagePermissionBody":
-          "A Leximon nem fér hozzá ehhez: {permission}. Az alkalmazás beállításaiban engedélyezheted.",
+          "A Axolume nem fér hozzá ehhez: {permission}. Az alkalmazás beállításaiban engedélyezheted.",
       "editProfileSaveError": "Nem sikerült menteni a profilodat: {error}",
       "editProfileAvatar": "Profilkép",
       "editProfileDetails": "Személyes adatok",
@@ -15508,7 +15508,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Válassz szintet",
       "learningFilterLevelQuestion": "Hol szeretnéd kezdeni?",
       "learningFilterLevelDescription":
-          "A Leximon a választásod alapján igazítja a nehézséget, a szócsoportokat és a gyakorló kihívásokat.",
+          "A Axolume a választásod alapján igazítja a nehézséget, a szócsoportokat és a gyakorló kihívásokat.",
       "learningFilterBeginnerDescription":
           "Kezdj ismerős, könnyen megközelíthető és megjegyezhető szavakkal.",
       "learningFilterIntermediateDescription":
@@ -15530,7 +15530,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Válassz témákat",
       "learningFilterTopicQuestion": "Mely témák illenek hozzád?",
       "learningFilterTopicDescription":
-          "Válassz több témát, amelyeket a Leximon az elején előnyben részesít. 3–5 témát javaslunk.",
+          "Válassz több témát, amelyeket a Axolume az elején előnyben részesít. 3–5 témát javaslunk.",
       "selectedTopicCount": "{count} téma kiválasztva",
       "learningFilterSmallGroupHint": "Először kezdj egy kisebb csoporttal",
       "learningFilterTopicLoadError": "Nem sikerült betölteni a témalistát.",
@@ -15575,7 +15575,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Néhány szó ebből a témából",
       "viewAll": "Összes megtekintése",
       "topicNoWords": "Ebben a témában még nincsenek szavak.",
-      "leximonTip": "Leximon-tipp",
+      "leximonTip": "Axolume-tipp",
       "topicReviewTip":
           "A jobb eredményért ismételd át az esedékes szavakat, mielőtt újakat tanulsz.",
       "topicReviewTitle": "Ismétlés • {topic}",
@@ -15595,7 +15595,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Amint megvan {count} szó, elkezdheted az ismétlésüket",
       "vocabularyCollection": "SZÓKINCSGYŰJTEMÉNY",
-      "vocabularyCollectionTitle": "Leximon-könyvtár",
+      "vocabularyCollectionTitle": "Axolume-könyvtár",
       "practiseWords": "Szavak gyakorlása",
       "reviewWordsAction": "Ismétlés",
       "reviewMasteredWords": "Elsajátított szavak ismétlése",
@@ -15966,7 +15966,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Az ismétlés megkezdése előtt figyelmesen olvasd el az alábbi szavakat.",
       "reviewIntroBody":
-          "A Leximon a kiválasztott szavak alapján tesz fel kérdéseket, hogy erősítse a rövid távú memóriádat.",
+          "A Axolume a kiválasztott szavak alapján tesz fel kérdéseket, hogy erősítse a rövid távú memóriádat.",
       "reviewStart": "Ismétlés indítása",
       "reviewChooseAudioCount": "Válassz 1-et a(z) {count} hangfelvétel közül",
       "reviewAudioSelectedHint":
@@ -16054,7 +16054,7 @@ class AppLocalizations {
       "reviewEndAction": "Ismétlés befejezése",
       "notificationStudyTitle": "Ideje tanulni! 📚",
       "notificationStudyBody":
-          "Szánj néhány percet a szókincs ismétlésére a Leximonnal.",
+          "Szánj néhány percet a szókincs ismétlésére a Axolumenal.",
       "notificationChannelName": "Napi tanulási emlékeztető",
       "notificationChannelDescription":
           "Emlékeztetők, amelyek segítenek fenntartani a szókincstanulási szokásodat.",
@@ -16139,14 +16139,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Ez a csomag jelenleg nem érhető el.",
       "listeningPackUnlock": "Hallásértési csomag feloldása",
       "notificationSaleBody":
-          "Használd ki a Leximon Pro különleges, korlátozott ideig érvényes ajánlatát. Oldd fel az összes leckét, és tanulj reklámok nélkül.",
+          "Használd ki a Axolume Pro különleges, korlátozott ideig érvényes ajánlatát. Oldd fel az összes leckét, és tanulj reklámok nélkül.",
       "notificationSaleChannelDescription":
-          "Értesítések a Leximon különleges ajánlatairól és kedvezményeiről.",
+          "Értesítések a Axolume különleges ajánlatairól és kedvezményeiről.",
       "notificationSaleChannelName": "Ajánlatok és kedvezmények",
       "notificationSaleTitle": "Különleges ajánlat neked 🎉",
       "privacyPolicy": "Adatvédelmi irányelvek",
       "privacyPolicyBody":
-          "Tudd meg, hogyan gyűjti, használja és védi a Leximon az adataidat.",
+          "Tudd meg, hogyan gyűjti, használja és védi a Axolume az adataidat.",
       "saleAnnualPlan": "Éves csomag",
       "saleApproxMonthly": "Kb. {price} havonta",
       "saleBenefitNoAds": "Tanulás reklámok nélkül",
@@ -16219,7 +16219,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} napos ingyenes próbaidőszak",
       "termsOfUse": "Felhasználási feltételek",
       "termsOfUseBody":
-          "Olvasd el a Leximon alkalmazás és szolgáltatásai használatára vonatkozó feltételeket.",
+          "Olvasd el a Axolume alkalmazás és szolgáltatásai használatára vonatkozó feltételeket.",
     },
     'in': {
       "navStudy": "Belajar",
@@ -16296,7 +16296,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Mulai tes",
       "surveyIntroTitle": "Mari isi survei singkat!",
       "surveyIntroSubtitle":
-          "Berdasarkan jawaban Anda, Leximon akan memilih metode belajar terbaik untuk Anda.",
+          "Berdasarkan jawaban Anda, Axolume akan memilih metode belajar terbaik untuk Anda.",
       "freeTrialGift": "Kami memberi Anda",
       "freeTrialDuration": "Gratis 7 hari",
       "freeTrialPurpose": "untuk mencoba aplikasi kami",
@@ -16326,7 +16326,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Kemajuan Anda tidak dapat disimpan. Silakan coba lagi.",
       "surveySaveTopicsError": "Topik yang dipilih tidak dapat disimpan.",
-      "surveyContinueWithLeximon": "Lanjutkan dengan Leximon",
+      "surveyContinueWithLeximon": "Lanjutkan dengan Axolume",
       "surveyContinueJourney": "Lanjutkan perjalanan Anda",
       "surveyGreat": "Bagus!",
       "surveyStartLearning": "Mari mulai belajar!",
@@ -16383,7 +16383,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Kapan waktu yang paling nyaman bagi Anda untuk belajar bahasa Inggris?",
       "surveyReminderPrimary":
-          "Leximon akan mengingatkan Anda tentang pelajaran agar Anda tidak melewatkan satu hari pun.",
+          "Axolume akan mengingatkan Anda tentang pelajaran agar Anda tidak melewatkan satu hari pun.",
       "surveyReminderSecondary":
           "Kami menemukan bahwa latihan rutin dapat membuat belajar bahasa Inggris hampir ",
       "surveyReminderHighlight": "4,6× lebih cepat!",
@@ -16562,7 +16562,7 @@ class AppLocalizations {
       "homeJourneyStart": "Mulai perjalanan Anda",
       "homeNoWordsTitle": "Misi hari ini",
       "homeNoWordsBody":
-          "Anda belum mempelajari kata apa pun. Mulailah dengan topik pertama agar Leximon dapat membuat jalur yang tepat untuk Anda.",
+          "Anda belum mempelajari kata apa pun. Mulailah dengan topik pertama agar Axolume dapat membuat jalur yang tepat untuk Anda.",
       "hello": "Halo!",
       "homeMascotStart": "Mari mulai!",
       "homeDayOneGoal": "TARGET HARI 1",
@@ -16615,10 +16615,10 @@ class AppLocalizations {
           "Waktu pengingat tidak dapat diperbarui: {error}",
       "profileNotificationPermissionTitle": "Izin notifikasi diperlukan",
       "profileNotificationPermissionBody":
-          "Leximon memerlukan izin notifikasi untuk mengingatkan Anda belajar setiap hari. Aktifkan di pengaturan aplikasi.",
+          "Axolume memerlukan izin notifikasi untuk mengingatkan Anda belajar setiap hari. Aktifkan di pengaturan aplikasi.",
       "profileMicPermissionTitle": "Izin mikrofon diperlukan",
       "profileMicPermissionBody":
-          "Leximon memerlukan izin mikrofon dan pengenalan suara untuk latihan pelafalan. Berikan akses di pengaturan aplikasi.",
+          "Axolume memerlukan izin mikrofon dan pengenalan suara untuk latihan pelafalan. Berikan akses di pengaturan aplikasi.",
       "profileMicPermissionNeeded": "Izin mikrofon diperlukan",
       "profileReminderEnabledBody":
           "Setiap malam pukul {time} · ketuk untuk mengubah waktu",
@@ -16635,7 +16635,7 @@ class AppLocalizations {
       "photoLibrary": "pustaka foto",
       "permissionRequired": "Izin diperlukan",
       "editProfileImagePermissionBody":
-          "Leximon tidak memiliki akses ke {permission} Anda. Anda dapat mengaktifkannya di pengaturan aplikasi.",
+          "Axolume tidak memiliki akses ke {permission} Anda. Anda dapat mengaktifkannya di pengaturan aplikasi.",
       "editProfileSaveError": "Profil Anda tidak dapat disimpan: {error}",
       "editProfileAvatar": "Foto profil",
       "editProfileDetails": "Detail pribadi",
@@ -16754,7 +16754,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Pilih level",
       "learningFilterLevelQuestion": "Anda ingin mulai dari mana?",
       "learningFilterLevelDescription":
-          "Leximon akan menyesuaikan tingkat kesulitan, kelompok kosakata, dan tantangan latihan berdasarkan pilihan Anda.",
+          "Axolume akan menyesuaikan tingkat kesulitan, kelompok kosakata, dan tantangan latihan berdasarkan pilihan Anda.",
       "learningFilterBeginnerDescription":
           "Mulai dengan kata-kata yang familier, mudah dipahami, dan mudah diingat.",
       "learningFilterIntermediateDescription":
@@ -16777,7 +16777,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Pilih topik",
       "learningFilterTopicQuestion": "Topik mana yang cocok untuk Anda?",
       "learningFilterTopicDescription":
-          "Pilih beberapa topik untuk diprioritaskan Leximon di awal. Kami merekomendasikan 3–5 topik.",
+          "Pilih beberapa topik untuk diprioritaskan Axolume di awal. Kami merekomendasikan 3–5 topik.",
       "selectedTopicCount": "{count} topik dipilih",
       "learningFilterSmallGroupHint":
           "Mulai dengan kelompok kecil terlebih dahulu",
@@ -16823,7 +16823,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Beberapa kata dari topik ini",
       "viewAll": "Lihat semua",
       "topicNoWords": "Belum ada kata dalam topik ini.",
-      "leximonTip": "Tips Leximon",
+      "leximonTip": "Tips Axolume",
       "topicReviewTip":
           "Tinjau kata yang sudah waktunya diulang sebelum mempelajari kata baru untuk hasil yang lebih baik.",
       "topicReviewTitle": "Tinjau • {topic}",
@@ -16842,7 +16842,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Setelah memiliki {count} kata, Anda dapat mulai meninjaunya",
       "vocabularyCollection": "KOLEKSI KOSAKATA",
-      "vocabularyCollectionTitle": "Pustaka Leximon",
+      "vocabularyCollectionTitle": "Pustaka Axolume",
       "practiseWords": "Latih kata",
       "reviewWordsAction": "Tinjau",
       "reviewMasteredWords": "Tinjau kata yang sudah dikuasai",
@@ -17209,7 +17209,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Baca kata-kata di bawah dengan saksama sebelum memulai tinjauan.",
       "reviewIntroBody":
-          "Leximon akan mengajukan pertanyaan berdasarkan kata yang Anda pilih untuk memperkuat ingatan jangka pendek.",
+          "Axolume akan mengajukan pertanyaan berdasarkan kata yang Anda pilih untuk memperkuat ingatan jangka pendek.",
       "reviewStart": "Mulai tinjauan",
       "reviewChooseAudioCount": "Pilih 1 dari {count} klip audio",
       "reviewAudioSelectedHint": "Audio dipilih — ketuk Pilih untuk memeriksa",
@@ -17296,7 +17296,7 @@ class AppLocalizations {
       "reviewEndAction": "Akhiri tinjauan",
       "notificationStudyTitle": "Waktunya belajar! 📚",
       "notificationStudyBody":
-          "Luangkan beberapa menit untuk meninjau kosakata bersama Leximon.",
+          "Luangkan beberapa menit untuk meninjau kosakata bersama Axolume.",
       "notificationChannelName": "Pengingat belajar harian",
       "notificationChannelDescription":
           "Pengingat untuk membantu Anda mempertahankan kebiasaan belajar kosakata.",
@@ -17381,14 +17381,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Paket ini saat ini tidak tersedia.",
       "listeningPackUnlock": "Buka paket latihan mendengarkan",
       "notificationSaleBody":
-          "Nikmati penawaran khusus Leximon Pro dalam waktu terbatas. Buka semua pelajaran dan belajar tanpa iklan.",
+          "Nikmati penawaran khusus Axolume Pro dalam waktu terbatas. Buka semua pelajaran dan belajar tanpa iklan.",
       "notificationSaleChannelDescription":
-          "Notifikasi tentang penawaran khusus dan diskon dari Leximon.",
+          "Notifikasi tentang penawaran khusus dan diskon dari Axolume.",
       "notificationSaleChannelName": "Penawaran dan diskon",
       "notificationSaleTitle": "Penawaran khusus untuk Anda 🎉",
       "privacyPolicy": "Kebijakan Privasi",
       "privacyPolicyBody":
-          "Pelajari bagaimana Leximon mengumpulkan, menggunakan, dan melindungi data Anda.",
+          "Pelajari bagaimana Axolume mengumpulkan, menggunakan, dan melindungi data Anda.",
       "saleAnnualPlan": "Paket tahunan",
       "saleApproxMonthly": "Sekitar {price} per bulan",
       "saleBenefitNoAds": "Belajar tanpa iklan",
@@ -17459,7 +17459,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "Uji coba gratis {days} hari",
       "termsOfUse": "Ketentuan Penggunaan",
       "termsOfUseBody":
-          "Baca ketentuan yang mengatur penggunaan aplikasi Leximon dan layanannya.",
+          "Baca ketentuan yang mengatur penggunaan aplikasi Axolume dan layanannya.",
     },
     'it': {
       "navStudy": "Impara",
@@ -17539,7 +17539,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Inizia il test",
       "surveyIntroTitle": "Facciamo un breve sondaggio!",
       "surveyIntroSubtitle":
-          "In base alle tue risposte, Leximon sceglierà il metodo di apprendimento migliore per te.",
+          "In base alle tue risposte, Axolume sceglierà il metodo di apprendimento migliore per te.",
       "freeTrialGift": "Ti offriamo",
       "freeTrialDuration": "7 giorni gratis",
       "freeTrialPurpose": "per provare la nostra app",
@@ -17570,7 +17570,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Impossibile salvare i tuoi progressi. Riprova.",
       "surveySaveTopicsError": "Impossibile salvare gli argomenti selezionati.",
-      "surveyContinueWithLeximon": "Continua con Leximon",
+      "surveyContinueWithLeximon": "Continua con Axolume",
       "surveyContinueJourney": "Continua il tuo percorso",
       "surveyGreat": "Fantastico!",
       "surveyStartLearning": "Iniziamo a imparare!",
@@ -17623,7 +17623,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Qual è l’orario più comodo per te per studiare inglese?",
       "surveyReminderPrimary":
-          "Leximon ti ricorderà le tue lezioni così non perderai neanche un giorno.",
+          "Axolume ti ricorderà le tue lezioni così non perderai neanche un giorno.",
       "surveyReminderSecondary":
           "Abbiamo scoperto che la pratica regolare può rendere l’apprendimento dell’inglese quasi ",
       "surveyReminderHighlight": "4,6× più veloce!",
@@ -17801,7 +17801,7 @@ class AppLocalizations {
       "homeJourneyStart": "Inizia il tuo percorso",
       "homeNoWordsTitle": "Missione di oggi",
       "homeNoWordsBody":
-          "Non hai ancora imparato nessuna parola. Inizia dal tuo primo argomento così Leximon potrà creare il percorso giusto per te.",
+          "Non hai ancora imparato nessuna parola. Inizia dal tuo primo argomento così Axolume potrà creare il percorso giusto per te.",
       "hello": "Ciao!",
       "homeMascotStart": "Cominciamo!",
       "homeDayOneGoal": "OBIETTIVO GIORNO 1",
@@ -17857,10 +17857,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Autorizzazione alle notifiche richiesta",
       "profileNotificationPermissionBody":
-          "Leximon ha bisogno dell’autorizzazione alle notifiche per ricordarti di studiare ogni giorno. Attivala nelle impostazioni dell’app.",
+          "Axolume ha bisogno dell’autorizzazione alle notifiche per ricordarti di studiare ogni giorno. Attivala nelle impostazioni dell’app.",
       "profileMicPermissionTitle": "Autorizzazione al microfono richiesta",
       "profileMicPermissionBody":
-          "Leximon ha bisogno dell’autorizzazione al microfono e al riconoscimento vocale per gli esercizi di pronuncia. Concedi l’accesso nelle impostazioni dell’app.",
+          "Axolume ha bisogno dell’autorizzazione al microfono e al riconoscimento vocale per gli esercizi di pronuncia. Concedi l’accesso nelle impostazioni dell’app.",
       "profileMicPermissionNeeded": "Autorizzazione al microfono necessaria",
       "profileReminderEnabledBody":
           "Ogni sera alle {time} · tocca per cambiare orario",
@@ -17877,7 +17877,7 @@ class AppLocalizations {
       "photoLibrary": "libreria foto",
       "permissionRequired": "Autorizzazione richiesta",
       "editProfileImagePermissionBody":
-          "Leximon non ha accesso a {permission}. Puoi abilitarlo nelle impostazioni dell’app.",
+          "Axolume non ha accesso a {permission}. Puoi abilitarlo nelle impostazioni dell’app.",
       "editProfileSaveError": "Impossibile salvare il profilo: {error}",
       "editProfileAvatar": "Immagine del profilo",
       "editProfileDetails": "Dati personali",
@@ -17998,7 +17998,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Scegli un livello",
       "learningFilterLevelQuestion": "Da dove vorresti iniziare?",
       "learningFilterLevelDescription":
-          "Leximon regolerà la difficoltà, i gruppi di vocaboli e le sfide di esercizio in base alla tua scelta.",
+          "Axolume regolerà la difficoltà, i gruppi di vocaboli e le sfide di esercizio in base alla tua scelta.",
       "learningFilterBeginnerDescription":
           "Inizia con parole familiari, semplici da affrontare e facili da ricordare.",
       "learningFilterIntermediateDescription":
@@ -18020,7 +18020,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Scegli gli argomenti",
       "learningFilterTopicQuestion": "Quali argomenti fanno per te?",
       "learningFilterTopicDescription":
-          "Scegli più argomenti a cui Leximon darà priorità all’inizio. Consigliamo 3–5 argomenti.",
+          "Scegli più argomenti a cui Axolume darà priorità all’inizio. Consigliamo 3–5 argomenti.",
       "selectedTopicCount": "{count} argomenti selezionati",
       "learningFilterSmallGroupHint": "Inizia prima con un piccolo gruppo",
       "learningFilterTopicLoadError":
@@ -18066,7 +18066,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Alcune parole di questo argomento",
       "viewAll": "Visualizza tutto",
       "topicNoWords": "Non ci sono ancora parole in questo argomento.",
-      "leximonTip": "Suggerimento Leximon",
+      "leximonTip": "Suggerimento Axolume",
       "topicReviewTip":
           "Per risultati migliori, ripassa le parole in scadenza prima di impararne di nuove.",
       "topicReviewTitle": "Ripasso • {topic}",
@@ -18086,7 +18086,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Quando avrai {count} parole, potrai iniziare a ripassarle",
       "vocabularyCollection": "COLLEZIONE DI VOCABOLI",
-      "vocabularyCollectionTitle": "Libreria Leximon",
+      "vocabularyCollectionTitle": "Libreria Axolume",
       "practiseWords": "Esercitati con le parole",
       "reviewWordsAction": "Ripassa",
       "reviewMasteredWords": "Ripassa le parole padroneggiate",
@@ -18462,7 +18462,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Leggi attentamente le parole qui sotto prima di iniziare il ripasso.",
       "reviewIntroBody":
-          "Leximon farà domande basate sulle parole che hai selezionato per rafforzare la memoria a breve termine.",
+          "Axolume farà domande basate sulle parole che hai selezionato per rafforzare la memoria a breve termine.",
       "reviewStart": "Inizia il ripasso",
       "reviewChooseAudioCount": "Scegli 1 di {count} clip audio",
       "reviewAudioSelectedHint":
@@ -18550,7 +18550,7 @@ class AppLocalizations {
       "reviewEndAction": "Termina il ripasso",
       "notificationStudyTitle": "È ora di studiare! 📚",
       "notificationStudyBody":
-          "Dedica qualche minuto a ripassare il vocabolario con Leximon.",
+          "Dedica qualche minuto a ripassare il vocabolario con Axolume.",
       "notificationChannelName": "Promemoria di studio giornaliero",
       "notificationChannelDescription":
           "Promemoria per aiutarti a mantenere l’abitudine di studiare il vocabolario.",
@@ -18635,14 +18635,14 @@ class AppLocalizations {
           "Questo pacchetto non è attualmente disponibile.",
       "listeningPackUnlock": "Sblocca il pacchetto di ascolto",
       "notificationSaleBody":
-          "Approfitta dell'offerta speciale a tempo limitato per Leximon Pro. Sblocca tutte le lezioni e impara senza pubblicità.",
+          "Approfitta dell'offerta speciale a tempo limitato per Axolume Pro. Sblocca tutte le lezioni e impara senza pubblicità.",
       "notificationSaleChannelDescription":
-          "Notifiche su offerte speciali e sconti di Leximon.",
+          "Notifiche su offerte speciali e sconti di Axolume.",
       "notificationSaleChannelName": "Offerte e sconti",
       "notificationSaleTitle": "Un'offerta speciale per te 🎉",
       "privacyPolicy": "Informativa sulla privacy",
       "privacyPolicyBody":
-          "Scopri come Leximon raccoglie, utilizza e protegge i tuoi dati.",
+          "Scopri come Axolume raccoglie, utilizza e protegge i tuoi dati.",
       "saleAnnualPlan": "Piano annuale",
       "saleApproxMonthly": "Circa {price} al mese",
       "saleBenefitNoAds": "Impara senza pubblicità",
@@ -18716,7 +18716,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} giorni di prova gratuita",
       "termsOfUse": "Termini di utilizzo",
       "termsOfUseBody":
-          "Leggi i termini che regolano l'utilizzo dell'app Leximon e dei suoi servizi.",
+          "Leggi i termini che regolano l'utilizzo dell'app Axolume e dei suoi servizi.",
     },
     'iw': {
       "navStudy": "לימוד",
@@ -18789,7 +18789,7 @@ class AppLocalizations {
       "assessmentLevelStart": "התחלת המבחן",
       "surveyIntroTitle": "בואו נעשה סקר קצר!",
       "surveyIntroSubtitle":
-          "לפי התשובות שלכם, Leximon תבחר עבורכם את שיטת הלמידה המתאימה ביותר.",
+          "לפי התשובות שלכם, Axolume תבחר עבורכם את שיטת הלמידה המתאימה ביותר.",
       "freeTrialGift": "אנחנו מעניקים לכם",
       "freeTrialDuration": "7 ימים בחינם",
       "freeTrialPurpose": "כדי לנסות את האפליקציה שלנו",
@@ -18816,7 +18816,7 @@ class AppLocalizations {
       "subscriptionStart": "התחלת ניסיון בחינם והרשמה למנוי",
       "surveySaveProgressError": "לא ניתן לשמור את ההתקדמות. נסו שוב.",
       "surveySaveTopicsError": "לא ניתן לשמור את הנושאים שנבחרו.",
-      "surveyContinueWithLeximon": "המשך עם Leximon",
+      "surveyContinueWithLeximon": "המשך עם Axolume",
       "surveyContinueJourney": "המשך במסלול שלכם",
       "surveyGreat": "מצוין!",
       "surveyStartLearning": "בואו נתחיל ללמוד!",
@@ -18859,7 +18859,7 @@ class AppLocalizations {
       "surveyHabitHighlight": "להתקדם מהר יותר.",
       "surveyPreferredTimeQuestion": "מתי הכי נוח לכם ללמוד אנגלית?",
       "surveyReminderPrimary":
-          "Leximon תזכיר לכם על השיעורים כדי שלא תפספסו אף יום.",
+          "Axolume תזכיר לכם על השיעורים כדי שלא תפספסו אף יום.",
       "surveyReminderSecondary":
           "מצאנו שתרגול קבוע יכול להפוך את לימוד האנגלית לכמעט ",
       "surveyReminderHighlight": "מהיר פי 4.6!",
@@ -19022,7 +19022,7 @@ class AppLocalizations {
       "homeJourneyStart": "התחלת המסע",
       "homeNoWordsTitle": "המשימה של היום",
       "homeNoWordsBody":
-          "עדיין לא למדתם אף מילה. התחילו בנושא הראשון כדי ש-Leximon תוכל לבנות עבורכם את המסלול המתאים.",
+          "עדיין לא למדתם אף מילה. התחילו בנושא הראשון כדי ש-Axolume תוכל לבנות עבורכם את המסלול המתאים.",
       "hello": "שלום!",
       "homeMascotStart": "בואו נתחיל!",
       "homeDayOneGoal": "יעד ליום 1",
@@ -19074,10 +19074,10 @@ class AppLocalizations {
       "profileReminderUpdateError": "לא ניתן לעדכן את שעת התזכורת: {error}",
       "profileNotificationPermissionTitle": "נדרשת הרשאה להתראות",
       "profileNotificationPermissionBody":
-          "Leximon זקוקה להרשאה להתראות כדי להזכיר לכם ללמוד בכל יום. הפעילו אותה בהגדרות האפליקציה.",
+          "Axolume זקוקה להרשאה להתראות כדי להזכיר לכם ללמוד בכל יום. הפעילו אותה בהגדרות האפליקציה.",
       "profileMicPermissionTitle": "נדרשת הרשאה למיקרופון",
       "profileMicPermissionBody":
-          "Leximon זקוקה להרשאות למיקרופון ולזיהוי דיבור לצורך תרגול הגייה. העניקו גישה בהגדרות האפליקציה.",
+          "Axolume זקוקה להרשאות למיקרופון ולזיהוי דיבור לצורך תרגול הגייה. העניקו גישה בהגדרות האפליקציה.",
       "profileMicPermissionNeeded": "נדרשת הרשאת מיקרופון",
       "profileReminderEnabledBody": "בכל ערב בשעה {time} · הקישו לשינוי השעה",
       "profileReminderDisabledBody": "כבוי · הקישו להפעלה",
@@ -19093,7 +19093,7 @@ class AppLocalizations {
       "photoLibrary": "ספריית תמונות",
       "permissionRequired": "נדרשת הרשאה",
       "editProfileImagePermissionBody":
-          "ל-Leximon אין גישה ל-{permission} שלכם. ניתן להפעיל אותה בהגדרות האפליקציה.",
+          "ל-Axolume אין גישה ל-{permission} שלכם. ניתן להפעיל אותה בהגדרות האפליקציה.",
       "editProfileSaveError": "לא ניתן לשמור את הפרופיל: {error}",
       "editProfileAvatar": "תמונת פרופיל",
       "editProfileDetails": "פרטים אישיים",
@@ -19208,7 +19208,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "בחירת רמה",
       "learningFilterLevelQuestion": "מאיפה תרצו להתחיל?",
       "learningFilterLevelDescription":
-          "Leximon תתאים את רמת הקושי, קבוצות אוצר המילים ואתגרי התרגול לפי הבחירה שלכם.",
+          "Axolume תתאים את רמת הקושי, קבוצות אוצר המילים ואתגרי התרגול לפי הבחירה שלכם.",
       "learningFilterBeginnerDescription":
           "התחילו במילים מוכרות, נגישות וקלות לזכירה.",
       "learningFilterIntermediateDescription":
@@ -19230,7 +19230,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "בחירת נושאים",
       "learningFilterTopicQuestion": "אילו נושאים מתאימים לכם?",
       "learningFilterTopicDescription":
-          "בחרו כמה נושאים ש-Leximon תעדיף בהתחלה. מומלץ לבחור 3–5 נושאים.",
+          "בחרו כמה נושאים ש-Axolume תעדיף בהתחלה. מומלץ לבחור 3–5 נושאים.",
       "selectedTopicCount": "נבחרו {count} נושאים",
       "learningFilterSmallGroupHint": "התחילו קודם בקבוצה קטנה",
       "learningFilterTopicLoadError": "לא ניתן לטעון את רשימת הנושאים.",
@@ -19270,7 +19270,7 @@ class AppLocalizations {
       "topicPreviewTitle": "כמה מילים מהנושא הזה",
       "viewAll": "הצגת הכול",
       "topicNoWords": "עדיין אין מילים בנושא הזה.",
-      "leximonTip": "טיפ מ-Leximon",
+      "leximonTip": "טיפ מ-Axolume",
       "topicReviewTip":
           "כדאי לחזור על מילים שמועד החזרה עליהן הגיע לפני שלומדים מילים חדשות.",
       "topicReviewTitle": "חזרה • {topic}",
@@ -19287,7 +19287,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "לאחר שיהיו לכם {count} מילים, תוכלו להתחיל לחזור עליהן",
       "vocabularyCollection": "אוסף אוצר מילים",
-      "vocabularyCollectionTitle": "ספריית Leximon",
+      "vocabularyCollectionTitle": "ספריית Axolume",
       "practiseWords": "תרגול מילים",
       "reviewWordsAction": "חזרה",
       "reviewMasteredWords": "חזרה על מילים שנלמדו היטב",
@@ -19631,7 +19631,7 @@ class AppLocalizations {
       "reviewExitAction": "יציאה מהחזרה",
       "reviewIntroInstruction": "קראו היטב את המילים שלמטה לפני תחילת החזרה.",
       "reviewIntroBody":
-          "Leximon תשאל שאלות על סמך המילים שבחרתם כדי לחזק את הזיכרון לטווח קצר.",
+          "Axolume תשאל שאלות על סמך המילים שבחרתם כדי לחזק את הזיכרון לטווח קצר.",
       "reviewStart": "התחלת חזרה",
       "reviewChooseAudioCount": "בחרו קטע אודיו אחד מתוך {count}",
       "reviewAudioSelectedHint": "האודיו נבחר — הקישו על בחירה כדי לבדוק",
@@ -19713,7 +19713,7 @@ class AppLocalizations {
       "reviewEndAction": "סיום חזרה",
       "notificationStudyTitle": "הגיע הזמן ללמוד! 📚",
       "notificationStudyBody":
-          "הקדישו כמה דקות לחזרה על אוצר מילים עם Leximon.",
+          "הקדישו כמה דקות לחזרה על אוצר מילים עם Axolume.",
       "notificationChannelName": "תזכורת לימוד יומית",
       "notificationChannelDescription":
           "תזכורות שיעזרו לכם לשמור על הרגל קבוע של לימוד אוצר מילים.",
@@ -19793,14 +19793,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "החבילה הזו אינה זמינה כרגע.",
       "listeningPackUnlock": "פתיחת חבילת תרגול ההאזנה",
       "notificationSaleBody":
-          "נצל את ההצעה המיוחדת לזמן מוגבל של Leximon Pro. פתח את כל השיעורים ולמד ללא פרסומות.",
+          "נצל את ההצעה המיוחדת לזמן מוגבל של Axolume Pro. פתח את כל השיעורים ולמד ללא פרסומות.",
       "notificationSaleChannelDescription":
-          "התראות על מבצעים והנחות מיוחדים של Leximon.",
+          "התראות על מבצעים והנחות מיוחדים של Axolume.",
       "notificationSaleChannelName": "מבצעים והנחות",
       "notificationSaleTitle": "הצעה מיוחדת עבורך 🎉",
       "privacyPolicy": "מדיניות פרטיות",
       "privacyPolicyBody":
-          "למד כיצד Leximon אוספת, משתמשת ומגנה על הנתונים שלך.",
+          "למד כיצד Axolume אוספת, משתמשת ומגנה על הנתונים שלך.",
       "saleAnnualPlan": "תוכנית שנתית",
       "saleApproxMonthly": "כ-{price} לחודש",
       "saleBenefitNoAds": "לומדים ללא פרסומות",
@@ -19867,7 +19867,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} ימי ניסיון בחינם",
       "termsOfUse": "תנאי שימוש",
       "termsOfUseBody":
-          "קרא את התנאים המסדירים את השימוש באפליקציית Leximon ובשירותים שלה.",
+          "קרא את התנאים המסדירים את השימוש באפליקציית Axolume ובשירותים שלה.",
     },
     'ja': {
       "navStudy": "学習",
@@ -19934,7 +19934,7 @@ class AppLocalizations {
       "assessmentLevelFluent": "流暢に話せて、本を読み、 英語で映画も 見ることができる",
       "assessmentLevelStart": "テストを開始",
       "surveyIntroTitle": "短い アンケートに答えましょう！",
-      "surveyIntroSubtitle": "回答をもとにLeximonが 最適な学習方法を選びます。",
+      "surveyIntroSubtitle": "回答をもとにAxolumeが 最適な学習方法を選びます。",
       "freeTrialGift": "あなたにプレゼント",
       "freeTrialDuration": "7日間無料",
       "freeTrialPurpose": "アプリをお試しいただけます",
@@ -19961,7 +19961,7 @@ class AppLocalizations {
       "subscriptionStart": "無料トライアルを開始して 購読する",
       "surveySaveProgressError": "進捗を保存できませんでした。もう一度お試しください。",
       "surveySaveTopicsError": "選択したトピックを保存できませんでした。",
-      "surveyContinueWithLeximon": "Leximonで続ける",
+      "surveyContinueWithLeximon": "Axolumeで続ける",
       "surveyContinueJourney": "学習を続ける",
       "surveyGreat": "すばらしい！",
       "surveyStartLearning": "学習を始めましょう！",
@@ -20001,7 +20001,7 @@ class AppLocalizations {
       "surveyHabitDescription": "毎日決まった時間を確保すると、習慣が身につき、",
       "surveyHabitHighlight": "より早く上達できます。",
       "surveyPreferredTimeQuestion": "英語を勉強するのに一番都合のよい時間はいつですか？",
-      "surveyReminderPrimary": "Leximonがレッスンをお知らせするので、 毎日忘れずに学習できます。",
+      "surveyReminderPrimary": "Axolumeがレッスンをお知らせするので、 毎日忘れずに学習できます。",
       "surveyReminderSecondary": "継続的に練習すると、英語学習の速度が約",
       "surveyReminderHighlight": "4.6倍になります！",
       "surveyChallengeQuestion": "英語学習で一番難しいことは何ですか？",
@@ -20154,7 +20154,7 @@ class AppLocalizations {
       "homeJourneyStart": "学習を始める",
       "homeNoWordsTitle": "今日のミッション",
       "homeNoWordsBody":
-          "まだ単語を学んでいません。最初のトピックから始めると、Leximonがあなたに合った学習プランを作成します。",
+          "まだ単語を学んでいません。最初のトピックから始めると、Axolumeがあなたに合った学習プランを作成します。",
       "hello": "こんにちは！",
       "homeMascotStart": "始めましょう！",
       "homeDayOneGoal": "1日目の目標",
@@ -20206,7 +20206,7 @@ class AppLocalizations {
       "profileReminderUpdateError": "リマインダー時刻を更新できませんでした: {error}",
       "profileNotificationPermissionTitle": "通知の許可が必要です",
       "profileNotificationPermissionBody":
-          "毎日の学習をお知らせするため、Leximonには通知の許可が必要です。アプリ設定で有効にしてください。",
+          "毎日の学習をお知らせするため、Axolumeには通知の許可が必要です。アプリ設定で有効にしてください。",
       "profileMicPermissionTitle": "マイクの許可が必要です",
       "profileMicPermissionBody": "発音練習にはマイクと音声認識の許可が必要です。アプリ設定でアクセスを許可してください。",
       "profileMicPermissionNeeded": "マイクの許可が必要です",
@@ -20224,7 +20224,7 @@ class AppLocalizations {
       "photoLibrary": "写真ライブラリ",
       "permissionRequired": "許可が必要です",
       "editProfileImagePermissionBody":
-          "Leximonは{permission}にアクセスできません。アプリ設定で有効にできます。",
+          "Axolumeは{permission}にアクセスできません。アプリ設定で有効にできます。",
       "editProfileSaveError": "プロフィールを保存できませんでした: {error}",
       "editProfileAvatar": "プロフィール画像",
       "editProfileDetails": "個人情報",
@@ -20335,7 +20335,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "レベルを選択",
       "learningFilterLevelQuestion": "どこから始めますか？",
       "learningFilterLevelDescription":
-          "選択に応じて、Leximonが難易度、語彙グループ、練習チャレンジを調整します。",
+          "選択に応じて、Axolumeが難易度、語彙グループ、練習チャレンジを調整します。",
       "learningFilterBeginnerDescription": "親しみやすく覚えやすい単語から始めます。",
       "learningFilterIntermediateDescription": "実用的な場面や幅広いトピックで語彙を増やします。",
       "learningFilterAdvancedDescription": "難しい単語、微妙な意味、仕事で使う表現を身につけます。",
@@ -20353,7 +20353,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "トピックを選択",
       "learningFilterTopicQuestion": "あなたに合うトピックは？",
       "learningFilterTopicDescription":
-          "最初にLeximonが優先するトピックを複数選んでください。3～5個がおすすめです。",
+          "最初にAxolumeが優先するトピックを複数選んでください。3～5個がおすすめです。",
       "selectedTopicCount": "{count}トピック選択中",
       "learningFilterSmallGroupHint": "まずは少ない数から始めましょう",
       "learningFilterTopicLoadError": "トピック一覧を読み込めませんでした。",
@@ -20387,7 +20387,7 @@ class AppLocalizations {
       "topicPreviewTitle": "このトピックの単語を少し見る",
       "viewAll": "すべて表示",
       "topicNoWords": "このトピックにはまだ単語がありません。",
-      "leximonTip": "Leximonのヒント",
+      "leximonTip": "Axolumeのヒント",
       "topicReviewTip": "より良い結果のため、新しい単語を学ぶ前に期限が来た単語を復習しましょう。",
       "topicReviewTitle": "復習 • {topic}",
       "topicReviewOpenError": "復習セッションを開けませんでした。もう一度お試しください。",
@@ -20400,7 +20400,7 @@ class AppLocalizations {
       "available": "利用可能",
       "topicReviewRequirement": "{count}語学ぶと復習を開始できます",
       "vocabularyCollection": "語彙コレクション",
-      "vocabularyCollectionTitle": "Leximonライブラリ",
+      "vocabularyCollectionTitle": "Axolumeライブラリ",
       "practiseWords": "単語を練習",
       "reviewWordsAction": "復習",
       "reviewMasteredWords": "習得済み単語を復習",
@@ -20722,7 +20722,7 @@ class AppLocalizations {
       "reviewAudioOption": "音声 {letter}",
       "reviewExitAction": "復習を終了",
       "reviewIntroInstruction": "復習を始める前に、下の単語をよく読んでください。",
-      "reviewIntroBody": "短期記憶を強化するため、Leximonが選択した単語をもとに問題を出します。",
+      "reviewIntroBody": "短期記憶を強化するため、Axolumeが選択した単語をもとに問題を出します。",
       "reviewStart": "復習を開始",
       "reviewChooseAudioCount": "{count}個の音声から1つ選択",
       "reviewAudioSelectedHint": "音声を選択しました — 「選択」をタップして確認",
@@ -20792,7 +20792,7 @@ class AppLocalizations {
       "reviewEndBody": "このセッションの進捗は保存されません。この単語セットはいつでも最初からやり直せます。",
       "reviewEndAction": "復習を終了",
       "notificationStudyTitle": "学習の時間です！📚",
-      "notificationStudyBody": "Leximonで数分間、単語を復習しましょう。",
+      "notificationStudyBody": "Axolumeで数分間、単語を復習しましょう。",
       "notificationChannelName": "毎日の学習リマインダー",
       "notificationChannelDescription": "単語学習の習慣を続けるためのリマインダーです。",
       "sentenceTypeConstructor": "英語の文を作る",
@@ -20862,12 +20862,12 @@ class AppLocalizations {
       "listeningPackUnavailable": "このパックは現在利用できません。",
       "listeningPackUnlock": "リスニング練習パックをアンロック",
       "notificationSaleBody":
-          "期間限定のLeximon Pro特別オファーをご利用ください。すべてのレッスンをアンロックして、広告なしで学習できます。",
-      "notificationSaleChannelDescription": "Leximonの特別オファーや割引に関する通知です。",
+          "期間限定のAxolume Pro特別オファーをご利用ください。すべてのレッスンをアンロックして、広告なしで学習できます。",
+      "notificationSaleChannelDescription": "Axolumeの特別オファーや割引に関する通知です。",
       "notificationSaleChannelName": "オファーと割引",
       "notificationSaleTitle": "あなたへの特別オファー 🎉",
       "privacyPolicy": "プライバシーポリシー",
-      "privacyPolicyBody": "Leximonがあなたのデータをどのように収集、利用、保護するかをご確認ください。",
+      "privacyPolicyBody": "Axolumeがあなたのデータをどのように収集、利用、保護するかをご確認ください。",
       "saleAnnualPlan": "年間プラン",
       "saleApproxMonthly": "月額約{price}",
       "saleBenefitNoAds": "広告なしで学習",
@@ -20929,7 +20929,7 @@ class AppLocalizations {
       "subscriptionTerms": "利用規約",
       "subscriptionTrialOnly": "{days}日間の無料体験",
       "termsOfUse": "利用規約",
-      "termsOfUseBody": "Leximonアプリおよびそのサービスの利用に適用される規約をご確認ください。",
+      "termsOfUseBody": "Axolumeアプリおよびそのサービスの利用に適用される規約をご確認ください。",
     },
     'ko': {
       "navStudy": "학습",
@@ -20996,7 +20996,7 @@ class AppLocalizations {
       "assessmentLevelFluent": "유창하게 말하고 책을 읽으며, 영어로 영화를 볼 수 있어요",
       "assessmentLevelStart": "테스트 시작",
       "surveyIntroTitle": "간단한 설문을 해볼까요!",
-      "surveyIntroSubtitle": "답변을 바탕으로 Leximon이 가장 적합한 학습 방법을 선택해 드려요.",
+      "surveyIntroSubtitle": "답변을 바탕으로 Axolume이 가장 적합한 학습 방법을 선택해 드려요.",
       "freeTrialGift": "회원님께 드려요",
       "freeTrialDuration": "7일 무료",
       "freeTrialPurpose": "앱을 체험해 보세요",
@@ -21023,7 +21023,7 @@ class AppLocalizations {
       "subscriptionStart": "무료 체험 시작 및 구독",
       "surveySaveProgressError": "진행 상황을 저장할 수 없습니다. 다시 시도해 주세요.",
       "surveySaveTopicsError": "선택한 주제를 저장할 수 없습니다.",
-      "surveyContinueWithLeximon": "Leximon으로 계속",
+      "surveyContinueWithLeximon": "Axolume으로 계속",
       "surveyContinueJourney": "학습 여정 계속하기",
       "surveyGreat": "좋아요!",
       "surveyStartLearning": "학습을 시작해 볼까요!",
@@ -21063,7 +21063,7 @@ class AppLocalizations {
       "surveyHabitDescription": "매일 일정한 시간을 정해두면 습관을 만들고 ",
       "surveyHabitHighlight": "더 빠르게 성장할 수 있어요.",
       "surveyPreferredTimeQuestion": "영어 공부하기에 가장 편한 시간은 언제인가요?",
-      "surveyReminderPrimary": "Leximon이 학습 시간을 알려드려 하루도 놓치지 않도록 도와드려요.",
+      "surveyReminderPrimary": "Axolume이 학습 시간을 알려드려 하루도 놓치지 않도록 도와드려요.",
       "surveyReminderSecondary": "꾸준히 연습하면 영어 학습 속도가 거의 ",
       "surveyReminderHighlight": "4.6배 빨라질 수 있어요!",
       "surveyChallengeQuestion": "영어에서 가장 어려운 점은 무엇인가요?",
@@ -21217,7 +21217,7 @@ class AppLocalizations {
       "homeJourneyStart": "학습 여정 시작",
       "homeNoWordsTitle": "오늘의 미션",
       "homeNoWordsBody":
-          "아직 학습한 단어가 없습니다. 첫 주제부터 시작하면 Leximon이 알맞은 학습 경로를 만들어 드립니다.",
+          "아직 학습한 단어가 없습니다. 첫 주제부터 시작하면 Axolume이 알맞은 학습 경로를 만들어 드립니다.",
       "hello": "안녕하세요!",
       "homeMascotStart": "시작해 볼까요!",
       "homeDayOneGoal": "1일 차 목표",
@@ -21269,10 +21269,10 @@ class AppLocalizations {
       "profileReminderUpdateError": "알림 시간을 업데이트할 수 없습니다: {error}",
       "profileNotificationPermissionTitle": "알림 권한이 필요합니다",
       "profileNotificationPermissionBody":
-          "Leximon이 매일 학습 시간을 알려드리려면 알림 권한이 필요합니다. 앱 설정에서 허용해 주세요.",
+          "Axolume이 매일 학습 시간을 알려드리려면 알림 권한이 필요합니다. 앱 설정에서 허용해 주세요.",
       "profileMicPermissionTitle": "마이크 권한이 필요합니다",
       "profileMicPermissionBody":
-          "발음 연습을 위해 Leximon에 마이크 및 음성 인식 권한이 필요합니다. 앱 설정에서 권한을 허용해 주세요.",
+          "발음 연습을 위해 Axolume에 마이크 및 음성 인식 권한이 필요합니다. 앱 설정에서 권한을 허용해 주세요.",
       "profileMicPermissionNeeded": "마이크 권한 필요",
       "profileReminderEnabledBody": "매일 저녁 {time} · 탭하여 시간 변경",
       "profileReminderDisabledBody": "꺼짐 · 탭하여 켜기",
@@ -21288,7 +21288,7 @@ class AppLocalizations {
       "photoLibrary": "사진 보관함",
       "permissionRequired": "권한이 필요합니다",
       "editProfileImagePermissionBody":
-          "Leximon이 {permission}에 접근할 수 없습니다. 앱 설정에서 허용할 수 있습니다.",
+          "Axolume이 {permission}에 접근할 수 없습니다. 앱 설정에서 허용할 수 있습니다.",
       "editProfileSaveError": "프로필을 저장할 수 없습니다: {error}",
       "editProfileAvatar": "프로필 사진",
       "editProfileDetails": "개인 정보",
@@ -21399,7 +21399,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "레벨 선택",
       "learningFilterLevelQuestion": "어디서부터 시작하고 싶나요?",
       "learningFilterLevelDescription":
-          "선택한 수준에 따라 Leximon이 난이도, 어휘 그룹, 연습 문제를 조정합니다.",
+          "선택한 수준에 따라 Axolume이 난이도, 어휘 그룹, 연습 문제를 조정합니다.",
       "learningFilterBeginnerDescription": "익숙하고 부담 없이 기억하기 쉬운 단어부터 시작하세요.",
       "learningFilterIntermediateDescription": "실생활 상황과 다양한 주제를 통해 어휘를 넓혀보세요.",
       "learningFilterAdvancedDescription": "어려운 단어, 미묘한 의미, 직장 영어를 익혀보세요.",
@@ -21417,7 +21417,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "주제 선택",
       "learningFilterTopicQuestion": "어떤 주제가 나에게 맞을까요?",
       "learningFilterTopicDescription":
-          "처음에 Leximon이 우선할 주제를 여러 개 선택하세요. 3~5개를 추천합니다.",
+          "처음에 Axolume이 우선할 주제를 여러 개 선택하세요. 3~5개를 추천합니다.",
       "selectedTopicCount": "주제 {count}개 선택됨",
       "learningFilterSmallGroupHint": "먼저 작은 그룹부터 시작하세요",
       "learningFilterTopicLoadError": "주제 목록을 불러올 수 없습니다.",
@@ -21451,7 +21451,7 @@ class AppLocalizations {
       "topicPreviewTitle": "이 주제의 일부 단어",
       "viewAll": "전체 보기",
       "topicNoWords": "아직 이 주제에 단어가 없습니다.",
-      "leximonTip": "Leximon 팁",
+      "leximonTip": "Axolume 팁",
       "topicReviewTip": "더 좋은 결과를 위해 새 단어를 배우기 전에 복습 예정 단어를 먼저 복습하세요.",
       "topicReviewTitle": "복습 • {topic}",
       "topicReviewOpenError": "복습 세션을 열 수 없습니다. 다시 시도해 주세요.",
@@ -21464,7 +21464,7 @@ class AppLocalizations {
       "available": "준비됨",
       "topicReviewRequirement": "단어가 {count}개 모이면 복습을 시작할 수 있습니다",
       "vocabularyCollection": "단어 컬렉션",
-      "vocabularyCollectionTitle": "Leximon 라이브러리",
+      "vocabularyCollectionTitle": "Axolume 라이브러리",
       "practiseWords": "단어 연습",
       "reviewWordsAction": "복습",
       "reviewMasteredWords": "마스터한 단어 복습",
@@ -21787,7 +21787,7 @@ class AppLocalizations {
       "reviewAudioOption": "오디오 {letter}",
       "reviewExitAction": "복습 종료",
       "reviewIntroInstruction": "복습을 시작하기 전에 아래 단어를 주의 깊게 읽어보세요.",
-      "reviewIntroBody": "Leximon이 선택한 단어를 바탕으로 단기 기억을 강화하는 문제를 출제합니다.",
+      "reviewIntroBody": "Axolume이 선택한 단어를 바탕으로 단기 기억을 강화하는 문제를 출제합니다.",
       "reviewStart": "복습 시작",
       "reviewChooseAudioCount": "오디오 {count}개 중 1개 선택",
       "reviewAudioSelectedHint": "오디오 선택됨 — 선택을 탭해 확인하세요",
@@ -21859,7 +21859,7 @@ class AppLocalizations {
       "reviewEndBody": "이 세션의 진행 상황은 저장되지 않습니다. 이 단어 세트는 언제든 다시 시작할 수 있습니다.",
       "reviewEndAction": "복습 종료",
       "notificationStudyTitle": "공부할 시간이에요! 📚",
-      "notificationStudyBody": "Leximon과 함께 몇 분만 어휘를 복습해 보세요.",
+      "notificationStudyBody": "Axolume과 함께 몇 분만 어휘를 복습해 보세요.",
       "notificationChannelName": "매일 학습 알림",
       "notificationChannelDescription": "어휘 학습 습관을 유지할 수 있도록 도와주는 알림입니다.",
       "sentenceTypeConstructor": "영어 문장 만들기",
@@ -21931,12 +21931,12 @@ class AppLocalizations {
       "listeningPackUnavailable": "이 팩은 현재 이용할 수 없습니다.",
       "listeningPackUnlock": "듣기 연습 팩 잠금 해제",
       "notificationSaleBody":
-          "기간 한정 Leximon Pro 특별 혜택을 이용해 보세요. 모든 수업을 잠금 해제하고 광고 없이 학습하세요.",
-      "notificationSaleChannelDescription": "Leximon의 특별 혜택과 할인에 대한 알림입니다.",
+          "기간 한정 Axolume Pro 특별 혜택을 이용해 보세요. 모든 수업을 잠금 해제하고 광고 없이 학습하세요.",
+      "notificationSaleChannelDescription": "Axolume의 특별 혜택과 할인에 대한 알림입니다.",
       "notificationSaleChannelName": "혜택 및 할인",
       "notificationSaleTitle": "회원님을 위한 특별 혜택 🎉",
       "privacyPolicy": "개인정보 처리방침",
-      "privacyPolicyBody": "Leximon이 사용자의 데이터를 어떻게 수집, 사용 및 보호하는지 확인하세요.",
+      "privacyPolicyBody": "Axolume이 사용자의 데이터를 어떻게 수집, 사용 및 보호하는지 확인하세요.",
       "saleAnnualPlan": "연간 플랜",
       "saleApproxMonthly": "월 약 {price}",
       "saleBenefitNoAds": "광고 없이 학습",
@@ -21998,7 +21998,7 @@ class AppLocalizations {
       "subscriptionTerms": "이용약관",
       "subscriptionTrialOnly": "{days}일 무료 체험",
       "termsOfUse": "이용약관",
-      "termsOfUseBody": "Leximon 앱 및 서비스 이용에 적용되는 약관을 확인하세요.",
+      "termsOfUseBody": "Axolume 앱 및 서비스 이용에 적용되는 약관을 확인하세요.",
     },
     'ms': {
       "navStudy": "Belajar",
@@ -22078,7 +22078,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Mulakan ujian",
       "surveyIntroTitle": "Mari jawab soal selidik ringkas!",
       "surveyIntroSubtitle":
-          "Berdasarkan jawapan anda, Leximon akan memilih kaedah pembelajaran terbaik untuk anda.",
+          "Berdasarkan jawapan anda, Axolume akan memilih kaedah pembelajaran terbaik untuk anda.",
       "freeTrialGift": "Kami memberi anda",
       "freeTrialDuration": "Percuma 7 hari",
       "freeTrialPurpose": "untuk mencuba aplikasi kami",
@@ -22108,7 +22108,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Kemajuan anda tidak dapat disimpan. Sila cuba lagi.",
       "surveySaveTopicsError": "Topik yang dipilih tidak dapat disimpan.",
-      "surveyContinueWithLeximon": "Teruskan dengan Leximon",
+      "surveyContinueWithLeximon": "Teruskan dengan Axolume",
       "surveyContinueJourney": "Teruskan perjalanan anda",
       "surveyGreat": "Hebat!",
       "surveyStartLearning": "Mari mula belajar!",
@@ -22164,7 +22164,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Bilakah masa yang paling sesuai untuk anda belajar bahasa Inggeris?",
       "surveyReminderPrimary":
-          "Leximon akan mengingatkan anda tentang pelajaran supaya anda tidak terlepas satu hari pun.",
+          "Axolume akan mengingatkan anda tentang pelajaran supaya anda tidak terlepas satu hari pun.",
       "surveyReminderSecondary":
           "Kami mendapati latihan tetap boleh menjadikan pembelajaran bahasa Inggeris hampir ",
       "surveyReminderHighlight": "4,6× lebih cepat!",
@@ -22351,7 +22351,7 @@ class AppLocalizations {
       "homeJourneyStart": "Mula perjalanan anda",
       "homeNoWordsTitle": "Misi hari ini",
       "homeNoWordsBody":
-          "Anda belum mempelajari perkataan apa pun. Mulalah dengan topik pertama supaya Leximon dapat membuat laluan yang tepat untuk anda.",
+          "Anda belum mempelajari perkataan apa pun. Mulalah dengan topik pertama supaya Axolume dapat membuat laluan yang tepat untuk anda.",
       "hello": "Helo!",
       "homeMascotStart": "Mari mula!",
       "homeDayOneGoal": "SASARAN HARI 1",
@@ -22406,10 +22406,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Kebenaran pemberitahuan diperlukan",
       "profileNotificationPermissionBody":
-          "Leximon memerlukan kebenaran pemberitahuan untuk mengingatkan anda belajar setiap hari. Aktifkan di tetapan aplikasi.",
+          "Axolume memerlukan kebenaran pemberitahuan untuk mengingatkan anda belajar setiap hari. Aktifkan di tetapan aplikasi.",
       "profileMicPermissionTitle": "Kebenaran mikrofon diperlukan",
       "profileMicPermissionBody":
-          "Leximon memerlukan kebenaran mikrofon dan pengecaman suara untuk latihan sebutan. Berikan akses di tetapan aplikasi.",
+          "Axolume memerlukan kebenaran mikrofon dan pengecaman suara untuk latihan sebutan. Berikan akses di tetapan aplikasi.",
       "profileMicPermissionNeeded": "Kebenaran mikrofon diperlukan",
       "profileReminderEnabledBody":
           "Setiap malam pada {time} · tekan untuk menukar masa",
@@ -22426,7 +22426,7 @@ class AppLocalizations {
       "photoLibrary": "pustaka foto",
       "permissionRequired": "Kebenaran diperlukan",
       "editProfileImagePermissionBody":
-          "Leximon tidak mempunyai akses kepada {permission} anda. Anda boleh mengaktifkannya dalam tetapan aplikasi.",
+          "Axolume tidak mempunyai akses kepada {permission} anda. Anda boleh mengaktifkannya dalam tetapan aplikasi.",
       "editProfileSaveError": "Profil anda tidak dapat disimpan: {error}",
       "editProfileAvatar": "Foto profil",
       "editProfileDetails": "Butiran pribadi",
@@ -22546,7 +22546,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Pilih tahap",
       "learningFilterLevelQuestion": "Di manakah anda mahu bermula?",
       "learningFilterLevelDescription":
-          "Leximon akan menyesuaikan tahap kesukaran, kumpulan kosa kata dan cabaran latihan berdasarkan pilihan anda.",
+          "Axolume akan menyesuaikan tahap kesukaran, kumpulan kosa kata dan cabaran latihan berdasarkan pilihan anda.",
       "learningFilterBeginnerDescription":
           "Mula dengan perkataan yang biasa, mudah dipahami, dan mudah diingat.",
       "learningFilterIntermediateDescription":
@@ -22569,7 +22569,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Pilih topik",
       "learningFilterTopicQuestion": "Topik mana yang sesuai untuk anda?",
       "learningFilterTopicDescription":
-          "Pilih beberapa topik untuk diutamakan Leximon di awal. Kami mengesyorkan 3–5 topik.",
+          "Pilih beberapa topik untuk diutamakan Axolume di awal. Kami mengesyorkan 3–5 topik.",
       "selectedTopicCount": "{count} topik dipilih",
       "learningFilterSmallGroupHint":
           "Mula dengan kumpulan kecil terlebih dahulu",
@@ -22616,7 +22616,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Beberapa perkataan dari topik ini",
       "viewAll": "Lihat semua",
       "topicNoWords": "Belum ada perkataan dalam topik ini.",
-      "leximonTip": "Petua Leximon",
+      "leximonTip": "Petua Axolume",
       "topicReviewTip":
           "Ulang kaji perkataan yang sudah masanya diulang sebelum mempelajari perkataan baharu untuk hasil yang lebih baik.",
       "topicReviewTitle": "Ulang kaji • {topic}",
@@ -22635,7 +22635,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Selepas mempunyai {count} perkataan, anda dapat mula meninjaunya",
       "vocabularyCollection": "KOLEKSI KOSA KATA",
-      "vocabularyCollectionTitle": "Pustaka Leximon",
+      "vocabularyCollectionTitle": "Pustaka Axolume",
       "practiseWords": "Latih perkataan",
       "reviewWordsAction": "Ulang kaji",
       "reviewMasteredWords": "Ulang kaji perkataan yang sudah dikuasai",
@@ -23004,7 +23004,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Baca perkataan di bawah dengan teliti sebelum memulakan ulang kaji.",
       "reviewIntroBody":
-          "Leximon akan mengemukakan soalan berdasarkan perkataan yang anda pilih untuk mengukuhkan ingatan jangka pendek.",
+          "Axolume akan mengemukakan soalan berdasarkan perkataan yang anda pilih untuk mengukuhkan ingatan jangka pendek.",
       "reviewStart": "Mulakan ulang kaji",
       "reviewChooseAudioCount": "Pilih 1 dari {count} klip audio",
       "reviewAudioSelectedHint": "Audio dipilih — tekan Pilih untuk menyemak",
@@ -23091,7 +23091,7 @@ class AppLocalizations {
       "reviewEndAction": "Tamatkan ulang kaji",
       "notificationStudyTitle": "Masa untuk belajar! 📚",
       "notificationStudyBody":
-          "Luangkan beberapa minit untuk mengulang kaji kosa kata bersama Leximon.",
+          "Luangkan beberapa minit untuk mengulang kaji kosa kata bersama Axolume.",
       "notificationChannelName": "Peringatan belajar harian",
       "notificationChannelDescription":
           "Peringatan untuk membantu anda mempertahankan tabiat belajar kosa kata.",
@@ -23176,14 +23176,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Pakej ini tidak tersedia buat masa ini.",
       "listeningPackUnlock": "Buka kunci pakej latihan mendengar",
       "notificationSaleBody":
-          "Nikmati tawaran istimewa Leximon Pro untuk masa terhad. Buka kunci semua pelajaran dan belajar tanpa iklan.",
+          "Nikmati tawaran istimewa Axolume Pro untuk masa terhad. Buka kunci semua pelajaran dan belajar tanpa iklan.",
       "notificationSaleChannelDescription":
-          "Pemberitahuan tentang tawaran istimewa dan diskaun daripada Leximon.",
+          "Pemberitahuan tentang tawaran istimewa dan diskaun daripada Axolume.",
       "notificationSaleChannelName": "Tawaran dan diskaun",
       "notificationSaleTitle": "Tawaran istimewa untuk anda 🎉",
       "privacyPolicy": "Dasar Privasi",
       "privacyPolicyBody":
-          "Ketahui cara Leximon mengumpul, menggunakan dan melindungi data anda.",
+          "Ketahui cara Axolume mengumpul, menggunakan dan melindungi data anda.",
       "saleAnnualPlan": "Pelan tahunan",
       "saleApproxMonthly": "Kira-kira {price} sebulan",
       "saleBenefitNoAds": "Belajar tanpa iklan",
@@ -23257,7 +23257,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "Percubaan percuma selama {days} hari",
       "termsOfUse": "Terma Penggunaan",
       "termsOfUseBody":
-          "Baca terma yang mengawal penggunaan aplikasi Leximon dan perkhidmatannya.",
+          "Baca terma yang mengawal penggunaan aplikasi Axolume dan perkhidmatannya.",
     },
     'nb': {
       "navStudy": "Lær",
@@ -23334,7 +23334,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Start testen",
       "surveyIntroTitle": "La oss ta en kort undersøkelse!",
       "surveyIntroSubtitle":
-          "Basert på svarene dine velger Leximon den beste læringsmetoden for deg.",
+          "Basert på svarene dine velger Axolume den beste læringsmetoden for deg.",
       "freeTrialGift": "Vi gir deg",
       "freeTrialDuration": "7 dager gratis",
       "freeTrialPurpose": "for å prøve appen vår",
@@ -23364,7 +23364,7 @@ class AppLocalizations {
       "subscriptionStart": "Start gratis prøveperiode og abonner",
       "surveySaveProgressError": "Dine fremgang kunne ikke lagres. Prøv igjen.",
       "surveySaveTopicsError": "De valgte temaer kunne ikke lagres.",
-      "surveyContinueWithLeximon": "Fortsett med Leximon",
+      "surveyContinueWithLeximon": "Fortsett med Axolume",
       "surveyContinueJourney": "Fortsett din reise",
       "surveyGreat": "Bra!",
       "surveyStartLearning": "La oss begynne å lære!",
@@ -23415,7 +23415,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Når passer det best for deg å studere engelsk?",
       "surveyReminderPrimary":
-          "Leximon minner deg på leksjonene dine slik at du ikke går glipp av en dag.",
+          "Axolume minner deg på leksjonene dine slik at du ikke går glipp av en dag.",
       "surveyReminderSecondary":
           "Vi har funnet ut at regelmessig øving kan gjøre engelsklæring nesten ",
       "surveyReminderHighlight": "4,6× raskere!",
@@ -23588,7 +23588,7 @@ class AppLocalizations {
       "homeJourneyStart": "Start din reise",
       "homeNoWordsTitle": "Dagens mission",
       "homeNoWordsBody":
-          "Du har ikke lært noen ord ennå. Start med ditt første tema, så Leximon kan skabe den riktige læringssti til deg.",
+          "Du har ikke lært noen ord ennå. Start med ditt første tema, så Axolume kan skabe den riktige læringssti til deg.",
       "hello": "Hei!",
       "homeMascotStart": "La oss komme i gang!",
       "homeDayOneGoal": "MÅL FOR DAG 1",
@@ -23641,10 +23641,10 @@ class AppLocalizations {
           "Tidspunktet for påminnelsen kunne ikke opdateres: {error}",
       "profileNotificationPermissionTitle": "Varslingstillatelse kreves",
       "profileNotificationPermissionBody":
-          "Leximon trenger varslingstillatelse for å minne deg på å lære hver dag. Aktiver den i appinnstillingene.",
+          "Axolume trenger varslingstillatelse for å minne deg på å lære hver dag. Aktiver den i appinnstillingene.",
       "profileMicPermissionTitle": "Mikrofontillatelse kreves",
       "profileMicPermissionBody":
-          "Leximon skal ha tilgang til mikrofon og talegjenkjenning til uttaletrening. Gi tilgang i appens innstillinger.",
+          "Axolume skal ha tilgang til mikrofon og talegjenkjenning til uttaletrening. Gi tilgang i appens innstillinger.",
       "profileMicPermissionNeeded": "Mikrofontillatelse kreves",
       "profileReminderEnabledBody":
           "Hver aften kl. {time} · trykk for å endre tidspunkt",
@@ -23661,7 +23661,7 @@ class AppLocalizations {
       "photoLibrary": "bildebibliotek",
       "permissionRequired": "Tillatelse kreves",
       "editProfileImagePermissionBody":
-          "Leximon har ikke tilgang til dit/din {permission}. Du kan aktivere tilgangen i appens innstillinger.",
+          "Axolume har ikke tilgang til dit/din {permission}. Du kan aktivere tilgangen i appens innstillinger.",
       "editProfileSaveError": "Din profil kunne ikke lagres: {error}",
       "editProfileAvatar": "Profilbilde",
       "editProfileDetails": "Personlige informasjon",
@@ -23777,7 +23777,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Velg et nivå",
       "learningFilterLevelQuestion": "Hvor vil du gjerne starte?",
       "learningFilterLevelDescription":
-          "Leximon tilpasser vanskelighetsgrad, ordgrupper og øvelser ut fra ditt valg.",
+          "Axolume tilpasser vanskelighetsgrad, ordgrupper og øvelser ut fra ditt valg.",
       "learningFilterBeginnerDescription":
           "Start med velkjente ord som er enkle å forstå og huske.",
       "learningFilterIntermediateDescription":
@@ -23800,7 +23800,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Velg temaer",
       "learningFilterTopicQuestion": "Hvilke temaer passer for deg?",
       "learningFilterTopicDescription":
-          "Velg flere temaer, som Leximon skal prioritere i starten. Vi anbefaler 3–5 temaer.",
+          "Velg flere temaer, som Axolume skal prioritere i starten. Vi anbefaler 3–5 temaer.",
       "selectedTopicCount": "{count} temaer valgt",
       "learningFilterSmallGroupHint": "Start med en liten gruppe først",
       "learningFilterTopicLoadError": "Temalisten kunne ikke lastes.",
@@ -23843,7 +23843,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Et par ord fra dette tema",
       "viewAll": "Vis alle",
       "topicNoWords": "Der er ingen ord i dette tema ennå.",
-      "leximonTip": "Leximon-tips",
+      "leximonTip": "Axolume-tips",
       "topicReviewTip":
           "Gjenta ord, der er klar til repetisjon, før du lærer nye, for å få bedre resultater.",
       "topicReviewTitle": "Gjenta • {topic}",
@@ -23861,7 +23861,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Når du har {count} ord, kan du begynne å repetere dem",
       "vocabularyCollection": "ORDFORRÅDSSAMLING",
-      "vocabularyCollectionTitle": "Leximon-bibliotek",
+      "vocabularyCollectionTitle": "Axolume-bibliotek",
       "practiseWords": "Øv ord",
       "reviewWordsAction": "Gjenta",
       "reviewMasteredWords": "Gjenta mestrede ord",
@@ -24217,7 +24217,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Les ordene nedenfor grundigt, før du starter repetisjonen.",
       "reviewIntroBody":
-          "Leximon stiller spørsmål ut fra de ord, du har valgt, for å styrke din korttidshukommelse.",
+          "Axolume stiller spørsmål ut fra de ord, du har valgt, for å styrke din korttidshukommelse.",
       "reviewStart": "Start repetisjon",
       "reviewChooseAudioCount": "Velg 1 av {count} lydklip",
       "reviewAudioSelectedHint": "Lyd valgt — trykk på Velg for å sjekke",
@@ -24303,7 +24303,7 @@ class AppLocalizations {
       "reviewEndAction": "Avslutt repetisjon",
       "notificationStudyTitle": "På tide å lære! 📚",
       "notificationStudyBody":
-          "Bruk noen minutter på å repetere ordforråd med Leximon.",
+          "Bruk noen minutter på å repetere ordforråd med Axolume.",
       "notificationChannelName": "Daglig studiepåminnelse",
       "notificationChannelDescription":
           "Påminnelser som hjelper deg med å holde på vanen med å lære ordforråd.",
@@ -24386,14 +24386,14 @@ class AppLocalizations {
           "Denne pakken er ikke tilgjengelig akkurat nå.",
       "listeningPackUnlock": "Lås opp lyttepakken",
       "notificationSaleBody":
-          "Benytt deg av et tidsbegrenset spesialtilbud på Leximon Pro. Lås opp alle leksjoner og lær uten reklame.",
+          "Benytt deg av et tidsbegrenset spesialtilbud på Axolume Pro. Lås opp alle leksjoner og lær uten reklame.",
       "notificationSaleChannelDescription":
-          "Varsler om spesialtilbud og rabatter fra Leximon.",
+          "Varsler om spesialtilbud og rabatter fra Axolume.",
       "notificationSaleChannelName": "Tilbud og rabatter",
       "notificationSaleTitle": "Et spesialtilbud til deg 🎉",
       "privacyPolicy": "Personvernerklæring",
       "privacyPolicyBody":
-          "Finn ut hvordan Leximon samler inn, bruker og beskytter dataene dine.",
+          "Finn ut hvordan Axolume samler inn, bruker og beskytter dataene dine.",
       "saleAnnualPlan": "Årsabonnement",
       "saleApproxMonthly": "Ca. {price} per måned",
       "saleBenefitNoAds": "Lær uten reklame",
@@ -24461,7 +24461,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} dagers gratis prøveperiode",
       "termsOfUse": "Vilkår for bruk",
       "termsOfUseBody":
-          "Les vilkårene som gjelder for bruk av Leximon-appen og tjenestene dens.",
+          "Les vilkårene som gjelder for bruk av Axolume-appen og tjenestene dens.",
     },
     'nl': {
       "navStudy": "Leren",
@@ -24538,7 +24538,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Test starten",
       "surveyIntroTitle": "Laten we een korte enquête doen!",
       "surveyIntroSubtitle":
-          "Op basis van je antwoorden kiest Leximon de beste leermethode voor jou.",
+          "Op basis van je antwoorden kiest Axolume de beste leermethode voor jou.",
       "freeTrialGift": "We geven je",
       "freeTrialDuration": "7 dagen gratis",
       "freeTrialPurpose": "om onze app uit te proberen",
@@ -24570,7 +24570,7 @@ class AppLocalizations {
           "Je voortgang kon niet worden opgeslagen. Probeer het opnieuw.",
       "surveySaveTopicsError":
           "De geselecteerde onderwerpen konden niet worden opgeslagen.",
-      "surveyContinueWithLeximon": "Doorgaan met Leximon",
+      "surveyContinueWithLeximon": "Doorgaan met Axolume",
       "surveyContinueJourney": "Je traject voortzetten",
       "surveyGreat": "Geweldig!",
       "surveyStartLearning": "Laten we beginnen met leren!",
@@ -24624,7 +24624,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Welk tijdstip is voor jou het handigst om Engels te leren?",
       "surveyReminderPrimary":
-          "Leximon herinnert je aan je lessen zodat je geen dag mist.",
+          "Axolume herinnert je aan je lessen zodat je geen dag mist.",
       "surveyReminderSecondary":
           "We hebben gemerkt dat regelmatig oefenen het leren van Engels bijna ",
       "surveyReminderHighlight": "4,6× sneller kan maken!",
@@ -24800,7 +24800,7 @@ class AppLocalizations {
       "homeJourneyStart": "Je traject starten",
       "homeNoWordsTitle": "Missie van vandaag",
       "homeNoWordsBody":
-          "Je hebt nog geen woorden geleerd. Begin met je eerste onderwerp zodat Leximon het juiste leertraject voor je kan maken.",
+          "Je hebt nog geen woorden geleerd. Begin met je eerste onderwerp zodat Axolume het juiste leertraject voor je kan maken.",
       "hello": "Hallo!",
       "homeMascotStart": "Laten we beginnen!",
       "homeDayOneGoal": "DOEL VAN DAG 1",
@@ -24855,10 +24855,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Toestemming voor meldingen vereist",
       "profileNotificationPermissionBody":
-          "Leximon heeft toestemming voor meldingen nodig om je elke dag aan het leren te herinneren. Schakel dit in via de app-instellingen.",
+          "Axolume heeft toestemming voor meldingen nodig om je elke dag aan het leren te herinneren. Schakel dit in via de app-instellingen.",
       "profileMicPermissionTitle": "Toestemming voor microfoon vereist",
       "profileMicPermissionBody":
-          "Leximon heeft toestemming voor de microfoon en spraakherkenning nodig voor uitspraakoefeningen. Geef toegang via de app-instellingen.",
+          "Axolume heeft toestemming voor de microfoon en spraakherkenning nodig voor uitspraakoefeningen. Geef toegang via de app-instellingen.",
       "profileMicPermissionNeeded": "Microfoontoestemming nodig",
       "profileReminderEnabledBody":
           "Elke avond om {time} · tik om de tijd te wijzigen",
@@ -24876,7 +24876,7 @@ class AppLocalizations {
       "photoLibrary": "fotobibliotheek",
       "permissionRequired": "Toestemming vereist",
       "editProfileImagePermissionBody":
-          "Leximon heeft geen toegang tot je {permission}. Je kunt dit inschakelen via de app-instellingen.",
+          "Axolume heeft geen toegang tot je {permission}. Je kunt dit inschakelen via de app-instellingen.",
       "editProfileSaveError": "Je profiel kon niet worden opgeslagen: {error}",
       "editProfileAvatar": "Profielfoto",
       "editProfileDetails": "Persoonlijke gegevens",
@@ -24996,7 +24996,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Kies een niveau",
       "learningFilterLevelQuestion": "Waar wil je beginnen?",
       "learningFilterLevelDescription":
-          "Leximon past de moeilijkheid, woordgroepen en oefenuitdagingen aan op basis van je keuze.",
+          "Axolume past de moeilijkheid, woordgroepen en oefenuitdagingen aan op basis van je keuze.",
       "learningFilterBeginnerDescription":
           "Begin met bekende woorden die toegankelijk en makkelijk te onthouden zijn.",
       "learningFilterIntermediateDescription":
@@ -25019,7 +25019,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Kies onderwerpen",
       "learningFilterTopicQuestion": "Welke onderwerpen passen bij jou?",
       "learningFilterTopicDescription":
-          "Kies meerdere onderwerpen die Leximon in het begin prioriteit moet geven. We raden 3–5 onderwerpen aan.",
+          "Kies meerdere onderwerpen die Axolume in het begin prioriteit moet geven. We raden 3–5 onderwerpen aan.",
       "selectedTopicCount": "{count} onderwerpen geselecteerd",
       "learningFilterSmallGroupHint": "Begin eerst met een kleine groep",
       "learningFilterTopicLoadError":
@@ -25064,7 +25064,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Een paar woorden uit dit onderwerp",
       "viewAll": "Alles bekijken",
       "topicNoWords": "Er staan nog geen woorden in dit onderwerp.",
-      "leximonTip": "Leximon-tip",
+      "leximonTip": "Axolume-tip",
       "topicReviewTip":
           "Herhaal woorden die aan de beurt zijn voordat je nieuwe leert voor betere resultaten.",
       "topicReviewTitle": "Herhalen • {topic}",
@@ -25084,7 +25084,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Zodra je {count} woorden hebt, kun je ze gaan herhalen",
       "vocabularyCollection": "WOORDENSCHATCOLLECTIE",
-      "vocabularyCollectionTitle": "Leximon-bibliotheek",
+      "vocabularyCollectionTitle": "Axolume-bibliotheek",
       "practiseWords": "Woorden oefenen",
       "reviewWordsAction": "Herhalen",
       "reviewMasteredWords": "Beheerste woorden herhalen",
@@ -25456,7 +25456,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Lees de onderstaande woorden zorgvuldig voordat je de herhaling start.",
       "reviewIntroBody":
-          "Leximon stelt vragen op basis van de woorden die je hebt geselecteerd om je kortetermijngeheugen te versterken.",
+          "Axolume stelt vragen op basis van de woorden die je hebt geselecteerd om je kortetermijngeheugen te versterken.",
       "reviewStart": "Herhaling starten",
       "reviewChooseAudioCount": "Kies 1 van {count} audioclips",
       "reviewAudioSelectedHint":
@@ -25544,7 +25544,7 @@ class AppLocalizations {
       "reviewEndAction": "Herhaling beëindigen",
       "notificationStudyTitle": "Tijd om te leren! 📚",
       "notificationStudyBody":
-          "Besteed een paar minuten aan het herhalen van woordenschat met Leximon.",
+          "Besteed een paar minuten aan het herhalen van woordenschat met Axolume.",
       "notificationChannelName": "Dagelijkse leerherinnering",
       "notificationChannelDescription":
           "Herinneringen om je gewoonte om woordenschat te leren vol te houden.",
@@ -25629,14 +25629,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Dit pakket is momenteel niet beschikbaar.",
       "listeningPackUnlock": "Luisterpakket ontgrendelen",
       "notificationSaleBody":
-          "Profiteer tijdelijk van een speciale aanbieding voor Leximon Pro. Ontgrendel alle lessen en leer zonder advertenties.",
+          "Profiteer tijdelijk van een speciale aanbieding voor Axolume Pro. Ontgrendel alle lessen en leer zonder advertenties.",
       "notificationSaleChannelDescription":
-          "Meldingen over speciale aanbiedingen en kortingen van Leximon.",
+          "Meldingen over speciale aanbiedingen en kortingen van Axolume.",
       "notificationSaleChannelName": "Aanbiedingen en kortingen",
       "notificationSaleTitle": "Een speciale aanbieding voor jou 🎉",
       "privacyPolicy": "Privacybeleid",
       "privacyPolicyBody":
-          "Lees hoe Leximon je gegevens verzamelt, gebruikt en beschermt.",
+          "Lees hoe Axolume je gegevens verzamelt, gebruikt en beschermt.",
       "saleAnnualPlan": "Jaarabonnement",
       "saleApproxMonthly": "Ongeveer {price} per maand",
       "saleBenefitNoAds": "Leer zonder advertenties",
@@ -25708,7 +25708,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} dagen gratis proberen",
       "termsOfUse": "Gebruiksvoorwaarden",
       "termsOfUseBody":
-          "Lees de voorwaarden die van toepassing zijn op het gebruik van de Leximon-app en de bijbehorende diensten.",
+          "Lees de voorwaarden die van toepassing zijn op het gebruik van de Axolume-app en de bijbehorende diensten.",
     },
     'pl': {
       "navStudy": "Ucz się",
@@ -25785,7 +25785,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Rozpocznij test",
       "surveyIntroTitle": "Zróbmy krótką ankietę!",
       "surveyIntroSubtitle":
-          "Na podstawie Twoich odpowiedzi Leximon dobierze najlepszą metodę nauki.",
+          "Na podstawie Twoich odpowiedzi Axolume dobierze najlepszą metodę nauki.",
       "freeTrialGift": "Dajemy Ci",
       "freeTrialDuration": "7 dni za darmo",
       "freeTrialPurpose": "na wypróbowanie naszej aplikacji",
@@ -25816,7 +25816,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Nie udało się zapisać postępu. Spróbuj ponownie.",
       "surveySaveTopicsError": "Nie udało się zapisać wybranych tematów.",
-      "surveyContinueWithLeximon": "Kontynuuj z Leximon",
+      "surveyContinueWithLeximon": "Kontynuuj z Axolume",
       "surveyContinueJourney": "Kontynuuj swoją naukę",
       "surveyGreat": "Świetnie!",
       "surveyStartLearning": "Zacznijmy naukę!",
@@ -25867,7 +25867,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "O jakiej porze najwygodniej Ci uczyć się angielskiego?",
       "surveyReminderPrimary":
-          "Leximon będzie przypominać Ci o lekcjach, aby żaden dzień Ci nie umknął.",
+          "Axolume będzie przypominać Ci o lekcjach, aby żaden dzień Ci nie umknął.",
       "surveyReminderSecondary":
           "Zauważyliśmy, że regularna praktyka może przyspieszyć naukę angielskiego niemal ",
       "surveyReminderHighlight": "4,6×!",
@@ -26040,7 +26040,7 @@ class AppLocalizations {
       "homeJourneyStart": "Rozpocznij swoją przygodę",
       "homeNoWordsTitle": "Dzisiejsza misja",
       "homeNoWordsBody":
-          "Nie znasz jeszcze żadnych słów. Zacznij od pierwszego tematu, aby Leximon mógł stworzyć dla Ciebie odpowiednią ścieżkę nauki.",
+          "Nie znasz jeszcze żadnych słów. Zacznij od pierwszego tematu, aby Axolume mógł stworzyć dla Ciebie odpowiednią ścieżkę nauki.",
       "hello": "Cześć!",
       "homeMascotStart": "Zaczynajmy!",
       "homeDayOneGoal": "CEL NA DZIEŃ 1",
@@ -26095,10 +26095,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Wymagane zezwolenie na powiadomienia",
       "profileNotificationPermissionBody":
-          "Leximon potrzebuje zezwolenia na powiadomienia, aby codziennie przypominać Ci o nauce. Włącz je w ustawieniach aplikacji.",
+          "Axolume potrzebuje zezwolenia na powiadomienia, aby codziennie przypominać Ci o nauce. Włącz je w ustawieniach aplikacji.",
       "profileMicPermissionTitle": "Wymagane zezwolenie na mikrofon",
       "profileMicPermissionBody":
-          "Leximon potrzebuje dostępu do mikrofonu i rozpoznawania mowy do ćwiczeń wymowy. Przyznaj dostęp w ustawieniach aplikacji.",
+          "Axolume potrzebuje dostępu do mikrofonu i rozpoznawania mowy do ćwiczeń wymowy. Przyznaj dostęp w ustawieniach aplikacji.",
       "profileMicPermissionNeeded": "Wymagany dostęp do mikrofonu",
       "profileReminderEnabledBody":
           "Codziennie wieczorem o {time} · dotknij, aby zmienić godzinę",
@@ -26115,7 +26115,7 @@ class AppLocalizations {
       "photoLibrary": "biblioteka zdjęć",
       "permissionRequired": "Wymagane zezwolenie",
       "editProfileImagePermissionBody":
-          "Leximon nie ma dostępu do: {permission}. Możesz go włączyć w ustawieniach aplikacji.",
+          "Axolume nie ma dostępu do: {permission}. Możesz go włączyć w ustawieniach aplikacji.",
       "editProfileSaveError": "Nie udało się zapisać profilu: {error}",
       "editProfileAvatar": "Zdjęcie profilowe",
       "editProfileDetails": "Dane osobowe",
@@ -26234,7 +26234,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Wybierz poziom",
       "learningFilterLevelQuestion": "Od czego chcesz zacząć?",
       "learningFilterLevelDescription":
-          "Leximon dostosuje trudność, grupy słownictwa i wyzwania ćwiczeniowe na podstawie Twojego wyboru.",
+          "Axolume dostosuje trudność, grupy słownictwa i wyzwania ćwiczeniowe na podstawie Twojego wyboru.",
       "learningFilterBeginnerDescription":
           "Zacznij od znanych, przystępnych i łatwych do zapamiętania słów.",
       "learningFilterIntermediateDescription":
@@ -26256,7 +26256,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Wybierz tematy",
       "learningFilterTopicQuestion": "Które tematy są dla Ciebie odpowiednie?",
       "learningFilterTopicDescription":
-          "Wybierz kilka tematów, które Leximon ma traktować priorytetowo na początku. Zalecamy 3–5 tematów.",
+          "Wybierz kilka tematów, które Axolume ma traktować priorytetowo na początku. Zalecamy 3–5 tematów.",
       "selectedTopicCount": "Wybrano tematów: {count}",
       "learningFilterSmallGroupHint": "Na początek wybierz małą grupę",
       "learningFilterTopicLoadError": "Nie udało się wczytać listy tematów.",
@@ -26301,7 +26301,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Kilka słów z tego tematu",
       "viewAll": "Zobacz wszystkie",
       "topicNoWords": "W tym temacie nie ma jeszcze słów.",
-      "leximonTip": "Wskazówka Leximon",
+      "leximonTip": "Wskazówka Axolume",
       "topicReviewTip":
           "Aby osiągać lepsze wyniki, powtarzaj słowa, których termin już nadszedł, zanim zaczniesz uczyć się nowych.",
       "topicReviewTitle": "Powtórka • {topic}",
@@ -26321,7 +26321,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Gdy będziesz mieć {count} słów, możesz rozpocząć ich powtórkę",
       "vocabularyCollection": "KOLEKCJA SŁOWNICTWA",
-      "vocabularyCollectionTitle": "Biblioteka Leximon",
+      "vocabularyCollectionTitle": "Biblioteka Axolume",
       "practiseWords": "Ćwicz słowa",
       "reviewWordsAction": "Powtórz",
       "reviewMasteredWords": "Powtórz opanowane słowa",
@@ -26692,7 +26692,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Przed rozpoczęciem powtórki uważnie przeczytaj poniższe słowa.",
       "reviewIntroBody":
-          "Leximon zada pytania na podstawie wybranych przez Ciebie słów, aby wzmocnić pamięć krótkotrwałą.",
+          "Axolume zada pytania na podstawie wybranych przez Ciebie słów, aby wzmocnić pamięć krótkotrwałą.",
       "reviewStart": "Rozpocznij powtórkę",
       "reviewChooseAudioCount": "Wybierz 1 z {count} nagrań audio",
       "reviewAudioSelectedHint":
@@ -26780,7 +26780,7 @@ class AppLocalizations {
       "reviewEndAction": "Zakończ powtórkę",
       "notificationStudyTitle": "Czas na naukę! 📚",
       "notificationStudyBody":
-          "Poświęć kilka minut na powtórkę słownictwa z Leximon.",
+          "Poświęć kilka minut na powtórkę słownictwa z Axolume.",
       "notificationChannelName": "Codzienne przypomnienie o nauce",
       "notificationChannelDescription":
           "Przypomnienia pomagające utrzymać nawyk nauki słownictwa.",
@@ -26864,14 +26864,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Ten pakiet jest obecnie niedostępny.",
       "listeningPackUnlock": "Odblokuj pakiet ćwiczeń ze słuchu",
       "notificationSaleBody":
-          "Skorzystaj z ograniczonej czasowo oferty specjalnej Leximon Pro. Odblokuj wszystkie lekcje i ucz się bez reklam.",
+          "Skorzystaj z ograniczonej czasowo oferty specjalnej Axolume Pro. Odblokuj wszystkie lekcje i ucz się bez reklam.",
       "notificationSaleChannelDescription":
-          "Powiadomienia o ofertach specjalnych i zniżkach Leximon.",
+          "Powiadomienia o ofertach specjalnych i zniżkach Axolume.",
       "notificationSaleChannelName": "Oferty i zniżki",
       "notificationSaleTitle": "Specjalna oferta dla Ciebie 🎉",
       "privacyPolicy": "Polityka prywatności",
       "privacyPolicyBody":
-          "Dowiedz się, jak Leximon zbiera, wykorzystuje i chroni Twoje dane.",
+          "Dowiedz się, jak Axolume zbiera, wykorzystuje i chroni Twoje dane.",
       "saleAnnualPlan": "Plan roczny",
       "saleApproxMonthly": "Około {price} miesięcznie",
       "saleBenefitNoAds": "Ucz się bez reklam",
@@ -26942,7 +26942,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} dni bezpłatnego okresu próbnego",
       "termsOfUse": "Warunki korzystania",
       "termsOfUseBody":
-          "Zapoznaj się z warunkami dotyczącymi korzystania z aplikacji Leximon i jej usług.",
+          "Zapoznaj się z warunkami dotyczącymi korzystania z aplikacji Axolume i jej usług.",
     },
     'pt': {
       "navStudy": "Aprender",
@@ -27018,7 +27018,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Iniciar o teste",
       "surveyIntroTitle": "Vamos fazer uma pesquisa rápida!",
       "surveyIntroSubtitle":
-          "Com base nas suas respostas, o Leximon vai escolher o melhor método de aprendizagem para você.",
+          "Com base nas suas respostas, o Axolume vai escolher o melhor método de aprendizagem para você.",
       "freeTrialGift": "Nós oferecemos a você",
       "freeTrialDuration": "7 dias grátis",
       "freeTrialPurpose": "para experimentar nosso app",
@@ -27049,7 +27049,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Não foi possível salvar seu progresso. Tente novamente.",
       "surveySaveTopicsError": "Não foi possível salvar os temas selecionados.",
-      "surveyContinueWithLeximon": "Continuar com o Leximon",
+      "surveyContinueWithLeximon": "Continuar com o Axolume",
       "surveyContinueJourney": "Continuar sua jornada",
       "surveyGreat": "Ótimo!",
       "surveyStartLearning": "Vamos começar a aprender!",
@@ -27101,7 +27101,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Qual horário é mais conveniente para você estudar inglês?",
       "surveyReminderPrimary":
-          "O Leximon vai lembrar você das suas aulas para que você não perca nenhum dia.",
+          "O Axolume vai lembrar você das suas aulas para que você não perca nenhum dia.",
       "surveyReminderSecondary":
           "Descobrimos que a prática regular pode tornar o aprendizado de inglês quase ",
       "surveyReminderHighlight": "4,6× mais rápido!",
@@ -27280,7 +27280,7 @@ class AppLocalizations {
       "homeJourneyStart": "Comece sua jornada",
       "homeNoWordsTitle": "Missão de hoje",
       "homeNoWordsBody":
-          "Você ainda não aprendeu nenhuma palavra. Comece pelo primeiro tema para que o Leximon possa criar o caminho ideal para você.",
+          "Você ainda não aprendeu nenhuma palavra. Comece pelo primeiro tema para que o Axolume possa criar o caminho ideal para você.",
       "hello": "Olá!",
       "homeMascotStart": "Vamos começar!",
       "homeDayOneGoal": "META DO DIA 1",
@@ -27335,10 +27335,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Permissão de notificação necessária",
       "profileNotificationPermissionBody":
-          "O Leximon precisa de permissão para enviar notificações e lembrar você de estudar todos os dias. Ative-a nas configurações do app.",
+          "O Axolume precisa de permissão para enviar notificações e lembrar você de estudar todos os dias. Ative-a nas configurações do app.",
       "profileMicPermissionTitle": "Permissão de microfone necessária",
       "profileMicPermissionBody":
-          "O Leximon precisa de permissão para usar o microfone e o reconhecimento de fala na prática de pronúncia. Conceda acesso nas configurações do app.",
+          "O Axolume precisa de permissão para usar o microfone e o reconhecimento de fala na prática de pronúncia. Conceda acesso nas configurações do app.",
       "profileMicPermissionNeeded": "Permissão de microfone necessária",
       "profileReminderEnabledBody":
           "Todas as noites às {time} · toque para alterar o horário",
@@ -27355,7 +27355,7 @@ class AppLocalizations {
       "photoLibrary": "biblioteca de fotos",
       "permissionRequired": "Permissão necessária",
       "editProfileImagePermissionBody":
-          "O Leximon não tem acesso à sua {permission}. Você pode ativá-lo nas configurações do app.",
+          "O Axolume não tem acesso à sua {permission}. Você pode ativá-lo nas configurações do app.",
       "editProfileSaveError": "Não foi possível salvar seu perfil: {error}",
       "editProfileAvatar": "Foto de perfil",
       "editProfileDetails": "Dados pessoais",
@@ -27476,7 +27476,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Escolha um nível",
       "learningFilterLevelQuestion": "Por onde você gostaria de começar?",
       "learningFilterLevelDescription":
-          "O Leximon ajustará a dificuldade, os grupos de vocabulário e os desafios de prática com base na sua escolha.",
+          "O Axolume ajustará a dificuldade, os grupos de vocabulário e os desafios de prática com base na sua escolha.",
       "learningFilterBeginnerDescription":
           "Comece com palavras familiares, acessíveis e fáceis de lembrar.",
       "learningFilterIntermediateDescription":
@@ -27499,7 +27499,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Escolha temas",
       "learningFilterTopicQuestion": "Quais temas combinam com você?",
       "learningFilterTopicDescription":
-          "Escolha vários temas para o Leximon priorizar no início. Recomendamos de 3 a 5 temas.",
+          "Escolha vários temas para o Axolume priorizar no início. Recomendamos de 3 a 5 temas.",
       "selectedTopicCount": "{count} temas selecionados",
       "learningFilterSmallGroupHint": "Comece primeiro com um grupo pequeno",
       "learningFilterTopicLoadError":
@@ -27546,7 +27546,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Algumas palavras deste tema",
       "viewAll": "Ver tudo",
       "topicNoWords": "Ainda não há palavras neste tema.",
-      "leximonTip": "Dica do Leximon",
+      "leximonTip": "Dica do Axolume",
       "topicReviewTip":
           "Revise as palavras pendentes antes de aprender novas para obter melhores resultados.",
       "topicReviewTitle": "Revisão • {topic}",
@@ -27565,7 +27565,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Quando você tiver {count} palavras, poderá começar a revisá-las",
       "vocabularyCollection": "COLEÇÃO DE VOCABULÁRIO",
-      "vocabularyCollectionTitle": "Biblioteca Leximon",
+      "vocabularyCollectionTitle": "Biblioteca Axolume",
       "practiseWords": "Praticar palavras",
       "reviewWordsAction": "Revisar",
       "reviewMasteredWords": "Revisar palavras dominadas",
@@ -27937,7 +27937,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Leia atentamente as palavras abaixo antes de iniciar a revisão.",
       "reviewIntroBody":
-          "O Leximon fará perguntas com base nas palavras que você selecionou para fortalecer sua memória de curto prazo.",
+          "O Axolume fará perguntas com base nas palavras que você selecionou para fortalecer sua memória de curto prazo.",
       "reviewStart": "Iniciar revisão",
       "reviewChooseAudioCount": "Escolha 1 de {count} clipes de áudio",
       "reviewAudioSelectedHint":
@@ -28025,7 +28025,7 @@ class AppLocalizations {
       "reviewEndAction": "Encerrar revisão",
       "notificationStudyTitle": "Hora de estudar! 📚",
       "notificationStudyBody":
-          "Passe alguns minutos revisando vocabulário com o Leximon.",
+          "Passe alguns minutos revisando vocabulário com o Axolume.",
       "notificationChannelName": "Lembrete diário de estudo",
       "notificationChannelDescription":
           "Lembretes para ajudar você a manter o hábito de estudar vocabulário.",
@@ -28113,14 +28113,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Este pacote não está disponível de momento.",
       "listeningPackUnlock": "Desbloquear pacote de compreensão auditiva",
       "notificationSaleBody":
-          "Aproveite uma oferta especial por tempo limitado para o Leximon Pro. Desbloqueie todas as aulas e aprenda sem anúncios.",
+          "Aproveite uma oferta especial por tempo limitado para o Axolume Pro. Desbloqueie todas as aulas e aprenda sem anúncios.",
       "notificationSaleChannelDescription":
-          "Notificações sobre ofertas especiais e descontos da Leximon.",
+          "Notificações sobre ofertas especiais e descontos da Axolume.",
       "notificationSaleChannelName": "Ofertas e descontos",
       "notificationSaleTitle": "Uma oferta especial para si 🎉",
       "privacyPolicy": "Política de Privacidade",
       "privacyPolicyBody":
-          "Saiba como a Leximon recolhe, utiliza e protege os seus dados.",
+          "Saiba como a Axolume recolhe, utiliza e protege os seus dados.",
       "saleAnnualPlan": "Plano anual",
       "saleApproxMonthly": "Cerca de {price} por mês",
       "saleBenefitNoAds": "Aprenda sem anúncios",
@@ -28194,7 +28194,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} dias de período experimental gratuito",
       "termsOfUse": "Termos de Utilização",
       "termsOfUseBody":
-          "Leia os termos que regem a utilização da aplicação Leximon e dos seus serviços.",
+          "Leia os termos que regem a utilização da aplicação Axolume e dos seus serviços.",
     },
     'ro': {
       "navStudy": "Învață",
@@ -28271,7 +28271,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Începe testul",
       "surveyIntroTitle": "Hai să facem un scurt chestionar!",
       "surveyIntroSubtitle":
-          "Pe baza răspunsurilor tale, Leximon va alege cea mai bună metodă de învățare pentru tine.",
+          "Pe baza răspunsurilor tale, Axolume va alege cea mai bună metodă de învățare pentru tine.",
       "freeTrialGift": "Îți oferim",
       "freeTrialDuration": "7 zile gratuit",
       "freeTrialPurpose": "ca să încerci aplicația",
@@ -28303,7 +28303,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Progresul nu a putut fi salvat. Încearcă din nou.",
       "surveySaveTopicsError": "Subiectele selectate nu au putut fi salvate.",
-      "surveyContinueWithLeximon": "Continuă cu Leximon",
+      "surveyContinueWithLeximon": "Continuă cu Axolume",
       "surveyContinueJourney": "Continuă-ți parcursul",
       "surveyGreat": "Excelent!",
       "surveyStartLearning": "Hai să începem să învățăm!",
@@ -28354,7 +28354,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Care este momentul cel mai convenabil pentru a studia engleza?",
       "surveyReminderPrimary":
-          "Leximon îți va aminti de lecții ca să nu ratezi nicio zi.",
+          "Axolume îți va aminti de lecții ca să nu ratezi nicio zi.",
       "surveyReminderSecondary":
           "Am observat că practica regulată poate face învățarea limbii engleze de aproape ",
       "surveyReminderHighlight": "4,6× mai rapidă!",
@@ -28531,7 +28531,7 @@ class AppLocalizations {
       "homeJourneyStart": "Începe-ți parcursul",
       "homeNoWordsTitle": "Misiunea de azi",
       "homeNoWordsBody":
-          "Nu ai învățat încă niciun cuvânt. Începe cu primul subiect, iar Leximon va crea parcursul potrivit pentru tine.",
+          "Nu ai învățat încă niciun cuvânt. Începe cu primul subiect, iar Axolume va crea parcursul potrivit pentru tine.",
       "hello": "Salut!",
       "homeMascotStart": "Hai să începem!",
       "homeDayOneGoal": "OBIECTIVUL ZILEI 1",
@@ -28587,10 +28587,10 @@ class AppLocalizations {
       "profileNotificationPermissionTitle":
           "Este necesară permisiunea pentru notificări",
       "profileNotificationPermissionBody":
-          "Leximon are nevoie de permisiunea pentru notificări ca să-ți amintească să studiezi în fiecare zi. Activeaz-o în setările aplicației.",
+          "Axolume are nevoie de permisiunea pentru notificări ca să-ți amintească să studiezi în fiecare zi. Activeaz-o în setările aplicației.",
       "profileMicPermissionTitle": "Este necesară permisiunea pentru microfon",
       "profileMicPermissionBody":
-          "Leximon are nevoie de permisiuni pentru microfon și recunoașterea vorbirii pentru exersarea pronunției. Acordă accesul în setările aplicației.",
+          "Axolume are nevoie de permisiuni pentru microfon și recunoașterea vorbirii pentru exersarea pronunției. Acordă accesul în setările aplicației.",
       "profileMicPermissionNeeded": "Este necesară permisiunea microfonului",
       "profileReminderEnabledBody":
           "În fiecare seară la {time} · apasă pentru a schimba ora",
@@ -28607,7 +28607,7 @@ class AppLocalizations {
       "photoLibrary": "biblioteca foto",
       "permissionRequired": "Permisiune necesară",
       "editProfileImagePermissionBody":
-          "Leximon nu are acces la {permission}. Îl poți activa în setările aplicației.",
+          "Axolume nu are acces la {permission}. Îl poți activa în setările aplicației.",
       "editProfileSaveError": "Profilul nu a putut fi salvat: {error}",
       "editProfileAvatar": "Fotografie de profil",
       "editProfileDetails": "Detalii personale",
@@ -28726,7 +28726,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Alege un nivel",
       "learningFilterLevelQuestion": "De unde ai vrea să începi?",
       "learningFilterLevelDescription":
-          "Leximon va ajusta dificultatea, grupurile de vocabular și provocările de practică în funcție de alegerea ta.",
+          "Axolume va ajusta dificultatea, grupurile de vocabular și provocările de practică în funcție de alegerea ta.",
       "learningFilterBeginnerDescription":
           "Începe cu cuvinte familiare, ușor de abordat și de reținut.",
       "learningFilterIntermediateDescription":
@@ -28749,7 +28749,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Alege subiecte",
       "learningFilterTopicQuestion": "Ce subiecte ți se potrivesc?",
       "learningFilterTopicDescription":
-          "Alege mai multe subiecte pe care Leximon să le prioritizeze la început. Recomandăm 3–5 subiecte.",
+          "Alege mai multe subiecte pe care Axolume să le prioritizeze la început. Recomandăm 3–5 subiecte.",
       "selectedTopicCount": "{count} subiecte selectate",
       "learningFilterSmallGroupHint": "Începe mai întâi cu un grup mic",
       "learningFilterTopicLoadError":
@@ -28796,7 +28796,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Câteva cuvinte din acest subiect",
       "viewAll": "Vezi tot",
       "topicNoWords": "Încă nu există cuvinte în acest subiect.",
-      "leximonTip": "Sfat Leximon",
+      "leximonTip": "Sfat Axolume",
       "topicReviewTip":
           "Recapitulează cuvintele programate înainte de a învăța altele noi pentru rezultate mai bune.",
       "topicReviewTitle": "Recapitulare • {topic}",
@@ -28816,7 +28816,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "După ce ai {count} cuvinte, poți începe să le recapitulezi",
       "vocabularyCollection": "COLECȚIE DE VOCABULAR",
-      "vocabularyCollectionTitle": "Biblioteca Leximon",
+      "vocabularyCollectionTitle": "Biblioteca Axolume",
       "practiseWords": "Exersează cuvinte",
       "reviewWordsAction": "Recapitulează",
       "reviewMasteredWords": "Recapitulează cuvintele stăpânite",
@@ -29188,7 +29188,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Citește cu atenție cuvintele de mai jos înainte de a începe recapitularea.",
       "reviewIntroBody":
-          "Leximon îți va pune întrebări pe baza cuvintelor selectate pentru a-ți consolida memoria pe termen scurt.",
+          "Axolume îți va pune întrebări pe baza cuvintelor selectate pentru a-ți consolida memoria pe termen scurt.",
       "reviewStart": "Începe recapitularea",
       "reviewChooseAudioCount": "Alege 1 din {count} fragmente audio",
       "reviewAudioSelectedHint":
@@ -29276,7 +29276,7 @@ class AppLocalizations {
       "reviewEndAction": "Încheie recapitularea",
       "notificationStudyTitle": "E timpul să studiezi! 📚",
       "notificationStudyBody":
-          "Petrece câteva minute recapitulând vocabularul cu Leximon.",
+          "Petrece câteva minute recapitulând vocabularul cu Axolume.",
       "notificationChannelName": "Memento zilnic pentru studiu",
       "notificationChannelDescription":
           "Mementouri care te ajută să-ți menții obiceiul de a învăța vocabular.",
@@ -29361,14 +29361,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Acest pachet nu este disponibil momentan.",
       "listeningPackUnlock": "Deblochează pachetul de ascultare",
       "notificationSaleBody":
-          "Profită de oferta specială Leximon Pro disponibilă pentru o perioadă limitată. Deblochează toate lecțiile și învață fără reclame.",
+          "Profită de oferta specială Axolume Pro disponibilă pentru o perioadă limitată. Deblochează toate lecțiile și învață fără reclame.",
       "notificationSaleChannelDescription":
-          "Notificări despre ofertele speciale și reducerile Leximon.",
+          "Notificări despre ofertele speciale și reducerile Axolume.",
       "notificationSaleChannelName": "Oferte și reduceri",
       "notificationSaleTitle": "O ofertă specială pentru tine 🎉",
       "privacyPolicy": "Politica de confidențialitate",
       "privacyPolicyBody":
-          "Află cum colectează, utilizează și protejează Leximon datele tale.",
+          "Află cum colectează, utilizează și protejează Axolume datele tale.",
       "saleAnnualPlan": "Plan anual",
       "saleApproxMonthly": "Aproximativ {price} pe lună",
       "saleBenefitNoAds": "Învață fără reclame",
@@ -29442,7 +29442,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} zile de probă gratuită",
       "termsOfUse": "Termeni de utilizare",
       "termsOfUseBody":
-          "Citește termenii care reglementează utilizarea aplicației Leximon și a serviciilor sale.",
+          "Citește termenii care reglementează utilizarea aplicației Axolume și a serviciilor sale.",
     },
     'sv': {
       "navStudy": "Lär",
@@ -29520,7 +29520,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Starta testet",
       "surveyIntroTitle": "Låt oss göra en kort undersökning!",
       "surveyIntroSubtitle":
-          "Utifrån dina svar väljer Leximon den bästa inlärningsmetoden för dig.",
+          "Utifrån dina svar väljer Axolume den bästa inlärningsmetoden för dig.",
       "freeTrialGift": "Vi ger dig",
       "freeTrialDuration": "7 dagar gratis",
       "freeTrialPurpose": "för att prova vår app",
@@ -29551,7 +29551,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Dina framsteg kunde inte sparas. Försök igen.",
       "surveySaveTopicsError": "De valda ämnena kunde inte sparas.",
-      "surveyContinueWithLeximon": "Fortsätt med Leximon",
+      "surveyContinueWithLeximon": "Fortsätt med Axolume",
       "surveyContinueJourney": "Fortsätt din resa",
       "surveyGreat": "Bra!",
       "surveyStartLearning": "Låt oss börja lära oss!",
@@ -29603,7 +29603,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "När passar det bäst för dig att lära dig engelska?",
       "surveyReminderPrimary":
-          "Leximon påminner dig om dina lektioner så att du inte missar en dag.",
+          "Axolume påminner dig om dina lektioner så att du inte missar en dag.",
       "surveyReminderSecondary":
           "Vi har upptäckt att regelbunden träning kan göra din engelskinlärning nästan ",
       "surveyReminderHighlight": "4,6× snabbare!",
@@ -29777,7 +29777,7 @@ class AppLocalizations {
       "homeJourneyStart": "Start din resa",
       "homeNoWordsTitle": "Dagens mission",
       "homeNoWordsBody":
-          "Du har inte lärt några ord ännu. Start med ditt första ämne, så Leximon kan skapa den rätta inlärningsväg till dig.",
+          "Du har inte lärt några ord ännu. Start med ditt första ämne, så Axolume kan skapa den rätta inlärningsväg till dig.",
       "hello": "Hej!",
       "homeMascotStart": "Låt oss komma i gång!",
       "homeDayOneGoal": "MÅL FÖR DAG 1",
@@ -29830,10 +29830,10 @@ class AppLocalizations {
           "Tiden för påminnelsen kunde inte uppdateras: {error}",
       "profileNotificationPermissionTitle": "Behörighet till notiser krävs",
       "profileNotificationPermissionBody":
-          "Leximon behöver behörighet för notiser för att påminna dig om att lära varje dag. Aktivera det i appens inställningar.",
+          "Axolume behöver behörighet för notiser för att påminna dig om att lära varje dag. Aktivera det i appens inställningar.",
       "profileMicPermissionTitle": "Mikrofonbehörighet krävs",
       "profileMicPermissionBody":
-          "Leximon behöver åtkomst till mikrofon och taligenkänning för uttalsträning. Ge åtkomst i appens inställningar.",
+          "Axolume behöver åtkomst till mikrofon och taligenkänning för uttalsträning. Ge åtkomst i appens inställningar.",
       "profileMicPermissionNeeded": "Mikrofonbehörighet krävs",
       "profileReminderEnabledBody":
           "Varje kvällen kl. {time} · tryck för att ändra tid",
@@ -29850,7 +29850,7 @@ class AppLocalizations {
       "photoLibrary": "fotobibliotek",
       "permissionRequired": "Behörighet krävs",
       "editProfileImagePermissionBody":
-          "Leximon har inte åtkomst till ditt/din {permission}. Du kan aktivera åtkomsten i appens inställningar.",
+          "Axolume har inte åtkomst till ditt/din {permission}. Du kan aktivera åtkomsten i appens inställningar.",
       "editProfileSaveError": "Din profil kunde inte sparas: {error}",
       "editProfileAvatar": "Profilbild",
       "editProfileDetails": "Personliga information",
@@ -29967,7 +29967,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Välj ett nivå",
       "learningFilterLevelQuestion": "Var vill du gärna starta?",
       "learningFilterLevelDescription":
-          "Leximon anpassar svårighetsgrad, ordgrupper och övningar utifrån ditt val.",
+          "Axolume anpassar svårighetsgrad, ordgrupper och övningar utifrån ditt val.",
       "learningFilterBeginnerDescription":
           "Börja med välkända ord som är lätta att ta till sig och komma ihåg.",
       "learningFilterIntermediateDescription":
@@ -29990,7 +29990,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Välj ämnen",
       "learningFilterTopicQuestion": "Vilka ämnen passar till dig?",
       "learningFilterTopicDescription":
-          "Välj fler ämnen, som Leximon ska prioritera i starten. Vi rekommenderar 3–5 ämnen.",
+          "Välj fler ämnen, som Axolume ska prioritera i starten. Vi rekommenderar 3–5 ämnen.",
       "selectedTopicCount": "{count} ämnen vald",
       "learningFilterSmallGroupHint": "Start med en liten grupp först",
       "learningFilterTopicLoadError": "Ämneslistan kunde inte laddas.",
@@ -30034,7 +30034,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Ett par ord från det här ämne",
       "viewAll": "Visa alla",
       "topicNoWords": "Det finns inga ord i det här ämnet ännu.",
-      "leximonTip": "Leximon-tips",
+      "leximonTip": "Axolume-tips",
       "topicReviewTip":
           "Upprepa ord, som är klar till repetition, innan du lär nya, för att få bättre resultat.",
       "topicReviewTitle": "Upprepa • {topic}",
@@ -30053,7 +30053,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "När du har {count} ord kan du börja repetera dem",
       "vocabularyCollection": "ORDFÖRRÅDSSAMLING",
-      "vocabularyCollectionTitle": "Leximon-bibliotek",
+      "vocabularyCollectionTitle": "Axolume-bibliotek",
       "practiseWords": "Öva ord",
       "reviewWordsAction": "Upprepa",
       "reviewMasteredWords": "Upprepa bemästrade ord",
@@ -30416,7 +30416,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Läs orden nedan noggrant, innan du startar repetitionen.",
       "reviewIntroBody":
-          "Leximon ställer frågor utifrån de ord, du har vald, för att stärka din korttidsminne.",
+          "Axolume ställer frågor utifrån de ord, du har vald, för att stärka din korttidsminne.",
       "reviewStart": "Starta repetition",
       "reviewChooseAudioCount": "Välj 1 av {count} ljudklipp",
       "reviewAudioSelectedHint":
@@ -30504,7 +30504,7 @@ class AppLocalizations {
       "reviewEndAction": "Avsluta repetition",
       "notificationStudyTitle": "Dags att lära! 📚",
       "notificationStudyBody":
-          "Lägg några minuter på att repetera ordförråd med Leximon.",
+          "Lägg några minuter på att repetera ordförråd med Axolume.",
       "notificationChannelName": "Daglig studiepåminnelse",
       "notificationChannelDescription":
           "Påminnelser som hjälper dig att hålla fast vid vanan att lära dig ordförråd.",
@@ -30586,14 +30586,14 @@ class AppLocalizations {
           "Det här paketet är inte tillgängligt just nu.",
       "listeningPackUnlock": "Lås upp lyssningspaketet",
       "notificationSaleBody":
-          "Ta del av ett tidsbegränsat specialerbjudande på Leximon Pro. Lås upp alla lektioner och lär dig utan annonser.",
+          "Ta del av ett tidsbegränsat specialerbjudande på Axolume Pro. Lås upp alla lektioner och lär dig utan annonser.",
       "notificationSaleChannelDescription":
-          "Aviseringar om specialerbjudanden och rabatter från Leximon.",
+          "Aviseringar om specialerbjudanden och rabatter från Axolume.",
       "notificationSaleChannelName": "Erbjudanden och rabatter",
       "notificationSaleTitle": "Ett specialerbjudande för dig 🎉",
       "privacyPolicy": "Integritetspolicy",
       "privacyPolicyBody":
-          "Läs om hur Leximon samlar in, använder och skyddar dina data.",
+          "Läs om hur Axolume samlar in, använder och skyddar dina data.",
       "saleAnnualPlan": "Årsplan",
       "saleApproxMonthly": "Cirka {price} per månad",
       "saleBenefitNoAds": "Lär dig utan annonser",
@@ -30663,7 +30663,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} dagars gratis provperiod",
       "termsOfUse": "Användarvillkor",
       "termsOfUseBody":
-          "Läs villkoren som gäller för användning av Leximon-appen och dess tjänster.",
+          "Läs villkoren som gäller för användning av Axolume-appen och dess tjänster.",
     },
     'th': {
       "navStudy": "เรียนรู้",
@@ -30739,7 +30739,7 @@ class AppLocalizations {
       "assessmentLevelStart": "เริ่มแบบทดสอบ",
       "surveyIntroTitle": "มาทำแบบสำรวจ สั้น ๆ กัน!",
       "surveyIntroSubtitle":
-          "จากคำตอบของคุณ Leximon จะ เลือกวิธีเรียนที่เหมาะที่สุดให้คุณ",
+          "จากคำตอบของคุณ Axolume จะ เลือกวิธีเรียนที่เหมาะที่สุดให้คุณ",
       "freeTrialGift": "เรามอบให้คุณ",
       "freeTrialDuration": "ทดลองใช้ฟรี 7 วัน",
       "freeTrialPurpose": "เพื่อทดลองใช้แอปของเรา",
@@ -30767,7 +30767,7 @@ class AppLocalizations {
       "subscriptionStart": "เริ่มทดลองใช้ฟรี และสมัครสมาชิก",
       "surveySaveProgressError": "บันทึกความคืบหน้าไม่ได้ โปรดลองอีกครั้ง",
       "surveySaveTopicsError": "บันทึกหัวข้อที่เลือกไม่ได้",
-      "surveyContinueWithLeximon": "ดำเนินการต่อกับ Leximon",
+      "surveyContinueWithLeximon": "ดำเนินการต่อกับ Axolume",
       "surveyContinueJourney": "เดินหน้าต่อในเส้นทางของคุณ",
       "surveyGreat": "เยี่ยมมาก!",
       "surveyStartLearning": "มาเริ่มเรียนกันเลย!",
@@ -30811,7 +30811,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "ช่วงเวลาไหนสะดวกที่สุดสำหรับคุณในการเรียนภาษาอังกฤษ?",
       "surveyReminderPrimary":
-          "Leximon จะเตือนคุณเรื่องบทเรียน เพื่อให้คุณไม่พลาดแม้แต่วันเดียว",
+          "Axolume จะเตือนคุณเรื่องบทเรียน เพื่อให้คุณไม่พลาดแม้แต่วันเดียว",
       "surveyReminderSecondary":
           "เราพบว่าการฝึกอย่างสม่ำเสมอช่วยให้เรียนภาษาอังกฤษได้เร็วขึ้นเกือบ ",
       "surveyReminderHighlight": "4.6 เท่า!",
@@ -30976,7 +30976,7 @@ class AppLocalizations {
       "homeJourneyStart": "เริ่มเส้นทางของคุณ",
       "homeNoWordsTitle": "ภารกิจวันนี้",
       "homeNoWordsBody":
-          "คุณยังไม่ได้เรียนคำศัพท์เลย เริ่มจากหัวข้อแรกเพื่อให้ Leximon สร้างเส้นทางที่เหมาะกับคุณ",
+          "คุณยังไม่ได้เรียนคำศัพท์เลย เริ่มจากหัวข้อแรกเพื่อให้ Axolume สร้างเส้นทางที่เหมาะกับคุณ",
       "hello": "สวัสดี!",
       "homeMascotStart": "มาเริ่มกันเลย!",
       "homeDayOneGoal": "เป้าหมายวันที่ 1",
@@ -31028,10 +31028,10 @@ class AppLocalizations {
       "profileReminderUpdateError": "อัปเดตเวลาแจ้งเตือนไม่ได้: {error}",
       "profileNotificationPermissionTitle": "ต้องอนุญาตการแจ้งเตือน",
       "profileNotificationPermissionBody":
-          "Leximon ต้องได้รับสิทธิ์แจ้งเตือนเพื่อเตือนคุณให้เรียนทุกวัน เปิดใช้งานได้ในการตั้งค่าแอป",
+          "Axolume ต้องได้รับสิทธิ์แจ้งเตือนเพื่อเตือนคุณให้เรียนทุกวัน เปิดใช้งานได้ในการตั้งค่าแอป",
       "profileMicPermissionTitle": "ต้องอนุญาตไมโครโฟน",
       "profileMicPermissionBody":
-          "Leximon ต้องใช้สิทธิ์ไมโครโฟนและการรู้จำเสียงพูดสำหรับการฝึกออกเสียง โปรดอนุญาตในการตั้งค่าแอป",
+          "Axolume ต้องใช้สิทธิ์ไมโครโฟนและการรู้จำเสียงพูดสำหรับการฝึกออกเสียง โปรดอนุญาตในการตั้งค่าแอป",
       "profileMicPermissionNeeded": "ต้องอนุญาตไมโครโฟน",
       "profileReminderEnabledBody": "ทุกเย็นเวลา {time} · แตะเพื่อเปลี่ยนเวลา",
       "profileReminderDisabledBody": "ปิด · แตะเพื่อเปิด",
@@ -31047,7 +31047,7 @@ class AppLocalizations {
       "photoLibrary": "คลังรูปภาพ",
       "permissionRequired": "ต้องอนุญาตสิทธิ์",
       "editProfileImagePermissionBody":
-          "Leximon ไม่มีสิทธิ์เข้าถึง {permission} ของคุณ คุณสามารถเปิดสิทธิ์ได้ในการตั้งค่าแอป",
+          "Axolume ไม่มีสิทธิ์เข้าถึง {permission} ของคุณ คุณสามารถเปิดสิทธิ์ได้ในการตั้งค่าแอป",
       "editProfileSaveError": "บันทึกโปรไฟล์ไม่ได้: {error}",
       "editProfileAvatar": "รูปโปรไฟล์",
       "editProfileDetails": "ข้อมูลส่วนตัว",
@@ -31162,7 +31162,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "เลือกระดับ",
       "learningFilterLevelQuestion": "คุณอยากเริ่มจากระดับไหน?",
       "learningFilterLevelDescription":
-          "Leximon จะปรับความยาก กลุ่มคำศัพท์ และแบบฝึกตามตัวเลือกของคุณ",
+          "Axolume จะปรับความยาก กลุ่มคำศัพท์ และแบบฝึกตามตัวเลือกของคุณ",
       "learningFilterBeginnerDescription":
           "เริ่มจากคำคุ้นเคยที่เข้าใจง่ายและจำง่าย",
       "learningFilterIntermediateDescription":
@@ -31184,7 +31184,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "เลือกหัวข้อ",
       "learningFilterTopicQuestion": "หัวข้อใดเหมาะกับคุณ?",
       "learningFilterTopicDescription":
-          "เลือกหลายหัวข้อเพื่อให้ Leximon จัดลำดับความสำคัญในช่วงเริ่มต้น เราแนะนำ 3–5 หัวข้อ",
+          "เลือกหลายหัวข้อเพื่อให้ Axolume จัดลำดับความสำคัญในช่วงเริ่มต้น เราแนะนำ 3–5 หัวข้อ",
       "selectedTopicCount": "เลือกแล้ว {count} หัวข้อ",
       "learningFilterSmallGroupHint": "เริ่มจากกลุ่มเล็กก่อน",
       "learningFilterTopicLoadError": "โหลดรายการหัวข้อไม่ได้",
@@ -31223,7 +31223,7 @@ class AppLocalizations {
       "topicPreviewTitle": "ตัวอย่างคำจากหัวข้อนี้",
       "viewAll": "ดูทั้งหมด",
       "topicNoWords": "ยังไม่มีคำในหัวข้อนี้",
-      "leximonTip": "เคล็ดลับจาก Leximon",
+      "leximonTip": "เคล็ดลับจาก Axolume",
       "topicReviewTip":
           "ทบทวนคำที่ถึงกำหนดก่อนเรียนคำใหม่เพื่อผลลัพธ์ที่ดีกว่า",
       "topicReviewTitle": "ทบทวน • {topic}",
@@ -31240,7 +31240,7 @@ class AppLocalizations {
       "available": "พร้อม",
       "topicReviewRequirement": "เมื่อมีครบ {count} คำ คุณจะเริ่มทบทวนได้",
       "vocabularyCollection": "คอลเลกชันคำศัพท์",
-      "vocabularyCollectionTitle": "คลัง Leximon",
+      "vocabularyCollectionTitle": "คลัง Axolume",
       "practiseWords": "ฝึกคำศัพท์",
       "reviewWordsAction": "ทบทวน",
       "reviewMasteredWords": "ทบทวนคำที่เชี่ยวชาญแล้ว",
@@ -31579,7 +31579,7 @@ class AppLocalizations {
       "reviewExitAction": "ออกจากการทบทวน",
       "reviewIntroInstruction": "อ่านคำด้านล่างให้ดีก่อนเริ่มทบทวน",
       "reviewIntroBody":
-          "Leximon จะถามคำถามจากคำที่คุณเลือกเพื่อเสริมความจำระยะสั้น",
+          "Axolume จะถามคำถามจากคำที่คุณเลือกเพื่อเสริมความจำระยะสั้น",
       "reviewStart": "เริ่มทบทวน",
       "reviewChooseAudioCount": "เลือก 1 จาก {count} คลิปเสียง",
       "reviewAudioSelectedHint": "เลือกเสียงแล้ว — แตะ เลือก เพื่อตรวจคำตอบ",
@@ -31661,7 +31661,7 @@ class AppLocalizations {
           "ความคืบหน้าในเซสชันนี้จะไม่ถูกบันทึก คุณเริ่มชุดคำนี้ใหม่ได้ทุกเมื่อ",
       "reviewEndAction": "จบการทบทวน",
       "notificationStudyTitle": "ได้เวลาเรียนแล้ว! 📚",
-      "notificationStudyBody": "ใช้เวลาสักครู่ทบทวนคำศัพท์กับ Leximon",
+      "notificationStudyBody": "ใช้เวลาสักครู่ทบทวนคำศัพท์กับ Axolume",
       "notificationChannelName": "การแจ้งเตือนเรียนประจำวัน",
       "notificationChannelDescription":
           "การแจ้งเตือนเพื่อช่วยให้คุณรักษานิสัยการเรียนคำศัพท์",
@@ -31744,14 +31744,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "แพ็กนี้ไม่พร้อมใช้งานในขณะนี้",
       "listeningPackUnlock": "ปลดล็อกแพ็กฝึกการฟัง",
       "notificationSaleBody":
-          "รับข้อเสนอพิเศษ Leximon Pro ในช่วงเวลาจำกัด ปลดล็อกทุกบทเรียนและเรียนโดยไม่มีโฆษณา",
+          "รับข้อเสนอพิเศษ Axolume Pro ในช่วงเวลาจำกัด ปลดล็อกทุกบทเรียนและเรียนโดยไม่มีโฆษณา",
       "notificationSaleChannelDescription":
-          "การแจ้งเตือนเกี่ยวกับข้อเสนอพิเศษและส่วนลดจาก Leximon",
+          "การแจ้งเตือนเกี่ยวกับข้อเสนอพิเศษและส่วนลดจาก Axolume",
       "notificationSaleChannelName": "ข้อเสนอและส่วนลด",
       "notificationSaleTitle": "ข้อเสนอพิเศษสำหรับคุณ 🎉",
       "privacyPolicy": "นโยบายความเป็นส่วนตัว",
       "privacyPolicyBody":
-          "ดูว่า Leximon รวบรวม ใช้ และปกป้องข้อมูลของคุณอย่างไร",
+          "ดูว่า Axolume รวบรวม ใช้ และปกป้องข้อมูลของคุณอย่างไร",
       "saleAnnualPlan": "แผนรายปี",
       "saleApproxMonthly": "ประมาณ {price} ต่อเดือน",
       "saleBenefitNoAds": "เรียนโดยไม่มีโฆษณา",
@@ -31821,7 +31821,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "ทดลองใช้ฟรี {days} วัน",
       "termsOfUse": "ข้อกำหนดการใช้งาน",
       "termsOfUseBody":
-          "อ่านข้อกำหนดที่ใช้กับการใช้งานแอป Leximon และบริการต่าง ๆ",
+          "อ่านข้อกำหนดที่ใช้กับการใช้งานแอป Axolume และบริการต่าง ๆ",
     },
     'tr': {
       "navStudy": "Öğren",
@@ -31899,7 +31899,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Teste başla",
       "surveyIntroTitle": "Kısa bir anket yapalım!",
       "surveyIntroSubtitle":
-          "Yanıtlarınıza göre Leximon sizin için en uygun öğrenme yöntemini seçecek.",
+          "Yanıtlarınıza göre Axolume sizin için en uygun öğrenme yöntemini seçecek.",
       "freeTrialGift": "Size hediye ediyoruz",
       "freeTrialDuration": "7 gün ücretsiz",
       "freeTrialPurpose": "uygulamamızı denemeniz için",
@@ -31929,7 +31929,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "İlerlemeniz kaydedilemedi. Lütfen tekrar deneyin.",
       "surveySaveTopicsError": "Seçilen konular kaydedilemedi.",
-      "surveyContinueWithLeximon": "Leximon ile devam et",
+      "surveyContinueWithLeximon": "Axolume ile devam et",
       "surveyContinueJourney": "Yolculuğunuza devam edin",
       "surveyGreat": "Harika!",
       "surveyStartLearning": "Öğrenmeye başlayalım!",
@@ -31980,7 +31980,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "İngilizce çalışmak için sizin için en uygun saat hangisi?",
       "surveyReminderPrimary":
-          "Leximon derslerinizi size hatırlatır, böylece hiçbir günü kaçırmazsınız.",
+          "Axolume derslerinizi size hatırlatır, böylece hiçbir günü kaçırmazsınız.",
       "surveyReminderSecondary":
           "Düzenli pratiğin İngilizce öğrenmeyi neredeyse ",
       "surveyReminderHighlight": "4,6 kat hızlandırabildiğini gördük!",
@@ -32156,7 +32156,7 @@ class AppLocalizations {
       "homeJourneyStart": "Yolculuğunuza başlayın",
       "homeNoWordsTitle": "Bugünün görevi",
       "homeNoWordsBody":
-          "Henüz hiç kelime öğrenmediniz. İlk konunuzla başlayın; Leximon sizin için doğru yolu oluştursun.",
+          "Henüz hiç kelime öğrenmediniz. İlk konunuzla başlayın; Axolume sizin için doğru yolu oluştursun.",
       "hello": "Merhaba!",
       "homeMascotStart": "Hadi başlayalım!",
       "homeDayOneGoal": "1. GÜN HEDEFİ",
@@ -32209,10 +32209,10 @@ class AppLocalizations {
       "profileReminderUpdateError": "Hatırlatma saati güncellenemedi: {error}",
       "profileNotificationPermissionTitle": "Bildirim izni gerekli",
       "profileNotificationPermissionBody":
-          "Leximon, her gün çalışmanızı hatırlatmak için bildirim iznine ihtiyaç duyar. Uygulama ayarlarından etkinleştirin.",
+          "Axolume, her gün çalışmanızı hatırlatmak için bildirim iznine ihtiyaç duyar. Uygulama ayarlarından etkinleştirin.",
       "profileMicPermissionTitle": "Mikrofon izni gerekli",
       "profileMicPermissionBody":
-          "Leximon, telaffuz pratiği için mikrofon ve konuşma tanıma iznine ihtiyaç duyar. Uygulama ayarlarından erişim verin.",
+          "Axolume, telaffuz pratiği için mikrofon ve konuşma tanıma iznine ihtiyaç duyar. Uygulama ayarlarından erişim verin.",
       "profileMicPermissionNeeded": "Mikrofon izni gerekli",
       "profileReminderEnabledBody":
           "Her akşam {time} · saati değiştirmek için dokunun",
@@ -32229,7 +32229,7 @@ class AppLocalizations {
       "photoLibrary": "fotoğraf galerisi",
       "permissionRequired": "İzin gerekli",
       "editProfileImagePermissionBody":
-          "Leximon, {permission} erişimine sahip değil. Uygulama ayarlarından etkinleştirebilirsiniz.",
+          "Axolume, {permission} erişimine sahip değil. Uygulama ayarlarından etkinleştirebilirsiniz.",
       "editProfileSaveError": "Profiliniz kaydedilemedi: {error}",
       "editProfileAvatar": "Profil resmi",
       "editProfileDetails": "Kişisel bilgiler",
@@ -32346,7 +32346,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Bir seviye seçin",
       "learningFilterLevelQuestion": "Nereden başlamak istersiniz?",
       "learningFilterLevelDescription":
-          "Leximon, seçiminize göre zorluk seviyesini, kelime gruplarını ve pratik görevlerini ayarlayacak.",
+          "Axolume, seçiminize göre zorluk seviyesini, kelime gruplarını ve pratik görevlerini ayarlayacak.",
       "learningFilterBeginnerDescription":
           "Tanıdık, anlaşılması ve hatırlanması kolay kelimelerle başlayın.",
       "learningFilterIntermediateDescription":
@@ -32368,7 +32368,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Konuları seçin",
       "learningFilterTopicQuestion": "Hangi konular size uygun?",
       "learningFilterTopicDescription":
-          "Leximon’un başlangıçta öncelik vermesi için birden fazla konu seçin. 3–5 konu öneriyoruz.",
+          "Axolume’un başlangıçta öncelik vermesi için birden fazla konu seçin. 3–5 konu öneriyoruz.",
       "selectedTopicCount": "{count} konu seçildi",
       "learningFilterSmallGroupHint": "Önce küçük bir grupla başlayın",
       "learningFilterTopicLoadError": "Konu listesi yüklenemedi.",
@@ -32412,7 +32412,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Bu konudan birkaç kelime",
       "viewAll": "Tümünü görüntüle",
       "topicNoWords": "Bu konuda henüz kelime yok.",
-      "leximonTip": "Leximon ipucu",
+      "leximonTip": "Axolume ipucu",
       "topicReviewTip":
           "Daha iyi sonuç için yeni kelimeler öğrenmeden önce tekrar zamanı gelen kelimeleri çalışın.",
       "topicReviewTitle": "Tekrar • {topic}",
@@ -32431,7 +32431,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "{count} kelimeye ulaştığınızda tekrar etmeye başlayabilirsiniz",
       "vocabularyCollection": "KELİME KOLEKSİYONU",
-      "vocabularyCollectionTitle": "Leximon kütüphanesi",
+      "vocabularyCollectionTitle": "Axolume kütüphanesi",
       "practiseWords": "Kelimeleri çalış",
       "reviewWordsAction": "Tekrar et",
       "reviewMasteredWords": "Öğrenilmiş kelimeleri tekrar et",
@@ -32791,7 +32791,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Tekrara başlamadan önce aşağıdaki kelimeleri dikkatlice okuyun.",
       "reviewIntroBody":
-          "Leximon, kısa süreli hafızanızı güçlendirmek için seçtiğiniz kelimelere göre sorular soracak.",
+          "Axolume, kısa süreli hafızanızı güçlendirmek için seçtiğiniz kelimelere göre sorular soracak.",
       "reviewStart": "Tekrarı başlat",
       "reviewChooseAudioCount": "{count} ses kaydından 1 tanesini seçin",
       "reviewAudioSelectedHint":
@@ -32878,7 +32878,7 @@ class AppLocalizations {
       "reviewEndAction": "Tekrarı bitir",
       "notificationStudyTitle": "Çalışma zamanı! 📚",
       "notificationStudyBody":
-          "Leximon ile kelime tekrarı yapmak için birkaç dakikanızı ayırın.",
+          "Axolume ile kelime tekrarı yapmak için birkaç dakikanızı ayırın.",
       "notificationChannelName": "Günlük çalışma hatırlatıcısı",
       "notificationChannelDescription":
           "Kelime öğrenme alışkanlığınızı sürdürmenize yardımcı olan hatırlatıcılar.",
@@ -32963,14 +32963,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Bu paket şu anda kullanılamıyor.",
       "listeningPackUnlock": "Dinleme paketinin kilidini aç",
       "notificationSaleBody":
-          "Sınırlı süreli Leximon Pro özel teklifinden yararlan. Tüm derslerin kilidini aç ve reklamsız öğren.",
+          "Sınırlı süreli Axolume Pro özel teklifinden yararlan. Tüm derslerin kilidini aç ve reklamsız öğren.",
       "notificationSaleChannelDescription":
-          "Leximon özel teklifleri ve indirimleri hakkında bildirimler.",
+          "Axolume özel teklifleri ve indirimleri hakkında bildirimler.",
       "notificationSaleChannelName": "Teklifler ve indirimler",
       "notificationSaleTitle": "Sana özel bir teklif 🎉",
       "privacyPolicy": "Gizlilik Politikası",
       "privacyPolicyBody":
-          "Leximon'un verilerinizi nasıl topladığını, kullandığını ve koruduğunu öğrenin.",
+          "Axolume'un verilerinizi nasıl topladığını, kullandığını ve koruduğunu öğrenin.",
       "saleAnnualPlan": "Yıllık plan",
       "saleApproxMonthly": "Aylık yaklaşık {price}",
       "saleBenefitNoAds": "Reklamsız öğren",
@@ -33041,7 +33041,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} günlük ücretsiz deneme",
       "termsOfUse": "Kullanım Koşulları",
       "termsOfUseBody":
-          "Leximon uygulamasının ve hizmetlerinin kullanımına ilişkin koşulları okuyun.",
+          "Axolume uygulamasının ve hizmetlerinin kullanımına ilişkin koşulları okuyun.",
     },
     'uk': {
       "navStudy": "Навчання",
@@ -33118,7 +33118,7 @@ class AppLocalizations {
       "assessmentLevelStart": "Почати тест",
       "surveyIntroTitle": "Пройдемо коротке опитування!",
       "surveyIntroSubtitle":
-          "На основі ваших відповідей Leximon обере найкращий метод навчання для вас.",
+          "На основі ваших відповідей Axolume обере найкращий метод навчання для вас.",
       "freeTrialGift": "Ми даруємо вам",
       "freeTrialDuration": "7 днів безкоштовно",
       "freeTrialPurpose": "щоб спробувати наш застосунок",
@@ -33148,7 +33148,7 @@ class AppLocalizations {
       "surveySaveProgressError":
           "Не вдалося зберегти прогрес. Спробуйте ще раз.",
       "surveySaveTopicsError": "Не вдалося зберегти вибрані теми.",
-      "surveyContinueWithLeximon": "Продовжити з Leximon",
+      "surveyContinueWithLeximon": "Продовжити з Axolume",
       "surveyContinueJourney": "Продовжити свій шлях",
       "surveyGreat": "Чудово!",
       "surveyStartLearning": "Почнімо навчання!",
@@ -33197,7 +33197,7 @@ class AppLocalizations {
       "surveyPreferredTimeQuestion":
           "Коли вам найзручніше займатися англійською?",
       "surveyReminderPrimary":
-          "Leximon нагадає про заняття, щоб ви не пропускали жодного дня.",
+          "Axolume нагадає про заняття, щоб ви не пропускали жодного дня.",
       "surveyReminderSecondary":
           "Ми з’ясували, що регулярна практика може зробити вивчення англійської майже ",
       "surveyReminderHighlight": "у 4,6 раза швидшим!",
@@ -33369,7 +33369,7 @@ class AppLocalizations {
       "homeJourneyStart": "Почати свій шлях",
       "homeNoWordsTitle": "Місія на сьогодні",
       "homeNoWordsBody":
-          "Ви ще не вивчили жодного слова. Почніть із першої теми, щоб Leximon міг побудувати для вас відповідний шлях.",
+          "Ви ще не вивчили жодного слова. Почніть із першої теми, щоб Axolume міг побудувати для вас відповідний шлях.",
       "hello": "Привіт!",
       "homeMascotStart": "Почнімо!",
       "homeDayOneGoal": "ЦІЛЬ НА ДЕНЬ 1",
@@ -33422,10 +33422,10 @@ class AppLocalizations {
           "Не вдалося оновити час нагадування: {error}",
       "profileNotificationPermissionTitle": "Потрібен дозвіл на сповіщення",
       "profileNotificationPermissionBody":
-          "Leximon потрібен дозвіл на сповіщення, щоб щодня нагадувати вам про навчання. Увімкніть його в налаштуваннях застосунку.",
+          "Axolume потрібен дозвіл на сповіщення, щоб щодня нагадувати вам про навчання. Увімкніть його в налаштуваннях застосунку.",
       "profileMicPermissionTitle": "Потрібен дозвіл на мікрофон",
       "profileMicPermissionBody":
-          "Leximon потрібен доступ до мікрофона та розпізнавання мовлення для практики вимови. Надайте доступ у налаштуваннях застосунку.",
+          "Axolume потрібен доступ до мікрофона та розпізнавання мовлення для практики вимови. Надайте доступ у налаштуваннях застосунку.",
       "profileMicPermissionNeeded": "Потрібен доступ до мікрофона",
       "profileReminderEnabledBody":
           "Щовечора о {time} · натисніть, щоб змінити час",
@@ -33442,7 +33442,7 @@ class AppLocalizations {
       "photoLibrary": "фотогалерея",
       "permissionRequired": "Потрібен дозвіл",
       "editProfileImagePermissionBody":
-          "Leximon не має доступу до вашого {permission}. Ви можете ввімкнути його в налаштуваннях застосунку.",
+          "Axolume не має доступу до вашого {permission}. Ви можете ввімкнути його в налаштуваннях застосунку.",
       "editProfileSaveError": "Не вдалося зберегти профіль: {error}",
       "editProfileAvatar": "Фото профілю",
       "editProfileDetails": "Особисті дані",
@@ -33560,7 +33560,7 @@ class AppLocalizations {
       "learningFilterChooseLevel": "Оберіть рівень",
       "learningFilterLevelQuestion": "З чого ви хотіли б почати?",
       "learningFilterLevelDescription":
-          "Leximon налаштує складність, групи слів і практичні завдання відповідно до вашого вибору.",
+          "Axolume налаштує складність, групи слів і практичні завдання відповідно до вашого вибору.",
       "learningFilterBeginnerDescription":
           "Почніть зі знайомих слів, які легко зрозуміти й запам’ятати.",
       "learningFilterIntermediateDescription":
@@ -33582,7 +33582,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "Оберіть теми",
       "learningFilterTopicQuestion": "Які теми вам підходять?",
       "learningFilterTopicDescription":
-          "Оберіть кілька тем, яким Leximon надаватиме пріоритет на початку. Рекомендуємо 3–5 тем.",
+          "Оберіть кілька тем, яким Axolume надаватиме пріоритет на початку. Рекомендуємо 3–5 тем.",
       "selectedTopicCount": "Обрано тем: {count}",
       "learningFilterSmallGroupHint": "Спочатку почніть із невеликої групи",
       "learningFilterTopicLoadError": "Не вдалося завантажити список тем.",
@@ -33627,7 +33627,7 @@ class AppLocalizations {
       "topicPreviewTitle": "Кілька слів із цієї теми",
       "viewAll": "Переглянути все",
       "topicNoWords": "У цій темі ще немає слів.",
-      "leximonTip": "Порада Leximon",
+      "leximonTip": "Порада Axolume",
       "topicReviewTip":
           "Для кращого результату повторюйте слова, які вже час повторити, перш ніж вивчати нові.",
       "topicReviewTitle": "Повторення • {topic}",
@@ -33646,7 +33646,7 @@ class AppLocalizations {
       "topicReviewRequirement":
           "Коли у вас буде {count} слів, ви зможете почати їх повторювати",
       "vocabularyCollection": "КОЛЕКЦІЯ СЛІВ",
-      "vocabularyCollectionTitle": "Бібліотека Leximon",
+      "vocabularyCollectionTitle": "Бібліотека Axolume",
       "practiseWords": "Практикувати слова",
       "reviewWordsAction": "Повторити",
       "reviewMasteredWords": "Повторити опановані слова",
@@ -34011,7 +34011,7 @@ class AppLocalizations {
       "reviewIntroInstruction":
           "Уважно прочитайте слова нижче перед початком повторення.",
       "reviewIntroBody":
-          "Leximon поставить запитання на основі вибраних вами слів, щоб зміцнити короткочасну пам’ять.",
+          "Axolume поставить запитання на основі вибраних вами слів, щоб зміцнити короткочасну пам’ять.",
       "reviewStart": "Почати повторення",
       "reviewChooseAudioCount": "Оберіть 1 з {count} аудіозаписів",
       "reviewAudioSelectedHint":
@@ -34098,7 +34098,7 @@ class AppLocalizations {
       "reviewEndAction": "Завершити повторення",
       "notificationStudyTitle": "Час навчатися! 📚",
       "notificationStudyBody":
-          "Приділіть кілька хвилин повторенню слів із Leximon.",
+          "Приділіть кілька хвилин повторенню слів із Axolume.",
       "notificationChannelName": "Щоденне нагадування про навчання",
       "notificationChannelDescription":
           "Нагадування, які допомагають підтримувати звичку вивчати слова.",
@@ -34182,14 +34182,14 @@ class AppLocalizations {
       "listeningPackUnavailable": "Цей пакет наразі недоступний.",
       "listeningPackUnlock": "Розблокувати пакет для тренування аудіювання",
       "notificationSaleBody":
-          "Скористайтеся спеціальною пропозицією Leximon Pro, доступною протягом обмеженого часу. Розблокуйте всі уроки та навчайтеся без реклами.",
+          "Скористайтеся спеціальною пропозицією Axolume Pro, доступною протягом обмеженого часу. Розблокуйте всі уроки та навчайтеся без реклами.",
       "notificationSaleChannelDescription":
-          "Сповіщення про спеціальні пропозиції та знижки від Leximon.",
+          "Сповіщення про спеціальні пропозиції та знижки від Axolume.",
       "notificationSaleChannelName": "Пропозиції та знижки",
       "notificationSaleTitle": "Спеціальна пропозиція для вас 🎉",
       "privacyPolicy": "Політика конфіденційності",
       "privacyPolicyBody":
-          "Дізнайтеся, як Leximon збирає, використовує та захищає ваші дані.",
+          "Дізнайтеся, як Axolume збирає, використовує та захищає ваші дані.",
       "saleAnnualPlan": "Річний план",
       "saleApproxMonthly": "Приблизно {price} на місяць",
       "saleBenefitNoAds": "Навчайтеся без реклами",
@@ -34262,7 +34262,7 @@ class AppLocalizations {
       "subscriptionTrialOnly": "{days} днів безкоштовного пробного періоду",
       "termsOfUse": "Умови використання",
       "termsOfUseBody":
-          "Ознайомтеся з умовами використання застосунку Leximon та його сервісів.",
+          "Ознайомтеся з умовами використання застосунку Axolume та його сервісів.",
     },
     'zh': {
       "navStudy": "学习",
@@ -34329,7 +34329,7 @@ class AppLocalizations {
       "assessmentLevelFluent": "我能流利交流、阅读书籍， 并观看 英文电影",
       "assessmentLevelStart": "开始测试",
       "surveyIntroTitle": "来做一个 简短问卷吧！",
-      "surveyIntroSubtitle": "根据你的回答，Leximon 将 为你选择最合适的学习方式。",
+      "surveyIntroSubtitle": "根据你的回答，Axolume 将 为你选择最合适的学习方式。",
       "freeTrialGift": "我们为你提供",
       "freeTrialDuration": "7 天免费试用",
       "freeTrialPurpose": "体验我们的应用",
@@ -34356,7 +34356,7 @@ class AppLocalizations {
       "subscriptionStart": "开始免费试用 并订阅",
       "surveySaveProgressError": "无法保存你的进度，请重试。",
       "surveySaveTopicsError": "无法保存所选主题。",
-      "surveyContinueWithLeximon": "继续使用 Leximon",
+      "surveyContinueWithLeximon": "继续使用 Axolume",
       "surveyContinueJourney": "继续你的学习旅程",
       "surveyGreat": "太好了！",
       "surveyStartLearning": "开始学习吧！",
@@ -34396,7 +34396,7 @@ class AppLocalizations {
       "surveyHabitDescription": "每天固定留出时间学习，有助于养成习惯并 ",
       "surveyHabitHighlight": "更快进步。",
       "surveyPreferredTimeQuestion": "什么时间最方便你学习英语？",
-      "surveyReminderPrimary": "Leximon 会提醒你上课， 让你一天都不落下。",
+      "surveyReminderPrimary": "Axolume 会提醒你上课， 让你一天都不落下。",
       "surveyReminderSecondary": "我们发现，坚持规律练习可以让英语学习速度提升近 ",
       "surveyReminderHighlight": "4.6 倍！",
       "surveyChallengeQuestion": "你学习英语时最大的挑战是什么？",
@@ -34545,7 +34545,7 @@ class AppLocalizations {
       "dailyTaskDifficultDone": "已练习 {count} 个难词",
       "homeJourneyStart": "开始你的学习旅程",
       "homeNoWordsTitle": "今日任务",
-      "homeNoWordsBody": "你还没有学习任何单词。先从第一个主题开始，让 Leximon 为你建立合适的学习路径。",
+      "homeNoWordsBody": "你还没有学习任何单词。先从第一个主题开始，让 Axolume 为你建立合适的学习路径。",
       "hello": "你好！",
       "homeMascotStart": "开始吧！",
       "homeDayOneGoal": "第 1 天目标",
@@ -34597,9 +34597,9 @@ class AppLocalizations {
       "profileReminderUpdateError": "无法更新提醒时间：{error}",
       "profileNotificationPermissionTitle": "需要通知权限",
       "profileNotificationPermissionBody":
-          "Leximon 需要通知权限，以便每天提醒你学习。请在应用设置中开启权限。",
+          "Axolume 需要通知权限，以便每天提醒你学习。请在应用设置中开启权限。",
       "profileMicPermissionTitle": "需要麦克风权限",
-      "profileMicPermissionBody": "Leximon 需要麦克风和语音识别权限才能进行发音练习。请在应用设置中授予权限。",
+      "profileMicPermissionBody": "Axolume 需要麦克风和语音识别权限才能进行发音练习。请在应用设置中授予权限。",
       "profileMicPermissionNeeded": "需要麦克风权限",
       "profileReminderEnabledBody": "每天晚上 {time} · 点击修改时间",
       "profileReminderDisabledBody": "已关闭 · 点击开启",
@@ -34615,7 +34615,7 @@ class AppLocalizations {
       "photoLibrary": "照片图库",
       "permissionRequired": "需要权限",
       "editProfileImagePermissionBody":
-          "Leximon 无法访问你的{permission}。你可以在应用设置中开启权限。",
+          "Axolume 无法访问你的{permission}。你可以在应用设置中开启权限。",
       "editProfileSaveError": "无法保存个人资料：{error}",
       "editProfileAvatar": "头像",
       "editProfileDetails": "个人信息",
@@ -34723,7 +34723,7 @@ class AppLocalizations {
       "recommended": "推荐",
       "learningFilterChooseLevel": "选择等级",
       "learningFilterLevelQuestion": "你想从哪里开始？",
-      "learningFilterLevelDescription": "Leximon 会根据你的选择调整难度、词汇组和练习挑战。",
+      "learningFilterLevelDescription": "Axolume 会根据你的选择调整难度、词汇组和练习挑战。",
       "learningFilterBeginnerDescription": "从熟悉、容易上手和记忆的单词开始。",
       "learningFilterIntermediateDescription": "通过实用场景和更多主题扩展词汇量。",
       "learningFilterAdvancedDescription": "掌握难词、细微含义和职场语言。",
@@ -34741,7 +34741,7 @@ class AppLocalizations {
       "learningFilterChooseTopics": "选择主题",
       "learningFilterTopicQuestion": "哪些主题适合你？",
       "learningFilterTopicDescription":
-          "可以选择多个主题，Leximon 会优先安排这些内容。建议选择 3–5 个主题。",
+          "可以选择多个主题，Axolume 会优先安排这些内容。建议选择 3–5 个主题。",
       "selectedTopicCount": "已选择 {count} 个主题",
       "learningFilterSmallGroupHint": "先从少量主题开始",
       "learningFilterTopicLoadError": "无法加载主题列表。",
@@ -34775,7 +34775,7 @@ class AppLocalizations {
       "topicPreviewTitle": "本主题中的部分单词",
       "viewAll": "查看全部",
       "topicNoWords": "本主题暂时没有单词。",
-      "leximonTip": "Leximon 小提示",
+      "leximonTip": "Axolume 小提示",
       "topicReviewTip": "先复习到期单词，再学习新词，效果会更好。",
       "topicReviewTitle": "复习 • {topic}",
       "topicReviewOpenError": "无法打开复习会话，请重试。",
@@ -34788,7 +34788,7 @@ class AppLocalizations {
       "available": "可开始",
       "topicReviewRequirement": "拥有 {count} 个单词后即可开始复习",
       "vocabularyCollection": "词汇收藏",
-      "vocabularyCollectionTitle": "Leximon 词库",
+      "vocabularyCollectionTitle": "Axolume 词库",
       "practiseWords": "练习单词",
       "reviewWordsAction": "复习",
       "reviewMasteredWords": "复习已掌握单词",
@@ -35107,7 +35107,7 @@ class AppLocalizations {
       "reviewAudioOption": "音频 {letter}",
       "reviewExitAction": "退出复习",
       "reviewIntroInstruction": "开始复习前，请仔细阅读下面的单词。",
-      "reviewIntroBody": "Leximon 会根据你选择的单词出题，帮助强化短期记忆。",
+      "reviewIntroBody": "Axolume 会根据你选择的单词出题，帮助强化短期记忆。",
       "reviewStart": "开始复习",
       "reviewChooseAudioCount": "从 {count} 段音频中选择 1 段",
       "reviewAudioSelectedHint": "已选择音频 — 点击“选择”进行检查",
@@ -35177,7 +35177,7 @@ class AppLocalizations {
       "reviewEndBody": "本次学习进度不会保存。你可以随时重新开始这组单词。",
       "reviewEndAction": "结束复习",
       "notificationStudyTitle": "该学习啦！📚",
-      "notificationStudyBody": "花几分钟和 Leximon 一起复习词汇吧。",
+      "notificationStudyBody": "花几分钟和 Axolume 一起复习词汇吧。",
       "notificationChannelName": "每日学习提醒",
       "notificationChannelDescription": "帮助你坚持词汇学习习惯的提醒。",
       "sentenceTypeConstructor": "构建英文句子",
@@ -35246,12 +35246,12 @@ class AppLocalizations {
       "listeningPackTitle": "听力训练礼包",
       "listeningPackUnavailable": "此礼包当前不可用。",
       "listeningPackUnlock": "解锁听力训练礼包",
-      "notificationSaleBody": "限时享受 Leximon Pro 特别优惠。解锁所有课程，无广告学习。",
-      "notificationSaleChannelDescription": "来自 Leximon 的特别优惠和折扣通知。",
+      "notificationSaleBody": "限时享受 Axolume Pro 特别优惠。解锁所有课程，无广告学习。",
+      "notificationSaleChannelDescription": "来自 Axolume 的特别优惠和折扣通知。",
       "notificationSaleChannelName": "优惠与折扣",
       "notificationSaleTitle": "为你准备的特别优惠 🎉",
       "privacyPolicy": "隐私政策",
-      "privacyPolicyBody": "了解 Leximon 如何收集、使用和保护你的数据。",
+      "privacyPolicyBody": "了解 Axolume 如何收集、使用和保护你的数据。",
       "saleAnnualPlan": "年度方案",
       "saleApproxMonthly": "每月约 {price}",
       "saleBenefitNoAds": "无广告学习",
@@ -35312,7 +35312,7 @@ class AppLocalizations {
       "subscriptionTerms": "使用条款",
       "subscriptionTrialOnly": "{days} 天免费试用",
       "termsOfUse": "使用条款",
-      "termsOfUseBody": "请阅读适用于 Leximon 应用及其服务的使用条款。",
+      "termsOfUseBody": "请阅读适用于 Axolume 应用及其服务的使用条款。",
     },
     'zh-TW': zhTwTranslations,
   };

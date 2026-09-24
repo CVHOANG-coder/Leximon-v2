@@ -562,7 +562,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
       ),
       child: Row(
         children: [
-          const OwlAvatar(size: 46, radius: 15),
+          const AxolotlAvatar(size: 46, radius: 15),
           const SizedBox(width: 12),
           Expanded(
             child: Text.rich(

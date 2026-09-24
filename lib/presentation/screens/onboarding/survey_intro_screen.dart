@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 
 class SurveyIntroScreen extends StatefulWidget {
@@ -138,26 +139,21 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                         child: DecoratedBox(
                           decoration: BoxDecoration(
                             gradient: const LinearGradient(
-                              colors: [
-                                Color(0xFFFBFAFE),
-                                Color(0xFFF1EFFA),
-                                Color(0xFFFBFAFE),
-                              ],
+                              colors: AppColors.onboardingPrimaryGradient,
+                              stops: AppColors.onboardingPrimaryGradientStops,
                               begin: Alignment.centerLeft,
                               end: Alignment.centerRight,
                             ),
                             borderRadius: BorderRadius.circular(34),
-                            border: Border.all(color: Colors.white, width: 1.5),
+                            border: Border.all(
+                              color: const Color(0x999F8CFF),
+                              width: 1.5,
+                            ),
                             boxShadow: const [
                               BoxShadow(
-                                color: Color(0x701B8CFF),
+                                color: Color(0x703D0EE8),
                                 blurRadius: 26,
                                 offset: Offset(0, 10),
-                              ),
-                              BoxShadow(
-                                color: Color(0x80FFFFFF),
-                                blurRadius: 12,
-                                offset: Offset(0, -2),
                               ),
                             ],
                           ),
@@ -174,7 +170,7 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                                 child: Text(
                                   context.l10n.continueLabel,
                                   style: const TextStyle(
-                                    color: Color(0xFF7C5CFC),
+                                    color: Colors.white,
                                     fontSize: 26,
                                     fontWeight: FontWeight.w700,
                                   ),

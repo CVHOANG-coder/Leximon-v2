@@ -671,7 +671,7 @@ class _TestHeader extends StatelessWidget {
                       ImageFiltered(
                         imageFilter: ui.ImageFilter.blur(sigmaX: 7, sigmaY: 7),
                         child: Image.asset(
-                          'assets/images/owls/owl_test.png',
+                          'assets/images/axolotls/axolotl_test.png',
                           width: 76,
                           height: 76,
                           fit: BoxFit.contain,
@@ -680,7 +680,7 @@ class _TestHeader extends StatelessWidget {
                         ),
                       ),
                       Image.asset(
-                        'assets/images/owls/owl_test.png',
+                        'assets/images/axolotls/axolotl_test.png',
                         width: 78,
                         height: 78,
                         fit: BoxFit.contain,
@@ -1859,7 +1859,7 @@ class _PrimaryTestButton extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: enabled
               ? const LinearGradient(
-                  colors: [Color(0xFF6240DF), Color(0xFF906FFF)],
+                  colors: AppColors.onboardingPrimaryGradient,
                 )
               : const LinearGradient(
                   colors: [Color(0xFFE1DEEB), Color(0xFFD8D4E3)],
@@ -1933,7 +1933,7 @@ class _CountdownView extends StatelessWidget {
                           child: Padding(
                             padding: const EdgeInsets.only(left: 30),
                             child: Image.asset(
-                              'assets/images/owls/owl_test.png',
+                              'assets/images/axolotls/axolotl_test.png',
                               fit: BoxFit.contain,
                             ),
                           ),
@@ -2100,7 +2100,11 @@ class _BetweenPartsView extends StatelessWidget {
             height: 64,
             child: DecoratedBox(
               decoration: BoxDecoration(
-                color: const Color(0xFFF8F6FD),
+                gradient: const LinearGradient(
+                  colors: AppColors.onboardingPrimaryGradient,
+                  begin: Alignment.centerLeft,
+                  end: Alignment.centerRight,
+                ),
                 borderRadius: BorderRadius.circular(36),
                 boxShadow: const [
                   BoxShadow(
@@ -2121,7 +2125,7 @@ class _BetweenPartsView extends StatelessWidget {
                     child: Text(
                       context.l10n.continueLabel,
                       style: const TextStyle(
-                        color: Color(0xFF7453EC),
+                        color: Colors.white,
                         fontSize: 22,
                         fontWeight: FontWeight.w800,
                       ),
@@ -2203,7 +2207,7 @@ class _ResultView extends StatelessWidget {
                   height: 220,
                   width: double.infinity,
                   child: Image.asset(
-                    'assets/images/owls/owl_winner.png',
+                    'assets/images/axolotls/axolotl_winner.png',
                     fit: BoxFit.contain,
                     cacheWidth: 900,
                   ),

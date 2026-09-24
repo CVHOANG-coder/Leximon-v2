@@ -271,7 +271,7 @@ class _ListeningHeader extends StatelessWidget {
             width: 120,
             height: 120,
             child: Image.asset(
-              'assets/images/practice_listen/owl_listener.png',
+              'assets/images/practice_listen/axolotl_listener.png',
               fit: BoxFit.contain,
             ),
           ),

@@ -796,8 +796,8 @@ class _IpaLoading extends StatelessWidget {
                       Expanded(
                         child: Center(
                           child: Image.asset(
-                            'assets/images/loading/owl_loading.png',
-                            key: const ValueKey('ipa-loading-owl'),
+                            'assets/images/loading/axolotl_loading.png',
+                            key: const ValueKey('ipa-loading-axolotl'),
                             fit: BoxFit.contain,
                             width: (constraints.maxWidth * .92).clamp(
                               0,

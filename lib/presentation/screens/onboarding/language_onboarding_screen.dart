@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/app_tracking_transparency_service.dart';
 import '../../../data/datasources/topic_asset_data_source.dart';
@@ -181,7 +182,7 @@ class _LanguageHeader extends StatelessWidget {
             right: 8,
             top: 10,
             child: Image.asset(
-              'assets/images/leximon-owl-wave.png',
+              'assets/images/leximon-axolotl-wave.png',
               width: 150,
               height: 150,
               fit: BoxFit.contain,
@@ -269,11 +270,7 @@ class _LanguagePanel extends StatelessWidget {
                   gradient: LinearGradient(
                     colors: isSaving
                         ? const [Color(0xFFA996EE), Color(0xFFB8A8F1)]
-                        : const [
-                            Color(0xFF3D0EE8),
-                            Color(0xFF6847E5),
-                            Color(0xFF7F5CFB),
-                          ],
+                        : AppColors.onboardingPrimaryGradient,
                     begin: Alignment.centerLeft,
                     end: Alignment.centerRight,
                   ),

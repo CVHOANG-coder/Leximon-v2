@@ -156,8 +156,8 @@ class _ListeningPreloadScreenState
                         Expanded(
                           child: Center(
                             child: Image.asset(
-                              'assets/images/loading/owl_loading.png',
-                              key: const ValueKey('listening-preload-owl'),
+                              'assets/images/loading/axolotl_loading.png',
+                              key: const ValueKey('listening-preload-axolotl'),
                               fit: BoxFit.contain,
                               width: mathMin(
                                 constraints.maxWidth * .92,

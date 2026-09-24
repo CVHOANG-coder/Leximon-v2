@@ -9,7 +9,7 @@ import 'api_response.dart';
 typedef AuthTokenLoader = Future<String?> Function();
 typedef AuthTokenRefresher = Future<String?> Function();
 
-/// Shared HTTP client for the Leximon backend.
+/// Shared HTTP client for the Axolume backend.
 class ApiClient {
   ApiClient({
     http.Client? client,

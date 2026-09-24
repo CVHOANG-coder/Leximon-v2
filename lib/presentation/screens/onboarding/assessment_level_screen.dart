@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/onboarding_vocabulary_test.dart';
 
@@ -199,7 +200,7 @@ class _AssessmentLevelHeader extends StatelessWidget {
             right: -3,
             top: 16,
             child: Image.asset(
-              'assets/images/owls/owl_learn.png',
+              'assets/images/axolotls/axolotl_learn.png',
               width: 151,
               height: 192,
               fit: BoxFit.contain,
@@ -304,7 +305,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
                       child: DecoratedBox(
                         decoration: BoxDecoration(
                           gradient: const LinearGradient(
-                            colors: [Color(0xFF6240DF), Color(0xFF906FFF)],
+                            colors: AppColors.onboardingPrimaryGradient,
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
                           ),

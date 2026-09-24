@@ -157,9 +157,9 @@ class _LanguagePackageLoadingScreenState
                         Expanded(
                           child: Center(
                             child: Image.asset(
-                              'assets/images/loading/owl_loading.png',
+                              'assets/images/loading/axolotl_loading.png',
                               key: const ValueKey(
-                                'language-package-loading-owl',
+                                'language-package-loading-axolotl',
                               ),
                               fit: BoxFit.contain,
                               width: _min(

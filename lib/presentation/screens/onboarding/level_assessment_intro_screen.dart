@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 
 class LevelAssessmentIntroScreen extends StatefulWidget {
@@ -220,7 +221,7 @@ class _AssessmentHeader extends StatelessWidget {
             right: -10,
             top: 45,
             child: Image.asset(
-              'assets/images/owls/owl_test.png',
+              'assets/images/axolotls/axolotl_test.png',
               width: 130,
               height: 130,
               fit: BoxFit.contain,
@@ -380,11 +381,7 @@ class _AssessmentPanel extends StatelessWidget {
                           gradient: LinearGradient(
                             colors: isFinishing
                                 ? const [Color(0xFFA996EE), Color(0xFFB8A8F1)]
-                                : const [
-                                    Color(0xFF3D0EE8),
-                                    Color(0xFF6847E5),
-                                    Color(0xFF7F5CFB),
-                                  ],
+                                : AppColors.onboardingPrimaryGradient,
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
                           ),

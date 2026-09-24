@@ -358,7 +358,7 @@ class _GrammarHero extends StatelessWidget {
         ),
         child: LayoutBuilder(
           builder: (context, constraints) {
-            final owlWidth = constraints.maxWidth * .34;
+            final axolotlWidth = constraints.maxWidth * .34;
             const contentRight = 88.0;
             return Stack(
               clipBehavior: Clip.none,
@@ -366,10 +366,10 @@ class _GrammarHero extends StatelessWidget {
                 Positioned(
                   left: 2,
                   bottom: -1,
-                  width: owlWidth,
+                  width: axolotlWidth,
                   height: constraints.maxHeight * .96,
                   child: Image.asset(
-                    'assets/images/grammar/owl_grammar.png',
+                    'assets/images/grammar/axolotl_grammar.png',
                     fit: BoxFit.contain,
                     alignment: Alignment.bottomCenter,
                   ),

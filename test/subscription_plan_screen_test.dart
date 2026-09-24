@@ -101,7 +101,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.textContaining('dùng thử miễn phí'), findsNothing);
-    expect(find.text('Mở khóa Leximon Pro'), findsOneWidget);
+    expect(find.text('Mở khóa Axolume Pro'), findsOneWidget);
     expect(find.text('Đăng ký ngay'), findsOneWidget);
     expect(
       find.text(

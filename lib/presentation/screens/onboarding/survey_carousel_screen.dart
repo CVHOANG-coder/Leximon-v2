@@ -8,6 +8,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:lottie/lottie.dart';
 
+import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/daily_notification_service.dart';
 import '../../../data/models/topic.dart';
@@ -379,7 +380,6 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                           _ => context.l10n.continueLabel,
                         },
                         showArrow: _currentPage == 5,
-                        useBlueGradient: _currentPage == 14,
                         enabled: _canContinue,
                         isLoading: _isFinishing,
                         onTap: _continue,
@@ -2367,7 +2367,7 @@ class _SocialProofPage extends StatelessWidget {
             TextSpan(
               children: [
                 const TextSpan(
-                  text: 'Leximon',
+                  text: 'Axolume',
                   style: TextStyle(
                     color: Color(0xFF9A7FFC),
                     fontWeight: FontWeight.w800,
@@ -3325,7 +3325,7 @@ class _SurveySummaryPage extends StatelessWidget {
               children: [
                 TextSpan(text: context.l10n.text('surveySummaryWith')),
                 const TextSpan(
-                  text: 'Leximon',
+                  text: 'Axolume',
                   style: TextStyle(fontWeight: FontWeight.w800),
                 ),
                 TextSpan(text: context.l10n.text('surveySummaryDaily')),
@@ -3493,7 +3493,6 @@ class _SurveyContinueButton extends StatelessWidget {
   const _SurveyContinueButton({
     required this.label,
     required this.showArrow,
-    required this.useBlueGradient,
     required this.enabled,
     required this.isLoading,
     required this.onTap,
@@ -3501,7 +3500,6 @@ class _SurveyContinueButton extends StatelessWidget {
 
   final String label;
   final bool showArrow;
-  final bool useBlueGradient;
   final bool enabled;
   final bool isLoading;
   final VoidCallback onTap;
@@ -3518,24 +3516,17 @@ class _SurveyContinueButton extends StatelessWidget {
               ? const LinearGradient(
                   colors: [Color(0xFFE2E0EB), Color(0xFFF1F0F6)],
                 )
-              : useBlueGradient
-              ? const LinearGradient(
-                  colors: [
-                    Color(0xFF7D5CF4),
-                    Color(0xFF9478FC),
-                    Color(0xFF8567F3),
-                  ],
-                )
               : const LinearGradient(
-                  colors: [
-                    Color(0xFFFBFAFE),
-                    Color(0xFFF1EFFA),
-                    Color(0xFFFBFAFE),
-                  ],
+                  colors: AppColors.onboardingPrimaryGradient,
+                  stops: AppColors.onboardingPrimaryGradientStops,
+                  begin: Alignment.centerLeft,
+                  end: Alignment.centerRight,
                 ),
           borderRadius: BorderRadius.circular(34),
           border: Border.all(
-            color: isEnabled ? Colors.white : const Color(0xFFD7D4E2),
+            color: isEnabled
+                ? const Color(0x999F8CFF)
+                : const Color(0xFFD7D4E2),
             width: 1.5,
           ),
           boxShadow: isEnabled
@@ -3562,11 +3553,7 @@ class _SurveyContinueButton extends StatelessWidget {
                   SizedBox.square(
                     dimension: 24,
                     child: CircularProgressIndicator(
-                      color: useBlueGradient
-                          ? (isEnabled ? Colors.white : const Color(0xFF8F87A1))
-                          : (isEnabled
-                                ? const Color(0xFF7C5CFC)
-                                : const Color(0xFF8F87A1)),
+                      color: isEnabled ? Colors.white : const Color(0xFF8F87A1),
                       strokeWidth: 2.5,
                     ),
                   )
@@ -3575,11 +3562,7 @@ class _SurveyContinueButton extends StatelessWidget {
                     label,
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: useBlueGradient
-                          ? (isEnabled ? Colors.white : const Color(0xFF8F87A1))
-                          : (isEnabled
-                                ? const Color(0xFF7C5CFC)
-                                : const Color(0xFF8F87A1)),
+                      color: isEnabled ? Colors.white : const Color(0xFF8F87A1),
                       fontSize: label.length > 10 ? 18 : 19,
                       fontWeight: FontWeight.w700,
                     ),
@@ -3589,7 +3572,7 @@ class _SurveyContinueButton extends StatelessWidget {
                       right: 29,
                       child: Icon(
                         Icons.arrow_forward_rounded,
-                        color: Color(0xFF6C47F2),
+                        color: Colors.white,
                         size: 30,
                       ),
                     ),

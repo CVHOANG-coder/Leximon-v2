@@ -250,8 +250,8 @@ class _ChallengeHero extends StatelessWidget {
                 width: compact ? 150 : 174,
                 child: IgnorePointer(
                   child: Image.asset(
-                    'assets/images/owls/owl_challenge.png',
-                    key: const ValueKey('challenge-owl'),
+                    'assets/images/axolotls/axolotl_challenge.png',
+                    key: const ValueKey('challenge-axolotl'),
                     fit: BoxFit.contain,
                   ),
                 ),

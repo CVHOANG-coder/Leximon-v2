@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:intl/intl.dart';
 
+import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/iap_packages_response.dart';
 import '../../../data/services/iap_catalog_service.dart';
@@ -804,14 +805,17 @@ class _SubscriptionStartButton extends StatelessWidget {
     decoration: BoxDecoration(
       gradient: LinearGradient(
         colors: enabled
-            ? const [Color(0xFF21D86A), Color(0xFF08B95C)]
+            ? AppColors.onboardingPrimaryGradient
             : const [Color(0xFFCDC7E3), Color(0xFFB9DEDB)],
+        stops: AppColors.onboardingPrimaryGradientStops,
+        begin: Alignment.centerLeft,
+        end: Alignment.centerRight,
       ),
       borderRadius: BorderRadius.circular(30),
       boxShadow: enabled
           ? const [
               BoxShadow(
-                color: Color(0x3A1F8FF1),
+                color: Color(0x4D7C5CFC),
                 blurRadius: 20,
                 offset: Offset(0, 8),
               ),

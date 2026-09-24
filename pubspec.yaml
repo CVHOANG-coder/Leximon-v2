@@ -1,5 +1,5 @@
 name: leximon
-description: "Leximon mobile app foundation inspired by WaifuAI."
+description: "Axolume mobile app foundation inspired by WaifuAI."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -103,8 +103,8 @@ flutter:
 
   assets:
     - assets/images/splash.png
-    - assets/images/leximon-owl.png
-    - assets/images/leximon-owl-wave.png
+    - assets/images/leximon-axolotl.png
+    - assets/images/leximon-axolotl-wave.png
     - assets/images/banner_header.png
     - assets/images/banner_choose_language.png
     - assets/images/bg_word_study.png
@@ -114,13 +114,13 @@ flutter:
     - assets/images/bg_sentence.png
     - assets/images/card_progress_banner.png
     - assets/images/empty_word_vocabulary_collection.png
-    - assets/images/owl_daily_home.png
+    - assets/images/axolotl_daily_home.png
     - assets/images/tab_personal_active.png
     - assets/images/tab_personal_inactive.png
     - assets/images/practice_listen/
     - assets/images/in_app_purchase/
     - assets/images/loading/
-    - assets/images/owls/
+    - assets/images/axolotls/
     - assets/images/onboarding/
     - assets/images/grammar/
     - assets/images/ipa/

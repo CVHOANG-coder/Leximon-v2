@@ -36,7 +36,7 @@ void main() {
         languageService: AppLanguageService(),
         countryCodeLoader: () => 'us',
         packageInfoLoader: () async => PackageInfo(
-          appName: 'Leximon',
+          appName: 'Axolume',
           packageName: 'com.leximon.leximon',
           version: '1.0.0',
           buildNumber: '4',
@@ -93,7 +93,7 @@ void main() {
       deviceIdStorage: _FakeDeviceIdStorage(),
       languageService: AppLanguageService(),
       packageInfoLoader: () async => PackageInfo(
-        appName: 'Leximon',
+        appName: 'Axolume',
         packageName: 'com.leximon.leximon',
         version: '1.0.0',
         buildNumber: '4',
@@ -231,7 +231,7 @@ void main() {
       ),
       languageService: AppLanguageService(),
       packageInfoLoader: () async => PackageInfo(
-        appName: 'Leximon',
+        appName: 'Axolume',
         packageName: 'com.leximon.leximon',
         version: '1.0.0',
         buildNumber: '4',
@@ -314,7 +314,7 @@ void main() {
       ),
       languageService: AppLanguageService(),
       packageInfoLoader: () async => PackageInfo(
-        appName: 'Leximon',
+        appName: 'Axolume',
         packageName: 'com.leximon.leximon',
         version: '1.0.0',
         buildNumber: '4',
@@ -389,7 +389,7 @@ class _FakeDeviceIdStorage implements DeviceIdStorage {
 }
 
 Future<PackageInfo> _packageInfo() async => PackageInfo(
-  appName: 'Leximon',
+  appName: 'Axolume',
   packageName: 'com.leximon.leximon',
   version: '1.0.0',
   buildNumber: '4',

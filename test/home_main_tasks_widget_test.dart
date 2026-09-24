@@ -28,7 +28,7 @@ void main() {
       findsOneWidget,
     );
     expect(find.text('Học từ mới'), findsOneWidget);
-    expect(find.byKey(const ValueKey('home-daily-owl')), findsOneWidget);
+    expect(find.byKey(const ValueKey('home-daily-axolotl')), findsOneWidget);
     final dailyCardRect = tester.getRect(
       find.byKey(const Key('home-daily-card')),
     );

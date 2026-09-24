@@ -355,7 +355,7 @@ class _ProgressHeader extends StatelessWidget {
             ],
           ),
         ),
-        const OwlAvatar(size: 76, radius: 24),
+        const AxolotlAvatar(size: 76, radius: 24),
       ],
     );
   }

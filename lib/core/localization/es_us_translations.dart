@@ -39,7 +39,8 @@ const esUsTranslations = <String, String>{
   "loading": "Cargando...",
   "preparingLanguagePackage": "Preparando contenido del idioma...",
   "checkingLanguageModels": "Comprobando modelos de idioma sin conexión...",
-  "downloadingLanguageModel": "Descargando modelo de idioma {current}/{total}...",
+  "downloadingLanguageModel":
+      "Descargando modelo de idioma {current}/{total}...",
   "languageModelsReady": "Los modelos de idioma están listos",
   "finalizingLanguageChange": "Finalizando la configuración del idioma...",
   "levelBeginner": "Principiante",
@@ -72,7 +73,7 @@ const esUsTranslations = <String, String>{
   "assessmentLevelStart": "Iniciar la prueba",
   "surveyIntroTitle": "¡Hagamos una\nbreve encuesta!",
   "surveyIntroSubtitle":
-      "Según tus respuestas, Leximon\nelegirá el mejor método de aprendizaje para ti.",
+      "Según tus respuestas, Axolume\nelegirá el mejor método de aprendizaje para ti.",
   "freeTrialGift": "Te regalamos",
   "freeTrialDuration": "7 días gratis",
   "freeTrialPurpose": "para probar nuestra aplicación",
@@ -103,7 +104,7 @@ const esUsTranslations = <String, String>{
   "surveySaveProgressError":
       "No se pudo guardar tu progreso. Inténtalo de nuevo.",
   "surveySaveTopicsError": "No se pudieron guardar los temas seleccionados.",
-  "surveyContinueWithLeximon": "Continuar con Leximon",
+  "surveyContinueWithLeximon": "Continuar con Axolume",
   "surveyContinueJourney": "Continuar tu camino",
   "surveyGreat": "¡Genial!",
   "surveyStartLearning": "¡Empecemos a aprender!",
@@ -150,7 +151,7 @@ const esUsTranslations = <String, String>{
   "surveyPreferredTimeQuestion":
       "¿Qué hora te resulta más conveniente para estudiar inglés?",
   "surveyReminderPrimary":
-      "Leximon te recordará tus lecciones\npara que no te saltes ningún día.",
+      "Axolume te recordará tus lecciones\npara que no te saltes ningún día.",
   "surveyReminderSecondary":
       "Hemos comprobado que practicar con regularidad puede hacer que aprendas inglés casi ",
   "surveyReminderHighlight": "¡4,6 veces más rápido!",
@@ -322,7 +323,7 @@ const esUsTranslations = <String, String>{
   "homeJourneyStart": "Empieza tu camino",
   "homeNoWordsTitle": "Misión de hoy",
   "homeNoWordsBody":
-      "Todavía no has aprendido ninguna palabra. Empieza con tu primer tema para que Leximon pueda crear la ruta adecuada para ti.",
+      "Todavía no has aprendido ninguna palabra. Empieza con tu primer tema para que Axolume pueda crear la ruta adecuada para ti.",
   "hello": "¡Hola!",
   "homeMascotStart": "¡Vamos a empezar!",
   "homeDayOneGoal": "OBJETIVO DEL DÍA 1",
@@ -377,10 +378,10 @@ const esUsTranslations = <String, String>{
   "profileNotificationPermissionTitle":
       "Se necesita permiso para las notificaciones",
   "profileNotificationPermissionBody":
-      "Leximon necesita permiso para enviarte notificaciones y recordarte que estudies cada día. Actívalo en la configuración de la aplicación.",
+      "Axolume necesita permiso para enviarte notificaciones y recordarte que estudies cada día. Actívalo en la configuración de la aplicación.",
   "profileMicPermissionTitle": "Se necesita permiso para el micrófono",
   "profileMicPermissionBody":
-      "Leximon necesita acceso al micrófono y al reconocimiento de voz para practicar la pronunciación. Otorga acceso en la configuración de la aplicación.",
+      "Axolume necesita acceso al micrófono y al reconocimiento de voz para practicar la pronunciación. Otorga acceso en la configuración de la aplicación.",
   "profileMicPermissionNeeded": "Se necesita permiso para el micrófono",
   "profileReminderEnabledBody":
       "Cada tarde a las {time} · toca para cambiar la hora",
@@ -397,7 +398,7 @@ const esUsTranslations = <String, String>{
   "photoLibrary": "fototeca",
   "permissionRequired": "Permiso necesario",
   "editProfileImagePermissionBody":
-      "Leximon no tiene acceso a tu {permission}. Puedes habilitarlo en la configuración de la aplicación.",
+      "Axolume no tiene acceso a tu {permission}. Puedes habilitarlo en la configuración de la aplicación.",
   "editProfileSaveError": "No se pudo guardar tu perfil: {error}",
   "editProfileAvatar": "Foto de perfil",
   "editProfileDetails": "Datos personales",
@@ -518,7 +519,7 @@ const esUsTranslations = <String, String>{
   "learningFilterChooseLevel": "Elige un nivel",
   "learningFilterLevelQuestion": "¿Por dónde quieres empezar?",
   "learningFilterLevelDescription":
-      "Leximon ajustará la dificultad, los grupos de vocabulario y los retos de práctica según tu elección.",
+      "Axolume ajustará la dificultad, los grupos de vocabulario y los retos de práctica según tu elección.",
   "learningFilterBeginnerDescription":
       "Empieza con palabras conocidas, sencillas y fáciles de recordar.",
   "learningFilterIntermediateDescription":
@@ -540,7 +541,7 @@ const esUsTranslations = <String, String>{
   "learningFilterChooseTopics": "Elegir temas",
   "learningFilterTopicQuestion": "¿Qué temas son adecuados para ti?",
   "learningFilterTopicDescription":
-      "Elige varios temas para que Leximon les dé prioridad al principio. Recomendamos entre 3 y 5 temas.",
+      "Elige varios temas para que Axolume les dé prioridad al principio. Recomendamos entre 3 y 5 temas.",
   "selectedTopicCount": "{count} temas seleccionados",
   "learningFilterSmallGroupHint": "Empieza primero con un grupo pequeño",
   "learningFilterTopicLoadError": "No se pudo cargar la lista de temas.",
@@ -585,7 +586,7 @@ const esUsTranslations = <String, String>{
   "topicPreviewTitle": "Algunas palabras de este tema",
   "viewAll": "Ver todo",
   "topicNoWords": "Todavía no hay palabras en este tema.",
-  "leximonTip": "Consejo de Leximon",
+  "leximonTip": "Consejo de Axolume",
   "topicReviewTip":
       "Repasa las palabras pendientes antes de aprender otras nuevas para obtener mejores resultados.",
   "topicReviewTitle": "Repaso • {topic}",
@@ -604,7 +605,7 @@ const esUsTranslations = <String, String>{
   "topicReviewRequirement":
       "Cuando tengas {count} palabras, podrás empezar a repasarlas",
   "vocabularyCollection": "COLECCIÓN DE VOCABULARIO",
-  "vocabularyCollectionTitle": "Biblioteca de Leximon",
+  "vocabularyCollectionTitle": "Biblioteca de Axolume",
   "practiseWords": "Practicar palabras",
   "reviewWordsAction": "Repasar",
   "reviewMasteredWords": "Repasar palabras dominadas",
@@ -973,7 +974,7 @@ const esUsTranslations = <String, String>{
   "reviewIntroInstruction":
       "Lee con atención las palabras de abajo antes de empezar el repaso.",
   "reviewIntroBody":
-      "Leximon te hará preguntas basadas en las palabras que seleccionaste para reforzar tu memoria a corto plazo.",
+      "Axolume te hará preguntas basadas en las palabras que seleccionaste para reforzar tu memoria a corto plazo.",
   "reviewStart": "Empezar repaso",
   "reviewChooseAudioCount": "Elige 1 de {count} audios",
   "reviewAudioSelectedHint": "Audio seleccionado — toca Elegir para verificar",
@@ -1060,7 +1061,7 @@ const esUsTranslations = <String, String>{
   "reviewEndAction": "Finalizar repaso",
   "notificationStudyTitle": "¡Hora de estudiar! 📚",
   "notificationStudyBody":
-      "Dedica unos minutos a repasar vocabulario con Leximon.",
+      "Dedica unos minutos a repasar vocabulario con Axolume.",
   "notificationChannelName": "Recordatorio diario de estudio",
   "notificationChannelDescription":
       "Recordatorios para ayudarte a mantener tu hábito de aprender vocabulario.",
@@ -1144,14 +1145,14 @@ const esUsTranslations = <String, String>{
       "Este paquete no está disponible en este momento.",
   "listeningPackUnlock": "Desbloquear paquete de comprensión auditiva",
   "notificationSaleBody":
-      "Aprovecha una oferta especial por tiempo limitado en Leximon Pro. Desbloquea todas las lecciones y aprende sin anuncios.",
+      "Aprovecha una oferta especial por tiempo limitado en Axolume Pro. Desbloquea todas las lecciones y aprende sin anuncios.",
   "notificationSaleChannelDescription":
-      "Notificaciones sobre ofertas especiales y descuentos de Leximon.",
+      "Notificaciones sobre ofertas especiales y descuentos de Axolume.",
   "notificationSaleChannelName": "Ofertas y descuentos",
   "notificationSaleTitle": "Una oferta especial para ti 🎉",
   "privacyPolicy": "Política de privacidad",
   "privacyPolicyBody":
-      "Descubre cómo Leximon recopila, usa y protege tus datos.",
+      "Descubre cómo Axolume recopila, usa y protege tus datos.",
   "saleAnnualPlan": "Plan anual",
   "saleApproxMonthly": "Aprox. {price} al mes",
   "saleBenefitNoAds": "Aprende sin anuncios",
@@ -1223,5 +1224,5 @@ const esUsTranslations = <String, String>{
   "subscriptionTrialOnly": "{days} días de prueba gratis",
   "termsOfUse": "Términos de uso",
   "termsOfUseBody":
-      "Consulta los términos que rigen el uso de la aplicación Leximon y sus servicios.",
+      "Consulta los términos que rigen el uso de la aplicación Axolume y sus servicios.",
 };

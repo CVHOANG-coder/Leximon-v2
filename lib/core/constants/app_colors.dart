@@ -23,4 +23,6 @@ abstract final class AppColors {
   static const success = Color(0xFF20C988);
 
   static const primaryGradient = <Color>[primary, gradientMid, secondary];
+  static const onboardingPrimaryGradient = <Color>[primary, secondary];
+  static const onboardingPrimaryGradientStops = <double>[0, 1];
 }
