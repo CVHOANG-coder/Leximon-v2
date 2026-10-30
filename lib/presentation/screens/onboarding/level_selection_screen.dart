@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_shadows.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/learning_language_level.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -331,13 +332,7 @@ class _LevelSelectionPanel extends StatelessWidget {
                             end: Alignment.centerRight,
                           ),
                           borderRadius: BorderRadius.circular(20),
-                          boxShadow: const [
-                            BoxShadow(
-                              color: Color(0x40155CFF),
-                              blurRadius: 20,
-                              offset: Offset(0, 8),
-                            ),
-                          ],
+                          boxShadow: AppShadows.onboardingButton,
                         ),
                         child: Material(
                           color: Colors.transparent,

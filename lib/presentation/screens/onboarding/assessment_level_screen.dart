@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_shadows.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/onboarding_vocabulary_test.dart';
 
@@ -310,13 +311,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
                             end: Alignment.centerRight,
                           ),
                           borderRadius: BorderRadius.circular(19),
-                          boxShadow: const [
-                            BoxShadow(
-                              color: Color(0x40155CFF),
-                              blurRadius: 20,
-                              offset: Offset(0, 8),
-                            ),
-                          ],
+                          boxShadow: AppShadows.onboardingButton,
                         ),
                         child: Material(
                           color: Colors.transparent,

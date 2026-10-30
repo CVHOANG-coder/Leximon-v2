@@ -9,6 +9,7 @@ import 'package:go_router/go_router.dart';
 import 'package:lottie/lottie.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_shadows.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/daily_notification_service.dart';
 import '../../../data/models/topic.dart';
@@ -493,7 +494,7 @@ class _AgeSurveyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 36),
+      padding: const EdgeInsets.fromLTRB(36, 0, 36, 12),
       child: Column(
         children: [
           Text(
@@ -589,7 +590,7 @@ class _GoalSurveyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 25),
+      padding: const EdgeInsets.fromLTRB(25, 0, 25, 12),
       child: Column(
         children: [
           Text(
@@ -720,7 +721,7 @@ class _FrequencySurveyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
+      padding: const EdgeInsets.fromLTRB(24, 0, 24, 12),
       child: Column(
         children: [
           Text(
@@ -793,15 +794,7 @@ class _FrequencyOptionCard extends StatelessWidget {
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
-            boxShadow: [
-              BoxShadow(
-                color: selected
-                    ? const Color(0x8015C9FF)
-                    : const Color(0x54135FBE),
-                blurRadius: selected ? 19 : 16,
-                offset: const Offset(0, 7),
-              ),
-            ],
+            boxShadow: _SurveyStyles.cardShadows,
           ),
           child: Row(
             children: [
@@ -884,7 +877,7 @@ class _LearningHistorySurveyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
+      padding: const EdgeInsets.fromLTRB(24, 0, 24, 12),
       child: Column(
         children: [
           Text(
@@ -957,15 +950,7 @@ class _LearningMethodCard extends StatelessWidget {
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
-            boxShadow: [
-              BoxShadow(
-                color: selected
-                    ? const Color(0x8015C9FF)
-                    : const Color(0x54135FBE),
-                blurRadius: selected ? 19 : 16,
-                offset: const Offset(0, 7),
-              ),
-            ],
+            boxShadow: _SurveyStyles.cardShadows,
           ),
           child: Row(
             children: [
@@ -1042,7 +1027,7 @@ class _ResultTimelineSurveyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
+      padding: const EdgeInsets.fromLTRB(24, 0, 24, 12),
       child: Column(
         children: [
           Text(
@@ -1115,15 +1100,7 @@ class _ResultTimelineCard extends StatelessWidget {
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
-            boxShadow: [
-              BoxShadow(
-                color: selected
-                    ? const Color(0x8015C9FF)
-                    : const Color(0x54135FBE),
-                blurRadius: selected ? 19 : 16,
-                offset: const Offset(0, 7),
-              ),
-            ],
+            boxShadow: _SurveyStyles.cardShadows,
           ),
           child: Row(
             children: [
@@ -1207,7 +1184,7 @@ class _DailyStudyTimeSurveyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
+      padding: const EdgeInsets.fromLTRB(24, 0, 24, 12),
       child: Column(
         children: [
           Text(
@@ -1280,15 +1257,7 @@ class _DailyStudyTimeCard extends StatelessWidget {
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
-            boxShadow: [
-              BoxShadow(
-                color: selected
-                    ? const Color(0x8015C9FF)
-                    : const Color(0x54135FBE),
-                blurRadius: selected ? 19 : 16,
-                offset: const Offset(0, 7),
-              ),
-            ],
+            boxShadow: _SurveyStyles.cardShadows,
           ),
           child: Row(
             children: [
@@ -1485,7 +1454,7 @@ class _StudyHabitPageState extends State<_StudyHabitPage>
                     TextSpan(
                       text: context.l10n.text('surveyHabitHighlight'),
                       style: const TextStyle(
-                        color: Color(0xFFAD97FC),
+                        color: Color(0xFF6D28D9),
                         fontWeight: FontWeight.w800,
                       ),
                     ),
@@ -1494,18 +1463,11 @@ class _StudyHabitPageState extends State<_StudyHabitPage>
                 key: const ValueKey('study-habit-description'),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: Colors.white,
+                  color: Color(0xFF432E70),
                   fontSize: 16.5,
                   height: 1.5,
                   fontWeight: FontWeight.w400,
                   letterSpacing: -0.15,
-                  shadows: [
-                    Shadow(
-                      color: Color(0x80001452),
-                      blurRadius: 7,
-                      offset: Offset(0, 2),
-                    ),
-                  ],
                 ),
               ),
             ),
@@ -1528,12 +1490,9 @@ class _PreferredStudyTimePage extends StatefulWidget {
   final ValueChanged<double> onChanged;
 
   static const _timeLabelStyle = TextStyle(
-    color: Color(0xFFCBBFF5),
+    color: Color(0xFF432E70),
     fontSize: 14.5,
-    fontWeight: FontWeight.w500,
-    shadows: [
-      Shadow(color: Color(0x8000165B), blurRadius: 6, offset: Offset(0, 2)),
-    ],
+    fontWeight: FontWeight.w600,
   );
 
   @override
@@ -1673,18 +1632,11 @@ class _PreferredStudyTimePageState extends State<_PreferredStudyTimePage>
                 key: const ValueKey('preferred-study-time-question'),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: Colors.white,
+                  color: Color(0xFF432E70),
                   fontSize: 25,
                   height: 1.2,
                   fontWeight: FontWeight.w800,
                   letterSpacing: -0.65,
-                  shadows: [
-                    Shadow(
-                      color: Color(0xB0001A63),
-                      blurRadius: 10,
-                      offset: Offset(0, 3),
-                    ),
-                  ],
                 ),
               ),
             ),
@@ -1698,19 +1650,11 @@ class _PreferredStudyTimePageState extends State<_PreferredStudyTimePage>
                 _formatTime(widget.selectedMinutes),
                 key: const ValueKey('survey-preferred-time-value'),
                 style: const TextStyle(
-                  color: Color(0xFFB6A5F0),
+                  color: Color(0xFF6D28D9),
                   fontSize: 43,
                   height: 1,
                   fontWeight: FontWeight.w700,
                   letterSpacing: 0.5,
-                  shadows: [
-                    Shadow(color: Color(0xFF8361FB), blurRadius: 16),
-                    Shadow(
-                      color: Color(0x80001162),
-                      blurRadius: 7,
-                      offset: Offset(0, 3),
-                    ),
-                  ],
                 ),
               ),
             ),
@@ -1925,18 +1869,11 @@ class _StudyReminderPageState extends State<_StudyReminderPage>
                 key: const ValueKey('study-reminder-primary-text'),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: Colors.white,
+                  color: Color(0xFF432E70),
                   fontSize: 17,
                   height: 1.45,
                   fontWeight: FontWeight.w400,
                   letterSpacing: -0.2,
-                  shadows: [
-                    Shadow(
-                      color: Color(0xA000104E),
-                      blurRadius: 8,
-                      offset: Offset(0, 3),
-                    ),
-                  ],
                 ),
               ),
             ),
@@ -1954,25 +1891,21 @@ class _StudyReminderPageState extends State<_StudyReminderPage>
                     ),
                     TextSpan(
                       text: context.l10n.text('surveyReminderHighlight'),
-                      style: const TextStyle(fontWeight: FontWeight.w800),
+                      style: const TextStyle(
+                        color: Color(0xFF6D28D9),
+                        fontWeight: FontWeight.w800,
+                      ),
                     ),
                   ],
                 ),
                 key: const ValueKey('study-reminder-secondary-text'),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: Colors.white,
+                  color: Color(0xFF432E70),
                   fontSize: 17,
                   height: 1.45,
                   fontWeight: FontWeight.w400,
                   letterSpacing: -0.2,
-                  shadows: [
-                    Shadow(
-                      color: Color(0xA000104E),
-                      blurRadius: 8,
-                      offset: Offset(0, 3),
-                    ),
-                  ],
                 ),
               ),
             ),
@@ -2018,7 +1951,7 @@ class _EnglishChallengePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
+      padding: const EdgeInsets.fromLTRB(24, 0, 24, 12),
       child: Column(
         children: [
           Text(
@@ -2094,15 +2027,7 @@ class _EnglishChallengeCard extends StatelessWidget {
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
-            boxShadow: [
-              BoxShadow(
-                color: selected
-                    ? const Color(0xB02E9CFF)
-                    : const Color(0x801A70E8),
-                blurRadius: selected ? 19 : 15,
-                offset: const Offset(0, 6),
-              ),
-            ],
+            boxShadow: _SurveyStyles.cardShadows,
           ),
           child: Row(
             children: [
@@ -2195,7 +2120,7 @@ class _LearningBarrierPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
+      padding: const EdgeInsets.fromLTRB(24, 0, 24, 12),
       child: Column(
         children: [
           Text(
@@ -2271,15 +2196,7 @@ class _LearningBarrierCard extends StatelessWidget {
                   : Colors.white.withValues(alpha: 0.92),
               width: selected ? 1.5 : 1,
             ),
-            boxShadow: [
-              BoxShadow(
-                color: selected
-                    ? const Color(0xB02E9CFF)
-                    : const Color(0x801A70E8),
-                blurRadius: selected ? 19 : 15,
-                offset: const Offset(0, 6),
-              ),
-            ],
+            boxShadow: _SurveyStyles.cardShadows,
           ),
           child: Row(
             children: [
@@ -2369,7 +2286,7 @@ class _SocialProofPage extends StatelessWidget {
                 const TextSpan(
                   text: 'Axolume',
                   style: TextStyle(
-                    color: Color(0xFF9A7FFC),
+                    color: Color(0xFF6D28D9),
                     fontWeight: FontWeight.w800,
                   ),
                 ),
@@ -2377,7 +2294,7 @@ class _SocialProofPage extends StatelessWidget {
                 const TextSpan(
                   text: '2.000.000',
                   style: TextStyle(
-                    color: Color(0xFFF9547A),
+                    color: Color(0xFFB42359),
                     fontWeight: FontWeight.w800,
                   ),
                 ),
@@ -2386,17 +2303,10 @@ class _SocialProofPage extends StatelessWidget {
             ),
             textAlign: TextAlign.center,
             style: const TextStyle(
-              color: Colors.white,
+              color: Color(0xFF432E70),
               fontSize: 16.5,
               height: 1.42,
               fontWeight: FontWeight.w400,
-              shadows: [
-                Shadow(
-                  color: Color(0xA000104E),
-                  blurRadius: 8,
-                  offset: Offset(0, 3),
-                ),
-              ],
             ),
           ),
           const SizedBox(height: 12),
@@ -2436,28 +2346,27 @@ class _SocialRating extends StatelessWidget {
       children: [
         const Icon(
           Icons.energy_savings_leaf_rounded,
-          color: Color(0xFFAD97FC),
+          color: Color(0xFF6D28D9),
           size: 31,
         ),
         const SizedBox(width: 8),
         const Text(
           '4.5',
           style: TextStyle(
-            color: Colors.white,
+            color: Color(0xFF432E70),
             fontSize: 35,
             height: 1,
             fontWeight: FontWeight.w800,
-            shadows: [Shadow(color: Color(0xFF9072FB), blurRadius: 14)],
           ),
         ),
         const SizedBox(width: 12),
         for (var index = 0; index < 4; index++)
-          const Icon(Icons.star_rounded, color: Color(0xFFFFB733), size: 29),
-        const Icon(Icons.star_half_rounded, color: Color(0xFFFFB733), size: 29),
+          const Icon(Icons.star_rounded, color: Color(0xFFB45A00), size: 29),
+        const Icon(Icons.star_half_rounded, color: Color(0xFFB45A00), size: 29),
         const SizedBox(width: 8),
         const Icon(
           Icons.energy_savings_leaf_rounded,
-          color: Color(0xFFAD97FC),
+          color: Color(0xFF6D28D9),
           size: 31,
         ),
       ],
@@ -2482,7 +2391,7 @@ class _SocialReviewCard extends StatelessWidget {
       width: 310,
       padding: const EdgeInsets.fromLTRB(18, 14, 18, 15),
       decoration: BoxDecoration(
-        color: const Color(0xFF4C3483).withValues(alpha: 0.68),
+        color: const Color(0xFF5B438E),
         borderRadius: BorderRadius.circular(17),
         border: Border.all(color: const Color(0xFF8568EF), width: 1.2),
         boxShadow: const [
@@ -2511,7 +2420,7 @@ class _SocialReviewCard extends StatelessWidget {
               Text(
                 author,
                 style: const TextStyle(
-                  color: Color(0xFFAD97FC),
+                  color: Color(0xFFE9DFFD),
                   fontSize: 13.5,
                   fontWeight: FontWeight.w600,
                 ),
@@ -2581,7 +2490,7 @@ class _TopicSelectionPage extends ConsumerWidget {
 
   Widget _buildTopicList(BuildContext context, List<Topic> topics) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.symmetric(horizontal: 28),
+      padding: const EdgeInsets.fromLTRB(28, 0, 28, 12),
       child: Column(
         children: [
           Text(
@@ -2802,9 +2711,7 @@ abstract final class _TopicSelectionStyles {
     color: Colors.white.withValues(alpha: 0.95),
     borderRadius: BorderRadius.circular(17),
     border: Border.all(color: const Color(0xFFFF8AA5), width: 1.1),
-    boxShadow: const [
-      BoxShadow(color: Color(0xA02286F5), blurRadius: 14, offset: Offset(0, 5)),
-    ],
+    boxShadow: _SurveyStyles.cardShadows,
   );
 }
 
@@ -2891,7 +2798,7 @@ class _AnalysisLoadingPageState extends State<_AnalysisLoadingPage> {
       padding: const EdgeInsets.symmetric(horizontal: 28),
       child: Column(
         children: [
-          const SizedBox(height: 86),
+          const SizedBox(height: 32),
           Stack(
             alignment: Alignment.center,
             children: [
@@ -2937,22 +2844,25 @@ class _AnalysisLoadingPageState extends State<_AnalysisLoadingPage> {
                     ? const _AnalysisCompleteMark(
                         key: ValueKey('analysis-complete'),
                       )
-                    : Text(
-                        context.l10n.text('surveyAnalysisProcessing'),
-                        key: const ValueKey('analysis-processing'),
-                        textAlign: TextAlign.center,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 23,
-                          height: 1.15,
-                          fontWeight: FontWeight.w700,
-                          shadows: [
-                            Shadow(color: Color(0xFF9174FB), blurRadius: 13),
-                          ],
-                        ),
-                      ),
+                    : const SizedBox.shrink(),
               ),
             ],
+          ),
+          const SizedBox(height: 12),
+          AnimatedOpacity(
+            duration: const Duration(milliseconds: 380),
+            opacity: _isComplete ? 0 : 1,
+            child: Text(
+              context.l10n.text('surveyAnalysisProcessing'),
+              key: const ValueKey('analysis-processing'),
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: Color(0xFF432E70),
+                fontSize: 23,
+                height: 1.15,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
           ),
           const SizedBox(height: 22),
           SizedBox(
@@ -3111,10 +3021,9 @@ class _AnalysisStep extends StatelessWidget {
                 child: Text(
                   context.l10n.text(label),
                   style: const TextStyle(
-                    color: Colors.white,
+                    color: Color(0xFF432E70),
                     fontSize: 17,
-                    fontWeight: FontWeight.w500,
-                    shadows: [Shadow(color: Color(0xFF7C59FB), blurRadius: 8)],
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
@@ -3245,18 +3154,11 @@ class _KnowledgeJourneyPageState extends State<_KnowledgeJourneyPage>
                 key: const ValueKey('knowledge-journey-text'),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: Colors.white,
+                  color: Color(0xFF432E70),
                   fontSize: 20,
                   height: 1.42,
                   fontWeight: FontWeight.w400,
                   letterSpacing: -0.25,
-                  shadows: [
-                    Shadow(
-                      color: Color(0x80001452),
-                      blurRadius: 8,
-                      offset: Offset(0, 3),
-                    ),
-                  ],
                 ),
               ),
             ),
@@ -3342,7 +3244,7 @@ class _SurveySummaryPage extends StatelessWidget {
             ),
             textAlign: TextAlign.center,
             style: const TextStyle(
-              color: Colors.white,
+              color: Color(0xFF432E70),
               fontSize: 16,
               height: 1.4,
               fontWeight: FontWeight.w400,
@@ -3529,15 +3431,7 @@ class _SurveyContinueButton extends StatelessWidget {
                 : const Color(0xFFD7D4E2),
             width: 1.5,
           ),
-          boxShadow: isEnabled
-              ? const [
-                  BoxShadow(
-                    color: Color(0x701B8CFF),
-                    blurRadius: 26,
-                    offset: Offset(0, 10),
-                  ),
-                ]
-              : null,
+          boxShadow: isEnabled ? AppShadows.onboardingButton : null,
         ),
         child: Material(
           color: Colors.transparent,
@@ -3587,6 +3481,15 @@ class _SurveyContinueButton extends StatelessWidget {
 }
 
 abstract final class _SurveyStyles {
+  static const cardShadows = [
+    BoxShadow(
+      color: Color(0x244C3483),
+      blurRadius: 6,
+      spreadRadius: -1,
+      offset: Offset(0, 2),
+    ),
+  ];
+
   static const questionTitle = TextStyle(
     color: Color(0xFFFFFFFF),
     fontSize: 26,
@@ -3607,18 +3510,7 @@ abstract final class _SurveyStyles {
             : Colors.white.withValues(alpha: 0.92),
         width: selected ? 1.5 : 1,
       ),
-      boxShadow: const [
-        BoxShadow(
-          color: Color(0x54135FBE),
-          blurRadius: 17,
-          offset: Offset(0, 7),
-        ),
-        BoxShadow(
-          color: Color(0x70FFFFFF),
-          blurRadius: 9,
-          offset: Offset(0, -2),
-        ),
-      ],
+      boxShadow: cardShadows,
     );
   }
 }

@@ -120,14 +120,14 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.lock_rounded, color: Color(0xFF9188A5), size: 17),
+            const Icon(Icons.lock_rounded, color: Color(0xFF514064), size: 17),
             const SizedBox(width: 8),
             Flexible(
               child: Text(
                 context.l10n.text('saleSecurePayment'),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  color: Color(0xFF796F90),
+                  color: Color(0xFF514064),
                   fontSize: 13,
                   fontWeight: FontWeight.w500,
                 ),
@@ -140,6 +140,7 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
           package: package,
           product: saleProduct,
           trialDays: trialDays,
+          textColor: const Color(0xFF432E70),
         ),
         const SizedBox(height: 13),
         _SaleButton(
@@ -152,8 +153,8 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
           onTap: _buy,
         ),
         const SizedBox(height: 10),
-        const PurchaseRestoreButton(),
-        const PurchaseLegalLinks(),
+        const PurchaseRestoreButton(textColor: Color(0xFF432E70)),
+        const PurchaseLegalLinks(textColor: Color(0xFF6D28D9)),
         // Temporarily hide the "Later" action.
         /*
         const SizedBox(height: 11),
@@ -367,7 +368,7 @@ class _SaleHeadline extends StatelessWidget {
                         'saleHeadlineDays',
                         values: {'days': trialDays},
                       ),
-                      style: const TextStyle(color: Color(0xFF7252EC)),
+                      style: const TextStyle(color: Color(0xFF6D28D9)),
                     ),
                   ],
                 )
@@ -375,7 +376,7 @@ class _SaleHeadline extends StatelessWidget {
           key: const ValueKey('sale-package-headline'),
           textAlign: TextAlign.center,
           style: const TextStyle(
-            color: Color(0xFF282238),
+            color: Color(0xFF432E70),
             fontSize: 27,
             height: 1.15,
             fontWeight: FontWeight.w900,
@@ -387,7 +388,7 @@ class _SaleHeadline extends StatelessWidget {
           context.l10n.text('saleHeadlineSubtitle'),
           textAlign: TextAlign.center,
           style: const TextStyle(
-            color: Color(0xFF64597D),
+            color: Color(0xFF514064),
             fontSize: 16,
             height: 1.3,
             fontWeight: FontWeight.w500,
@@ -457,7 +458,7 @@ class _SalePlanCard extends StatelessWidget {
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(
-                          color: Color(0xFF282238),
+                          color: Color(0xFF432E70),
                           fontSize: 21,
                           height: 1.1,
                           fontWeight: FontWeight.w800,
@@ -474,7 +475,7 @@ class _SalePlanCard extends StatelessWidget {
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
                               style: const TextStyle(
-                                color: Color(0xFF7B5CEC),
+                                color: Color(0xFF6D28D9),
                                 fontSize: 28,
                                 height: 1,
                                 fontWeight: FontWeight.w800,
@@ -488,7 +489,7 @@ class _SalePlanCard extends StatelessWidget {
                             child: Text(
                               _periodLabel(context, package.packDurationDay),
                               style: const TextStyle(
-                                color: Color(0xFF756B8C),
+                                color: Color(0xFF514064),
                                 fontSize: 13,
                                 fontWeight: FontWeight.w600,
                               ),
@@ -505,7 +506,7 @@ class _SalePlanCard extends StatelessWidget {
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(
-                              color: Color(0xFF887F9B),
+                              color: Color(0xFF665575),
                               fontSize: 12,
                               decoration: TextDecoration.lineThrough,
                               fontWeight: FontWeight.w600,
@@ -534,7 +535,7 @@ class _SalePlanCard extends StatelessWidget {
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(
-                          color: Color(0xFF746A8B),
+                          color: Color(0xFF514064),
                           fontSize: 12.5,
                           fontWeight: FontWeight.w500,
                         ),
@@ -561,7 +562,7 @@ class _SalePlanCard extends StatelessWidget {
                         overflow: TextOverflow.ellipsis,
                         textAlign: TextAlign.center,
                         style: const TextStyle(
-                          color: Color(0xFF079342),
+                          color: Color(0xFF176B39),
                           fontSize: 11.5,
                           fontWeight: FontWeight.w700,
                         ),
@@ -603,7 +604,7 @@ class _SalePlanCard extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.center,
                           style: const TextStyle(
-                            color: Color(0xFF079342),
+                            color: Color(0xFF176B39),
                             fontSize: 11.5,
                             fontWeight: FontWeight.w700,
                           ),
@@ -624,7 +625,7 @@ class _SalePlanCard extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(14, 9, 18, 9),
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color(0xFF9C86EB), Color(0xFF7856F0)],
+              colors: [Color(0xFF7C3AED), Color(0xFF6D28D9)],
             ),
             borderRadius: BorderRadius.only(
               topLeft: Radius.circular(19),
@@ -656,7 +657,7 @@ class _SalePlanCard extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
           decoration: BoxDecoration(
             gradient: const LinearGradient(
-              colors: [Color(0xFF08C86D), Color(0xFF00A94F)],
+              colors: [Color(0xFF237A47), Color(0xFF176B39)],
             ),
             borderRadius: BorderRadius.circular(18),
           ),
@@ -785,7 +786,7 @@ class _SaleButton extends StatelessWidget {
   Widget build(BuildContext context) => DecoratedBox(
     decoration: BoxDecoration(
       gradient: const LinearGradient(
-        colors: [Color(0xFF8D6FF8), Color(0xFF20D4C8)],
+        colors: [Color(0xFF7C3AED), Color(0xFF6D28D9)],
       ),
       borderRadius: BorderRadius.circular(30),
       boxShadow: const [
@@ -861,7 +862,7 @@ class _LoadError extends StatelessWidget {
         Text(
           context.l10n.text('saleLoadError'),
           textAlign: TextAlign.center,
-          style: const TextStyle(color: Color(0xFF64597D), fontSize: 15),
+          style: const TextStyle(color: Color(0xFF514064), fontSize: 15),
         ),
         const SizedBox(height: 8),
         TextButton(onPressed: onRetry, child: Text(context.l10n.retry)),

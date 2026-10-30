@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_shadows.dart';
 import '../../../core/localization/app_localizations.dart';
 
 class LevelAssessmentIntroScreen extends StatefulWidget {
@@ -386,13 +387,7 @@ class _AssessmentPanel extends StatelessWidget {
                             end: Alignment.centerRight,
                           ),
                           borderRadius: BorderRadius.circular(18),
-                          boxShadow: const [
-                            BoxShadow(
-                              color: Color(0x4D155CFF),
-                              blurRadius: 18,
-                              offset: Offset(0, 8),
-                            ),
-                          ],
+                          boxShadow: AppShadows.onboardingButton,
                         ),
                         child: Material(
                           color: Colors.transparent,

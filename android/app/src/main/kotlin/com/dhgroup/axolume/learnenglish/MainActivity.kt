@@ -1,4 +1,4 @@
-package com.leximon.leximon
+package com.dhgroup.axolume.learnenglish
 
 import android.content.Intent
 import android.net.Uri

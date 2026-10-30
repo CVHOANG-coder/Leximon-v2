@@ -103,11 +103,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/google_mlkit_translation/ios"
 
 SPEC CHECKSUMS:
-  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  flutter_secure_storage: d33dac7ae2ea08509be337e775f6b59f1ff45f12
-  flutter_tts: 91ad1884033cd95ef6e9338754adad54f01f090f
-  google_mlkit_commons: 75b2579ccf522fe01d42e689babda04c4510ba2f
-  google_mlkit_translation: ff8aebb952f811e7773fa7258a64a5c342885241
+  Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
+  flutter_secure_storage: 1ed9476fba7e7a782b22888f956cce43e2c62f13
+  flutter_tts: 35ac3c7d42412733e795ea96ad2d7e05d0a75113
+  google_mlkit_commons: b4dfe2f6ae4cbf24010dc6640a28984d01343c86
+  google_mlkit_translation: 32f759ac50c38fc2eada2cf15fefc86b38faf0f7
   GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
   GoogleMLKit: b1eee21a41c57704fe72483b15c85cb2c0cd7444
   GoogleToolboxForMac: d1a2cbf009c453f4d6ded37c105e2f67a32206d8
@@ -122,6 +122,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 752c3227f599e3467650e47ea36f433eeb10c273
   SSZipArchive: 8a6ee5677c8e304bebc109e39cf0da91ccef22ea
 
-PODFILE CHECKSUM: bca3f34e2a9b0c1fc4af1bf41c9fbaa22e8e232c
+PODFILE CHECKSUM: 913d98eb0dc228d73874c4ec7a6854ec02bb02cf
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.17.0

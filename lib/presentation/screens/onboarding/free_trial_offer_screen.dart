@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_shadows.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/daily_notification_service.dart';
 
@@ -162,18 +163,11 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                                   context.l10n.text('freeTrialGift'),
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
-                                    color: Colors.white,
+                                    color: Color(0xFF432E70),
                                     fontSize: 24,
                                     height: 1.15,
                                     fontWeight: FontWeight.w500,
                                     letterSpacing: -0.5,
-                                    shadows: [
-                                      Shadow(
-                                        color: Color(0xA000144D),
-                                        blurRadius: 8,
-                                        offset: Offset(0, 3),
-                                      ),
-                                    ],
                                   ),
                                 ),
                                 SizedBox(height: 5),
@@ -181,22 +175,11 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                                   context.l10n.text('freeTrialDuration'),
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
-                                    color: Colors.white,
+                                    color: Color(0xFF6D28D9),
                                     fontSize: 35,
                                     height: 1.05,
                                     fontWeight: FontWeight.w800,
                                     letterSpacing: -1,
-                                    shadows: [
-                                      Shadow(
-                                        color: Color(0xFF8D6FFB),
-                                        blurRadius: 15,
-                                      ),
-                                      Shadow(
-                                        color: Color(0xA000144D),
-                                        blurRadius: 8,
-                                        offset: Offset(0, 3),
-                                      ),
-                                    ],
                                   ),
                                 ),
                                 SizedBox(height: 7),
@@ -204,18 +187,11 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                                   context.l10n.text('freeTrialPurpose'),
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
-                                    color: Colors.white,
+                                    color: Color(0xFF432E70),
                                     fontSize: 20,
                                     height: 1.2,
                                     fontWeight: FontWeight.w400,
                                     letterSpacing: -0.4,
-                                    shadows: [
-                                      Shadow(
-                                        color: Color(0xA000144D),
-                                        blurRadius: 7,
-                                        offset: Offset(0, 2),
-                                      ),
-                                    ],
                                   ),
                                 ),
                                 SizedBox(height: 22),
@@ -223,7 +199,7 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                                   context.l10n.text('freeTrialNoPayment'),
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
-                                    color: Color(0xFFC4B7F3),
+                                    color: Color(0xFF432E70),
                                     fontSize: 16.5,
                                     height: 1.2,
                                     fontWeight: FontWeight.w400,
@@ -279,18 +255,7 @@ class _FreeTrialButton extends StatelessWidget {
           ),
           borderRadius: BorderRadius.circular(38),
           border: Border.all(color: const Color(0x999F8CFF), width: 1.6),
-          boxShadow: const [
-            BoxShadow(
-              color: Color(0x803D0EE8),
-              blurRadius: 22,
-              spreadRadius: 2,
-            ),
-            BoxShadow(
-              color: Color(0x702579FF),
-              blurRadius: 28,
-              offset: Offset(0, 10),
-            ),
-          ],
+          boxShadow: AppShadows.onboardingButton,
         ),
         child: Material(
           color: Colors.transparent,

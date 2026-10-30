@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_shadows.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/local/app_database.dart';
@@ -1865,15 +1866,7 @@ class _PrimaryTestButton extends StatelessWidget {
                   colors: [Color(0xFFE1DEEB), Color(0xFFD8D4E3)],
                 ),
           borderRadius: BorderRadius.circular(19),
-          boxShadow: enabled
-              ? const [
-                  BoxShadow(
-                    color: Color(0x40155CFF),
-                    blurRadius: 18,
-                    offset: Offset(0, 8),
-                  ),
-                ]
-              : null,
+          boxShadow: enabled ? AppShadows.onboardingButton : null,
         ),
         child: Material(
           color: Colors.transparent,
@@ -2106,13 +2099,7 @@ class _BetweenPartsView extends StatelessWidget {
                   end: Alignment.centerRight,
                 ),
                 borderRadius: BorderRadius.circular(36),
-                boxShadow: const [
-                  BoxShadow(
-                    color: Color(0xAA2D8CFF),
-                    blurRadius: 20,
-                    spreadRadius: 2,
-                  ),
-                ],
+                boxShadow: AppShadows.onboardingButton,
               ),
               child: Material(
                 color: Colors.transparent,

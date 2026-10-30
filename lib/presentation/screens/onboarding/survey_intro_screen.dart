@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_shadows.dart';
 import '../../../core/localization/app_localizations.dart';
 
 class SurveyIntroScreen extends StatefulWidget {
@@ -149,13 +150,7 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                               color: const Color(0x999F8CFF),
                               width: 1.5,
                             ),
-                            boxShadow: const [
-                              BoxShadow(
-                                color: Color(0x703D0EE8),
-                                blurRadius: 26,
-                                offset: Offset(0, 10),
-                              ),
-                            ],
+                            boxShadow: AppShadows.onboardingButton,
                           ),
                           child: Material(
                             color: Colors.transparent,

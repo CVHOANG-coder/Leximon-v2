@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:leximon/core/constants/app_colors.dart';
 import 'package:leximon/data/models/topic.dart';
 import 'package:leximon/data/models/vocabulary_collection.dart';
 import 'package:leximon/data/services/progress_dashboard_service.dart';
@@ -32,8 +33,8 @@ void main() {
     );
     expect(ring.strokeWidth, 9);
     expect(ring.strokeCap, StrokeCap.round);
-    expect(ring.backgroundColor, const Color(0xFF91D3F4));
-    expect(ring.valueColor!.value, const Color(0xFFE6FFF1));
+    expect(ring.backgroundColor, const Color(0x24503986));
+    expect(ring.valueColor!.value, AppColors.primaryDark);
 
     final cardRect = tester.getRect(
       find.byKey(const Key('progress-card-banner')),

@@ -572,6 +572,9 @@ class _ProgressCard extends StatelessWidget {
           ),
           child: Stack(
             children: [
+              Positioned.fill(
+                child: ColoredBox(color: Colors.white.withValues(alpha: .38)),
+              ),
               Container(
                 padding: const EdgeInsets.fromLTRB(16, 16, 16, 14),
                 child: Column(
@@ -591,12 +594,12 @@ class _ProgressCard extends StatelessWidget {
                                     padding: const EdgeInsets.all(4),
                                     decoration: BoxDecoration(
                                       color: Colors.white.withValues(
-                                        alpha: .16,
+                                        alpha: .6,
                                       ),
                                       borderRadius: BorderRadius.circular(11),
                                       border: Border.all(
                                         color: Colors.white.withValues(
-                                          alpha: .18,
+                                          alpha: .7,
                                         ),
                                       ),
                                     ),
@@ -608,13 +611,13 @@ class _ProgressCard extends StatelessWidget {
                                   Expanded(
                                     child: Text(
                                       context.l10n.text('vocabularyProgressed'),
-                                      maxLines: 1,
+                                      maxLines: 2,
                                       overflow: TextOverflow.ellipsis,
-                                      style: TextStyle(
-                                        color: Color(0xFFE8E4F7),
-                                        fontSize: 9,
+                                      style: const TextStyle(
+                                        color: AppColors.primaryDark,
+                                        fontSize: 10,
                                         fontWeight: FontWeight.w800,
-                                        letterSpacing: .8,
+                                        letterSpacing: .3,
                                       ),
                                     ),
                                   ),
@@ -639,7 +642,7 @@ class _ProgressCard extends StatelessWidget {
                                   ],
                                 ),
                                 style: const TextStyle(
-                                  color: Colors.white,
+                                  color: AppColors.textPrimary,
                                   fontSize: 32,
                                   height: 1,
                                   fontWeight: FontWeight.w800,
@@ -653,9 +656,9 @@ class _ProgressCard extends StatelessWidget {
                                   values: {'count': dashboard.masteredWords},
                                 ),
                                 style: const TextStyle(
-                                  color: Color(0xFFDBD3F8),
-                                  fontSize: 9,
-                                  fontWeight: FontWeight.w500,
+                                  color: AppColors.primaryDark,
+                                  fontSize: 11,
+                                  fontWeight: FontWeight.w600,
                                 ),
                               ),
                             ],
@@ -680,9 +683,9 @@ class _ProgressCard extends StatelessWidget {
                                       value: dashboard.overallProgress,
                                       strokeWidth: 9,
                                       strokeCap: StrokeCap.round,
-                                      backgroundColor: const Color(0x44FFFFFF),
+                                      backgroundColor: const Color(0x24503986),
                                       valueColor: const AlwaysStoppedAnimation(
-                                        Color(0xFFE6FFF1),
+                                        AppColors.primaryDark,
                                       ),
                                     ),
                                   ),
@@ -701,7 +704,7 @@ class _ProgressCard extends StatelessWidget {
                                           '${(dashboard.overallProgress * 100).toStringAsFixed(2)}%',
                                           maxLines: 1,
                                           style: const TextStyle(
-                                            color: Colors.white,
+                                            color: AppColors.textPrimary,
                                             fontSize: 21,
                                             height: 1,
                                             fontWeight: FontWeight.w800,
@@ -714,10 +717,10 @@ class _ProgressCard extends StatelessWidget {
                                     Text(
                                       context.l10n.text('total'),
                                       style: const TextStyle(
-                                        color: Color(0xFFE6E2F6),
-                                        fontSize: 8,
+                                        color: AppColors.primaryDark,
+                                        fontSize: 10,
                                         fontWeight: FontWeight.w800,
-                                        letterSpacing: .8,
+                                        letterSpacing: .3,
                                       ),
                                     ),
                                   ],
@@ -729,15 +732,15 @@ class _ProgressCard extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(height: 14),
-                    ProgressLine(value: dashboard.overallProgress, dark: true),
+                    ProgressLine(value: dashboard.overallProgress),
                     const SizedBox(height: 8),
                     Row(
                       children: [
                         Text(
                           '${dashboard.progressedWords}/$totalWords',
                           style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 9,
+                            color: AppColors.textPrimary,
+                            fontSize: 10,
                             fontWeight: FontWeight.w800,
                           ),
                         ),
@@ -746,16 +749,16 @@ class _ProgressCard extends StatelessWidget {
                           child: Text(
                             context.l10n.text('wordsInPath'),
                             style: const TextStyle(
-                              color: Color(0xFFDBD3F8),
-                              fontSize: 9,
+                              color: AppColors.primaryDark,
+                              fontSize: 10,
                             ),
                           ),
                         ),
                         Text(
                           context.l10n.text('keepGoing'),
                           style: const TextStyle(
-                            color: AppColors.cyan,
-                            fontSize: 9,
+                            color: AppColors.primaryDark,
+                            fontSize: 10,
                             fontWeight: FontWeight.w800,
                           ),
                         ),

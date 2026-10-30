@@ -8,6 +8,7 @@ import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:intl/intl.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_shadows.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/daily_notification_service.dart';
 import '../../../data/models/iap_packages_response.dart';
@@ -310,12 +311,6 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                                     height: 1.3,
                                     fontWeight: FontWeight.w600,
                                     letterSpacing: -0.2,
-                                    shadows: [
-                                      Shadow(
-                                        color: Color(0xCCFFFFFF),
-                                        blurRadius: 8,
-                                      ),
-                                    ],
                                   ),
                                 ),
                               ],
@@ -375,9 +370,6 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                         Icons.arrow_back_rounded,
                         color: Colors.white,
                         size: 32,
-                        shadows: [
-                          Shadow(color: Color(0xFF8D6EFB), blurRadius: 10),
-                        ],
                       ),
                     ),
                   ),
@@ -470,9 +462,9 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
         package: selectedPackage,
         product: catalog?.productFor(selectedPackage),
         trialDays: trialDays,
-        textColor: const Color(0xFFE6E2F6),
-        backgroundColor: const Color(0x66061A58),
-        borderColor: const Color(0x665B9CFF),
+        textColor: const Color(0xFF432E70),
+        backgroundColor: const Color(0xFFF8F5FF),
+        borderColor: const Color(0xFFD8CDEE),
       ),
     );
 
@@ -612,15 +604,11 @@ class _SubscriptionOfferHeadline extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const style = TextStyle(
-      color: Colors.white,
+      color: Color(0xFF432E70),
       fontSize: 29,
       height: 1,
       fontWeight: FontWeight.w800,
       letterSpacing: -0.7,
-      shadows: [
-        Shadow(color: Color(0xFF8D6EFB), blurRadius: 10),
-        Shadow(color: Color(0xA000144D), blurRadius: 7, offset: Offset(0, 3)),
-      ],
     );
 
     if (trialDays <= 0) {
@@ -641,14 +629,14 @@ class _SubscriptionOfferHeadline extends StatelessWidget {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
             decoration: BoxDecoration(
-              color: const Color(0xFF4C3483).withValues(alpha: 0.62),
+              color: const Color(0xFFEDE5FB),
               borderRadius: BorderRadius.circular(8),
-              border: Border.all(color: const Color(0xFFFF819E), width: 1.1),
-              boxShadow: const [
-                BoxShadow(color: Color(0xFF8B6CFB), blurRadius: 16),
-              ],
+              border: Border.all(color: const Color(0xFFCBB9EB), width: 1.1),
             ),
-            child: Text('$trialDays', style: style),
+            child: Text(
+              '$trialDays',
+              style: style.copyWith(color: const Color(0xFF6D28D9)),
+            ),
           ),
           Text(context.l10n.text('subscriptionDaySuffix'), style: style),
         ],
@@ -679,7 +667,9 @@ class _SubscriptionPlanCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final foregroundColor = selected ? const Color(0xFF2C1E4C) : Colors.white;
+    final foregroundColor = selected
+        ? const Color(0xFF2C1E4C)
+        : const Color(0xFF432E70);
 
     return Material(
       color: Colors.transparent,
@@ -697,29 +687,35 @@ class _SubscriptionPlanCard extends StatelessWidget {
             17,
           ),
           decoration: BoxDecoration(
+            color: selected ? null : const Color(0xFFFCFAFF),
             gradient: selected
                 ? const LinearGradient(
                     colors: [Color(0xFFFFFFFF), Color(0xFFF1EFFA)],
                   )
-                : const LinearGradient(
-                    colors: [Color(0xB512326F), Color(0xB506154B)],
-                  ),
+                : null,
             borderRadius: BorderRadius.circular(18),
             border: Border.all(
               color: selected
                   ? const Color(0xFFFF7998)
-                  : const Color(0xFFA78FFC),
-              width: selected ? 1.8 : 1.2,
+                  : const Color(0xFFD8CDEE),
+              width: selected ? 1.8 : 1.5,
             ),
-            boxShadow: [
-              BoxShadow(
-                color: selected
-                    ? const Color(0xB02583FF)
-                    : const Color(0x70113DAD),
-                blurRadius: selected ? 20 : 13,
-                offset: const Offset(0, 6),
-              ),
-            ],
+            boxShadow: selected
+                ? const [
+                    BoxShadow(
+                      color: Color(0xB02583FF),
+                      blurRadius: 20,
+                      offset: Offset(0, 6),
+                    ),
+                  ]
+                : const [
+                    BoxShadow(
+                      color: Color(0x244C3483),
+                      blurRadius: 6,
+                      spreadRadius: -1,
+                      offset: Offset(0, 2),
+                    ),
+                  ],
           ),
           child: Stack(
             clipBehavior: Clip.none,
@@ -767,9 +763,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: TextStyle(
-                              color: selected
-                                  ? const Color(0xFF2C1E4C)
-                                  : Colors.white,
+                              color: foregroundColor,
                               fontSize: 16,
                               fontWeight: FontWeight.w700,
                             ),
@@ -790,9 +784,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
-                            color: selected
-                                ? const Color(0xFF7656EB)
-                                : const Color(0xFFB6A5F0),
+                            color: Color(0xFF6D28D9),
                             fontSize: 15,
                             fontWeight: FontWeight.w700,
                           ),
@@ -911,13 +903,7 @@ class _SubscriptionStartButton extends StatelessWidget {
           ),
           borderRadius: BorderRadius.circular(38),
           border: Border.all(color: const Color(0x999F8CFF), width: 1.5),
-          boxShadow: const [
-            BoxShadow(
-              color: Color(0x667C5CFC),
-              blurRadius: 16,
-              offset: Offset(0, 7),
-            ),
-          ],
+          boxShadow: AppShadows.onboardingButton,
         ),
         child: Material(
           color: Colors.transparent,
@@ -965,16 +951,16 @@ class _SubscriptionLegalFooter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const footerTextColor = Color(0xFFD8CFF7);
+    const footerTextColor = Color(0xFF432E70);
 
     return Container(
       key: const ValueKey('subscription-legal-footer'),
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(14, 8, 14, 10),
       decoration: BoxDecoration(
-        color: const Color(0x40061A58),
+        color: const Color(0xFFF8F5FF),
         borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0x444F8FFF)),
+        border: Border.all(color: const Color(0xFFD8CDEE)),
       ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -1003,7 +989,7 @@ class _SubscriptionLegalFooter extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 3),
-          const PurchaseLegalLinks(textColor: Color(0xFFB1A0F0)),
+          const PurchaseLegalLinks(textColor: Color(0xFF6D28D9)),
         ],
       ),
     );
